@@ -1,0 +1,340 @@
+{
+  "id": "C2-06",
+  "level": "C2",
+  "level_name": {
+    "es": "Proficiencia",
+    "en": "Proficiency",
+    "ar": "إتقان"
+  },
+  "title": {
+    "es": "Humor e Ironía",
+    "en": "Humor and Irony",
+    "ar": "الفكاهة والسخرية"
+  },
+  "objectives": [
+    {
+      "es": "Identificar ironía, sarcasmo y humor en textos orales y escritos",
+      "en": "Identify irony, sarcasm and humor in oral and written texts",
+      "ar": "تحديد السخرية والتهكم والفكاهة في النصوص الشفهية والمكتوبة"
+    },
+    {
+      "es": "Usar la entonación y los operadores de ironía adecuadamente",
+      "en": "Use intonation and irony operators appropriately",
+      "ar": "استخدام النبر والعوامل الساخرة بشكل مناسب"
+    },
+    {
+      "es": "Reconocer juegos de palabras y dobles sentidos",
+      "en": "Recognize puns and double meanings",
+      "ar": "التعرف على التلاعب اللفظي والمعاني المزدوجة"
+    },
+    {
+      "es": "Producir humor con ruptura de la expectativa",
+      "en": "Produce humor with expectation subversion",
+      "ar": "إنتاج الفكاهة عبر كسر التوقع"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la ironía",
+      "ipa": "/ˈla iɾoˈnia/",
+      "en": "irony",
+      "ar": "السخرية"
+    },
+    {
+      "es": "el sarcasmo",
+      "ipa": "/ˈel saˈɾkasmo/",
+      "en": "sarcasm",
+      "ar": "التهكم"
+    },
+    {
+      "es": "el chiste",
+      "ipa": "/ˈel ˈtʃiste/",
+      "en": "joke",
+      "ar": "النكتة"
+    },
+    {
+      "es": "el juego de palabras",
+      "ipa": "/ˈel ˈxueɣo ˈde paˈlaβɾas/",
+      "en": "pun",
+      "ar": "التلاعب اللفظي"
+    },
+    {
+      "es": "el doble sentido",
+      "ipa": "/ˈel ˈdoβle seˈntiðo/",
+      "en": "double meaning",
+      "ar": "المعنى المزدوج"
+    },
+    {
+      "es": "la parodia",
+      "ipa": "/ˈla paˈɾoðia/",
+      "en": "parody",
+      "ar": "المحاكاة الساخرة"
+    },
+    {
+      "es": "la burla",
+      "ipa": "/ˈla ˈbuɾla/",
+      "en": "mockery",
+      "ar": "الاستهزاء"
+    },
+    {
+      "es": "la mofa",
+      "ipa": "/ˈla ˈmofa/",
+      "en": "jeering, mockery",
+      "ar": "السخرية والاستهزاء"
+    },
+    {
+      "es": "la caricatura",
+      "ipa": "/ˈla kaɾikaˈtuɾa/",
+      "en": "caricature",
+      "ar": "الرسم الكاريكاتوري"
+    },
+    {
+      "es": "el humor negro",
+      "ipa": "/ˈel uˈmoɾ ˈneɣɾo/",
+      "en": "dark humor",
+      "ar": "الفكاهة السوداء"
+    },
+    {
+      "es": "la ruptura de la expectativa",
+      "ipa": "/ˈla ruˈptuɾa ˈde ˈla ekspektaˈtiβa/",
+      "en": "expectation subversion",
+      "ar": "كسر التوقع"
+    },
+    {
+      "es": "la exageración",
+      "ipa": "/ˈla eksaxeɾaˈsion/",
+      "en": "exaggeration",
+      "ar": "المبالغة"
+    },
+    {
+      "es": "la ironía dramática",
+      "ipa": "/ˈla iɾoˈnia dɾaˈmatika/",
+      "en": "dramatic irony",
+      "ar": "السخرية الدرامية"
+    },
+    {
+      "es": "el non sequitur",
+      "ipa": "/ˈel ˈnon sekiˈtuɾ/",
+      "en": "non sequitur",
+      "ar": "خروج غير منطقي عن السياق"
+    },
+    {
+      "es": "el doble sentido ambiguo",
+      "ipa": "/ˈel ˈdoβle seˈntiðo aˈmbiɣuo/",
+      "en": "ambiguous double meaning",
+      "ar": "المعنى المزدوج الغامض"
+    },
+    {
+      "es": "el chiste interno",
+      "ipa": "/ˈel ˈtʃiste iˈnteɾno/",
+      "en": "inside joke",
+      "ar": "النكتة الخاصة بين الأصدقاء"
+    },
+    {
+      "es": "burlarse",
+      "ipa": "/buˈɾlaɾse/",
+      "en": "to mock, to make fun",
+      "ar": "يسخر من"
+    },
+    {
+      "es": "reír por fuera",
+      "ipa": "/ˈreiɾ ˈpoɾ ˈfueɾa/",
+      "en": "to laugh on the outside",
+      "ar": "يضحك ظاهريًا"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Operadores de Ironía",
+        "en": "Operators of Irony",
+        "ar": "عوامل السخرية"
+      },
+      "explanation": {
+        "es": "La ironía verbal se apoya en adverbios e interjecciones que invierten el valor de la frase: 'Qué maravilla, el bus se atrasó de nuevo', 'Genial, perdimos el viaje'. También se usan comillas irónicas en la escritura y pausas seguidas de tono descendente en el habla. El sarcasmo agrava la ironía con crueldad o mordacidad, exigiendo registro e intimidad adecuados.",
+        "en": "Verbal irony relies on adverbs and interjections that invert the value of the sentence: 'Que maravilha, o ônibus atrasou de novo' (How wonderful, the bus is late again), 'Ótimo, perdemos a viagem' (Great, we missed the trip). Scare quotes are also used in writing, and pauses followed by a falling tone in speech. Sarcasm sharpens irony with cruelty or biting wit, requiring appropriate register and intimacy.",
+        "ar": "تعتمد السخرية اللفظية على ظروف وأدوات تعكس قيمة الجملة: 'Que maravilha, o ônibus atrasou de novo' (يا للروعة، تأخر الحافلة مرة أخرى)، 'Ótimo, perdemos a viagem' (رائع، فاتتنا الرحلة). كما تُستخدم علامات الاقتباس الساخرة في الكتابة، والتوقفات مع نبرة هابطة في الكلام. أما التهكم فيعمّق السخرية بقسوة أو لذع، ويتطلب مستوى مناسبًا من الألفة."
+      },
+      "examples": [
+        {
+          "es": "Genial, ahora llovió y el asfalto ya fue repavimentado.",
+          "en": "Great, now it rained and the asphalt has just been repaved.",
+          "ar": "رائع، الآن أمطرت وقد أعيد تمهيد الطريق للتو."
+        },
+        {
+          "es": "Qué puntualidad la tuya: tres horas de retraso.",
+          "en": "What punctuality of yours: three hours late.",
+          "ar": "يا له من التزام بمواعيدك: ثلاث ساعات تأخير."
+        },
+        {
+          "es": "Aquel 'trabajo' suyo fue digno de premio, ironizó la jefa.",
+          "en": "That 'work' of his was prize-worthy, the boss mocked.",
+          "ar": "قالت المديرة بسخرية: إن 'عمله' ذاك يستحق الجائزة."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Ruptura de la Expectativa",
+        "en": "Subversion of Expectation",
+        "ar": "كسر التوقع"
+      },
+      "explanation": {
+        "es": "Gran parte del humor explora la ruptura de la expectativa: la primera parte crea una proyección y la segunda la desmiente con una conjunción adversativa o un final inesperado. Ej.: 'Iba a seguir una dieta, hasta ver el postre'. El efecto cómico también nace de la exageración (hipérbole) y del juego de palabras fonético.",
+        "en": "Much Brazilian humor exploits expectation subversion: the first part creates a projection, and the second undermines it with an adversative conjunction or an unexpected ending. E.g.: 'Eu ia seguir uma dieta, até ver a sobremesa' (I was going to follow a diet, until I saw dessert). The comic effect also comes from exaggeration (hyperbole) and phonetic puns.",
+        "ar": "يستغل جزء كبير من الفكاهة البرازيلية كسر التوقع: الجزء الأول يبني انطباعًا، والثاني يهدمه برابط استدراكي أو نهاية غير متوقعة. مثال: 'Eu ia seguir uma dieta, até ver a sobremesa' (كنت عازمًا على اتباع حمية، حتى رأيت الحلوى). وينبع الأثر الفكاهي أيضًا من المبالغة والتلاعب اللفظي الصوتي."
+      },
+      "examples": [
+        {
+          "es": "Estaba decidido a levantarme temprano... mañana.",
+          "en": "I was determined to wake up early... tomorrow.",
+          "ar": "كنت مصممًا على الاستيقاظ مبكرًا... غدًا."
+        },
+        {
+          "es": "La reunión fue tan productiva que seguimos en el estacionamiento una hora más.",
+          "en": "The meeting was so productive that we continued in the parking lot for another hour.",
+          "ar": "كان الاجتماع مثمرًا جدًا لدرجة أننا واصلناه في موقف السيارات ساعة أخرى."
+        },
+        {
+          "es": "Ahorra tanto que compró una cartera para guardar las monedas que no tiene.",
+          "en": "He saves so much that he bought a wallet to keep the coins he does not have.",
+          "ar": "إنه يوفّر كثيرًا لدرجة أنه اشترى محفظة ليضع فيها العملات التي لا يملكها."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Comentarios del Lunes",
+      "en": "Monday Comments",
+      "ar": "تعليقات يوم الاثنين"
+    },
+    "lines": [
+      {
+        "speaker": "Caio",
+        "es": "Qué delicia levantarse a las seis para tomar tres buses, ¿no?",
+        "en": "What a delight to wake up at six to catch three buses, right?",
+        "ar": "يا لها من متعة أن تستيقظ في السادسة لتركب ثلاث حافلات، أليس كذلك؟"
+      },
+      {
+        "speaker": "Livia",
+        "es": "¿Sarcasmo a las siete de la mañana? Hoy estás realmente inspirado.",
+        "en": "Sarcasm at seven in the morning? You are really inspired today.",
+        "ar": "تهكم في السابعة صباحًا؟ أنت ملهم فعلًا اليوم."
+      },
+      {
+        "speaker": "Caio",
+        "es": "Fue el día más tranquilo de mi semana: perdí la reunión y el almuerzo.",
+        "en": "It was the most peaceful day of my week: I missed the meeting and lunch.",
+        "ar": "كان اليوم الأكثر هدوءًا في أسبوعي: فاتني الاجتماع والغداء."
+      },
+      {
+        "speaker": "Livia",
+        "es": "No exageres. Solo olvidaste el móvil, la llave y el informe.",
+        "en": "Don't exaggerate. You only forgot your phone, your keys and the report.",
+        "ar": "لا تبالغ. نسيتَ فقط هاتفك ومفاتيحك والتقرير."
+      },
+      {
+        "speaker": "Caio",
+        "es": "¿Ves? Y todavía dicen que el lunes es un día común.",
+        "en": "See? And they still say Monday is an ordinary day.",
+        "ar": "أرأيت؟ وما زالوا يقولون إن الاثنين يوم عادي."
+      },
+      {
+        "speaker": "Livia",
+        "es": "Con ese humor, deberías hacer una comedia de stand-up.",
+        "en": "With that humor, you should do a stand-up comedy show.",
+        "ar": "بفضل هذه الفكاهة، ينبغي أن تقدم عرضًا كوميديًا."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Humor como Arma",
+      "en": "Humor as a Weapon",
+      "ar": "الفكاهة كسلاح"
+    },
+    "text_es": "El columnista abre el texto con una ironía mordaz sobre el tráfico y lo cierra con una parodia del discurso político. Entre uno y otro, explora juegos de palabras y la ruptura de la expectativa para criticar sin agredir. El lector atento percibe que la burla no es gratuita: señala contradicciones sociales. Dominar estos mecanismos es saber leer a España y América Latina entre líneas.",
+    "text_en": "The columnist opens the text with a biting irony about traffic and closes with a parody of political discourse. Between one and the other, he explores puns and expectation subversion to criticize without attacking. The attentive reader realizes that the mockery is not gratuitous: it points out social contradictions. Mastering these mechanisms is knowing how to read Brazil between the lines.",
+    "text_ar": "يفتتح الكاتب نصه بسخرية لاذعة من حركة المرور ويختمه بمحاكاة ساخرة لخطاب السياسيين. وبين الفتح والختم، يستغل التلاعب اللفظي وكسر التوقع للنقد دون إساءة. ويدرك القارئ المتيقظ أن الاستهزاء ليس مجانيًا: فهو يكشف التناقضات الاجتماعية. إتقان هذه الآليات يعني معرفة قراءة البرازيل بين السطور."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "En 'Qué maravilla, el bus se atrasó de nuevo', el efecto es de...",
+        "en": "In 'Que maravilha, o ônibus atrasou de novo', the effect is one of...",
+        "ar": "في جملة 'Que maravilha, o ônibus atrasou de novo'، يكون الأثر..."
+      },
+      "options": [
+        {
+          "es": "ironía",
+          "en": "irony",
+          "ar": "سخرية"
+        },
+        {
+          "es": "elogio sincero",
+          "en": "sincere praise",
+          "ar": "مدح صادق"
+        },
+        {
+          "es": "orden directa",
+          "en": "a direct order",
+          "ar": "أمر مباشر"
+        }
+      ],
+      "answer": "ironía",
+      "explanation": {
+        "es": "La expresión 'Qué maravilla' invierte el valor: es ironía.",
+        "en": "The phrase 'Que maravilha' inverts the value: it is irony.",
+        "ar": "عبارة 'Que maravilha' تعكس المعنى: إنها سخرية."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué recurso caracteriza más 'Iba a seguir una dieta, hasta ver el postre'?",
+        "en": "Which device most characterizes 'Eu ia seguir uma dieta, até ver a sobremesa'?",
+        "ar": "ما الأداة التي تميز جملة 'Eu ia seguir uma dieta, até ver a sobremesa'؟"
+      },
+      "options": [
+        {
+          "es": "ruptura de la expectativa",
+          "en": "expectation subversion",
+          "ar": "كسر التوقع"
+        },
+        {
+          "es": "sarcasmo agresivo",
+          "en": "aggressive sarcasm",
+          "ar": "تهكم عدواني"
+        },
+        {
+          "es": "eufemismo",
+          "en": "euphemism",
+          "ar": "تلطيف"
+        }
+      ],
+      "answer": "ruptura de la expectativa",
+      "explanation": {
+        "es": "La segunda parte contradice la intención anunciada: ruptura de la expectativa.",
+        "en": "The second part contradicts the announced intention: subversion of expectation.",
+        "ar": "الجزء الثاني يناقض النية المعلنة: كسر التوقع."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: 'to make fun of someone'",
+        "en": "Translate into Portuguese: 'to make fun of someone'",
+        "ar": "ترجم إلى البرتغالية: 'to make fun of someone'"
+      },
+      "options": [],
+      "answer": "burlarse de alguien",
+      "explanation": {
+        "es": "'Burlarse de alguien' equivale a 'make fun of someone'.",
+        "en": "'Fazer troça de alguém' is the equivalent of 'make fun of someone'.",
+        "ar": "التعبير 'fazer troça de alguém' يعادل 'make fun of someone'."
+      }
+    }
+  ]
+}

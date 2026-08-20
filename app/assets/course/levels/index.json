@@ -1,0 +1,640 @@
+{
+  "levels": {
+    "A1": {
+      "name_es": "Principiante",
+      "name_en": "Beginner",
+      "name_ar": "مبتدئ",
+      "description_es": "Primeros pasos: presentarte, saludar, hablar de ti mismo.",
+      "description_en": "First steps: introduce yourself, greet people, talk about yourself.",
+      "description_ar": "الخطوات الأولى: التعريف بالنفس، التحية، التحدث عن نفسك.",
+      "lessons": [
+        {
+          "id": "A1-01",
+          "title": {
+            "es": "El Alfabeto y la Pronunciación",
+            "en": "The Alphabet and Pronunciation",
+            "ar": "الأبجدية والنطق"
+          }
+        },
+        {
+          "id": "A1-02",
+          "title": {
+            "es": "Saludos y Presentaciones",
+            "en": "Greetings and Introductions",
+            "ar": "التحيات والتعارف"
+          }
+        },
+        {
+          "id": "A1-03",
+          "title": {
+            "es": "Números del 0 al 100",
+            "en": "Numbers 0 to 100",
+            "ar": "الأرقام من 0 إلى 100"
+          }
+        },
+        {
+          "id": "A1-04",
+          "title": {
+            "es": "Artículos y Sustantivos",
+            "en": "Articles and Nouns",
+            "ar": "أدوات التعريف والأسماء"
+          }
+        },
+        {
+          "id": "A1-05",
+          "title": {
+            "es": "Verbos Ser y Estar",
+            "en": "Verb to Be (Ser/Estar)",
+            "ar": "فعل الكينونة (Ser/Estar)"
+          }
+        },
+        {
+          "id": "A1-06",
+          "title": {
+            "es": "Presente de Indicativo",
+            "en": "Simple Present",
+            "ar": "المضارع البسيط"
+          }
+        },
+        {
+          "id": "A1-07",
+          "title": {
+            "es": "Familia y Personas",
+            "en": "Family and People",
+            "ar": "العائلة والأشخاص"
+          }
+        },
+        {
+          "id": "A1-08",
+          "title": {
+            "es": "Colores, Ropa y Adjetivos",
+            "en": "Colors, Clothes and Adjectives",
+            "ar": "الألوان والملابس والصفات"
+          }
+        },
+        {
+          "id": "A1-09",
+          "title": {
+            "es": "En el Restaurante",
+            "en": "At the Restaurant",
+            "ar": "في المطعم"
+          }
+        },
+        {
+          "id": "A1-10",
+          "title": {
+            "es": "La Casa y las Habitaciones",
+            "en": "The House and Rooms",
+            "ar": "المنزل والغرف"
+          }
+        },
+        {
+          "id": "A1-11",
+          "title": {
+            "es": "Horas y Rutina Diaria",
+            "en": "Time and Daily Routine",
+            "ar": "الساعة والروتين اليومي"
+          }
+        },
+        {
+          "id": "A1-12",
+          "title": {
+            "es": "Repaso A1",
+            "en": "A1 Review",
+            "ar": "مراجعة المستوى A1"
+          }
+        }
+      ]
+    },
+    "A2": {
+      "name_es": "Básico",
+      "name_en": "Elementary",
+      "name_ar": "أساسي",
+      "description_es": "Sobrevivir en situaciones cotidianas y describir experiencias simples.",
+      "description_en": "Survive everyday situations and describe simple experiences.",
+      "description_ar": "التعامل مع المواقف اليومية ووصف التجارب البسيطة.",
+      "lessons": [
+        {
+          "id": "A2-01",
+          "title": {
+            "es": "Pretérito Indefinido",
+            "en": "Simple Past",
+            "ar": "الماضي البسيط"
+          }
+        },
+        {
+          "id": "A2-02",
+          "title": {
+            "es": "De Compras",
+            "en": "Going Shopping",
+            "ar": "التسوق"
+          }
+        },
+        {
+          "id": "A2-03",
+          "title": {
+            "es": "Pronombres de Objeto",
+            "en": "Object Pronouns",
+            "ar": "ضمائر المفعول"
+          }
+        },
+        {
+          "id": "A2-04",
+          "title": {
+            "es": "Viajando por Hispanoamérica",
+            "en": "Traveling through Brazil",
+            "ar": "السفر في البرازيل"
+          }
+        },
+        {
+          "id": "A2-05",
+          "title": {
+            "es": "Comparativos y Superlativos",
+            "en": "Comparatives and Superlatives",
+            "ar": "أسماء التفضيل والمقارنة"
+          }
+        },
+        {
+          "id": "A2-06",
+          "title": {
+            "es": "Clima y Estaciones",
+            "en": "Weather and Seasons",
+            "ar": "الطقس والفصول"
+          }
+        },
+        {
+          "id": "A2-07",
+          "title": {
+            "es": "Futuro Inmediato y Futuro Simple",
+            "en": "Immediate and Simple Future",
+            "ar": "المستقبل القريب والبسيط"
+          }
+        },
+        {
+          "id": "A2-08",
+          "title": {
+            "es": "Salud y Cuerpo Humano",
+            "en": "Health and the Human Body",
+            "ar": "الصحة وجسم الإنسان"
+          }
+        },
+        {
+          "id": "A2-09",
+          "title": {
+            "es": "Imperativo (Peticiones y Órdenes)",
+            "en": "Imperative (Requests and Orders)",
+            "ar": "صيغة الأمر (الطلبات والأوامر)"
+          }
+        },
+        {
+          "id": "A2-10",
+          "title": {
+            "es": "Teléfono y Comunicación",
+            "en": "Phone and Communication",
+            "ar": "الهاتف والاتصال"
+          }
+        },
+        {
+          "id": "A2-11",
+          "title": {
+            "es": "Pasado Continuo (Pretérito Imperfecto)",
+            "en": "Past Continuous (Imperfect)",
+            "ar": "الماضي المستمر"
+          }
+        },
+        {
+          "id": "A2-12",
+          "title": {
+            "es": "Repaso A2",
+            "en": "A2 Review",
+            "ar": "مراجعة المستوى A2"
+          }
+        }
+      ]
+    },
+    "B1": {
+      "name_es": "Intermedio",
+      "name_en": "Intermediate",
+      "name_ar": "متوسط",
+      "description_es": "Manejar situaciones de viaje y trabajo, expresar opiniones.",
+      "description_en": "Handle travel and work situations, express opinions.",
+      "description_ar": "التعامل مع مواقف السفر والعمل والتعبير عن الآراء.",
+      "lessons": [
+        {
+          "id": "B1-01",
+          "title": {
+            "es": "Condicional",
+            "en": "Conditional",
+            "ar": "الشرط (المستقبل الناقص)"
+          }
+        },
+        {
+          "id": "B1-02",
+          "title": {
+            "es": "Trabajo y Entrevistas",
+            "en": "Work and Interviews",
+            "ar": "العمل والمقابلات"
+          }
+        },
+        {
+          "id": "B1-03",
+          "title": {
+            "es": "Pronombres Relativos",
+            "en": "Relative Pronouns",
+            "ar": "الضمائر الموصولة"
+          }
+        },
+        {
+          "id": "B1-04",
+          "title": {
+            "es": "Medios y Noticias",
+            "en": "Media and News",
+            "ar": "الإعلام والأخبار"
+          }
+        },
+        {
+          "id": "B1-05",
+          "title": {
+            "es": "Gerundio y Construcciones Progresivas",
+            "en": "Gerund and Progressive Constructions",
+            "ar": "المصدر المستمر"
+          }
+        },
+        {
+          "id": "B1-06",
+          "title": {
+            "es": "Fútbol y Deportes",
+            "en": "Soccer and Sports",
+            "ar": "كرة القدم والرياضة"
+          }
+        },
+        {
+          "id": "B1-07",
+          "title": {
+            "es": "Expresar Opinión y Argumentar",
+            "en": "Opinions and Argumentation",
+            "ar": "التعبير عن الرأي والمناقشة"
+          }
+        },
+        {
+          "id": "B1-08",
+          "title": {
+            "es": "Vivienda y Alquiler",
+            "en": "Housing and Rent",
+            "ar": "السكن والإيجار"
+          }
+        },
+        {
+          "id": "B1-09",
+          "title": {
+            "es": "Pretérito Pluscuamperfecto",
+            "en": "Pluperfect",
+            "ar": "الماضي التام"
+          }
+        },
+        {
+          "id": "B1-10",
+          "title": {
+            "es": "Fiestas y Celebraciones",
+            "en": "Parties and Celebrations",
+            "ar": "الحفلات والاحتفالات"
+          }
+        },
+        {
+          "id": "B1-11",
+          "title": {
+            "es": "Banco, Dinero y Pagos",
+            "en": "Banking, Money and Payments",
+            "ar": "البنوك والمال والدفع"
+          }
+        },
+        {
+          "id": "B1-12",
+          "title": {
+            "es": "Repaso B1",
+            "en": "B1 Review",
+            "ar": "مراجعة المستوى B1"
+          }
+        }
+      ]
+    },
+    "B2": {
+      "name_es": "Intermedio alto",
+      "name_en": "Upper-Intermediate",
+      "name_ar": "متوسط متقدم",
+      "description_es": "Fluidez en discusiones complejas, texto y trabajo.",
+      "description_en": "Fluency in complex discussions, text and work.",
+      "description_ar": "الطلاقة في المناقشات المعقدة والنصوص والعمل.",
+      "lessons": [
+        {
+          "id": "B2-01",
+          "title": {
+            "es": "Subjuntivo I (Presente)",
+            "en": "Subjunctive I (Present)",
+            "ar": "صيغة المضارع الشرطي"
+          }
+        },
+        {
+          "id": "B2-02",
+          "title": {
+            "es": "Política y Sociedad",
+            "en": "Politics and Society",
+            "ar": "السياسة والمجتمع"
+          }
+        },
+        {
+          "id": "B2-03",
+          "title": {
+            "es": "Voz Pasiva",
+            "en": "Passive Voice",
+            "ar": "المبني للمجهول"
+          }
+        },
+        {
+          "id": "B2-04",
+          "title": {
+            "es": "Medio Ambiente",
+            "en": "Environment",
+            "ar": "البيئة"
+          }
+        },
+        {
+          "id": "B2-05",
+          "title": {
+            "es": "Subjuntivo II (Imperfecto)",
+            "en": "Subjunctive II (Imperfect)",
+            "ar": "صيغة الماضي الشرطي"
+          }
+        },
+        {
+          "id": "B2-06",
+          "title": {
+            "es": "Literatura y Artes",
+            "en": "Literature and Arts",
+            "ar": "الأدب والفنون"
+          }
+        },
+        {
+          "id": "B2-07",
+          "title": {
+            "es": "Conjunciones y Conectores",
+            "en": "Conjunctions and Connectors",
+            "ar": "أدوات الربط"
+          }
+        },
+        {
+          "id": "B2-08",
+          "title": {
+            "es": "Ciencia y Tecnología",
+            "en": "Science and Technology",
+            "ar": "العلوم والتكنولوجيا"
+          }
+        },
+        {
+          "id": "B2-09",
+          "title": {
+            "es": "Subjuntivo III (Futuro)",
+            "en": "Subjunctive III (Future)",
+            "ar": "صيغة المستقبل الشرطي"
+          }
+        },
+        {
+          "id": "B2-10",
+          "title": {
+            "es": "Negocios y Economía",
+            "en": "Business and Economy",
+            "ar": "الأعمال والاقتصاد"
+          }
+        },
+        {
+          "id": "B2-11",
+          "title": {
+            "es": "Falsos Amigos y Consejos de Traducción",
+            "en": "False Cognates and Translation Tips",
+            "ar": "الكلمات المتماثلة الخادعة ونصائح الترجمة"
+          }
+        },
+        {
+          "id": "B2-12",
+          "title": {
+            "es": "Repaso B2",
+            "en": "B2 Review",
+            "ar": "مراجعة المستوى B2"
+          }
+        }
+      ]
+    },
+    "C1": {
+      "name_es": "Avanzado",
+      "name_en": "Advanced",
+      "name_ar": "متقدم",
+      "description_es": "Expresión natural, matices y registros formales.",
+      "description_en": "Natural expression, nuances and formal registers.",
+      "description_ar": "التعبير الطبيعي والفروق الدقيقة والتسجيل الرسمي.",
+      "lessons": [
+        {
+          "id": "C1-01",
+          "title": {
+            "es": "Subjuntivo en Oraciones Complejas",
+            "en": "Subjunctive in Complex Clauses",
+            "ar": "الشرط في الجمل المعقدة"
+          }
+        },
+        {
+          "id": "C1-02",
+          "title": {
+            "es": "Coloquialismos y Jerga",
+            "en": "Colloquialisms and Slang",
+            "ar": "العامية والمصطلحات الدارجة"
+          }
+        },
+        {
+          "id": "C1-03",
+          "title": {
+            "es": "Crónicas y Cuentos (Lectura)",
+            "en": "Chronicles and Short Stories (Reading)",
+            "ar": "مقالات وقصص قصيرة (قراءة)"
+          }
+        },
+        {
+          "id": "C1-04",
+          "title": {
+            "es": "Estilo Indirecto",
+            "en": "Reported Speech",
+            "ar": "الكلام المنقول"
+          }
+        },
+        {
+          "id": "C1-05",
+          "title": {
+            "es": "Régimen Verbal y Preposiciones",
+            "en": "Verbal Regimen and Prepositions",
+            "ar": "تعدية الأفعال وحروف الجر"
+          }
+        },
+        {
+          "id": "C1-06",
+          "title": {
+            "es": "Música y Cultura Popular",
+            "en": "Music and Popular Culture",
+            "ar": "الموسيقى والثقافة الشعبية"
+          }
+        },
+        {
+          "id": "C1-07",
+          "title": {
+            "es": "Redacción Formal: Cartas y Correos",
+            "en": "Formal Writing: Letters and Emails",
+            "ar": "الكتابة الرسمية: الرسائل والبريد"
+          }
+        },
+        {
+          "id": "C1-08",
+          "title": {
+            "es": "Concordancia Nominal y Verbal",
+            "en": "Nominal and Verbal Agreement",
+            "ar": "مطابقة الاسم والفعل"
+          }
+        },
+        {
+          "id": "C1-09",
+          "title": {
+            "es": "Historia de Hispanoamérica",
+            "en": "History of Brazil",
+            "ar": "تاريخ البرازيل"
+          }
+        },
+        {
+          "id": "C1-10",
+          "title": {
+            "es": "Inversión y Énfasis",
+            "en": "Inversion and Emphasis",
+            "ar": "التقديم والتأخير والتوكيد"
+          }
+        },
+        {
+          "id": "C1-11",
+          "title": {
+            "es": "Debate y Opinión Crítica",
+            "en": "Debate and Critical Opinion",
+            "ar": "النقاش والرأي النقدي"
+          }
+        },
+        {
+          "id": "C1-12",
+          "title": {
+            "es": "Repaso C1",
+            "en": "C1 Review",
+            "ar": "مراجعة المستوى C1"
+          }
+        }
+      ]
+    },
+    "C2": {
+      "name_es": "Proficiencia",
+      "name_en": "Proficiency",
+      "name_ar": "إتقان",
+      "description_es": "Dominio casi nativo en todos los contextos.",
+      "description_en": "Near-native mastery in all contexts.",
+      "description_ar": "إتقان شبه أصلي في جميع السياقات.",
+      "lessons": [
+        {
+          "id": "C2-01",
+          "title": {
+            "es": "Expresiones Idiomáticas Avanzadas",
+            "en": "Advanced Idiomatic Expressions",
+            "ar": "التعبيرات الاصطلاحية المتقدمة"
+          }
+        },
+        {
+          "id": "C2-02",
+          "title": {
+            "es": "Análisis de Textos Literarios",
+            "en": "Literary Text Analysis",
+            "ar": "تحليل النصوص الأدبية"
+          }
+        },
+        {
+          "id": "C2-03",
+          "title": {
+            "es": "Estructuras Sintácticas Complejas",
+            "en": "Complex Syntactic Structures",
+            "ar": "التراكيب النحوية المعقدة"
+          }
+        },
+        {
+          "id": "C2-04",
+          "title": {
+            "es": "Lenguaje Jurídico y Académico",
+            "en": "Legal and Academic Language",
+            "ar": "اللغة القانونية والأكاديمية"
+          }
+        },
+        {
+          "id": "C2-05",
+          "title": {
+            "es": "Variaciones Regionales",
+            "en": "Regional Variations",
+            "ar": "الاختلافات الإقليمية"
+          }
+        },
+        {
+          "id": "C2-06",
+          "title": {
+            "es": "Humor e Ironía",
+            "en": "Humor and Irony",
+            "ar": "الفكاهة والسخرية"
+          }
+        },
+        {
+          "id": "C2-07",
+          "title": {
+            "es": "Traducción Avanzada (ES↔EN↔AR)",
+            "en": "Advanced Translation (PT↔EN↔AR)",
+            "ar": "الترجمة المتقدمة (برتغالي↔إنجليزي↔عربي)"
+          }
+        },
+        {
+          "id": "C2-08",
+          "title": {
+            "es": "Prosa Científica y Técnica",
+            "en": "Scientific and Technical Prose",
+            "ar": "النثر العلمي والتقني"
+          }
+        },
+        {
+          "id": "C2-09",
+          "title": {
+            "es": "Filosofía y Pensamiento Crítico",
+            "en": "Philosophy and Critical Thinking",
+            "ar": "الفلسفة والتفكير النقدي"
+          }
+        },
+        {
+          "id": "C2-10",
+          "title": {
+            "es": "Oratoria y Presentaciones",
+            "en": "Oratory and Presentations",
+            "ar": "الخطابة والعروض"
+          }
+        },
+        {
+          "id": "C2-11",
+          "title": {
+            "es": "Examen Final: Proficiencia",
+            "en": "Final Test: Proficiency",
+            "ar": "الاختبار النهائي: الإتقان"
+          }
+        },
+        {
+          "id": "C2-12",
+          "title": {
+            "es": "Certificado y Próximos Pasos",
+            "en": "Certificate and Next Steps",
+            "ar": "الشهادة والخطوات التالية"
+          }
+        }
+      ]
+    }
+  }
+}

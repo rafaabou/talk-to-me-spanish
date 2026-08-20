@@ -1,0 +1,340 @@
+{
+  "id": "C2-05",
+  "level": "C2",
+  "level_name": {
+    "es": "Proficiencia",
+    "en": "Proficiency",
+    "ar": "إتقان"
+  },
+  "title": {
+    "es": "Variaciones Regionales",
+    "en": "Regional Variations",
+    "ar": "الاختلافات الإقليمية"
+  },
+  "objectives": [
+    {
+      "es": "Reconocer las principales variaciones regionales del español",
+      "en": "Recognize the main regional variations of Brazilian Portuguese",
+      "ar": "التعرف على الاختلافات الإقليمية الرئيسية في البرتغالية البرازيلية"
+    },
+    {
+      "es": "Analizar el uso de 'tú', 'vos' y 'usted' en las regiones",
+      "en": "Analyze the use of 'tu', 'você' and 'a gente' across regions",
+      "ar": "تحليل استخدام 'tu' و'você' و'a gente' في المناطق"
+    },
+    {
+      "es": "Comprender variaciones de pronunciación, prosodia y léxico",
+      "en": "Understand variations in the gerund, prosody and lexicon",
+      "ar": "فهم الاختلافات في المصدر المستمر والنبر والمفردات"
+    },
+    {
+      "es": "Relacionar la variación lingüística con factores sociales y geográficos",
+      "en": "Relate linguistic variation to social and geographic factors",
+      "ar": "ربط التنوع اللغوي بعوامل اجتماعية وجغرافية"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el regionalismo",
+      "ipa": "/ˈel rexionaˈlismo/",
+      "en": "regionalism",
+      "ar": "الإقليمية / اللفظ الإقليمي"
+    },
+    {
+      "es": "el dialecto",
+      "ipa": "/ˈel diaˈlekto/",
+      "en": "dialect",
+      "ar": "اللهجة"
+    },
+    {
+      "es": "la jerga",
+      "ipa": "/ˈla ˈxeɾga/",
+      "en": "slang",
+      "ar": "اللغة الدارجة"
+    },
+    {
+      "es": "el acento",
+      "ipa": "/ˈel aˈsento/",
+      "en": "accent",
+      "ar": "اللهجة / النبر"
+    },
+    {
+      "es": "el habla del Caribe",
+      "ipa": "/ˈel ˈaβla ˈdel kaˈɾiβe/",
+      "en": "Northeastern speech",
+      "ar": "كلام الشمال الشرقي"
+    },
+    {
+      "es": "el habla rural",
+      "ipa": "/ˈel ˈaβla ruˈɾal/",
+      "en": "the 'caipira' dialect (rural interior)",
+      "ar": "اللهجة الريفية الداخلية"
+    },
+    {
+      "es": "el habla rioplatense",
+      "ipa": "/ˈel ˈaβla rioplaˈtense/",
+      "en": "the 'gaúcho' (Southern) speech",
+      "ar": "لهجة الجنوب"
+    },
+    {
+      "es": "el habla caribeña",
+      "ipa": "/ˈel ˈaβla kaɾiˈβeɲa/",
+      "en": "the 'carioca' (Rio) speech",
+      "ar": "لهجة ريو دي جانيرو"
+    },
+    {
+      "es": "el habla andina",
+      "ipa": "/ˈel ˈaβla aˈndina/",
+      "en": "the 'mineiro' (Minas Gerais) speech",
+      "ar": "لهجة ميناس جرايس"
+    },
+    {
+      "es": "el habla mexicana",
+      "ipa": "/ˈel ˈaβla meksiˈkana/",
+      "en": "the 'baiano' (Bahia) speech",
+      "ar": "لهجة باهيا"
+    },
+    {
+      "es": "la prosodia",
+      "ipa": "/ˈla pɾoˈsoðia/",
+      "en": "prosody",
+      "ar": "العروض / الإيقاع الصوتي"
+    },
+    {
+      "es": "el neologismo",
+      "ipa": "/ˈel neoloˈxismo/",
+      "en": "neologism",
+      "ar": "اللفظ المستحدث"
+    },
+    {
+      "es": "el extranjerismo",
+      "ipa": "/ˈel ekstɾanxeˈɾismo/",
+      "en": "foreignism / loanword",
+      "ar": "اللفظ الدخيل"
+    },
+    {
+      "es": "la palatalización",
+      "ipa": "/ˈla palatalisaˈsion/",
+      "en": "palatalization",
+      "ar": "التحنيك"
+    },
+    {
+      "es": "el rotacismo",
+      "ipa": "/ˈel rotaˈsismo/",
+      "en": "rhotacism",
+      "ar": "إبدال الراء / النطق بالراء"
+    },
+    {
+      "es": "la variación diatópica",
+      "ipa": "/ˈla baɾiaˈsion diaˈtopika/",
+      "en": "diatopic (geographic) variation",
+      "ar": "التنوع الجغرافي"
+    },
+    {
+      "es": "la variación diafásica",
+      "ipa": "/ˈla baɾiaˈsion diaˈfasika/",
+      "en": "diaphasic (register) variation",
+      "ar": "التنوع الأسلوبي"
+    },
+    {
+      "es": "la norma culta",
+      "ipa": "/ˈla ˈnoɾma ˈkulta/",
+      "en": "the educated standard",
+      "ar": "القاعدة الفصيحة المتعلمة"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "'Tú', 'Vos' y 'Usted' en Español",
+        "en": "'Tu' and 'você' in Brazil",
+        "ar": "استخدام 'tu' و'você' في البرازيل"
+      },
+      "explanation": {
+        "es": "En el español de América, 'tú' predomina en la mayoría de las regiones, 'vos' en el Río de la Plata y partes de Centroamérica, y 'usted' en el tratamiento formal. En el Río de la Plata el 'vos' se conjuga en segunda persona ('querés'), mientras que en partes de Centroamérica convive con el 'tú'. La elección depende de la región y del contexto social.",
+        "en": "In Brazilian Portuguese, 'você' predominates in most regions, with the verb in the third person. In regions such as the South (Rio Grande do Sul, Santa Catarina) and the North/Northeast, 'tu' is common; in the South it usually inflects ('tu queres'), while in the Northeast it is frequent to find 'tu' with a third-person verb ('tu quer'), a phenomenon grammarians discuss without condemning as an absolute error.",
+        "ar": "في البرتغالية البرازيلية، يهيمن 'você' في معظم المناطق مع فعل بصيغة الغائب. وفي مناطق مثل الجنوب (ريو غراندي دو سول، سانتا كاتارينا) والشمال والشمال الشرقي، يشيع 'tu'؛ ففي الجنوب يُصرَّف الفعل معه عادة ('tu queres')، بينما في الشمال الشرقي يتكرر 'tu' مع فعل بصيغة الغائب ('tu quer')، وهي ظاهرة يناقشها النحاة دون اعتبارها خطأ مطلقًا."
+      },
+      "examples": [
+        {
+          "es": "Río de la Plata: '¿Querés un mate?'",
+          "en": "South: 'Tu queres um chimarrão?' (Do you want some mate?)",
+          "ar": "الجنوب: 'tu queres um chimarrão?' (هل تريد بعض المتة؟)"
+        },
+        {
+          "es": "Centroamérica: '¿Vos querés ir a esa fiesta?'",
+          "en": "Northeast: 'Tu quer mesmo ir nessa festa?' (Do you really want to go to this party?)",
+          "ar": "الشمال الشرقي: 'tu quer mesmo ir nessa festa?' (هل تريد فعلًا الذهاب إلى هذه الحفلة؟)"
+        },
+        {
+          "es": "México: '¿Me puedes ayudar con esta caja?'",
+          "en": "Southeast: 'Você pode me ajudar com essa caixa?' (Can you help me with this box?)",
+          "ar": "الجنوب الشرقي: 'você pode me ajudar com essa caixa?' (هل يمكنك مساعدتي بهذا الصندوق؟)"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Gerundio y Prosodia Regionales",
+        "en": "Regional Gerund and Prosody",
+        "ar": "صيغة المصدر المستمر والنبر الإقليميان"
+      },
+      "explanation": {
+        "es": "El gerundio con valor progresivo ('estoy haciendo') es estándar en casi todo el mundo hispano; el infinitivo preposicionado ('estoy a hacer') marca el español europeo. En el habla popular, las formas reducidas son comunes. La prosodia varía sensiblemente: el habla caribeña aspira la 's' final y el habla rioplatense distingue la 'll' y la 'y'.",
+        "en": "The gerund with progressive value ('estou fazendo') is standard in Brazil; the prepositional infinitive ('estou a fazer') is a mark of European Portuguese. In the Northeast there is a tendency to reduce the gerund ('tô fazeno'). Prosody varies noticeably: Rio speech palatalizes final /s/ ('ma[iʃ]'), and the 'caipira' dialect is marked by the retroflex /r/ (the 'caipira r') in syllable coda.",
+        "ar": "يعدّ اسم الفاعل المستمر بالقيمة التقدمية ('estou fazendo') معيارًا في البرازيل؛ أما المصدر المجرور ('estou a fazer') فيعدّ سمة من سمات البرتغالية الأوروبية. وفي الشمال الشرقي، ثميل نحو اختزال الصيغة ('tô fazeno'). ويختلف الإيقاع الصوتي بوضوح: لهجة ريو تُحنّك حرف /s/ في نهاية المقطع ('ma[iʃ]')، بينما تُعرف اللهجة الريفية الداخلية بحرف /r/ مرتدّ ('راء القيبرا') في آخر المقطع."
+      },
+      "examples": [
+        {
+          "es": "Estoy haciendo el informe ahora. (gerundio progresivo)",
+          "en": "I am doing the report now. (progressive gerund)",
+          "ar": "أنجز التقرير الآن. (صيغة مستمرة)"
+        },
+        {
+          "es": "Él está estudiando desde temprano. (forma estándar)",
+          "en": "He has been studying since early. (Europeanism)",
+          "ar": "إنه يدرس منذ الصباح الباكر. (أسلوب أوروبي)"
+        },
+        {
+          "es": "Estoy haciendo el trabajo, ya llego. (habla popular)",
+          "en": "I am doing the job, I'll be right there. (Northeastern reduction)",
+          "ar": "أنجز العمل، سأصل حالًا. (اختزال شمال شرقي)"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Un Encuentro en el Congreso",
+      "en": "A Meeting at the Congress",
+      "ar": "لقاء في المؤتمر"
+    },
+    "lines": [
+      {
+        "speaker": "Jonas",
+        "es": "¿Querés almorzar con nosotros o vas directo a la charla?",
+        "en": "Do you (tu) want to have lunch with us, or are you heading straight to the lecture?",
+        "ar": "هل تريد الغداء معنا، أم ستتوجه مباشرة إلى المحاضرة؟"
+      },
+      {
+        "speaker": "Marina",
+        "es": "Puede ser. Pero, para que sepas, el restaurante de al lado está lleno.",
+        "en": "Sure. But just so you know, the restaurant next door is packed.",
+        "ar": "يمكن ذلك. لكن لتكن على علم، المطعم المجاور ممتلئ."
+      },
+      {
+        "speaker": "Jonas",
+        "es": "Aquí en el Río de la Plata decimos 'el mate es bueno', en el Caribe se escucha 'el agua está caliente' con otro ritmo.",
+        "en": "Here in the South we say 'o chimarrão é bom'; in the Northeast you hear 'a água é quente' with a different rhythm.",
+        "ar": "هنا في الجنوب نقول 'o chimarrão é bom'، وفي الشمال الشرقي تسمع 'a água é quente' بإيقاع مختلف."
+      },
+      {
+        "speaker": "Marina",
+        "es": "Y el habla caribeña aspira la 's' final de las palabras.",
+        "en": "And the carioca still says 'ma[iʃ]' at the end of words, drawing out the 's'.",
+        "ar": "والكاريكا ما زال يقول 'ma[iʃ]' في نهاية الكلمات مع إطالة حرف 's'."
+      },
+      {
+        "speaker": "Jonas",
+        "es": "Exacto. La prosodia, el léxico y los pronombres varían, pero la norma culta acerca a todos en la escritura formal.",
+        "en": "Exactly. Prosody, lexicon and pronouns vary, but the educated standard brings everyone together in formal writing.",
+        "ar": "بالضبط. يختلف الإيقاع والمعجم والضمائر، لكن القاعدة الفصيحة تجمع الجميع في الكتابة الرسمية."
+      },
+      {
+        "speaker": "Marina",
+        "es": "Entonces vamos a almorzar, que te cuento las jergas del norte que nadie conoce.",
+        "en": "Then let's have lunch, and I'll tell you Northern slang that nobody knows.",
+        "ar": "إذن لنتناول الغداء، وسأحكي لك عن دارج الشمال التي لا يعرفها أحد."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Lengua que Varía",
+      "en": "A Language That Varies",
+      "ar": "لغة تتنوع"
+    },
+    "text_es": "El español de América es un mosaico de variaciones diatópicas. El 'vos' del Río de la Plata, la 's' aspirada del Caribe y el 'tú' de México ilustran cómo la geografía moldea el habla. Estas variantes conviven con la norma culta enseñada en la escuela. Reconocer esta riqueza, sin jerarquizar hablas, es requisito de un usuario del nivel C2.",
+    "text_en": "Brazilian Portuguese is a mosaic of diatopic variations. The 'tu' of the South, the reduced gerund of the Northeast and the 'caipira r' of the interior illustrate how geography shapes speech. These variants coexist with the educated standard taught at school. Recognizing this richness, without ranking varieties hierarchically, is a requirement of a C2-level user.",
+    "text_ar": "البرتغالية البرازيلية فسيفساء من التنوعات الجغرافية. إن 'tu' في الجنوب، واختزال المصدر المستمر في الشمال الشرقي، وراء القيبرا في الداخل توضح كيف تشكّل الجغرافيا الكلام. تتعايش هذه المتغيرات مع القاعدة الفصيحة المدرسة في المدرسة. إن الاعتراف بهذا الغنى دون تفضيل لهجة على أخرى متطلب لمتحدث في مستوى C2."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿En qué región es común el 'vos' con verbo en segunda persona ('querés')?",
+        "en": "In which region is 'tu' with a third-person verb ('tu quer') common?",
+        "ar": "في أي منطقة يشيع 'tu' مع فعل بصيغة الغائب ('tu quer')؟"
+      },
+      "options": [
+        {
+          "es": "En Centroamérica",
+          "en": "In the Northeast",
+          "ar": "في الشمال الشرقي"
+        },
+        {
+          "es": "En España",
+          "en": "In Portugal",
+          "ar": "في البرتغال"
+        },
+        {
+          "es": "En el Río de la Plata",
+          "en": "In the South region",
+          "ar": "في منطقة الجنوب"
+        }
+      ],
+      "answer": "En Centroamérica",
+      "explanation": {
+        "es": "En Centroamérica, el 'vos' frecuentemente acompaña el verbo en segunda persona.",
+        "en": "In the Northeast, 'tu' frequently takes a third-person verb.",
+        "ar": "في الشمال الشرقي، يرافق 'tu' عادةً فعل بصيغة الغائب."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué forma es marca del español europeo?",
+        "en": "Which form is a mark of European Portuguese?",
+        "ar": "أي صيغة تعتبر سمة من سمات البرتغالية الأوروبية؟"
+      },
+      "options": [
+        {
+          "es": "estoy haciendo",
+          "en": "estou fazendo",
+          "ar": "estou fazendo"
+        },
+        {
+          "es": "estoy a hacer",
+          "en": "estou a fazer",
+          "ar": "estou a fazer"
+        },
+        {
+          "es": "toy haciendo",
+          "en": "tô fazeno",
+          "ar": "tô fazeno"
+        }
+      ],
+      "answer": "estoy a hacer",
+      "explanation": {
+        "es": "'Estoy a hacer' (infinitivo preposicionado) caracteriza el español europeo.",
+        "en": "'Estou a fazer' (prepositional infinitive) characterizes European Portuguese.",
+        "ar": "'estou a fazer' (المصدر المجرور) تميز البرتغالية الأوروبية."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: 'the educated standard'",
+        "en": "Translate into Portuguese: 'the educated standard'",
+        "ar": "ترجم إلى البرتغالية: 'the educated standard'"
+      },
+      "options": [],
+      "answer": "la norma culta",
+      "explanation": {
+        "es": "'La norma culta' es el estándar prestigioso de la lengua.",
+        "en": "'A norma culta' is the prestigious standard of the language.",
+        "ar": "'a norma culta' هي الصيغة المرموقة للغة."
+      }
+    }
+  ]
+}

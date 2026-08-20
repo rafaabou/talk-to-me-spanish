@@ -1,0 +1,206 @@
+# Pre-commit hooks for Talk To Me Flutter Apps
+# Install: pip install pre-commit && pre-commit install
+# Run: pre-commit run --all-files
+
+repos:
+  # ------------------------------------------------------------
+  # Code Formatting & Style
+  # ------------------------------------------------------------
+  - repo: https://github.com/dart-lang/dart_style
+    rev: 2.5.0
+    hooks:
+      - id: dart-format
+        name: dart-format
+        description: Format Dart code with dart format
+        entry: dart format
+        language: system
+        types: [dart]
+        args: ['--set-exit-if-changed', '--output=none']
+        verbose: true
+
+  # ------------------------------------------------------------
+  # Static Analysis
+  # ------------------------------------------------------------
+  - repo: local
+    hooks:
+      - id: flutter-analyze
+        name: flutter-analyze
+        description: Run flutter analyze with fatal warnings
+        entry: flutter analyze --fatal-infos --output=analysis-report.json
+        language: system
+        types: [dart]
+        pass_filenames: false
+        verbose: true
+        require_serial: true
+
+  # ------------------------------------------------------------
+  # Secret Detection
+  # ------------------------------------------------------------
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.18.2
+    hooks:
+      - id: gitleaks
+        name: gitleaks
+        description: Detect secrets with gitleaks
+        entry: gitleaks detect --source . --verbose --config .gitleaks.toml
+        language: system
+        types: [text]
+        verbose: true
+        require_serial: true
+
+  - repo: https://github.com/trufflesecurity/trufflehog
+    rev: v3.81.0
+    hooks:
+      - id: trufflehog
+        name: trufflehog
+        description: Detect secrets with TruffleHog
+        entry: trufflehog filesystem . --fail --no-verification
+        language: system
+        types: [text]
+        verbose: true
+        require_serial: true
+
+  # ------------------------------------------------------------
+  # License Compliance
+  # ------------------------------------------------------------
+  - repo: local
+    hooks:
+      - id: license-check
+        name: license-check
+        description: Check for forbidden licenses
+        entry: bash -c 'dart pub global activate license_checker && dart pub global run license_checker --exclude "MIT,BSD,Apache-2.0" --fail-on-violation'
+        language: system
+        types: [dart]
+        pass_filenames: false
+        verbose: true
+        require_serial: true
+
+  # ------------------------------------------------------------
+  # Dependency Checks
+  # ------------------------------------------------------------
+  - repo: local
+    hooks:
+      - id: pub-outdated
+        name: pub-outdated
+        description: Check for outdated dependencies
+        entry: flutter pub outdated --json
+        language: system
+        types: [dart]
+        pass_filenames: false
+        verbose: true
+        require_serial: true
+
+  - repo: local
+    hooks:
+      - id: pub-deps-check
+        name: pub-deps-check
+        description: Check for dependency issues
+        entry: flutter pub deps --style=compact
+        language: system
+        types: [dart]
+        pass_filenames: false
+        verbose: true
+        require_serial: true
+
+  # ------------------------------------------------------------
+  # Code Quality
+  # ------------------------------------------------------------
+  - repo: https://github.com/dart-lang/linter
+    rev: v2.18.0
+    hooks:
+      - id: dart-linter
+        name: dart-linter
+        description: Run Dart linter
+        entry: dart analyze --fatal-infos
+        language: system
+        types: [dart]
+        verbose: true
+
+  # ------------------------------------------------------------
+  # File Quality
+  # ------------------------------------------------------------
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+        name: trailing-whitespace
+        description: Remove trailing whitespace
+        exclude: \.(png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|otf)$
+      - id: end-of-file-fixer
+        name: end-of-file-fixer
+        description: Ensure files end with newline
+        exclude: \.(png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|otf)$
+      - id: check-yaml
+        name: check-yaml
+        description: Validate YAML files
+      - id: check-json
+        name: check-json
+        description: Validate JSON files
+      - id: check-toml
+        name: check-toml
+        description: Validate TOML files
+      - id: check-xml
+        name: check-xml
+        description: Validate XML files
+      - id: mixed-line-ending
+        name: mixed-line-ending
+        description: Fix mixed line endings
+        args: ['--fix=lf']
+      - id: check-added-large-files
+        name: check-added-large-files
+        description: Prevent large files
+        args: ['--maxkb=1000']
+      - id: check-merge-conflict
+        name: check-merge-conflict
+        description: Check for merge conflict markers
+      - id: debug-logger
+        name: debug-logger
+        description: Check for debug loggers
+      - id: detect-private-key
+        name: detect-private-key
+        description: Detect private keys
+
+  # ------------------------------------------------------------
+  # YAML/TOML/JSON Validation
+  # ------------------------------------------------------------
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: check-yaml
+        name: check-yaml-extended
+        description: Validate YAML files (extended)
+        args: ['--allow-multiple-documents']
+
+  # ------------------------------------------------------------
+  # Security Scanning (optional, slow - run in CI)
+  # ------------------------------------------------------------
+  # - repo: https://github.com/gitleaks/gitleaks
+  #   rev: v8.18.2
+  #   hooks:
+  #     - id: gitleaks
+  #       name: gitleaks-deep
+  #       description: Deep secret scan (slow, run in CI)
+  #       entry: gitleaks detect --source . --verbose --config .gitleaks.toml --no-git
+  #       language: system
+  #       stages: [commit, push]
+  #       verbose: true
+  #       require_serial: true
+
+  # - repo: https://github.com/trufflesecurity/trufflehog
+  #   rev: v3.81.0
+  #   hooks:
+  #     - id: trufflehog
+  #       name: trufflehog-deep
+  #       description: Deep secret scan with TruffleHog (slow, run in CI)
+  #       entry: trufflehog filesystem . --fail --no-verification
+  #       language: system
+  #       stages: [commit, push]
+  #       verbose: true
+  #       require_serial: true
+
+# ------------------------------------------------------------
+# Configuration
+# ------------------------------------------------------------
+default_stages: [commit, push]
+fail_fast: true
+verbose: true

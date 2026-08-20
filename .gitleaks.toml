@@ -1,0 +1,296 @@
+# Gitleaks Configuration for Talk To Me
+# Detects secrets, API keys, passwords, tokens, and other sensitive data
+
+[allowlist]
+description = "Allowlisted gitleaks patterns"
+paths = [
+    "(?i)^.*\\.lock$",
+    "(?i)^.*\\.log$",
+    "(?i)^.*\\.md$",
+    "(?i)^.*README.*$",
+    "(?i)^.*LICENSE.*$",
+    "(?i)^.*NOTICE.*$",
+    "(?i)^.*\\.example$",
+    "(?i)^.*\\.template$",
+    "(?i)^.*\\.sample$",
+    "(?i)^.*\\.dist$",
+    "(?i)^.*\\.md$",
+    "(?i)^.*\\.txt$",
+    "(?i)^.*\\.json$",
+    "(?i)^.*\\.yaml$",
+    "(?i)^.*\\.yml$",
+    "(?i)^.*\\.xml$",
+    "(?i)^.*\\.gradle$",
+    "(?i)^.*\\.properties$",
+    "(?i)^.*\\.toml$",
+    "(?i)^.*\\.ini$",
+    "(?i)^.*\\.conf$",
+    "(?i)^.*\\.config$",
+]
+
+# Allowlist for specific patterns that are false positives
+allowlist_regexes = [
+    # Flutter/Dart specific false positives
+    "flutter_",
+    "dart_",
+    "pub_",
+    "flutter\\.",
+    "dart:",
+
+    # Common test/fake values
+    "test",
+    "example",
+    "sample",
+    "dummy",
+    "fake",
+    "mock",
+    "placeholder",
+    "your_",
+    "my_",
+    "change_me",
+    "replace_me",
+    "insert_",
+    "enter_",
+    "put_",
+    "add_",
+    "xxx",
+    "yyy",
+    "zzz",
+    "123",
+    "abc",
+    "your-api-key",
+    "your-secret",
+    "your-token",
+    "your-password",
+    "your-key",
+    "INSERT_",
+    "REPLACE_",
+    "CHANGE_",
+    "PUT_",
+    "ENTER_",
+    "ADD_",
+
+    # Flutter/Dart specific
+    "FLUTTER_",
+    "DART_",
+    "ANDROID_",
+    "IOS_",
+    "FLUTTER_VERSION",
+    "FLUTTER_CHANNEL",
+
+    # Version numbers and hashes that look like secrets
+    "[0-9a-f]{32,}",
+    "[0-9a-f]{40,}",
+    "[0-9a-f]{64,}",
+
+    # Base64-like strings that are actually not secrets
+    "^[A-Za-z0-9+/]{20,}={0,2}$",
+
+    # Common placeholder patterns
+    "YOUR_.*_HERE",
+    "REPLACE_WITH_",
+    "INSERT_.*_HERE",
+    "TODO:",
+    "FIXME:",
+    "XXX:",
+
+    # Flutter/Dart build files
+    "build/",
+    ".dart_tool/",
+    ".flutter-plugins",
+    ".flutter-plugins-dependencies",
+    "pubspec.lock",
+    "pubspec.yaml",
+
+    # Android specific
+    "android/",
+    "gradle/",
+    "gradlew",
+    "gradlew.bat",
+    "local.properties",
+    "keystore",
+    "jks",
+    "keystore.properties",
+]
+
+# Allowlist for specific commits
+allowlist_commits = []
+
+# Rules configuration
+[rule]
+id = "generic-api-key"
+description = "Generic API Key pattern"
+regex = "(?i)(api[_-]?key|apikey)\\s*[=:]\s*[\"']?([a-zA-Z0-9_\-]{20,})[\"']?"
+tags = ["key", "api"]
+entropy = 3.5
+
+[rule]
+id = "generic-secret"
+description = "Generic Secret pattern"
+regex = "(?i)(secret|password|passwd|pwd)\\s*[=:]\s*[\"']?([^\s\"']{8,})[\"']?"
+tags = ["secret", "password"]
+entropy = 3.0
+
+[rule]
+id = "google-api-key"
+description = "Google API Key"
+regex = "AIza[0-9A-Za-z\\-_]{35}"
+tags = ["google", "api", "key"]
+
+[rule]
+id = "firebase-config"
+description = "Firebase Config"
+regex = "(?i)firebase.*[=:]\s*[\"']?([a-zA-Z0-9_\-]{20,})[\"']?"
+tags = ["firebase", "config"]
+
+[rule]
+id = "aws-access-key"
+description = "AWS Access Key ID"
+regex = "(?i)AKIA[0-9A-Z]{16}"
+tags = ["aws", "access", "key"]
+
+[rule]
+id = "aws-secret-key"
+description = "AWS Secret Access Key"
+regex = "(?i)aws.*secret.*[=:]\s*[\"']?([A-Za-z0-9/+=]{40})[\"']?"
+tags = ["aws", "secret", "key"]
+
+[rule]
+id = "github-token"
+description = "GitHub Personal Access Token"
+regex = "gh[pousr]_[A-Za-z0-9_]{36,251}"
+tags = ["github", "token"]
+
+[rule]
+id = "gitlab-token"
+description = "GitLab Personal Access Token"
+regex = "glpat-[A-Za-z0-9_\-]{20,}"
+tags = ["gitlab", "token"]
+
+[rule]
+id = "slack-token"
+description = "Slack Token"
+regex = "xox[baprs]-[0-9]{12}-[0-9]{12}-[0-9]{12}-[a-z0-9]{32}"
+tags = ["slack", "token"]
+
+[rule]
+id = "discord-token"
+description = "Discord Bot Token"
+regex = "[MN][A-Za-z\\d]{23}\\.[\\w-]{6}\\.[\\w-]{27}"
+tags = ["discord", "token"]
+
+[rule]
+id = "stripe-key"
+description = "Stripe API Key"
+regex = "(?i)sk_live_[0-9a-zA-Z]{24,}"
+tags = ["stripe", "key"]
+
+[rule]
+id = "sendgrid-key"
+description = "SendGrid API Key"
+regex = "SG\\.[A-Za-z0-9\\-_]{22}\\.[A-Za-z0-9\\-_]{43}"
+tags = ["sendgrid", "key"]
+
+[rule]
+id = "twilio-key"
+description = "Twilio Auth Token"
+regex = "SK[0-9a-fA-F]{32}"
+tags = ["twilio", "key"]
+
+[rule]
+id = "heroku-api-key"
+description = "Heroku API Key"
+regex = "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+tags = ["heroku", "key"]
+
+[rule]
+id = "jwt-token"
+description = "JWT Token"
+regex = "eyJ[A-Za-z0-9_=-]+\\.[A-Za-z0-9_=-]+\\.[A-Za-z0-9_=-]+"
+tags = ["jwt", "token"]
+
+[rule]
+id = "ssh-private-key"
+description = "SSH Private Key"
+regex = "-----BEGIN (RSA|DSA|EC|OPENSSH) PRIVATE KEY-----"
+tags = ["ssh", "private", "key"]
+
+[rule]
+id = "pgp-private-key"
+description = "PGP Private Key"
+regex = "-----BEGIN PGP PRIVATE KEY BLOCK-----"
+tags = ["pgp", "private", "key"]
+
+[rule]
+id = "docker-config-auth"
+description = "Docker Config Auth"
+regex = "\"auth\\s*\":\\s*\"[A-Za-z0-9+/=]{20,}\""
+tags = ["docker", "auth"]
+
+[rule]
+id = "npm-token"
+description = "NPM Token"
+regex = "npm_[A-Za-z0-9]{36}"
+tags = ["npm", "token"]
+
+[rule]
+id = "pypi-token"
+description = "PyPI Token"
+regex = "pypi-AgEIcHlwaS5vcmc[0-9A-Za-z\\-_]{50,}"
+tags = ["pypi", "token"]
+
+[rule]
+id = "generic-bearer-token"
+description = "Generic Bearer Token"
+regex = "(?i)bearer\\s+[A-Za-z0-9\\-_=]{20,}"
+tags = ["bearer", "token"]
+
+[rule]
+id = "generic-access-token"
+description = "Generic Access Token"
+regex = "(?i)access[_-]?token\\s*[=:]\s*[\"']?([A-Za-z0-9\\-_=]{20,})[\"']?"
+tags = ["access", "token"]
+
+[rule]
+id = "generic-client-secret"
+description = "Generic Client Secret"
+regex = "(?i)client[_-]?secret\\s*[=:]\s*[\"']?([A-Za-z0-9\\-_=]{20,})[\"']?"
+tags = ["client", "secret"]
+
+# Dart/Flutter specific patterns
+[rule]
+id = "flutter-api-key"
+description = "Flutter/Dart API Key in code"
+regex = "(?i)(api[_-]?key|apiKey)\\s*[=:]\s*[\"']([a-zA-Z0-9_\\-]{20,})[\"']"
+tags = ["flutter", "dart", "api", "key"]
+
+[rule]
+id = "flutter-firebase-config"
+description = "Flutter Firebase Config"
+regex = "(?i)firebase.*(apiKey|authDomain|projectId|storageBucket|messagingSenderId|appId|measurementId)\\s*[=:]\s*[\"']([^\"']{10,})[\"']"
+tags = ["flutter", "firebase", "config"]
+
+[rule]
+id = "dart-private-key"
+description = "Dart Private Key in code"
+regex = "-----BEGIN (RSA|DSA|EC|OPENSSH) PRIVATE KEY-----"
+tags = ["dart", "private", "key"]
+
+# Android specific
+[rule]
+id = "android-keystore-password"
+description = "Android Keystore Password in gradle"
+regex = "(?i)storePassword\\s*[=:]\s*[\"']([^\"']+)[\"']"
+tags = ["android", "keystore", "password"]
+
+[rule]
+id = "android-key-password"
+description = "Android Key Password in gradle"
+regex = "(?i)keyPassword\\s*[=:]\s*[\"']([^\"']+)[\"']"
+tags = ["android", "key", "password"]
+
+[rule]
+id = "android-signing-config"
+description = "Android Signing Config with passwords"
+regex = "(?i)signingConfigs\\s*\\{[^}]*(storePassword|keyPassword)\\s*[=:]\s*[\"']([^\"']+)[\"']"
+tags = ["android", "signing", "config"]

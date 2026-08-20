@@ -1,0 +1,322 @@
+{
+  "id": "B1-12",
+  "level": "B1",
+  "level_name": {
+    "es": "Intermedio",
+    "en": "Intermediate",
+    "ar": "متوسط"
+  },
+  "title": {
+    "es": "Repaso B1",
+    "en": "B1 Review",
+    "ar": "مراجعة المستوى B1"
+  },
+  "objectives": [
+    {
+      "es": "Revisar los principales tiempos verbales del nivel B1.",
+      "en": "Review the main verb tenses of the B1 level.",
+      "ar": "مراجعة أهم الأزمنة في المستوى B1."
+    },
+    {
+      "es": "Integrar pronombres relativos, gerundio y vocabulario de las unidades anteriores.",
+      "en": "Integrate relative pronouns, the gerund and vocabulary from previous units.",
+      "ar": "دمج الضمائر الموصولة واسم الفاعل ومفردات الوحدات السابقة."
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la revisión",
+      "ipa": "/ˈla reβiˈsion/",
+      "en": "the review",
+      "ar": "المراجعة"
+    },
+    {
+      "es": "la gramática",
+      "ipa": "/ˈla gɾaˈmatika/",
+      "en": "the grammar",
+      "ar": "القواعد"
+    },
+    {
+      "es": "el contenido",
+      "ipa": "/ˈel konteˈniðo/",
+      "en": "the content",
+      "ar": "المحتوى"
+    },
+    {
+      "es": "dominar",
+      "ipa": "/domiˈnaɾ/",
+      "en": "to master",
+      "ar": "يتقن"
+    },
+    {
+      "es": "practicar",
+      "ipa": "/pɾaktiˈkaɾ/",
+      "en": "to practice",
+      "ar": "يمارس"
+    },
+    {
+      "es": "revisar",
+      "ipa": "/reβiˈsaɾ/",
+      "en": "to review",
+      "ar": "يراجع"
+    },
+    {
+      "es": "concluir",
+      "ipa": "/koˈnkluiɾ/",
+      "en": "to finish",
+      "ar": "يُنهي"
+    },
+    {
+      "es": "la duda",
+      "ipa": "/ˈla ˈduða/",
+      "en": "the doubt",
+      "ar": "الشك / السؤال"
+    },
+    {
+      "es": "el capítulo",
+      "ipa": "/ˈel kaˈpitulo/",
+      "en": "the chapter",
+      "ar": "الفصل"
+    },
+    {
+      "es": "la meta",
+      "ipa": "/ˈla ˈmeta/",
+      "en": "the goal",
+      "ar": "الهدف"
+    },
+    {
+      "es": "el progreso",
+      "ipa": "/ˈel pɾoˈɣɾeso/",
+      "en": "the progress",
+      "ar": "التقدم"
+    },
+    {
+      "es": "la fluidez",
+      "ipa": "/ˈla fluiˈðes/",
+      "en": "the fluency",
+      "ar": "الطلاقة"
+    },
+    {
+      "es": "la dificultad",
+      "ipa": "/ˈla difikuˈltað/",
+      "en": "the difficulty",
+      "ar": "الصعوبة"
+    },
+    {
+      "es": "el resumen",
+      "ipa": "/ˈel reˈsumen/",
+      "en": "the summary",
+      "ar": "الملخص"
+    },
+    {
+      "es": "preparar",
+      "ipa": "/pɾepaˈɾaɾ/",
+      "en": "to prepare",
+      "ar": "يحضّر"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Resumen de los tiempos verbales",
+        "en": "Verb tense summary",
+        "ar": "ملخص الأزمنة"
+      },
+      "explanation": {
+        "es": "En esta unidad revisamos el presente, el pretérito indefinido, el pluscuamperfecto y el condicional. La elección del tiempo depende de cuándo ocurre la acción y del contexto.",
+        "en": "In this unit we review the present, the simple past, the pluperfect and the conditional. The choice of tense depends on when the action happens and on the context.",
+        "ar": "في هذه الوحدة نراجع المضارع والماضي البسيط والماضي التام والماضي المستقبلي. اختيار الزمن يعتمد على زمن حدوث الفعل والسياق."
+      },
+      "examples": [
+        {
+          "es": "Estudio español todos los días.",
+          "en": "I study Portuguese every day.",
+          "ar": "أدرس البرتغالية كل يوم."
+        },
+        {
+          "es": "Ayer estudié durante dos horas.",
+          "en": "Yesterday I studied for two hours.",
+          "ar": "بالأمس درست لمدة ساعتين."
+        },
+        {
+          "es": "Si tuviera más tiempo, estudiaría aún más.",
+          "en": "If I had more time, I would study even more.",
+          "ar": "لو كان لدي وقت أكثر، لدرست أكثر."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Revisión de relativos y gerundio",
+        "en": "Review of relatives and the gerund",
+        "ar": "مراجعة ضمائر الوصل واسم الفاعل"
+      },
+      "explanation": {
+        "es": "Los pronombres relativos unen ideas, y el gerundio describe acciones en curso. Podemos combinarlos en frases más ricas.",
+        "en": "Relative pronouns join ideas, and the gerund describes ongoing actions. We can combine them in richer sentences.",
+        "ar": "تربط ضمائر الوصل الأفكار، ويصف اسم الفاعل الأفعال الجارية. يمكننا دمجهما في جمل أثرى."
+      },
+      "examples": [
+        {
+          "es": "La persona que conocí está viajando ahora.",
+          "en": "The person I met is travelling right now.",
+          "ar": "الشخص الذي قابلته مسافر الآن."
+        },
+        {
+          "es": "El libro que leemos se está discutiendo en clase.",
+          "en": "The book we read is being discussed in class.",
+          "ar": "الكتاب الذي قرأناه يُناقش الآن في الصف."
+        },
+        {
+          "es": "La amiga cuya casa visité está estudiando medicina.",
+          "en": "The friend whose house I visited is studying medicine.",
+          "ar": "صديقتي التي زرت منزلها تدرس الطب."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Planeando la revisión",
+      "en": "Planning the review",
+      "ar": "التخطيط للمراجعة"
+    },
+    "lines": [
+      {
+        "speaker": "Bia",
+        "es": "¡Terminamos el nivel B1! Qué progreso, ¿eh?",
+        "en": "We finished level B1! What progress, right?",
+        "ar": "أنهينا المستوى B1! يا له من تقدم، أليس كذلك؟"
+      },
+      {
+        "speaker": "Ígor",
+        "es": "Sí, pero todavía tengo dudas sobre el condicional.",
+        "en": "Yes, but I still have doubts about the conditional.",
+        "ar": "نعم، لكن ما زال لديّ شكوك حول الماضي المستقبلي."
+      },
+      {
+        "speaker": "Bia",
+        "es": "Creo que con más práctica lo vas a dominar.",
+        "en": "I think with more practice you will master it.",
+        "ar": "أعتقد أنك ستتقنه مع المزيد من التمرين."
+      },
+      {
+        "speaker": "Ígor",
+        "es": "¿Vamos a revisar el capítulo de pronombres relativos?",
+        "en": "Shall we review the chapter on relative pronouns?",
+        "ar": "هل نراجع فصل ضمائر الوصل؟"
+      },
+      {
+        "speaker": "Bia",
+        "es": "¡Buena idea! Estoy preparando un resumen hoy.",
+        "en": "Good idea! I am preparing a summary today.",
+        "ar": "فكرة جيدة! أنا أحضّر ملخصاً اليوم."
+      },
+      {
+        "speaker": "Ígor",
+        "es": "Si concluyo las actividades, estaré listo para el próximo nivel.",
+        "en": "If I finish the activities, I will be ready for the next level.",
+        "ar": "إذا أنهيت الأنشطة، سأكون جاهزاً للمستوى التالي."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Camino a la fluidez",
+      "en": "The path to fluency",
+      "ar": "الطريق إلى الطلاقة"
+    },
+    "text_es": "Alcanzar la fluidez exige práctica constante. Las personas que estudian todos los días progresan más. Si hubieras empezado antes, ya estarías hablando con más confianza. Sin embargo, nunca es tarde para revisar y mejorar.",
+    "text_en": "Reaching fluency requires constant practice. The people who study every day make more progress. If you had started earlier, you would already be speaking with more confidence. However, it is never too late to review and improve.",
+    "text_ar": "الوصول إلى الطلاقة يتطلب ممارسة مستمرة. الأشخاص الذين يدرسون كل يوم يحققون تقدماً أكبر. لو كنت بدأت مبكراً، لكنت تتحدث بالفعل بثقة أكبر. ومع ذلك، لا يفت الأوان أبداً للمراجعة والتحسن."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: \"Si tuviera tiempo, ___ español todos los días.\"",
+        "en": "Complete: \"If I had time, I ___ Portuguese every day.\"",
+        "ar": "أكمل: \"لو كان لدي وقت، ___ البرتغالية كل يوم.\""
+      },
+      "options": [
+        {
+          "es": "estudiaría",
+          "en": "would study",
+          "ar": "لدرست"
+        },
+        {
+          "es": "estudio",
+          "en": "study",
+          "ar": "أدرس"
+        },
+        {
+          "es": "estudié",
+          "en": "studied",
+          "ar": "درست"
+        },
+        {
+          "es": "estudiaba",
+          "en": "used to study",
+          "ar": "كنت أدرس"
+        }
+      ],
+      "answer": "estudiaría",
+      "explanation": {
+        "es": "En condiciones hipotéticas, la oración principal usa el condicional: 'estudiaría'.",
+        "en": "In hypothetical conditions, the main clause uses the conditional: 'estudaria'.",
+        "ar": "في الشروط الافتراضية، تستخدم الجملة الرئيسية الماضي المستقبلي: 'سأدرس'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: \"La amiga ___ me ayudó es española.\"",
+        "en": "Complete: \"The friend ___ helped me is Brazilian.\"",
+        "ar": "أكمل: \"الصديقة ___ ساعدتني برازيلية.\""
+      },
+      "options": [
+        {
+          "es": "que",
+          "en": "who",
+          "ar": "التي"
+        },
+        {
+          "es": "quien",
+          "en": "who (prep.)",
+          "ar": "من"
+        },
+        {
+          "es": "donde",
+          "en": "where",
+          "ar": "حيث"
+        },
+        {
+          "es": "cuyo",
+          "en": "whose",
+          "ar": "التي لها"
+        }
+      ],
+      "answer": "que",
+      "explanation": {
+        "es": "'Que' es el pronombre relativo para sujeto u objeto sin preposición: 'la amiga que me ayudó'.",
+        "en": "'Que' is the relative pronoun for subject or object without a preposition: 'the friend who helped me'.",
+        "ar": "'que' هو الضمير الموصول للفاعل أو المفعول بدون حرف جر: 'الصديقة التي ساعدتني'."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al inglés: \"Él está practicando español todos los días.\"",
+        "en": "Translate to English: \"Ele está praticando português todos os dias.\"",
+        "ar": "ترجم إلى الإنجليزية: \"Ele está praticando português todos os dias.\""
+      },
+      "options": [],
+      "answer": "He is practicing Portuguese every day.",
+      "explanation": {
+        "es": "'Está practicando' usa estar + gerundio para una acción en curso.",
+        "en": "'Está praticando' uses estar + gerund for an ongoing action.",
+        "ar": "يستخدم 'está praticando' فعل estar مع اسم الفاعل لفعل جارٍ."
+      }
+    }
+  ]
+}

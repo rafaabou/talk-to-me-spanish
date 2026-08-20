@@ -1,0 +1,322 @@
+{
+  "id": "B1-04",
+  "level": "B1",
+  "level_name": {
+    "es": "Intermedio",
+    "en": "Intermediate",
+    "ar": "متوسط"
+  },
+  "title": {
+    "es": "Medios y Noticias",
+    "en": "Media and News",
+    "ar": "الإعلام والأخبار"
+  },
+  "objectives": [
+    {
+      "es": "Comprender y producir vocabulario de medios y noticias.",
+      "en": "Understand and produce media and news vocabulary.",
+      "ar": "فهم واستخدام مفردات الإعلام والأخبار."
+    },
+    {
+      "es": "Usar la voz pasiva y el discurso indirecto para relatar información.",
+      "en": "Use the passive voice and reported speech to relay information.",
+      "ar": "استخدام المبني للمجهول والكلام المنقول لنقل المعلومات."
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la noticia",
+      "ipa": "/ˈla noˈtisia/",
+      "en": "the news item",
+      "ar": "الخبر"
+    },
+    {
+      "es": "el periódico",
+      "ipa": "/ˈel peˈɾioðiko/",
+      "en": "the newspaper",
+      "ar": "الجريدة"
+    },
+    {
+      "es": "la revista",
+      "ipa": "/ˈla reˈβista/",
+      "en": "the magazine",
+      "ar": "المجلة"
+    },
+    {
+      "es": "el reportero",
+      "ipa": "/ˈel repoˈɾteɾo/",
+      "en": "the reporter",
+      "ar": "المراسل"
+    },
+    {
+      "es": "el titular",
+      "ipa": "/ˈel tituˈlaɾ/",
+      "en": "the headline",
+      "ar": "العنوان الرئيسي"
+    },
+    {
+      "es": "el reportaje",
+      "ipa": "/ˈel repoˈɾtaxe/",
+      "en": "the news report",
+      "ar": "التقرير"
+    },
+    {
+      "es": "la televisión",
+      "ipa": "/ˈla teleβiˈsion/",
+      "en": "the television",
+      "ar": "التلفزيون"
+    },
+    {
+      "es": "la radio",
+      "ipa": "/ˈla ˈraðio/",
+      "en": "the radio",
+      "ar": "الراديو / الإذاعة"
+    },
+    {
+      "es": "el periodista",
+      "ipa": "/ˈel peɾioˈðista/",
+      "en": "the journalist",
+      "ar": "الصحفي"
+    },
+    {
+      "es": "el noticiero",
+      "ipa": "/ˈel notiˈsieɾo/",
+      "en": "the newscast",
+      "ar": "نشرة الأخبار"
+    },
+    {
+      "es": "el chisme",
+      "ipa": "/ˈel ˈtʃisme/",
+      "en": "the gossip",
+      "ar": "النميمة"
+    },
+    {
+      "es": "verídico",
+      "ipa": "/beˈɾiðiko/",
+      "en": "truthful",
+      "ar": "حقيقي / موثوق"
+    },
+    {
+      "es": "el rumor",
+      "ipa": "/ˈel ruˈmoɾ/",
+      "en": "the rumor",
+      "ar": "الشائعة"
+    },
+    {
+      "es": "la audiencia",
+      "ipa": "/ˈla auˈðiensia/",
+      "en": "the audience / ratings",
+      "ar": "الجمهور / المتابَعة"
+    },
+    {
+      "es": "en vivo",
+      "ipa": "/ˈen ˈbiβo/",
+      "en": "live",
+      "ar": "مباشر"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Voz pasiva en las noticias",
+        "en": "Passive voice in the news",
+        "ar": "المبني للمجهول في الأخبار"
+      },
+      "explanation": {
+        "es": "Las noticias suelen destacar la acción, no quien la realiza. Por eso usamos mucho la voz pasiva con 'ser' en el tiempo adecuado y el participio.",
+        "en": "News reports usually highlight the action, not the doer. That is why the passive voice with 'ser' in the right tense and the participle is very common.",
+        "ar": "عادةً ما تُبرز الأخبار الفعل وليس الفاعل. لذلك نستخدم كثيراً المبني للمجهول مع 'ser' في الزمن المناسب واسم المفعول."
+      },
+      "examples": [
+        {
+          "es": "La noticia fue publicada esta mañana.",
+          "en": "The news was published this morning.",
+          "ar": "نُشر الخبر هذا الصباح."
+        },
+        {
+          "es": "El accidente fue confirmado por la policía.",
+          "en": "The accident was confirmed by the police.",
+          "ar": "أكّدت الشرطة الحادث."
+        },
+        {
+          "es": "La información será divulgada mañana.",
+          "en": "The information will be released tomorrow.",
+          "ar": "سيُكشَف عن المعلومات غداً."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Discurso indirecto",
+        "en": "Reported speech",
+        "ar": "الكلام المنقول"
+      },
+      "explanation": {
+        "es": "Para relatar lo que alguien dijo, usamos 'decir que', 'afirmar que' o 'anunciar que', ajustando los tiempos verbales.",
+        "en": "To report what someone said, we use 'dizer que', 'afirmar que' or 'anunciar que', adjusting the verb tenses.",
+        "ar": "لنقل ما قاله شخص ما، نستخدم 'dizer que' أو 'afirmar que' أو 'anunciar que' مع تعديل الأزمنة."
+      },
+      "examples": [
+        {
+          "es": "El presidente dijo que la economía está mejorando.",
+          "en": "The president said that the economy is improving.",
+          "ar": "قال الرئيس إن الاقتصاد يتحسن."
+        },
+        {
+          "es": "La reportera afirmó que la reunión ocurrirá mañana.",
+          "en": "The reporter stated that the meeting will happen tomorrow.",
+          "ar": "أكّدت المراسلة أن الاجتماع سيُعقد غداً."
+        },
+        {
+          "es": "Ellos anunciaron que el resultado saldrá la semana que viene.",
+          "en": "They announced that the result will come out next week.",
+          "ar": "أعلنوا أن النتيجة ستصدر الأسبوع المقبل."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Hablando de noticias",
+      "en": "Talking about the news",
+      "ar": "التحدث عن الأخبار"
+    },
+    "lines": [
+      {
+        "speaker": "Juan",
+        "es": "¿Viste las noticias hoy?",
+        "en": "Did you watch the news today?",
+        "ar": "هل شاهدت الأخبار اليوم؟"
+      },
+      {
+        "speaker": "Beatriz",
+        "es": "No, todavía no tuve tiempo.",
+        "en": "No, I haven't had time yet.",
+        "ar": "لا، لم أجد وقتاً بعد."
+      },
+      {
+        "speaker": "Juan",
+        "es": "Hubo un gran accidente en la carretera.",
+        "en": "There was a big accident on the highway.",
+        "ar": "وقع حادث كبير على الطريق السريع."
+      },
+      {
+        "speaker": "Beatriz",
+        "es": "¿En serio? ¿Fue divulgado en el periódico?",
+        "en": "Really? Was it reported in the newspaper?",
+        "ar": "حقاً؟ هل نُشر في الجريدة؟"
+      },
+      {
+        "speaker": "Juan",
+        "es": "Sí, la noticia fue publicada esta mañana.",
+        "en": "Yes, the news was published this morning.",
+        "ar": "نعم، نُشر الخبر هذا الصباح."
+      },
+      {
+        "speaker": "Beatriz",
+        "es": "Necesito verificar si es verídico.",
+        "en": "I need to check if it is true.",
+        "ar": "أحتاج إلى التحقق من صحة الخبر."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Noticia del día",
+      "en": "News of the day",
+      "ar": "أخبار اليوم"
+    },
+    "text_es": "El alcalde anunció que se construirá una nueva línea de metro. La obra fue aprobada por el consejo municipal. Los vecinos celebraron la decisión. La construcción comenzará el próximo año.",
+    "text_en": "The mayor announced that a new subway line will be built. The project was approved by the city council. Residents celebrated the decision. Construction will begin next year.",
+    "text_ar": "أعلن رئيس البلدية أن خط مترو جديداً سيُبنى. وافق مجلس المدينة على المشروع. واحتفل السكان بالقرار. وسيبدأ البناء في العام المقبل."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa en voz pasiva: \"La noticia ___ publicada ayer.\"",
+        "en": "Complete in the passive voice: \"The news ___ published yesterday.\"",
+        "ar": "أكمل في المبني للمجهول: \"الخبر ___ بالأمس.\""
+      },
+      "options": [
+        {
+          "es": "fue",
+          "en": "was",
+          "ar": "نُشر"
+        },
+        {
+          "es": "es",
+          "en": "is",
+          "ar": "يُنشر"
+        },
+        {
+          "es": "será",
+          "en": "will be",
+          "ar": "سيُنشر"
+        },
+        {
+          "es": "sea",
+          "en": "be (subjunctive)",
+          "ar": "أن يُنشر"
+        }
+      ],
+      "answer": "fue",
+      "explanation": {
+        "es": "'Ayer' indica pasado concluido, así que usamos 'fue' + participio.",
+        "en": "'Ontem' (yesterday) indicates a completed past action, so we use 'foi' + participle.",
+        "ar": "'ontem' أي أمس تدل على فعل مكتمل في الماضي، لذلك نستخدم 'foi' مع اسم المفعول."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa el discurso indirecto: \"La reportera dijo ___ el resultado saldrá mañana.\"",
+        "en": "Complete the reported speech: \"The reporter said ___ the result will come out tomorrow.\"",
+        "ar": "أكمل الكلام المنقول: \"قالت المراسلة ___ النتيجة ستصدر غداً.\""
+      },
+      "options": [
+        {
+          "es": "que",
+          "en": "that",
+          "ar": "أن"
+        },
+        {
+          "es": "si",
+          "en": "if",
+          "ar": "إذا"
+        },
+        {
+          "es": "quien",
+          "en": "who",
+          "ar": "من"
+        },
+        {
+          "es": "donde",
+          "en": "where",
+          "ar": "حيث"
+        }
+      ],
+      "answer": "que",
+      "explanation": {
+        "es": "El discurso indirecto con 'decir', 'afirmar' o 'anunciar' usa la conjunción 'que'.",
+        "en": "Reported speech with 'dizer', 'afirmar' or 'anunciar' uses the conjunction 'que'.",
+        "ar": "الكلام المنقول مع 'dizer' أو 'afirmar' أو 'anunciar' يستخدم أداة الربط 'que' أي أن."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al inglés: \"El periodista afirmó que la economía está mejorando.\"",
+        "en": "Translate to English: \"O jornalista afirmou que a economia está melhorando.\"",
+        "ar": "ترجم إلى الإنجليزية: \"O jornalista afirmou que a economia está melhorando.\""
+      },
+      "options": [],
+      "answer": "The journalist stated that the economy is improving.",
+      "explanation": {
+        "es": "'Afirmó que' equivale a 'stated that' en inglés.",
+        "en": "'Afirmou que' corresponds to 'stated that' in English.",
+        "ar": "تكافئ 'afirmou que' عبارة 'stated that' في الإنجليزية أي أكّد أن."
+      }
+    }
+  ]
+}

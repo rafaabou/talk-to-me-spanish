@@ -1,0 +1,328 @@
+{
+  "id": "B1-06",
+  "level": "B1",
+  "level_name": {
+    "es": "Intermedio",
+    "en": "Intermediate",
+    "ar": "متوسط"
+  },
+  "title": {
+    "es": "Fútbol y Deportes",
+    "en": "Soccer and Sports",
+    "ar": "كرة القدم والرياضة"
+  },
+  "objectives": [
+    {
+      "es": "Ampliar el vocabulario de fútbol y deportes.",
+      "en": "Expand soccer and sports vocabulary.",
+      "ar": "توسيع مفردات كرة القدم والرياضة."
+    },
+    {
+      "es": "Usar comparativos, superlativos y el verbo 'quedarse' en contextos deportivos.",
+      "en": "Use comparatives, superlatives and the verb 'ficar' in sports contexts.",
+      "ar": "استخدام صيغ المقارنة والتفضيل والفعل 'ficar' في السياقات الرياضية."
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el fútbol",
+      "ipa": "/ˈel ˈfutbol/",
+      "en": "the soccer",
+      "ar": "كرة القدم"
+    },
+    {
+      "es": "el equipo",
+      "ipa": "/ˈel eˈkipo/",
+      "en": "the team",
+      "ar": "الفريق"
+    },
+    {
+      "es": "el jugador",
+      "ipa": "/ˈel xuɣaˈðoɾ/",
+      "en": "the player",
+      "ar": "اللاعب"
+    },
+    {
+      "es": "el partido",
+      "ipa": "/ˈel paˈɾtiðo/",
+      "en": "the match",
+      "ar": "المباراة"
+    },
+    {
+      "es": "el gol",
+      "ipa": "/ˈel ˈgol/",
+      "en": "the goal",
+      "ar": "الهدف"
+    },
+    {
+      "es": "la afición",
+      "ipa": "/ˈla afiˈsion/",
+      "en": "the fans",
+      "ar": "جمهور المشجعين"
+    },
+    {
+      "es": "el estadio",
+      "ipa": "/ˈel eˈstaðio/",
+      "en": "the stadium",
+      "ar": "الملعب"
+    },
+    {
+      "es": "el campeonato",
+      "ipa": "/ˈel kampeoˈnato/",
+      "en": "the championship",
+      "ar": "البطولة"
+    },
+    {
+      "es": "el entrenador",
+      "ipa": "/ˈel entɾenaˈðoɾ/",
+      "en": "the coach",
+      "ar": "المدرب"
+    },
+    {
+      "es": "el árbitro",
+      "ipa": "/ˈel ˈaɾbitɾo/",
+      "en": "the referee",
+      "ar": "الحكم"
+    },
+    {
+      "es": "la tarjeta",
+      "ipa": "/ˈla taˈɾxeta/",
+      "en": "the card",
+      "ar": "البطاقة"
+    },
+    {
+      "es": "el penalti",
+      "ipa": "/ˈel peˈnalti/",
+      "en": "the penalty",
+      "ar": "ركلة الجزاء"
+    },
+    {
+      "es": "el campeón",
+      "ipa": "/ˈel kaˈmpeon/",
+      "en": "the champion",
+      "ar": "البطل"
+    },
+    {
+      "es": "la derrota",
+      "ipa": "/ˈla deˈrota/",
+      "en": "the defeat",
+      "ar": "الهزيمة"
+    },
+    {
+      "es": "la victoria",
+      "ipa": "/ˈla biˈktoɾia/",
+      "en": "the victory",
+      "ar": "الانتصار"
+    },
+    {
+      "es": "el ejercicio",
+      "ipa": "/ˈel exeˈɾsisio/",
+      "en": "the exercise",
+      "ar": "التمرين"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Comparativos y superlativos",
+        "en": "Comparatives and superlatives",
+        "ar": "المقارنة والتفضيل"
+      },
+      "explanation": {
+        "es": "Usamos 'más ... que' y 'menos ... que' para comparar. El superlativo usa 'el/la más' o formas especiales como 'mejor' y 'peor'.",
+        "en": "We use 'mais ... que/do que' and 'menos ... que/do que' to compare. The superlative uses 'o/a mais' or special forms like 'melhor' and 'pior'.",
+        "ar": "نستخدم 'mais ... que/do que' و'menos ... que/do que' للمقارنة. أما صيغة التفضيل فتستخدم 'o/a mais' أو صيغاً خاصة مثل 'melhor' (أفضل) و'pior' (أسوأ)."
+      },
+      "examples": [
+        {
+          "es": "Este equipo es más fuerte que el nuestro.",
+          "en": "This team is stronger than ours.",
+          "ar": "هذا الفريق أقوى من فريقنا."
+        },
+        {
+          "es": "El delantero es el mejor jugador del campeonato.",
+          "en": "The striker is the best player of the championship.",
+          "ar": "المهاجم أفضل لاعب في البطولة."
+        },
+        {
+          "es": "Aquel equipo está menos organizado que el nuestro.",
+          "en": "That team is less organized than ours.",
+          "ar": "ذلك الفريق أقل تنظيماً من فريقنا."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "El verbo 'quedarse' en contextos deportivos",
+        "en": "The verb 'ficar' in sports contexts",
+        "ar": "الفعل 'ficar' في السياقات الرياضية"
+      },
+      "explanation": {
+        "es": "'Quedarse' expresa estado, resultado o posición. En el deporte es común en expresiones como 'quedar en primer lugar', 'ponerse nervioso' y 'quedar fuera'.",
+        "en": "'Ficar' expresses state, result or position. In sports it is common in expressions like 'to finish first', 'to get nervous' and 'to be left out'.",
+        "ar": "يعبّر 'ficar' عن الحالة أو النتيجة أو الموضع. في الرياضة، يُستخدم كثيراً في تعبيرات مثل 'يحتّل المركز الأول' و'يصبح متوتراً' و'يُستبعد'."
+      },
+      "examples": [
+        {
+          "es": "El equipo quedó en segundo lugar en la tabla.",
+          "en": "The team finished second in the standings.",
+          "ar": "احتّل الفريق المركز الثاني في الترتيب."
+        },
+        {
+          "es": "Los jugadores se pusieron nerviosos antes del partido.",
+          "en": "The players got nervous before the match.",
+          "ar": "أصبح اللاعبون متوترين قبل المباراة."
+        },
+        {
+          "es": "Él quedó fuera por una lesión.",
+          "en": "He was left out because of an injury.",
+          "ar": "استُبعد بسبب إصابة."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Día de partido",
+      "en": "Match day",
+      "ar": "يوم المباراة"
+    },
+    "lines": [
+      {
+        "speaker": "Tiago",
+        "es": "¿Vas al estadio hoy?",
+        "en": "Are you going to the stadium today?",
+        "ar": "هل ستذهب إلى الملعب اليوم؟"
+      },
+      {
+        "speaker": "Nina",
+        "es": "¡Sí voy. La afición está animada!",
+        "en": "Yes, I am. The fans are excited!",
+        "ar": "نعم سأذهب. الجمهور متحمّس!"
+      },
+      {
+        "speaker": "Tiago",
+        "es": "Este equipo es más fuerte que el rival.",
+        "en": "This team is stronger than the rival.",
+        "ar": "هذا الفريق أقوى من الخصم."
+      },
+      {
+        "speaker": "Nina",
+        "es": "Pero el entrenador está preocupado por la defensa.",
+        "en": "But the coach is worried about the defense.",
+        "ar": "لكن المدرب قلق بشأن الدفاع."
+      },
+      {
+        "speaker": "Tiago",
+        "es": "Si el goleador marca, quedaremos en primer lugar.",
+        "en": "If the top scorer scores, we will finish first.",
+        "ar": "إذا سجّل الهداف، فسنحتّل المركز الأول."
+      },
+      {
+        "speaker": "Nina",
+        "es": "¡Una victoria hoy sería increíble!",
+        "en": "A victory today would be amazing!",
+        "ar": "سيكون الفوز اليوم رائعاً!"
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "La final del campeonato",
+      "en": "The championship final",
+      "ar": "نهائي البطولة"
+    },
+    "text_es": "La final del campeonato se disputó el sábado. El equipo visitante ganó por dos a uno. El jugador que marcó el gol fue el más joven del campeonato. La afición celebró la victoria con mucha alegría.",
+    "text_en": "The championship final was played on Saturday. The visiting team won two to one. The player who scored the goal was the youngest of the championship. The fans celebrated the victory with great joy.",
+    "text_ar": "أُقيم نهائي البطولة يوم السبت. فاز الفريق الضيف بهدفين لهدف. اللاعب الذي سجّل الهدف كان الأصغر في البطولة. واحتفل الجمهور بالفوز بفرح كبير."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa con el superlativo: \"Este jugador es el ___ del equipo.\"",
+        "en": "Complete with the superlative: \"This player is the ___ on the team.\"",
+        "ar": "أكمل بصيغة التفضيل: \"هذا اللاعب هو ___ في الفريق.\""
+      },
+      "options": [
+        {
+          "es": "mejor",
+          "en": "best",
+          "ar": "الأفضل"
+        },
+        {
+          "es": "más bueno",
+          "en": "more good",
+          "ar": "أكثر جودة"
+        },
+        {
+          "es": "bien",
+          "en": "well",
+          "ar": "حسناً"
+        },
+        {
+          "es": "muy bueno",
+          "en": "very good",
+          "ar": "جيد جداً"
+        }
+      ],
+      "answer": "mejor",
+      "explanation": {
+        "es": "'Bueno' tiene la forma comparativa/superlativa irregular 'mejor', nunca 'más bueno'.",
+        "en": "'Bom' has the irregular comparative/superlative form 'melhor', never 'mais bom'.",
+        "ar": "لكلمة 'bom' (جيد) صيغة مقارنة/تفضيل شاذة هي 'melhor'، ولا تُقال 'mais bom'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: \"El equipo ___ nervioso antes del partido.\"",
+        "en": "Complete: \"The team ___ nervous before the match.\"",
+        "ar": "أكمل: \"الفريق ___ متوتراً قبل المباراة.\""
+      },
+      "options": [
+        {
+          "es": "se puso",
+          "en": "got",
+          "ar": "أصبح"
+        },
+        {
+          "es": "hizo",
+          "en": "did/made",
+          "ar": "فعل"
+        },
+        {
+          "es": "tuvo",
+          "en": "had",
+          "ar": "كان عنده"
+        },
+        {
+          "es": "dijo",
+          "en": "said",
+          "ar": "قال"
+        }
+      ],
+      "answer": "se puso",
+      "explanation": {
+        "es": "'Quedarse + adjetivo' indica cambio de estado: 'se puso nervioso'.",
+        "en": "'Ficar + adjective' indicates a change of state: 'got nervous'.",
+        "ar": "'ficar + صفة' تدل على تغيّر الحالة: 'أصبح متوتراً'."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"La afición celebró la victoria en el estadio.\"",
+        "en": "Translate to Portuguese: \"The fans celebrated the victory in the stadium.\"",
+        "ar": "ترجم إلى البرتغالية: \"The fans celebrated the victory in the stadium.\""
+      },
+      "options": [],
+      "answer": "La afición celebró la victoria en el estadio.",
+      "explanation": {
+        "es": "'Afición' es el conjunto de aficionados, y 'celebrar' significa festejar.",
+        "en": "'Torcida' is the group of fans, and 'comemorar' means to celebrate.",
+        "ar": "'torcida' تعني جمهور المشجعين، و'comemorar' تعني يحتفل."
+      }
+    }
+  ]
+}

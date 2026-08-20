@@ -1,0 +1,323 @@
+{
+  "id": "A1-11",
+  "level": "A1",
+  "level_name": {
+    "es": "Principiante",
+    "en": "Beginner",
+    "ar": "مبتدئ"
+  },
+  "title": {
+    "es": "Horas y Rutina Diaria",
+    "en": "Time and Daily Routine",
+    "ar": "الساعة والروتين اليومي"
+  },
+  "objectives": [
+    {
+      "es": "Decir la hora en español",
+      "en": "Tell time in Portuguese",
+      "ar": "قول الساعة بالبرتغالية"
+    },
+    {
+      "es": "Hablar sobre la rutina diaria",
+      "en": "Talk about daily routine",
+      "ar": "التحدث عن الروتين اليومي"
+    },
+    {
+      "es": "Usar 'por la mañana', 'por la tarde', 'por la noche'",
+      "en": "Use 'de manhã', 'à tarde', 'à noite'",
+      "ar": "استخدام تعبيرات الصباح والمساء والليل"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la hora",
+      "ipa": "/ˈla ˈoɾa/",
+      "en": "the hour",
+      "ar": "الساعة"
+    },
+    {
+      "es": "el reloj",
+      "ipa": "/ˈel reˈlox/",
+      "en": "the clock",
+      "ar": "الساعة"
+    },
+    {
+      "es": "¿qué hora es?",
+      "ipa": "/ˈke ˈoɾa ˈes/",
+      "en": "what time is it?",
+      "ar": "كم الساعة؟"
+    },
+    {
+      "es": "es la una",
+      "ipa": "/ˈes ˈla ˈuna/",
+      "en": "it's one o'clock",
+      "ar": "الساعة الواحدة"
+    },
+    {
+      "es": "son las dos",
+      "ipa": "/ˈson ˈlas ˈdos/",
+      "en": "it's two o'clock",
+      "ar": "الساعة الثانية"
+    },
+    {
+      "es": "por la mañana",
+      "ipa": "/ˈpoɾ ˈla maˈɲana/",
+      "en": "in the morning",
+      "ar": "في الصباح"
+    },
+    {
+      "es": "por la tarde",
+      "ipa": "/ˈpoɾ ˈla ˈtaɾde/",
+      "en": "in the afternoon",
+      "ar": "في الظهيرة"
+    },
+    {
+      "es": "por la noche",
+      "ipa": "/ˈpoɾ ˈla ˈnotʃe/",
+      "en": "at night",
+      "ar": "في الليل"
+    },
+    {
+      "es": "despertarse",
+      "ipa": "/despeˈɾtaɾse/",
+      "en": "to wake up",
+      "ar": "يستيقظ"
+    },
+    {
+      "es": "levantarse",
+      "ipa": "/leβaˈntaɾse/",
+      "en": "to get up",
+      "ar": "يقوم"
+    },
+    {
+      "es": "ducharse",
+      "ipa": "/duˈtʃaɾse/",
+      "en": "to shower",
+      "ar": "يستحم"
+    },
+    {
+      "es": "desayunar",
+      "ipa": "/desaʝuˈnaɾ/",
+      "en": "to have breakfast",
+      "ar": "يتناول الفطور"
+    },
+    {
+      "es": "salir",
+      "ipa": "/saˈliɾ/",
+      "en": "to leave",
+      "ar": "يخرج"
+    },
+    {
+      "es": "llegar",
+      "ipa": "/ʝeˈɣaɾ/",
+      "en": "to arrive",
+      "ar": "يصل"
+    },
+    {
+      "es": "dormir",
+      "ipa": "/doˈɾmiɾ/",
+      "en": "to sleep",
+      "ar": "ينام"
+    },
+    {
+      "es": "la mañana",
+      "ipa": "/ˈla maˈɲana/",
+      "en": "the morning",
+      "ar": "الصباح"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Diciendo la Hora",
+        "en": "Telling Time",
+        "ar": "قول الوقت"
+      },
+      "explanation": {
+        "es": "Para la hora exacta: 'Es la una' (1:00), 'Son las dos' (2:00). Para los minutos: 'Son las tres y cuarto' (3:15), 'Son las cuatro y media' (4:30), 'Son las seis menos cinco' (5:55). 'Media' = 30 min.",
+        "en": "For the exact hour: 'É uma hora' (1:00), 'São duas horas' (2:00). For minutes: 'São três e quinze' (3:15), 'São quatro e meia' (4:30), 'São cinco para as seis' (5:55). 'Meia' = 30 minutes.",
+        "ar": "للساعة الصحيحة: 'É uma hora' (الساعة الواحدة)، 'São duas horas' (الساعة الثانية). للدقائق: 'São três e quinze' (3:15)، 'São quatro e meia' (4:30)، 'São cinco para as seis' (5:55). 'meia' = 30 دقيقة."
+      },
+      "examples": [
+        {
+          "es": "¿Qué hora es? Son las ocho.",
+          "en": "What time is it? It's eight o'clock.",
+          "ar": "كم الساعة؟ إنها الثامنة."
+        },
+        {
+          "es": "Es la una de la tarde.",
+          "en": "It's one in the afternoon.",
+          "ar": "إنها الواحدة ظهرًا."
+        },
+        {
+          "es": "Son las nueve menos diez.",
+          "en": "It's ten to nine.",
+          "ar": "إنها العاشرة إلى التاسعة."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Rutina Diaria",
+        "en": "Daily Routine",
+        "ar": "الروتين اليومي"
+      },
+      "explanation": {
+        "es": "Para describir la rutina: 'Me despierto a las siete' (I wake up at seven). 'A las' = at (time). 'Por la mañana' (in the morning), 'por la tarde' (in the afternoon), 'por la noche' (at night). Ejemplo: 'Por la mañana, desayuno y salgo al trabajo.'",
+        "en": "To describe routine: 'Eu acordo às sete horas' (I wake up at seven). 'Às' = at (time). 'De manhã' (in the morning), 'à tarde' (in the afternoon), 'à noite' (at night). Example: 'De manhã, eu tomo café e saio para o trabalho.' (In the morning, I have breakfast and leave for work.)",
+        "ar": "لوصف الروتين: 'Eu acordo às sete horas' (أستيقظ في السابعة). 'às' = في (للوقت). 'de manhã' (في الصباح)، 'à tarde' (في الظهيرة)، 'à noite' (في الليل). مثال: 'De manhã, eu tomo café e saio para o trabalho.' (في الصباح، أتناول الفطور وأخرج إلى العمل.)"
+      },
+      "examples": [
+        {
+          "es": "Me despierto a las seis y media.",
+          "en": "I wake up at six thirty.",
+          "ar": "أستيقظ في السادسة والنصف."
+        },
+        {
+          "es": "Por la noche, veo la tele.",
+          "en": "At night, I watch TV.",
+          "ar": "في الليل، أشاهد التلفاز."
+        },
+        {
+          "es": "Llego a casa por la tarde.",
+          "en": "I arrive home in the afternoon.",
+          "ar": "أصل إلى المنزل في الظهيرة."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "La Rutina de Bruno",
+      "en": "Bruno's Routine",
+      "ar": "روتين برونو"
+    },
+    "lines": [
+      {
+        "speaker": "Amiga",
+        "es": "Bruno, ¿a qué hora te despiertas?",
+        "en": "Bruno, what time do you wake up?",
+        "ar": "برونو، في أي ساعة تستيقظ؟"
+      },
+      {
+        "speaker": "Bruno",
+        "es": "Me despierto a las seis y media de la mañana.",
+        "en": "I wake up at six thirty in the morning.",
+        "ar": "أستيقظ في السادسة والنصف صباحًا."
+      },
+      {
+        "speaker": "Amiga",
+        "es": "¿Y qué haces después?",
+        "en": "And what do you do after?",
+        "ar": "وماذا تفعل بعد ذلك؟"
+      },
+      {
+        "speaker": "Bruno",
+        "es": "Me ducho, desayuno y salgo a las ocho.",
+        "en": "I shower, have breakfast and leave at eight.",
+        "ar": "أستحم، أتناول الفطور وأخرج في الثامنة."
+      },
+      {
+        "speaker": "Amiga",
+        "es": "¿A qué hora llegas a casa?",
+        "en": "What time do you arrive home?",
+        "ar": "في أي ساعة تصل إلى المنزل؟"
+      },
+      {
+        "speaker": "Bruno",
+        "es": "A las seis de la tarde. Después duermo temprano.",
+        "en": "At six in the evening. Then I sleep early.",
+        "ar": "في السادسة مساءً. ثم أنام مبكرًا."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Un Día en la Vida de Luisa",
+      "en": "A Day in the Life of Luiza",
+      "ar": "يوم من حياة لويزا"
+    },
+    "text_es": "Luisa se despierta a las siete. Por la mañana desayuna café con pan y sale al trabajo a las ocho y media. Al mediodía almuerza cerca de la oficina. Por la tarde vuelve a casa. Por la noche cena con la familia y duerme a las once.",
+    "text_en": "Luiza wakes up at seven. In the morning, she has coffee with bread and leaves for work at eight thirty. At noon, she has lunch near the office. In the afternoon, she returns home. At night, she has dinner with her family and sleeps at eleven.",
+    "text_ar": "تستيقظ لويزا في السابعة. في الصباح، تتناول القهوة مع الخبز وتخرج إلى العمل في الثامنة والنصف. عند الظهيرة، تتناول الغداء قرب المكتب. في الظهيرة، تعود إلى المنزل. في الليل، تتناول العشاء مع عائلتها وتنام في الحادية عشرة."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice '7:30'?",
+        "en": "How do you say '7:30'?",
+        "ar": "كيف تقول '7:30'؟"
+      },
+      "options": [
+        {
+          "es": "siete y media",
+          "en": "sete e meia",
+          "ar": "sete e meia"
+        },
+        {
+          "es": "siete y cuarto",
+          "en": "sete e quinze",
+          "ar": "sete e quinze"
+        },
+        {
+          "es": "ocho y media",
+          "en": "oito e meia",
+          "ar": "oito e meia"
+        }
+      ],
+      "answer": "siete y media",
+      "explanation": {
+        "es": "7:30 = 'siete y media'.",
+        "en": "7:30 = 'sete e meia'.",
+        "ar": "7:30 = 'sete e meia'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué expresión significa 'in the morning'?",
+        "en": "Which expression means 'in the morning'?",
+        "ar": "أي عبارة تعني 'in the morning'؟"
+      },
+      "options": [
+        {
+          "es": "por la noche",
+          "en": "à noite",
+          "ar": "à noite"
+        },
+        {
+          "es": "por la mañana",
+          "en": "de manhã",
+          "ar": "de manhã"
+        },
+        {
+          "es": "por la tarde",
+          "en": "à tarde",
+          "ar": "à tarde"
+        }
+      ],
+      "answer": "por la mañana",
+      "explanation": {
+        "es": "'Por la mañana' = in the morning.",
+        "en": "'De manhã' = in the morning.",
+        "ar": "'de manhã' = في الصباح."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'to sleep'",
+        "en": "Translate: 'to sleep'",
+        "ar": "ترجم: 'to sleep'"
+      },
+      "options": [],
+      "answer": "dormir",
+      "explanation": {
+        "es": "'Dormir' significa to sleep.",
+        "en": "'Dormir' means to sleep.",
+        "ar": "'dormir' تعني ينام."
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "id": "A1-12",
+  "level": "A1",
+  "level_name": {
+    "es": "Principiante",
+    "en": "Beginner",
+    "ar": "مبتدئ"
+  },
+  "title": {
+    "es": "Repaso A1",
+    "en": "A1 Review",
+    "ar": "مراجعة المستوى A1"
+  },
+  "objectives": [
+    {
+      "es": "Revisar el vocabulario de las lecciones A1-01 a A1-11",
+      "en": "Review vocabulary from lessons A1-01 to A1-11",
+      "ar": "مراجعة مفردات الدروس من A1-01 إلى A1-11"
+    },
+    {
+      "es": "Revisar ser, estar y verbos en presente",
+      "en": "Review ser, estar and present-tense verbs",
+      "ar": "مراجعة ser و estar والأفعال في المضارع"
+    },
+    {
+      "es": "Practicar la conversación básica completa",
+      "en": "Practice complete basic conversation",
+      "ar": "ممارسة محادثة أساسية كاملة"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "hola / hola",
+      "ipa": "/ˈola ˈola/",
+      "en": "hello / hi",
+      "ar": "مرحبًا / أهلاً"
+    },
+    {
+      "es": "gracias / gracias",
+      "ipa": "/ˈgɾasias ˈgɾasias/",
+      "en": "thank you (m/f)",
+      "ar": "شكرًا (مذكر/مؤنث)"
+    },
+    {
+      "es": "mi nombre es",
+      "ipa": "/ˈmi ˈnombɾe ˈes/",
+      "en": "my name is",
+      "ar": "اسمي"
+    },
+    {
+      "es": "yo soy",
+      "ipa": "/ˈʝo ˈsoʝ/",
+      "en": "I am",
+      "ar": "أنا"
+    },
+    {
+      "es": "yo tengo",
+      "ipa": "/ˈʝo ˈtengo/",
+      "en": "I have / I am (age)",
+      "ar": "أملك / عمري"
+    },
+    {
+      "es": "la familia",
+      "ipa": "/ˈla faˈmilia/",
+      "en": "the family",
+      "ar": "العائلة"
+    },
+    {
+      "es": "la casa",
+      "ipa": "/ˈla ˈkasa/",
+      "en": "the house",
+      "ar": "المنزل"
+    },
+    {
+      "es": "comer",
+      "ipa": "/koˈmeɾ/",
+      "en": "to eat",
+      "ar": "يأكل"
+    },
+    {
+      "es": "beber",
+      "ipa": "/beˈβeɾ/",
+      "en": "to drink",
+      "ar": "يشرب"
+    },
+    {
+      "es": "hablar",
+      "ipa": "/aˈβlaɾ/",
+      "en": "to speak",
+      "ar": "يتكلم"
+    },
+    {
+      "es": "estudiar",
+      "ipa": "/estuˈðiaɾ/",
+      "en": "to study",
+      "ar": "يدرس"
+    },
+    {
+      "es": "el precio",
+      "ipa": "/ˈel ˈpɾesio/",
+      "en": "the price",
+      "ar": "السعر"
+    },
+    {
+      "es": "¿qué hora es?",
+      "ipa": "/ˈke ˈoɾa ˈes/",
+      "en": "what time is it?",
+      "ar": "كم الساعة؟"
+    },
+    {
+      "es": "por favor",
+      "ipa": "/ˈpoɾ faˈβoɾ/",
+      "en": "please",
+      "ar": "من فضلك"
+    },
+    {
+      "es": "perdón",
+      "ipa": "/peˈɾdon/",
+      "en": "sorry",
+      "ar": "آسف"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Revisión de Gramática",
+        "en": "Grammar Review",
+        "ar": "مراجعة القواعد"
+      },
+      "explanation": {
+        "es": "En el nivel A1 aprendimos: ser y estar (Yo soy español, Yo estoy cansado), verbos regulares en presente (hablo, como, abro), artículos (el, la, los, las), posesivos (mi, tu, su), preposiciones (en), números y la hora, y el vocabulario esencial para presentarse y sobrevivir en situaciones básicas.",
+        "en": "In level A1 we learned: ser and estar (Eu sou brasileiro - I am Brazilian, Eu estou cansado - I am tired), regular present-tense verbs (falo, como, abro), articles (o, a, os, as), possessives (meu, minha), prepositions (no, na, em), numbers and time, and essential vocabulary to introduce yourself and survive basic situations.",
+        "ar": "في المستوى A1 تعلمنا: ser و estar (Eu sou brasileiro - أنا برازيلي، Eu estou cansado - أنا متعب)، الأفعال المنتظمة في المضارع (falo، como، abro)، أدوات التعريف (o، a، os، as)، ضمائر الملكية (meu، minha)، حروف الجر (no، na، em)، الأرقام والوقت، والمفردات الأساسية لتقديم نفسك والتعامل مع المواقف الأساسية."
+      },
+      "examples": [
+        {
+          "es": "Yo soy español y estoy feliz.",
+          "en": "I am Brazilian and I am happy.",
+          "ar": "أنا برازيلي وأنا سعيد."
+        },
+        {
+          "es": "Mi familia come a las ocho.",
+          "en": "My family eats at eight o'clock.",
+          "ar": "تأكل عائلتي في الساعة الثامنة."
+        },
+        {
+          "es": "El libro está en la mesa, al lado del bolígrafo.",
+          "en": "The book is on the table, next to the pen.",
+          "ar": "الكتاب على الطاولة، بجانب القلم."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Conversación Completa",
+      "en": "Complete Conversation",
+      "ar": "محادثة كاملة"
+    },
+    "lines": [
+      {
+        "speaker": "Visitante",
+        "es": "¡Hola! Mi nombre es Karim. Soy de Egipto.",
+        "en": "Hello! My name is Karim. I'm from Egypt.",
+        "ar": "مرحبًا! اسمي كريم. أنا من مصر."
+      },
+      {
+        "speaker": "Marina",
+        "es": "¡Mucho gusto, Karim! Yo soy Marina.",
+        "en": "Nice to meet you, Karim! I'm Marina.",
+        "ar": "سررت بلقائك يا كريم! أنا مارينا."
+      },
+      {
+        "speaker": "Visitante",
+        "es": "¿Qué hora es?",
+        "en": "What time is it?",
+        "ar": "كم الساعة؟"
+      },
+      {
+        "speaker": "Marina",
+        "es": "Son las diez. ¿Quieres un café?",
+        "en": "It's ten o'clock. Would you like a coffee?",
+        "ar": "إنها العاشرة. هل تريد قهوة؟"
+      },
+      {
+        "speaker": "Visitante",
+        "es": "Sí, gracias. Me gustaría un café con leche.",
+        "en": "Yes, thank you. I would like a coffee with milk.",
+        "ar": "نعم، شكرًا. أود قهوة بالحليب."
+      },
+      {
+        "speaker": "Marina",
+        "es": "Aquí tiene. ¡Buen provecho!",
+        "en": "Here you go. Enjoy!",
+        "ar": "تفضل. بالهناء والشفاء!"
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Conociendo a Karim",
+      "en": "Getting to Know Karim",
+      "ar": "التعرف على كريم"
+    },
+    "text_es": "Karim es de Egipto y ahora vive en España. Habla árabe, inglés y aprende español. Todos los días estudia en la escuela de idiomas. Su familia vive en El Cairo. Él es alto, simpático y muy inteligente. Hoy está feliz porque es su cumpleaños.",
+    "text_en": "Karim is from Egypt and now lives in Brazil. He speaks Arabic, English and is learning Portuguese. Every day he studies at the language school. His family lives in Cairo. He is tall, friendly and very intelligent. Today he is happy because it's his birthday.",
+    "text_ar": "كريم من مصر ويعيش الآن في البرازيل. يتحدث العربية والإنجليزية ويتعلم البرتغالية. كل يوم يدرس في مدرسة اللغات. تعيش عائلته في القاهرة. إنه طويل وودود وذكي جدًا. اليوم هو سعيد لأنه عيد ميلاده."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: Yo ___ español.",
+        "en": "Complete: I ___ Brazilian.",
+        "ar": "أكمل: أنا ___ برازيلي."
+      },
+      "options": [
+        {
+          "es": "soy",
+          "en": "sou",
+          "ar": "sou"
+        },
+        {
+          "es": "estoy",
+          "en": "estou",
+          "ar": "estou"
+        },
+        {
+          "es": "tengo",
+          "en": "tenho",
+          "ar": "tenho"
+        }
+      ],
+      "answer": "soy",
+      "explanation": {
+        "es": "Nacionalidad = ser: yo soy.",
+        "en": "Nationality = ser: eu sou.",
+        "ar": "الجنسية = ser: eu sou."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'thank you' (femenino)?",
+        "en": "How do you say 'thank you' (feminine)?",
+        "ar": "كيف تقول 'شكرًا' (مؤنث)؟"
+      },
+      "options": [
+        {
+          "es": "gracias",
+          "en": "obrigado",
+          "ar": "obrigado"
+        },
+        {
+          "es": "gracias",
+          "en": "obrigada",
+          "ar": "obrigada"
+        },
+        {
+          "es": "de nada",
+          "en": "de nada",
+          "ar": "de nada"
+        }
+      ],
+      "answer": "gracias",
+      "explanation": {
+        "es": "Femenino: 'gracias'.",
+        "en": "Feminine: 'obrigada'.",
+        "ar": "مؤنث: 'obrigada'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué número es 'veinticinco'?",
+        "en": "Which number is 'vinte e cinco'?",
+        "ar": "ما الرقم 'vinte e cinco'؟"
+      },
+      "options": [
+        {
+          "es": "15",
+          "en": "15",
+          "ar": "15"
+        },
+        {
+          "es": "25",
+          "en": "25",
+          "ar": "25"
+        },
+        {
+          "es": "35",
+          "en": "35",
+          "ar": "35"
+        }
+      ],
+      "answer": "25",
+      "explanation": {
+        "es": "'Veinticinco' = 25.",
+        "en": "'Vinte e cinco' = 25.",
+        "ar": "'vinte e cinco' = 25."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'the family'",
+        "en": "Translate: 'the family'",
+        "ar": "ترجم: 'the family'"
+      },
+      "options": [],
+      "answer": "la familia",
+      "explanation": {
+        "es": "'La familia' significa the family.",
+        "en": "'A família' means the family.",
+        "ar": "'a família' تعني العائلة."
+      }
+    }
+  ]
+}

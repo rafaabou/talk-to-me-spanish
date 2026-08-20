@@ -1,0 +1,335 @@
+{
+  "id": "A2-10",
+  "level": "A2",
+  "level_name": {
+    "es": "Básico",
+    "en": "Elementary",
+    "ar": "أساسي"
+  },
+  "title": {
+    "es": "Teléfono y Comunicación",
+    "en": "Phone and Communication",
+    "ar": "الهاتف والاتصال"
+  },
+  "objectives": [
+    {
+      "es": "Atender y hacer llamadas telefónicas",
+      "en": "Answer and make phone calls",
+      "ar": "الرد على المكالمات وإجراؤها"
+    },
+    {
+      "es": "Usar expresiones de cortesía por teléfono",
+      "en": "Use polite phone expressions",
+      "ar": "استخدام عبارات المجاملة في الهاتف"
+    },
+    {
+      "es": "Hablar sobre mensajes y aplicaciones",
+      "en": "Talk about messages and apps",
+      "ar": "التحدث عن الرسائل والتطبيقات"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el teléfono",
+      "ipa": "/ˈel teˈlefono/",
+      "en": "the telephone",
+      "ar": "الهاتف"
+    },
+    {
+      "es": "el móvil",
+      "ipa": "/ˈel ˈmoβil/",
+      "en": "the cell phone",
+      "ar": "الهاتف المحمول"
+    },
+    {
+      "es": "llamar",
+      "ipa": "/ʝaˈmaɾ/",
+      "en": "to call",
+      "ar": "يتصل"
+    },
+    {
+      "es": "la llamada",
+      "ipa": "/ˈla ʝaˈmaða/",
+      "en": "the call",
+      "ar": "المكالمة"
+    },
+    {
+      "es": "contestar",
+      "ipa": "/konteˈstaɾ/",
+      "en": "to answer",
+      "ar": "يرد"
+    },
+    {
+      "es": "marcar",
+      "ipa": "/maˈɾkaɾ/",
+      "en": "to dial",
+      "ar": "يطلب الرقم"
+    },
+    {
+      "es": "el número",
+      "ipa": "/ˈel ˈnumeɾo/",
+      "en": "the number",
+      "ar": "الرقم"
+    },
+    {
+      "es": "el mensaje",
+      "ipa": "/ˈel meˈnsaxe/",
+      "en": "the message",
+      "ar": "الرسالة"
+    },
+    {
+      "es": "el buzón de voz",
+      "ipa": "/ˈel buˈson ˈde ˈbos/",
+      "en": "the voicemail",
+      "ar": "البريد الصوتي"
+    },
+    {
+      "es": "la operadora",
+      "ipa": "/ˈla opeɾaˈðoɾa/",
+      "en": "the carrier",
+      "ar": "شركة الاتصالات"
+    },
+    {
+      "es": "la señal",
+      "ipa": "/ˈla seˈɲal/",
+      "en": "the signal",
+      "ar": "الإشارة"
+    },
+    {
+      "es": "la llamada",
+      "ipa": "/ˈla ʝaˈmaða/",
+      "en": "the call",
+      "ar": "المكالمة"
+    },
+    {
+      "es": "el recado",
+      "ipa": "/ˈel reˈkaðo/",
+      "en": "the message",
+      "ar": "الرسالة"
+    },
+    {
+      "es": "colgar",
+      "ipa": "/koˈlgaɾ/",
+      "en": "to hang up",
+      "ar": "ينهي المكالمة"
+    },
+    {
+      "es": "enviar",
+      "ipa": "/eˈnbiaɾ/",
+      "en": "to send",
+      "ar": "يرسل"
+    },
+    {
+      "es": "la internet",
+      "ipa": "/ˈla inteˈɾnet/",
+      "en": "the internet",
+      "ar": "الإنترنت"
+    },
+    {
+      "es": "la aplicación",
+      "ipa": "/ˈla aplikaˈsion/",
+      "en": "the app",
+      "ar": "التطبيق"
+    },
+    {
+      "es": "la videollamada",
+      "ipa": "/ˈla biðeoʝaˈmaða/",
+      "en": "the video call",
+      "ar": "مكالمة الفيديو"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Contestando el Teléfono",
+        "en": "Answering the Phone",
+        "ar": "الرد على الهاتف"
+      },
+      "explanation": {
+        "es": "Al contestar: '¿Aló?' (Hello?), '¿Quién habla?' (Who is speaking?), '¿De parte de quién?' (Who is calling?). Para pedir a alguien: '¿Puedo hablar con Pedro?' Respuestas: 'Un momento, por favor', 'No está. ¿Puedo anotar un recado?'",
+        "en": "When answering: 'Alô?' (Hello?), 'Quem fala?' (Who is speaking?), 'É da parte de quem?' (Who is calling?). To ask for someone: 'Pode falar com o Pedro?' (Can I speak with Pedro?) Answers: 'Um momento, por favor' (One moment, please), 'Ele não está. Posso anotar um recado?' (He is not here. Can I take a message?)",
+        "ar": "عند الرد: 'Alô?' (ألو؟)، 'Quem fala?' (من المتحدث؟)، 'É da parte de quem?' (من المتصل؟). لطلب شخص ما: 'Pode falar com o Pedro?' (هل يمكنني التحدث مع بيدرو؟) الإجابات: 'Um momento, por favor' (لحظة من فضلك)، 'Ele não está. Posso anotar um recado?' (إنه ليس هنا. هل يمكنني تسجيل رسالة؟)"
+      },
+      "examples": [
+        {
+          "es": "¿Aló, con quién hablo?",
+          "en": "Hello, who am I speaking with?",
+          "ar": "ألو، مع من أتحدث؟"
+        },
+        {
+          "es": "Un momento, por favor.",
+          "en": "One moment, please.",
+          "ar": "لحظة واحدة، من فضلك."
+        },
+        {
+          "es": "No está. ¿Puede dejar un recado?",
+          "en": "He is not here. Can you leave a message?",
+          "ar": "إنه ليس هنا. هل يمكنك ترك رسالة؟"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Llamando y Usando el Móvil",
+        "en": "Calling and Using the Cell Phone",
+        "ar": "الاتصال واستخدام الهاتف المحمول"
+      },
+      "explanation": {
+        "es": "Verbo 'llamar': 'llamar a + persona' (to call someone): 'Voy a llamar a mi madre.' '¡Llámame!' (Call me!) 'Colgar' (to hang up), 'marcar' (to dial), 'enviar un mensaje' (to send a message). 'El móvil está sin señal.'",
+        "en": "Verb 'ligar': 'ligar para + person' (to call someone): 'Vou ligar para a minha mãe.' (I will call my mother.) 'Me liga!' (Call me!) 'Desligar' (to hang up), 'discar' (to dial), 'mandar mensagem' (to send a message). 'O celular está sem sinal.' (The cell phone has no signal.)",
+        "ar": "الفعل 'ligar': 'ligar para + شخص' (الاتصال بشخص ما): 'Vou ligar para a minha mãe.' (سأتصل بأمي). 'Me liga!' (اتصل بي!) 'desligar' (إنهاء المكالمة)، 'discar' (طلب الرقم)، 'mandar mensagem' (إرسال رسالة). 'O celular está sem sinal.' (لا توجد إشارة في الهاتف المحمول.)"
+      },
+      "examples": [
+        {
+          "es": "Te llamaré después del almuerzo.",
+          "en": "I will call you after lunch.",
+          "ar": "سأتصل بك بعد الغداء."
+        },
+        {
+          "es": "Envíame un mensaje cuando llegues.",
+          "en": "Send me a message when you arrive.",
+          "ar": "أرسل لي رسالة عندما تصل."
+        },
+        {
+          "es": "Su móvil está apagado.",
+          "en": "His cell phone is off.",
+          "ar": "هاتفه المحمول مغلق."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Una Llamada",
+      "en": "A Phone Call",
+      "ar": "مكالمة هاتفية"
+    },
+    "lines": [
+      {
+        "speaker": "Recepcionista",
+        "es": "¿Aló, empresa Silva? ¡Buenos días!",
+        "en": "Hello, Silva company. Good morning!",
+        "ar": "ألو، شركة سيلفا. صباح الخير!"
+      },
+      {
+        "speaker": "Cliente",
+        "es": "¡Buenos días! ¿Con quién hablo?",
+        "en": "Good morning! Who am I speaking with?",
+        "ar": "صباح الخير! مع من أتحدث؟"
+      },
+      {
+        "speaker": "Recepcionista",
+        "es": "Habla con la secretaria.",
+        "en": "You are speaking with the secretary.",
+        "ar": "تتحدث مع السكرتيرة."
+      },
+      {
+        "speaker": "Cliente",
+        "es": "¿Puedo hablar con el gerente, por favor?",
+        "en": "Can I speak with the manager, please?",
+        "ar": "هل يمكنني التحدث مع المدير، من فضلك؟"
+      },
+      {
+        "speaker": "Recepcionista",
+        "es": "Un momento. Está en una reunión.",
+        "en": "One moment. He is in a meeting.",
+        "ar": "لحظة واحدة. إنه في اجتماع."
+      },
+      {
+        "speaker": "Cliente",
+        "es": "¿Entonces puedo dejar un recado?",
+        "en": "Then can I leave a message?",
+        "ar": "إذن هل يمكنني ترك رسالة؟"
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "La Comunicación Hoy",
+      "en": "Communication Today",
+      "ar": "التواصل اليوم"
+    },
+    "text_es": "Hoy en día, la comunicación es rápida. Con el móvil, enviamos mensajes y hacemos videollamadas a cualquier hora. Si la persona no contesta, dejamos un recado en el buzón de voz. Para el trabajo, el correo electrónico sigue siendo muy importante, pero la llamada telefónica continúa siendo la forma más personal.",
+    "text_en": "Nowadays, communication is fast. With the cell phone, we send messages and make video calls at any time. If the person does not answer, we leave a message on voicemail. For work, email is still very important, but the phone call remains the most personal way.",
+    "text_ar": "في الوقت الحاضر، التواصل سريع. بالهاتف المحمول، نرسل الرسائل ونجري مكالمات الفيديو في أي وقت. إذا لم يردّ الشخص، نترك رسالة في البريد الصوتي. بالنسبة للعمل، ما زال البريد الإلكتروني مهمًا جدًا، لكن المكالمة الهاتفية تظل أكثر الطرق شخصية."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Aló, con ___ hablo?",
+        "en": "Hello, with ___ am I speaking?",
+        "ar": "ألو، مع ___ أتحدث؟"
+      },
+      "options": [
+        {
+          "es": "quién",
+          "en": "quem",
+          "ar": "quem"
+        },
+        {
+          "es": "qué",
+          "en": "o que",
+          "ar": "o que"
+        },
+        {
+          "es": "cuál",
+          "en": "qual",
+          "ar": "qual"
+        }
+      ],
+      "answer": "quién",
+      "explanation": {
+        "es": "'¿Con quién hablo?' = Who am I speaking with?",
+        "en": "'Com quem eu falo?' = Who am I speaking with?",
+        "ar": "'Com quem eu falo?' = مع من أتحدث؟"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Voy a ___ a mi madre.",
+        "en": "I am going to ___ my mother.",
+        "ar": "سأ ___ إلى أمي."
+      },
+      "options": [
+        {
+          "es": "llamar",
+          "en": "ligar",
+          "ar": "ligar"
+        },
+        {
+          "es": "llamando",
+          "en": "ligando",
+          "ar": "ligando"
+        },
+        {
+          "es": "llamo",
+          "en": "ligo",
+          "ar": "ligo"
+        }
+      ],
+      "answer": "llamar",
+      "explanation": {
+        "es": "Futuro: voy a + llamar (infinitivo). 'Llamar a' + persona.",
+        "en": "Future: vou + ligar (infinitive). 'Ligar para' + person.",
+        "ar": "المستقبل: vou + ligar (صيغة المصدر). 'ligar para' + شخص."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'the message'",
+        "en": "Translate: 'the message'",
+        "ar": "ترجم: 'the message'"
+      },
+      "options": [],
+      "answer": "el mensaje",
+      "explanation": {
+        "es": "'El mensaje' = the message.",
+        "en": "'A mensagem' = the message.",
+        "ar": "'a mensagem' = الرسالة."
+      }
+    }
+  ]
+}

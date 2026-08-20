@@ -1,0 +1,311 @@
+{
+  "id": "A1-01",
+  "level": "A1",
+  "level_name": {
+    "es": "Principiante",
+    "en": "Beginner",
+    "ar": "مبتدئ"
+  },
+  "title": {
+    "es": "El Alfabeto y la Pronunciación",
+    "en": "The Alphabet and Pronunciation",
+    "ar": "الأبجدية والنطق"
+  },
+  "objectives": [
+    {
+      "es": "Reconocer y pronunciar el alfabeto español",
+      "en": "Recognize and pronounce the Portuguese alphabet",
+      "ar": "التعرف على الأبجدية البرتغالية ونطقها"
+    },
+    {
+      "es": "Distinguir vocales abiertas y cerradas",
+      "en": "Distinguish open and closed vowels",
+      "ar": "التمييز بين الحركات المفتوحة والمغلقة"
+    },
+    {
+      "es": "Identificar los sonidos básicos de la lengua",
+      "en": "Identify basic nasal sounds",
+      "ar": "التعرف على الأصوات الأنفية الأساسية"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la letra",
+      "ipa": "/ˈla ˈletɾa/",
+      "en": "the letter",
+      "ar": "الحرف"
+    },
+    {
+      "es": "el sonido",
+      "ipa": "/ˈel soˈniðo/",
+      "en": "the sound",
+      "ar": "الصوت"
+    },
+    {
+      "es": "la vocal",
+      "ipa": "/ˈla boˈkal/",
+      "en": "the vowel",
+      "ar": "حرف العلة"
+    },
+    {
+      "es": "la consonante",
+      "ipa": "/ˈla konsoˈnante/",
+      "en": "the consonant",
+      "ar": "الحرف الساكن"
+    },
+    {
+      "es": "el acento",
+      "ipa": "/ˈel aˈsento/",
+      "en": "the accent",
+      "ar": "علامة التشكيل"
+    },
+    {
+      "es": "la pronunciación",
+      "ipa": "/ˈla pɾonunsiaˈsion/",
+      "en": "the pronunciation",
+      "ar": "النطق"
+    },
+    {
+      "es": "el alfabeto",
+      "ipa": "/ˈel alfaˈβeto/",
+      "en": "the alphabet",
+      "ar": "الأبجدية"
+    },
+    {
+      "es": "el ejemplo",
+      "ipa": "/ˈel eˈxemplo/",
+      "en": "the example",
+      "ar": "المثال"
+    },
+    {
+      "es": "la palabra",
+      "ipa": "/ˈla paˈlaβɾa/",
+      "en": "the word",
+      "ar": "الكلمة"
+    },
+    {
+      "es": "leer",
+      "ipa": "/ˈleeɾ/",
+      "en": "to read",
+      "ar": "يقرأ"
+    },
+    {
+      "es": "escribir",
+      "ipa": "/eskɾiˈβiɾ/",
+      "en": "to write",
+      "ar": "يكتب"
+    },
+    {
+      "es": "hablar",
+      "ipa": "/aˈβlaɾ/",
+      "en": "to speak",
+      "ar": "يتكلم"
+    },
+    {
+      "es": "escuchar",
+      "ipa": "/eskuˈtʃaɾ/",
+      "en": "to listen",
+      "ar": "يستمع"
+    },
+    {
+      "es": "el nombre",
+      "ipa": "/ˈel ˈnombɾe/",
+      "en": "the name",
+      "ar": "الاسم"
+    },
+    {
+      "es": "bueno",
+      "ipa": "/ˈbueno/",
+      "en": "good",
+      "ar": "جيد"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Las Vocales del Español",
+        "en": "Portuguese Vowels",
+        "ar": "حركات العلة في البرتغالية"
+      },
+      "explanation": {
+        "es": "El español tiene 5 letras vocálicas (A, E, I, O, U). Hay vocales abiertas (a, e, o) y cerradas (i, u). La pronunciación de las vocales es muy clara y estable.",
+        "en": "Portuguese has 5 vowel letters (A, E, I, O, U) but more sounds: open vowels (é, ó), closed vowels (ê, ô) and nasal vowels (ã, õ). Nasal vowels are produced with air escaping through the nose.",
+        "ar": "تحتوي البرتغالية على 5 حروف علّة (A, E, I, O, U) لكن أصواتًا أكثر: حركات مفتوحة (é, ó) ومغلقة (ê, ô) وأنفية (ã, õ). تنتج الحركات الأنفية مع خروج الهواء من الأنف."
+      },
+      "examples": [
+        {
+          "es": "La E se pronuncia como en 'perro' (dog).",
+          "en": "É is open as in 'pé' (foot).",
+          "ar": "É حركة مفتوحة كما في 'pé' (قدم)."
+        },
+        {
+          "es": "La O se pronuncia como en 'oso' (bear).",
+          "en": "Ê is closed as in 'mês' (month).",
+          "ar": "Ê حركة مغلقة كما في 'mês' (شهر)."
+        },
+        {
+          "es": "La A se pronuncia como en 'casa' (house).",
+          "en": "Ã is nasal as in 'mãe' (mother).",
+          "ar": "Ã حركة أنفية كما في 'mãe' (أم)."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Los Sonidos de la Lengua",
+        "en": "Nasal Sounds",
+        "ar": "الأصوات الأنفية"
+      },
+      "explanation": {
+        "es": "En español, la Ñ es un sonido especial que se pronuncia con la lengua tocando el paladar. Ejemplos: 'año' (year), 'niño' (child), 'mañana' (morning).",
+        "en": "Nasal sounds are marked by ~ (tilde) or by m and n at the end of a syllable. Examples: 'pão' (bread), 'sim' (yes), 'bem' (well). Air escapes through both nose and mouth at the same time.",
+        "ar": "تُميّز الأصوات الأنفية بعلامة ~ (tilde) أو بالحرفين m و n في نهاية المقطع. أمثلة: 'pão' (خبز)، 'sim' (نعم)، 'bem' (حسنًا). يخرج الهواء من الأنف والفم معًا في نفس الوقت."
+      },
+      "examples": [
+        {
+          "es": "pan - bread",
+          "en": "pão - bread",
+          "ar": "pão - خبز"
+        },
+        {
+          "es": "sí - yes",
+          "en": "sim - yes",
+          "ar": "sim - نعم"
+        },
+        {
+          "es": "bien - well",
+          "en": "bem - well",
+          "ar": "bem - حسنًا"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "La Primera Clase",
+      "en": "The First Class",
+      "ar": "الدرس الأول"
+    },
+    "lines": [
+      {
+        "speaker": "Profesor",
+        "es": "¡Buenos días! Vamos a aprender el alfabeto.",
+        "en": "Good morning! Let's learn the alphabet.",
+        "ar": "صباح الخير! دعونا نتعلم الأبجدية."
+      },
+      {
+        "speaker": "Alumno",
+        "es": "¡Buenos días, profesor! ¿Es muy difícil?",
+        "en": "Good morning, professor! Is it very difficult?",
+        "ar": "صباح الخير يا أستاذ! هل هو صعب جدًا؟"
+      },
+      {
+        "speaker": "Profesor",
+        "es": "No, es fácil. Escuche y repita.",
+        "en": "No, it's easy. Listen and repeat.",
+        "ar": "لا، إنه سهل. استمع وكرر."
+      },
+      {
+        "speaker": "Alumno",
+        "es": "A, B, C, D, E...",
+        "en": "A, B, C, D, E...",
+        "ar": "أ، ب، ج، د، هـ..."
+      },
+      {
+        "speaker": "Profesor",
+        "es": "¡Muy bien! Ahora vamos a leer algunas palabras.",
+        "en": "Very good! Now let's read some words.",
+        "ar": "ممتاز! الآن دعونا نقرأ بعض الكلمات."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Alfabeto",
+      "en": "The Alphabet",
+      "ar": "الأبجدية"
+    },
+    "text_es": "El alfabeto español tiene 27 letras. Las vocales son A, E, I, O, U. Las demás letras son consonantes. La letra Ñ es un sonido especial del español. La pronunciación es muy importante para hablar bien.",
+    "text_en": "The Portuguese alphabet has 26 letters. The vowels are A, E, I, O, U. The other letters are consonants. Some sounds are nasal, like in 'pão' (bread) and 'mãe' (mother). Pronunciation is very important to speak well.",
+    "text_ar": "تحتوي الأبجدية البرتغالية على 26 حرفًا. حركات العلة هي A, E, I, O, U. أما بقية الحروف فهي ساكنة. بعض الأصوات أنفية، مثل في 'pão' (خبز) و 'mãe' (أم). النطق مهم جدًا للتحدث جيدًا."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra tiene el sonido de la ñ?",
+        "en": "Which word has a nasal sound?",
+        "ar": "أي كلمة تحتوي على صوت أنفي؟"
+      },
+      "options": [
+        {
+          "es": "niño",
+          "en": "mãe",
+          "ar": "mãe"
+        },
+        {
+          "es": "perro",
+          "en": "pé",
+          "ar": "pé"
+        },
+        {
+          "es": "vocal",
+          "en": "vogal",
+          "ar": "vogal"
+        }
+      ],
+      "answer": "niño",
+      "explanation": {
+        "es": "'Niño' tiene el sonido de la ñ.",
+        "en": "'mãe' has the nasal sound ã.",
+        "ar": "تحتوي 'mãe' على الصوت الأنفي ã."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cuántas letras tiene el alfabeto español?",
+        "en": "How many letters does the Portuguese alphabet have?",
+        "ar": "كم عدد حروف الأبجدية البرتغالية؟"
+      },
+      "options": [
+        {
+          "es": "24",
+          "en": "24",
+          "ar": "24"
+        },
+        {
+          "es": "26",
+          "en": "26",
+          "ar": "26"
+        },
+        {
+          "es": "28",
+          "en": "28",
+          "ar": "28"
+        }
+      ],
+      "answer": "26",
+      "explanation": {
+        "es": "El alfabeto tiene 27 letras.",
+        "en": "The alphabet has 26 letters.",
+        "ar": "تحتوي الأبجدية على 26 حرفًا."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo se dice 'to speak' en español?",
+        "en": "How do you say 'to speak' in Portuguese?",
+        "ar": "كيف تقول 'to speak' بالبرتغالية؟"
+      },
+      "options": [],
+      "answer": "hablar",
+      "explanation": {
+        "es": "'Hablar' significa to speak.",
+        "en": "'falar' means to speak.",
+        "ar": "'falar' تعني يتكلم."
+      }
+    }
+  ]
+}

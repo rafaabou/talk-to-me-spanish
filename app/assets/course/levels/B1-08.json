@@ -1,0 +1,322 @@
+{
+  "id": "B1-08",
+  "level": "B1",
+  "level_name": {
+    "es": "Intermedio",
+    "en": "Intermediate",
+    "ar": "متوسط"
+  },
+  "title": {
+    "es": "Vivienda y Alquiler",
+    "en": "Housing and Rent",
+    "ar": "السكن والإيجار"
+  },
+  "objectives": [
+    {
+      "es": "Describir tipos de vivienda y ambientes de la casa.",
+      "en": "Describe types of housing and rooms in a home.",
+      "ar": "وصف أنواع المساكن وغرف المنزل."
+    },
+    {
+      "es": "Entender y negociar términos de alquiler, como el depósito y el contrato.",
+      "en": "Understand and negotiate rental terms, such as deposit and contract.",
+      "ar": "فهم والتفاوض حول شروط الإيجار، مثل الضمانة والعقد."
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el alquiler",
+      "ipa": "/ˈel alkiˈleɾ/",
+      "en": "the rent",
+      "ar": "الإيجار"
+    },
+    {
+      "es": "vivir",
+      "ipa": "/biˈβiɾ/",
+      "en": "to live",
+      "ar": "يسكن"
+    },
+    {
+      "es": "el apartamento",
+      "ipa": "/ˈel apaɾtaˈmento/",
+      "en": "the apartment",
+      "ar": "الشقة"
+    },
+    {
+      "es": "la casa",
+      "ipa": "/ˈla ˈkasa/",
+      "en": "the house",
+      "ar": "المنزل"
+    },
+    {
+      "es": "el dormitorio",
+      "ipa": "/ˈel doɾmiˈtoɾio/",
+      "en": "the bedroom",
+      "ar": "غرفة النوم"
+    },
+    {
+      "es": "la sala de estar",
+      "ipa": "/ˈla ˈsala ˈde eˈstaɾ/",
+      "en": "the living room",
+      "ar": "غرفة المعيشة"
+    },
+    {
+      "es": "la cocina",
+      "ipa": "/ˈla koˈsina/",
+      "en": "the kitchen",
+      "ar": "المطبخ"
+    },
+    {
+      "es": "el baño",
+      "ipa": "/ˈel ˈbaɲo/",
+      "en": "the bathroom",
+      "ar": "الحمّام"
+    },
+    {
+      "es": "el condominio",
+      "ipa": "/ˈel kondoˈminio/",
+      "en": "the condominium",
+      "ar": "العمارة السكنية"
+    },
+    {
+      "es": "el propietario",
+      "ipa": "/ˈel pɾopieˈtaɾio/",
+      "en": "the owner / landlord",
+      "ar": "المالك"
+    },
+    {
+      "es": "el inquilino",
+      "ipa": "/ˈel inkiˈlino/",
+      "en": "the tenant",
+      "ar": "المستأجر"
+    },
+    {
+      "es": "el contrato de arrendamiento",
+      "ipa": "/ˈel koˈntɾato ˈde arendaˈmiento/",
+      "en": "the lease agreement",
+      "ar": "عقد الإيجار"
+    },
+    {
+      "es": "el fiador",
+      "ipa": "/ˈel fiaˈðoɾ/",
+      "en": "the guarantor",
+      "ar": "الكفيل"
+    },
+    {
+      "es": "el depósito",
+      "ipa": "/ˈel deˈposito/",
+      "en": "the deposit",
+      "ar": "الضمانة"
+    },
+    {
+      "es": "la inmobiliaria",
+      "ipa": "/ˈla inmoβiˈliaɾia/",
+      "en": "the real estate agency",
+      "ar": "الوكالة العقارية"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Preposiciones de lugar",
+        "en": "Prepositions of place",
+        "ar": "حروف الجر المكانية"
+      },
+      "explanation": {
+        "es": "Para ubicar una vivienda, usamos 'cerca de', 'lejos de', 'enfrente de', 'al lado de' y 'entre'. Se combinan con artículos: 'cerca del metro', 'al lado de la plaza'.",
+        "en": "To locate a home we use 'perto de', 'longe de', 'em frente de', 'ao lado de' and 'entre'. They combine with articles: 'perto do metrô', 'ao lado da praça'.",
+        "ar": "لتحديد موقع المسكن نستخدم 'perto de' (قريب من) و'longe de' (بعيد عن) و'em frente de' (أمام) و'ao lado de' (بجانب) و'entre' (بين). وهي تندمج مع أدوات التعريف."
+      },
+      "examples": [
+        {
+          "es": "La casa está cerca del metro.",
+          "en": "The house is near the subway.",
+          "ar": "المنزل قريب من المترو."
+        },
+        {
+          "es": "El apartamento está enfrente del parque.",
+          "en": "The apartment is across from the park.",
+          "ar": "الشقة تقع أمام الحديقة."
+        },
+        {
+          "es": "La escuela está al lado del banco.",
+          "en": "The school is next to the bank.",
+          "ar": "المدرسة تقع بجانب البنك."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Futuro simple para planes de mudanza",
+        "en": "Simple future for moving plans",
+        "ar": "المستقبل البسيط لخطط الانتقال"
+      },
+      "explanation": {
+        "es": "Para planes y decisiones sobre vivienda, usamos el futuro simple ('voy a vivir', 'va a alquilar') o la estructura 'ir a + infinitivo'.",
+        "en": "For housing plans and decisions, we use the simple future ('vou morar', 'vai alugar') or the structure 'ir + infinitive'.",
+        "ar": "للخطط والقرارات المتعلقة بالسكن، نستخدم المستقبل البسيط أو تركيب 'ir + المصدر' أي سوف."
+      },
+      "examples": [
+        {
+          "es": "Me voy a mudar en marzo.",
+          "en": "I will move in March.",
+          "ar": "سأنتقل في شهر مارس."
+        },
+        {
+          "es": "La pareja va a alquilar un apartamento más grande.",
+          "en": "The couple will rent a bigger apartment.",
+          "ar": "سوف يستأجر الزوجان شقة أكبر."
+        },
+        {
+          "es": "La inmobiliaria va a mostrar el inmueble mañana.",
+          "en": "The agency will show the property tomorrow.",
+          "ar": "ستعرض الوكالة العقارية العقار غداً."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Visitando un apartamento",
+      "en": "Visiting an apartment",
+      "ar": "زيارة شقة"
+    },
+    "lines": [
+      {
+        "speaker": "Corredor",
+        "es": "Este apartamento tiene dos dormitorios y una cocina amplia.",
+        "en": "This apartment has two bedrooms and a spacious kitchen.",
+        "ar": "هذه الشقة تحتوي على غرفتي نوم ومطبخ واسع."
+      },
+      {
+        "speaker": "Sofía",
+        "es": "¿Está cerca de mi trabajo? ¿Está cerca del metro?",
+        "en": "Is it near my work? Is it near the subway?",
+        "ar": "هل هي قريبة من عملي؟ هل تقع قرب المترو؟"
+      },
+      {
+        "speaker": "Corredor",
+        "es": "Sí, está a diez minutos del metro.",
+        "en": "Yes, it is ten minutes from the subway.",
+        "ar": "نعم، تبعد عشر دقائق عن المترو."
+      },
+      {
+        "speaker": "Sofía",
+        "es": "¿Cuánto es el alquiler? ¿Necesito pagar un depósito?",
+        "en": "How much is the rent? Do I need to pay a deposit?",
+        "ar": "كم الإيجار؟ هل أحتاج إلى دفع ضمانة؟"
+      },
+      {
+        "speaker": "Corredor",
+        "es": "El alquiler es de mil euros y el depósito es de tres meses.",
+        "en": "The rent is a thousand reais and the deposit is three months.",
+        "ar": "الإيجار ألف ريال والضمانة ثلاثة أشهر."
+      },
+      {
+        "speaker": "Sofía",
+        "es": "Entonces voy a pensarlo y hablaré con mi fiador.",
+        "en": "Then I will think about it and talk to my guarantor.",
+        "ar": "إذن سأفكر في الأمر وأتحدث مع كفيلي."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Un anuncio de alquiler",
+      "en": "A rental ad",
+      "ar": "إعلان إيجار"
+    },
+    "text_es": "Se alquila un apartamento de dos dormitorios cerca de la playa. El inmueble tiene una sala amplia, cocina equipada y un baño moderno. El condominio tiene piscina y gimnasio. El contrato de arrendamiento es por dos años.",
+    "text_en": "A two-bedroom apartment near the beach is available for rent. The property has a large living room, an equipped kitchen and a modern bathroom. The condominium has a pool and a gym. The lease agreement is for two years.",
+    "text_ar": "شقة من غرفتي نوم قريبة من الشاطئ للإيجار. العقار يحتوي على صالة واسعة ومطبخ مجهز وحمّام حديث. العمارة تضم مسبحاً وصالة رياضية. عقد الإيجار لمدة سنتين."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: \"El apartamento está ___ de la playa.\"",
+        "en": "Complete: \"The apartment is ___ the beach.\"",
+        "ar": "أكمل: \"الشقة تقع ___ الشاطئ.\""
+      },
+      "options": [
+        {
+          "es": "cerca",
+          "en": "near",
+          "ar": "قريبة من"
+        },
+        {
+          "es": "al",
+          "en": "next (to)",
+          "ar": "بجانب"
+        },
+        {
+          "es": "en",
+          "en": "in",
+          "ar": "في"
+        },
+        {
+          "es": "en la",
+          "en": "in (fem.)",
+          "ar": "على"
+        }
+      ],
+      "answer": "cerca",
+      "explanation": {
+        "es": "La expresión 'cerca de' exige la preposición 'de': 'cerca de la playa'.",
+        "en": "The expression 'perto de' requires the preposition 'de': 'perto da praia'.",
+        "ar": "يتطلب تعبير 'perto de' حرف الجر 'de': أي قريب من الشاطئ."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: \"___ inmobiliaria va a mostrar el inmueble mañana.\"",
+        "en": "Complete: \"___ real estate agency will show the property tomorrow.\"",
+        "ar": "أكمل: \"___ الوكالة العقارية ستعرض العقار غداً.\""
+      },
+      "options": [
+        {
+          "es": "La",
+          "en": "The (fem. sg.)",
+          "ar": "الـ (مفرد مؤنث)"
+        },
+        {
+          "es": "El",
+          "en": "The (masc. sg.)",
+          "ar": "الـ (مفرد مذكر)"
+        },
+        {
+          "es": "Las",
+          "en": "The (fem. pl.)",
+          "ar": "الـ (جمع مؤنث)"
+        },
+        {
+          "es": "Un",
+          "en": "A (masc.)",
+          "ar": "واحدة"
+        }
+      ],
+      "answer": "La",
+      "explanation": {
+        "es": "'Inmobiliaria' es un sustantivo femenino singular, así que usamos el artículo 'La'.",
+        "en": "'Imobiliária' is a singular feminine noun, so we use the article 'A'.",
+        "ar": "'imobiliária' اسم مفرد مؤنث، لذا نستخدم أداة التعريف المؤنثة 'A'."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al inglés: \"El alquiler incluye agua y luz.\"",
+        "en": "Translate to English: \"O aluguel inclui água e luz.\"",
+        "ar": "ترجم إلى الإنجليزية: \"O aluguel inclui água e luz.\""
+      },
+      "options": [],
+      "answer": "The rent includes water and electricity.",
+      "explanation": {
+        "es": "'Luz' en el contexto de facturas significa electricidad.",
+        "en": "'Luz' in the context of bills means electricity.",
+        "ar": "كلمة 'luz' في سياق الفواتير تعني الكهرباء."
+      }
+    }
+  ]
+}

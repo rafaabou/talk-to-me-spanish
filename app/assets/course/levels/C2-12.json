@@ -1,0 +1,340 @@
+{
+  "id": "C2-12",
+  "level": "C2",
+  "level_name": {
+    "es": "Proficiencia",
+    "en": "Proficiency",
+    "ar": "إتقان"
+  },
+  "title": {
+    "es": "Certificado y Próximos Pasos",
+    "en": "Certificate and Next Steps",
+    "ar": "الشهادة والخطوات التالية"
+  },
+  "objectives": [
+    {
+      "es": "Reflexionar sobre la trayectoria de aprendizaje hasta el nivel C2",
+      "en": "Reflect on the learning journey up to level C2",
+      "ar": "التأمل في رحلة التعلم حتى المستوى C2"
+    },
+    {
+      "es": "Estrategias para mantener y ampliar la competencia lingüística",
+      "en": "Strategies to maintain and expand proficiency",
+      "ar": "استراتيجيات الحفاظ على الكفاءة وتوسيعها"
+    },
+    {
+      "es": "Establecer metas realistas de uso continuo de la lengua",
+      "en": "Set realistic goals for continuous use of the language",
+      "ar": "تحديد أهداف واقعية للاستخدام المتواصل للغة"
+    },
+    {
+      "es": "Celebrar el logro y planear los próximos pasos",
+      "en": "Celebrate the achievement and plan the next steps",
+      "ar": "الاحتفال بالإنجاز والتخطيط للخطوات التالية"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el certificado",
+      "ipa": "/ˈel seɾtifiˈkaðo/",
+      "en": "certificate",
+      "ar": "الشهادة"
+    },
+    {
+      "es": "la carrera",
+      "ipa": "/ˈla kaˈreɾa/",
+      "en": "career",
+      "ar": "المسيرة المهنية"
+    },
+    {
+      "es": "el idioma",
+      "ipa": "/ˈel iˈðioma/",
+      "en": "language",
+      "ar": "اللغة"
+    },
+    {
+      "es": "el avance",
+      "ipa": "/ˈel aˈβanse/",
+      "en": "advance / progress",
+      "ar": "التقدم"
+    },
+    {
+      "es": "el aprendizaje continuo",
+      "ipa": "/ˈel apɾendiˈsaxe koˈntinuo/",
+      "en": "continuous learning",
+      "ar": "التعلم المستمر"
+    },
+    {
+      "es": "la inmersión",
+      "ipa": "/ˈla inmeˈɾsion/",
+      "en": "immersion",
+      "ar": "الانغماس"
+    },
+    {
+      "es": "el intercambio",
+      "ipa": "/ˈel inteˈɾkambio/",
+      "en": "exchange program",
+      "ar": "التبادل الدراسي"
+    },
+    {
+      "es": "el networking",
+      "ipa": "/ˈel netwoˈɾking/",
+      "en": "networking",
+      "ar": "التواصل المهني"
+    },
+    {
+      "es": "el curso avanzado",
+      "ipa": "/ˈel ˈkuɾso aβaˈnsaðo/",
+      "en": "advanced course",
+      "ar": "الدورة المتقدمة"
+    },
+    {
+      "es": "la lectura fluida",
+      "ipa": "/ˈla leˈktuɾa ˈfluiða/",
+      "en": "fluent reading",
+      "ar": "القراءة الطليقة"
+    },
+    {
+      "es": "el hablante nativo",
+      "ipa": "/ˈel aˈβlante naˈtiβo/",
+      "en": "native speaker",
+      "ar": "المتحدث الأصلي"
+    },
+    {
+      "es": "el mantenimiento",
+      "ipa": "/ˈel manteniˈmiento/",
+      "en": "maintenance",
+      "ar": "الصيانة / الاستمرار"
+    },
+    {
+      "es": "el vocabulario pasivo",
+      "ipa": "/ˈel bokaβuˈlaɾio paˈsiβo/",
+      "en": "passive vocabulary",
+      "ar": "المفردات السلبية"
+    },
+    {
+      "es": "el vocabulario activo",
+      "ipa": "/ˈel bokaβuˈlaɾio aˈktiβo/",
+      "en": "active vocabulary",
+      "ar": "المفردات الفاعلة"
+    },
+    {
+      "es": "el acento",
+      "ipa": "/ˈel aˈsento/",
+      "en": "accent",
+      "ar": "اللهجة / النبر"
+    },
+    {
+      "es": "la fluidez",
+      "ipa": "/ˈla fluiˈðes/",
+      "en": "fluency",
+      "ar": "الطلاقة"
+    },
+    {
+      "es": "el objetivo",
+      "ipa": "/ˈel oβxeˈtiβo/",
+      "en": "goal",
+      "ar": "الهدف"
+    },
+    {
+      "es": "la evaluación",
+      "ipa": "/ˈla eβaluaˈsion/",
+      "en": "assessment",
+      "ar": "التقييم"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Estrategias de Mantenimiento Lingüístico",
+        "en": "Language Maintenance Strategies",
+        "ar": "استراتيجيات صيانة اللغة"
+      },
+      "explanation": {
+        "es": "La competencia no es un punto de llegada, sino un proceso. Para mantener el C2, el aprendiz debe activar el vocabulario pasivo mediante la lectura extensiva y convertirlo en activo con la escritura y el habla. La inmersión autodirigida — podcasts, series sin subtítulos, clubes de lectura — debe planearse como rutina. Sin uso, la precisión, aunque adquirida, tiende a atrofiarse.",
+        "en": "Proficiency is not a destination but a process. To maintain C2, the learner must activate passive vocabulary through extensive reading and turn it into active vocabulary through writing and speaking. Self-directed immersion — podcasts, series without subtitles, reading clubs — must be planned as a routine. Without use, precision, even once acquired, tends to atrophy.",
+        "ar": "الكفاءة ليست وجهة بل عملية. للحفاظ على مستوى C2، يجب على المتعلم تفعيل المفردات السلبية عبر القراءة الموسعة وتحويلها إلى مفردات فاعلة عبر الكتابة والكلام. ويجب أن تُخطّط الانغماس الذاتي — البودكاست، والمسلسلات دون ترجمة، ونوادي القراءة — كروتين. فبدون الاستخدام، تميل الدقة، حتى بعد اكتسابها، إلى الضمور."
+      },
+      "examples": [
+        {
+          "es": "Leer una novela al mes mantiene el vocabulario activo en circulación.",
+          "en": "Reading one novel a month keeps the active vocabulary in circulation.",
+          "ar": "قراءة رواية كل شهر تحافظ على تداول المفردات الفاعلة."
+        },
+        {
+          "es": "Escribir un diario o un blog en español consolida la precisión.",
+          "en": "Writing a diary or a blog in Portuguese consolidates precision.",
+          "ar": "كتابة يوميات أو مدونة بالبرتغالية ترسخ الدقة."
+        },
+        {
+          "es": "Ver series sin subtítulos entrena la comprensión auditiva de hablas variadas.",
+          "en": "Watching series without subtitles trains listening comprehension of varied accents.",
+          "ar": "مشاهدة المسلسلات دون ترجمة تدرب الفهم السمعي على لهجات متنوعة."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Metas Futuras y Estructuras de Intención",
+        "en": "Future Goals and Structures of Intention",
+        "ar": "الأهداف المستقبلية وتراكيب النية"
+      },
+      "explanation": {
+        "es": "Para anunciar metas, el español usa el futuro simple ('cursaré'), la estructura 'pretendo + infinitivo' y locuciones finales como 'a fin de' y 'con vistas a': 'Voy a planear un intercambio a fin de mejorar la fluidez'. El futuro compuesto ('habré consolidado') proyecta la meta como concluida: 'Para diciembre, habré consolidado el vocabulario académico'.",
+        "en": "To announce goals, Portuguese uses the simple future ('cursarei'), the structure 'pretendo + infinitive', and final phrases such as 'a fim de' and 'com vistas a': 'Vou planejar um intercâmbio a fim de aprimorar a fluência' (I will plan an exchange in order to improve my fluency). The compound future ('terei consolidado') projects the goal as completed: 'Até dezembro, terei consolidado o vocabulário acadêmico' (By December, I will have consolidated the academic vocabulary).",
+        "ar": "لإعلان الأهداف، تستخدم البرتغالية المستقبل البسيط ('cursarei')، وتركيب 'pretendo + مصدر'، والعبارات الغائية مثل 'a fim de' (من أجل) و'com vistas a' (بهدف): 'Vou planejar um intercâmbio a fim de aprimorar a fluência' (سأخطط لتبادل دراسي من أجل تحسين الطلاقة). أما المستقبل المركب ('terei consolidado') فيصور الهدف منجزًا: 'Até dezembro, terei consolidado o vocabulário acadêmico' (بحلول ديسمبر، سأكون قد راسخ المفردات الأكاديمية)."
+      },
+      "examples": [
+        {
+          "es": "Pretendo hacer un intercambio en Madrid el próximo año.",
+          "en": "I intend to do an exchange program in São Paulo next year.",
+          "ar": "أعتزم إجراء تبادل دراسي في ساو باولو العام القادم."
+        },
+        {
+          "es": "Voy a crear un club de lectura a fin de mantener la práctica oral.",
+          "en": "I will create a reading club in order to keep the oral practice.",
+          "ar": "سأنشئ نادي قراءة من أجل الحفاظ على الممارسة الشفهية."
+        },
+        {
+          "es": "Para fin de año, habré consolidado el vocabulario jurídico.",
+          "en": "By the end of the year, I will have consolidated the legal vocabulary.",
+          "ar": "بحلول نهاية العام، سأكون قد راسخ المفردات القانونية."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "¡Felicidades, Graduado!",
+      "en": "Congratulations, Graduate!",
+      "ar": "مبروك أيها الخريج!"
+    },
+    "lines": [
+      {
+        "speaker": "Prof. Ramos",
+        "es": "¡Felicidades! Acabas de completar el nivel C2 del curso.",
+        "en": "Congratulations! You have just completed the C2 level of the course.",
+        "ar": "مبروك! لقد أكملت للتو المستوى C2 من الدورة."
+      },
+      {
+        "speaker": "Alumno",
+        "es": "Muchas gracias. Fue una trayectoria larga, pero inmensamente gratificante.",
+        "en": "Thank you very much. It was a long journey, but immensely rewarding.",
+        "ar": "شكرًا جزيلًا. كانت رحلة طويلة، لكنها مجزية للغاية."
+      },
+      {
+        "speaker": "Prof. Ramos",
+        "es": "Ahora se emitirá el certificado, y lo que hagas con el idioma depende de ti.",
+        "en": "Now the certificate will be issued, and what you do with the language is up to you.",
+        "ar": "الآن ستصدر الشهادة، وما تفعله باللغة يعود إليك."
+      },
+      {
+        "speaker": "Alumno",
+        "es": "Planeo un intercambio con vistas a activar el vocabulario en el día a día.",
+        "en": "I plan an exchange program with a view to activating the vocabulary in daily life.",
+        "ar": "أخطط لتبادل دراسي بهدف تفعيل المفردات في الحياة اليومية."
+      },
+      {
+        "speaker": "Prof. Ramos",
+        "es": "Excelente. Recuerda: el mantenimiento es tan importante como el avance.",
+        "en": "Excellent. Remember: maintenance is as important as progress.",
+        "ar": "ممتاز. تذكر: الصيانة لا تقل أهمية عن التقدم."
+      },
+      {
+        "speaker": "Alumno",
+        "es": "Ciertamente. Para fin de año, habré consolidado una rutina de inmersión.",
+        "en": "Certainly. By the end of the year, I will have consolidated an immersion routine.",
+        "ar": "بالتأكيد. بحلول نهاية العام، سأكون قد راسخ روتين انغماس."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Futuro es un Puente",
+      "en": "The Future Is a Bridge",
+      "ar": "المستقبل جسر"
+    },
+    "text_es": "Completar el nivel C2 no es un fin, sino un puente hacia nuevos horizontes. Con el certificado en mano, el hablante puede actuar en contextos académicos, profesionales y culturales de alto nivel. La inmersión continua, los intercambios y el networking en español transformarán el dominio en vivencia. Que cada nueva lectura, cada conversación y cada desafío renueven la alegría de hablar esta lengua.",
+    "text_en": "Completing level C2 is not an end, but a bridge to new horizons. With the certificate in hand, the speaker can work in high-level academic, professional and cultural contexts. Continuous immersion, exchange programs and networking in Portuguese will turn mastery into lived experience. May every new reading, every conversation and every challenge renew the joy of speaking this language.",
+    "text_ar": "إن إكمال المستوى C2 ليس نهاية، بل جسر نحو آفاق جديدة. فبالشهادة بين يديه، يمكن للمتحدث العمل في سياقات أكاديمية ومهنية وثقافية رفيعة. الانغماس المتواصل والتبادلات والتواصل المهني بالبرتغالية ستحوّل الإتقان إلى تجربة معيشة. وليُجدد كل قراءة جديدة وكل حديث وكل تحدٍ فرحة التحدث بهذه اللغة."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué locución final expresa 'a fin de'?",
+        "en": "Which final phrase expresses 'a fim de'?",
+        "ar": "ما العبارة الغائية التي تعادل 'a fim de'؟"
+      },
+      "options": [
+        {
+          "es": "con vistas a",
+          "en": "com vistas a",
+          "ar": "com vistas a"
+        },
+        {
+          "es": "a pesar de",
+          "en": "apesar de",
+          "ar": "apesar de"
+        },
+        {
+          "es": "aunque",
+          "en": "embora",
+          "ar": "embora"
+        }
+      ],
+      "answer": "con vistas a",
+      "explanation": {
+        "es": "'Con vistas a' también introduce finalidad, como 'a fin de'.",
+        "en": "'Com vistas a' also introduces purpose, like 'a fim de'.",
+        "ar": "عبارة 'com vistas a' تقدم أيضًا الغاية مثل 'a fim de'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "En 'Para diciembre, habré consolidado el vocabulario', el tiempo verbal es...",
+        "en": "In 'Até dezembro, terei consolidado o vocabulário', the verb tense is...",
+        "ar": "في جملة 'Até dezembro, terei consolidado o vocabulário'، يكون زمن الفعل..."
+      },
+      "options": [
+        {
+          "es": "futuro compuesto",
+          "en": "compound simple future",
+          "ar": "المستقبل البسيط المركب"
+        },
+        {
+          "es": "pretérito imperfecto",
+          "en": "imperfect past",
+          "ar": "الماضي الناقص"
+        },
+        {
+          "es": "presente de subjuntivo",
+          "en": "present subjunctive",
+          "ar": "المضارع المنصوب"
+        }
+      ],
+      "answer": "futuro compuesto",
+      "explanation": {
+        "es": "'Habré consolidado' es el futuro compuesto, que proyecta la meta como concluida.",
+        "en": "'Terei consolidado' is the compound simple future, projecting the goal as completed.",
+        "ar": "'terei consolidado' مستقبل بسيط مركب، يصور الهدف منجزًا."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: 'continuous learning'",
+        "en": "Translate into Portuguese: 'continuous learning'",
+        "ar": "ترجم إلى البرتغالية: 'continuous learning'"
+      },
+      "options": [],
+      "answer": "aprendizaje continuo",
+      "explanation": {
+        "es": "'Aprendizaje continuo' es la expresión consagrada.",
+        "en": "'Aprendizado contínuo' is the established expression.",
+        "ar": "التعبير المتعارف عليه هو 'aprendizado contínuo'."
+      }
+    }
+  ]
+}

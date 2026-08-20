@@ -1,0 +1,151 @@
+version: '3.8'
+
+services:
+  # =============================================================================
+  # Builder Service - Compiles Spanish App
+  # =============================================================================
+  builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: builder
+    container_name: espanol-builder
+    volumes:
+      - ./app:/workspace/app
+      - flutter-cache:/root/.pub-cache
+      - gradle-cache:/root/.gradle
+    environment:
+      - JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+    tmpfs:
+      - /tmp:exec,size=2G
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+
+  # =============================================================================
+  # Security Scanner Service
+  # =============================================================================
+  scanner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: scanner
+    container_name: espanol-scanner
+    depends_on:
+      - builder
+    volumes:
+      - ./artifacts:/workspace/artifacts
+      - ./sbom:/workspace/sbom
+      - ./sarif:/workspace/sarif
+    environment:
+      - MOBSF_API_KEY=${MOBSF_API_KEY}
+      - GRYPE_DB_AUTO_UPDATE=true
+    tmpfs:
+      - /tmp:exec,size=2G
+
+  # =============================================================================
+  # Security Scanner (CI Mode - runs in pipeline)
+  # =============================================================================
+  scanner-ci:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: scanner
+    container_name: espanol-scanner-ci
+    profiles: [ci]
+    volumes:
+      - ./artifacts:/workspace/artifacts
+      - ./sbom:/workspace/sbom
+      - ./sarif:/workspace/sarif
+    environment:
+      - MOBSF_API_KEY=${MOBSF_API_KEY}
+      - GRYPE_DB_AUTO_UPDATE=true
+      - FAIL_ON_HIGH=true
+    command: >
+      sh -c "
+        grype sbom:espanol-apk-sbom.cdx.json --fail-on high --output json > espanol-grype-report.json ||
+        (echo 'CRITICAL/HIGH vulnerabilities found in Spanish app' && exit 1)
+        trivy fs --severity HIGH,CRITICAL --format sarif -o trivy-results.sarif . ||
+        (echo 'CRITICAL/HIGH vulnerabilities found in source code' && exit 1)
+      "
+
+  # =============================================================================
+  # Signer Service - Signs APKs and SBOMs
+  # =============================================================================
+  signer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: signer
+    container_name: espanol-signer
+    profiles: [release]
+    volumes:
+      - ./artifacts:/workspace/artifacts
+      - ./signatures:/workspace/signatures
+      - ./sbom:/workspace/sbom
+    environment:
+      - COSIGN_PASSWORD=${COSIGN_PASSWORD}
+    command: >
+      sh -c "
+        apksigner verify --print-certs /workspace/espanol-release.apk &&
+        cosign sign-blob --yes --output-signature espanol-release.apk.sig /workspace/espanol-release.apk &&
+        cosign sign-blob --yes --output-signature sbom.cdx.json.sig /workspace/sbom/project-sbom.cdx.json &&
+        cp /workspace/*.sig /workspace/signatures/
+      "
+
+  # =============================================================================
+  # Runtime - For Testing on Device/Emulator
+  # =============================================================================
+  runtime:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+    container_name: espanol-runtime
+    profiles: [test]
+    volumes:
+      - ./artifacts:/app/artifacts
+    devices:
+      - /dev/kvm:/dev/kvm
+      - /dev/bus/usb:/dev/bus/usb
+    privileged: true
+    environment:
+      - ANDROID_SDK_ROOT=/opt/android-sdk
+    devices:
+      - /dev/kvm
+    cap_add:
+      - KVM
+    devices:
+      - /dev/kvm:/dev/kvm
+
+  # =============================================================================
+  # Development Service - Hot Reload
+  # =============================================================================
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: flutter-sdk
+    container_name: espanol-dev
+    profiles: [dev]
+    volumes:
+      - ./app:/workspace/app
+      - flutter-cache:/root/.pub-cache
+    ports:
+      - "5000:5000"  # Flutter web dev server
+      - "9000:9000"  # Dart Observatory
+    working_dir: /workspace/app
+    command: flutter run -d web-server --web-port=5000 --web-hostname=0.0.0.0
+
+volumes:
+  flutter-cache:
+  gradle-cache:
+  artifacts:
+  signatures:
+  sbom:
+  sarif:
+
+networks:
+  default:
+    name: espanol-network

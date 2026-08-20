@@ -1,0 +1,327 @@
+{
+  "id": "C1-04",
+  "level": "C1",
+  "level_name": {
+    "es": "Avanzado",
+    "en": "Advanced",
+    "ar": "متقدم"
+  },
+  "title": {
+    "es": "Estilo Indirecto",
+    "en": "Reported Speech",
+    "ar": "الكلام المنقول"
+  },
+  "objectives": [
+    {
+      "es": "Transformar el discurso directo en indirecto",
+      "en": "Transform direct speech into reported speech",
+      "ar": "تحويل الكلام المباشر إلى منقول"
+    },
+    {
+      "es": "Aplicar correctamente los cambios de tiempo y persona",
+      "en": "Apply tense and person changes correctly",
+      "ar": "تطبيق تغييرات الزمن والضمير بشكل صحيح"
+    },
+    {
+      "es": "Relatar preguntas, peticiones y órdenes",
+      "en": "Report questions, requests and orders",
+      "ar": "نقل الأسئلة والطلبات والأوامر"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el discurso indirecto",
+      "ipa": "/ˈel diˈskuɾso indiˈɾekto/",
+      "en": "reported speech",
+      "ar": "الكلام المنقول"
+    },
+    {
+      "es": "relatar",
+      "ipa": "/relaˈtaɾ/",
+      "en": "to report",
+      "ar": "يروي، ينقل"
+    },
+    {
+      "es": "citar",
+      "ipa": "/siˈtaɾ/",
+      "en": "to quote",
+      "ar": "يقتبس"
+    },
+    {
+      "es": "el verbo introductor",
+      "ipa": "/ˈel ˈbeɾbo intɾoðuˈktoɾ/",
+      "en": "the introductory verb",
+      "ar": "الفعل التمهيدي"
+    },
+    {
+      "es": "el cambio de tiempo",
+      "ipa": "/ˈel ˈkambio ˈde ˈtiempo/",
+      "en": "the tense change",
+      "ar": "تغيير الزمن"
+    },
+    {
+      "es": "la persona gramatical",
+      "ipa": "/ˈla peˈɾsona gɾamatiˈkal/",
+      "en": "the grammatical person",
+      "ar": "الضمير النحوي"
+    },
+    {
+      "es": "el pronombre",
+      "ipa": "/ˈel pɾoˈnombɾe/",
+      "en": "the pronoun",
+      "ar": "الضمير"
+    },
+    {
+      "es": "afirmar",
+      "ipa": "/afiˈɾmaɾ/",
+      "en": "to affirm",
+      "ar": "يؤكد"
+    },
+    {
+      "es": "preguntar",
+      "ipa": "/pɾeɣuˈntaɾ/",
+      "en": "to ask",
+      "ar": "يسأل"
+    },
+    {
+      "es": "responder",
+      "ipa": "/respoˈndeɾ/",
+      "en": "to answer",
+      "ar": "يجيب"
+    },
+    {
+      "es": "comentar",
+      "ipa": "/komeˈntaɾ/",
+      "en": "to comment",
+      "ar": "يعلّق"
+    },
+    {
+      "es": "explicar",
+      "ipa": "/ekspliˈkaɾ/",
+      "en": "to explain",
+      "ar": "يشرح"
+    },
+    {
+      "es": "la paráfrasis",
+      "ipa": "/ˈla paˈɾafɾasis/",
+      "en": "the paraphrase",
+      "ar": "إعادة الصياغة"
+    },
+    {
+      "es": "la oración subordinada",
+      "ipa": "/ˈla oɾaˈsion suβoɾdiˈnaða/",
+      "en": "the subordinate clause",
+      "ar": "الجملة التابعة"
+    },
+    {
+      "es": "el punto de vista",
+      "ipa": "/ˈel ˈpunto ˈde ˈbista/",
+      "en": "the point of view",
+      "ar": "وجهة النظر"
+    },
+    {
+      "es": "la cita",
+      "ipa": "/ˈla ˈsita/",
+      "en": "the quotation",
+      "ar": "الاقتباس"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Cambios de Tiempo en el Discurso Indirecto",
+        "en": "Tense Changes in Reported Speech",
+        "ar": "تغييرات الزمن في الكلام المنقول"
+      },
+      "explanation": {
+        "es": "Al pasar al discurso indirecto, el presente se vuelve imperfecto, el pretérito se vuelve pluscuamperfecto, el futuro se vuelve condicional y el imperativo se vuelve subjuntivo. También cambian los pronombres y los adverbios: 'hoy' se vuelve 'aquel día', 'mañana' se vuelve 'al día siguiente', 'aquí' se vuelve 'allí'.",
+        "en": "When moving to reported speech, the present becomes the imperfect, the preterite becomes the compound pluperfect, the future becomes the conditional, and the imperative becomes the subjunctive (imperfect). Pronouns and adverbs also change: 'hoje' (today) becomes 'naquele dia' (that day), 'amanhã' (tomorrow) becomes 'no dia seguinte' (the next day), 'aqui' (here) becomes 'lá' (there).",
+        "ar": "عند التحويل إلى الكلام المنقول، يتحول المضارع إلى الماضي الناقص، والماضي البسيط إلى الماضي التام المركب، والمستقبل إلى صيغة الشرط، وصيغة الأمر إلى صيغة الماضي الشرطي. كما تتغير الضمائر والظروف: 'hoje' تصبح 'naquele dia'، و'amanhã' تصبح 'no dia seguinte'، و'aqui' تصبح 'lá'."
+      },
+      "examples": [
+        {
+          "es": "Ella dijo: \"Estoy cansada.\" — Ella dijo que estaba cansada.",
+          "en": "She said: \"I am tired.\" — She said she was tired.",
+          "ar": "قالت: «أنا متعبة» — قالت إنها متعبة."
+        },
+        {
+          "es": "Él afirmó: \"Compré el coche.\" — Él afirmó que había comprado el coche.",
+          "en": "He stated: \"I bought the car.\" — He stated he had bought the car.",
+          "ar": "أكد: «اشتريت السيارة» — أكد أنه اشترى السيارة."
+        },
+        {
+          "es": "Pedro dijo: \"Voy a viajar.\" — Pedro dijo que iba a viajar.",
+          "en": "Pedro said: \"I will travel.\" — Pedro said he was going to travel.",
+          "ar": "قال بيدرو: «سأسافر» — قال بيدرو إنه سيسافر."
+        },
+        {
+          "es": "María respondió: \"Mañana estaré aquí.\" — María respondió que estaría allí al día siguiente.",
+          "en": "Maria replied: \"Tomorrow I will be here.\" — Maria replied she would be there the next day.",
+          "ar": "أجابت ماريا: «غدًا سأكون هنا» — أجابت ماريا أنها ستكون هناك في اليوم التالي."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Preguntas, Peticiones y Órdenes",
+        "en": "Questions, Requests and Orders",
+        "ar": "الأسئلة والطلبات والأوامر"
+      },
+      "explanation": {
+        "es": "Las preguntas directas se vuelven indirectas con 'si' (para sí/no) o con la palabra interrogativa mantenida (dónde, cuándo, cómo). Las peticiones y órdenes usan 'pedir/ordenar que' + subjuntivo. El tiempo del verbo introductor determina el tiempo del subjuntivo: 'pidió que yo trajera', 'pide que yo traiga'.",
+        "en": "Direct questions become indirect with 'se' (for yes/no) or with the interrogative word kept (onde - where, quando - when, como - how). Requests and orders use 'pedir/ordenar que' + subjunctive. The tense of the introductory verb determines the subjunctive tense: 'pediu que eu trouxesse' (asked that I bring), 'pede que eu traga' (asks that I bring).",
+        "ar": "تتحول الأسئلة المباشرة إلى منقولة باستخدام 'se' (للإجابة بنعم/لا) أو مع بقاء أداة الاستفهام (أين، متى، كيف). تستخدم الطلبات والأوامر 'pedir/ordenar que' مع صيغة الشرط. ويحدد زمن الفعل التمهيدي زمن صيغة الشرط: 'pediu que eu trouxesse' و'pede que eu traga'."
+      },
+      "examples": [
+        {
+          "es": "Ella preguntó: \"¿Vienes?\" — Ella preguntó si yo venía.",
+          "en": "She asked: \"Are you coming?\" — She asked if I was coming.",
+          "ar": "سألت: «هل أنت قادم؟» — سألت إذا كنت قادمًا."
+        },
+        {
+          "es": "Él preguntó: \"¿Dónde vives?\" — Él preguntó dónde vivía yo.",
+          "en": "He asked: \"Where do you live?\" — He asked where I lived.",
+          "ar": "سأل: «أين تسكن؟» — سأل أين أسكن."
+        },
+        {
+          "es": "El jefe pidió: \"Trae el informe.\" — El jefe pidió que yo trajera el informe.",
+          "en": "The boss asked: \"Bring the report.\" — The boss asked me to bring the report.",
+          "ar": "طلب المدير: «أحضر التقرير» — طلب المدير أن أحضر التقرير."
+        },
+        {
+          "es": "Ella preguntó: \"¿Qué hora es?\" — Ella preguntó qué hora era.",
+          "en": "She asked: \"What time is it?\" — She asked what time it was.",
+          "ar": "سألت: «كم الساعة؟» — سألت كم الساعة."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Repasando la Conversación",
+      "en": "Passing on the Conversation",
+      "ar": "نقل الحديث"
+    },
+    "lines": [
+      {
+        "speaker": "Julia",
+        "es": "El profesor dijo que el examen sería el lunes.",
+        "en": "The teacher said the exam would be on Monday.",
+        "ar": "قال المعلم إن الامتحان سيكون يوم الاثنين."
+      },
+      {
+        "speaker": "Andrés",
+        "es": "¡Pero él había afirmado que sería el viernes!",
+        "en": "But he had stated it would be on Friday!",
+        "ar": "لكنه كان قد أكد أنه سيكون يوم الجمعة!"
+      },
+      {
+        "speaker": "Julia",
+        "es": "Él explicó que cambió de opinión y que avisaría por correo electrónico.",
+        "en": "He explained he changed his mind and would notify by email.",
+        "ar": "أوضح أنه غيّر رأيه وأنه سيعلن ذلك عبر البريد الإلكتروني."
+      },
+      {
+        "speaker": "Andrés",
+        "es": "¿Y cuándo preguntó si estabas preparado?",
+        "en": "And when did he ask if you were prepared?",
+        "ar": "ومتى سألك إذا كنت مستعدًا؟"
+      },
+      {
+        "speaker": "Julia",
+        "es": "Yo respondí que estudiaría todo el fin de semana.",
+        "en": "I answered that I would study the whole weekend.",
+        "ar": "أجبت أنني سأدرس طوال عطلة نهاية الأسبوع."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Lo Que Él Dijo",
+      "en": "What He Said",
+      "ar": "ما الذي قاله"
+    },
+    "text_es": "Al final de la reunión, el director explicó que los resultados se darían a conocer la semana siguiente. Pidió que todos mantuvieran el enfoque y comentó que el equipo había superado las expectativas. Después, respondió que estaba optimista sobre el futuro. Alguien preguntó si habría nuevas inversiones, y él dijo que sí, si el mercado colaboraba.",
+    "text_en": "At the end of the meeting, the director explained that the results would be announced the following week. He asked everyone to stay focused and commented that the team had exceeded expectations. Then he answered that he was optimistic about the future. Someone asked whether there would be new investments, and he said yes, if the market cooperated.",
+    "text_ar": "في نهاية الاجتماع، أوضح المدير أن النتائج ستُعلن في الأسبوع التالي. وطلب من الجميع الحفاظ على التركيز وعلّق بأن الفريق قد تجاوز التوقعات. ثم أجاب أنه متفائل بالمستقبل. سأل أحدهم إذا كانت ستكون هناك استثمارات جديدة، فقال نعم، إذا تعاون السوق."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Discurso indirecto de: \"Estoy feliz\", dijo Ana.",
+        "en": "Reported speech of: \"Estou feliz\", disse Ana.",
+        "ar": "الكلام المنقول لـ: «أنا سعيدة»، قالت آنا."
+      },
+      "options": [
+        {
+          "es": "Ana dijo que está feliz.",
+          "en": "Ana disse que está feliz.",
+          "ar": "Ana disse que está feliz."
+        },
+        {
+          "es": "Ana dijo que estaba feliz.",
+          "en": "Ana disse que estava feliz.",
+          "ar": "Ana disse que estava feliz."
+        },
+        {
+          "es": "Ana dijo que estará feliz.",
+          "en": "Ana disse que estará feliz.",
+          "ar": "Ana disse que estará feliz."
+        }
+      ],
+      "answer": "Ana dijo que estaba feliz.",
+      "explanation": {
+        "es": "El presente 'estoy' se vuelve imperfecto 'estaba' en el discurso indirecto.",
+        "en": "The present 'estou' becomes the imperfect 'estava' in reported speech.",
+        "ar": "يتحول المضارع 'estou' إلى الماضي الناقص 'estava' في الكلام المنقول."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Discurso indirecto de: \"¿Dónde trabajas?\", preguntó él.",
+        "en": "Reported speech of: \"Onde você trabalha?\", perguntou ele.",
+        "ar": "الكلام المنقول لـ: «أين تعمل؟»، سأل هو."
+      },
+      "options": [
+        {
+          "es": "Él preguntó dónde trabajaba yo.",
+          "en": "Ele perguntou onde eu trabalhava.",
+          "ar": "Ele perguntou onde eu trabalhava."
+        },
+        {
+          "es": "Él preguntó dónde trabajo.",
+          "en": "Ele perguntou onde eu trabalho.",
+          "ar": "Ele perguntou onde eu trabalho."
+        },
+        {
+          "es": "Él preguntó dónde trabajaré.",
+          "en": "Ele perguntou onde eu trabalharei.",
+          "ar": "Ele perguntou onde eu trabalharei."
+        }
+      ],
+      "answer": "Él preguntó dónde trabajaba yo.",
+      "explanation": {
+        "es": "La pregunta mantiene la palabra interrogativa y el verbo retrocede al imperfecto.",
+        "en": "The question keeps the interrogative word and the verb moves back to the imperfect.",
+        "ar": "تبقى أداة الاستفهام ويتأخر الفعل إلى الماضي الناقص."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al discurso indirecto: 'He said, \"I will travel tomorrow.\"'",
+        "en": "Translate into reported speech: 'He said, \"I will travel tomorrow.\"'",
+        "ar": "ترجم إلى الكلام المنقول: 'He said, \"I will travel tomorrow.\"'"
+      },
+      "options": [],
+      "answer": "Él dijo que viajaría al día siguiente.",
+      "explanation": {
+        "es": "'Will travel' se vuelve 'viajaría'; 'tomorrow' se vuelve 'al día siguiente'.",
+        "en": "'Will travel' becomes 'viajaria'; 'tomorrow' becomes 'no dia seguinte'.",
+        "ar": "تتحول 'will travel' إلى 'viajaria'، و'tomorrow' إلى 'no dia seguinte'."
+      }
+    }
+  ]
+}

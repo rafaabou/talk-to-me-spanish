@@ -1,0 +1,335 @@
+{
+  "id": "A2-12",
+  "level": "A2",
+  "level_name": {
+    "es": "Básico",
+    "en": "Elementary",
+    "ar": "أساسي"
+  },
+  "title": {
+    "es": "Repaso A2",
+    "en": "A2 Review",
+    "ar": "مراجعة المستوى A2"
+  },
+  "objectives": [
+    {
+      "es": "Revisar el vocabulario de las lecciones A2-01 a A2-11",
+      "en": "Review vocabulary from lessons A2-01 to A2-11",
+      "ar": "مراجعة مفردات الدروس من A2-01 إلى A2-11"
+    },
+    {
+      "es": "Revisar los tiempos verbales (pasado y futuro)",
+      "en": "Review verb tenses (past and future)",
+      "ar": "مراجعة الأزمنة (الماضي والمستقبل)"
+    },
+    {
+      "es": "Practicar la conversación con pronombres e imperativo",
+      "en": "Practice conversation with pronouns and the imperative",
+      "ar": "ممارسة المحادثة مع الضمائر وصيغة الأمر"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "ayer",
+      "ipa": "/aˈʝeɾ/",
+      "en": "yesterday",
+      "ar": "أمس"
+    },
+    {
+      "es": "el dinero",
+      "ipa": "/ˈel diˈneɾo/",
+      "en": "the money",
+      "ar": "المال"
+    },
+    {
+      "es": "la tienda",
+      "ipa": "/ˈla ˈtienda/",
+      "en": "the store",
+      "ar": "المتجر"
+    },
+    {
+      "es": "el precio",
+      "ipa": "/ˈel ˈpɾesio/",
+      "en": "the price",
+      "ar": "السعر"
+    },
+    {
+      "es": "el viaje",
+      "ipa": "/ˈel ˈbiaxe/",
+      "en": "the trip",
+      "ar": "الرحلة"
+    },
+    {
+      "es": "la playa",
+      "ipa": "/ˈla ˈplaʝa/",
+      "en": "the beach",
+      "ar": "الشاطئ"
+    },
+    {
+      "es": "más",
+      "ipa": "/ˈmas/",
+      "en": "more",
+      "ar": "أكثر"
+    },
+    {
+      "es": "el verano",
+      "ipa": "/ˈel beˈɾano/",
+      "en": "the summer",
+      "ar": "الصيف"
+    },
+    {
+      "es": "mañana",
+      "ipa": "/maˈɲana/",
+      "en": "tomorrow",
+      "ar": "غدًا"
+    },
+    {
+      "es": "el médico",
+      "ipa": "/ˈel ˈmeðiko/",
+      "en": "the doctor",
+      "ar": "الطبيب"
+    },
+    {
+      "es": "el móvil",
+      "ipa": "/ˈel ˈmoβil/",
+      "en": "the cell phone",
+      "ar": "الهاتف المحمول"
+    },
+    {
+      "es": "llamar",
+      "ipa": "/ʝaˈmaɾ/",
+      "en": "to call",
+      "ar": "يتصل"
+    },
+    {
+      "es": "cuando",
+      "ipa": "/ˈkuando/",
+      "en": "when",
+      "ar": "عندما"
+    },
+    {
+      "es": "la infancia",
+      "ipa": "/ˈla iˈnfansia/",
+      "en": "the childhood",
+      "ar": "الطفولة"
+    },
+    {
+      "es": "el pasado",
+      "ipa": "/ˈel paˈsaðo/",
+      "en": "the past",
+      "ar": "الماضي"
+    },
+    {
+      "es": "el futuro",
+      "ipa": "/ˈel fuˈtuɾo/",
+      "en": "the future",
+      "ar": "المستقبل"
+    },
+    {
+      "es": "la nostalgia",
+      "ipa": "/ˈla noˈstalxia/",
+      "en": "longing / nostalgia",
+      "ar": "الحنين"
+    },
+    {
+      "es": "por eso",
+      "ipa": "/ˈpoɾ ˈeso/",
+      "en": "therefore / that is why",
+      "ar": "لذلك"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Revisión de los Tiempos Verbales",
+        "en": "Review of Verb Tenses",
+        "ar": "مراجعة الأزمنة"
+      },
+      "explanation": {
+        "es": "Revisamos dos tiempos del pasado: el pretérito indefinido para acciones completas ('Ayer trabajé mucho') y el pretérito imperfecto para hábitos y escenarios ('Cuando era niño, jugaba en la calle'). El futuro usa 'ir a + infinitivo' ('Voy a viajar').",
+        "en": "We reviewed two past tenses: the simple past for completed actions ('Ontem eu trabalhei muito' - Yesterday I worked a lot) and the past imperfect for habits and scenes ('Quando era criança, eu brincava na rua' - When I was a child, I played in the street). The future uses 'ir + infinitive' ('Vou viajar' - I am going to travel).",
+        "ar": "راجعنا زمنين للماضي: الماضي التام للأفعال المنجزة ('Ontem eu trabalhei muito' - بالأمس عملت كثيرًا) والماضي الناقص للعادات والمشاهد ('Quando era criança, eu brincava na rua' - عندما كنت طفلًا كنت ألعب في الشارع). المستقبل يستخدم 'ir + صيغة المصدر' ('Vou viajar' - سأسافر)."
+      },
+      "examples": [
+        {
+          "es": "Ayer trabajé mucho, pero hoy voy a descansar.",
+          "en": "Yesterday I worked a lot, but today I am going to rest.",
+          "ar": "بالأمس عملت كثيرًا، لكنني سأستريح اليوم."
+        },
+        {
+          "es": "Cuando era pequeño, vivía con mi abuela.",
+          "en": "When I was little, I lived with my grandmother.",
+          "ar": "عندما كنت صغيرًا، كنت أسكن مع جدتي."
+        },
+        {
+          "es": "Mañana vamos a visitar el museo.",
+          "en": "Tomorrow we are going to visit the museum.",
+          "ar": "غدًا سنزور المتحف."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Revisión de los Pronombres y del Imperativo",
+        "en": "Review of Pronouns and the Imperative",
+        "ar": "مراجعة الضمائر وصيغة الأمر"
+      },
+      "explanation": {
+        "es": "Los pronombres de objeto (me, te, le, nos) sustituyen objetos: 'Te veo', 'Ella me ayudó', 'Le damos el regalo'. El imperativo da órdenes y consejos: 'Habla despacio', 'No fumes aquí'.",
+        "en": "The object pronouns (me, te, lhe, nos) replace objects: 'Eu te vejo' (I see you), 'Ela me ajudou' (She helped me), 'Nós lhe damos o presente' (We give him/her the gift). The imperative gives orders and advice: 'Fale devagar' (Speak slowly), 'Não fume aqui' (Do not smoke here).",
+        "ar": "ضمائر المفعول (me، te، lhe، nos) تحل محل المفعول به: 'Eu te vejo' (أراك)، 'Ela me ajudou' (ساعدتني)، 'Nós lhe damos o presente' (نعطيه الهدية). صيغة الأمر تصدر الأوامر والنصائح: 'Fale devagar' (تكلّم ببطء)، 'Não fume aqui' (لا تدخن هنا)."
+      },
+      "examples": [
+        {
+          "es": "Te llamo después.",
+          "en": "I will call you later.",
+          "ar": "سأتصل بك لاحقًا."
+        },
+        {
+          "es": "¿Puedes ayudarme con la maleta?",
+          "en": "Can you help me with the suitcase?",
+          "ar": "هل يمكنك مساعدتي بالحقيبة؟"
+        },
+        {
+          "es": "Habla más despacio, por favor.",
+          "en": "Speak more slowly, please.",
+          "ar": "تكلّم ببطء أكثر، من فضلك."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Conversación de Revisión",
+      "en": "Review Conversation",
+      "ar": "محادثة مراجعة"
+    },
+    "lines": [
+      {
+        "speaker": "Leila",
+        "es": "¿Qué hiciste ayer?",
+        "en": "What did you do yesterday?",
+        "ar": "ماذا فعلت بالأمس؟"
+      },
+      {
+        "speaker": "Omar",
+        "es": "Trabajé por la mañana y por la tarde fui al mercado.",
+        "en": "I worked in the morning and went to the market in the afternoon.",
+        "ar": "عملت صباحًا وذهبت إلى السوق في الظهيرة."
+      },
+      {
+        "speaker": "Leila",
+        "es": "Cuando era niño, me encantaba ir al mercado con mi padre.",
+        "en": "When I was a child, I loved going to the market with my father.",
+        "ar": "عندما كنت طفلة، كنت أحب الذهاب إلى السوق مع أبي."
+      },
+      {
+        "speaker": "Omar",
+        "es": "¡Qué bonito recuerdo! ¿Y qué vas a hacer mañana?",
+        "en": "What a nice memory! And what are you going to do tomorrow?",
+        "ar": "يا لها من ذكرى جميلة! وماذا ستفعلين غدًا؟"
+      },
+      {
+        "speaker": "Leila",
+        "es": "Voy a visitar la playa y comprar un regalo para mi madre.",
+        "en": "I am going to visit the beach and buy a gift for my mother.",
+        "ar": "سأزور الشاطئ وأشتري هدية لأمي."
+      },
+      {
+        "speaker": "Omar",
+        "es": "¡Genial! No olvides llamarme cuando vuelvas.",
+        "en": "Great! Do not forget to call me when you come back.",
+        "ar": "رائع! لا تنسي الاتصال بي عندما تعودين."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Fin del Nivel A2",
+      "en": "The End of Level A2",
+      "ar": "نهاية المستوى A2"
+    },
+    "text_es": "El nivel A2 termina con mucho aprendido. Ahora hablas del pasado, del futuro y del presente; haces compras, viajas y pides citas. Comparas cosas, das consejos y cuentas historias. ¡Felicidades, estás listo para el próximo nivel: B1!",
+    "text_en": "Level A2 ends with a lot learned. Now you talk about the past, the future and the present; you shop, travel and book appointments. You compare things, give advice and tell stories. Congratulations, you are ready for the next level: B1!",
+    "text_ar": "ينتهي المستوى A2 وقد تعلّمت الكثير. الآن تتحدث عن الماضي والمستقبل والحاضر؛ تتسوق وتسافر وتحدد المواعيد. تقارن الأشياء وتقدم النصائح وتحكي القصص. مبروك، أنت جاهز للمستوى التالي: B1!"
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Ayer yo ___ mucho. (trabajar)",
+        "en": "Yesterday I ___ a lot. (trabalhar)",
+        "ar": "بالأمس أنا ___ كثيرًا. (trabalhar)"
+      },
+      "options": [
+        {
+          "es": "trabajé",
+          "en": "trabalhei",
+          "ar": "trabalhei"
+        },
+        {
+          "es": "trabajaba",
+          "en": "trabalhava",
+          "ar": "trabalhava"
+        },
+        {
+          "es": "trabajaré",
+          "en": "trabalharei",
+          "ar": "trabalharei"
+        }
+      ],
+      "answer": "trabajé",
+      "explanation": {
+        "es": "Acción completa en el pasado = pretérito indefinido: trabajé.",
+        "en": "Completed action in the past = simple past: trabalhei.",
+        "ar": "الفعل المنجز في الماضي = الماضي التام: trabalhei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Mañana nosotros ___ visitar el museo.",
+        "en": "Tomorrow we ___ visit the museum.",
+        "ar": "غدًا نحن ___ نزور المتحف."
+      },
+      "options": [
+        {
+          "es": "vamos a",
+          "en": "vamos",
+          "ar": "vamos"
+        },
+        {
+          "es": "van a",
+          "en": "vão",
+          "ar": "vão"
+        },
+        {
+          "es": "va a",
+          "en": "vai",
+          "ar": "vai"
+        }
+      ],
+      "answer": "vamos a",
+      "explanation": {
+        "es": "Futuro próximo con 'nosotros': vamos a visitar.",
+        "en": "Immediate future with 'nós': vamos visitar.",
+        "ar": "المستقبل القريب مع 'nós': vamos visitar."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'yesterday'",
+        "en": "Translate: 'yesterday'",
+        "ar": "ترجم: 'yesterday'"
+      },
+      "options": [],
+      "answer": "ayer",
+      "explanation": {
+        "es": "'Ayer' = yesterday.",
+        "en": "'Ontem' = yesterday.",
+        "ar": "'ontem' = أمس."
+      }
+    }
+  ]
+}

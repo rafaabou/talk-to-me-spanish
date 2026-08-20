@@ -1,0 +1,327 @@
+{
+  "id": "C1-09",
+  "level": "C1",
+  "level_name": {
+    "es": "Avanzado",
+    "en": "Advanced",
+    "ar": "متقدم"
+  },
+  "title": {
+    "es": "Historia de Hispanoamérica",
+    "en": "History of Brazil",
+    "ar": "تاريخ البرازيل"
+  },
+  "objectives": [
+    {
+      "es": "Hablar sobre la historia de América Latina con vocabulario adecuado",
+      "en": "Talk about Brazilian history with appropriate vocabulary",
+      "ar": "التحدث عن تاريخ البرازيل بمفردات مناسبة"
+    },
+    {
+      "es": "Usar la voz pasiva en la narrativa histórica",
+      "en": "Use the passive voice in historical narrative",
+      "ar": "استخدام المبني للمجهول في السرد التاريخي"
+    },
+    {
+      "es": "Relacionar pasado y presente en análisis",
+      "en": "Connect past and present in analyses",
+      "ar": "الربط بين الماضي والحاضر في التحليلات"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la colonización",
+      "ipa": "/ˈla kolonisaˈsion/",
+      "en": "the colonization",
+      "ar": "الاستعمار"
+    },
+    {
+      "es": "el descubrimiento",
+      "ipa": "/ˈel deskuβɾiˈmiento/",
+      "en": "the discovery",
+      "ar": "الاكتشاف"
+    },
+    {
+      "es": "el indígena",
+      "ipa": "/ˈel iˈndixena/",
+      "en": "the indigenous person",
+      "ar": "السكان الأصليون"
+    },
+    {
+      "es": "el esclavo",
+      "ipa": "/ˈel eˈsklaβo/",
+      "en": "the slave",
+      "ar": "العبد"
+    },
+    {
+      "es": "la esclavitud",
+      "ipa": "/ˈla esklaβiˈtuð/",
+      "en": "slavery",
+      "ar": "العبودية"
+    },
+    {
+      "es": "la independencia",
+      "ipa": "/ˈla indepeˈndensia/",
+      "en": "independence",
+      "ar": "الاستقلال"
+    },
+    {
+      "es": "el imperio",
+      "ipa": "/ˈel iˈmpeɾio/",
+      "en": "the empire",
+      "ar": "الإمبراطورية"
+    },
+    {
+      "es": "la república",
+      "ipa": "/ˈla reˈpuβlika/",
+      "en": "the republic",
+      "ar": "الجمهورية"
+    },
+    {
+      "es": "el golpe de estado",
+      "ipa": "/ˈel ˈgolpe ˈde eˈstaðo/",
+      "en": "the coup",
+      "ar": "الانقلاب"
+    },
+    {
+      "es": "la dictadura",
+      "ipa": "/ˈla diktaˈðuɾa/",
+      "en": "the dictatorship",
+      "ar": "الديكتاتورية"
+    },
+    {
+      "es": "la democracia",
+      "ipa": "/ˈla demoˈkɾasia/",
+      "en": "democracy",
+      "ar": "الديمقراطية"
+    },
+    {
+      "es": "la constitución",
+      "ipa": "/ˈla konstituˈsion/",
+      "en": "the constitution",
+      "ar": "الدستور"
+    },
+    {
+      "es": "la abolición",
+      "ipa": "/ˈla aβoliˈsion/",
+      "en": "the abolition",
+      "ar": "الإلغاء"
+    },
+    {
+      "es": "el inmigrante",
+      "ipa": "/ˈel inmiˈɣɾante/",
+      "en": "the immigrant",
+      "ar": "المهاجر"
+    },
+    {
+      "es": "la economía",
+      "ipa": "/ˈla ekonoˈmia/",
+      "en": "the economy",
+      "ar": "الاقتصاد"
+    },
+    {
+      "es": "la guerra",
+      "ipa": "/ˈla ˈgera/",
+      "en": "the war",
+      "ar": "الحرب"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "La Voz Pasiva en la Historia",
+        "en": "The Passive Voice in History",
+        "ar": "المبني للمجهول في التاريخ"
+      },
+      "explanation": {
+        "es": "La voz pasiva es esencial para narrar hechos históricos, pues destaca el acontecimiento y no al agente: 'ser + participio'. Ej.: 'América fue descubierta en 1492', 'La esclavitud fue abolida en 1888'. El agente puede aparecer con 'por' u omitirse. Con 'se' se usa la voz pasiva sintética: 'Se proclamó la República'.",
+        "en": "The passive voice is essential for narrating historical facts because it highlights the event rather than the agent: 'ser + participle'. E.g., 'O Brasil foi descoberto em 1500' (Brazil was discovered in 1500), 'A escravidão foi abolida em 1888' (Slavery was abolished in 1888). The agent may appear with 'por' or be omitted. With 'se', the synthetic passive is used: 'Proclamou-se a República' (The Republic was proclaimed).",
+        "ar": "المبني للمجهول ضروري لسرد الوقائع التاريخية لأنه يبرز الحدث لا الفاعل: 'ser + اسم مفعول'. مثال: 'O Brasil foi descoberto em 1500' (اكتُشفت البرازيل عام 1500)، و'A escravidão foi abolida em 1888' (أُلغيت العبودية عام 1888). وقد يظهر الفاعل مع 'por' أو يُحذف. ومع 'se' يُستخدم المبني للمجهول المختصر: 'Proclamou-se a República'."
+      },
+      "examples": [
+        {
+          "es": "América fue descubierta en 1492.",
+          "en": "Brazil was discovered in 1500.",
+          "ar": "اكتُشفت البرازيل عام 1500."
+        },
+        {
+          "es": "La esclavitud fue abolida en 1888.",
+          "en": "Slavery was abolished in 1888.",
+          "ar": "أُلغيت العبودية عام 1888."
+        },
+        {
+          "es": "La República fue proclamada en 1889.",
+          "en": "The Republic was proclaimed in 1889.",
+          "ar": "أُعلنت الجمهورية عام 1889."
+        },
+        {
+          "es": "La Constitución fue promulgada en 1978.",
+          "en": "The Constitution was promulgated in 1988.",
+          "ar": "صُودق على الدستور عام 1988."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Indefinido e Imperfecto en la Narrativa Histórica",
+        "en": "Perfect and Imperfect in Historical Narrative",
+        "ar": "الماضي التام والماضي الناقص في السرد التاريخي"
+      },
+      "explanation": {
+        "es": "En la historia, el pretérito indefinido marca los acontecimientos puntuales y conclusos, mientras el imperfecto describe el contexto, las condiciones y los procesos duraderos. Ej.: 'Mientras el imperio se consolidaba, crecía la oposición' (imperfecto) y 'Los inmigrantes llegaron y transformaron la economía' (indefinido).",
+        "en": "In history, the preterite marks one-time, conclusive events, while the imperfect describes context, conditions and lasting processes. E.g., 'Enquanto o império se consolidava, crescia a oposição' (imperfect: while the empire was consolidating, opposition was growing) and 'Os imigrantes chegaram e transformaram a economia' (perfect: immigrants arrived and transformed the economy).",
+        "ar": "في التاريخ، يمثل الماضي التام الأحداث اللحظية الحاسمة، بينما يصف الماضي الناقص السياق والظروف والعمليات الطويلة. مثال: 'Enquanto o império se consolidava, crescia a oposição' (ناقص: بينما كانت الإمبراطورية تترسخ، كان نمو المعارضة يتزايد) و'Os imigrantes chegaram e transformaram a economia' (تام: وصل المهاجرون وحوّلوا الاقتصاد)."
+      },
+      "examples": [
+        {
+          "es": "Durante siglos, el país dependió del azúcar.",
+          "en": "For centuries, the country depended on sugar.",
+          "ar": "لقرون، اعتمدت البلاد على السكر."
+        },
+        {
+          "es": "Mientras el imperio se consolidaba, crecía la oposición.",
+          "en": "While the empire was consolidating, the opposition was growing.",
+          "ar": "بينما كانت الإمبراطورية تترسخ، كان نمو المعارضة يتزايد."
+        },
+        {
+          "es": "Los inmigrantes llegaron y transformaron la economía.",
+          "en": "The immigrants arrived and transformed the economy.",
+          "ar": "وصل المهاجرون وحوّلوا الاقتصاد."
+        },
+        {
+          "es": "La ciudad crecía rápidamente cuando el puerto fue inaugurado.",
+          "en": "The city was growing rapidly when the port was inaugurated.",
+          "ar": "كانت المدينة تنمو بسرعة عندما افتُتح الميناء."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Hablando de Historia",
+      "en": "Talking About History",
+      "ar": "الحديث عن التاريخ"
+    },
+    "lines": [
+      {
+        "speaker": "Elena",
+        "es": "¿Sabías que la independencia de Brasil fue proclamada en 1822 por Don Pedro I?",
+        "en": "Did you know that independence was proclaimed in 1822 by Dom Pedro I?",
+        "ar": "هل تعلمين أن الاستقلال أُعلن عام 1822 على يد دوم بيدرو الأول؟"
+      },
+      {
+        "speaker": "Rui",
+        "es": "Sí, y antes de eso el país vivió siglos de colonización y esclavitud.",
+        "en": "Yes, and before that the country lived through centuries of colonization and slavery.",
+        "ar": "نعم، وقبل ذلك عاشت البلاد قرونًا من الاستعمار والعبودية."
+      },
+      {
+        "speaker": "Elena",
+        "es": "La esclavitud fue abolida en 1888, la última gran abolición de las Américas.",
+        "en": "Slavery was abolished in 1888, the last major abolition in the Americas.",
+        "ar": "أُلغيت العبودية عام 1888، وهو آخر إلغاء كبير في الأمريكتين."
+      },
+      {
+        "speaker": "Rui",
+        "es": "Y la democracia fue restaurada después de la dictadura de 1964, con la Constitución de 1988.",
+        "en": "And democracy was restored after the 1964 coup, with the 1988 Constitution.",
+        "ar": "وأعيدت الديمقراطية بعد انقلاب 1964، مع دستور عام 1988."
+      },
+      {
+        "speaker": "Elena",
+        "es": "La historia es compleja, pero entender el pasado ayuda a explicar el presente.",
+        "en": "History is complex, but understanding the past helps explain the present.",
+        "ar": "التاريخ معقد، لكن فهم الماضي يساعد في تفسير الحاضر."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Un Hito en la Historia",
+      "en": "A Landmark in History",
+      "ar": "معلم في التاريخ"
+    },
+    "text_es": "En 1888, la Ley Áurea abolió la esclavitud en Brasil, poniendo fin a siglos de trabajo forzado. La medida fue firmada por la princesa Isabel y representó una victoria para el movimiento abolicionista. A pesar de ello, la inclusión social de los liberados fue lenta y difícil. El país comenzaba a construir entonces un nuevo capítulo de su historia.",
+    "text_en": "In 1888, the Golden Law abolished slavery in Brazil, ending centuries of forced labor. The measure was signed by Princess Isabel and represented a victory for the abolitionist movement. Despite this, the social inclusion of the freed people was slow and difficult. The country was then beginning to build a new chapter in its history.",
+    "text_ar": "في عام 1888، ألغى القانون الذهبي العبودية في البرازيل، منهيًا قرونًا من العمل القسري. وقّعت الأميرة إيزابيل على هذا الإجراء الذي مثّل انتصارًا للحركة الإلغائية. ومع ذلك، كان الإدماج الاجتماعي للعبيد المحررين بطيئًا وصعبًا. كانت البلاد حينها تبدأ فصلًا جديدًا من تاريخها."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa en voz pasiva: 'La República ______ en 1889.'",
+        "en": "Complete in the passive voice: 'A República ______ em 1889.'",
+        "ar": "أكمل بالمبني للمجهول: 'A República ______ em 1889.'"
+      },
+      "options": [
+        {
+          "es": "fue proclamada",
+          "en": "foi proclamada",
+          "ar": "foi proclamada"
+        },
+        {
+          "es": "proclamó",
+          "en": "proclamou",
+          "ar": "proclamou"
+        },
+        {
+          "es": "será proclamada",
+          "en": "será proclamada",
+          "ar": "será proclamada"
+        }
+      ],
+      "answer": "fue proclamada",
+      "explanation": {
+        "es": "En la voz pasiva se usa 'ser + participio': 'fue proclamada'.",
+        "en": "In the passive voice, we use 'ser + participle': 'foi proclamada'.",
+        "ar": "في المبني للمجهول نستخدم 'ser + اسم مفعول': 'foi proclamada'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué tiempo verbal describe el proceso largo y continuo?",
+        "en": "Which tense describes the long, continuous process?",
+        "ar": "أي زمن يصف العملية الطويلة المستمرة؟"
+      },
+      "options": [
+        {
+          "es": "Pretérito indefinido",
+          "en": "Simple past",
+          "ar": "الماضي البسيط"
+        },
+        {
+          "es": "Pretérito imperfecto",
+          "en": "Imperfect",
+          "ar": "الماضي الناقص"
+        },
+        {
+          "es": "Condicional simple",
+          "en": "Conditional",
+          "ar": "المستقبل الناقص"
+        }
+      ],
+      "answer": "Pretérito imperfecto",
+      "explanation": {
+        "es": "El imperfecto describe procesos y contextos duraderos ('se consolidaba').",
+        "en": "The imperfect describes lasting processes and contexts ('se consolidava').",
+        "ar": "الماضي الناقص يصف العمليات والسياقات الطويلة ('se consolidava')."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'Slavery was abolished in Brazil in 1888.'",
+        "en": "Translate: 'Slavery was abolished in Brazil in 1888.'",
+        "ar": "ترجم: 'Slavery was abolished in Brazil in 1888.'"
+      },
+      "options": [],
+      "answer": "La esclavitud fue abolida en Brasil en 1888.",
+      "explanation": {
+        "es": "Voz pasiva: 'fue abolida'; 'la esclavitud' es slavery.",
+        "en": "Passive voice: 'foi abolida'; 'a escravidão' is slavery.",
+        "ar": "المبني للمجهول: 'foi abolida'، و'a escravidão' هي العبودية."
+      }
+    }
+  ]
+}

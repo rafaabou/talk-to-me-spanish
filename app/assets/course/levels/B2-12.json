@@ -1,0 +1,327 @@
+{
+  "id": "B2-12",
+  "level": "B2",
+  "level_name": {
+    "es": "Intermedio alto",
+    "en": "Upper-Intermediate",
+    "ar": "متوسط متقدم"
+  },
+  "title": {
+    "es": "Repaso B2",
+    "en": "B2 Review",
+    "ar": "مراجعة المستوى B2"
+  },
+  "objectives": [
+    {
+      "es": "Revisar los tres tiempos del subjuntivo",
+      "en": "Review the three subjunctive tenses",
+      "ar": "مراجعة أزمنة الشرط الثلاثة"
+    },
+    {
+      "es": "Revisar la voz pasiva y los conectores",
+      "en": "Review the passive voice and connectors",
+      "ar": "مراجعة المبني للمجهول وأدوات الربط"
+    },
+    {
+      "es": "Consolidar el vocabulario del nivel B2",
+      "en": "Consolidate B2-level vocabulary",
+      "ar": "تثبيت مفردات المستوى B2"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el subjuntivo",
+      "ipa": "/ˈel suβxuˈntiβo/",
+      "en": "the subjunctive",
+      "ar": "صيغة الشرط"
+    },
+    {
+      "es": "la voz pasiva",
+      "ipa": "/ˈla ˈbos paˈsiβa/",
+      "en": "the passive voice",
+      "ar": "المبني للمجهول"
+    },
+    {
+      "es": "el conector",
+      "ipa": "/ˈel koneˈktoɾ/",
+      "en": "the connector",
+      "ar": "أداة الربط"
+    },
+    {
+      "es": "el vocabulario",
+      "ipa": "/ˈel bokaβuˈlaɾio/",
+      "en": "the vocabulary",
+      "ar": "المفردات"
+    },
+    {
+      "es": "el descubrimiento",
+      "ipa": "/ˈel deskuβɾiˈmiento/",
+      "en": "the discovery",
+      "ar": "الاكتشاف"
+    },
+    {
+      "es": "la sostenibilidad",
+      "ipa": "/ˈla sosteniβiliˈðað/",
+      "en": "the sustainability",
+      "ar": "الاستدامة"
+    },
+    {
+      "es": "la negociación",
+      "ipa": "/ˈla neɣosiaˈsion/",
+      "en": "the negotiation",
+      "ar": "التفاوض"
+    },
+    {
+      "es": "el personaje",
+      "ipa": "/ˈel peɾsoˈnaxe/",
+      "en": "the character",
+      "ar": "الشخصية"
+    },
+    {
+      "es": "el medio ambiente",
+      "ipa": "/ˈel ˈmeðio aˈmbiente/",
+      "en": "the environment",
+      "ar": "البيئة"
+    },
+    {
+      "es": "la elección",
+      "ipa": "/ˈla eleˈksion/",
+      "en": "the election",
+      "ar": "الانتخابات"
+    },
+    {
+      "es": "la inversión",
+      "ipa": "/ˈla inbeˈɾsion/",
+      "en": "the investment",
+      "ar": "الاستثمار"
+    },
+    {
+      "es": "la inteligencia artificial",
+      "ipa": "/ˈla inteliˈxensia aɾtifiˈsial/",
+      "en": "artificial intelligence",
+      "ar": "الذكاء الاصطناعي"
+    },
+    {
+      "es": "la ciudadanía",
+      "ipa": "/ˈla siuðaðaˈnia/",
+      "en": "the citizenship",
+      "ar": "المواطنة"
+    },
+    {
+      "es": "la trama",
+      "ipa": "/ˈla ˈtɾama/",
+      "en": "the plot",
+      "ar": "الحبكة"
+    },
+    {
+      "es": "el reciclaje",
+      "ipa": "/ˈel resiˈklaxe/",
+      "en": "the recycling",
+      "ar": "إعادة التدوير"
+    },
+    {
+      "es": "el empleo",
+      "ipa": "/ˈel ˈempleo/",
+      "en": "the job",
+      "ar": "الوظيفة"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Panorama del Subjuntivo",
+        "en": "Overview of the Subjunctive",
+        "ar": "نظرة شاملة على صيغة الشرط"
+      },
+      "explanation": {
+        "es": "Resumen de los tres tiempos: presente (hechos presentes o futuros inciertos, después de expresiones de deseo y duda), imperfecto (hipótesis irreales y condiciones con 'si'), futuro (oraciones temporales y condicionales que se refieren al futuro).",
+        "en": "Summary of the three tenses: present (uncertain present or future facts, after expressions of desire and doubt), imperfect (unreal hypotheses and conditions with 'se'), future (temporal and conditional clauses that refer to the future).",
+        "ar": "ملخص الأزمنة الثلاثة: المضارع (حقائق حاضرة أو مستقبلية غير مؤكدة بعد تعبيرات الرغبة والشك)، والناقص (فرضيات غير واقعية وشروط مع 'se')، والمستقبل (الجمل الزمنية والشرطية التي تشير إلى المستقبل)."
+      },
+      "examples": [
+        {
+          "es": "Es importante que estudies todos los días. (presente)",
+          "en": "It's important that you study every day. (present)",
+          "ar": "من المهم أن تدرس كل يوم. (مضارع)"
+        },
+        {
+          "es": "Si tuviera más tiempo, aprendería tres idiomas. (imperfecto)",
+          "en": "If I had more time, I would learn three languages. (imperfect)",
+          "ar": "لو كان لدي مزيد من الوقت، لتعلمت ثلاث لغات. (ناقص)"
+        },
+        {
+          "es": "Cuando termines el curso, lo vas a echar de menos. (futuro)",
+          "en": "When you finish the course, you'll miss it. (future)",
+          "ar": "عندما تنهي الدورة، ستشعر بالحنين إليها. (مستقبل)"
+        },
+        {
+          "es": "Quizás nos veamos el próximo mes. (presente)",
+          "en": "Maybe we'll see each other next month. (present)",
+          "ar": "ربما نلتقي الشهر القادم. (مضارع)"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Voz Pasiva y Conectores en Revisión",
+        "en": "Passive Voice and Connectors in Review",
+        "ar": "مراجعة المبني للمجهول وأدوات الربط"
+      },
+      "explanation": {
+        "es": "La voz pasiva usa ser + participio y puede omitir el agente. La pasiva con se se usa para afirmaciones generales. Los conectores organizan la argumentación y unen las ideas del texto.",
+        "en": "The passive voice uses ser + participle and can omit the agent. The se-passive is used for general statements. Connectors organize argumentation and link the ideas of the text.",
+        "ar": "يستخدم المبني للمجهول ser + اسم المفعول ويمكن حذف الفاعل. ويُستخدم المبني للمجهول مع se للعبارات العامة. وتنظم أدوات الربط الحجج وتربط أفكار النص."
+      },
+      "examples": [
+        {
+          "es": "El examen fue corregido por el profesor.",
+          "en": "The exam was graded by the teacher.",
+          "ar": "صُحح الامتحان من قبل الأستاذ."
+        },
+        {
+          "es": "Se alquilan salas para eventos.",
+          "en": "Rooms for events are rented.",
+          "ar": "تُستأجر قاعات للمناسبات."
+        },
+        {
+          "es": "El proyecto es bueno; sin embargo, necesita ajustes.",
+          "en": "The project is good; however, it needs adjustments.",
+          "ar": "المشروع جيد؛ ومع ذلك يحتاج إلى تعديلات."
+        },
+        {
+          "es": "Estudiamos mucho; por lo tanto, merecemos descansar.",
+          "en": "We studied a lot; therefore, we deserve a break.",
+          "ar": "درسنا كثيرًا؛ لذلك نستحق الراحة."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "El Progreso en el Curso",
+      "en": "The Progress in the Course",
+      "ar": "التقدم في الدورة"
+    },
+    "lines": [
+      {
+        "speaker": "Profesora",
+        "es": "Llegaron al final del nivel B2. ¿Cómo se sienten?",
+        "en": "You've reached the end of level B2. How do you feel?",
+        "ar": "لقد وصلتم إلى نهاية المستوى B2. كيف تشعرون؟"
+      },
+      {
+        "speaker": "Alumno",
+        "es": "¡Muy bien! Ahora puedo discutir temas complejos en español.",
+        "en": "Very good! Now I can discuss complex topics in Portuguese.",
+        "ar": "جيد جدًا! الآن أستطيع مناقشة مواضيع معقدة بالبرتغالية."
+      },
+      {
+        "speaker": "Profesora",
+        "es": "Excelente. Recuerden que el subjuntivo necesita práctica diaria.",
+        "en": "Excellent. Remember that the subjunctive needs daily practice.",
+        "ar": "ممتاز. تذكروا أن صيغة الشرط تحتاج إلى ممارسة يومية."
+      },
+      {
+        "speaker": "Alumno",
+        "es": "Sí. Si practico todos los días, voy a mejorar cada vez más.",
+        "en": "Yes. If I practice every day, I'll keep improving.",
+        "ar": "نعم. إذا تدربت كل يوم، سأتحسن أكثر فأكثر."
+      },
+      {
+        "speaker": "Profesora",
+        "es": "Bien. Cuando se sientan seguros, pasen al nivel C1.",
+        "en": "Right. When you feel confident, move on to level C1.",
+        "ar": "صحيح. عندما تشعرون بالثقة، انتقلوا إلى المستوى C1."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "La Jornada del Aprendiz",
+      "en": "The Learner's Journey",
+      "ar": "رحلة المتعلم"
+    },
+    "text_es": "Aprender una lengua es una jornada larga, pero gratificante. En el nivel B2, el alumno ya discute política, economía y ciencia en español. Aun así, es importante seguir practicando la lectura y la conversación todos los días. Quien persiste, alcanza la fluidez.",
+    "text_en": "Learning a language is a long but rewarding journey. At B2 level, the student already discusses politics, economy and science in Portuguese. Even so, it is important to keep practicing reading and conversation every day. Whoever persists reaches fluency.",
+    "text_ar": "تعلم اللغة رحلة طويلة لكنها مجزية. في المستوى B2، يناقش الطالب بالفعل السياسة والاقتصاد والعلوم بالبرتغالية. ورغم ذلك، من المهم مواصلة ممارسة القراءة والمحادثة كل يوم. ومن يواصل، يصل إلى الطلاقة."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Si yo ___ más tiempo, aprendería tres idiomas.",
+        "en": "If I ___ more time, I would learn three languages.",
+        "ar": "لو ___ لدي مزيد من الوقت، لتعلمت ثلاث لغات."
+      },
+      "options": [
+        {
+          "es": "tenía",
+          "en": "tinha",
+          "ar": "tinha"
+        },
+        {
+          "es": "tuviera",
+          "en": "tivesse",
+          "ar": "tivesse"
+        },
+        {
+          "es": "tengo",
+          "en": "tenho",
+          "ar": "tenho"
+        }
+      ],
+      "answer": "tuviera",
+      "explanation": {
+        "es": "Hipótesis irreal: 'si' + imperfecto de subjuntivo (tuviera) + condicional (aprendería).",
+        "en": "Unreal hypothesis: 'se' + imperfect subjunctive (tivesse) + conditional (aprenderia).",
+        "ar": "فرضية غير واقعية: 'se' + الماضي الناقص الشرطي (tivesse) + الصيغة الشرطية (aprenderia)."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Cuando tú ___ el curso, lo vas a echar de menos.",
+        "en": "When you ___ the course, you'll miss it.",
+        "ar": "عندما ___ الدورة، ستشعر بالحنين إليها."
+      },
+      "options": [
+        {
+          "es": "terminas",
+          "en": "termina",
+          "ar": "termina"
+        },
+        {
+          "es": "termines",
+          "en": "terminar",
+          "ar": "terminar"
+        },
+        {
+          "es": "terminaste",
+          "en": "terminou",
+          "ar": "terminou"
+        }
+      ],
+      "answer": "termines",
+      "explanation": {
+        "es": "Oración temporal futura: 'cuando' + subjuntivo (termines).",
+        "en": "Future temporal clause: 'quando' + future subjunctive (terminar).",
+        "ar": "جملة زمنية مستقبلية: 'quando' + المستقبل الشرطي (terminar)."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'The exam was graded by the teacher.'",
+        "en": "Translate: 'The exam was graded by the teacher.'",
+        "ar": "ترجم: 'The exam was graded by the teacher.'"
+      },
+      "options": [],
+      "answer": "El examen fue corregido por el profesor.",
+      "explanation": {
+        "es": "Voz pasiva en el pretérito: 'fue corregido' + agente 'por el profesor'.",
+        "en": "Passive voice in the preterite: 'foi corrigida' + agent 'pelo professor'.",
+        "ar": "المبني للمجهول في الماضي: 'foi corrigida' + الفاعل 'pelo professor'."
+      }
+    }
+  ]
+}
