@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  just_audio: ^0.9.46
+  just_audio: ^0.10.6
   shared_preferences: ^2.2.2
   provider: ^6.1.2
   crypto: ^3.0.3
