@@ -4,7 +4,7 @@ Thank you for your interest in contributing to Talk To Me! This document provide
 
 ## Code of Conduct
 
-This project adheres to a Code of Conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to conduct@rafaabou.com.
+This project adheres to a Code of Conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to rafaabou@gmail.com.
 
 ## How to Contribute
 
