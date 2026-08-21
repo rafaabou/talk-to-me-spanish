@@ -8,6 +8,7 @@ import '../services/progress_service.dart';
 import '../widgets/audio_button.dart';
 import '../widgets/app_selection_area.dart';
 import '../widgets/credit_footer.dart';
+import '../services/ui_text.dart';
 
 class QuizScreen extends StatefulWidget {
   final String levelId;
@@ -45,7 +46,12 @@ class _QuizScreenState extends State<QuizScreen> {
         if (lesson == null) continue;
         questions.addAll(
           lesson.exercises.where(
-            (e) => e.type == 'multiple_choice' || e.type == 'fill_blank',
+            (e) => const [
+              'multiple_choice',
+              'fill_blank',
+              'listening',
+              'listening_mcq',
+            ].contains(e.type),
           ),
         );
       }
@@ -79,6 +85,7 @@ class _QuizScreenState extends State<QuizScreen> {
       _revealed = false;
       if (_index >= _questions!.length) {
         _finished = true;
+        _finish();
       }
     });
   }
@@ -94,6 +101,7 @@ class _QuizScreenState extends State<QuizScreen> {
       _questions = [for (final i in wrongQs) _questions![i]];
       _wrong.clear();
       _index = 0;
+      _score = 0;
       _selected = null;
       _revealed = false;
       _finished = false;
@@ -114,11 +122,12 @@ class _QuizScreenState extends State<QuizScreen> {
       child: Scaffold(
         appBar: AppBar(
           title: Text(
-            lang == 'ar'
-                ? 'اختبار ${widget.levelId}'
-                : lang == 'es'
-                ? 'Examen ${widget.levelId}'
-                : '${widget.levelId} Quiz',
+            uiText(
+              lang,
+              ar: 'اختبار ${widget.levelId}',
+              es: 'Examen ${widget.levelId}',
+              other: '${widget.levelId} Quiz',
+            ),
           ),
         ),
         body:
@@ -130,7 +139,6 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   Widget _buildResult(String lang) {
-    _finish();
     final total = _questions!.length;
     return Column(
       children: [
@@ -155,21 +163,23 @@ class _QuizScreenState extends State<QuizScreen> {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    lang == 'ar'
-                        ? 'أفضل نتيجة: $_best/$total'
-                        : lang == 'es'
-                        ? 'Mejor resultado: $_best/$total'
-                        : 'Best score: $_best/$total',
+                    uiText(
+                      lang,
+                      ar: 'أفضل نتيجة: $_best/$total',
+                      es: 'Mejor resultado: $_best/$total',
+                      other: 'Best score: $_best/$total',
+                    ),
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
                   if (_wrong.isNotEmpty) ...[
                     const SizedBox(height: 8),
                     Text(
-                      lang == 'ar'
-                          ? 'أخطأت في ${_wrong.length}'
-                          : lang == 'es'
-                          ? 'Errores: ${_wrong.length}'
-                          : 'Mistakes: ${_wrong.length}',
+                      uiText(
+                        lang,
+                        ar: 'أخطأت في ${_wrong.length}',
+                        es: 'Errores: ${_wrong.length}',
+                        other: 'Mistakes: ${_wrong.length}',
+                      ),
                       style: Theme.of(context).textTheme.bodyLarge,
                     ),
                   ],
@@ -179,22 +189,19 @@ class _QuizScreenState extends State<QuizScreen> {
                       onPressed: _retryWrong,
                       icon: const Icon(Icons.refresh),
                       label: Text(
-                        lang == 'ar'
-                            ? 'مراجعة الأخطاء'
-                            : lang == 'es'
-                            ? 'Repasar errores'
-                            : 'Review mistakes',
+                        uiText(
+                          lang,
+                          ar: 'مراجعة الأخطاء',
+                          es: 'Repasar errores',
+                          other: 'Review mistakes',
+                        ),
                       ),
                     ),
                   const SizedBox(height: 8),
                   OutlinedButton(
                     onPressed: () => Navigator.pop(context),
                     child: Text(
-                      lang == 'ar'
-                          ? 'إنهاء'
-                          : lang == 'es'
-                          ? 'Terminar'
-                          : 'Done',
+                      uiText(lang, ar: 'إنهاء', es: 'Terminar', other: 'Done'),
                     ),
                   ),
                 ],
@@ -209,7 +216,12 @@ class _QuizScreenState extends State<QuizScreen> {
 
   Widget _buildQuestion(Exercise e, String lang) {
     final q = e.prompt;
-    final isMC = e.type == 'multiple_choice' || e.type == 'fill_blank';
+    final isMC = const [
+      'multiple_choice',
+      'fill_blank',
+      'listening',
+      'listening_mcq',
+    ].contains(e.type);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
@@ -230,7 +242,8 @@ class _QuizScreenState extends State<QuizScreen> {
             textAlign: TextAlign.center,
           ),
         ),
-        if (e.type == 'listening' && e.audio != null)
+        if ((e.type == 'listening' || e.type == 'listening_mcq') &&
+            e.audio != null)
           Padding(
             padding: const EdgeInsets.only(top: 8),
             child: Center(child: AudioButton(text: e.audio!, lang: 'es')),
@@ -279,11 +292,7 @@ class _QuizScreenState extends State<QuizScreen> {
             child: FilledButton(
               onPressed: _next,
               child: Text(
-                lang == 'ar'
-                    ? 'التالي'
-                    : lang == 'es'
-                    ? 'Siguiente'
-                    : 'Next',
+                uiText(lang, ar: 'التالي', es: 'Siguiente', other: 'Next'),
               ),
             ),
           ),
