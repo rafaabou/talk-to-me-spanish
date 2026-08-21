@@ -71,8 +71,8 @@ class FsrsScheduler {
   double _successInterval(FsrsCard card, int rating) {
     final s = card.stability;
     final d = card.difficulty;
-    final r = rating == 2 ? w8 : (rating == 3 ? w9 : w10);
-    return min(s * exp(r * (1 - d)), maximumInterval);
+    final k = rating == 2 ? w9 : (rating == 3 ? w10 : w8);
+    return min(s * exp(k * (1 - d / 10)), maximumInterval);
   }
 
   double _lapseInterval(FsrsCard card) {
@@ -111,10 +111,8 @@ class FsrsScheduler {
   double _newStabilityAfterSuccess(FsrsCard card, int rating) {
     final s = card.stability;
     final d = card.difficulty;
-    final r = rating == 2 ? w8 : (rating == 3 ? w9 : w10);
-    return s *
-        (1 + exp(r * (1 - d)) - 1) *
-        pow(rating == 2 ? w12 : (rating == 3 ? w13 : w14), 1);
+    final k = rating == 2 ? w9 : (rating == 3 ? w10 : w8);
+    return s * exp(k * (1 - d / 10));
   }
 
   double _newStabilityAfterLapse(FsrsCard card) {

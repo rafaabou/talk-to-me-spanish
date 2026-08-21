@@ -160,6 +160,11 @@ class ProgressService {
     await prefs.remove(_onboardingKey);
     await prefs.remove(_accessibilityKey);
     await prefs.remove(_repeatCountKey);
+    for (final key in prefs.getKeys().where(
+      (k) => k.startsWith('quiz_best_'),
+    )) {
+      await prefs.remove(key);
+    }
   }
 
   Future<bool> isCompleted(String lessonId) async {
@@ -220,7 +225,8 @@ class ProgressService {
   Future<void> _bumpStreak() async {
     final prefs = await SharedPreferences.getInstance();
     final now = DateTime.now();
-    final today = '${now.year}-${now.month}-${now.day}';
+    final today =
+        '${now.year}-${now.month.toString().padLeft(2, '0')}-${now.day.toString().padLeft(2, '0')}';
     final last = prefs.getString(_lastStudyKey) ?? '';
     if (last == today) return;
     final streak = prefs.getInt(_streakKey) ?? 0;
