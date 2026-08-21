@@ -1,0 +1,327 @@
+{
+  "id": "C1-08",
+  "level": "C1",
+  "level_name": {
+    "es": "Avanzado",
+    "en": "Advanced",
+    "ar": "متقدم"
+  },
+  "title": {
+    "es": "Concordancia Nominal y Verbal",
+    "en": "Nominal and Verbal Agreement",
+    "ar": "مطابقة الاسم والفعل"
+  },
+  "objectives": [
+    {
+      "es": "Aplicar las reglas de concordancia nominal",
+      "en": "Apply the rules of nominal agreement",
+      "ar": "تطبيق قواعد المطابقة الاسمية"
+    },
+    {
+      "es": "Dominar la concordancia verbal con sujeto complejo",
+      "en": "Master verbal agreement with complex subjects",
+      "ar": "إتقان مطابقة الفعل مع الفاعل المركب"
+    },
+    {
+      "es": "Reconocer los casos especiales de concordancia",
+      "en": "Recognize special cases of agreement",
+      "ar": "التعرف على الحالات الخاصة للمطابقة"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la concordancia nominal",
+      "ipa": "/ˈla konkoˈɾdansia nomiˈnal/",
+      "en": "nominal agreement",
+      "ar": "المطابقة الاسمية"
+    },
+    {
+      "es": "la concordancia verbal",
+      "ipa": "/ˈla konkoˈɾdansia beˈɾbal/",
+      "en": "verbal agreement",
+      "ar": "مطابقة الفعل مع الفاعل"
+    },
+    {
+      "es": "el sujeto",
+      "ipa": "/ˈel suˈxeto/",
+      "en": "the subject",
+      "ar": "الفاعل"
+    },
+    {
+      "es": "el núcleo",
+      "ipa": "/ˈel ˈnukleo/",
+      "en": "the nucleus, core",
+      "ar": "الرأس، النواة"
+    },
+    {
+      "es": "el sujeto compuesto",
+      "ipa": "/ˈel suˈxeto koˈmpuesto/",
+      "en": "the compound subject",
+      "ar": "الفاعل المركب"
+    },
+    {
+      "es": "la expresión partitiva",
+      "ipa": "/ˈla ekspɾeˈsion paɾtiˈtiβa/",
+      "en": "the partitive expression",
+      "ar": "التعبير الجزئي"
+    },
+    {
+      "es": "la mayoría de",
+      "ipa": "/ˈla maʝoˈɾia ˈde/",
+      "en": "most of",
+      "ar": "أغلبية، معظم"
+    },
+    {
+      "es": "a gente (nosotros)",
+      "ipa": "/ˈa ˈxente noˈsotɾos/",
+      "en": "we (colloquial)",
+      "ar": "نحن (عامية)"
+    },
+    {
+      "es": "el porcentaje",
+      "ipa": "/ˈel poɾseˈntaxe/",
+      "en": "the percentage",
+      "ar": "النسبة المئوية"
+    },
+    {
+      "es": "la fracción",
+      "ipa": "/ˈla fɾaˈksion/",
+      "en": "the fraction",
+      "ar": "الكسر"
+    },
+    {
+      "es": "el colectivo",
+      "ipa": "/ˈel koleˈktiβo/",
+      "en": "the collective noun",
+      "ar": "اسم الجمع"
+    },
+    {
+      "es": "el pronombre de tratamiento",
+      "ipa": "/ˈel pɾoˈnombɾe ˈde tɾataˈmiento/",
+      "en": "the term of address",
+      "ar": "ضمير المخاطبة"
+    },
+    {
+      "es": "la regla",
+      "ipa": "/ˈla ˈreɣla/",
+      "en": "the rule",
+      "ar": "القاعدة"
+    },
+    {
+      "es": "el adjetivo",
+      "ipa": "/ˈel aðxeˈtiβo/",
+      "en": "the adjective",
+      "ar": "الصفة"
+    },
+    {
+      "es": "la locución",
+      "ipa": "/ˈla lokuˈsion/",
+      "en": "the phrase, locution",
+      "ar": "التركيب"
+    },
+    {
+      "es": "el pronombre pasivo",
+      "ipa": "/ˈel pɾoˈnombɾe paˈsiβo/",
+      "en": "the passive pronoun",
+      "ar": "ضمير المبني للمجهول"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Concordancia con Expresiones Partitivas",
+        "en": "Agreement with Partitive Expressions",
+        "ar": "المطابقة مع التعبيرات الجزئية"
+      },
+      "explanation": {
+        "es": "Con expresiones partitivas como 'la mayoría de', 'gran parte de', 'una porción de', el verbo puede concordar con el partitivo (singular) o con el término siguiente (plural). Ambas las formas se aceptan: 'La mayoría de los alumnos llegó' o 'La mayoría de los alumnos llegaron'. Con porcentajes y fracciones se concuerda con el número: 'el 30% de la población votó' o 'votaron'.",
+        "en": "With partitive expressions such as 'a maioria de' (most of), 'grande parte de' (a large part of), 'uma porção de' (a portion of), the verb may agree with the partitive (singular) or with the following term (plural). Both forms are accepted: 'A maioria dos alunos chegou' or 'A maioria dos alunos chegaram'. With percentages and fractions, agreement follows the number: '30% da população votou' or 'votaram'; 'um terço dos alunos faltou' or 'faltaram'.",
+        "ar": "مع التعبيرات الجزئية مثل 'a maioria de' (أغلبية) و'grande parte de' (جزء كبير من) و'uma porção de' (حصة من)، يمكن أن يطابق الفعل الجزء (المفرد) أو ما يليه (الجمع). وكلا الصيغتين مقبولتان: 'A maioria dos alunos chegou' أو 'A maioria dos alunos chegaram'. أما مع النسب المئوية والكسور فتتم المطابقة مع العدد: '30% da população votou' أو 'votaram'؛ و'um terço dos alunos faltou' أو 'faltaram'."
+      },
+      "examples": [
+        {
+          "es": "La mayoría de los alumnos llegó a clase.",
+          "en": "Most of the students arrived at class.",
+          "ar": "وصل معظم الطلاب إلى الصف."
+        },
+        {
+          "es": "La mayoría de los alumnos llegaron tarde.",
+          "en": "Most of the students arrived late.",
+          "ar": "وصل معظم الطلاب متأخرين."
+        },
+        {
+          "es": "El 30% de la población votó en el plebiscito.",
+          "en": "30% of the population voted in the plebiscite.",
+          "ar": "صوّت 30% من السكان في الاستفتاء."
+        },
+        {
+          "es": "Gran parte del trabajo está hecha.",
+          "en": "A large part of the work is done.",
+          "ar": "جزء كبير من العمل منجز."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Sujeto Compuesto y 'A Gente'",
+        "en": "Compound Subject and 'A Gente'",
+        "ar": "الفاعل المركب و'a gente'"
+      },
+      "explanation": {
+        "es": "Con sujeto compuesto, el verbo va en plural: 'el padre y el hijo llegaron'. 'A gente', a pesar del sentido de 'nosotros', pide verbo en la tercera persona del singular: 'A gente vio la película'. El pronombre pasivo 'se' concuerda con el objeto: 'Se venden casas', pero 'Se necesitan empleados' va en plural.",
+        "en": "With a compound subject, the verb goes to the plural: 'O pai e o filho chegaram' (The father and the son arrived). When the subject comes after the verb, the agreement is the same: 'Chegaram o pai e o filho'. However, 'a gente', despite meaning 'we', takes the third person singular: 'A gente viu o filme' (We watched the film). The passive pronoun 'se' agrees with the object: 'Vendem-se casas' (Houses for sale), but 'Precisa-se de funcionários' (We need employees) stays singular because 'de funcionários' is a complement, not the subject.",
+        "ar": "مع الفاعل المركب، يذهب الفعل إلى الجمع: 'O pai e o filho chegaram'. وعندما يأتي الفاعل بعد الفعل تكون المطابقة نفسها: 'Chegaram o pai e o filho'. أما 'a gente'، رغم معناها «نحن»، فتتطلب الفعل في المفرد الغائب: 'A gente viu o filme'. ويتطابق ضمير المبني للمجهول 'se' مع المفعول: 'Vendem-se casas'، لكن تبقى 'Precisa-se de funcionários' مفردة لأن 'de funcionários' متمم لا فاعل."
+      },
+      "examples": [
+        {
+          "es": "Llegaron el padre y el hijo.",
+          "en": "The father and the son arrived.",
+          "ar": "وصل الأب والابن."
+        },
+        {
+          "es": "Se necesitan empleados.",
+          "en": "Employees are needed.",
+          "ar": "مطلوب موظفون."
+        },
+        {
+          "es": "Se venden casas en la playa.",
+          "en": "Houses are for sale at the beach.",
+          "ar": "تباع منازل على الشاطئ."
+        },
+        {
+          "es": "Nosotros vimos la película ayer.",
+          "en": "We watched the film yesterday.",
+          "ar": "شاهدنا الفيلم أمس."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Revisión de un Texto",
+      "en": "Reviewing a Text",
+      "ar": "مراجعة نص"
+    },
+    "lines": [
+      {
+        "speaker": "Profesora",
+        "es": "El texto tiene un error: 'el 30% de la clase faltó' también puede ser 'faltaron'.",
+        "en": "The text has an error: '30% da turma faltou' can also be 'faltaram'.",
+        "ar": "النص فيه خطأ: '30% da turma faltou' يمكن أيضًا أن تكون 'faltaram'."
+      },
+      {
+        "speaker": "Alumno",
+        "es": "¿Entonces las dos formas son correctas?",
+        "en": "So both forms are correct?",
+        "ar": "إذن الصيغتان صحيحتان؟"
+      },
+      {
+        "speaker": "Profesora",
+        "es": "Sí, con porcentajes el verbo puede concordar con el número o con el término siguiente.",
+        "en": "Yes, with percentages the verb can agree with the number or with the following term.",
+        "ar": "نعم، مع النسب المئوية يمكن أن يطابق الفعل العدد أو ما يليه."
+      },
+      {
+        "speaker": "Alumno",
+        "es": "¿Y con 'a gente', siempre en tercera persona?",
+        "en": "And with 'a gente', always in the third person?",
+        "ar": "ومع 'a gente'، دائمًا في الغائب؟"
+      },
+      {
+        "speaker": "Profesora",
+        "es": "Eso. 'A gente va', nunca 'a gente vamos'.",
+        "en": "Exactly. 'A gente vai', never 'a gente vamos'.",
+        "ar": "بالضبط. 'A gente vai'، ولا نقول أبدًا 'a gente vamos'."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "La Lengua en la Redacción",
+      "en": "Language in Writing",
+      "ar": "اللغة في الكتابة"
+    },
+    "text_es": "En la redacción periodística, la concordancia es rigurosa: 'la mayoría de los votantes fue a las urnas' convive con 'la mayoría de los votantes fueron a las urnas'. El cuidado con el sujeto compuesto y con las expresiones partitivas muestra dominio de la norma culta. Quien escribe con precisión transmite credibilidad y claridad.",
+    "text_en": "In journalistic writing, agreement is strict: 'a maioria dos eleitores foi às urnas' coexists with 'a maioria dos eleitores foram às urnas'. Care with compound subjects and partitive expressions shows mastery of the standard norm. Those who write with precision convey credibility and clarity.",
+    "text_ar": "في الكتابة الصحفية تكون المطابقة صارمة: 'a maioria dos eleitores foi às urnas' تتعايش مع 'a maioria dos eleitores foram às urnas'. والاعتناء بالفاعل المركب والتعبيرات الجزئية يدل على إتقان القاعدة الفصيحة. ومن يكتب بدقة ينقل المصداقية والوضوح."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué frase es correcta según la norma culta?",
+        "en": "Which sentence is correct according to the standard norm?",
+        "ar": "أي جملة صحيحة وفق القاعدة الفصيحة؟"
+      },
+      "options": [
+        {
+          "es": "A gente vamos a viajar. (incorrecto)",
+          "en": "A gente vamos viajar.",
+          "ar": "A gente vamos viajar."
+        },
+        {
+          "es": "A gente va a viajar.",
+          "en": "A gente vai viajar.",
+          "ar": "A gente vai viajar."
+        },
+        {
+          "es": "A gente van a viajar. (incorrecto)",
+          "en": "A gente vão viajar.",
+          "ar": "A gente vão viajar."
+        }
+      ],
+      "answer": "A gente va a viajar.",
+      "explanation": {
+        "es": "'A gente' pide verbo en la tercera persona del singular; su equivalente español es 'nosotros'.",
+        "en": "'A gente' takes the third person singular verb.",
+        "ar": "'a gente' تتطلب الفعل في المفرد الغائب."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: 'Se ______ casas en la playa.'",
+        "en": "Complete: '______-se casas na praia.'",
+        "ar": "أكمل: '______-se casas na praia.'"
+      },
+      "options": [
+        {
+          "es": "Vende",
+          "en": "Vende",
+          "ar": "Vende"
+        },
+        {
+          "es": "Venden",
+          "en": "Vendem",
+          "ar": "Vendem"
+        },
+        {
+          "es": "Vender",
+          "en": "Vender",
+          "ar": "Vender"
+        }
+      ],
+      "answer": "Venden",
+      "explanation": {
+        "es": "Con 'se' pasivo, el verbo concuerda con el objeto plural 'casas'.",
+        "en": "With the passive 'se', the verb agrees with the plural object 'casas'.",
+        "ar": "مع 'se' المبني للمجهول يطابق الفعل المفعول الجمع 'casas'."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'Most of the teachers agreed with the proposal.'",
+        "en": "Translate: 'Most of the teachers agreed with the proposal.'",
+        "ar": "ترجم: 'Most of the teachers agreed with the proposal.'"
+      },
+      "options": [],
+      "answer": "La mayoría de los profesores estuvo de acuerdo con la propuesta.",
+      "explanation": {
+        "es": "'La mayoría de' + verbo en singular es la forma más común y aceptada.",
+        "en": "'A maioria de' + singular verb is the most common and accepted form.",
+        "ar": "'a maioria de' مع الفعل المفرد هي الصيغة الأكثر شيوعًا وقبولًا."
+      }
+    }
+  ]
+}

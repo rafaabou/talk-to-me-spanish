@@ -1,0 +1,310 @@
+{
+  "id": "B1-03",
+  "level": "B1",
+  "level_name": {
+    "es": "Intermedio",
+    "en": "Intermediate",
+    "ar": "متوسط"
+  },
+  "title": {
+    "es": "Pronombres Relativos",
+    "en": "Relative Pronouns",
+    "ar": "الضمائر الموصولة"
+  },
+  "objectives": [
+    {
+      "es": "Identificar y usar los pronombres relativos que, quien, donde y cuyo.",
+      "en": "Identify and use the relative pronouns que, quem, onde and cujo.",
+      "ar": "التعرّف على الضمائر الموصولة que وquem وonde وcujo واستخدامها."
+    },
+    {
+      "es": "Unir oraciones para describir personas, cosas y lugares.",
+      "en": "Join clauses to describe people, things and places.",
+      "ar": "ربط الجمل لوصف الأشخاص والأشياء والأماكن."
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el pronombre",
+      "ipa": "/ˈel pɾoˈnombɾe/",
+      "en": "the pronoun",
+      "ar": "الضمير"
+    },
+    {
+      "es": "relativo",
+      "ipa": "/relaˈtiβo/",
+      "en": "relative",
+      "ar": "موصول"
+    },
+    {
+      "es": "que",
+      "ipa": "/ˈke/",
+      "en": "that / who / which",
+      "ar": "الذي / التي"
+    },
+    {
+      "es": "quien",
+      "ipa": "/ˈkien/",
+      "en": "who (with preposition)",
+      "ar": "من"
+    },
+    {
+      "es": "donde",
+      "ipa": "/ˈdonde/",
+      "en": "where",
+      "ar": "حيث / أين"
+    },
+    {
+      "es": "cuyo",
+      "ipa": "/ˈkuʝo/",
+      "en": "whose",
+      "ar": "الذي له"
+    },
+    {
+      "es": "la persona",
+      "ipa": "/ˈla peˈɾsona/",
+      "en": "the person",
+      "ar": "الشخص"
+    },
+    {
+      "es": "el lugar",
+      "ipa": "/ˈel luˈɣaɾ/",
+      "en": "the place",
+      "ar": "المكان"
+    },
+    {
+      "es": "la cosa",
+      "ipa": "/ˈla ˈkosa/",
+      "en": "the thing",
+      "ar": "الشيء"
+    },
+    {
+      "es": "la explicación",
+      "ipa": "/ˈla eksplikaˈsion/",
+      "en": "the explanation",
+      "ar": "الشرح"
+    },
+    {
+      "es": "la frase",
+      "ipa": "/ˈla ˈfɾase/",
+      "en": "the sentence",
+      "ar": "الجملة"
+    },
+    {
+      "es": "sustituir",
+      "ipa": "/sustiˈtuiɾ/",
+      "en": "to replace",
+      "ar": "يستبدل"
+    },
+    {
+      "es": "el antecedente",
+      "ipa": "/ˈel anteseˈðente/",
+      "en": "the antecedent",
+      "ar": "المرجع السابق"
+    },
+    {
+      "es": "la pregunta",
+      "ipa": "/ˈla pɾeˈɣunta/",
+      "en": "the question",
+      "ar": "السؤال"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "El pronombre relativo 'que'",
+        "en": "The relative pronoun 'que'",
+        "ar": "الضمير الموصول 'que'"
+      },
+      "explanation": {
+        "es": "'Que' es el pronombre relativo más usado. Sirve para personas, cosas y lugares, y puede ejercer la función de sujeto u objeto en la oración relativa.",
+        "en": "'Que' is the most common relative pronoun. It is used for people, things and places, and can act as subject or object in the relative clause.",
+        "ar": "'que' هو أكثر ضمائر الوصل استخداماً. يُستخدم للأشخاص والأشياء والأماكن، ويمكن أن يكون فاعلاً أو مفعولاً في جملة الوصل."
+      },
+      "examples": [
+        {
+          "es": "La persona que conocí es española.",
+          "en": "The person I met is Brazilian.",
+          "ar": "الشخص الذي قابلته برازيلي."
+        },
+        {
+          "es": "El libro que leemos es genial.",
+          "en": "The book we read is great.",
+          "ar": "الكتاب الذي قرأناه رائع."
+        },
+        {
+          "es": "La ciudad que visitamos es preciosa.",
+          "en": "The city we visited is beautiful.",
+          "ar": "المدينة التي زرناها جميلة."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Quien, donde y cuyo",
+        "en": "Quem, onde and cujo",
+        "ar": "Quem وonde وcujo"
+      },
+      "explanation": {
+        "es": "'Quien' se usa para personas, normalmente después de una preposición (con quien, para quien). 'Donde' se refiere a un lugar. 'Cuyo' indica posesión y concuerda con lo poseído.",
+        "en": "'Quem' is used for people, usually after a preposition (com quem, para quem). 'Onde' refers to a place. 'Cujo' indicates possession and agrees with the possessed noun.",
+        "ar": "'quem' يُستخدم للأشخاص، عادة بعد حرف الجر. 'onde' يُشير إلى المكان. 'cujo' يُفيد الملكية ويطابق الاسم المملوك."
+      },
+      "examples": [
+        {
+          "es": "El amigo con quien viajé es divertido.",
+          "en": "The friend I travelled with is fun.",
+          "ar": "الصديق الذي سافرت معه مرح."
+        },
+        {
+          "es": "La casa donde vivo es pequeña.",
+          "en": "The house where I live is small.",
+          "ar": "المنزل الذي أسكن فيه صغير."
+        },
+        {
+          "es": "El hombre cuyo coche es rojo es mi vecino.",
+          "en": "The man whose car is red is my neighbour.",
+          "ar": "الرجل الذي سيارته حمراء هو جاري."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Describiendo personas y lugares",
+      "en": "Describing people and places",
+      "ar": "وصف الأشخاص والأماكن"
+    },
+    "lines": [
+      {
+        "speaker": "Lucas",
+        "es": "¿Conoces a la chica que trabaja en la panadería?",
+        "en": "Do you know the girl who works at the bakery?",
+        "ar": "هل تعرف الفتاة التي تعمل في المخبز؟"
+      },
+      {
+        "speaker": "Marina",
+        "es": "Sí, es la amiga con quien estudio en la universidad.",
+        "en": "Yes, she is the friend I study with at university.",
+        "ar": "نعم، إنها صديقتي التي أدرس معها في الجامعة."
+      },
+      {
+        "speaker": "Lucas",
+        "es": "¿Y el café donde nos encontramos ayer?",
+        "en": "And the café where we met yesterday?",
+        "ar": "والمقهى الذي التقينا فيه أمس؟"
+      },
+      {
+        "speaker": "Marina",
+        "es": "¡Me gustó mucho! El pastel que comimos era delicioso.",
+        "en": "I loved it! The cake we ate was delicious.",
+        "ar": "أعجبني كثيراً! الكعكة التي أكلناها كانت لذيذة."
+      },
+      {
+        "speaker": "Lucas",
+        "es": "El lugar cuyos precios son justos es perfecto para nosotros.",
+        "en": "The place whose prices are fair is perfect for us.",
+        "ar": "المكان الذي أسعاره معقولة مثالي لنا."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Mi ciudad",
+      "en": "My city",
+      "ar": "مدينتي"
+    },
+    "text_es": "La ciudad donde nací es pequeña y tranquila. La calle que más me gusta está cerca del río. Las personas que viven aquí son acogedoras. Es un lugar cuya historia me encanta.",
+    "text_en": "The city where I was born is small and quiet. The street I like the most is near the river. The people who live here are welcoming. It is a place whose history fascinates me.",
+    "text_ar": "المدينة التي وُلدت فيها صغيرة وهادئة. الشارع الذي أحبه أكثر يقع قرب النهر. الأشخاص الذين يعيشون هنا ودودون. إنه مكان يسحرني تاريخه."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: \"La mujer ___ vive aquí es médica.\"",
+        "en": "Complete: \"The woman ___ lives here is a doctor.\"",
+        "ar": "أكمل: \"المرأة ___ تسكن هنا طبيبة.\""
+      },
+      "options": [
+        {
+          "es": "que",
+          "en": "who",
+          "ar": "التي"
+        },
+        {
+          "es": "donde",
+          "en": "where",
+          "ar": "حيث"
+        },
+        {
+          "es": "cuyo",
+          "en": "whose",
+          "ar": "التي لها"
+        },
+        {
+          "es": "cuando",
+          "en": "when",
+          "ar": "عندما"
+        }
+      ],
+      "answer": "que",
+      "explanation": {
+        "es": "Usamos 'que' para personas cuando ejerce la función de sujeto: 'la mujer que vive'.",
+        "en": "We use 'que' for people when it is the subject: 'the woman who lives'.",
+        "ar": "نستخدم 'que' للأشخاص عندما يكون فاعلاً: 'المرأة التي تسكن'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: \"La ciudad ___ nací es pequeña.\"",
+        "en": "Complete: \"The city ___ I was born is small.\"",
+        "ar": "أكمل: \"المدينة ___ وُلدت فيها صغيرة.\""
+      },
+      "options": [
+        {
+          "es": "donde",
+          "en": "where",
+          "ar": "التي في"
+        },
+        {
+          "es": "que",
+          "en": "that",
+          "ar": "التي"
+        },
+        {
+          "es": "quien",
+          "en": "who",
+          "ar": "من"
+        },
+        {
+          "es": "donde",
+          "en": "whose (fem.)",
+          "ar": "التي لها"
+        }
+      ],
+      "answer": "donde",
+      "explanation": {
+        "es": "'Donde' indica lugar: 'la ciudad donde nací'.",
+        "en": "'Onde' indicates a place: 'the city where I was born'.",
+        "ar": "'onde' تدل على المكان: 'المدينة التي وُلدت فيها'."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al inglés: \"El libro que leemos es genial.\"",
+        "en": "Translate to English: \"O livro que lemos é ótimo.\"",
+        "ar": "ترجم إلى الإنجليزية: \"O livro que lemos é ótimo.\""
+      },
+      "options": [],
+      "answer": "The book we read is great.",
+      "explanation": {
+        "es": "'Que' aquí retoma 'el libro' como objeto del verbo 'leer'.",
+        "en": "'Que' here refers back to 'the book' as the object of the verb 'read'.",
+        "ar": "يعود 'que' هنا على 'الكتاب' كمفعول به لفعل 'قرأ'."
+      }
+    }
+  ]
+}

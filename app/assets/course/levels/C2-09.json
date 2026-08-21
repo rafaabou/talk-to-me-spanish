@@ -1,0 +1,340 @@
+{
+  "id": "C2-09",
+  "level": "C2",
+  "level_name": {
+    "es": "Proficiencia",
+    "en": "Proficiency",
+    "ar": "إتقان"
+  },
+  "title": {
+    "es": "Filosofía y Pensamiento Crítico",
+    "en": "Philosophy and Critical Thinking",
+    "ar": "الفلسفة والتفكير النقدي"
+  },
+  "objectives": [
+    {
+      "es": "Construir y evaluar argumentos lógicos con premisas y conclusión",
+      "en": "Build and evaluate logical arguments with premises and conclusion",
+      "ar": "بناء الحجج المنطقية وتقييمها بمقدمات ونتائج"
+    },
+    {
+      "es": "Identificar falacias y sofismas comunes",
+      "en": "Identify common fallacies and sophisms",
+      "ar": "تحديد المغالطات والشبهات المنطقية الشائعة"
+    },
+    {
+      "es": "Distinguir deducción, inducción y abducción",
+      "en": "Distinguish deduction, induction and abduction",
+      "ar": "التمييز بين الاستنباط والاستقراء والاستدلال التخميني"
+    },
+    {
+      "es": "Discutir conceptos éticos y epistemológicos con precisión",
+      "en": "Discuss ethical and epistemological concepts with precision",
+      "ar": "مناقشة مفاهيم أخلاقية ومعرفية بدقة"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el argumento",
+      "ipa": "/ˈel aɾguˈmento/",
+      "en": "argument",
+      "ar": "الحجة / البرهان"
+    },
+    {
+      "es": "la premisa",
+      "ipa": "/ˈla pɾeˈmisa/",
+      "en": "premise",
+      "ar": "المقدمة"
+    },
+    {
+      "es": "la conclusión",
+      "ipa": "/ˈla konkluˈsion/",
+      "en": "conclusion",
+      "ar": "النتيجة"
+    },
+    {
+      "es": "el sofisma",
+      "ipa": "/ˈel soˈfisma/",
+      "en": "sophism",
+      "ar": "الشبهة / الحجة السفسطائية"
+    },
+    {
+      "es": "la falacia",
+      "ipa": "/ˈla faˈlasia/",
+      "en": "fallacy",
+      "ar": "المغالطة"
+    },
+    {
+      "es": "el silogismo",
+      "ipa": "/ˈel siloˈxismo/",
+      "en": "syllogism",
+      "ar": "القياس المنطقي"
+    },
+    {
+      "es": "la inducción",
+      "ipa": "/ˈla induˈksion/",
+      "en": "induction",
+      "ar": "الاستقراء"
+    },
+    {
+      "es": "la deducción",
+      "ipa": "/ˈla deðuˈksion/",
+      "en": "deduction",
+      "ar": "الاستنباط"
+    },
+    {
+      "es": "la dialéctica",
+      "ipa": "/ˈla diaˈlektika/",
+      "en": "dialectics",
+      "ar": "الجدل"
+    },
+    {
+      "es": "la ética",
+      "ipa": "/ˈla ˈetika/",
+      "en": "ethics",
+      "ar": "الأخلاق"
+    },
+    {
+      "es": "la estética",
+      "ipa": "/ˈla eˈstetika/",
+      "en": "aesthetics",
+      "ar": "علم الجمال"
+    },
+    {
+      "es": "el existencialismo",
+      "ipa": "/ˈel eksistensiaˈlismo/",
+      "en": "existentialism",
+      "ar": "الوجودية"
+    },
+    {
+      "es": "el empirismo",
+      "ipa": "/ˈel empiˈɾismo/",
+      "en": "empiricism",
+      "ar": "التجريبية"
+    },
+    {
+      "es": "el racionalismo",
+      "ipa": "/ˈel rasionaˈlismo/",
+      "en": "rationalism",
+      "ar": "العقلانية"
+    },
+    {
+      "es": "la ontología",
+      "ipa": "/ˈla ontoloˈɣia/",
+      "en": "ontology",
+      "ar": "الأنطولوجيا"
+    },
+    {
+      "es": "la epistemología",
+      "ipa": "/ˈla epistemoloˈɣia/",
+      "en": "epistemology",
+      "ar": "نظرية المعرفة"
+    },
+    {
+      "es": "el escepticismo",
+      "ipa": "/ˈel esseptiˈsismo/",
+      "en": "skepticism",
+      "ar": "الشكية"
+    },
+    {
+      "es": "el juicio de valor",
+      "ipa": "/ˈel ˈxuisio ˈde baˈloɾ/",
+      "en": "value judgment",
+      "ar": "الحكم القيمي"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Condicionales Complejas en el Argumento",
+        "en": "Complex Conditionals in Argumentation",
+        "ar": "الجمل الشرطية المركبة في الحجاج"
+      },
+      "explanation": {
+        "es": "El argumento formal explora oraciones condicionales con 'si' (real o irreal), 'en caso de que', 'siempre que' y 'a menos que'. Para hipótesis contrafactuales usamos el imperfecto de subjuntivo en la condicional y el condicional en la conclusión: 'Si la ética fuera universal, no habría dilemas morales'. El nivel C2 exige el dominio pleno de estas combinaciones.",
+        "en": "Formal argumentation exploits conditional clauses with 'se' (real or unreal), 'caso', 'desde que' and 'a menos que'. For counterfactual hypotheses, we use the past subjunctive in the conditional clause and the conditional in the conclusion: 'Se a ética fosse universal, não haveria dilemas morais' (If ethics were universal, there would be no moral dilemmas). C2 requires full mastery of these combinations.",
+        "ar": "يستغل البرهان الرسمي الجمل الشرطية مع 'se' (الحقيقي والافتراضي) و'caso' (في حال) و'desde que' (شريطة أن) و'a menos que' (ما لم). وفي الفرضيات المخالفة للواقع، نستخدم ماضي المضارع المنصوب في الجملة الشرطية والمستقبل الشرطي في النتيجة: 'Se a ética fosse universal, não haveria dilemas morais' (لو كانت الأخلاق كونية، لما وُجدت معضلات أخلاقية). ويتطلب المستوى C2 إتقانًا تامًا لهذه التوافيق."
+      },
+      "examples": [
+        {
+          "es": "Si todas las premisas son verdaderas, la conclusión será necesariamente válida.",
+          "en": "If all the premises are true, the conclusion will necessarily be valid.",
+          "ar": "إذا كانت جميع المقدمات صادقة، ستكون النتيجة صحيحة ضرورةً."
+        },
+        {
+          "es": "En caso de que el argumento contenga una falacia, la conclusión pierde fuerza.",
+          "en": "Should the argument contain a fallacy, the conclusion loses strength.",
+          "ar": "في حال احتواء الحجة على مغالطة، تفقد النتيجة قوتها."
+        },
+        {
+          "es": "Si el racionalismo fuera suficiente, la experiencia no sería necesaria.",
+          "en": "If rationalism were sufficient, experience would not be necessary.",
+          "ar": "لو كانت العقلانية كافية، لما كانت التجربة ضرورية."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Modalización: Juicios y Cautela Epistémica",
+        "en": "Modality: Judgments and Epistemic Caution",
+        "ar": "الجهة: الأحكام والحذر المعرفي"
+      },
+      "explanation": {
+        "es": "Modalizar es asumir grados de compromiso con la verdad de la afirmación. Los adverbios y verbos modales regulan ese compromiso: 'necesariamente' (necesidad), 'probablemente' (probabilidad), 'posiblemente' (posibilidad). 'Es posible que' rige el subjuntivo: 'Es posible que el escepticismo se aplique aquí'. Esta cautela es central en el pensamiento crítico.",
+        "en": "To modalize is to assume degrees of commitment to the truth of an assertion. Adverbs and modal verbs regulate this commitment: 'necessariamente' (necessarily), 'provavelmente' (probably), 'possivelmente' (possibly), 'duvidosamente' (doubtfully). 'É possível que' governs the subjunctive: 'É possível que o ceticismo se aplique aqui' (It is possible that skepticism applies here). This caution is central to critical thinking.",
+        "ar": "الجهة هي تحمّل درجات من الالتزام تجاه صدق القول. وتنظم ظروف وأفعال الجهة هذا الالتزام: 'necessariamente' (بالضرورة)، 'provavelmente' (على الأرجح)، 'possivelmente' (ربما)، 'duvidosamente' (بشكل مشكوك فيه). ويستلزم 'É possível que' (من المحتمل أن) صيغة المضارع المنصوب: 'É possível que o ceticismo se aplique aqui' (من المحتمل أن تنطبق الشكية هنا). وهذا الحذر جوهري في التفكير النقدي."
+      },
+      "examples": [
+        {
+          "es": "Una conclusión válida no se sigue necesariamente de premisas verdaderas.",
+          "en": "A valid conclusion does not necessarily follow from true premises.",
+          "ar": "النتيجة الصحيحة لا تتبع بالضرورة مقدمات صادقة."
+        },
+        {
+          "es": "Probablemente el autor recurrió a un juicio de valor en ese pasaje.",
+          "en": "The author probably resorted to a value judgment in that passage.",
+          "ar": "على الأرجح لجأ المؤلف إلى حكم قيمي في ذلك المقطع."
+        },
+        {
+          "es": "Es posible que la distinción entre deducción e inducción sea mal comprendida.",
+          "en": "It is possible that the distinction between deduction and induction is misunderstood.",
+          "ar": "من المحتمل أن يُساء فهم التمييز بين الاستنباط والاستقراء."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Seminario de Filosofía",
+      "en": "Philosophy Seminar",
+      "ar": "حلقة دراسية في الفلسفة"
+    },
+    "lines": [
+      {
+        "speaker": "Prof. Tavares",
+        "es": "Presenta la estructura del silogismo que leímos ayer.",
+        "en": "Present the structure of the syllogism we read yesterday.",
+        "ar": "اعرض بنية القياس المنطقي الذي قرأناه أمس."
+      },
+      {
+        "speaker": "Renata",
+        "es": "Dos premisas y una conclusión: si todo conocimiento viene de la experiencia, entonces el racionalismo naufraga.",
+        "en": "Two premises and a conclusion: if all knowledge comes from experience, then rationalism founders.",
+        "ar": "مقدمتان ونتيجة: إذا كان كل المعرفة يأتي من التجربة، فإن العقلانية تغرق."
+      },
+      {
+        "speaker": "Prof. Tavares",
+        "es": "Cuidado: esa inferencia puede esconder una falacia de generalización.",
+        "en": "Careful: that inference may hide a fallacy of generalization.",
+        "ar": "انتبه: قد يخفي هذا الاستدلال مغالطة تعميم."
+      },
+      {
+        "speaker": "Renata",
+        "es": "En caso de que eso proceda, la conclusión pierde validez, aunque las premisas parezcan sólidas.",
+        "en": "If that holds, the conclusion loses validity, although the premises seem solid.",
+        "ar": "في حال صحة ذلك، تفقد النتيجة صلاحيتها، وإن بدت المقدمات راسخة."
+      },
+      {
+        "speaker": "Prof. Tavares",
+        "es": "Exacto. Probablemente necesitamos más evidencias antes de concluir.",
+        "en": "Exactly. We probably need more evidence before concluding.",
+        "ar": "بالضبط. نحتاج على الأرجح إلى مزيد من الأدلة قبل الاستنتاج."
+      },
+      {
+        "speaker": "Renata",
+        "es": "Y, desde el punto de vista ético, debemos suspender el juicio cuando faltan datos.",
+        "en": "And, from an ethical standpoint, we should suspend judgment when data are lacking.",
+        "ar": "ومن منظور أخلاقي، ينبغي أن نعلّق الحكم عندما تنقص البيانات."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Pensar con Rigor",
+      "en": "Thinking with Rigor",
+      "ar": "التفكير بصرامة"
+    },
+    "text_es": "El pensamiento crítico exige distinguir opinión de argumento válido. Una conclusión sólida depende de premisas verificables y de inferencias sin falacias. El escepticismo metódico, lejos de ser parálisis, ordena la duda en etapas. Por consiguiente, la epistemología moderna nació de ese ejercicio riguroso de sospecha.",
+    "text_en": "Critical thinking requires distinguishing opinion from valid argument. A robust conclusion depends on verifiable premises and on inferences free of fallacies. Methodical skepticism, far from being paralysis, organizes doubt into steps. Consequently, modern epistemology was born from this rigorous exercise of suspicion.",
+    "text_ar": "يتطلب التفكير النقدي التمييز بين الرأي والحجة الصحيحة. تعتمد النتيجة الراسخة على مقدمات قابلة للتحقق واستدلالات خالية من المغالطات. والشكية المنهجية، بعيدًا عن أن تكون شللًا، ترتّب الشك في خطوات. وبالتالي، وُلدت نظرية المعرفة الحديثة من هذا التمرين الصارم في الارتياب."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "En 'Si la ética fuera universal, no habría dilemas morales', tenemos...",
+        "en": "In 'Se a ética fosse universal, não haveria dilemas morais', we have...",
+        "ar": "في جملة 'Se a ética fosse universal, não haveria dilemas morais'، لدينا..."
+      },
+      "options": [
+        {
+          "es": "una hipótesis contrafactual",
+          "en": "a counterfactual hypothesis",
+          "ar": "فرضية مخالفة للواقع"
+        },
+        {
+          "es": "una orden directa",
+          "en": "a direct order",
+          "ar": "أمر مباشر"
+        },
+        {
+          "es": "un hecho consumado",
+          "en": "a fait accompli",
+          "ar": "حقيقة منجزة"
+        }
+      ],
+      "answer": "una hipótesis contrafactual",
+      "explanation": {
+        "es": "El imperfecto de subjuntivo + condicional marca la hipótesis contrafactual.",
+        "en": "Past subjunctive + conditional marks a counterfactual hypothesis.",
+        "ar": "ماضي المضارع المنصوب + المستقبل الشرطي يميز الفرضية المخالفة للواقع."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué término designa un argumento aparentemente válido que engaña?",
+        "en": "Which term designates an apparently valid argument that deceives?",
+        "ar": "ما المصطلح الذي يصف حجة صحيحة الظاهر وتضلل؟"
+      },
+      "options": [
+        {
+          "es": "el sofisma",
+          "en": "sophism",
+          "ar": "الشبهة السفسطائية"
+        },
+        {
+          "es": "el silogismo",
+          "en": "syllogism",
+          "ar": "القياس المنطقي"
+        },
+        {
+          "es": "la premisa",
+          "en": "premise",
+          "ar": "المقدمة"
+        }
+      ],
+      "answer": "el sofisma",
+      "explanation": {
+        "es": "El sofisma es un razonamiento capcioso que parece válido.",
+        "en": "The sophism is a captious reasoning that seems valid.",
+        "ar": "الشبهة السفسطائية استدلال خادع يبدو صحيحًا."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: 'epistemology'",
+        "en": "Translate into Portuguese: 'epistemology'",
+        "ar": "ترجم إلى البرتغالية: 'epistemology'"
+      },
+      "options": [],
+      "answer": "epistemología",
+      "explanation": {
+        "es": "El cognado es 'epistemología', la teoría del conocimiento.",
+        "en": "The cognate is 'epistemologia', the theory of knowledge.",
+        "ar": "اللفظ المشترك هو 'epistemologia'، نظرية المعرفة."
+      }
+    }
+  ]
+}

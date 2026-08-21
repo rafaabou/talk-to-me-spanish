@@ -1,0 +1,340 @@
+{
+  "id": "C2-04",
+  "level": "C2",
+  "level_name": {
+    "es": "Proficiencia",
+    "en": "Proficiency",
+    "ar": "إتقان"
+  },
+  "title": {
+    "es": "Lenguaje Jurídico y Académico",
+    "en": "Legal and Academic Language",
+    "ar": "اللغة القانونية والأكاديمية"
+  },
+  "objectives": [
+    {
+      "es": "Comprender la estructura de documentos jurídicos",
+      "en": "Understand the structure of legal documents",
+      "ar": "فهم بنية الوثائق القانونية"
+    },
+    {
+      "es": "Usar la voz pasiva y la pasiva refleja con precisión",
+      "en": "Use the passive voice and the passive 'se' with precision",
+      "ar": "استخدام المبني للمجهول وأداة 'se' بدقة"
+    },
+    {
+      "es": "Emplear el condicional en hipótesis y cortesía formal",
+      "en": "Use the conditional in hypotheses and formal courtesy",
+      "ar": "استخدام المستقبل الشرطي في الفرضيات والمجاملة الرسمية"
+    },
+    {
+      "es": "Redactar párrafos académicos y jurídicos cohesionados",
+      "en": "Write cohesive academic and legal paragraphs",
+      "ar": "كتابة فقرات أكاديمية وقانونية متماسكة"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el contrato",
+      "ipa": "/ˈel koˈntɾato/",
+      "en": "contract",
+      "ar": "العقد"
+    },
+    {
+      "es": "la cláusula",
+      "ipa": "/ˈla ˈklausula/",
+      "en": "clause",
+      "ar": "البند"
+    },
+    {
+      "es": "el término",
+      "ipa": "/ˈel ˈteɾmino/",
+      "en": "term / instrument",
+      "ar": "المصطلح / الوثيقة"
+    },
+    {
+      "es": "el acusado",
+      "ipa": "/ˈel akuˈsaðo/",
+      "en": "defendant",
+      "ar": "المدعى عليه"
+    },
+    {
+      "es": "el juez",
+      "ipa": "/ˈel ˈxues/",
+      "en": "judge",
+      "ar": "القاضي"
+    },
+    {
+      "es": "la sentencia",
+      "ipa": "/ˈla seˈntensia/",
+      "en": "sentence / judgment",
+      "ar": "الحكم"
+    },
+    {
+      "es": "el recurso",
+      "ipa": "/ˈel reˈkuɾso/",
+      "en": "appeal",
+      "ar": "الاستئناف / الطعن"
+    },
+    {
+      "es": "la audiencia",
+      "ipa": "/ˈla auˈðiensia/",
+      "en": "hearing",
+      "ar": "الجلسة"
+    },
+    {
+      "es": "la defensa",
+      "ipa": "/ˈla deˈfensa/",
+      "en": "defense",
+      "ar": "الدفاع"
+    },
+    {
+      "es": "el testigo",
+      "ipa": "/ˈel teˈstiɣo/",
+      "en": "witness",
+      "ar": "الشاهد"
+    },
+    {
+      "es": "el informe pericial",
+      "ipa": "/ˈel iˈnfoɾme peɾiˈsial/",
+      "en": "expert report",
+      "ar": "تقرير الخبير"
+    },
+    {
+      "es": "la jurisprudencia",
+      "ipa": "/ˈla xuɾispɾuˈðensia/",
+      "en": "case law",
+      "ar": "الفقه القضائي / السوابق"
+    },
+    {
+      "es": "el artículo",
+      "ipa": "/ˈel aˈɾtikulo/",
+      "en": "provision / operative part",
+      "ar": "النص الحكمي"
+    },
+    {
+      "es": "el dictamen",
+      "ipa": "/ˈel diˈktamen/",
+      "en": "legal opinion",
+      "ar": "رأي قانوني / تقرير"
+    },
+    {
+      "es": "la sumilla",
+      "ipa": "/ˈla suˈmiʝa/",
+      "en": "headnote / abstract",
+      "ar": "الملخص / التذييل"
+    },
+    {
+      "es": "la homologación",
+      "ipa": "/ˈla omoloɣaˈsion/",
+      "en": "ratification",
+      "ar": "التصديق"
+    },
+    {
+      "es": "el anexo",
+      "ipa": "/ˈel aˈnekso/",
+      "en": "addendum / amendment",
+      "ar": "الملحق التعديلي"
+    },
+    {
+      "es": "el poder notarial",
+      "ipa": "/ˈel poˈðeɾ notaˈɾial/",
+      "en": "power of attorney",
+      "ar": "التوكيل"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Voz Pasiva en Textos Formales",
+        "en": "Passive Voice in Formal Texts",
+        "ar": "المبني للمجهول في النصوص الرسمية"
+      },
+      "explanation": {
+        "es": "Los documentos jurídicos y académicos prefieren la voz pasiva para impersonalizar: 'La cláusula fue modificada', 'Se firmó el acuerdo'. La pasiva refleja 'se' se une a un sujeto paciente en tercera persona: 'Se divulgó el edicto'. La pasiva con agente es rara; cuando es necesaria, marca la responsabilidad: 'El informe pericial fue elaborado por el experto'.",
+        "en": "Legal and academic documents prefer the passive voice to impersonalize: 'A cláusula foi alterada' (The clause was changed), 'Firmou-se o acordo' (The agreement was signed). The passive particle 'se' attaches to a patient subject in the third person: 'Divulgou-se o edital' (The notice was published). The agentive passive is rare; when needed, it marks responsibility: 'O laudo foi elaborado pelo perito' (The report was prepared by the expert).",
+        "ar": "تفضل الوثائق القانونية والأكاديمية المبني للمجهول لإضفاء الطابع غير الشخصي: 'A cláusula foi alterada' (عُدّل البند)، 'Firmou-se o acordo' (وقّع الاتفاق). تلتصق أداة 'se' المبني للمجهول بفاعل منصوب في الغائب: 'Divulgou-se o edital' (نُشر الإعلان). والمبني للمجهول مع الفاعل نادر؛ وعند الحاجة إليه يحدد المسؤولية: 'O laudo foi elaborado pelo perito' (أعدّ الخبيرُ التقريرَ)."
+      },
+      "examples": [
+        {
+          "es": "Se firmó el contrato tras larga negociación.",
+          "en": "The contract was signed after long negotiation.",
+          "ar": "وقّع العقد بعد مفاوضات طويلة."
+        },
+        {
+          "es": "La sentencia fue proferida por el juez el jueves.",
+          "en": "The sentence was handed down by the judge on Thursday.",
+          "ar": "أصدر القاضي الحكم يوم الخميس."
+        },
+        {
+          "es": "Se publicaron los resultados de la investigación.",
+          "en": "The research results were published.",
+          "ar": "نُشرت نتائج البحث."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Condicional: Hipótesis y Cortesía",
+        "en": "The Conditional: Hypothesis and Courtesy",
+        "ar": "المستقبل الشرطي: الفرضية والمجاملة"
+      },
+      "explanation": {
+        "es": "El condicional ('podría', 'sería', 'cabría') suaviza afirmaciones y formula hipótesis: 'Sería prudente revisar el dictamen'. En textos jurídicos marca el efecto condicionado: 'La solicitud sería aceptada si se cumplieran los requisitos'. También expresa cortesía formal: 'Nos gustaría solicitar la incorporación del informe pericial'.",
+        "en": "The conditional ('poderia', 'seria', 'caberia') softens statements and formulates hypotheses: 'Seria prudente rever o parecer' (It would be prudent to review the opinion). In legal texts, it marks a conditioned effect: 'O pedido seria deferido se cumpridos os requisitos' (The request would be granted if the requirements were met). It also expresses formal courtesy: 'Gostaríamos de solicitar a juntada do laudo' (We would like to request the attachment of the report).",
+        "ar": "يخفف المستقبل الشرطي ('poderia، seria، caberia') العبارات ويصوغ الفرضيات: 'Seria prudente rever o parecer' (سيكون من الحكمة مراجعة الرأي). وفي النصوص القانونية يدل على أثر مشروط: 'O pedido seria deferido se cumpridos os requisitos' (كان الطلب سيُقبل لو استوفيت الشروط). كما يعبر عن المجاملة الرسمية: 'Gostaríamos de solicitar a juntada do laudo' (نود طلب إرفاق تقرير الخبير)."
+      },
+      "examples": [
+        {
+          "es": "Nos gustaría fijar una audiencia para la próxima semana.",
+          "en": "We would like to schedule a hearing for next week.",
+          "ar": "نود تحديد جلسة الأسبوع القادم."
+        },
+        {
+          "es": "Cabría recurso contra la decisión proferida.",
+          "en": "An appeal could lie against the judgment handed down.",
+          "ar": "كان يمكن تقديم طعن ضد الحكم الصادر."
+        },
+        {
+          "es": "Si el contrato fuera anexado, los plazos se prorrogarían.",
+          "en": "If the contract were amended, the deadlines would be extended.",
+          "ar": "لو عُدّل العقد، لتمّ تمديد المواعيد."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "En el Despacho de Abogados",
+      "en": "At the Law Firm",
+      "ar": "في مكتب المحاماة"
+    },
+    "lines": [
+      {
+        "speaker": "Dra. Helena",
+        "es": "El informe pericial fue homologado y la sentencia se publicará el viernes.",
+        "en": "The expert report has been ratified, and the judgment will be published on Friday.",
+        "ar": "تم التصديق على تقرير الخبير، وسيُنشر الحكم يوم الجمعة."
+      },
+      {
+        "speaker": "Pasante",
+        "es": "Entiendo. ¿Cabría el recurso todavía dentro del plazo legal?",
+        "en": "I see. Would the appeal still lie within the legal deadline?",
+        "ar": "فهمت. هل يزال بإمكاننا تقديم الطعن ضمن المهلة القانونية؟"
+      },
+      {
+        "speaker": "Dra. Helena",
+        "es": "Sí, pero sería prudente esperar la publicación de la sumilla.",
+        "en": "Yes, but it would be prudent to wait for the publication of the headnote.",
+        "ar": "نعم، لكن سيكون من الحكمة انتظار نشر الملخص."
+      },
+      {
+        "speaker": "Pasante",
+        "es": "Entonces preparo el borrador del recurso, citando la jurisprudencia pertinente.",
+        "en": "Then I will prepare the draft appeal, citing the relevant case law.",
+        "ar": "إذن سأعد مسودة الطعن مستشهدًا بالفقه القضائي ذي الصلة."
+      },
+      {
+        "speaker": "Dra. Helena",
+        "es": "También nos gustaría adjuntar el anexo al contrato original.",
+        "en": "We would also like to attach the addendum to the original contract.",
+        "ar": "نود أيضًا إرفاق الملحق التعديلي بالعقد الأصلي."
+      },
+      {
+        "speaker": "Pasante",
+        "es": "Perfecto. Homologado el anexo, lo presento todo antes del miércoles.",
+        "en": "Perfect. Once the addendum is ratified, I will file everything by Wednesday.",
+        "ar": "ممتاز. بعد التصديق على الملحق، سأقدّم كل شيء حتى الأربعاء."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Dictamen Jurídico",
+      "en": "The Legal Opinion",
+      "ar": "الرأي القانوني"
+    },
+    "text_es": "El dictamen examina la validez de la cláusula impugnada a la luz de la jurisprudencia dominante. Proferida la sentencia, se verificó que el artículo no contemplaba la hipótesis de revisión automática. Sería recomendable, por tanto, la elaboración de un anexo y la homologación de las nuevas condiciones. De lo contrario, el recurso podría ser parcialmente desestimado.",
+    "text_en": "The opinion examines the validity of the challenged clause in light of the prevailing case law. Once the judgment was handed down, it was verified that the operative part did not cover the hypothesis of automatic revision. It would therefore be advisable to draw up an addendum and ratify the new conditions. Otherwise, the appeal could be partially prejudiced.",
+    "text_ar": "يدرس الرأي القانوني صحة البند المطعون فيه في ضوء الفقه القضائي السائد. وبعد صدور الحكم، تبيّن أن النص الحكمي لا يشمل فرضية المراجعة التلقائية. ومن ثمّ، سيكون من المستحسن تحرير ملحق تعديلي والتصديق على الشروط الجديدة. وإلا فقد يتضرر الطعن جزئيًا."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué frase usa correctamente la pasiva refleja 'se'?",
+        "en": "Which sentence correctly uses the passive particle 'se'?",
+        "ar": "أي جملة تستخدم أداة 'se' للمجهول بشكل صحيح؟"
+      },
+      "options": [
+        {
+          "es": "Se firmó el acuerdo entre las partes.",
+          "en": "Firmou-se o acordo entre as partes.",
+          "ar": "Firmou-se o acordo entre as partes."
+        },
+        {
+          "es": "Se vende apartamentos en plano. (incorrecto)",
+          "en": "Vende-se apartamentos na planta.",
+          "ar": "Vende-se apartamentos na planta."
+        },
+        {
+          "es": "Se necesitan abogados expertos.",
+          "en": "Precisa-se de advogados experientes.",
+          "ar": "Precisa-se de advogados experientes."
+        }
+      ],
+      "answer": "Se firmó el acuerdo entre las partes.",
+      "explanation": {
+        "es": "'Acuerdo' es sujeto paciente singular, por eso 'se firmó'. Las demás tienen sujeto plural o verbo transitivo indirecto.",
+        "en": "'Acordo' is a singular patient subject, hence 'Firmou-se'. The others have a plural subject or a transitive-indirect verb.",
+        "ar": "'acordo' فاعل منصوب مفرد، لذا نقول 'Firmou-se'. أما الجملتان الأخريان ففاعلهما جمع أو الفعل متعدٍ بحرف جر."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "El condicional en 'Sería prudente revisar el dictamen' expresa...",
+        "en": "The conditional in 'Seria prudente rever o parecer' expresses...",
+        "ar": "المستقبل الشرطي في 'Seria prudente rever o parecer' يعبّر عن..."
+      },
+      "options": [
+        {
+          "es": "orden directa",
+          "en": "a direct order",
+          "ar": "أمر مباشر"
+        },
+        {
+          "es": "hipótesis o suavización",
+          "en": "hypothesis or softening",
+          "ar": "فرضية أو تخفيف"
+        },
+        {
+          "es": "hecho pasado concluido",
+          "en": "a completed past fact",
+          "ar": "حقيقة ماضية منجزة"
+        }
+      ],
+      "answer": "hipótesis o suavización",
+      "explanation": {
+        "es": "'Sería' atenúa la recomendación y formula una hipótesis.",
+        "en": "'Seria' softens the recommendation and formulates a hypothesis.",
+        "ar": "كلمة 'seria' تخفف التوصية وتصوغ فرضية."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: 'the appeal was partially prejudiced'",
+        "en": "Translate into Portuguese: 'the appeal was partially prejudiced'",
+        "ar": "ترجم إلى البرتغالية: 'the appeal was partially prejudiced'"
+      },
+      "options": [],
+      "answer": "el recurso fue parcialmente desestimado",
+      "explanation": {
+        "es": "La respuesta usa voz pasiva analítica, típica del registro jurídico.",
+        "en": "The answer uses the analytic passive, typical of the legal register.",
+        "ar": "الجواب يستخدم المبني للمجهول التحليلي، وهو سمة المستوى القانوني."
+      }
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "id": "A1-08",
+  "level": "A1",
+  "level_name": {
+    "es": "Principiante",
+    "en": "Beginner",
+    "ar": "مبتدئ"
+  },
+  "title": {
+    "es": "Colores, Ropa y Adjetivos",
+    "en": "Colors, Clothes and Adjectives",
+    "ar": "الألوان والملابس والصفات"
+  },
+  "objectives": [
+    {
+      "es": "Nombrar colores y ropa en español",
+      "en": "Name colors and clothes in Portuguese",
+      "ar": "تسمية الألوان والملابس بالبرتغالية"
+    },
+    {
+      "es": "Usar adjetivos y concordancia de género",
+      "en": "Use adjectives and gender agreement",
+      "ar": "استخدام الصفات ومطابقة الجنس"
+    },
+    {
+      "es": "Describir lo que alguien lleva puesto",
+      "en": "Describe what someone is wearing",
+      "ar": "وصف ما يرتديه الشخص"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "rojo",
+      "ipa": "/ˈroxo/",
+      "en": "red",
+      "ar": "أحمر"
+    },
+    {
+      "es": "azul",
+      "ipa": "/aˈsul/",
+      "en": "blue",
+      "ar": "أزرق"
+    },
+    {
+      "es": "amarillo",
+      "ipa": "/amaˈɾiʝo/",
+      "en": "yellow",
+      "ar": "أصفر"
+    },
+    {
+      "es": "verde",
+      "ipa": "/ˈbeɾde/",
+      "en": "green",
+      "ar": "أخضر"
+    },
+    {
+      "es": "negro",
+      "ipa": "/ˈneɣɾo/",
+      "en": "black",
+      "ar": "أسود"
+    },
+    {
+      "es": "blanco",
+      "ipa": "/ˈblanko/",
+      "en": "white",
+      "ar": "أبيض"
+    },
+    {
+      "es": "rosa",
+      "ipa": "/ˈrosa/",
+      "en": "pink",
+      "ar": "وردي"
+    },
+    {
+      "es": "la camisa",
+      "ipa": "/ˈla kaˈmisa/",
+      "en": "the shirt",
+      "ar": "القميص"
+    },
+    {
+      "es": "la camiseta",
+      "ipa": "/ˈla kamiˈseta/",
+      "en": "the t-shirt",
+      "ar": "التيشيرت"
+    },
+    {
+      "es": "el pantalón",
+      "ipa": "/ˈel pantaˈlon/",
+      "en": "the pants",
+      "ar": "البنطال"
+    },
+    {
+      "es": "el vestido",
+      "ipa": "/ˈel beˈstiðo/",
+      "en": "the dress",
+      "ar": "الفستان"
+    },
+    {
+      "es": "el zapato",
+      "ipa": "/ˈel saˈpato/",
+      "en": "the shoe",
+      "ar": "الحذاء"
+    },
+    {
+      "es": "la blusa",
+      "ipa": "/ˈla ˈblusa/",
+      "en": "the blouse",
+      "ar": "البلوزة"
+    },
+    {
+      "es": "el sombrero",
+      "ipa": "/ˈel soˈmbɾeɾo/",
+      "en": "the hat",
+      "ar": "القبعة"
+    },
+    {
+      "es": "bonito",
+      "ipa": "/boˈnito/",
+      "en": "pretty/beautiful (m)",
+      "ar": "جميل"
+    },
+    {
+      "es": "feo",
+      "ipa": "/ˈfeo/",
+      "en": "ugly (m)",
+      "ar": "قبيح"
+    },
+    {
+      "es": "nuevo",
+      "ipa": "/ˈnueβo/",
+      "en": "new (m)",
+      "ar": "جديد"
+    },
+    {
+      "es": "viejo",
+      "ipa": "/ˈbiexo/",
+      "en": "old (m)",
+      "ar": "قديم"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Concordancia de Género",
+        "en": "Gender Agreement",
+        "ar": "مطابقة الجنس"
+      },
+      "explanation": {
+        "es": "Los adjetivos concuerdan con el sustantivo en género y número: camisa roja, zapato rojo, camisas rojas. Los adjetivos terminados en -e o consonante no cambian: azul, verde, feliz.",
+        "en": "Adjectives agree with the noun in gender and number: camisa vermelha (red shirt, f), sapato vermelho (red shoe, m), camisas vermelhas (red shirts, pl). Adjectives ending in -e or a consonant do not change: azul (blue), verde (green), feliz (happy).",
+        "ar": "تتطابق الصفات مع الاسم في الجنس والعدد: camisa vermelha (قميص أحمر مؤنث)، sapato vermelho (حذاء أحمر مذكر)، camisas vermelhas (قمصان حمراء جمع). الصفات المنتهية بـ -e أو بحرف ساكن لا تتغير: azul (أزرق)، verde (أخضر)، feliz (سعيد)."
+      },
+      "examples": [
+        {
+          "es": "El vestido es bonito.",
+          "en": "The dress is pretty.",
+          "ar": "الفستان جميل."
+        },
+        {
+          "es": "La camiseta es blanca.",
+          "en": "The t-shirt is white.",
+          "ar": "التيشيرت أبيض."
+        },
+        {
+          "es": "Los zapatos son nuevos.",
+          "en": "The shoes are new.",
+          "ar": "الأحذية جديدة."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "El Verbo Vestir",
+        "en": "The Verb Vestir",
+        "ar": "الفعل Vestir (يرتدي)"
+      },
+      "explanation": {
+        "es": "Para decir lo que alguien lleva, usamos 'llevar' (to wear) o 'estar con' (to be with): Yo llevo una camisa (I wear a shirt), Estoy con una camisa azul (I'm wearing a blue shirt). 'Llevar' es más común.",
+        "en": "To say what someone wears, we use 'vestir' (to wear) or 'estar com' (to be with/wearing): Eu visto uma camisa (I wear a shirt), Eu estou com uma camisa azul (I'm wearing a blue shirt). 'Estar com' is more common in speech.",
+        "ar": "للتعبير عما يرتديه الشخص، نستخدم 'vestir' (يرتدي) أو 'estar com' (يكون مع/يرتدي): Eu visto uma camisa (أرتدي قميصًا)، Eu estou com uma camisa azul (أرتدي قميصًا أزرق). 'estar com' أكثر شيوعًا في الكلام."
+      },
+      "examples": [
+        {
+          "es": "Estoy con una blusa rosa.",
+          "en": "I'm wearing a pink blouse.",
+          "ar": "أنا أرتدي بلوزة وردية."
+        },
+        {
+          "es": "Él lleva un pantalón negro.",
+          "en": "He wears black pants.",
+          "ar": "يرتدي بنطالًا أسود."
+        },
+        {
+          "es": "Ella está con un vestido azul.",
+          "en": "She is wearing a blue dress.",
+          "ar": "هي ترتدي فستانًا أزرق."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Comprando Ropa",
+      "en": "Shopping for Clothes",
+      "ar": "شراء الملابس"
+    },
+    "lines": [
+      {
+        "speaker": "Vendedora",
+        "es": "¡Buenas tardes! ¿Puedo ayudarle?",
+        "en": "Good afternoon! Can I help you?",
+        "ar": "مساء الخير! هل يمكنني مساعدتك؟"
+      },
+      {
+        "speaker": "Cliente",
+        "es": "Quiero una camisa blanca, por favor.",
+        "en": "I want a white shirt, please.",
+        "ar": "أريد قميصًا أبيض، من فضلك."
+      },
+      {
+        "speaker": "Vendedora",
+        "es": "Tenemos esta camisa. Es muy bonita.",
+        "en": "We have this shirt. It's very pretty.",
+        "ar": "لدينا هذا القميص. إنه جميل جدًا."
+      },
+      {
+        "speaker": "Cliente",
+        "es": "¿Y el pantalón negro? ¿Está en oferta?",
+        "en": "And the black pants? Are they on sale?",
+        "ar": "والبنطال الأسود؟ هل هو في تخفيضات؟"
+      },
+      {
+        "speaker": "Vendedora",
+        "es": "Sí, cuesta noventa euros.",
+        "en": "Yes, it costs ninety reais.",
+        "ar": "نعم، سعره تسعون ريالًا."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Estilo de Ana",
+      "en": "Ana's Style",
+      "ar": "أناقة آنا"
+    },
+    "text_es": "Ana le gusta la ropa de colores. Hoy lleva una camiseta amarilla y un pantalón azul. Sus zapatos son blancos y nuevos. El sombrero rojo combina con todo. Ella cree que el estilo es una forma de expresarse.",
+    "text_en": "Ana likes colorful clothes. Today she is wearing a yellow t-shirt and blue pants. Her shoes are white and new. The red hat matches everything. She thinks style is a way of expressing yourself.",
+    "text_ar": "تحب آنا الملابس الملونة. اليوم ترتدي تيشيرتًا أصفر وبنطالًا أزرق. حذاؤها أبيض وجديد. القبعة الحمراء تليق مع كل شيء. تعتقد أن الأناقة وسيلة للتعبير عن النفس."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué adjetivo es correcto para 'camisa'?",
+        "en": "Which adjective is correct for 'camisa'?",
+        "ar": "ما الصفة الصحيحة لكلمة 'camisa'؟"
+      },
+      "options": [
+        {
+          "es": "rojo",
+          "en": "vermelho",
+          "ar": "vermelho"
+        },
+        {
+          "es": "roja",
+          "en": "vermelha",
+          "ar": "vermelha"
+        },
+        {
+          "es": "rojos",
+          "en": "vermelhos",
+          "ar": "vermelhos"
+        }
+      ],
+      "answer": "roja",
+      "explanation": {
+        "es": "'Camisa' es femenino: camisa roja.",
+        "en": "'Camisa' is feminine: camisa vermelha.",
+        "ar": "'Camisa' مؤنثة: camisa vermelha."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'blue' en español?",
+        "en": "How do you say 'blue' in Portuguese?",
+        "ar": "كيف تقول 'blue' بالبرتغالية؟"
+      },
+      "options": [
+        {
+          "es": "verde",
+          "en": "verde",
+          "ar": "verde"
+        },
+        {
+          "es": "azul",
+          "en": "azul",
+          "ar": "azul"
+        },
+        {
+          "es": "negro",
+          "en": "preto",
+          "ar": "preto"
+        }
+      ],
+      "answer": "azul",
+      "explanation": {
+        "es": "'Azul' significa blue.",
+        "en": "'Azul' means blue.",
+        "ar": "'azul' تعني أزرق."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'the hat'",
+        "en": "Translate: 'the hat'",
+        "ar": "ترجم: 'the hat'"
+      },
+      "options": [],
+      "answer": "el sombrero",
+      "explanation": {
+        "es": "'El sombrero' significa the hat.",
+        "en": "'O chapéu' means the hat.",
+        "ar": "'o chapéu' تعني القبعة."
+      }
+    }
+  ]
+}

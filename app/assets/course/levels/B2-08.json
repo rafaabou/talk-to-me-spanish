@@ -1,0 +1,327 @@
+{
+  "id": "B2-08",
+  "level": "B2",
+  "level_name": {
+    "es": "Intermedio alto",
+    "en": "Upper-Intermediate",
+    "ar": "متوسط متقدم"
+  },
+  "title": {
+    "es": "Ciencia y Tecnología",
+    "en": "Science and Technology",
+    "ar": "العلوم والتكنولوجيا"
+  },
+  "objectives": [
+    {
+      "es": "Hablar sobre ciencia e innovaciones tecnológicas",
+      "en": "Talk about science and technological innovations",
+      "ar": "التحدث عن العلوم والابتكارات التكنولوجية"
+    },
+    {
+      "es": "Usar el discurso indirecto",
+      "en": "Use reported speech",
+      "ar": "استخدام الكلام المنقول"
+    },
+    {
+      "es": "Relatar información y descubrimientos",
+      "en": "Report information and discoveries",
+      "ar": "نقل المعلومات والاكتشافات"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la investigación",
+      "ipa": "/ˈla inbestiɣaˈsion/",
+      "en": "the research",
+      "ar": "البحث"
+    },
+    {
+      "es": "el científico",
+      "ipa": "/ˈel sieˈntifiko/",
+      "en": "the scientist",
+      "ar": "العالم"
+    },
+    {
+      "es": "el descubrimiento",
+      "ipa": "/ˈel deskuβɾiˈmiento/",
+      "en": "the discovery",
+      "ar": "الاكتشاف"
+    },
+    {
+      "es": "el experimento",
+      "ipa": "/ˈel ekspeɾiˈmento/",
+      "en": "the experiment",
+      "ar": "التجربة"
+    },
+    {
+      "es": "el laboratorio",
+      "ipa": "/ˈel laβoɾaˈtoɾio/",
+      "en": "the laboratory",
+      "ar": "المختبر"
+    },
+    {
+      "es": "la inteligencia artificial",
+      "ipa": "/ˈla inteliˈxensia aɾtifiˈsial/",
+      "en": "artificial intelligence",
+      "ar": "الذكاء الاصطناعي"
+    },
+    {
+      "es": "el dato",
+      "ipa": "/ˈel ˈdato/",
+      "en": "the data",
+      "ar": "البيانات"
+    },
+    {
+      "es": "la innovación",
+      "ipa": "/ˈla innoβaˈsion/",
+      "en": "the innovation",
+      "ar": "الابتكار"
+    },
+    {
+      "es": "el avance",
+      "ipa": "/ˈel aˈβanse/",
+      "en": "the advance",
+      "ar": "التقدم"
+    },
+    {
+      "es": "el dispositivo",
+      "ipa": "/ˈel disposiˈtiβo/",
+      "en": "the device",
+      "ar": "الجهاز"
+    },
+    {
+      "es": "la aplicación",
+      "ipa": "/ˈla aplikaˈsion/",
+      "en": "the app",
+      "ar": "التطبيق"
+    },
+    {
+      "es": "la red social",
+      "ipa": "/ˈla ˈreð soˈsial/",
+      "en": "the social network",
+      "ar": "شبكة التواصل الاجتماعي"
+    },
+    {
+      "es": "la seguridad cibernética",
+      "ipa": "/ˈla seɣuɾiˈðað siβeˈɾnetika/",
+      "en": "cybersecurity",
+      "ar": "الأمن السيبراني"
+    },
+    {
+      "es": "la base de datos",
+      "ipa": "/ˈla ˈbase ˈde ˈdatos/",
+      "en": "the database",
+      "ar": "قاعدة البيانات"
+    },
+    {
+      "es": "el algoritmo",
+      "ipa": "/ˈel algoˈɾitmo/",
+      "en": "the algorithm",
+      "ar": "الخوارزمية"
+    },
+    {
+      "es": "desarrollar",
+      "ipa": "/desaroˈʝaɾ/",
+      "en": "to develop",
+      "ar": "يطور"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Discurso Indirecto",
+        "en": "Reported Speech",
+        "ar": "الكلام المنقول"
+      },
+      "explanation": {
+        "es": "Para relatar lo que alguien dijo, cambiamos los tiempos: el presente se vuelve imperfecto y el pretérito se vuelve pluscuamperfecto (había + participio). Ejemplo: 'Descubrí un planeta' → Él dijo que había descubierto un planeta.",
+        "en": "To report what someone said, we shift tenses: the present becomes the imperfect and the preterite becomes the compound pluperfect (tinha/havia + participle). Example: 'Eu descobri um planeta' → He said he had discovered a planet.",
+        "ar": "لنقل ما قاله شخص ما نغير الأزمنة: يتحول المضارع إلى ناقص، والماضي إلى الماضي التام المركب (tinha/havia + اسم المفعول). مثال: 'Eu descobri um planeta' ← قال إنه اكتشف كوكبًا."
+      },
+      "examples": [
+        {
+          "es": "La investigadora afirmó que los datos eran confiables.",
+          "en": "The researcher stated that the data were reliable.",
+          "ar": "أكدت الباحثة أن البيانات كانت موثوقة."
+        },
+        {
+          "es": "Él dijo que el experimento había sido un éxito.",
+          "en": "He said the experiment had been a success.",
+          "ar": "قال إن التجربة كانت ناجحة."
+        },
+        {
+          "es": "El profesor explicó que la tecnología cambiaría el mundo.",
+          "en": "The teacher explained that technology would change the world.",
+          "ar": "شرح الأستاذ أن التكنولوجيا ستغير العالم."
+        },
+        {
+          "es": "El periódico anunció que una nueva vacuna había sido aprobada.",
+          "en": "The newspaper announced that a new vaccine had been approved.",
+          "ar": "أعلنت الصحيفة أنه تمت الموافقة على لقاح جديد."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Oraciones Relativas con Cuyo y el Cual",
+        "en": "Relative Clauses with Cujo and o Qual",
+        "ar": "الجمل الموصولة مع Cujo و o Qual"
+      },
+      "explanation": {
+        "es": "'Cuyo' expresa posesión y concuerda con el sustantivo siguiente: el investigador cuyo artículo. 'El cual, la cual, los cuales, las cuales' son pronombres relativos formales que concuerdan con el antecedente.",
+        "en": "'Cujo' expresses possession and agrees with the following noun: o pesquisador cujo artigo. 'O qual, a qual, os quais, as quais' are formal relative pronouns that agree with the antecedent.",
+        "ar": "يعبر 'cujo' عن الملكية ويطابق الاسم التالي: o pesquisador cujo artigo. وأما 'o qual، a qual، os quais، as quais' فهي ضمائر موصولة رسمية تطابق الاسم الذي تسبقه."
+      },
+      "examples": [
+        {
+          "es": "El investigador cuyo artículo ganó el premio es español.",
+          "en": "The researcher whose article won the award is Brazilian.",
+          "ar": "الباحث الذي فازت مقالته بالجائزة برازيلي."
+        },
+        {
+          "es": "La empresa para la cual trabajo invierte en tecnología.",
+          "en": "The company for which I work invests in technology.",
+          "ar": "الشركة التي أعمل لديها تستثمر في التكنولوجيا."
+        },
+        {
+          "es": "Los datos a los cuales me referí están actualizados.",
+          "en": "The data I referred to are up to date.",
+          "ar": "البيانات التي أشرت إليها محدثة."
+        },
+        {
+          "es": "La aplicación cuyo sistema falló fue corregida.",
+          "en": "The app whose system failed was fixed.",
+          "ar": "التطبيق الذي تعطل نظامه تم إصلاحه."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "La Inteligencia Artificial",
+      "en": "Artificial Intelligence",
+      "ar": "الذكاء الاصطناعي"
+    },
+    "lines": [
+      {
+        "speaker": "Sofía",
+        "es": "¿Viste la noticia sobre los avances de la inteligencia artificial?",
+        "en": "Did you see the news about advances in artificial intelligence?",
+        "ar": "هل رأيت خبر التقدم في الذكاء الاصطناعي؟"
+      },
+      {
+        "speaker": "Lucas",
+        "es": "Sí. El científico dijo que los nuevos sistemas aprenden solos.",
+        "en": "I did. The scientist said the new systems learn on their own.",
+        "ar": "نعم. قال العالم إن الأنظمة الجديدة تتعلم بمفردها."
+      },
+      {
+        "speaker": "Sofía",
+        "es": "Es increíble, pero también hay que discutir los riesgos.",
+        "en": "It's amazing, but we also need to discuss the risks.",
+        "ar": "إنه لأمر مذهل، لكن يجب أيضًا مناقشة المخاطر."
+      },
+      {
+        "speaker": "Lucas",
+        "es": "De acuerdo. La seguridad cibernética es cada vez más importante.",
+        "en": "I agree. Cybersecurity is increasingly important.",
+        "ar": "أوافقك. الأمن السيبراني أصبح أكثر أهمية."
+      },
+      {
+        "speaker": "Sofía",
+        "es": "Exacto. El desafío es usar la tecnología para el bien de todos.",
+        "en": "Exactly. The challenge is to use technology for everyone's good.",
+        "ar": "صحيح تمامًا. التحدي هو استخدام التكنولوجيا لخير الجميع."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "La Ciencia Española",
+      "en": "Brazilian Science",
+      "ar": "العلم البرازيلي"
+    },
+    "text_es": "La ciencia española ha avanzado en muchas áreas. Los investigadores desarrollan vacunas, medicamentos y tecnologías sostenibles. Un estudio reciente mostró que la inteligencia artificial puede ayudar a predecir enfermedades. Para que este progreso continúe, es fundamental invertir en educación e investigación.",
+    "text_en": "Brazilian science has advanced in many areas. Researchers develop vaccines, medicines and sustainable technologies. A recent study showed that artificial intelligence can help predict diseases. For this progress to continue, it is essential to invest in education and research.",
+    "text_ar": "لقد تقدم العلم البرازيلي في مجالات كثيرة. يطور الباحثون اللقاحات والأدوية والتقنيات المستدامة. أظهرت دراسة حديثة أن الذكاء الاصطناعي يمكن أن يساعد في التنبؤ بالأمراض. ولكي يستمر هذا التقدم، من الضروري الاستثمار في التعليم والبحث."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "El investigador ___ artículo ganó el premio es español.",
+        "en": "The researcher ___ article won the award is Brazilian.",
+        "ar": "الباحث ___ مقالته فازت بالجائزة برازيلي."
+      },
+      "options": [
+        {
+          "es": "cuyo",
+          "en": "cujo",
+          "ar": "cujo"
+        },
+        {
+          "es": "que",
+          "en": "que",
+          "ar": "que"
+        },
+        {
+          "es": "el cual",
+          "en": "o qual",
+          "ar": "o qual"
+        }
+      ],
+      "answer": "cuyo",
+      "explanation": {
+        "es": "'Cuyo' expresa posesión: el artículo del investigador.",
+        "en": "'Cujo' expresses possession: the researcher's article.",
+        "ar": "يعبر 'cujo' عن الملكية: مقالة الباحث."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "La investigadora afirmó que los datos ___ confiables.",
+        "en": "The researcher stated that the data ___ reliable.",
+        "ar": "أكدت الباحثة أن البيانات ___ موثوقة."
+      },
+      "options": [
+        {
+          "es": "son",
+          "en": "são",
+          "ar": "são"
+        },
+        {
+          "es": "eran",
+          "en": "eram",
+          "ar": "eram"
+        },
+        {
+          "es": "ser",
+          "en": "serem",
+          "ar": "serem"
+        }
+      ],
+      "answer": "eran",
+      "explanation": {
+        "es": "En el discurso indirecto, el presente 'son' se vuelve imperfecto 'eran'.",
+        "en": "In reported speech, the present 'são' becomes the imperfect 'eram'.",
+        "ar": "في الكلام المنقول، يتحول المضارع 'são' إلى الناقص 'eram'."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'The scientist said the new systems learn on their own.'",
+        "en": "Translate: 'The scientist said the new systems learn on their own.'",
+        "ar": "ترجم: 'The scientist said the new systems learn on their own.'"
+      },
+      "options": [],
+      "answer": "El científico dijo que los nuevos sistemas aprenden solos.",
+      "explanation": {
+        "es": "Discurso indirecto: 'dijo que' + oración relatada.",
+        "en": "Reported speech: 'disse que' + reported clause.",
+        "ar": "الكلام المنقول: 'disse que' + الجملة المنقولة."
+      }
+    }
+  ]
+}

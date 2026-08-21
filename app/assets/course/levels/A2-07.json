@@ -1,0 +1,335 @@
+{
+  "id": "A2-07",
+  "level": "A2",
+  "level_name": {
+    "es": "Básico",
+    "en": "Elementary",
+    "ar": "أساسي"
+  },
+  "title": {
+    "es": "Futuro Inmediato y Futuro Simple",
+    "en": "Immediate and Simple Future",
+    "ar": "المستقبل القريب والبسيط"
+  },
+  "objectives": [
+    {
+      "es": "Formar el futuro próximo con ir a + infinitivo",
+      "en": "Form the immediate future with ir + infinitive",
+      "ar": "تكوين المستقبل القريب باستخدام ir + صيغة المصدر"
+    },
+    {
+      "es": "Usar el futuro simple formal",
+      "en": "Use the formal simple future",
+      "ar": "استخدام المستقبل البسيط الرسمي"
+    },
+    {
+      "es": "Hablar sobre planes e intenciones",
+      "en": "Talk about plans and intentions",
+      "ar": "التحدث عن الخطط والنوايا"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "mañana",
+      "ipa": "/maˈɲana/",
+      "en": "tomorrow",
+      "ar": "غدًا"
+    },
+    {
+      "es": "después",
+      "ipa": "/deˈspues/",
+      "en": "later / after",
+      "ar": "بعد ذلك"
+    },
+    {
+      "es": "la próxima semana",
+      "ipa": "/ˈla ˈpɾoksima seˈmana/",
+      "en": "next week",
+      "ar": "الأسبوع القادم"
+    },
+    {
+      "es": "el año que viene",
+      "ipa": "/ˈel ˈaɲo ˈke ˈbiene/",
+      "en": "next year",
+      "ar": "السنة القادمة"
+    },
+    {
+      "es": "ir",
+      "ipa": "/ˈiɾ/",
+      "en": "to go",
+      "ar": "يذهب"
+    },
+    {
+      "es": "ver",
+      "ipa": "/ˈbeɾ/",
+      "en": "to see",
+      "ar": "يرى"
+    },
+    {
+      "es": "cenar",
+      "ipa": "/seˈnaɾ/",
+      "en": "to have dinner",
+      "ar": "يتعشى"
+    },
+    {
+      "es": "comprar",
+      "ipa": "/koˈmpɾaɾ/",
+      "en": "to buy",
+      "ar": "يشتري"
+    },
+    {
+      "es": "encontrar",
+      "ipa": "/enkoˈntɾaɾ/",
+      "en": "to meet",
+      "ar": "يلتقي"
+    },
+    {
+      "es": "terminar",
+      "ipa": "/teɾmiˈnaɾ/",
+      "en": "to finish",
+      "ar": "ينهي"
+    },
+    {
+      "es": "empezar",
+      "ipa": "/empeˈsaɾ/",
+      "en": "to begin",
+      "ar": "يبدأ"
+    },
+    {
+      "es": "volver",
+      "ipa": "/boˈlbeɾ/",
+      "en": "to return",
+      "ar": "يعود"
+    },
+    {
+      "es": "decidir",
+      "ipa": "/desiˈðiɾ/",
+      "en": "to decide",
+      "ar": "يقرر"
+    },
+    {
+      "es": "el plan",
+      "ipa": "/ˈel ˈplan/",
+      "en": "the plan",
+      "ar": "الخطة"
+    },
+    {
+      "es": "probablemente",
+      "ipa": "/pɾoβaβleˈmente/",
+      "en": "probably",
+      "ar": "على الأرجح"
+    },
+    {
+      "es": "pasado mañana",
+      "ipa": "/paˈsaðo maˈɲana/",
+      "en": "the day after tomorrow",
+      "ar": "بعد غد"
+    },
+    {
+      "es": "la fiesta",
+      "ipa": "/ˈla ˈfiesta/",
+      "en": "the party",
+      "ar": "الحفلة"
+    },
+    {
+      "es": "ver",
+      "ipa": "/ˈbeɾ/",
+      "en": "to watch",
+      "ar": "يشاهد"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Futuro Próximo (ir a + infinitivo)",
+        "en": "Immediate Future (ir + infinitive)",
+        "ar": "المستقبل القريب (ir + صيغة المصدر)"
+      },
+      "explanation": {
+        "es": "El futuro próximo usa ir a + infinitivo: yo voy a hablar, tú vas a comer, nosotros vamos a viajar, ellos van a llegar. Es el futuro más usado en la conversación. Ejemplo: 'Voy a ver una película hoy.'",
+        "en": "The immediate future uses ir + infinitive: eu vou falar, você vai comer, nós vamos viajar, eles vão chegar. It is the most used future in speech. Example: 'Vou assistir a um filme hoje.' (I am going to watch a movie today.)",
+        "ar": "المستقبل القريب يستخدم ir + صيغة المصدر: eu vou falar، você vai comer، nós vamos viajar، eles vão chegar. وهو المستقبل الأكثر استخدامًا في الكلام. مثال: 'Vou assistir a um filme hoje.' (سأشاهد فيلمًا اليوم.)"
+      },
+      "examples": [
+        {
+          "es": "Voy a viajar al sur de España.",
+          "en": "I am going to travel to the Northeast.",
+          "ar": "سأسافر إلى الشمال الشرقي."
+        },
+        {
+          "es": "Vamos a cenar fuera hoy.",
+          "en": "We are going to have dinner out tonight.",
+          "ar": "سنتعشى خارج المنزل الليلة."
+        },
+        {
+          "es": "¿Qué vas a hacer mañana?",
+          "en": "What are you going to do tomorrow?",
+          "ar": "ماذا ستفعل غدًا؟"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Futuro Simple",
+        "en": "Simple Future",
+        "ar": "المستقبل البسيط"
+      },
+      "explanation": {
+        "es": "El futuro simple es más formal: hablaré, hablará, hablaremos, hablarán (verbos en -ar); comeré, comerá, comeremos (en -er); abriré, abrirá (en -ir). Irregulares: seré (ser), estaré (estar), tendré (tener), haré (hacer). En la conversación se prefiere 'voy a + infinitivo'.",
+        "en": "The simple future is more formal: falarei, falará, falaremos, falarão (-ar verbs); comerei, comerá, comeremos (-er verbs); abrirei, abrirá (-ir verbs). Irregulars: serei (ser), estarei (estar), terei (ter), farei (fazer). In conversation, 'vou + infinitive' is preferred.",
+        "ar": "المستقبل البسيط أكثر رسمية: falarei، falará، falaremos، falarão (الأفعال المنتهية بـ -ar)؛ comerei، comerá، comeremos (المنتهية بـ -er)؛ abrirei، abrirá (المنتهية بـ -ir). الأفعال الشاذة: serei (سأكون)، estarei (سأبقى)، terei (سأملك)، farei (سأفعل). في المحادثة يفضَّل 'vou + صيغة المصدر'."
+      },
+      "examples": [
+        {
+          "es": "Te llamaré mañana.",
+          "en": "I will call you tomorrow.",
+          "ar": "سأتصل بك غدًا."
+        },
+        {
+          "es": "Hablaremos con el gerente.",
+          "en": "We will speak with the manager.",
+          "ar": "سنتحدث مع المدير."
+        },
+        {
+          "es": "¿Dónde estará Juan el sábado?",
+          "en": "Where will João be on Saturday?",
+          "ar": "أين سيكون جواو يوم السبت؟"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Los Planes del Fin de Semana",
+      "en": "Weekend Plans",
+      "ar": "خطط عطلة نهاية الأسبوع"
+    },
+    "lines": [
+      {
+        "speaker": "Rafa",
+        "es": "¿Qué vas a hacer el fin de semana?",
+        "en": "What are you going to do on the weekend?",
+        "ar": "ماذا ستفعل في عطلة نهاية الأسبوع؟"
+      },
+      {
+        "speaker": "Sofía",
+        "es": "Voy a viajar a Barcelona.",
+        "en": "I am going to travel to Rio de Janeiro.",
+        "ar": "سأسافر إلى ريو دي جانيرو."
+      },
+      {
+        "speaker": "Rafa",
+        "es": "¿Con quién vas?",
+        "en": "Who are you going with?",
+        "ar": "مع من ستسافرين؟"
+      },
+      {
+        "speaker": "Sofía",
+        "es": "Voy con mi hermana. Vamos a ver a los amigos.",
+        "en": "With my sister. We are going to see friends.",
+        "ar": "مع أختي. سنزور الأصدقاء."
+      },
+      {
+        "speaker": "Rafa",
+        "es": "¿Y cuándo volvéis?",
+        "en": "And when do you come back?",
+        "ar": "ومتى تعودان؟"
+      },
+      {
+        "speaker": "Sofía",
+        "es": "Volvemos el domingo por la noche. ¡Después te cuento todo!",
+        "en": "We come back Sunday night. Then I will tell you everything!",
+        "ar": "نعود ليلة الأحد. ثم سأحكي لك كل شيء!"
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Plan de Raquel",
+      "en": "Raquel's Plan",
+      "ar": "خطة راكيل"
+    },
+    "text_es": "Mañana es sábado y el plan de Raquel está listo. Va a despertarse temprano, va a caminar en el parque y va a tomar café con los amigos. Por la tarde, va a visitar el museo y, por la noche, va a cenar con la familia. Pasado mañana, va a descansar todo el día.",
+    "text_en": "Tomorrow is Saturday and Raquel's plan is ready. She is going to wake up early, walk in the park and have coffee with friends. In the afternoon, she is going to visit the museum and, at night, she is going to have dinner with her family. The day after tomorrow, she is going to rest all day.",
+    "text_ar": "غدًا هو يوم السبت وخطة راكيل جاهزة. ستستيقظ مبكرًا وستمشي في الحديقة وتتناول القهوة مع الأصدقاء. في الظهيرة، ستزور المتحف، وفي الليل ستتناول العشاء مع عائلتها. بعد غد، سترتاح طوال اليوم."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Nosotros ___ viajar el sábado.",
+        "en": "We ___ travel on Saturday.",
+        "ar": "نحن ___ نسافر يوم السبت."
+      },
+      "options": [
+        {
+          "es": "vamos a",
+          "en": "vamos",
+          "ar": "vamos"
+        },
+        {
+          "es": "va a",
+          "en": "vai",
+          "ar": "vai"
+        },
+        {
+          "es": "van a",
+          "en": "vão",
+          "ar": "vão"
+        }
+      ],
+      "answer": "vamos a",
+      "explanation": {
+        "es": "Futuro próximo: ir a + infinitivo. Nosotros vamos a viajar.",
+        "en": "Immediate future: ir + infinitive. Nós vamos viajar.",
+        "ar": "المستقبل القريب: ir + صيغة المصدر. Nós vamos viajar."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Yo ___ comprar un regalo.",
+        "en": "I ___ buy a gift.",
+        "ar": "أنا ___ أشتري هدية."
+      },
+      "options": [
+        {
+          "es": "voy",
+          "en": "vou",
+          "ar": "vou"
+        },
+        {
+          "es": "va a",
+          "en": "vai",
+          "ar": "vai"
+        },
+        {
+          "es": "ir",
+          "en": "ir",
+          "ar": "ir"
+        }
+      ],
+      "answer": "voy",
+      "explanation": {
+        "es": "Yo voy a + infinitivo: voy a comprar.",
+        "en": "Eu vou + infinitive: vou comprar.",
+        "ar": "Eu vou + صيغة المصدر: vou comprar."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'tomorrow'",
+        "en": "Translate: 'tomorrow'",
+        "ar": "ترجم: 'tomorrow'"
+      },
+      "options": [],
+      "answer": "mañana",
+      "explanation": {
+        "es": "'Mañana' = tomorrow.",
+        "en": "'Amanhã' = tomorrow.",
+        "ar": "'amanhã' = غدًا."
+      }
+    }
+  ]
+}

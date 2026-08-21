@@ -1,0 +1,335 @@
+{
+  "id": "A2-06",
+  "level": "A2",
+  "level_name": {
+    "es": "Básico",
+    "en": "Elementary",
+    "ar": "أساسي"
+  },
+  "title": {
+    "es": "Clima y Estaciones",
+    "en": "Weather and Seasons",
+    "ar": "الطقس والفصول"
+  },
+  "objectives": [
+    {
+      "es": "Hablar sobre el tiempo y el clima",
+      "en": "Talk about the weather and climate",
+      "ar": "التحدث عن الطقس والمناخ"
+    },
+    {
+      "es": "Usar expresiones con hacer, estar y llover",
+      "en": "Use expressions with fazer, estar and chover",
+      "ar": "استخدام تعبيرات مع أفعال fazer و estar و chover"
+    },
+    {
+      "es": "Nombrar las estaciones del año y sus características",
+      "en": "Name the seasons and their characteristics",
+      "ar": "تسمية فصول السنة وخصائصها"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el clima",
+      "ipa": "/ˈel ˈklima/",
+      "en": "the climate",
+      "ar": "المناخ"
+    },
+    {
+      "es": "el tiempo",
+      "ipa": "/ˈel ˈtiempo/",
+      "en": "the weather",
+      "ar": "الطقس"
+    },
+    {
+      "es": "la lluvia",
+      "ipa": "/ˈla ˈʝuβia/",
+      "en": "the rain",
+      "ar": "المطر"
+    },
+    {
+      "es": "llover",
+      "ipa": "/ʝoˈβeɾ/",
+      "en": "to rain",
+      "ar": "يمطر"
+    },
+    {
+      "es": "el sol",
+      "ipa": "/ˈel ˈsol/",
+      "en": "the sun",
+      "ar": "الشمس"
+    },
+    {
+      "es": "la nube",
+      "ipa": "/ˈla ˈnuβe/",
+      "en": "the cloud",
+      "ar": "السحابة"
+    },
+    {
+      "es": "el viento",
+      "ipa": "/ˈel ˈbiento/",
+      "en": "the wind",
+      "ar": "الرياح"
+    },
+    {
+      "es": "el calor",
+      "ipa": "/ˈel kaˈloɾ/",
+      "en": "the heat",
+      "ar": "الحر"
+    },
+    {
+      "es": "el frío",
+      "ipa": "/ˈel ˈfɾio/",
+      "en": "the cold",
+      "ar": "البرد"
+    },
+    {
+      "es": "la temperatura",
+      "ipa": "/ˈla tempeɾaˈtuɾa/",
+      "en": "the temperature",
+      "ar": "درجة الحرارة"
+    },
+    {
+      "es": "la estación",
+      "ipa": "/ˈla estaˈsion/",
+      "en": "the season",
+      "ar": "الفصل"
+    },
+    {
+      "es": "la primavera",
+      "ipa": "/ˈla pɾimaˈβeɾa/",
+      "en": "the spring",
+      "ar": "الربيع"
+    },
+    {
+      "es": "el verano",
+      "ipa": "/ˈel beˈɾano/",
+      "en": "the summer",
+      "ar": "الصيف"
+    },
+    {
+      "es": "el otoño",
+      "ipa": "/ˈel oˈtoɲo/",
+      "en": "the autumn",
+      "ar": "الخريف"
+    },
+    {
+      "es": "el invierno",
+      "ipa": "/ˈel iˈnbieɾno/",
+      "en": "the winter",
+      "ar": "الشتاء"
+    },
+    {
+      "es": "húmedo",
+      "ipa": "/ˈumeðo/",
+      "en": "humid",
+      "ar": "رطب"
+    },
+    {
+      "es": "seco",
+      "ipa": "/ˈseko/",
+      "en": "dry",
+      "ar": "جاف"
+    },
+    {
+      "es": "el paraguas",
+      "ipa": "/ˈel paˈɾaɣuas/",
+      "en": "the umbrella",
+      "ar": "المظلة"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Hablando del Tiempo",
+        "en": "Talking about the Weather",
+        "ar": "التحدث عن الطقس"
+      },
+      "explanation": {
+        "es": "Para el tiempo, usamos 'hacer' y 'estar': Hace calor (It is hot), Hace frío (It is cold), Está lloviendo (It is raining), Está nublado (It is cloudy), Hace viento (It is windy), Hace sol (It is sunny).",
+        "en": "For the weather, we use 'fazer' and 'estar': Faz calor (It is hot), Faz frio (It is cold), Está chovendo (It is raining), Está nublado (It is cloudy), Está ventando (It is windy), Está fazendo sol (It is sunny).",
+        "ar": "للطقس، نستخدم 'fazer' و 'estar': Faz calor (الجو حار)، Faz frio (الجو بارد)، Está chovendo (إنها تمطر)، Está nublado (الجو غائم)، Está ventando (الرياح تهب)، Está fazendo sol (السماء مشمسة)."
+      },
+      "examples": [
+        {
+          "es": "Hoy hace mucho calor.",
+          "en": "It is very hot today.",
+          "ar": "الجو حار جدًا اليوم."
+        },
+        {
+          "es": "Está lloviendo, lleva el paraguas.",
+          "en": "It is raining, take the umbrella.",
+          "ar": "إنها تمطر، خذ المظلة."
+        },
+        {
+          "es": "Mañana va a hacer frío.",
+          "en": "It will be cold tomorrow.",
+          "ar": "سيكون الجو باردًا غدًا."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Las Estaciones del Año",
+        "en": "The Seasons",
+        "ar": "فصول السنة"
+      },
+      "explanation": {
+        "es": "Las estaciones: la primavera (spring), el verano (summer), el otoño (autumn), el invierno (winter). En España, el verano va de junio a septiembre. 'En verano hace calor y llueve poco.' 'En invierno, hace frío en el norte del país.'",
+        "en": "The seasons: a primavera (spring), o verão (summer), o outono (autumn), o inverno (winter). In Brazil, summer runs from December to March. 'No verão faz calor e chove muito.' (In summer it is hot and it rains a lot.) 'No inverno, faz frio no sul do país.' (In winter it is cold in the south of the country.)",
+        "ar": "الفصول: a primavera (الربيع)، o verão (الصيف)، o outono (الخريف)، o inverno (الشتاء). في البرازيل، يمتد الصيف من ديسمبر إلى مارس. 'No verão faz calor e chove muito.' (في الصيف الجو حار وتمطر كثيرًا.) 'No inverno, faz frio no sul do país.' (في الشتاء يكون الجو باردًا في جنوب البلاد.)"
+      },
+      "examples": [
+        {
+          "es": "En verano, las playas se llenan.",
+          "en": "In summer, the beaches get crowded.",
+          "ar": "في الصيف، تمتلئ الشواطئ بالناس."
+        },
+        {
+          "es": "En invierno, hace frío en Madrid.",
+          "en": "In winter, it is cold in São Paulo.",
+          "ar": "في الشتاء، يكون الجو باردًا في ساو باولو."
+        },
+        {
+          "es": "La primavera es una estación bonita.",
+          "en": "Spring is a beautiful season.",
+          "ar": "الربيع فصل جميل."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "El Tiempo Hoy",
+      "en": "The Weather Today",
+      "ar": "طقس اليوم"
+    },
+    "lines": [
+      {
+        "speaker": "Ana",
+        "es": "¡Qué calor hoy! Hace treinta y cinco grados.",
+        "en": "It is so hot today! It is thirty-five degrees.",
+        "ar": "يا له من حر اليوم! درجة الحرارة خمس وثلاثون درجة."
+      },
+      {
+        "speaker": "Carlos",
+        "es": "Sí, pero por la noche va a llover.",
+        "en": "Yes, but it is going to rain tonight.",
+        "ar": "نعم، لكنها ستمطر في الليل."
+      },
+      {
+        "speaker": "Ana",
+        "es": "¿Cómo lo sabes?",
+        "en": "How do you know?",
+        "ar": "كيف تعرف؟"
+      },
+      {
+        "speaker": "Carlos",
+        "es": "El cielo está lleno de nubes y el viento es fuerte.",
+        "en": "The sky is full of clouds and the wind is strong.",
+        "ar": "السماء مليئة بالغيوم والرياح قوية."
+      },
+      {
+        "speaker": "Ana",
+        "es": "Entonces voy a llevar el paraguas.",
+        "en": "Then I will take the umbrella.",
+        "ar": "إذن سآخذ المظلة."
+      },
+      {
+        "speaker": "Carlos",
+        "es": "¡Buena idea! En verano llueve mucho aquí.",
+        "en": "Good idea! In summer it rains a lot here.",
+        "ar": "فكرة جيدة! تمطر كثيرًا هنا في الصيف."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Clima de España",
+      "en": "The Climate of Brazil",
+      "ar": "مناخ البرازيل"
+    },
+    "text_es": "España es un país de clima templado, pero el clima varía mucho de región a región. En verano hace mucho calor en el sur. En invierno, el norte puede tener temperaturas bajas, e incluso nieve en algunas ciudades. Por eso, la mejor época para viajar depende del lugar.",
+    "text_en": "Brazil is a country with a tropical climate, but the climate varies a lot from region to region. In summer, it is very hot and it rains a lot in the Southeast. In winter, the South can have low temperatures, and even snow in some cities. That is why the best time to travel depends on the place.",
+    "text_ar": "البرازيل بلد ذو مناخ استوائي، لكن المناخ يختلف كثيرًا من منطقة إلى أخرى. في الصيف، يكون الطقس حارًا جدًا وتمطر كثيرًا في الجنوب الشرقي. في الشتاء، قد تشهد المنطقة الجنوبية درجات حرارة منخفضة، وحتى ثلوجًا في بعض المدن. لذلك، فإن أفضل وقت للسفر يعتمد على المكان."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Hoy ___ mucho calor.",
+        "en": "Today it is ___ very hot.",
+        "ar": "اليوم الجو ___ حار جدًا."
+      },
+      "options": [
+        {
+          "es": "haciendo",
+          "en": "fazendo",
+          "ar": "fazendo"
+        },
+        {
+          "es": "hace",
+          "en": "faz",
+          "ar": "faz"
+        },
+        {
+          "es": "hacer",
+          "en": "fazer",
+          "ar": "fazer"
+        }
+      ],
+      "answer": "haciendo",
+      "explanation": {
+        "es": "En español usamos 'hace': hace calor.",
+        "en": "With 'está', we use 'fazendo': está fazendo calor.",
+        "ar": "مع 'está' نستخدم 'fazendo': está fazendo calor (الجو حار)."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "En ___ hace mucho calor y llueve bastante.",
+        "en": "In ___ it is very hot and it rains a lot.",
+        "ar": "في ___ يكون الجو حارًا جدًا وتمطر كثيرًا."
+      },
+      "options": [
+        {
+          "es": "verano",
+          "en": "verão",
+          "ar": "verão"
+        },
+        {
+          "es": "invierno",
+          "en": "inverno",
+          "ar": "inverno"
+        },
+        {
+          "es": "otoño",
+          "en": "outono",
+          "ar": "outono"
+        }
+      ],
+      "answer": "verano",
+      "explanation": {
+        "es": "El verano en España es caluroso.",
+        "en": "Summer in Brazil is hot and rainy.",
+        "ar": "الصيف في البرازيل حار وممطر."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'the winter'",
+        "en": "Translate: 'the winter'",
+        "ar": "ترجم: 'the winter'"
+      },
+      "options": [],
+      "answer": "el invierno",
+      "explanation": {
+        "es": "'El invierno' = the winter.",
+        "en": "'O inverno' = the winter.",
+        "ar": "'o inverno' = الشتاء."
+      }
+    }
+  ]
+}

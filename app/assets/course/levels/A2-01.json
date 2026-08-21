@@ -1,0 +1,335 @@
+{
+  "id": "A2-01",
+  "level": "A2",
+  "level_name": {
+    "es": "Básico",
+    "en": "Elementary",
+    "ar": "أساسي"
+  },
+  "title": {
+    "es": "Pretérito Indefinido",
+    "en": "Simple Past",
+    "ar": "الماضي البسيط"
+  },
+  "objectives": [
+    {
+      "es": "Usar el pretérito indefinido para hablar de acciones completas en el pasado",
+      "en": "Use the simple past to talk about completed actions in the past",
+      "ar": "استخدام الماضي التام للتحدث عن أفعال منجزة في الماضي"
+    },
+    {
+      "es": "Conjugar verbos regulares en -ar, -er e -ir en el pasado",
+      "en": "Conjugate regular -ar, -er and -ir verbs in the past",
+      "ar": "تصريف الأفعال المنتظمة في الماضي"
+    },
+    {
+      "es": "Contar lo que hiciste el fin de semana",
+      "en": "Tell what you did on the weekend",
+      "ar": "سرد ما فعلته في عطلة نهاية الأسبوع"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "ayer",
+      "ipa": "/aˈʝeɾ/",
+      "en": "yesterday",
+      "ar": "أمس"
+    },
+    {
+      "es": "hoy",
+      "ipa": "/ˈoʝ/",
+      "en": "today",
+      "ar": "اليوم"
+    },
+    {
+      "es": "la semana pasada",
+      "ipa": "/ˈla seˈmana paˈsaða/",
+      "en": "last week",
+      "ar": "الأسبوع الماضي"
+    },
+    {
+      "es": "el fin de semana",
+      "ipa": "/ˈel ˈfin ˈde seˈmana/",
+      "en": "the weekend",
+      "ar": "عطلة نهاية الأسبوع"
+    },
+    {
+      "es": "viajar",
+      "ipa": "/biaˈxaɾ/",
+      "en": "to travel",
+      "ar": "يسافر"
+    },
+    {
+      "es": "trabajar",
+      "ipa": "/tɾaβaˈxaɾ/",
+      "en": "to work",
+      "ar": "يعمل"
+    },
+    {
+      "es": "comprar",
+      "ipa": "/koˈmpɾaɾ/",
+      "en": "to buy",
+      "ar": "يشتري"
+    },
+    {
+      "es": "encontrar",
+      "ipa": "/enkoˈntɾaɾ/",
+      "en": "to meet / to find",
+      "ar": "يلتقي / يجد"
+    },
+    {
+      "es": "terminar",
+      "ipa": "/teɾmiˈnaɾ/",
+      "en": "to finish",
+      "ar": "ينهي"
+    },
+    {
+      "es": "llegar",
+      "ipa": "/ʝeˈɣaɾ/",
+      "en": "to arrive",
+      "ar": "يصل"
+    },
+    {
+      "es": "volver",
+      "ipa": "/boˈlbeɾ/",
+      "en": "to return",
+      "ar": "يعود"
+    },
+    {
+      "es": "hablar",
+      "ipa": "/aˈβlaɾ/",
+      "en": "to speak",
+      "ar": "يتحدث"
+    },
+    {
+      "es": "celebrar",
+      "ipa": "/seleˈβɾaɾ/",
+      "en": "to celebrate",
+      "ar": "يحتفل"
+    },
+    {
+      "es": "quedarse",
+      "ipa": "/keˈðaɾse/",
+      "en": "to stay",
+      "ar": "يبقى"
+    },
+    {
+      "es": "pasear",
+      "ipa": "/paˈseaɾ/",
+      "en": "to stroll / to go out",
+      "ar": "يتنزه"
+    },
+    {
+      "es": "ocurrir",
+      "ipa": "/okuˈriɾ/",
+      "en": "to happen",
+      "ar": "يحدث"
+    },
+    {
+      "es": "el almuerzo",
+      "ipa": "/ˈel aˈlmueɾso/",
+      "en": "the lunch",
+      "ar": "الغداء"
+    },
+    {
+      "es": "hace dos días",
+      "ipa": "/ˈase ˈdos ˈdias/",
+      "en": "two days ago",
+      "ar": "قبل يومين"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Formación del Pretérito Indefinido (-ar)",
+        "en": "Forming the Simple Past (-ar)",
+        "ar": "تكوين الماضي التام (الأفعال المنتهية بـ -ar)"
+      },
+      "explanation": {
+        "es": "El pretérito indefinido describe acciones completas en el pasado. Verbos en -ar: yo hablé, tú hablaste, él habló, nosotros hablamos, ellos hablaron. La terminación -ó es muy característica de este tiempo.",
+        "en": "The simple past describes completed actions in the past. -ar verbs: eu falei, você falou, ele falou, nós falamos, vocês falaram. The -ou ending is very characteristic and only appears in this tense.",
+        "ar": "الماضي التام يصف أفعالًا منجزة في الماضي. الأفعال المنتهية بـ -ar: eu falei (تحدثت)، você falou، ele falou، nós falamos، vocês falaram. النهاية -ou مميزة جدًا ولا تظهر إلا في هذا الزمن."
+      },
+      "examples": [
+        {
+          "es": "Ayer trabajé hasta tarde.",
+          "en": "Yesterday I worked until late.",
+          "ar": "بالأمس عملت حتى وقت متأخر."
+        },
+        {
+          "es": "¿Compraste el regalo ayer?",
+          "en": "Did you buy the gift yesterday?",
+          "ar": "هل اشتريت الهدية أمس؟"
+        },
+        {
+          "es": "Conversamos mucho en la cena.",
+          "en": "We talked a lot at dinner.",
+          "ar": "تحدثنا كثيرًا أثناء العشاء."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Pretérito Indefinido en -er/-ir e Irregulares",
+        "en": "Simple Past in -er/-ir and Irregular Verbs",
+        "ar": "الماضي التام في الأفعال المنتهية بـ -er/-ir والأفعال الشاذة"
+      },
+      "explanation": {
+        "es": "Verbos en -er/-ir: yo comí, tú comiste, nosotros comimos, ellos comieron; yo abrí, tú abriste, nosotros abrimos, ellos abrieron. Irregulares importantes: ser (fui, fue, fuimos, fueron), estar (estuve, estuvo), tener (tuve, tuvo), ir (fui, fue), hacer (hice, hizo).",
+        "en": "-er/-ir verbs: eu comi, você comeu, nós comemos, eles comeram; eu abri, você abriu, nós abrimos, eles abriram. Important irregulars: ser (fui, foi, fomos, foram), estar (estive, esteve), ter (tive, teve), ir (fui, foi), fazer (fiz, fez).",
+        "ar": "الأفعال المنتهية بـ -er/-ir: eu comi (أكلت)، você comeu، nós comemos، eles comeram؛ eu abri (فتحت)، você abriu، nós abrimos، eles abriram. أفعال شاذة مهمة: ser (fui، foi، fomos، foram)، estar (estive، esteve)، ter (tive، teve)، ir (fui، foi)، fazer (fiz، fez)."
+      },
+      "examples": [
+        {
+          "es": "Comí feijoada el sábado.",
+          "en": "I ate feijoada on Saturday.",
+          "ar": "أكلت فيجوعادا يوم السبت."
+        },
+        {
+          "es": "Ella tuvo un día muy ajetreado.",
+          "en": "She had a very busy day.",
+          "ar": "كان يومها مزدحمًا جدًا."
+        },
+        {
+          "es": "Ellos hicieron una fiesta sorpresa.",
+          "en": "They threw a surprise party.",
+          "ar": "أقاموا حفلة مفاجئة."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "El Fin de Semana",
+      "en": "The Weekend",
+      "ar": "عطلة نهاية الأسبوع"
+    },
+    "lines": [
+      {
+        "speaker": "Juan",
+        "es": "¿Qué hiciste el fin de semana?",
+        "en": "What did you do on the weekend?",
+        "ar": "ماذا فعلتِ في عطلة نهاية الأسبوع؟"
+      },
+      {
+        "speaker": "Ana",
+        "es": "Viajé a la costa y visité a mi abuela.",
+        "en": "I traveled to the coast and visited my grandmother.",
+        "ar": "سافرت إلى الساحل وزرت جدتي."
+      },
+      {
+        "speaker": "Juan",
+        "es": "¡Qué bien! ¿Te quedaste allí dos días?",
+        "en": "Great! Did you stay there two days?",
+        "ar": "رائع! هل بقيتِ هناك يومين؟"
+      },
+      {
+        "speaker": "Ana",
+        "es": "Sí. El sábado paseamos por la playa y comimos mariscos.",
+        "en": "Yes. On Saturday, we strolled on the beach and ate seafood.",
+        "ar": "نعم. يوم السبت، تنزهنا على الشاطئ وأكلنا المأكولات البحرية."
+      },
+      {
+        "speaker": "Juan",
+        "es": "¿Compraste algo?",
+        "en": "Did you buy anything?",
+        "ar": "هل اشتريتِ شيئًا؟"
+      },
+      {
+        "speaker": "Ana",
+        "es": "¡Compré un regalo para mi madre. Le encantó!",
+        "en": "I bought a gift for my mother. She loved it!",
+        "ar": "اشتريت هدية لأمي. لقد أحبّتها!"
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Un Viaje a la Costa",
+      "en": "A Trip to Rio",
+      "ar": "رحلة إلى ريو"
+    },
+    "text_es": "La semana pasada, Pablo y María viajaron a Barcelona. Visitaron la Sagrada Familia y comieron en un restaurante típico. El domingo volvieron a casa cansados, pero felices. Fue un fin de semana inolvidable.",
+    "text_en": "Last week, Paulo and Maria traveled to Rio de Janeiro. They visited Christ the Redeemer and ate at a typical restaurant. On Sunday, they returned home tired, but happy. It was an unforgettable weekend.",
+    "text_ar": "في الأسبوع الماضي، سافر باولو وماريا إلى ريو دي جانيرو. زارا تمثال المسيح الفادي وتناولا الطعام في مطعم تقليدي. يوم الأحد، عادا إلى المنزل متعبين لكن سعيدين. كانت عطلة نهاية أسبوع لا تُنسى."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Ayer, yo ___ al mercado. (ir)",
+        "en": "Yesterday, I ___ to the market. (ir)",
+        "ar": "بالأمس، أنا ___ إلى السوق. (ir)"
+      },
+      "options": [
+        {
+          "es": "fui",
+          "en": "fui",
+          "ar": "fui"
+        },
+        {
+          "es": "voy",
+          "en": "vou",
+          "ar": "vou"
+        },
+        {
+          "es": "iba",
+          "en": "ia",
+          "ar": "ia"
+        }
+      ],
+      "answer": "fui",
+      "explanation": {
+        "es": "'Ir' en el pretérito indefinido con 'yo' = fui.",
+        "en": "'Ir' in the simple past with 'eu' = fui.",
+        "ar": "الفعل 'ir' في الماضي التام مع 'eu' = fui."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Nosotros ___ español en la clase pasada. (hablar)",
+        "en": "We ___ Portuguese in the last class. (falar)",
+        "ar": "نحن ___ البرتغالية في الحصة الماضية. (falar)"
+      },
+      "options": [
+        {
+          "es": "hablamos",
+          "en": "falamos",
+          "ar": "falamos"
+        },
+        {
+          "es": "hablaron",
+          "en": "falaram",
+          "ar": "falaram"
+        },
+        {
+          "es": "hablábamos",
+          "en": "falávamos",
+          "ar": "falávamos"
+        }
+      ],
+      "answer": "hablamos",
+      "explanation": {
+        "es": "Nosotros + pretérito indefinido (-ar) = -amos: hablamos.",
+        "en": "Nós + simple past (-ar) = -amos: falamos.",
+        "ar": "مع 'nós' يأتي الماضي التام (-ar) بصيغة -amos: falamos."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'last week'",
+        "en": "Translate: 'last week'",
+        "ar": "ترجم: 'last week'"
+      },
+      "options": [],
+      "answer": "la semana pasada",
+      "explanation": {
+        "es": "'La semana pasada' = last week.",
+        "en": "'A semana passada' = last week.",
+        "ar": "'a semana passada' تعني الأسبوع الماضي."
+      }
+    }
+  ]
+}

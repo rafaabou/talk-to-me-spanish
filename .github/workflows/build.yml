@@ -1,0 +1,370 @@
+name: Build Talk To Me Spanish
+
+on:
+  push:
+    branches: [develop, test]
+  pull_request:
+    branches: [develop, test]
+  workflow_dispatch:
+    inputs:
+      skip_security:
+        description: 'Skip security scans (emergency only)'
+        required: false
+        default: 'false'
+        type: boolean
+
+env:
+  FLUTTER_VERSION: '3.29.3'
+  JAVA_VERSION: '17'
+
+permissions:
+  contents: read
+  security-events: write
+  packages: write
+  id-token: write
+  attestations: write
+
+jobs:
+  # =========================================================================
+  # STAGE 1: VALIDATE (Pre-build checks)
+  # =========================================================================
+  validate:
+    name: Validate Spanish App
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: ${{ env.JAVA_VERSION }}
+          cache: gradle
+
+      # ── Format Check ─────────────────────────────────────────────
+      - name: Format Check
+        run: dart format --set-exit-if-changed --output=none .
+
+      # ── Static Analysis ──────────────────────────────────────────
+      - name: Static Analysis
+        run: flutter analyze --fatal-infos --output=analysis-report.json
+
+      # ── Unit Tests ───────────────────────────────────────────────
+      - name: Unit Tests
+        run: flutter test
+
+      # ── License Check ────────────────────────────────────────────
+      - name: License Check
+        run: |
+          dart pub global activate license_checker
+          dart pub global run license_checker:lic_ck check-licenses --config lic_ck.yaml || echo "License check completed with findings"
+
+      # ── Secret Scan (Gitleaks) ──────────────────────────────────
+      - name: Secret Scan (Gitleaks)
+        uses: gitleaks/gitleaks-action@v2
+        with:
+          config: .gitleaks.toml
+          args: --verbose --no-git
+
+      # ── Secret Scan (TruffleHog) ────────────────────────────────
+      - name: Secret Scan (TruffleHog)
+        uses: trufflesecurity/trufflehog@main
+        with:
+          path: .
+          fail: true
+          no-verification: true
+
+      # ── Dependency Audit ────────────────────────────────────────
+      - name: Dependency Audit
+        run: |
+          flutter pub outdated --json > deps-outdated.json || true
+          cat deps-outdated.json
+
+      # ── Upload Validation Reports ──────────────────────────────
+      - name: Upload Validation Reports
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: es-validation-reports
+          path: |
+            app/analysis-report.json
+            app/deps-outdated.json
+          retention-days: 30
+
+  # =========================================================================
+  # STAGE 2: BUILD (Compile Spanish App)
+  # =========================================================================
+  build:
+    name: Build Spanish App
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: ${{ env.JAVA_VERSION }}
+          cache: gradle
+
+      - name: Get Dependencies
+        run: flutter pub get --enforce-lockfile
+
+      # ── Restore Release Keystore from Secret ────────────────────
+      - name: Restore Release Keystore
+        run: |
+          if [ -n "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" ]; then
+            echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.keystore
+            ls -la android/app/release.keystore
+          else
+            echo "RELEASE_KEYSTORE_BASE64 not set - generating ephemeral keystore"
+            keytool -genkeypair -v \
+              -keystore android/app/release.keystore \
+              -alias release \
+              -keyalg RSA -keysize 2048 -validity 10000 \
+              -storepass release123 -keypass release123 \
+              -dname "CN=Talk To Me Spanish, OU=DevOps, O=Mohamed Rafaa TOUNEKTI, L=Tunis, C=TN"
+          fi
+
+      # ── Build Spanish APK ───────────────────────────────────────
+      - name: Build Spanish Release APK
+        run: |
+          flutter build apk --release \
+            --obfuscate \
+            --split-debug-info=build/debug-info \
+            --target-platform android-arm64
+
+      # ── Verify Build Outputs ────────────────────────────────────
+      - name: Verify Build Outputs
+        run: |
+          ls -la build/app/outputs/flutter-apk/app-release.apk
+          SIZE=$(stat -c%s build/app/outputs/flutter-apk/app-release.apk)
+          echo "APK size: $SIZE bytes"
+          test "$SIZE" -gt 1000000 || exit 1
+
+      # ── Upload Build Artifacts ──────────────────────────────────
+      - name: Upload Release APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: es-release-apk
+          path: app/build/app/outputs/flutter-apk/app-release.apk
+          retention-days: 30
+
+      - name: Upload Debug Symbols
+        uses: actions/upload-artifact@v4
+        with:
+          name: es-debug-symbols
+          path: app/build/debug-info
+          retention-days: 30
+
+  # =========================================================================
+  # STAGE 3: SECURITY SCANS (Parallel)
+  # =========================================================================
+  security-scan:
+    name: Security Scans (Spanish)
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        scanner: [grype, trivy]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ── Grype Vulnerability Scan ──────────────────────────────
+      - name: Generate SBOM (Syft)
+        if: matrix.scanner == 'grype'
+        uses: anchore/sbom-action@v0
+        with:
+          path: .
+          format: cyclonedx-json
+          output-file: sbom.cdx.json
+
+      - name: Vulnerability Scan (Grype)
+        if: matrix.scanner == 'grype'
+        uses: anchore/grype-action@v1
+        with:
+          path: sbom.cdx.json
+          fail-build: true
+          severity-cutoff: high
+          output: grype-report.json
+
+      - name: Upload Grype Report
+        if: matrix.scanner == 'grype'
+        uses: actions/upload-artifact@v4
+        with:
+          name: es-grype-report
+          path: grype-report.json
+          retention-days: 90
+
+      # ── Trivy FS Scan ─────────────────────────────────────────
+      - name: Trivy FS Scan
+        if: matrix.scanner == 'trivy'
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: fs
+          scan-ref: .
+          format: sarif
+          output: trivy-results.sarif
+          severity: HIGH,CRITICAL
+          exit-code: '1'
+          ignore-unfixed: true
+
+      - name: Upload Trivy Results
+        if: matrix.scanner == 'trivy'
+        uses: actions/upload-artifact@v4
+        with:
+          name: es-trivy-results
+          path: trivy-results.sarif
+          retention-days: 90
+
+  # =========================================================================
+  # STAGE 4: PACKAGE & SIGN
+  # =========================================================================
+  package:
+    name: Package & Sign Spanish App
+    needs: [build, security-scan]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      packages: write
+      id-token: write
+      attestations: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download APK
+        uses: actions/download-artifact@v4
+        with:
+          name: es-release-apk
+          path: ./apks
+
+      # ── Verify APK Signature (build-tools) ────────────────────
+      - name: Verify APK Signature
+        run: |
+          APKSIGNER=$(ls "$ANDROID_HOME"/build-tools/*/apksigner 2>/dev/null | tail -1)
+          if [ -n "$APKSIGNER" ]; then
+            "$APKSIGNER" verify --print-certs apks/app-release.apk
+          else
+            echo "apksigner not found - skipping signature verification"
+          fi
+
+      # ── Generate SBOMs ─────────────────────────────────────────
+      - name: Generate Project SBOM (Syft)
+        uses: anchore/sbom-action@v0
+        with:
+          path: .
+          format: cyclonedx-json
+          output-file: sbom-project.cdx.json
+
+      - name: Generate APK SBOM
+        run: |
+          syft apks/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json
+
+      # ── Vulnerability Scan on APK SBOM ────────────────────────
+      - name: Scan APK SBOM (Grype)
+        uses: anchore/grype-action@v1
+        with:
+          path: sbom-apk.cdx.json
+          fail-build: true
+          severity-cutoff: high
+
+      # ── Sign with Cosign (Keyless) ────────────────────────────
+      - name: Install Cosign
+        uses: sigstore/cosign-installer@v3
+
+      - name: Sign APK & SBOM (Keyless)
+        run: |
+          cosign sign-blob --yes \
+            --output-signature app-release.apk.sig \
+            apks/app-release.apk
+          cosign sign-blob --yes \
+            --output-signature sbom-project.cdx.json.sig \
+            sbom-project.cdx.json
+
+      # ── Generate Provenance (SLSA) ────────────────────────────
+      - name: Generate Provenance Attestation
+        uses: slsa-framework/slsa-github-generator/actions/generate-attestations@v2
+        with:
+          subject-path: apks/app-release.apk
+          provenance-name: provenance.intoto.jsonl
+
+      # ── Upload Release Assets ─────────────────────────────────
+      - name: Upload Release Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: es-release-final
+          path: |
+            apks/*.apk
+            *.sig
+            sbom*.json
+            *.sarif
+          retention-days: 90
+
+  # =========================================================================
+  # STAGE 5: RELEASE (Tagged Releases Only)
+  # =========================================================================
+  release:
+    name: Release Spanish App
+    needs: package
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Download Release Assets
+        uses: actions/download-artifact@v4
+        with:
+          name: es-release-final
+          path: ./release
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            release/*.apk
+            release/*.sig
+            release/sbom*.json
+          generate_release_notes: true
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

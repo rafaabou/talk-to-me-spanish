@@ -1,0 +1,340 @@
+{
+  "id": "C2-07",
+  "level": "C2",
+  "level_name": {
+    "es": "Proficiencia",
+    "en": "Proficiency",
+    "ar": "إتقان"
+  },
+  "title": {
+    "es": "Traducción Avanzada (ES↔EN↔AR)",
+    "en": "Advanced Translation (PT↔EN↔AR)",
+    "ar": "الترجمة المتقدمة (برتغالي↔إنجليزي↔عربي)"
+  },
+  "objectives": [
+    {
+      "es": "Aplicar estrategias de equivalencia y adaptación en la traducción",
+      "en": "Apply equivalence and adaptation strategies in translation",
+      "ar": "تطبيق استراتيجيات التكافؤ والتكييف في الترجمة"
+    },
+    {
+      "es": "Identificar falsos amigos y ambigüedades",
+      "en": "Identify false cognates and ambiguities",
+      "ar": "تحديد الألفاظ المشتركة الخادعة والغموض"
+    },
+    {
+      "es": "Preservar el registro, el tono y la carga cultural del texto fuente",
+      "en": "Preserve the register, tone and cultural load of the source text",
+      "ar": "الحفاظ على المستوى والنبرة والحمولة الثقافية للنص الأصلي"
+    },
+    {
+      "es": "Justificar las decisiones de traducción con argumentos técnicos",
+      "en": "Justify translation choices with technical arguments",
+      "ar": "تبرير الخيارات الترجمية بحجج تقنية"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la traducción",
+      "ipa": "/ˈla tɾaðuˈksion/",
+      "en": "translation",
+      "ar": "الترجمة"
+    },
+    {
+      "es": "el traductor",
+      "ipa": "/ˈel tɾaðuˈktoɾ/",
+      "en": "translator",
+      "ar": "المترجم"
+    },
+    {
+      "es": "el sentido denotativo",
+      "ipa": "/ˈel seˈntiðo denotaˈtiβo/",
+      "en": "denotative meaning",
+      "ar": "المعنى اللفظي المباشر"
+    },
+    {
+      "es": "el sentido connotativo",
+      "ipa": "/ˈel seˈntiðo konnotaˈtiβo/",
+      "en": "connotative meaning",
+      "ar": "المعنى الدلالي المجازي"
+    },
+    {
+      "es": "el calco",
+      "ipa": "/ˈel ˈkalko/",
+      "en": "calque",
+      "ar": "الترجمة الحرفية التركيبية"
+    },
+    {
+      "es": "el préstamo",
+      "ipa": "/ˈel ˈpɾestamo/",
+      "en": "loanword",
+      "ar": "اللفظ المقترض"
+    },
+    {
+      "es": "la equivalencia",
+      "ipa": "/ˈla ekiβaˈlensia/",
+      "en": "equivalence",
+      "ar": "التكافؤ"
+    },
+    {
+      "es": "la adaptación",
+      "ipa": "/ˈla aðaptaˈsion/",
+      "en": "adaptation",
+      "ar": "التكييف"
+    },
+    {
+      "es": "la domesticación",
+      "ipa": "/ˈla domestikaˈsion/",
+      "en": "domestication",
+      "ar": "الترجمة المقربة من القارئ"
+    },
+    {
+      "es": "la extranjerización",
+      "ipa": "/ˈla ekstɾanxeɾisaˈsion/",
+      "en": "foreignization",
+      "ar": "الترجمة المبعدة عن القارئ"
+    },
+    {
+      "es": "el falso amigo",
+      "ipa": "/ˈel ˈfalso aˈmiɣo/",
+      "en": "false cognate",
+      "ar": "المشترك اللفظي الخادع"
+    },
+    {
+      "es": "el cognado",
+      "ipa": "/ˈel koˈɣnaðo/",
+      "en": "cognate",
+      "ar": "اللفظ المشترك"
+    },
+    {
+      "es": "el registro",
+      "ipa": "/ˈel reˈxistɾo/",
+      "en": "register",
+      "ar": "المستوى اللغوي"
+    },
+    {
+      "es": "la ambigüedad",
+      "ipa": "/ˈla ambiɣweˈðað/",
+      "en": "ambiguity",
+      "ar": "الغموض"
+    },
+    {
+      "es": "el contexto",
+      "ipa": "/ˈel koˈnteksto/",
+      "en": "context",
+      "ar": "السياق"
+    },
+    {
+      "es": "el público objetivo",
+      "ipa": "/ˈel ˈpuβliko oβxeˈtiβo/",
+      "en": "target audience",
+      "ar": "الجمهور المستهدف"
+    },
+    {
+      "es": "la revisión",
+      "ipa": "/ˈla reβiˈsion/",
+      "en": "revision / proofreading",
+      "ar": "المراجعة"
+    },
+    {
+      "es": "la nota a pie de página",
+      "ipa": "/ˈla ˈnota ˈa ˈpie ˈde ˈpaxina/",
+      "en": "footnote",
+      "ar": "الحاشية السفلية"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Falsos Amigos y Decisiones",
+        "en": "False Cognates and Decisions",
+        "ar": "الألفاظ المشتركة الخادعة وقرارات المترجم"
+      },
+      "explanation": {
+        "es": "El traductor no traduce palabras, sino efectos. 'Actually' no es 'actualmente' sino 'en realidad', y 'library' no es 'librería' sino 'biblioteca'; 'librería' es 'bookstore'. Los falsos amigos como 'pretend' (pretender = to intend), 'push' (empujar) y 'parents' (padres, no 'parientes') exigen verificación contextual. La decisión entre préstamo, calco o equivalente depende del público objetivo y del género textual.",
+        "en": "The translator does not translate words but effects. 'Actually' is not 'atualmente' (it is 'na verdade'), and 'library' is not 'livraria' (it is 'biblioteca'); 'livraria' is 'bookstore'. False cognates such as 'pretend' (pretender = 'to intend'), 'push' (empurrar) and 'parents' (pais, not 'parentes') require contextual checking. The decision between 'loanword', 'calque' or 'equivalent' depends on the target audience and the text genre.",
+        "ar": "لا يترجم المترجم الألفاظ بل الأثر. كلمة 'Actually' ليست 'atualmente' (بل هي 'na verdade')، و'library' ليست 'livraria' (بل 'biblioteca')؛ و'livraria' تعني bookstore. وتتطلب الألفاظ المشتركة الخادعة مثل 'pretend' (pretender تعني to intend) و'push' (empurrar) و'parents' (تعني الوالدين لا 'parentes') فحصًا سياقيًا. أما القرار بين الاقتراض أو الترجمة الحرفية أو التكافؤ فيعتمد على الجمهور المستهدف ونوع النص."
+      },
+      "examples": [
+        {
+          "es": "En realidad, ella no dijo eso. (actually)",
+          "en": "Actually, she did not say that.",
+          "ar": "في الحقيقة، لم تقل ذلك."
+        },
+        {
+          "es": "Sus padres llegaron ayer. (parents)",
+          "en": "Her parents arrived yesterday.",
+          "ar": "وصل والداها أمس."
+        },
+        {
+          "es": "La biblioteca está al lado de la librería. (library / bookstore)",
+          "en": "The library is next to the bookstore.",
+          "ar": "تقع المكتبة العامة بجوار مكتبة البيع."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Equivalencia de Idiomatismos",
+        "en": "Equivalence of Idioms",
+        "ar": "تكافؤ التعابير الاصطلاحية"
+      },
+      "explanation": {
+        "es": "Los idiomatismos rara vez tienen traducción literal viable. 'To hit the nail on the head' equivale a 'dar en el clavo'; 'it's raining cats and dogs' puede convertirse en 'llover a cántaros'. Cuando no hay equivalente, el traductor adapta el sentido o añade una nota a pie de página. La domesticación acerca el texto al lector objetivo; la extranjerización preserva el color local, a menudo con nota explicativa.",
+        "en": "Idioms rarely have a viable literal translation. 'To hit the nail on the head' equals 'acertar na mosca'; 'it's raining cats and dogs' can become 'está chovendo canivetes'. When there is no equivalent, the translator adapts the meaning or adds a footnote. Domestication brings the text closer to the target reader; foreignization preserves local color, often with an explanatory note.",
+        "ar": "نادرًا ما يكون للتعابير الاصطلاحية ترجمة حرفية صالحة. عبارة 'To hit the nail on the head' تقابلها 'acertar na mosca'؛ و'it's raining cats and dogs' قد تصير 'está chovendo canivetes'. وعند غياب المكافئ، يكيّف المترجم المعنى أو يضيف حاشية. الترجمة المقربة من القارئ تقرب النص من الجمهور المستهدف؛ أما الترجمة المبعدة فتحفظ اللون المحلي غالبًا مع حاشية توضيحية."
+      },
+      "examples": [
+        {
+          "es": "Diste en el clavo con esa previsión. (to hit the nail on the head)",
+          "en": "You hit the nail on the head with that forecast.",
+          "ar": "لقد أصبت الهدف تمامًا بهذا التوقع."
+        },
+        {
+          "es": "Afuera está lloviendo a cántaros. (it's raining cats and dogs)",
+          "en": "It's raining cats and dogs outside.",
+          "ar": "إنها تمطر بغزارة في الخارج."
+        },
+        {
+          "es": "Puse la casa en venta en el anuncio. (registro adaptado)",
+          "en": "I left the house 'a mil' in the ad. (adapted register)",
+          "ar": "قوّيت وصف المنزل كثيرًا في الإعلان. (مستوى مُكيَّف)"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "En la Agencia de Traducción",
+      "en": "At the Translation Agency",
+      "ar": "في وكالة الترجمة"
+    },
+    "lines": [
+      {
+        "speaker": "Otavio",
+        "es": "Este texto técnico pide equivalencia precisa, no traducción literal.",
+        "en": "This technical text calls for precise equivalence, not literal translation.",
+        "ar": "هذا النص التقني يتطلب تكافؤًا دقيقًا لا ترجمة حرفية."
+      },
+      {
+        "speaker": "Fátima",
+        "es": "De acuerdo. 'Pretend' aquí no es 'pretender' en el sentido de desear, sino 'alegar'.",
+        "en": "I agree. 'Pretend' here is not 'pretender' in the sense of desiring, but rather 'alegar' (to claim).",
+        "ar": "أتفق. كلمة 'pretend' هنا لا تعني 'pretender' بمعنى الرغبة، بل 'alegar' أي الادعاء."
+      },
+      {
+        "speaker": "Otavio",
+        "es": "¿Y el juego de palabras del anuncio? ¿Domesticamos o lo mantenemos con nota?",
+        "en": "And the pun in the ad? Do we domesticate it or keep it with a footnote?",
+        "ar": "والتلاعب اللفظي في الإعلان؟ هل نقربه من القارئ أم نحتفظ به مع حاشية؟"
+      },
+      {
+        "speaker": "Fátima",
+        "es": "Para el público joven, un equivalente adaptado funciona mejor que la nota.",
+        "en": "For a young audience, an adapted equivalent works better than a footnote.",
+        "ar": "بالنسبة لجمهور الشباب، يعمل المكافئ المُكيَّف أفضل من الحاشية."
+      },
+      {
+        "speaker": "Otavio",
+        "es": "Entonces preservamos el tono, ajustamos el registro y mantenemos la fluidez.",
+        "en": "Then we preserve the tone, adjust the register and keep fluency.",
+        "ar": "إذن نحافظ على النبرة ونضبط المستوى ونحافظ على السلاسة."
+      },
+      {
+        "speaker": "Fátima",
+        "es": "Perfecto. Después de la revisión, aún revisamos cada falso amigo.",
+        "en": "Perfect. After the revision, we still check every false cognate.",
+        "ar": "ممتاز. بعد المراجعة، نفحص أيضًا كل لفظ مشترك خادع."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Traducir es Recrear",
+      "en": "To Translate Is to Recreate",
+      "ar": "الترجمة إعادة خلق"
+    },
+    "text_es": "Traducir un texto literario exige decidir entre fidelidad literal y efecto estético. El traductor que opta por la domesticación acerca al lector a la obra, mientras la extranjerización respeta la alteridad cultural. En ambos casos, los falsos amigos y las ambigüedades son trampas constantes. El buen profesional traduce intenciones, no meramente palabras.",
+    "text_en": "Translating a literary text requires deciding between literal fidelity and aesthetic effect. The translator who opts for domestication brings the reader closer to the work, while foreignization respects cultural otherness. In both cases, false cognates and ambiguities are constant traps. The good professional translates intentions, not merely words.",
+    "text_ar": "تتطلب ترجمة النص الأدبي قرارًا بين الإخلاص الحرفي والأثر الجمالي. فالمترجم الذي يختار الترجمة المقربة من القارئ يقربه من العمل، بينما تحترم الترجمة المبعدة اختلاف الثقافة. وفي الحالتين، تشكل الألفاظ المشتركة الخادعة والغموض فخاخًا دائمة. المترجم المحترف يترجم المقاصد لا الكلمات فحسب."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cuál es la traducción correcta de 'library'?",
+        "en": "What is the correct translation of 'library'?",
+        "ar": "ما الترجمة الصحيحة لكلمة 'library'؟"
+      },
+      "options": [
+        {
+          "es": "librería",
+          "en": "livraria",
+          "ar": "livraria"
+        },
+        {
+          "es": "biblioteca",
+          "en": "biblioteca",
+          "ar": "biblioteca"
+        },
+        {
+          "es": "libro",
+          "en": "livro",
+          "ar": "livro"
+        }
+      ],
+      "answer": "biblioteca",
+      "explanation": {
+        "es": "'Library' es 'biblioteca'; 'librería' es 'bookstore'.",
+        "en": "'Library' is 'biblioteca'; 'livraria' is 'bookstore'.",
+        "ar": "'library' تعني 'biblioteca'؛ أما 'livraria' فتعني bookstore."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué estrategia acerca el texto al lector objetivo?",
+        "en": "Which strategy brings the text closer to the target reader?",
+        "ar": "ما الاستراتيجية التي تقرّب النص من القارئ المستهدف؟"
+      },
+      "options": [
+        {
+          "es": "la domesticación",
+          "en": "domestication",
+          "ar": "الترجمة المقربة"
+        },
+        {
+          "es": "el calco total",
+          "en": "total calque",
+          "ar": "الترجمة الحرفية الكاملة"
+        },
+        {
+          "es": "la extranjerización",
+          "en": "foreignization",
+          "ar": "الترجمة المبعدة"
+        }
+      ],
+      "answer": "la domesticación",
+      "explanation": {
+        "es": "La domesticación adapta el texto a la cultura del lector objetivo.",
+        "en": "Domestication adapts the text to the target reader's culture.",
+        "ar": "الترجمة المقربة تكيّف النص مع ثقافة القارئ المستهدف."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: 'to hit the nail on the head'",
+        "en": "Translate into Portuguese: 'to hit the nail on the head'",
+        "ar": "ترجم إلى البرتغالية: 'to hit the nail on the head'"
+      },
+      "options": [],
+      "answer": "dar en el clavo",
+      "explanation": {
+        "es": "El equivalente idiomático es 'dar en el clavo'.",
+        "en": "The idiomatic equivalent is 'acertar na mosca'.",
+        "ar": "المكافئ الاصطلاحي هو 'acertar na mosca'."
+      }
+    }
+  ]
+}

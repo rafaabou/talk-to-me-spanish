@@ -1,0 +1,335 @@
+{
+  "id": "A2-08",
+  "level": "A2",
+  "level_name": {
+    "es": "Básico",
+    "en": "Elementary",
+    "ar": "أساسي"
+  },
+  "title": {
+    "es": "Salud y Cuerpo Humano",
+    "en": "Health and the Human Body",
+    "ar": "الصحة وجسم الإنسان"
+  },
+  "objectives": [
+    {
+      "es": "Nombrar partes del cuerpo y síntomas",
+      "en": "Name body parts and symptoms",
+      "ar": "تسمية أجزاء الجسم والأعراض"
+    },
+    {
+      "es": "Describir cómo te sientes",
+      "en": "Describe how you are feeling",
+      "ar": "وصف شعورك"
+    },
+    {
+      "es": "Hablar con el médico y comprar medicinas",
+      "en": "Talk to the doctor and buy medicine",
+      "ar": "التحدث مع الطبيب وشراء الأدوية"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la salud",
+      "ipa": "/ˈla saˈluð/",
+      "en": "the health",
+      "ar": "الصحة"
+    },
+    {
+      "es": "la cabeza",
+      "ipa": "/ˈla kaˈβesa/",
+      "en": "the head",
+      "ar": "الرأس"
+    },
+    {
+      "es": "la garganta",
+      "ipa": "/ˈla gaˈɾganta/",
+      "en": "the throat",
+      "ar": "الحلق"
+    },
+    {
+      "es": "el estómago",
+      "ipa": "/ˈel eˈstomaɣo/",
+      "en": "the stomach / belly",
+      "ar": "البطن"
+    },
+    {
+      "es": "el dolor",
+      "ipa": "/ˈel doˈloɾ/",
+      "en": "the pain",
+      "ar": "الألم"
+    },
+    {
+      "es": "el medicamento",
+      "ipa": "/ˈel meðikaˈmento/",
+      "en": "the medicine",
+      "ar": "الدواء"
+    },
+    {
+      "es": "el médico",
+      "ipa": "/ˈel ˈmeðiko/",
+      "en": "the doctor",
+      "ar": "الطبيب"
+    },
+    {
+      "es": "la consulta",
+      "ipa": "/ˈla koˈnsulta/",
+      "en": "the appointment",
+      "ar": "الموعد الطبي"
+    },
+    {
+      "es": "enfermo",
+      "ipa": "/eˈnfeɾmo/",
+      "en": "sick",
+      "ar": "مريض"
+    },
+    {
+      "es": "la fiebre",
+      "ipa": "/ˈla ˈfieβɾe/",
+      "en": "the fever",
+      "ar": "الحمى"
+    },
+    {
+      "es": "toser",
+      "ipa": "/toˈseɾ/",
+      "en": "to cough",
+      "ar": "يسعل"
+    },
+    {
+      "es": "la farmacia",
+      "ipa": "/ˈla faˈɾmasia/",
+      "en": "the pharmacy",
+      "ar": "الصيدلية"
+    },
+    {
+      "es": "la receta",
+      "ipa": "/ˈla reˈseta/",
+      "en": "the prescription",
+      "ar": "الوصفة الطبية"
+    },
+    {
+      "es": "descansar",
+      "ipa": "/deskaˈnsaɾ/",
+      "en": "to rest",
+      "ar": "يستريح"
+    },
+    {
+      "es": "mejor",
+      "ipa": "/meˈxoɾ/",
+      "en": "better",
+      "ar": "أفضل"
+    },
+    {
+      "es": "el brazo",
+      "ipa": "/ˈel ˈbɾaso/",
+      "en": "the arm",
+      "ar": "الذراع"
+    },
+    {
+      "es": "la pierna",
+      "ipa": "/ˈla ˈpieɾna/",
+      "en": "the leg",
+      "ar": "الساق"
+    },
+    {
+      "es": "sentirse",
+      "ipa": "/seˈntiɾse/",
+      "en": "to feel",
+      "ar": "يشعر"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Expresiones de Salud con Estar y Sentirse",
+        "en": "Health Expressions with Estar and Sentir",
+        "ar": "تعبيرات الصحة مع estar و sentir"
+      },
+      "explanation": {
+        "es": "Para hablar de salud: 'Estoy enfermo' (I am sick), 'Estoy con dolor de cabeza' (I have a headache), 'Estoy con fiebre' (I have a fever), 'Me siento cansado' (I feel tired), 'Estoy con gripe' (I have the flu). El dolor es localizado: dolor de cabeza, dolor de estómago, dolor de garganta.",
+        "en": "To talk about health: 'Estou doente' (I am sick), 'Estou com dor de cabeça' (I have a headache), 'Estou com febre' (I have a fever), 'Me sinto cansado' (I feel tired), 'Estou com gripe' (I have the flu). The pain is located: dor de cabeça (headache), dor de barriga (stomachache), dor de garganta (sore throat).",
+        "ar": "للتحدث عن الصحة: 'Estou doente' (أنا مريض)، 'Estou com dor de cabeça' (أعاني من صداع)، 'Estou com febre' (لدي حمى)، 'Me sinto cansado' (أشعر بالتعب)، 'Estou com gripe' (لدي إنفلونزا). الألم محدد بالموقع: dor de cabeça (صداع)، dor de barriga (ألم في البطن)، dor de garganta (التهاب في الحلق)."
+      },
+      "examples": [
+        {
+          "es": "Estoy con dolor de garganta.",
+          "en": "I have a sore throat.",
+          "ar": "أعاني من التهاب في الحلق."
+        },
+        {
+          "es": "Ella está con fiebre desde ayer.",
+          "en": "She has had a fever since yesterday.",
+          "ar": "إنها تعاني من الحمى منذ الأمس."
+        },
+        {
+          "es": "Me siento mejor hoy.",
+          "en": "I feel better today.",
+          "ar": "أشعر بتحسن اليوم."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Tener que / Deber (Obligación y Consejo)",
+        "en": "Ter que / Dever (Obligation and Advice)",
+        "ar": "ter que / dever (الواجب والنصيحة)"
+      },
+      "explanation": {
+        "es": "Para la obligación: 'tener que + infinitivo': 'Tengo que descansar' (I have to rest). Para el consejo: 'deber + infinitivo': 'Debes beber mucha agua' (You should drink a lot of water), 'Debes ir al médico' (You should go to the doctor).",
+        "en": "For obligation: 'ter que/ter de + infinitive': 'Tenho que descansar' (I have to rest). For advice: 'dever + infinitive': 'Você deve beber muita água' (You should drink a lot of water), 'Deve ir ao médico' (You should go to the doctor).",
+        "ar": "للتعبير عن الواجب: 'ter que/ter de + صيغة المصدر': 'Tenho que descansar' (يجب أن أستريح). للنصيحة: 'dever + صيغة المصدر': 'Você deve beber muita água' (يجب أن تشرب الكثير من الماء)، 'Deve ir ao médico' (يجب أن تذهب إلى الطبيب)."
+      },
+      "examples": [
+        {
+          "es": "Tienes que tomar el medicamento.",
+          "en": "You have to take the medicine.",
+          "ar": "يجب أن تتناول الدواء."
+        },
+        {
+          "es": "Ella debe descansar dos días.",
+          "en": "She should rest for two days.",
+          "ar": "يجب أن تستريح لمدة يومين."
+        },
+        {
+          "es": "Necesito pedir una cita.",
+          "en": "I need to book an appointment.",
+          "ar": "أحتاج إلى تحديد موعد طبي."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "En el Consultorio",
+      "en": "At the Doctor's Office",
+      "ar": "في عيادة الطبيب"
+    },
+    "lines": [
+      {
+        "speaker": "Médico",
+        "es": "¡Buenos días! ¿Qué sientes?",
+        "en": "Good morning! What are you feeling?",
+        "ar": "صباح الخير! بماذا تشعر؟"
+      },
+      {
+        "speaker": "Paciente",
+        "es": "Estoy con dolor de garganta y fiebre.",
+        "en": "I have a sore throat and a fever.",
+        "ar": "أعاني من التهاب في الحلق وحمى."
+      },
+      {
+        "speaker": "Médico",
+        "es": "¿Desde cuándo?",
+        "en": "Since when?",
+        "ar": "منذ متى؟"
+      },
+      {
+        "speaker": "Paciente",
+        "es": "Desde ayer por la noche.",
+        "en": "Since last night.",
+        "ar": "منذ الليلة الماضية."
+      },
+      {
+        "speaker": "Médico",
+        "es": "Tienes que tomar este medicamento y descansar.",
+        "en": "You have to take this medicine and rest.",
+        "ar": "يجب أن تتناول هذا الدواء وتستريح."
+      },
+      {
+        "speaker": "Paciente",
+        "es": "Gracias, doctor. Sigo las instrucciones.",
+        "en": "Thank you, doctor. I will follow the instructions.",
+        "ar": "شكرًا يا دكتور. سأتبع التعليمات."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Resfriado de Carlos",
+      "en": "Carlos's Cold",
+      "ar": "زكام كارلوس"
+    },
+    "text_es": "Carlos se despertó con dolor de cabeza y dolor de garganta. Está con fiebre, así que fue al médico. El médico le recetó un medicamento y le dijo que debe beber mucha agua y descansar. Carlos va a quedarse en casa dos días y espera mejorar pronto.",
+    "text_en": "Carlos woke up with a headache and a sore throat. He has a fever, so he went to the doctor. The doctor prescribed a medicine and said he should drink a lot of water and rest. Carlos is going to stay home for two days and hopes to get better soon.",
+    "text_ar": "استيقظ كارلوس وهو يعاني من صداع والتهاب في الحلق. إنه يعاني من حمى، لذا ذهب إلى الطبيب. وصف له الطبيب دواءً وقال إنه يجب أن يشرب الكثير من الماء ويستريح. سيبقى كارلوس في المنزل لمدة يومين ويأمل أن يتحسن سريعًا."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Estoy ___ dolor de cabeza.",
+        "en": "I am ___ a headache.",
+        "ar": "أعاني ___ صداع."
+      },
+      "options": [
+        {
+          "es": "con",
+          "en": "com",
+          "ar": "com"
+        },
+        {
+          "es": "en",
+          "en": "em",
+          "ar": "em"
+        },
+        {
+          "es": "en",
+          "en": "de",
+          "ar": "de"
+        }
+      ],
+      "answer": "con",
+      "explanation": {
+        "es": "'Estoy con dolor de cabeza' = I have a headache.",
+        "en": "'Estou com dor de cabeça' = I have a headache.",
+        "ar": "'Estou com dor de cabeça' = أعاني من صداع."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Tú ___ beber mucha agua.",
+        "en": "You ___ drink a lot of water.",
+        "ar": "أنت ___ تشرب الكثير من الماء."
+      },
+      "options": [
+        {
+          "es": "debes",
+          "en": "deve",
+          "ar": "deve"
+        },
+        {
+          "es": "duele",
+          "en": "dói",
+          "ar": "dói"
+        },
+        {
+          "es": "está",
+          "en": "está",
+          "ar": "está"
+        }
+      ],
+      "answer": "debes",
+      "explanation": {
+        "es": "Consejo: 'deber + infinitivo' = should.",
+        "en": "Advice: 'dever + infinitive' = should.",
+        "ar": "النصيحة: 'dever + صيغة المصدر' = يجب."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'the doctor'",
+        "en": "Translate: 'the doctor'",
+        "ar": "ترجم: 'the doctor'"
+      },
+      "options": [],
+      "answer": "el médico",
+      "explanation": {
+        "es": "'El médico' = the doctor.",
+        "en": "'O médico' = the doctor.",
+        "ar": "'o médico' = الطبيب."
+      }
+    }
+  ]
+}

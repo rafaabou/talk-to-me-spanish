@@ -1,0 +1,322 @@
+{
+  "id": "B1-02",
+  "level": "B1",
+  "level_name": {
+    "es": "Intermedio",
+    "en": "Intermediate",
+    "ar": "متوسط"
+  },
+  "title": {
+    "es": "Trabajo y Entrevistas",
+    "en": "Work and Interviews",
+    "ar": "العمل والمقابلات"
+  },
+  "objectives": [
+    {
+      "es": "Usar vocabulario de trabajo y entrevistas de empleo.",
+      "en": "Use vocabulary related to work and job interviews.",
+      "ar": "استخدام مفردات العمل ومقابلات التوظيف."
+    },
+    {
+      "es": "Emplear la voz pasiva y expresiones de obligación al hablar de la vida profesional.",
+      "en": "Use the passive voice and expressions of obligation when talking about professional life.",
+      "ar": "استخدام صيغة المبني للمجهول وتعبيرات الالتزام عند الحديث عن الحياة المهنية."
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la entrevista",
+      "ipa": "/ˈla entɾeˈβista/",
+      "en": "the interview",
+      "ar": "المقابلة"
+    },
+    {
+      "es": "el currículum",
+      "ipa": "/ˈel kuˈrikulum/",
+      "en": "the résumé",
+      "ar": "السيرة الذاتية"
+    },
+    {
+      "es": "el puesto",
+      "ipa": "/ˈel ˈpuesto/",
+      "en": "the job opening",
+      "ar": "الوظيفة الشاغرة"
+    },
+    {
+      "es": "el candidato",
+      "ipa": "/ˈel kandiˈðato/",
+      "en": "the candidate",
+      "ar": "المرشح"
+    },
+    {
+      "es": "la empresa",
+      "ipa": "/ˈla eˈmpɾesa/",
+      "en": "the company",
+      "ar": "الشركة"
+    },
+    {
+      "es": "el salario",
+      "ipa": "/ˈel saˈlaɾio/",
+      "en": "the salary",
+      "ar": "الراتب"
+    },
+    {
+      "es": "la experiencia",
+      "ipa": "/ˈla ekspeˈɾiensia/",
+      "en": "the experience",
+      "ar": "الخبرة"
+    },
+    {
+      "es": "la habilidad",
+      "ipa": "/ˈla aβiliˈðað/",
+      "en": "the skill",
+      "ar": "المهارة"
+    },
+    {
+      "es": "el contrato",
+      "ipa": "/ˈel koˈntɾato/",
+      "en": "the contract",
+      "ar": "العقد"
+    },
+    {
+      "es": "el cargo",
+      "ipa": "/ˈel ˈkaɾgo/",
+      "en": "the position",
+      "ar": "المنصب"
+    },
+    {
+      "es": "el empleado",
+      "ipa": "/ˈel eˈmpleaðo/",
+      "en": "the employee",
+      "ar": "الموظف"
+    },
+    {
+      "es": "el despido",
+      "ipa": "/ˈel deˈspiðo/",
+      "en": "the dismissal",
+      "ar": "الفصل من العمل"
+    },
+    {
+      "es": "el ascenso",
+      "ipa": "/ˈel aˈssenso/",
+      "en": "the promotion",
+      "ar": "الترقية"
+    },
+    {
+      "es": "el beneficio",
+      "ipa": "/ˈel beneˈfisio/",
+      "en": "the benefit",
+      "ar": "الميزة"
+    },
+    {
+      "es": "el equipo",
+      "ipa": "/ˈel eˈkipo/",
+      "en": "the team",
+      "ar": "الفريق"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "La voz pasiva",
+        "en": "The passive voice",
+        "ar": "المبني للمجهول"
+      },
+      "explanation": {
+        "es": "En la voz pasiva, el objeto de la acción se vuelve el sujeto. Se forma con 'ser' (en el tiempo correcto) más el participio del verbo principal. Es muy usada en el contexto profesional.",
+        "en": "In the passive voice, the object of the action becomes the subject. It is formed with 'ser' (in the right tense) plus the past participle of the main verb. It is very common in professional contexts.",
+        "ar": "في المبني للمجهول يصبح مفعول الفعل فاعلاً. يتكوّن من الفعل 'ser' في الزمن المناسب بالإضافة إلى اسم المفعول للفعل الرئيسي. وهو شائع جداً في السياقات المهنية."
+      },
+      "examples": [
+        {
+          "es": "El currículum fue enviado ayer.",
+          "en": "The résumé was sent yesterday.",
+          "ar": "أُرسلت السيرة الذاتية أمس."
+        },
+        {
+          "es": "El puesto fue cubierto por la empresa.",
+          "en": "The position was filled by the company.",
+          "ar": "شغّلت الشركة الوظيفة الشاغرة."
+        },
+        {
+          "es": "Los empleados serán contratados en marzo.",
+          "en": "The employees will be hired in March.",
+          "ar": "سيُوظَّف الموظفون في مارس."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Obligaciones en el trabajo: tener que, necesitar, deber",
+        "en": "Obligations at work: ter de, precisar de, dever",
+        "ar": "الالتزامات في العمل: يجب، يحتاج، ينبغي"
+      },
+      "explanation": {
+        "es": "Para expresar obligación, usamos 'tener que + infinitivo' (más fuerte), 'necesitar + infinitivo' (necesidad) y 'deber + infinitivo' (recomendación).",
+        "en": "To express obligation we use 'ter de/que + infinitive' (stronger), 'precisar de + infinitive' (need) and 'dever + infinitive' (recommendation).",
+        "ar": "للتعبير عن الالتزام نستخدم 'ter de/que + المصدر' (أقوى)، و'precisar de + المصدر' (حاجة)، و'dever + المصدر' (توصية)."
+      },
+      "examples": [
+        {
+          "es": "Tengo que llegar temprano todos los días.",
+          "en": "I have to arrive early every day.",
+          "ar": "يجب أن أصل مبكراً كل يوم."
+        },
+        {
+          "es": "Necesito mejorar mi currículum.",
+          "en": "I need to improve my résumé.",
+          "ar": "أحتاج إلى تحسين سيرتي الذاتية."
+        },
+        {
+          "es": "Debes causar una buena impresión en la entrevista.",
+          "en": "You should make a good impression in the interview.",
+          "ar": "ينبغي أن تترك انطباعاً جيداً في المقابلة."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Entrevista de empleo",
+      "en": "A job interview",
+      "ar": "مقابلة توظيف"
+    },
+    "lines": [
+      {
+        "speaker": "Reclutador",
+        "es": "Cuéntame sobre tu experiencia profesional.",
+        "en": "Tell me about your professional experience.",
+        "ar": "حدثني عن خبرتك المهنية."
+      },
+      {
+        "speaker": "Carla",
+        "es": "Trabajé en una empresa de tecnología por tres años.",
+        "en": "I worked at a technology company for three years.",
+        "ar": "عملت في شركة تقنية لمدة ثلاث سنوات."
+      },
+      {
+        "speaker": "Reclutador",
+        "es": "¿Qué habilidades desarrollaste?",
+        "en": "What skills did you develop?",
+        "ar": "ما المهارات التي طوّرتها؟"
+      },
+      {
+        "speaker": "Carla",
+        "es": "Tengo buenas habilidades de comunicación y trabajo en equipo.",
+        "en": "I have good communication and teamwork skills.",
+        "ar": "أمتلك مهارات جيدة في التواصل والعمل ضمن فريق."
+      },
+      {
+        "speaker": "Reclutador",
+        "es": "¿Aceptarías un salario inicial menor?",
+        "en": "Would you accept a lower starting salary?",
+        "ar": "هل تقبلين راتباً ابتدائياً أقل؟"
+      },
+      {
+        "speaker": "Carla",
+        "es": "Sí, pero me gustaría un ascenso en seis meses.",
+        "en": "Yes, but I would like a promotion in six months.",
+        "ar": "نعم، لكنني أودّ الحصول على ترقية بعد ستة أشهر."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Puesto de empleo",
+      "en": "A job opening",
+      "ar": "إعلان وظيفة"
+    },
+    "text_es": "La empresa anunció un nuevo puesto para el equipo de ventas. Los candidatos deben enviar el currículum hasta el viernes. La experiencia previa es obligatoria. El contrato será firmado después de la entrevista.",
+    "text_en": "The company announced a new position for the sales team. Candidates must send their résumé by Friday. Previous experience is required. The contract will be signed after the interview.",
+    "text_ar": "أعلنت الشركة عن وظيفة جديدة لفريق المبيعات. يجب على المرشحين إرسال سيرهم الذاتية حتى يوم الجمعة. الخبرة السابقة إلزامية. سيُوقَّع العقد بعد المقابلة."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa en voz pasiva: \"El puesto ___ cubierto.\"",
+        "en": "Complete in the passive voice: \"The position ___ filled.\"",
+        "ar": "أكمل في المبني للمجهول: \"الوظيفة الشاغرة ___.\""
+      },
+      "options": [
+        {
+          "es": "fue",
+          "en": "was",
+          "ar": "تمّ"
+        },
+        {
+          "es": "es",
+          "en": "is",
+          "ar": "تكون"
+        },
+        {
+          "es": "está",
+          "en": "is (progressive)",
+          "ar": "في طور"
+        },
+        {
+          "es": "será",
+          "en": "will be",
+          "ar": "ستُشغَّل"
+        }
+      ],
+      "answer": "fue",
+      "explanation": {
+        "es": "La frase habla de una acción concluida en el pasado, así que usamos 'ser' en el pretérito indefinido: 'fue'.",
+        "en": "The sentence refers to a completed action in the past, so we use 'ser' in the simple past: 'foi'.",
+        "ar": "تشير الجملة إلى فعل اكتمل في الماضي، لذا نستخدم 'ser' في الماضي التام: 'foi' أي تمّ."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la preposición correcta: \"Necesitas ___ experiencia.\"",
+        "en": "Choose the correct preposition: \"You need ___ experience.\"",
+        "ar": "اختر حرف الجر الصحيح: \"أنت تحتاج ___ خبرة.\""
+      },
+      "options": [
+        {
+          "es": "de",
+          "en": "of",
+          "ar": "إلى"
+        },
+        {
+          "es": "en",
+          "en": "in",
+          "ar": "في"
+        },
+        {
+          "es": "con",
+          "en": "with",
+          "ar": "مع"
+        },
+        {
+          "es": "para",
+          "en": "for",
+          "ar": "لـ"
+        }
+      ],
+      "answer": "de",
+      "explanation": {
+        "es": "El verbo 'necesitar' exige la preposición 'de': 'necesitar algo'.",
+        "en": "The verb 'precisar' takes the preposition 'de': 'to need something'.",
+        "ar": "الفعل 'precisar' يتطلب حرف الجر 'de': أي يحتاج إلى شيء."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I need to improve my résumé.\"",
+        "en": "Translate to Portuguese: \"I need to improve my résumé.\"",
+        "ar": "ترجم إلى البرتغالية: \"I need to improve my résumé.\""
+      },
+      "options": [],
+      "answer": "Necesito mejorar mi currículum.",
+      "explanation": {
+        "es": "'Currículum' es la palabra usada en español para résumé.",
+        "en": "'Currículo' is the word used in Brazil for résumé.",
+        "ar": "'currículo' هي الكلمة المستخدمة في البرازيل بمعنى السيرة الذاتية."
+      }
+    }
+  ]
+}

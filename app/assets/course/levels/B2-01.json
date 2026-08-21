@@ -1,0 +1,327 @@
+{
+  "id": "B2-01",
+  "level": "B2",
+  "level_name": {
+    "es": "Intermedio alto",
+    "en": "Upper-Intermediate",
+    "ar": "متوسط متقدم"
+  },
+  "title": {
+    "es": "Subjuntivo I (Presente)",
+    "en": "Subjunctive I (Present)",
+    "ar": "صيغة المضارع الشرطي"
+  },
+  "objectives": [
+    {
+      "es": "Formar el presente de subjuntivo de los verbos regulares",
+      "en": "Form the present subjunctive of regular verbs",
+      "ar": "تكوين صيغة المضارع الشرطي من الأفعال المنتظمة"
+    },
+    {
+      "es": "Usar el subjuntivo después de verbos de deseo, duda y emoción",
+      "en": "Use the subjunctive after verbs of desire, doubt and emotion",
+      "ar": "استخدام صيغة المضارع الشرطي بعد أفعال الرغبة والشك والعاطفة"
+    },
+    {
+      "es": "Emplear el subjuntivo con expresiones impersonales",
+      "en": "Use the subjunctive with impersonal expressions",
+      "ar": "توظيف صيغة المضارع الشرطي مع التعبيرات غير الشخصية"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "quizás",
+      "ipa": "/kiˈsas/",
+      "en": "maybe",
+      "ar": "ربما"
+    },
+    {
+      "es": "desear",
+      "ipa": "/deˈseaɾ/",
+      "en": "to wish",
+      "ar": "يتمنى"
+    },
+    {
+      "es": "esperar",
+      "ipa": "/espeˈɾaɾ/",
+      "en": "to hope",
+      "ar": "يأمل"
+    },
+    {
+      "es": "dudar",
+      "ipa": "/duˈðaɾ/",
+      "en": "to doubt",
+      "ar": "يشك"
+    },
+    {
+      "es": "exigir",
+      "ipa": "/eksiˈxiɾ/",
+      "en": "to demand",
+      "ar": "يطالب"
+    },
+    {
+      "es": "pedir",
+      "ipa": "/peˈðiɾ/",
+      "en": "to ask (for)",
+      "ar": "يطلب"
+    },
+    {
+      "es": "necesario",
+      "ipa": "/neseˈsaɾio/",
+      "en": "necessary",
+      "ar": "ضروري"
+    },
+    {
+      "es": "importante",
+      "ipa": "/impoˈɾtante/",
+      "en": "important",
+      "ar": "مهم"
+    },
+    {
+      "es": "posible",
+      "ipa": "/poˈsiβle/",
+      "en": "possible",
+      "ar": "ممكن"
+    },
+    {
+      "es": "el deseo",
+      "ipa": "/ˈel ˈdeseo/",
+      "en": "the wish",
+      "ar": "الرغبة"
+    },
+    {
+      "es": "la duda",
+      "ipa": "/ˈla ˈduða/",
+      "en": "the doubt",
+      "ar": "الشك"
+    },
+    {
+      "es": "la sugerencia",
+      "ipa": "/ˈla suxeˈɾensia/",
+      "en": "the suggestion",
+      "ar": "الاقتراح"
+    },
+    {
+      "es": "ojalá",
+      "ipa": "/oxaˈla/",
+      "en": "hopefully",
+      "ar": "ليت"
+    },
+    {
+      "es": "ojalá",
+      "ipa": "/oxaˈla/",
+      "en": "if only",
+      "ar": "ليت"
+    },
+    {
+      "es": "espero que",
+      "ipa": "/eˈspeɾo ˈke/",
+      "en": "I hope that",
+      "ar": "آمل أن"
+    },
+    {
+      "es": "es importante que",
+      "ipa": "/ˈes impoˈɾtante ˈke/",
+      "en": "it's important that",
+      "ar": "من المهم أن"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Formación del Presente de Subjuntivo",
+        "en": "Forming the Present Subjunctive",
+        "ar": "تكوين المضارع الشرطي"
+      },
+      "explanation": {
+        "es": "Toma la primera persona del presente de indicativo y cambia la vocal: para verbos en -ar: -e, -es, -e, -emos, -éis, -en; para verbos en -er e -ir: -a, -as, -a, -amos, -áis, -an. Ejemplo: yo hablo → que yo hable; yo como → que yo coma; yo parto → que yo parta.",
+        "en": "Drop the -o from the first person singular of the present indicative and add: for -ar verbs: -e, -es, -e, -emos, -eis, -em; for -er and -ir verbs: -a, -as, -a, -amos, -ais, -am. Example: eu falo → que eu fale; eu como → que eu coma; eu parto → que eu parta.",
+        "ar": "احذف حرف -o من صيغة المتكلم في المضارع الإخباري وأضف: للأفعال المنتهية بـ -ar: -e، -es، -e، -emos، -eis، -em؛ وللأفعال المنتهية بـ -er و -ir: -a، -as، -a، -amos، -ais، -am. مثال: eu falo ← que eu fale؛ eu como ← que eu coma؛ eu parto ← que eu parta."
+      },
+      "examples": [
+        {
+          "es": "Que yo hable con ella mañana.",
+          "en": "That I speak with her tomorrow.",
+          "ar": "أن أتحدث معها غدًا."
+        },
+        {
+          "es": "Que él coma frutas todos los días.",
+          "en": "That he eat fruit every day.",
+          "ar": "أن يأكل الفواكه كل يوم."
+        },
+        {
+          "es": "Que nosotros salgamos temprano.",
+          "en": "That we leave early.",
+          "ar": "أن نغادر باكرًا."
+        },
+        {
+          "es": "Que ellos hablen con el jefe.",
+          "en": "That they speak with the boss.",
+          "ar": "أن يتحدثوا مع الرئيس."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Usos del Presente de Subjuntivo",
+        "en": "Uses of the Present Subjunctive",
+        "ar": "استخدامات المضارع الشرطي"
+      },
+      "explanation": {
+        "es": "Usamos el presente de subjuntivo después de verbos de deseo y voluntad (esperar, querer, desear), de duda (dudar), de expresiones impersonales (es importante que, es necesario que) y de conjunciones como quizás y ojalá. El verbo principal expresa un hecho presente o futuro que todavía no es cierto.",
+        "en": "We use the present subjunctive after verbs of desire and will (esperar, querer, desejar), of doubt (duvidar), impersonal expressions (é importante que, é necessário que) and conjunctions such as talvez and oxalá. The main verb expresses a present or future fact that is not yet certain.",
+        "ar": "نستخدم المضارع الشرطي بعد أفعال الرغبة والإرادة (esperar، querer، desejar)، وأفعال الشك (duvidar)، والتعبيرات غير الشخصية (é importante que، é necessário que)، وأدوات مثل talvez و oxalá. ويدل الفعل الأصلي على حقيقة حاضرة أو مستقبلية غير مؤكدة بعد."
+      },
+      "examples": [
+        {
+          "es": "Espero que vengas a la fiesta.",
+          "en": "I hope you come to the party.",
+          "ar": "آمل أن تأتي إلى الحفلة."
+        },
+        {
+          "es": "Dudo que él sepa la respuesta.",
+          "en": "I doubt he knows the answer.",
+          "ar": "أشك في أنه يعرف الإجابة."
+        },
+        {
+          "es": "Quizás llueva mañana.",
+          "en": "Maybe it will rain tomorrow.",
+          "ar": "ربما تمطر غدًا."
+        },
+        {
+          "es": "Es importante que todos estudien.",
+          "en": "It's important that everyone studies.",
+          "ar": "من المهم أن يدرس الجميع."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Planes para el Fin de Semana",
+      "en": "Weekend Plans",
+      "ar": "خطط عطلة نهاية الأسبوع"
+    },
+    "lines": [
+      {
+        "speaker": "Ana",
+        "es": "Espero que puedas ir a la playa conmigo el sábado.",
+        "en": "I hope you can go to the beach with me on Saturday.",
+        "ar": "آمل أن تتمكن من الذهاب إلى الشاطئ معي يوم السبت."
+      },
+      {
+        "speaker": "Bruno",
+        "es": "¡Ojalá no llueva! Quizás el tiempo mejore.",
+        "en": "Hopefully it won't rain! Maybe the weather will be good.",
+        "ar": "ليت المطر لا يهطل! ربما يكون الطقس جيدًا."
+      },
+      {
+        "speaker": "Ana",
+        "es": "Es importante que salgamos un poco de la ciudad.",
+        "en": "It's important that we get out of the city a little.",
+        "ar": "من المهم أن نخرج قليلًا من المدينة."
+      },
+      {
+        "speaker": "Bruno",
+        "es": "Quiero que conozcas una playa preciosa que descubrí.",
+        "en": "I want you to see a beautiful beach I discovered.",
+        "ar": "أريدك أن تتعرف على شاطئ جميل اكتشفته."
+      },
+      {
+        "speaker": "Ana",
+        "es": "¡Genial! Dudo que me quede en casa este fin de semana.",
+        "en": "Great! I doubt I'll stay home this weekend.",
+        "ar": "رائع! أشك في أن أبقى في المنزل هذا الأسبوع."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Esperanzas para el Año Nuevo",
+      "en": "Hopes for the New Year",
+      "ar": "آمال العام الجديد"
+    },
+    "text_es": "Al comienzo del año, muchas personas hacen planes. Es importante que pienses en lo que deseas lograr. Espero que todos tengan salud y que los sueños se hagan realidad. Ojalá el próximo año sea mejor para todos.",
+    "text_en": "At the beginning of the year, many people make plans. It's important that you think about what you wish to achieve. I hope everyone is healthy and that dreams come true. May the coming year be better for everyone.",
+    "text_ar": "في بداية السنة، يضع الكثير من الناس خططًا. من المهم أن تفكر فيما تتمنى تحقيقه. أرجو أن يتمتع الجميع بالصحة وأن تتحقق الأحلام. ليت العام القادم يكون أفضل للجميع."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Es importante que tú ___ los documentos.",
+        "en": "It's important that you ___ the documents.",
+        "ar": "من المهم أن ___ المستندات."
+      },
+      "options": [
+        {
+          "es": "firmes",
+          "en": "assine",
+          "ar": "assine"
+        },
+        {
+          "es": "firmas",
+          "en": "assina",
+          "ar": "assina"
+        },
+        {
+          "es": "firmar",
+          "en": "assinar",
+          "ar": "assinar"
+        }
+      ],
+      "answer": "firmes",
+      "explanation": {
+        "es": "Después de la expresión impersonal 'es importante que' usamos el subjuntivo: que tú firmes.",
+        "en": "After the impersonal expression 'é importante que' we use the subjunctive: que você assine.",
+        "ar": "بعد التعبير غير الشخصي 'é importante que' نستخدم المضارع الشرطي: que você assine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Espero que ustedes ___ felices.",
+        "en": "I hope you (plural) are happy.",
+        "ar": "آمل أن تكونوا سعداء."
+      },
+      "options": [
+        {
+          "es": "son",
+          "en": "são",
+          "ar": "são"
+        },
+        {
+          "es": "sean",
+          "en": "sejam",
+          "ar": "sejam"
+        },
+        {
+          "es": "ser",
+          "en": "serem",
+          "ar": "serem"
+        }
+      ],
+      "answer": "sean",
+      "explanation": {
+        "es": "Después de 'espero que' usamos el subjuntivo: que ustedes sean.",
+        "en": "After 'espero que' we use the subjunctive: que vocês sejam.",
+        "ar": "بعد 'espero que' نستخدم المضارع الشرطي: que vocês sejam."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'Maybe he comes tomorrow'",
+        "en": "Translate: 'Maybe he comes tomorrow'",
+        "ar": "ترجم: 'Maybe he comes tomorrow'"
+      },
+      "options": [],
+      "answer": "Quizás él venga mañana",
+      "explanation": {
+        "es": "'Quizás' exige subjuntivo: quizás él venga.",
+        "en": "'Talvez' requires the subjunctive: talvez ele venha.",
+        "ar": "تتطلب 'talvez' المضارع الشرطي: talvez ele venha."
+      }
+    }
+  ]
+}

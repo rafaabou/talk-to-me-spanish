@@ -1,0 +1,316 @@
+{
+  "id": "B1-01",
+  "level": "B1",
+  "level_name": {
+    "es": "Intermedio",
+    "en": "Intermediate",
+    "ar": "متوسط"
+  },
+  "title": {
+    "es": "Condicional",
+    "en": "Conditional",
+    "ar": "الشرط (المستقبل الناقص)"
+  },
+  "objectives": [
+    {
+      "es": "Usar el condicional para hablar de situaciones hipotéticas y hacer peticiones educadas.",
+      "en": "Use the conditional to talk about hypothetical situations and make polite requests.",
+      "ar": "استخدام صيغة الماضي المستقبلي للحديث عن مواقف افتراضية وتقديم طلبات مهذبة."
+    },
+    {
+      "es": "Conjugar verbos regulares e irregulares en el condicional.",
+      "en": "Conjugate regular and irregular verbs in the conditional.",
+      "ar": "تصريف الأفعال النظامية وغير النظامية في زمن الماضي المستقبلي."
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "viajar",
+      "ipa": "/biaˈxaɾ/",
+      "en": "to travel",
+      "ar": "يسافر"
+    },
+    {
+      "es": "posible",
+      "ipa": "/poˈsiβle/",
+      "en": "possible",
+      "ar": "ممكن"
+    },
+    {
+      "es": "la invitación",
+      "ipa": "/ˈla inbitaˈsion/",
+      "en": "the invitation",
+      "ar": "الدعوة"
+    },
+    {
+      "es": "me gustaría",
+      "ipa": "/ˈme gustaˈɾia/",
+      "en": "would like",
+      "ar": "أودّ / يودّ"
+    },
+    {
+      "es": "el dinero",
+      "ipa": "/ˈel diˈneɾo/",
+      "en": "the money",
+      "ar": "المال"
+    },
+    {
+      "es": "las vacaciones",
+      "ipa": "/ˈlas bakaˈsiones/",
+      "en": "the vacation",
+      "ar": "العطلة"
+    },
+    {
+      "es": "caro",
+      "ipa": "/ˈkaɾo/",
+      "en": "expensive",
+      "ar": "غالٍ"
+    },
+    {
+      "es": "barato",
+      "ipa": "/baˈɾato/",
+      "en": "cheap",
+      "ar": "رخيص"
+    },
+    {
+      "es": "prestar",
+      "ipa": "/pɾeˈstaɾ/",
+      "en": "to lend",
+      "ar": "يُعير"
+    },
+    {
+      "es": "la oportunidad",
+      "ipa": "/ˈla opoɾtuniˈðað/",
+      "en": "the opportunity",
+      "ar": "الفرصة"
+    },
+    {
+      "es": "el futuro",
+      "ipa": "/ˈel fuˈtuɾo/",
+      "en": "the future",
+      "ar": "المستقبل"
+    },
+    {
+      "es": "el sueño",
+      "ipa": "/ˈel ˈsueɲo/",
+      "en": "the dream",
+      "ar": "الحلم"
+    },
+    {
+      "es": "el deseo",
+      "ipa": "/ˈel ˈdeseo/",
+      "en": "the wish",
+      "ar": "الرغبة"
+    },
+    {
+      "es": "la condición",
+      "ipa": "/ˈla kondiˈsion/",
+      "en": "the condition",
+      "ar": "الشرط"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Formación del condicional",
+        "en": "Forming the conditional",
+        "ar": "تكوين الماضي المستقبلي"
+      },
+      "explanation": {
+        "es": "El condicional se forma con el infinitivo más las terminaciones -ía, -ías, -ía, -íamos, -íais, -ían. Todas las conjugaciones usan las mismas terminaciones.",
+        "en": "The conditional is formed with the infinitive plus the endings -ia, -ias, -ia, -íamos, -íeis, -iam. All conjugation groups use the same endings.",
+        "ar": "يتكوّن الماضي المستقبلي من المصدر بالإضافة إلى اللواحق -ia، -ias، -ia، -íamos، -íeis، -iam. تستخدم جميع مجموعات التصريف اللواحق نفسها."
+      },
+      "examples": [
+        {
+          "es": "Me gustaría viajar a España.",
+          "en": "I would like to travel to Brazil.",
+          "ar": "أودّ السفر إلى البرازيل."
+        },
+        {
+          "es": "¿Podrías ayudarme con esto?",
+          "en": "Could you help me with this?",
+          "ar": "هل يمكنك مساعدتي في هذا؟"
+        },
+        {
+          "es": "Compraríamos una casa cerca del mar.",
+          "en": "We would buy a house near the sea.",
+          "ar": "كنا سنشتري منزلاً قريباً من البحر."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Condiciones hipotéticas, deseos y cortesía",
+        "en": "Hypothetical conditions, wishes and politeness",
+        "ar": "الشروط الافتراضية والرغبات والمجاملة"
+      },
+      "explanation": {
+        "es": "Se usa el condicional en la oración principal de frases condicionales con 'si' más el subjuntivo. También expresa deseos y hace las peticiones más educadas.",
+        "en": "The conditional is used in the main clause of conditional sentences with 'if' plus the subjunctive. It also expresses wishes and makes requests more polite.",
+        "ar": "يُستخدم الماضي المستقبلي في الجملة الرئيسية من الجمل الشرطية مع 'لو' أو 'إذا' والمضارع المنصوب. كما يعبّر عن الرغبات ويجعل الطلبات أكثر تهذيباً."
+      },
+      "examples": [
+        {
+          "es": "Si tuviera dinero, viajaría hoy.",
+          "en": "If I had money, I would travel today.",
+          "ar": "لو كان معي مال، لسافرت اليوم."
+        },
+        {
+          "es": "¿Podrías cerrar la ventana, por favor?",
+          "en": "Could you close the window, please?",
+          "ar": "هل يمكنك إغلاق النافذة من فضلك؟"
+        },
+        {
+          "es": "Serían más felices con más tiempo libre.",
+          "en": "They would be happier with more free time.",
+          "ar": "كانوا سيكونون أكثر سعادة لو كان لديهم وقت فراغ أكبر."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Un sueño de viaje",
+      "en": "A travel dream",
+      "ar": "حلم سفر"
+    },
+    "lines": [
+      {
+        "speaker": "Ana",
+        "es": "Si tuviera dinero, viajaría a España.",
+        "en": "If I had money, I would travel to Brazil.",
+        "ar": "لو كان معي مال، لسافرت إلى البرازيل."
+      },
+      {
+        "speaker": "Pedro",
+        "es": "Yo también. Me gustaría visitar Barcelona.",
+        "en": "Me too. I would like to visit Rio de Janeiro.",
+        "ar": "وأنا أيضاً. أودّ زيارة ريو دي جانيرو."
+      },
+      {
+        "speaker": "Ana",
+        "es": "¿Podrías prestarme una guía de viaje?",
+        "en": "Could you lend me a travel guide?",
+        "ar": "هل يمكنك أن تعيرني دليلاً للسفر؟"
+      },
+      {
+        "speaker": "Pedro",
+        "es": "¡Claro! Te la prestaría con gusto.",
+        "en": "Of course! I would gladly lend it to you.",
+        "ar": "بالطبع! سأعيره لك بكل سرور."
+      },
+      {
+        "speaker": "Ana",
+        "es": "¡Gracias! Sería una gran oportunidad.",
+        "en": "Thank you! It would be a great opportunity.",
+        "ar": "شكراً لك! ستكون فرصة عظيمة."
+      },
+      {
+        "speaker": "Pedro",
+        "es": "Un día viajaríamos juntos, con seguridad.",
+        "en": "One day we would travel together, for sure.",
+        "ar": "في يومٍ ما سنسافر معاً، بالتأكيد."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Planes para el futuro",
+      "en": "Plans for the future",
+      "ar": "خطط للمستقبل"
+    },
+    "text_es": "Si tuviera más tiempo, viajaría con frecuencia. Me gustaría conocer nuevas culturas y aprender otros idiomas. El mundo es grande y está lleno de oportunidades. Un día, realizaría ese sueño.",
+    "text_en": "If I had more time, I would travel often. I would like to learn about new cultures and study other languages. The world is big and full of opportunities. One day, I would fulfill this dream.",
+    "text_ar": "لو كان لديّ وقت أكثر، لسافرت كثيراً. أودّ التعرّف على ثقافات جديدة وتعلّم لغات أخرى. العالم كبير ومليء بالفرص. في يومٍ ما، سأحقق هذا الحلم."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la forma correcta: \"Si yo ___ dinero, compraría un coche.\"",
+        "en": "Choose the correct form: \"If I ___ money, I would buy a car.\"",
+        "ar": "اختر الصيغة الصحيحة: \"لو ___ مالاً، لاشتريت سيارة.\""
+      },
+      "options": [
+        {
+          "es": "tuviera",
+          "en": "had",
+          "ar": "كان لدي"
+        },
+        {
+          "es": "tiene",
+          "en": "has",
+          "ar": "يملك"
+        },
+        {
+          "es": "tenía",
+          "en": "had (imperfect)",
+          "ar": "كان يملك"
+        },
+        {
+          "es": "tendría",
+          "en": "would have",
+          "ar": "سيكون لديه"
+        }
+      ],
+      "answer": "tuviera",
+      "explanation": {
+        "es": "En condiciones irreales con 'si', se usa el subjuntivo: 'si tuviera dinero'.",
+        "en": "In unreal conditions with 'if', we use the subjunctive: 'if I had money'.",
+        "ar": "في الشروط غير الواقعية مع 'لو'، نستخدم صيغة الشرط: 'لو كان معي مال'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa con la forma educada: \"¿___ ayudarme, por favor?\"",
+        "en": "Complete with the polite form: \"___ you help me, please?\"",
+        "ar": "أكمل بالصيغة المهذبة: \"هل ___ مساعدتي، من فضلك؟\""
+      },
+      "options": [
+        {
+          "es": "podrías",
+          "en": "could",
+          "ar": "يمكنك"
+        },
+        {
+          "es": "puedes",
+          "en": "can",
+          "ar": "تستطيع"
+        },
+        {
+          "es": "pudiendo",
+          "en": "being able",
+          "ar": "قادراً"
+        },
+        {
+          "es": "poder",
+          "en": "to be able",
+          "ar": "أن يستطيع"
+        }
+      ],
+      "answer": "podrías",
+      "explanation": {
+        "es": "'Podrías' en el condicional hace la petición más educada y cortés.",
+        "en": "'Poderia' in the conditional makes the request more polite and courteous.",
+        "ar": "استخدام 'poderia' في الماضي المستقبلي يجعل الطلب أكثر تهذيباً ولطفاً."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al inglés: \"Me gustaría viajar a España.\"",
+        "en": "Translate to English: \"Eu gostaria de viajar para o Brasil.\"",
+        "ar": "ترجم إلى الإنجليزية: \"Eu gostaria de viajar para o Brasil.\""
+      },
+      "options": [],
+      "answer": "I would like to travel to Brazil.",
+      "explanation": {
+        "es": "'Me gustaría' es el condicional de 'gustar' y equivale a 'would like'.",
+        "en": "'Gostaria' is the conditional of 'gostar' and means 'would like'.",
+        "ar": "'gostaria' هي صيغة الماضي المستقبلي من 'gostar' وتعادل 'would like' أي أودّ."
+      }
+    }
+  ]
+}

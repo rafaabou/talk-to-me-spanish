@@ -1,0 +1,333 @@
+{
+  "id": "C1-02",
+  "level": "C1",
+  "level_name": {
+    "es": "Avanzado",
+    "en": "Advanced",
+    "ar": "متقدم"
+  },
+  "title": {
+    "es": "Coloquialismos y Jerga",
+    "en": "Colloquialisms and Slang",
+    "ar": "العامية والمصطلحات الدارجة"
+  },
+  "objectives": [
+    {
+      "es": "Reconocer jergas y expresiones coloquiales hispanohablantes",
+      "en": "Recognize Brazilian slang and colloquial expressions",
+      "ar": "التعرف على العامية والمصطلحات الدارجة البرازيلية"
+    },
+    {
+      "es": "Usar reducciones del habla espontánea (estoy, está, pa)",
+      "en": "Use reductions of spontaneous speech (tô, tá, pra)",
+      "ar": "استخدام الاختصارات في الكلام العفوي (tô، tá، pra)"
+    },
+    {
+      "es": "Comprender el contexto social y el tono de la jerga",
+      "en": "Understand the social context and tone of slang",
+      "ar": "فهم السياق الاجتماعي ونبرة العامية"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "tranquilo",
+      "ipa": "/tɾaˈnkilo/",
+      "en": "cool, fine, no worries",
+      "ar": "تمام، على ما يُرام"
+    },
+    {
+      "es": "¿todo bien?",
+      "ipa": "/ˈtoðo ˈbien/",
+      "en": "all good?",
+      "ar": "تمام؟"
+    },
+    {
+      "es": "tío",
+      "ipa": "/ˈtio/",
+      "en": "dude",
+      "ar": "يا رجل"
+    },
+    {
+      "es": "mano",
+      "ipa": "/ˈmano/",
+      "en": "bro",
+      "ar": "يا أخي"
+    },
+    {
+      "es": "pasta",
+      "ipa": "/ˈpasta/",
+      "en": "money",
+      "ar": "فلوس"
+    },
+    {
+      "es": "¿cachas?",
+      "ipa": "/ˈkatʃas/",
+      "en": "got it?",
+      "ar": "فهمت؟"
+    },
+    {
+      "es": "¿estás al tanto?",
+      "ipa": "/eˈstas ˈal ˈtanto/",
+      "en": "you know?",
+      "ar": "تعرف؟"
+    },
+    {
+      "es": "bromear",
+      "ipa": "/bɾoˈmeaɾ/",
+      "en": "to joke around, tease",
+      "ar": "يهزأ، يستهزئ"
+    },
+    {
+      "es": "bronca",
+      "ipa": "/ˈbɾonka/",
+      "en": "drama, feud",
+      "ar": "مشكلة، خلاف"
+    },
+    {
+      "es": "preocupado",
+      "ipa": "/pɾeokuˈpaðo/",
+      "en": "upset, concerned",
+      "ar": "منزعج، قلق"
+    },
+    {
+      "es": "súper",
+      "ipa": "/ˈsupeɾ/",
+      "en": "very (slang)",
+      "ar": "جدًا (عامية)"
+    },
+    {
+      "es": "colega",
+      "ipa": "/koˈleɣa/",
+      "en": "pal, buddy",
+      "ar": "رفيق"
+    },
+    {
+      "es": "estoy",
+      "ipa": "/eˈstoʝ/",
+      "en": "I am (reduced)",
+      "ar": "أنا (مختصر)"
+    },
+    {
+      "es": "va",
+      "ipa": "/ˈba/",
+      "en": "bye, alright",
+      "ar": "مع السلامة، تمام"
+    },
+    {
+      "es": "sin pasta",
+      "ipa": "/ˈsin ˈpasta/",
+      "en": "broke, without money",
+      "ar": "مفلس"
+    },
+    {
+      "es": "dar una vuelta",
+      "ipa": "/ˈdaɾ ˈuna ˈbuelta/",
+      "en": "to hang out",
+      "ar": "يخرج للتنزه"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Reducciones del Habla Espontánea",
+        "en": "Reductions in Spontaneous Speech",
+        "ar": "الاختصارات في الكلام العفوي"
+      },
+      "explanation": {
+        "es": "En el habla coloquial se acortan palabras: 'para' se convierte en 'pa', 'estoy' suena como 'toy'. Estas reducciones son normales en la conversación, pero deben evitarse en la escritura formal. Ej.: 'Voy pa' casa'.",
+        "en": "In colloquial speech, Brazilians reduce words: 'estou' becomes 'tô', 'está' becomes 'tá', 'para' becomes 'pra', 'você' becomes 'cê', 'não é' becomes 'né'. These reductions are normal in conversation but should be avoided in formal writing. E.g., 'Tô chegando' (I'm arriving), 'Cê tá sabendo?' (Do you know?), 'Vou pra casa' (I'm going home).",
+        "ar": "في الكلام العامي، يختصر البرازيليون الكلمات: 'estou' تصبح 'tô'، و'está' تصبح 'tá'، و'para' تصبح 'pra'، و'você' تصبح 'cê'، و'não é' تصبح 'né'. هذه الاختصارات طبيعية في المحادثة لكن يجب تجنبها في الكتابة الرسمية. مثال: 'Tô chegando' (أنا قادم)، 'Cê tá sabendo?' (هل تعرف؟)، 'Vou pra casa' (سأذهب إلى المنزل)."
+      },
+      "examples": [
+        {
+          "es": "Voy llegando a casa ahora.",
+          "en": "I'm getting home now.",
+          "ar": "أنا قادم إلى المنزل الآن."
+        },
+        {
+          "es": "¿Estás al tanto de lo que pasó?",
+          "en": "Are you aware of what happened?",
+          "ar": "هل تعرف ما الذي حدث؟"
+        },
+        {
+          "es": "Voy pa' la playa el domingo.",
+          "en": "I'm going to the beach on Sunday.",
+          "ar": "سأذهب إلى الشاطئ يوم الأحد."
+        },
+        {
+          "es": "Ella estaba hablando contigo.",
+          "en": "She was talking to you.",
+          "ar": "كانت تتحدث معك."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Verbos con Sentido Coloquial",
+        "en": "Verbs with Colloquial Meanings",
+        "ar": "أفعال بمعانٍ عامية"
+      },
+      "explanation": {
+        "es": "Algunos verbos ganan sentidos coloquiales muy usados: 'dar' (resultar), 'pasar' (ocurrir), 'quedarse' (volverse). Ej.: 'Salió todo bien', 'Se armó una bronca', 'Todo el mundo se quedó preocupado'.",
+        "en": "Some verbs gain very common colloquial meanings: 'dar' (to happen, to work out), 'rolar' (to occur), 'ficar' (to become), 'pegar' (to catch a ride). E.g., 'Deu tudo certo' (everything worked out), 'Rolou uma treta' (there was a fight), 'Ficou todo mundo bolado' (everyone got worried).",
+        "ar": "تكتسب بعض الأفعال معانٍ عامية شائعة جدًا: 'dar' (يحدث، ينجح)، 'rolar' (يقع)، 'ficar' (يصبح)، 'pegar' (يستقل سيارة). مثال: 'Deu tudo certo' (نجح كل شيء)، 'Rolou uma treta' (وقع شجار)، 'Ficou todo mundo bolado' (أصبح الجميع قلقين)."
+      },
+      "examples": [
+        {
+          "es": "Al final salió todo bien.",
+          "en": "Everything worked out in the end.",
+          "ar": "نجح كل شيء في النهاية."
+        },
+        {
+          "es": "Se armó una bronca en la fiesta.",
+          "en": "There was drama at the party.",
+          "ar": "وقع شجار في الحفلة."
+        },
+        {
+          "es": "Todo el mundo se quedó preocupado con la noticia.",
+          "en": "Everyone got upset with the news.",
+          "ar": "أصيب الجميع بالانزعاج بسبب الخبر."
+        },
+        {
+          "es": "Voy a dar una vuelta con los colegas.",
+          "en": "I'm going to hang out with the guys.",
+          "ar": "سأخرج للتنزه مع الرفاق."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Encuentro en la Playa",
+      "en": "Meeting at the Beach",
+      "ar": "لقاء على الشاطئ"
+    },
+    "lines": [
+      {
+        "speaker": "Rafa",
+        "es": "¿Qué tal, colega, todo bien?",
+        "en": "Hey, buddy, everything good?",
+        "ar": "أهلًا يا رفيق، كل شيء تمام؟"
+      },
+      {
+        "speaker": "Leo",
+        "es": "Estoy tranquilo, solo un poco sin pasta este mes.",
+        "en": "I'm fine, just a bit broke this month.",
+        "ar": "أنا بخير، لكن مفلس قليلًا هذا الشهر."
+      },
+      {
+        "speaker": "Rafa",
+        "es": "Sin problema, la vuelta es barata. ¡Mira el lugar!",
+        "en": "No problem, the hangout is cheap. Check out the place!",
+        "ar": "لا مشكلة، الخروج رخيص. انظر إلى المكان!"
+      },
+      {
+        "speaker": "Leo",
+        "es": "Súper chévere este lugar, ¿estás al tanto?",
+        "en": "That view is really cool, you know?",
+        "ar": "هذا المنظر رائع جدًا، تعرف؟"
+      },
+      {
+        "speaker": "Rafa",
+        "es": "¡Va! Pero no dejes que nadie se burle de nosotros, ¿eh?",
+        "en": "Alright! But don't let anyone mess with us, ok?",
+        "ar": "تمام! لكن لا تدع أحدًا يسخر منا، اتفقنا؟"
+      },
+      {
+        "speaker": "Leo",
+        "es": "Puedes dejarlo, tío. Todo está bien.",
+        "en": "Leave it to me, dude. Everything's fine.",
+        "ar": "اترك الأمر لي يا رجل. كل شيء على ما يُرام."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Una Conversación Relajada",
+      "en": "A Casual Conversation",
+      "ar": "محادثة غير رسمية"
+    },
+    "text_es": "El fin de semana, los amigos se encontraron en la playa. Hubo mucha conversación, música y risas, y nadie se preocupó por nada. De repente, apareció un tío ofreciendo agua de coco. Todo el mundo lo disfrutó, y el tío se quedó tranquilo, solo pidiendo que se lo contaran a los colegas.",
+    "text_en": "On the weekend, the friends met at the beach. There was lots of talking, music and laughter, and nobody got upset about anything. Suddenly, a guy showed up selling coconut water. Everyone enjoyed it, and the guy was cool, just asking them to tell their friends.",
+    "text_ar": "في نهاية الأسبوع، التقى الأصدقاء على الشاطئ. دارت أحاديث كثيرة وموسيقى وضحك، ولم ينزعج أحد من أي شيء. وفجأة ظهر رجل يعرض ماء جوز الهند. استمتع الجميع به، وكان الرجل لطيفًا، واكتفى بطلبهم أن يخبروا أصدقاءهم."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué significa 'estoy sin pasta'?",
+        "en": "What does 'tô quebrado' mean?",
+        "ar": "ماذا تعني عبارة 'tô quebrado'؟"
+      },
+      "options": [
+        {
+          "es": "Estoy enfermo.",
+          "en": "I am sick.",
+          "ar": "أنا مريض."
+        },
+        {
+          "es": "Estoy sin dinero.",
+          "en": "I am without money.",
+          "ar": "أنا بدون مال."
+        },
+        {
+          "es": "Estoy muy feliz.",
+          "en": "I am very happy.",
+          "ar": "أنا سعيد جدًا."
+        }
+      ],
+      "answer": "Estoy sin dinero.",
+      "explanation": {
+        "es": "'Sin pasta' en la jerga significa sin dinero.",
+        "en": "'Quebrado' in slang means without money.",
+        "ar": "'quebrado' في العامية تعني بدون مال."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué reducción es correcta en el habla informal?",
+        "en": "Which reduction is correct in informal speech?",
+        "ar": "أي اختصار صحيح في الكلام غير الرسمي؟"
+      },
+      "options": [
+        {
+          "es": "Voy pa' la escuela.",
+          "en": "Tô indo pra escola.",
+          "ar": "Tô indo pra escola."
+        },
+        {
+          "es": "Estoy yendo a la escuela.",
+          "en": "Estou indo para a escola.",
+          "ar": "Estou indo para a escola."
+        },
+        {
+          "es": "Yo voy a la escuela.",
+          "en": "Eu vou a escola.",
+          "ar": "Eu vou a escola."
+        }
+      ],
+      "answer": "Voy pa' la escuela.",
+      "explanation": {
+        "es": "Todas son posibles, pero 'voy pa' la escuela' es la versión informal reducida y coloquial.",
+        "en": "All are possible, but 'tô indo pra escola' is the reduced, colloquial informal version.",
+        "ar": "كلها ممكنة، لكن 'tô indo pra escola' هي النسخة العامية المختصرة."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español coloquial: 'No worries, bro, everything's fine.'",
+        "en": "Translate into colloquial Portuguese: 'No worries, bro, everything's fine.'",
+        "ar": "ترجم إلى العامية البرتغالية: 'No worries, bro, everything's fine.'"
+      },
+      "options": [],
+      "answer": "Tranquilo, tío, todo está bien.",
+      "explanation": {
+        "es": "'Tranquilo' y 'todo está bien' son expresiones coloquiales para tranquilizar a alguien.",
+        "en": "'De boa' and 'tá tudo certo' are colloquial ways to reassure.",
+        "ar": "'de boa' و'tá tudo certo' عبارتان عاميتان للطمأنة."
+      }
+    }
+  ]
+}

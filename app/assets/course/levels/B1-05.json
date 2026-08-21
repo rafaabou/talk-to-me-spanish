@@ -1,0 +1,322 @@
+{
+  "id": "B1-05",
+  "level": "B1",
+  "level_name": {
+    "es": "Intermedio",
+    "en": "Intermediate",
+    "ar": "متوسط"
+  },
+  "title": {
+    "es": "Gerundio y Construcciones Progresivas",
+    "en": "Gerund and Progressive Constructions",
+    "ar": "المصدر المستمر"
+  },
+  "objectives": [
+    {
+      "es": "Formar el gerundio de los verbos regulares y usarlo con 'estar'.",
+      "en": "Form the gerund of regular verbs and use it with 'estar'.",
+      "ar": "تكوين صيغة اسم الفاعل المستمر للأفعال النظامية واستخدامها مع 'estar'."
+    },
+    {
+      "es": "Describir acciones en curso en el presente y el pasado.",
+      "en": "Describe ongoing actions in the present and the past.",
+      "ar": "وصف أفعال قيد الحدوث في الحاضر والماضي."
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el gerundio",
+      "ipa": "/ˈel xeˈɾundio/",
+      "en": "the gerund",
+      "ar": "صيغة المتابعة (gerúndio)"
+    },
+    {
+      "es": "progresivo",
+      "ipa": "/pɾoɣɾeˈsiβo/",
+      "en": "progressive",
+      "ar": "مستمر"
+    },
+    {
+      "es": "sucediendo",
+      "ipa": "/suseˈðiendo/",
+      "en": "happening",
+      "ar": "جارٍ الحدوث"
+    },
+    {
+      "es": "estudiando",
+      "ipa": "/estuˈðiando/",
+      "en": "studying",
+      "ar": "يدرس"
+    },
+    {
+      "es": "viendo",
+      "ipa": "/ˈbiendo/",
+      "en": "watching",
+      "ar": "يشاهد"
+    },
+    {
+      "es": "trabajando",
+      "ipa": "/tɾaβaˈxando/",
+      "en": "working",
+      "ar": "يعمل"
+    },
+    {
+      "es": "hablando",
+      "ipa": "/aˈβlando/",
+      "en": "speaking",
+      "ar": "يتحدث"
+    },
+    {
+      "es": "caminando",
+      "ipa": "/kamiˈnando/",
+      "en": "walking",
+      "ar": "يمشي"
+    },
+    {
+      "es": "esperando",
+      "ipa": "/espeˈɾando/",
+      "en": "waiting",
+      "ar": "ينتظر"
+    },
+    {
+      "es": "corriendo",
+      "ipa": "/koˈriendo/",
+      "en": "running",
+      "ar": "يجري"
+    },
+    {
+      "es": "comiendo",
+      "ipa": "/koˈmiendo/",
+      "en": "eating",
+      "ar": "يأكل"
+    },
+    {
+      "es": "escribiendo",
+      "ipa": "/eskɾiˈβiendo/",
+      "en": "writing",
+      "ar": "يكتب"
+    },
+    {
+      "es": "escuchando",
+      "ipa": "/eskuˈtʃando/",
+      "en": "listening",
+      "ar": "يستمع"
+    },
+    {
+      "es": "el cambio",
+      "ipa": "/ˈel ˈkambio/",
+      "en": "the change",
+      "ar": "التغيير"
+    },
+    {
+      "es": "el proceso",
+      "ipa": "/ˈel pɾoˈseso/",
+      "en": "the process",
+      "ar": "العملية"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Estar + gerundio",
+        "en": "Estar + gerund",
+        "ar": "estar + gerúndio"
+      },
+      "explanation": {
+        "es": "La construcción 'estar + gerundio' indica una acción en curso. Los verbos en -ar forman el gerundio con -ando, en -er con -iendo y en -ir con -iendo.",
+        "en": "The construction 'estar + gerund' indicates an action in progress. Verbs in -ar form the gerund with -ando, in -er with -endo and in -ir with -indo.",
+        "ar": "يشير التركيب 'estar + gerúndio' إلى فعل قيد التنفيذ. الأفعال المنتهية بـ-ar تشكّل اسم الفاعل بـ-ando، وبـ-er بـ-endo، وبـ-ir بـ-indo."
+      },
+      "examples": [
+        {
+          "es": "Estoy estudiando español ahora.",
+          "en": "I am studying Portuguese right now.",
+          "ar": "أنا أدرس البرتغالية الآن."
+        },
+        {
+          "es": "Ella está viendo una película.",
+          "en": "She is watching a movie.",
+          "ar": "إنها تشاهد فيلماً."
+        },
+        {
+          "es": "Ellos están trabajando en este momento.",
+          "en": "They are working right now.",
+          "ar": "إنهم يعملون في هذه اللحظة."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "El gerundio en otras construcciones",
+        "en": "The gerund in other constructions",
+        "ar": "استخدامات أخرى لاسم الفاعل"
+      },
+      "explanation": {
+        "es": "El gerundio también aparece con verbos como 'continuar', 'quedarse' e 'ir', indicando duración, cambio o movimiento.",
+        "en": "The gerund also appears with verbs like 'continuar', 'ficar' and 'ir', indicating duration, change or movement.",
+        "ar": "يظهر اسم الفاعل أيضاً مع أفعال مثل 'continuar' و'ficar' و'ir' للدلالة على الاستمرار أو التغيير أو الحركة."
+      },
+      "examples": [
+        {
+          "es": "Él continúa estudiando todas las noches.",
+          "en": "He keeps studying every night.",
+          "ar": "يواصل الدراسة كل ليلة."
+        },
+        {
+          "es": "Voy caminando hasta el trabajo.",
+          "en": "I walk to work (on foot).",
+          "ar": "أمشي إلى العمل سيراً على الأقدام."
+        },
+        {
+          "es": "Cuando llegues a casa, llámame.",
+          "en": "When you get home, call me.",
+          "ar": "عند وصولك إلى المنزل، اتصل بي."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "¿Qué estás haciendo?",
+      "en": "What are you doing?",
+      "ar": "ماذا تفعل الآن؟"
+    },
+    "lines": [
+      {
+        "speaker": "Rafael",
+        "es": "¿Aló? ¿Qué estás haciendo ahora?",
+        "en": "Hello? What are you doing right now?",
+        "ar": "ألو؟ ماذا تفعل الآن؟"
+      },
+      {
+        "speaker": "Duda",
+        "es": "Estoy escribiendo un correo a mi jefa.",
+        "en": "I am writing an email to my boss.",
+        "ar": "أنا أكتب رسالة إلكترونية إلى مديرتي."
+      },
+      {
+        "speaker": "Rafael",
+        "es": "¿Y Pedro? ¿Está estudiando?",
+        "en": "And Pedro? Is he studying?",
+        "ar": "وبيدرو؟ هل يدرس؟"
+      },
+      {
+        "speaker": "Duda",
+        "es": "No, está viendo fútbol en la tele.",
+        "en": "No, he is watching soccer on TV.",
+        "ar": "لا، إنه يشاهد كرة القدم على التلفزيون."
+      },
+      {
+        "speaker": "Rafael",
+        "es": "Entonces voy caminando hasta tu casa.",
+        "en": "Then I will walk over to your house.",
+        "ar": "إذن سأمشي إلى منزلك."
+      },
+      {
+        "speaker": "Duda",
+        "es": "¡Perfecto! Te estamos esperando.",
+        "en": "Perfect! We are waiting for you.",
+        "ar": "ممتاز! نحن في انتظارك."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Una tarde ajetreada",
+      "en": "A busy afternoon",
+      "ar": "بعد ظهر حافل"
+    },
+    "text_es": "Ahora, el barrio está muy concurrido. Los niños están corriendo en el parque. Mi vecina está escuchando música en el balcón. Mientras tanto, estoy escribiendo una carta a un amigo.",
+    "text_en": "Right now the neighborhood is very lively. The children are running in the park. My neighbor is listening to music on the balcony. Meanwhile, I am writing a letter to a friend.",
+    "text_ar": "الحي الآن مفعم بالحركة. الأطفال يجرون في الحديقة. جارتي تستمع إلى الموسيقى على الشرفة. وفي هذه الأثناء، أكتب رسالة إلى صديق."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: \"Ella ___ estudiando español.\"",
+        "en": "Complete: \"She ___ studying Portuguese.\"",
+        "ar": "أكمل: \"هي ___ تدرس البرتغالية.\""
+      },
+      "options": [
+        {
+          "es": "está",
+          "en": "is",
+          "ar": "في طور"
+        },
+        {
+          "es": "es",
+          "en": "is (identity)",
+          "ar": "تكون"
+        },
+        {
+          "es": "fue",
+          "en": "was (past)",
+          "ar": "كانت"
+        },
+        {
+          "es": "tiene",
+          "en": "has",
+          "ar": "تملك"
+        }
+      ],
+      "answer": "está",
+      "explanation": {
+        "es": "Las acciones en curso usan 'estar + gerundio': 'ella está estudiando'.",
+        "en": "Ongoing actions use 'estar + gerund': 'she is studying'.",
+        "ar": "الأفعال الجارية تستخدم 'estar + gerúndio': 'هي تدرس الآن'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa con el gerundio correcto: \"Estoy ___ un libro.\"",
+        "en": "Complete with the correct gerund: \"I am ___ a book.\"",
+        "ar": "أكمل بصيغة اسم الفاعل الصحيحة: \"أنا ___ كتاباً.\""
+      },
+      "options": [
+        {
+          "es": "leyendo",
+          "en": "reading",
+          "ar": "أقرأ"
+        },
+        {
+          "es": "leer",
+          "en": "to read",
+          "ar": "أن أقرأ"
+        },
+        {
+          "es": "leí",
+          "en": "I read (past)",
+          "ar": "قرأت"
+        },
+        {
+          "es": "leído",
+          "en": "read (participle)",
+          "ar": "مقروء"
+        }
+      ],
+      "answer": "leyendo",
+      "explanation": {
+        "es": "El gerundio de 'leer' es 'leyendo': 'estoy leyendo un libro'.",
+        "en": "The gerund of 'ler' is 'lendo': 'I am reading a book'.",
+        "ar": "اسم الفاعل من 'ler' هو 'lendo': 'أنا أقرأ كتاباً'."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al inglés: \"Ellos están esperando el autobús.\"",
+        "en": "Translate to English: \"Eles estão esperando o ônibus.\"",
+        "ar": "ترجم إلى الإنجليزية: \"Eles estão esperando o ônibus.\""
+      },
+      "options": [],
+      "answer": "They are waiting for the bus.",
+      "explanation": {
+        "es": "'Están esperando' es la forma progresiva de 'esperar' en la tercera persona del plural.",
+        "en": "'Estão esperando' is the progressive form of 'esperar' in the third person plural.",
+        "ar": "'estão esperando' هي صيغة المضارع المستمر من 'esperar' بضمير الغائبين."
+      }
+    }
+  ]
+}

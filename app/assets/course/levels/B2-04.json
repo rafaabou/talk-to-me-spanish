@@ -1,0 +1,327 @@
+{
+  "id": "B2-04",
+  "level": "B2",
+  "level_name": {
+    "es": "Intermedio alto",
+    "en": "Upper-Intermediate",
+    "ar": "متوسط متقدم"
+  },
+  "title": {
+    "es": "Medio Ambiente",
+    "en": "Environment",
+    "ar": "البيئة"
+  },
+  "objectives": [
+    {
+      "es": "Hablar sobre problemas ambientales",
+      "en": "Talk about environmental problems",
+      "ar": "التحدث عن المشكلات البيئية"
+    },
+    {
+      "es": "Usar conectores de causa y consecuencia",
+      "en": "Use connectors of cause and consequence",
+      "ar": "استخدام أدوات الربط للسبب والنتيجة"
+    },
+    {
+      "es": "Proponer soluciones sostenibles",
+      "en": "Propose sustainable solutions",
+      "ar": "اقتراح حلول مستدامة"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el medio ambiente",
+      "ipa": "/ˈel ˈmeðio aˈmbiente/",
+      "en": "the environment",
+      "ar": "البيئة"
+    },
+    {
+      "es": "la sostenibilidad",
+      "ipa": "/ˈla sosteniβiliˈðað/",
+      "en": "the sustainability",
+      "ar": "الاستدامة"
+    },
+    {
+      "es": "la deforestación",
+      "ipa": "/ˈla defoɾestaˈsion/",
+      "en": "the deforestation",
+      "ar": "إزالة الغابات"
+    },
+    {
+      "es": "la contaminación",
+      "ipa": "/ˈla kontaminaˈsion/",
+      "en": "the pollution",
+      "ar": "التلوث"
+    },
+    {
+      "es": "la basura",
+      "ipa": "/ˈla baˈsuɾa/",
+      "en": "the garbage",
+      "ar": "القمامة"
+    },
+    {
+      "es": "el reciclaje",
+      "ipa": "/ˈel resiˈklaxe/",
+      "en": "the recycling",
+      "ar": "إعادة التدوير"
+    },
+    {
+      "es": "el calentamiento global",
+      "ipa": "/ˈel kalentaˈmiento gloˈβal/",
+      "en": "the global warming",
+      "ar": "الاحتباس الحراري"
+    },
+    {
+      "es": "la energía renovable",
+      "ipa": "/ˈla eneˈɾgia renoˈβaβle/",
+      "en": "the renewable energy",
+      "ar": "الطاقة المتجددة"
+    },
+    {
+      "es": "la preservación",
+      "ipa": "/ˈla pɾeseɾbaˈsion/",
+      "en": "the preservation",
+      "ar": "الحفاظ"
+    },
+    {
+      "es": "el ecosistema",
+      "ipa": "/ˈel ekosiˈstema/",
+      "en": "the ecosystem",
+      "ar": "النظام البيئي"
+    },
+    {
+      "es": "la especie amenazada",
+      "ipa": "/ˈla eˈspesie amenaˈsaða/",
+      "en": "the endangered species",
+      "ar": "الأنواع المهددة بالانقراض"
+    },
+    {
+      "es": "el recurso natural",
+      "ipa": "/ˈel reˈkuɾso natuˈɾal/",
+      "en": "the natural resource",
+      "ar": "المورد الطبيعي"
+    },
+    {
+      "es": "la sequía",
+      "ipa": "/ˈla seˈkia/",
+      "en": "the drought",
+      "ar": "الجفاف"
+    },
+    {
+      "es": "la inundación",
+      "ipa": "/ˈla inundaˈsion/",
+      "en": "the flood",
+      "ar": "الفيضان"
+    },
+    {
+      "es": "reducir",
+      "ipa": "/reðuˈsiɾ/",
+      "en": "to reduce",
+      "ar": "يقلل"
+    },
+    {
+      "es": "reutilizar",
+      "ipa": "/reutiliˈsaɾ/",
+      "en": "to reuse",
+      "ar": "يعيد الاستخدام"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Causa y Consecuencia",
+        "en": "Cause and Consequence",
+        "ar": "السبب والنتيجة"
+      },
+      "explanation": {
+        "es": "Para expresar causa usamos 'a causa de', 'debido a' y 'porque'. Para la consecuencia usamos 'por eso', 'por lo tanto' y 'consecuentemente'. Estos conectores organizan la argumentación sobre el medio ambiente.",
+        "en": "To express cause we use 'por causa de', 'devido a' and 'porque'. For consequence we use 'por isso', 'portanto' and 'consequentemente'. These connectors organize argumentation about the environment.",
+        "ar": "للتعبير عن السبب نستخدم 'por causa de' و'devido a' و'porque'. وللنتيجة نستخدم 'por isso' و'portanto' و'consequentemente'. تنظم أدوات الربط هذه الحجج حول البيئة."
+      },
+      "examples": [
+        {
+          "es": "Debido a la deforestación, muchas especies desaparecieron.",
+          "en": "Because of deforestation, many species disappeared.",
+          "ar": "بسبب إزالة الغابات، اختفت أنواع كثيرة."
+        },
+        {
+          "es": "La basura no fue reciclada; consecuentemente, la contaminación aumentó.",
+          "en": "The garbage was not recycled; consequently, pollution increased.",
+          "ar": "لم يُعَد تدوير القمامة؛ ونتيجة لذلك، ازداد التلوث."
+        },
+        {
+          "es": "La sequía fue larga; por lo tanto, los agricultores perdieron la cosecha.",
+          "en": "The drought was long; therefore, the farmers lost their harvest.",
+          "ar": "كان الجفاف طويلًا؛ لذلك خسر المزارعون محصولهم."
+        },
+        {
+          "es": "A causa de la contaminación, la calidad del aire empeoró.",
+          "en": "Because of pollution, air quality got worse.",
+          "ar": "بسبب التلوث، ساءت جودة الهواء."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Propuestas y Recomendaciones",
+        "en": "Proposals and Recommendations",
+        "ar": "الاقتراحات والتوصيات"
+      },
+      "explanation": {
+        "es": "Para proponer soluciones usamos expresiones impersonales con subjuntivo: 'es preciso que', 'es fundamental que', 'sugiero que', 'ojalá'.",
+        "en": "To propose solutions we use impersonal expressions with the subjunctive: 'é preciso que', 'é fundamental que', 'sugiro que', 'tomara que'.",
+        "ar": "لاقتراح الحلول نستخدم تعبيرات غير شخصية مع صيغة الشرط: 'é preciso que' و'é fundamental que' و'sugiro que' و'tomara que'."
+      },
+      "examples": [
+        {
+          "es": "Es preciso que todos reduzcan el consumo de plástico.",
+          "en": "Everyone must reduce plastic consumption.",
+          "ar": "يجب أن يقلل الجميع من استهلاك البلاستيك."
+        },
+        {
+          "es": "Sugiero que la ciudad invierta en transporte público.",
+          "en": "I suggest the city invest in public transportation.",
+          "ar": "أقترح أن تستثمر المدينة في النقل العام."
+        },
+        {
+          "es": "Es fundamental que las empresas respeten el medio ambiente.",
+          "en": "It is essential that companies respect the environment.",
+          "ar": "من الضروري أن تحترم الشركات البيئة."
+        },
+        {
+          "es": "Ojalá los gobiernos tomen medidas urgentes.",
+          "en": "Let's hope the governments take urgent measures.",
+          "ar": "ليت الحكومات تتخذ إجراءات عاجلة."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "El Barrio Sostenible",
+      "en": "The Sustainable Neighborhood",
+      "ar": "الحي المستدام"
+    },
+    "lines": [
+      {
+        "speaker": "María",
+        "es": "¿Sabías que nuestro barrio va a tener un sistema de reciclaje?",
+        "en": "Did you know our neighborhood will get a recycling system?",
+        "ar": "هل تعلم أن حينا سيحصل على نظام لإعادة التدوير؟"
+      },
+      {
+        "speaker": "Juan",
+        "es": "¡Qué genial! Es fundamental que separemos la basura en casa.",
+        "en": "Great! It's essential that we sort the garbage at home.",
+        "ar": "رائع! من الضروري أن نفرز القمامة في المنزل."
+      },
+      {
+        "speaker": "María",
+        "es": "A causa del calentamiento global, tenemos que actuar ya.",
+        "en": "Because of global warming, we have to act now.",
+        "ar": "بسبب الاحتباس الحراري، يجب أن نتحرك الآن."
+      },
+      {
+        "speaker": "Juan",
+        "es": "De acuerdo. Sugiero que también plantemos árboles en el parque.",
+        "en": "I agree. I suggest we also plant trees in the park.",
+        "ar": "أوافق. أقترح أن نزرع الأشجار في الحديقة أيضًا."
+      },
+      {
+        "speaker": "María",
+        "es": "¡Buena idea! Si cada uno hace su parte, el barrio mejora.",
+        "en": "Good idea! If everyone does their part, the neighborhood gets better.",
+        "ar": "فكرة جيدة! إذا قام كل واحد بدوره، سيصبح الحي أفضل."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Bosque en Peligro",
+      "en": "The Forest in Danger",
+      "ar": "الغابة في خطر"
+    },
+    "text_es": "La selva amazónica es esencial para el equilibrio del planeta. A causa de la deforestación, millones de árboles son talados todos los años. Las especies amenazadas sufren con la destrucción de su hábitat. Es urgente que los gobiernos y la sociedad trabajen juntos por la preservación.",
+    "text_en": "The Amazon Rainforest is essential to the planet's balance. Because of deforestation, millions of trees are cut down every year. Endangered species suffer from the destruction of their habitat. It is urgent that governments and society work together for its preservation.",
+    "text_ar": "غابة الأمازون ضرورية لتوازن الكوكب. بسبب إزالة الغابات، تُقطع ملايين الأشجار كل عام. تعاني الأنواع المهددة بالانقراض من تدمير موطنها. ومن الملح أن تعمل الحكومات والمجتمع معًا من أجل الحفاظ عليها."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "___ del calentamiento global, el clima está cambiando.",
+        "en": "___ global warming, the climate is changing.",
+        "ar": "___ الاحتباس الحراري، المناخ يتغير."
+      },
+      "options": [
+        {
+          "es": "A causa",
+          "en": "Por causa",
+          "ar": "Por causa"
+        },
+        {
+          "es": "Sin embargo",
+          "en": "Porém",
+          "ar": "Porém"
+        },
+        {
+          "es": "A pesar",
+          "en": "Apesar",
+          "ar": "Apesar"
+        }
+      ],
+      "answer": "A causa",
+      "explanation": {
+        "es": "Causa: 'A causa de' + sustantivo.",
+        "en": "Cause: 'Por causa de' + noun.",
+        "ar": "السبب: 'Por causa de' + الاسم."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Es urgente que los gobiernos ___ medidas.",
+        "en": "It is urgent that governments ___ measures.",
+        "ar": "من الملح أن ___ الحكومات إجراءات."
+      },
+      "options": [
+        {
+          "es": "toman",
+          "en": "tomam",
+          "ar": "tomam"
+        },
+        {
+          "es": "tomen",
+          "en": "tomem",
+          "ar": "tomem"
+        },
+        {
+          "es": "tomar",
+          "en": "tomar",
+          "ar": "tomar"
+        }
+      ],
+      "answer": "tomen",
+      "explanation": {
+        "es": "Después de 'es urgente que' usamos el subjuntivo: que tomen.",
+        "en": "After 'é urgente que' we use the subjunctive: que tomem.",
+        "ar": "بعد 'é urgente que' نستخدم المضارع الشرطي: que tomem."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'Because of deforestation, many species disappeared.'",
+        "en": "Translate: 'Because of deforestation, many species disappeared.'",
+        "ar": "ترجم: 'Because of deforestation, many species disappeared.'"
+      },
+      "options": [],
+      "answer": "A causa de la deforestación, muchas especies desaparecieron.",
+      "explanation": {
+        "es": "Causa: 'a causa de' + consecuencia en el pretérito.",
+        "en": "Cause: 'por causa de' + consequence in the preterite.",
+        "ar": "السبب: 'por causa de' + النتيجة في الماضي."
+      }
+    }
+  ]
+}

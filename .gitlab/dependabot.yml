@@ -1,0 +1,175 @@
+# GitLab Dependabot Configuration
+# Automated dependency updates for GitLab CI/CD
+
+# This file configures GitLab's built-in dependency scanning and update features
+# Note: GitLab uses a different approach - it uses Dependency Scanning and Auto DevOps
+
+# This file documents the configuration for GitLab's dependency management
+# GitLab uses a different approach than GitHub Dependabot
+
+# GitLab Dependency Scanning Configuration
+# This is configured in .gitlab-ci.yml under the dependency_scanning stage
+
+# GitLab Dependency Proxy Configuration
+# Add to GitLab CI/CD variables:
+# - DEPENDENCY_PROXY_ENABLED: "true"
+# - DEPENDENCY_PROXY_GROUP: "your-group"
+# - DEPENDENCY_PROXY_URL: "https://your-registry.example.com"
+
+# GitLab Dependency Scanning Configuration
+# The dependency_scanning job is included in the .gitlab-ci.yml
+# It uses GitLab's built-in dependency scanning which uses:
+# - gemnasium for Ruby, Python, JavaScript, Java, Go, PHP, .NET
+# - retire.js for JavaScript
+# - bundler-audit for Ruby
+# - safety for Python
+# - gradle for Java
+# - npm audit for Node.js
+# - dart pub for Dart/Flutter
+
+# GitLab Auto Remediation
+# Auto remediation can be enabled to automatically create merge requests
+# for vulnerable dependencies:
+# - Go to Settings > Security & Compliance > Dependency Scanning
+# - Enable "Automatic vulnerability resolution"
+
+# GitLab Dependency List
+# View all dependencies at: Project > Security & Compliance > Dependency List
+
+# GitLab License Compliance
+# License compliance scanning can be enabled:
+# - Go to Settings > Security & Compliance > License Compliance
+# - Configure license policies (allow/deny specific licenses)
+
+# GitLab Container Scanning
+# Container scanning for Docker images:
+# - Add container_scanning job to .gitlab-ci.yml
+# - Uses Trivy or Clair for vulnerability scanning
+
+# GitLab DAST (Dynamic Application Security Testing)
+# DAST scanning for running applications:
+# - Add dast job to .gitlab-ci.yml
+# - Configure target URL and authentication
+
+# GitLab Secret Detection
+# Secret detection in CI/CD:
+# - Add secret_detection job to .gitlab-ci.yml
+# - Uses Gitleaks under the hood
+
+# GitLab SAST (Static Application Security Testing)
+# SAST scanning:
+# - Add sast job to .gitlab-ci.yml
+# - Uses CodeQL for Dart/Flutter
+
+# GitLab Dependency Updates (Auto DevOps)
+# For automatic dependency updates with merge requests:
+# - Enable Auto DevOps
+# - Configure Auto DevOps variables:
+#   - AUTO_DEVOPS_ENABLED: "true"
+#   - DEPENDENCY_UPDATE_ENABLED: "true"
+
+# GitLab Renovate Alternative
+# For more advanced dependency updates, consider using Renovate:
+# - Add renovate job to .gitlab-ci.yml
+# - Configure renovate.json for custom rules
+
+# Example renovate.json for GitLab:
+# {
+#   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+#   "extends": [
+#     "config:base",
+#     ":semanticCommits",
+#     ":preserveSemverRanges"
+#   ],
+#   "packageRules": [
+#     {
+#       "matchDatasources": ["pub"],
+#       "groupName": "Dart/Flutter Dependencies",
+#       "schedule": ["before 6am on monday"],
+#       "labels": ["dependencies", "dart", "flutter"]
+#     },
+#     {
+#       "matchDatasources": ["docker"],
+#       "groupName": "Docker Dependencies",
+#       "schedule": ["before 6am on monday"],
+#       "labels": ["dependencies", "docker"]
+#     }
+#   ],
+#   "timezone": "UTC",
+#   "prHourlyLimit": 5,
+#   "prConcurrentLimit": 2
+# }
+
+# GitLab CI/CD Variables for Dependency Management:
+# Go to Settings > CI/CD > Variables and add:
+# - DEPENDENCY_SCANNING_ENABLED: "true"
+# - CONTAINER_SCANNING_ENABLED: "true"
+# - SAST_ENABLED: "true"
+# - SECRET_DETECTION_ENABLED: "true"
+# - LICENSE_COMPLIANCE_ENABLED: "true"
+# - DEPENDENCY_PROXY_ENABLED: "true"
+# - RENOVATE_ENABLED: "true" (if using Renovate)
+
+# GitLab Security Dashboard
+# View all security findings at: Group > Security & Compliance > Security Dashboard
+# Or Project > Security & Compliance > Security Dashboard
+
+# GitLab Vulnerability Report
+# View at: Project > Security & Compliance > Vulnerability Report
+# Or Group > Security & Compliance > Vulnerability Report
+
+# GitLab License Compliance Report
+# View at: Project > Security & Compliance > License Compliance
+# Configure allowed/denied licenses in Settings > Security & Compliance > License Compliance
+
+# GitLab Dependency Proxy
+# The dependency proxy caches upstream packages for faster, more reliable builds
+# Configure in Settings > Packages & Registries > Dependency Proxy
+
+# GitLab Package Registry
+# Publish SBOMs, APKs, and other artifacts to GitLab Package Registry
+# Configure in .gitlab-ci.yml with package registry upload
+
+# Example .gitlab-ci.yml snippet for package registry upload:
+# upload_sbom:
+#   stage: package
+#   script:
+#     - curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --header "Content-Type: application/json" --upload-file sbom.cdx.json "https://registry.example.com/project/sbom/${CI_COMMIT_SHA}.cdx.json"
+#   needs: [package]
+#   rules:
+#     - if: $CI_COMMIT_TAG =~ /^v/
+
+# GitLab Security Policies
+# Define security policies at group level:
+# - Go to Group > Security & Compliance > Policies
+# - Create scan execution policies
+# - Create vulnerability management policies
+# - Create license compliance policies
+
+# GitLab Compliance Frameworks
+# Map findings to compliance frameworks:
+# - SOC 2
+# - PCI DSS
+# - HIPAA
+# - GDPR
+# - NIST 800-53
+# - ISO 27001
+
+# GitLab Audit Events
+# Audit all security events:
+# - Go to Admin > Audit Events
+# - Filter by security events
+
+# GitLab Security Training
+# Assign security training to developers:
+# - Go to Admin > Security Training
+# - Assign courses based on role
+
+# GitLab Security Dashboard
+# Customize security dashboard:
+# - Go to Group > Security & Compliance > Security Dashboard
+# - Customize widgets and views
+
+# Note: GitLab's approach differs from GitHub Dependabot
+# GitLab uses built-in security scanning tools rather than a separate dependabot service
+# Most dependency management is handled through GitLab's built-in security features

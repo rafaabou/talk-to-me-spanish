@@ -1,0 +1,327 @@
+{
+  "id": "B2-07",
+  "level": "B2",
+  "level_name": {
+    "es": "Intermedio alto",
+    "en": "Upper-Intermediate",
+    "ar": "متوسط متقدم"
+  },
+  "title": {
+    "es": "Conjunciones y Conectores",
+    "en": "Conjunctions and Connectors",
+    "ar": "أدوات الربط"
+  },
+  "objectives": [
+    {
+      "es": "Usar conjunciones coordinantes para conectar ideas",
+      "en": "Use coordinating conjunctions to connect ideas",
+      "ar": "استخدام أدوات الربط التنسيقية لربط الأفكار"
+    },
+    {
+      "es": "Usar conjunciones subordinantes en oraciones complejas",
+      "en": "Use subordinating conjunctions in complex clauses",
+      "ar": "استخدام أدوات الربط التبعية في الجمل المركبة"
+    },
+    {
+      "es": "Estructurar textos con conectores",
+      "en": "Structure texts with connectors",
+      "ar": "تنظيم النصوص باستخدام أدوات الربط"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "por lo tanto",
+      "ipa": "/ˈpoɾ ˈlo ˈtanto/",
+      "en": "therefore",
+      "ar": "لذلك"
+    },
+    {
+      "es": "pero",
+      "ipa": "/ˈpeɾo/",
+      "en": "however",
+      "ar": "لكن"
+    },
+    {
+      "es": "sin embargo",
+      "ipa": "/ˈsin eˈmbaɾgo/",
+      "en": "however",
+      "ar": "ومع ذلك"
+    },
+    {
+      "es": "sin embargo",
+      "ipa": "/ˈsin eˈmbaɾgo/",
+      "en": "meanwhile / however",
+      "ar": "وفي الوقت نفسه"
+    },
+    {
+      "es": "sin embargo",
+      "ipa": "/ˈsin eˈmbaɾgo/",
+      "en": "however",
+      "ar": "مع ذلك"
+    },
+    {
+      "es": "además",
+      "ipa": "/aðeˈmas/",
+      "en": "moreover",
+      "ar": "علاوة على ذلك"
+    },
+    {
+      "es": "es decir",
+      "ipa": "/ˈes deˈsiɾ/",
+      "en": "that is",
+      "ar": "أي بمعنى آخر"
+    },
+    {
+      "es": "por eso",
+      "ipa": "/ˈpoɾ ˈeso/",
+      "en": "that's why",
+      "ar": "لهذا السبب"
+    },
+    {
+      "es": "aunque",
+      "ipa": "/ˈaunke/",
+      "en": "although",
+      "ar": "على الرغم من أن"
+    },
+    {
+      "es": "a pesar de",
+      "ipa": "/ˈa peˈsaɾ ˈde/",
+      "en": "despite",
+      "ar": "رغم"
+    },
+    {
+      "es": "mientras",
+      "ipa": "/ˈmientɾas/",
+      "en": "while",
+      "ar": "بينما"
+    },
+    {
+      "es": "en cuanto",
+      "ipa": "/ˈen ˈkuanto/",
+      "en": "as soon as",
+      "ar": "بمجرد أن"
+    },
+    {
+      "es": "con el fin de",
+      "ipa": "/ˈkon ˈel ˈfin ˈde/",
+      "en": "in order to",
+      "ar": "لكي"
+    },
+    {
+      "es": "al contrario",
+      "ipa": "/ˈal koˈntɾaɾio/",
+      "en": "on the contrary",
+      "ar": "على العكس"
+    },
+    {
+      "es": "en resumen",
+      "ipa": "/ˈen reˈsumen/",
+      "en": "in short",
+      "ar": "باختصار"
+    },
+    {
+      "es": "en primer lugar",
+      "ipa": "/ˈen pɾiˈmeɾ luˈɣaɾ/",
+      "en": "firstly",
+      "ar": "أولًا"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Conjunciones Coordinantes",
+        "en": "Coordinating Conjunctions",
+        "ar": "أدوات الربط التنسيقية"
+      },
+      "explanation": {
+        "es": "Las coordinantes unen oraciones independientes. Aditivas: y, además. Adversativas: pero, sin embargo, no obstante. Conclusivas: por lo tanto, luego, por eso. Explicativas: porque, pues.",
+        "en": "Coordinating conjunctions link independent clauses. Additive: e, além disso. Adversative: mas, porém, contudo, no entanto, entretanto. Conclusive: portanto, logo, por isso. Explanatory: porque, pois.",
+        "ar": "تربط أدوات الربط التنسيقية جملًا مستقلة. الإضافية: e، além disso. والعكسية: mas، porém، contudo، no entanto، entretanto. والنتيجية: portanto، logo، por isso. والتفسيرية: porque، pois."
+      },
+      "examples": [
+        {
+          "es": "Él estudió mucho; por lo tanto, aprobó el examen.",
+          "en": "He studied a lot; therefore, he passed the exam.",
+          "ar": "درس كثيرًا؛ لذلك نجح في الامتحان."
+        },
+        {
+          "es": "El precio es alto; sin embargo, el producto es excelente.",
+          "en": "The price is high; however, the product is excellent.",
+          "ar": "السعر مرتفع؛ ومع ذلك، فالمنتج ممتاز."
+        },
+        {
+          "es": "Además, el servicio fue rápido.",
+          "en": "Moreover, the service was fast.",
+          "ar": "علاوة على ذلك، كانت الخدمة سريعة."
+        },
+        {
+          "es": "El libro es largo; pero vale la pena.",
+          "en": "The book is long; however, it's worth it.",
+          "ar": "الكتاب طويل؛ لكنه يستحق القراءة."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Conjunciones Subordinantes",
+        "en": "Subordinating Conjunctions",
+        "ar": "أدوات الربط التبعية"
+      },
+      "explanation": {
+        "es": "Las subordinantes introducen oraciones dependientes. Temporales: cuando, mientras, en cuanto. Concesivas: aunque (+ subjuntivo), a pesar de (+ infinitivo). Finales: con el fin de, para que (+ subjuntivo). Causales: porque, ya que.",
+        "en": "Subordinating conjunctions introduce dependent clauses. Temporal: quando, enquanto, assim que. Concessive: embora (+ subjunctive), apesar de (+ infinitive). Final: a fim de, para que (+ subjunctive). Causal: porque, já que.",
+        "ar": "تقدم أدوات الربط التبعية جملًا تابعة. الزمنية: quando، enquanto، assim que. والتنازلية: embora (+ الشرط)، apesar de (+ المصدر). والغائية: a fim de، para que (+ الشرط). والسببية: porque، já que."
+      },
+      "examples": [
+        {
+          "es": "Aunque esté cansado, él sigue trabajando.",
+          "en": "Although he is tired, he keeps working.",
+          "ar": "على الرغم من أنه متعب، فإنه يواصل العمل."
+        },
+        {
+          "es": "En cuanto llegué, llamé a mi madre.",
+          "en": "As soon as I arrived, I called my mother.",
+          "ar": "بمجرد وصولي، اتصلت بأمي."
+        },
+        {
+          "es": "Estudia mucho con el fin de aprobar el examen de ingreso.",
+          "en": "Study hard in order to pass the entrance exam.",
+          "ar": "ادرس جيدًا لكي تنجح في امتحان القبول."
+        },
+        {
+          "es": "Mientras yo cocinaba, él ordenaba la casa.",
+          "en": "While I was cooking, he was tidying the house.",
+          "ar": "بينما كنت أطبخ، كان يرتب المنزل."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Planeando la Redacción",
+      "en": "Planning the Essay",
+      "ar": "التخطيط للمقالة"
+    },
+    "lines": [
+      {
+        "speaker": "Profesora",
+        "es": "En primer lugar, deben definir el tema de la redacción.",
+        "en": "First, you must define the essay topic.",
+        "ar": "أولًا، يجب عليكم تحديد موضوع المقالة."
+      },
+      {
+        "speaker": "Alumno",
+        "es": "Podemos hablar sobre tecnología; además, queremos citar ejemplos cotidianos.",
+        "en": "We can talk about technology; besides, we want to cite everyday examples.",
+        "ar": "يمكننا التحدث عن التكنولوجيا؛ وعلاوة على ذلك، نريد أن نذكر أمثلة من الحياة اليومية."
+      },
+      {
+        "speaker": "Profesora",
+        "es": "Genial. Sin embargo, recuerden organizar las ideas con conectores.",
+        "en": "Great. However, remember to organize your ideas with connectors.",
+        "ar": "رائع. ومع ذلك، تذكروا أن تنظموا الأفكار بأدوات الربط."
+      },
+      {
+        "speaker": "Alumno",
+        "es": "Entendido. Por lo tanto, debemos empezar con una introducción clara.",
+        "en": "Understood. Therefore, we should begin with a clear introduction.",
+        "ar": "مفهوم. لذلك يجب أن نبدأ بمقدمة واضحة."
+      },
+      {
+        "speaker": "Profesora",
+        "es": "Exacto. Con el fin de convencer al lector, presenten argumentos sólidos.",
+        "en": "Exactly. In order to convince the reader, present strong arguments.",
+        "ar": "تمامًا. لكي تقنعوا القارئ، اعرضوا حججًا قوية."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Cómo Escribir Bien",
+      "en": "How to Write Well",
+      "ar": "كيف تكتب جيدًا"
+    },
+    "text_es": "Escribir bien exige organización de las ideas. En primer lugar, define el tema y el objetivo del texto. A continuación, usa conectores para unir los párrafos; así, el lector sigue el razonamiento con facilidad. Aunque parezca difícil, la práctica diaria hace toda la diferencia.",
+    "text_en": "Writing well requires organizing your ideas. First, define the topic and purpose of the text. Then use connectors to link the paragraphs; this way, the reader follows the reasoning easily. Although it seems difficult, daily practice makes all the difference.",
+    "text_ar": "الكتابة الجيدة تتطلب تنظيم الأفكار. أولًا، حدد موضوع النص والغرض منه. ثم استخدم أدوات الربط لربط الفقرات؛ وبذلك يتابع القارئ الاستدلال بسهولة. وعلى الرغم من أنها تبدو صعبة، فإن الممارسة اليومية تحدث فرقًا كبيرًا."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Él estudió mucho; ___, aprobó el examen.",
+        "en": "He studied a lot; ___, he passed the exam.",
+        "ar": "درس كثيرًا؛ ___ نجح في الامتحان."
+      },
+      "options": [
+        {
+          "es": "por lo tanto",
+          "en": "portanto",
+          "ar": "portanto"
+        },
+        {
+          "es": "aunque",
+          "en": "embora",
+          "ar": "embora"
+        },
+        {
+          "es": "a pesar",
+          "en": "apesar",
+          "ar": "apesar"
+        }
+      ],
+      "answer": "por lo tanto",
+      "explanation": {
+        "es": "Conclusión: 'por lo tanto' une causa y resultado.",
+        "en": "Conclusion: 'portanto' links cause and result.",
+        "ar": "النتيجة: 'portanto' تربط السبب بالنتيجة."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "___ esté cansado, él sigue trabajando.",
+        "en": "___ he is tired, he keeps working.",
+        "ar": "___ أنه متعب، فإنه يواصل العمل."
+      },
+      "options": [
+        {
+          "es": "Por lo tanto",
+          "en": "Portanto",
+          "ar": "Portanto"
+        },
+        {
+          "es": "Aunque",
+          "en": "Embora",
+          "ar": "Embora"
+        },
+        {
+          "es": "Además",
+          "en": "Além disso",
+          "ar": "Além disso"
+        }
+      ],
+      "answer": "Aunque",
+      "explanation": {
+        "es": "Concesiva: 'aunque' + subjuntivo (esté).",
+        "en": "Concessive: 'embora' + subjunctive (esteja).",
+        "ar": "تنازلية: 'embora' + صيغة الشرط (esteja)."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'Although it seems difficult, daily practice makes all the difference.'",
+        "en": "Translate: 'Although it seems difficult, daily practice makes all the difference.'",
+        "ar": "ترجم: 'Although it seems difficult, daily practice makes all the difference.'"
+      },
+      "options": [],
+      "answer": "Aunque parezca difícil, la práctica diaria hace toda la diferencia.",
+      "explanation": {
+        "es": "Concesiva 'aunque' + subjuntivo 'parezca'.",
+        "en": "Concessive 'embora' + subjunctive 'pareça'.",
+        "ar": "أداة التنازل 'embora' + الشرط 'pareça'."
+      }
+    }
+  ]
+}

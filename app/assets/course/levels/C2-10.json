@@ -1,0 +1,340 @@
+{
+  "id": "C2-10",
+  "level": "C2",
+  "level_name": {
+    "es": "Proficiencia",
+    "en": "Proficiency",
+    "ar": "إتقان"
+  },
+  "title": {
+    "es": "Oratoria y Presentaciones",
+    "en": "Oratory and Presentations",
+    "ar": "الخطابة والعروض"
+  },
+  "objectives": [
+    {
+      "es": "Estructurar discursos y presentaciones con apertura, desarrollo y cierre",
+      "en": "Structure speeches and presentations with an opening, development and closing",
+      "ar": "بناء الخطابات والعروض بافتتاحية وتطوير وخاتمة"
+    },
+    {
+      "es": "Aplicar recursos retóricos de persuasión y énfasis",
+      "en": "Apply rhetorical devices of persuasion and emphasis",
+      "ar": "تطبيق الأدوات البلاغية للإقناع والتوكيد"
+    },
+    {
+      "es": "Controlar pausas, gestos y contacto visual",
+      "en": "Control pauses, gestures and eye contact",
+      "ar": "التحكم في التوقفات والإيماءات والتواصل البصري"
+    },
+    {
+      "es": "Usar preguntas retóricas y estructuras de relieve",
+      "en": "Use rhetorical questions and cleft structures",
+      "ar": "استخدام الأسئلة البلاغية وتراكيب التوكيد"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el discurso",
+      "ipa": "/ˈel diˈskuɾso/",
+      "en": "speech",
+      "ar": "الخطاب"
+    },
+    {
+      "es": "el público",
+      "ipa": "/ˈel ˈpuβliko/",
+      "en": "audience",
+      "ar": "الجمهور"
+    },
+    {
+      "es": "el orador",
+      "ipa": "/ˈel oɾaˈðoɾ/",
+      "en": "speaker / orator",
+      "ar": "الخطيب"
+    },
+    {
+      "es": "la persuasión",
+      "ipa": "/ˈla peɾsuaˈsion/",
+      "en": "persuasion",
+      "ar": "الإقناع"
+    },
+    {
+      "es": "la retórica",
+      "ipa": "/ˈla reˈtoɾika/",
+      "en": "rhetoric",
+      "ar": "البلاغة"
+    },
+    {
+      "es": "el énfasis",
+      "ipa": "/ˈel ˈenfasis/",
+      "en": "emphasis",
+      "ar": "التوكيد"
+    },
+    {
+      "es": "la pausa",
+      "ipa": "/ˈla ˈpausa/",
+      "en": "pause",
+      "ar": "التوقفة"
+    },
+    {
+      "es": "el gesto",
+      "ipa": "/ˈel ˈxesto/",
+      "en": "gesture",
+      "ar": "الإيماءة"
+    },
+    {
+      "es": "el contacto visual",
+      "ipa": "/ˈel koˈntakto biˈsual/",
+      "en": "eye contact",
+      "ar": "التواصل البصري"
+    },
+    {
+      "es": "el tono de voz",
+      "ipa": "/ˈel ˈtono ˈde ˈbos/",
+      "en": "tone of voice",
+      "ar": "نبرة الصوت"
+    },
+    {
+      "es": "la apertura",
+      "ipa": "/ˈla apeˈɾtuɾa/",
+      "en": "opening",
+      "ar": "الافتتاحية"
+    },
+    {
+      "es": "el cierre",
+      "ipa": "/ˈel ˈsiere/",
+      "en": "closing",
+      "ar": "الخاتمة"
+    },
+    {
+      "es": "la pregunta retórica",
+      "ipa": "/ˈla pɾeˈɣunta reˈtoɾika/",
+      "en": "rhetorical question",
+      "ar": "السؤال البلاغي"
+    },
+    {
+      "es": "la anécdota",
+      "ipa": "/ˈla aˈnekdota/",
+      "en": "anecdote",
+      "ar": "الحكاية الطريفة"
+    },
+    {
+      "es": "la cita",
+      "ipa": "/ˈla ˈsita/",
+      "en": "quotation",
+      "ar": "الاقتباس"
+    },
+    {
+      "es": "el esquema",
+      "ipa": "/ˈel eˈskema/",
+      "en": "outline",
+      "ar": "الخطة / المخطط"
+    },
+    {
+      "es": "el teleprompter",
+      "ipa": "/ˈel telepɾoˈmpteɾ/",
+      "en": "teleprompter",
+      "ar": "شاشة النص"
+    },
+    {
+      "es": "la improvisación",
+      "ipa": "/ˈla impɾoβisaˈsion/",
+      "en": "impromptu / improvisation",
+      "ar": "الارتجال"
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Estructuras de Énfasis (Relieve)",
+        "en": "Emphatic (Cleft) Structures",
+        "ar": "تراكيب التوكيد"
+      },
+      "explanation": {
+        "es": "La estructura de relieve con 'es... lo que' destaca un constituyente de la frase: 'Es la pausa lo que sostiene al público', 'Fue con datos concretos con lo que convenció'. Esta estructura es típica de la oratoria y debe reservarse al registro formal o a los momentos de mayor énfasis.",
+        "en": "The cleft structure with 'é... que' highlights a constituent of the sentence: 'É a pausa que sustenta a plateia' (It is the pause that holds the audience), 'Foi com dados concretos que ele convenceu' (It was with concrete data that he persuaded). The relative pronoun 'que' does not vary, and the verb 'ser' agrees in tense. This structure is typical of oratory and should be reserved for formal register or moments of greater emphasis.",
+        "ar": "يبرز تركيب التوكيد بـ 'é... que' عنصرًا من الجملة: 'É a pausa que sustenta a plateia' (إن التوقفة هي التي تثبت الجمهور)، 'Foi com dados concretos que ele convenceu' (ببيانات ملموسة كان هو الذي أقنع). لا يتغير الضمير الموصول 'que'، ويطابق فعل 'ser' الزمن. هذا التركيب سمة من سمات الخطابة ويُحتفظ به للمستوى الرسمي أو لحظات التوكيد الأكبر."
+      },
+      "examples": [
+        {
+          "es": "Es la pausa lo que sostiene al público, no la velocidad.",
+          "en": "It is the pause that holds the audience, not the speed.",
+          "ar": "إن التوقفة هي التي تثبت الجمهور، لا السرعة."
+        },
+        {
+          "es": "Fue con datos concretos con lo que convenció a los inversores.",
+          "en": "It was with concrete data that he persuaded the investors.",
+          "ar": "ببيانات ملموسة كان هو الذي أقنع المستثمرين."
+        },
+        {
+          "es": "Es en el silencio donde el orador más se comunica.",
+          "en": "It is in the silence that the speaker communicates the most.",
+          "ar": "في الصمت يكون الخطيب أكثر تواصلًا."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Persuasión: Pregunta Retórica e Imperativo Atenuado",
+        "en": "Persuasion: Rhetorical Question and Softened Imperative",
+        "ar": "الإقناع: السؤال البلاغي وصيغة الأمر المخففة"
+      },
+      "explanation": {
+        "es": "La pregunta retórica no espera respuesta; involucra y orienta el razonamiento: '¿Quién nunca dudó ante un desafío?'. El imperativo, cuando se suaviza, preserva la cortesía: 'Permítanme compartir una experiencia', 'Consideremos, por un instante, otra hipótesis'. Combinadas, estas estrategias conducen al público sin imposición.",
+        "en": "The rhetorical question expects no answer; it engages and guides reasoning: 'Quem nunca hesitou diante de um desafio?' (Who has never hesitated before a challenge?). The imperative, when softened, preserves courtesy: 'Permitam-me compartilhar uma experiência' (Allow me to share an experience), 'Consideremos, por um instante, outra hipótese' (Let us consider, for a moment, another hypothesis). Combined, these strategies lead the audience without imposition.",
+        "ar": "لا يتوقع السؤال البلاغي جوابًا؛ بل يشغل الذهن ويوجّه الاستدلال: 'Quem nunca hesitou diante de um desafio?' (من منا لم يتردد أمام تحدٍ؟). وصيغة الأمر عندما تخفف تحفظ المجاملة: 'Permitam-me compartilhar uma experiência' (اسمحوا لي أن أشارككم تجربة)، 'Consideremos, por um instante, outra hipótese' (لننظر لحظة إلى فرضية أخرى). وتقود هذه الاستراتيجيات مجتمعة الجمهور دون إجبار."
+      },
+      "examples": [
+        {
+          "es": "¿Quién nunca dudó ante un desafío?",
+          "en": "Who has never hesitated before a challenge?",
+          "ar": "من منا لم يتردد أمام تحدٍ؟"
+        },
+        {
+          "es": "Permítanme compartir una experiencia que me marcó.",
+          "en": "Allow me to share an experience that marked me.",
+          "ar": "اسمحوا لي أن أشارككم تجربة أثّرت فيّ."
+        },
+        {
+          "es": "Consideremos, por un instante, otra hipótesis.",
+          "en": "Let us consider, for a moment, another hypothesis.",
+          "ar": "لننظر لحظة إلى فرضية أخرى."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Antes de la Presentación",
+      "en": "Before the Presentation",
+      "ar": "قبل العرض"
+    },
+    "lines": [
+      {
+        "speaker": "Érica",
+        "es": "Voy a abrir con una anécdota para romper el hielo y ganar al público.",
+        "en": "I will open with an anecdote to break the ice and win the audience.",
+        "ar": "سأفتتح بحكاية طريفة لكسر الجمود وكسب الجمهور."
+      },
+      {
+        "speaker": "Bruno",
+        "es": "Buena idea. ¿Y en el cierre vas a usar una pregunta retórica?",
+        "en": "Good idea. And in the closing, will you use a rhetorical question?",
+        "ar": "فكرة جيدة. وفي الخاتمة، هل ستستخدمين سؤالًا بلاغيًا؟"
+      },
+      {
+        "speaker": "Érica",
+        "es": "Sí. 'Es el compromiso lo que transforma ideas en resultados', y dejo la pregunta en el aire.",
+        "en": "Yes. 'It is commitment that turns ideas into results', and I leave the question hanging.",
+        "ar": "نعم. 'إن الالتزام هو الذي يحوّل الأفكار إلى نتائج'، وأترك السؤال معلقًا."
+      },
+      {
+        "speaker": "Bruno",
+        "es": "Cuida las pausas: es en el silencio donde el énfasis sucede.",
+        "en": "Mind the pauses: it is in the silence that the emphasis happens.",
+        "ar": "انتبهي للتوقفات: في الصمت يحدث التوكيد."
+      },
+      {
+        "speaker": "Érica",
+        "es": "Y mantengo el contacto visual con tres puntos distintos del público.",
+        "en": "And I keep eye contact with three distinct points of the audience.",
+        "ar": "وأحافظ على التواصل البصري مع ثلاث نقاط مختلفة من الجمهور."
+      },
+      {
+        "speaker": "Bruno",
+        "es": "Perfecto. Sin improvisación en el guion, pero con espacio para la naturalidad.",
+        "en": "Perfect. No improvisation in the script, but with room for naturalness.",
+        "ar": "ممتاز. بلا ارتجال في النص، لكن مع مساحة للطبيعية."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Arte de Persuadir",
+      "en": "The Art of Persuading",
+      "ar": "فن الإقناع"
+    },
+    "text_es": "Un buen orador comienza por el esquema: apertura con gancho, desarrollo en tres bloques y cierre con memoria. Es la retórica la que ordena esos bloques, y es la pausa la que les da respiro. La persuasión, al final, no reside en el volumen de la voz, sino en la coherencia entre palabra, gesto y mirada. Cuando estos elementos se alinean, el público escucha con los ojos.",
+    "text_en": "A good speaker starts with an outline: an opening with a hook, development in three blocks and a memorable closing. It is rhetoric that orders these blocks, and it is the pause that gives them breathing room. Persuasion, in the end, lies not in the volume of the voice but in the coherence among word, gesture and gaze. When these elements align, the audience listens with its eyes.",
+    "text_ar": "يبدأ الخطيب الجيد بالخطة: افتتاحية بخطّاف، وتطوير في ثلاث كتل، وخاتمة لا تُنسى. إن البلاغة هي التي ترتب هذه الكتل، والتوقفة هي التي تمنحها مساحة للتنفس. ولا يكمن الإقناع في النهاية في ارتفاع الصوت، بل في الاتساق بين الكلمة والإيماءة والنظرة. وعندما تتآلف هذه العناصر، يستمع الجمهور بعينيه."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué frase usa el relieve de énfasis correctamente?",
+        "en": "Which sentence correctly uses the emphatic cleft structure?",
+        "ar": "أي جملة تستخدم تركيب التوكيد بشكل صحيح؟"
+      },
+      "options": [
+        {
+          "es": "Es la pausa lo que sostiene al público.",
+          "en": "É a pausa que sustenta a plateia.",
+          "ar": "É a pausa que sustenta a plateia."
+        },
+        {
+          "es": "Es la pausa lo que ella sostiene.",
+          "en": "É a pausa que ela sustenta.",
+          "ar": "É a pausa que ela sustenta."
+        },
+        {
+          "es": "El público que es la pausa sostiene. (incorrecto)",
+          "en": "A plateia que é a pausa sustenta.",
+          "ar": "A plateia que é a pausa sustenta."
+        }
+      ],
+      "answer": "Es la pausa lo que sostiene al público.",
+      "explanation": {
+        "es": "El relieve es 'es + elemento destacado + lo que + verbo': 'Es la pausa lo que sostiene al público'.",
+        "en": "The cleft is 'é + highlighted element + que + verb': 'É a pausa que sustenta a plateia'.",
+        "ar": "التوكيد يكون 'é + العنصر المبرز + que + الفعل': 'É a pausa que sustenta a plateia'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cuál es la función de la pregunta retórica en un discurso?",
+        "en": "What is the function of the rhetorical question in a speech?",
+        "ar": "ما وظيفة السؤال البلاغي في الخطاب؟"
+      },
+      "options": [
+        {
+          "es": "involucrar y orientar la reflexión",
+          "en": "to engage and guide reflection",
+          "ar": "إشراك الجمهور وتوجيه التفكير"
+        },
+        {
+          "es": "recopilar datos del público",
+          "en": "to collect data from the audience",
+          "ar": "جمع بيانات من الجمهور"
+        },
+        {
+          "es": "interrumpir el discurso",
+          "en": "to interrupt the speech",
+          "ar": "مقاطعة الكلام"
+        }
+      ],
+      "answer": "involucrar y orientar la reflexión",
+      "explanation": {
+        "es": "La pregunta retórica involucra y orienta sin exigir respuesta.",
+        "en": "The rhetorical question engages and guides without requiring an answer.",
+        "ar": "السؤال البلاغي يشغل الذهن ويوجه دون أن يطلب جوابًا."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: 'rhetorical question'",
+        "en": "Translate into Portuguese: 'rhetorical question'",
+        "ar": "ترجم إلى البرتغالية: 'rhetorical question'"
+      },
+      "options": [],
+      "answer": "pregunta retórica",
+      "explanation": {
+        "es": "'Pregunta retórica' es el término consagrado.",
+        "en": "'Pergunta retórica' is the established term.",
+        "ar": "المصطلح المتعارف عليه هو 'pergunta retórica'."
+      }
+    }
+  ]
+}

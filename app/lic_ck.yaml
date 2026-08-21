@@ -1,0 +1,14 @@
+permittedLicenses:
+  - MIT
+  - BSD-3-Clause
+  - BSD-2-Clause
+  - Apache-2.0
+  - ISC
+  - MPL-2.0
+  - Unicode-TOU
+  - BSD-3-Clause-Clear
+
+copyrightNotice: {}
+
+omitDisclaimer:
+  - flutter_lints

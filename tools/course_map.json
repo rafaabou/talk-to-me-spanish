@@ -1,0 +1,586 @@
+{
+  "levels": [
+    {
+      "id": "A1",
+      "name_pt": "Iniciante",
+      "name_en": "Beginner",
+      "name_ar": "مبتدئ",
+      "description_pt": "Primeiros passos: apresentar-se, cumprimentar, falar sobre si mesmo.",
+      "description_en": "First steps: introduce yourself, greet people, talk about yourself.",
+      "description_ar": "الخطوات الأولى: التعريف بالنفس، التحية، التحدث عن نفسك.",
+      "lessons": [
+        {
+          "id": "A1-01",
+          "title_pt": "O Alfabeto e a Pronúncia",
+          "title_en": "The Alphabet and Pronunciation",
+          "title_ar": "الأبجدية والنطق",
+          "title_es": "El Alfabeto y la Pronunciación"
+        },
+        {
+          "id": "A1-02",
+          "title_pt": "Cumprimentos e Apresentações",
+          "title_en": "Greetings and Introductions",
+          "title_ar": "التحيات والتعارف",
+          "title_es": "Saludos y Presentaciones"
+        },
+        {
+          "id": "A1-03",
+          "title_pt": "Números de 0 a 100",
+          "title_en": "Numbers 0 to 100",
+          "title_ar": "الأرقام من 0 إلى 100",
+          "title_es": "Números del 0 al 100"
+        },
+        {
+          "id": "A1-04",
+          "title_pt": "Artigos e Substantivos",
+          "title_en": "Articles and Nouns",
+          "title_ar": "أدوات التعريف والأسماء",
+          "title_es": "Artículos y Sustantivos"
+        },
+        {
+          "id": "A1-05",
+          "title_pt": "Verbo Ser e Estar",
+          "title_en": "Verb to Be (Ser/Estar)",
+          "title_ar": "فعل الكينونة (Ser/Estar)",
+          "title_es": "Verbos Ser y Estar"
+        },
+        {
+          "id": "A1-06",
+          "title_pt": "Presente do Indicativo",
+          "title_en": "Simple Present",
+          "title_ar": "المضارع البسيط",
+          "title_es": "Presente de Indicativo"
+        },
+        {
+          "id": "A1-07",
+          "title_pt": "Família e Pessoas",
+          "title_en": "Family and People",
+          "title_ar": "العائلة والأشخاص",
+          "title_es": "Familia y Personas"
+        },
+        {
+          "id": "A1-08",
+          "title_pt": "Cores, Roupas e Adjetivos",
+          "title_en": "Colors, Clothes and Adjectives",
+          "title_ar": "الألوان والملابس والصفات",
+          "title_es": "Colores, Ropa y Adjetivos"
+        },
+        {
+          "id": "A1-09",
+          "title_pt": "No Restaurante",
+          "title_en": "At the Restaurant",
+          "title_ar": "في المطعم",
+          "title_es": "En el Restaurante"
+        },
+        {
+          "id": "A1-10",
+          "title_pt": "A Casa e os Cômodos",
+          "title_en": "The House and Rooms",
+          "title_ar": "المنزل والغرف",
+          "title_es": "La Casa y las Habitaciones"
+        },
+        {
+          "id": "A1-11",
+          "title_pt": "Horas e Rotina Diária",
+          "title_en": "Time and Daily Routine",
+          "title_ar": "الساعة والروتين اليومي",
+          "title_es": "Horas y Rutina Diaria"
+        },
+        {
+          "id": "A1-12",
+          "title_pt": "Revisão A1",
+          "title_en": "A1 Review",
+          "title_ar": "مراجعة المستوى A1",
+          "title_es": "Repaso A1"
+        }
+      ],
+      "name_es": "Principiante",
+      "description_es": "Primeros pasos: presentarte, saludar, hablar de ti mismo."
+    },
+    {
+      "id": "A2",
+      "name_pt": "Básico",
+      "name_en": "Elementary",
+      "name_ar": "أساسي",
+      "description_pt": "Sobreviver em situações cotidianas e descrever experiências simples.",
+      "description_en": "Survive everyday situations and describe simple experiences.",
+      "description_ar": "التعامل مع المواقف اليومية ووصف التجارب البسيطة.",
+      "lessons": [
+        {
+          "id": "A2-01",
+          "title_pt": "Pretérito Perfeito",
+          "title_en": "Simple Past",
+          "title_ar": "الماضي البسيط",
+          "title_es": "Pretérito Indefinido"
+        },
+        {
+          "id": "A2-02",
+          "title_pt": "Fazendo Compras",
+          "title_en": "Going Shopping",
+          "title_ar": "التسوق",
+          "title_es": "De Compras"
+        },
+        {
+          "id": "A2-03",
+          "title_pt": "Pronomes Oblíquos",
+          "title_en": "Object Pronouns",
+          "title_ar": "ضمائر المفعول",
+          "title_es": "Pronombres de Objeto"
+        },
+        {
+          "id": "A2-04",
+          "title_pt": "Viajando pelo Brasil",
+          "title_en": "Traveling through Brazil",
+          "title_ar": "السفر في البرازيل",
+          "title_es": "Viajando por Hispanoamérica"
+        },
+        {
+          "id": "A2-05",
+          "title_pt": "Comparativos e Superlativos",
+          "title_en": "Comparatives and Superlatives",
+          "title_ar": "أسماء التفضيل والمقارنة",
+          "title_es": "Comparativos y Superlativos"
+        },
+        {
+          "id": "A2-06",
+          "title_pt": "Clima e Estações",
+          "title_en": "Weather and Seasons",
+          "title_ar": "الطقس والفصول",
+          "title_es": "Clima y Estaciones"
+        },
+        {
+          "id": "A2-07",
+          "title_pt": "Futuro Imediato e Futuro Simples",
+          "title_en": "Immediate and Simple Future",
+          "title_ar": "المستقبل القريب والبسيط",
+          "title_es": "Futuro Inmediato y Futuro Simple"
+        },
+        {
+          "id": "A2-08",
+          "title_pt": "Saúde e Corpo Humano",
+          "title_en": "Health and the Human Body",
+          "title_ar": "الصحة وجسم الإنسان",
+          "title_es": "Salud y Cuerpo Humano"
+        },
+        {
+          "id": "A2-09",
+          "title_pt": "Imperativo (Pedidos e Ordens)",
+          "title_en": "Imperative (Requests and Orders)",
+          "title_ar": "صيغة الأمر (الطلبات والأوامر)",
+          "title_es": "Imperativo (Peticiones y Órdenes)"
+        },
+        {
+          "id": "A2-10",
+          "title_pt": "Telefone e Comunicação",
+          "title_en": "Phone and Communication",
+          "title_ar": "الهاتف والاتصال",
+          "title_es": "Teléfono y Comunicación"
+        },
+        {
+          "id": "A2-11",
+          "title_pt": "Passado Contínuo (Pretérito Imperfeito)",
+          "title_en": "Past Continuous (Imperfect)",
+          "title_ar": "الماضي المستمر",
+          "title_es": "Pasado Continuo (Pretérito Imperfecto)"
+        },
+        {
+          "id": "A2-12",
+          "title_pt": "Revisão A2",
+          "title_en": "A2 Review",
+          "title_ar": "مراجعة المستوى A2",
+          "title_es": "Repaso A2"
+        }
+      ],
+      "name_es": "Básico",
+      "description_es": "Sobrevivir en situaciones cotidianas y describir experiencias simples."
+    },
+    {
+      "id": "B1",
+      "name_pt": "Intermediário",
+      "name_en": "Intermediate",
+      "name_ar": "متوسط",
+      "description_pt": "Lidar com situações de viagem, trabalho e expressar opiniões.",
+      "description_en": "Handle travel and work situations, express opinions.",
+      "description_ar": "التعامل مع مواقف السفر والعمل والتعبير عن الآراء.",
+      "lessons": [
+        {
+          "id": "B1-01",
+          "title_pt": "Futuro do Pretérito (Condicional)",
+          "title_en": "Conditional",
+          "title_ar": "الشرط (المستقبل الناقص)",
+          "title_es": "Condicional"
+        },
+        {
+          "id": "B1-02",
+          "title_pt": "Trabalho e Entrevistas",
+          "title_en": "Work and Interviews",
+          "title_ar": "العمل والمقابلات",
+          "title_es": "Trabajo y Entrevistas"
+        },
+        {
+          "id": "B1-03",
+          "title_pt": "Pronomes Relativos",
+          "title_en": "Relative Pronouns",
+          "title_ar": "الضمائر الموصولة",
+          "title_es": "Pronombres Relativos"
+        },
+        {
+          "id": "B1-04",
+          "title_pt": "Mídia e Notícias",
+          "title_en": "Media and News",
+          "title_ar": "الإعلام والأخبار",
+          "title_es": "Medios y Noticias"
+        },
+        {
+          "id": "B1-05",
+          "title_pt": "Gerúndio e Construções Progressivas",
+          "title_en": "Gerund and Progressive Constructions",
+          "title_ar": "المصدر المستمر",
+          "title_es": "Gerundio y Construcciones Progresivas"
+        },
+        {
+          "id": "B1-06",
+          "title_pt": "Futebol e Esportes",
+          "title_en": "Soccer and Sports",
+          "title_ar": "كرة القدم والرياضة",
+          "title_es": "Fútbol y Deportes"
+        },
+        {
+          "id": "B1-07",
+          "title_pt": "Expressões de Opinião e Argumentação",
+          "title_en": "Opinions and Argumentation",
+          "title_ar": "التعبير عن الرأي والمناقشة",
+          "title_es": "Expresar Opinión y Argumentar"
+        },
+        {
+          "id": "B1-08",
+          "title_pt": "Moradia e Aluguel",
+          "title_en": "Housing and Rent",
+          "title_ar": "السكن والإيجار",
+          "title_es": "Vivienda y Alquiler"
+        },
+        {
+          "id": "B1-09",
+          "title_pt": "Prefeito Mais-que-perfeito",
+          "title_en": "Pluperfect",
+          "title_ar": "الماضي التام",
+          "title_es": "Pretérito Pluscuamperfecto"
+        },
+        {
+          "id": "B1-10",
+          "title_pt": "Festas e Celebrações",
+          "title_en": "Parties and Celebrations",
+          "title_ar": "الحفلات والاحتفالات",
+          "title_es": "Fiestas y Celebraciones"
+        },
+        {
+          "id": "B1-11",
+          "title_pt": "Banco, Dinheiro e Pagamentos",
+          "title_en": "Banking, Money and Payments",
+          "title_ar": "البنوك والمال والدفع",
+          "title_es": "Banco, Dinero y Pagos"
+        },
+        {
+          "id": "B1-12",
+          "title_pt": "Revisão B1",
+          "title_en": "B1 Review",
+          "title_ar": "مراجعة المستوى B1",
+          "title_es": "Repaso B1"
+        }
+      ],
+      "name_es": "Intermedio",
+      "description_es": "Manejar situaciones de viaje y trabajo, expresar opiniones."
+    },
+    {
+      "id": "B2",
+      "name_pt": "Intermediário Alto",
+      "name_en": "Upper-Intermediate",
+      "name_ar": "متوسط متقدم",
+      "description_pt": "Fluência em discussões complexas, texto e trabalho.",
+      "description_en": "Fluency in complex discussions, text and work.",
+      "description_ar": "الطلاقة في المناقشات المعقدة والنصوص والعمل.",
+      "lessons": [
+        {
+          "id": "B2-01",
+          "title_pt": "Subjuntivo I (Presente)",
+          "title_en": "Subjunctive I (Present)",
+          "title_ar": "صيغة المضارع الشرطي",
+          "title_es": "Subjuntivo I (Presente)"
+        },
+        {
+          "id": "B2-02",
+          "title_pt": "Política e Sociedade",
+          "title_en": "Politics and Society",
+          "title_ar": "السياسة والمجتمع",
+          "title_es": "Política y Sociedad"
+        },
+        {
+          "id": "B2-03",
+          "title_pt": "Voz Passiva",
+          "title_en": "Passive Voice",
+          "title_ar": "المبني للمجهول",
+          "title_es": "Voz Pasiva"
+        },
+        {
+          "id": "B2-04",
+          "title_pt": "Meio Ambiente",
+          "title_en": "Environment",
+          "title_ar": "البيئة",
+          "title_es": "Medio Ambiente"
+        },
+        {
+          "id": "B2-05",
+          "title_pt": "Subjuntivo II (Imperfeito)",
+          "title_en": "Subjunctive II (Imperfect)",
+          "title_ar": "صيغة الماضي الشرطي",
+          "title_es": "Subjuntivo II (Imperfecto)"
+        },
+        {
+          "id": "B2-06",
+          "title_pt": "Literatura e Artes",
+          "title_en": "Literature and Arts",
+          "title_ar": "الأدب والفنون",
+          "title_es": "Literatura y Artes"
+        },
+        {
+          "id": "B2-07",
+          "title_pt": "Conjunções e Conectivos",
+          "title_en": "Conjunctions and Connectors",
+          "title_ar": "أدوات الربط",
+          "title_es": "Conjunciones y Conectores"
+        },
+        {
+          "id": "B2-08",
+          "title_pt": "Ciência e Tecnologia",
+          "title_en": "Science and Technology",
+          "title_ar": "العلوم والتكنولوجيا",
+          "title_es": "Ciencia y Tecnología"
+        },
+        {
+          "id": "B2-09",
+          "title_pt": "Subjuntivo III (Futuro)",
+          "title_en": "Subjunctive III (Future)",
+          "title_ar": "صيغة المستقبل الشرطي",
+          "title_es": "Subjuntivo III (Futuro)"
+        },
+        {
+          "id": "B2-10",
+          "title_pt": "Negócios e Economia",
+          "title_en": "Business and Economy",
+          "title_ar": "الأعمال والاقتصاد",
+          "title_es": "Negocios y Economía"
+        },
+        {
+          "id": "B2-11",
+          "title_pt": "Falsos Cognatos e Dicas de Tradução",
+          "title_en": "False Cognates and Translation Tips",
+          "title_ar": "الكلمات المتماثلة الخادعة ونصائح الترجمة",
+          "title_es": "Falsos Amigos y Consejos de Traducción"
+        },
+        {
+          "id": "B2-12",
+          "title_pt": "Revisão B2",
+          "title_en": "B2 Review",
+          "title_ar": "مراجعة المستوى B2",
+          "title_es": "Repaso B2"
+        }
+      ],
+      "name_es": "Intermedio alto",
+      "description_es": "Fluidez en discusiones complejas, texto y trabajo."
+    },
+    {
+      "id": "C1",
+      "name_pt": "Avançado",
+      "name_en": "Advanced",
+      "name_ar": "متقدم",
+      "description_pt": "Expressão natural, nuances e registros formais.",
+      "description_en": "Natural expression, nuances and formal registers.",
+      "description_ar": "التعبير الطبيعي والفروق الدقيقة والتسجيل الرسمي.",
+      "lessons": [
+        {
+          "id": "C1-01",
+          "title_pt": "Subjuntivo em Cláusulas Complexas",
+          "title_en": "Subjunctive in Complex Clauses",
+          "title_ar": "الشرط في الجمل المعقدة",
+          "title_es": "Subjuntivo en Oraciones Complejas"
+        },
+        {
+          "id": "C1-02",
+          "title_pt": "Coloquialismos e Gírias",
+          "title_en": "Colloquialisms and Slang",
+          "title_ar": "العامية والمصطلحات الدارجة",
+          "title_es": "Coloquialismos y Jerga"
+        },
+        {
+          "id": "C1-03",
+          "title_pt": "Crônicas e Contos (Leitura)",
+          "title_en": "Chronicles and Short Stories (Reading)",
+          "title_ar": "مقالات وقصص قصيرة (قراءة)",
+          "title_es": "Crónicas y Cuentos (Lectura)"
+        },
+        {
+          "id": "C1-04",
+          "title_pt": "Discurso Indireto",
+          "title_en": "Reported Speech",
+          "title_ar": "الكلام المنقول",
+          "title_es": "Estilo Indirecto"
+        },
+        {
+          "id": "C1-05",
+          "title_pt": "Regência Verbal e Preposições",
+          "title_en": "Verbal Regimen and Prepositions",
+          "title_ar": "تعدية الأفعال وحروف الجر",
+          "title_es": "Régimen Verbal y Preposiciones"
+        },
+        {
+          "id": "C1-06",
+          "title_pt": "Música e Cultura Popular",
+          "title_en": "Music and Popular Culture",
+          "title_ar": "الموسيقى والثقافة الشعبية",
+          "title_es": "Música y Cultura Popular"
+        },
+        {
+          "id": "C1-07",
+          "title_pt": "Redação Formal: Cartas e E-mails",
+          "title_en": "Formal Writing: Letters and Emails",
+          "title_ar": "الكتابة الرسمية: الرسائل والبريد",
+          "title_es": "Redacción Formal: Cartas y Correos"
+        },
+        {
+          "id": "C1-08",
+          "title_pt": "Concordância Nominal e Verbal",
+          "title_en": "Nominal and Verbal Agreement",
+          "title_ar": "مطابقة الاسم والفعل",
+          "title_es": "Concordancia Nominal y Verbal"
+        },
+        {
+          "id": "C1-09",
+          "title_pt": "História do Brasil",
+          "title_en": "History of Brazil",
+          "title_ar": "تاريخ البرازيل",
+          "title_es": "Historia de Hispanoamérica"
+        },
+        {
+          "id": "C1-10",
+          "title_pt": "Inversão e Ênfase",
+          "title_en": "Inversion and Emphasis",
+          "title_ar": "التقديم والتأخير والتوكيد",
+          "title_es": "Inversión y Énfasis"
+        },
+        {
+          "id": "C1-11",
+          "title_pt": "Debate e Opinião Crítica",
+          "title_en": "Debate and Critical Opinion",
+          "title_ar": "النقاش والرأي النقدي",
+          "title_es": "Debate y Opinión Crítica"
+        },
+        {
+          "id": "C1-12",
+          "title_pt": "Revisão C1",
+          "title_en": "C1 Review",
+          "title_ar": "مراجعة المستوى C1",
+          "title_es": "Repaso C1"
+        }
+      ],
+      "name_es": "Avanzado",
+      "description_es": "Expresión natural, matices y registros formales."
+    },
+    {
+      "id": "C2",
+      "name_pt": "Proficiência",
+      "name_en": "Proficiency",
+      "name_ar": "إتقان",
+      "description_pt": "Domínio quase nativo em todos os contextos.",
+      "description_en": "Near-native mastery in all contexts.",
+      "description_ar": "إتقان شبه أصلي في جميع السياقات.",
+      "lessons": [
+        {
+          "id": "C2-01",
+          "title_pt": "Expressões Idiomáticas Avançadas",
+          "title_en": "Advanced Idiomatic Expressions",
+          "title_ar": "التعبيرات الاصطلاحية المتقدمة",
+          "title_es": "Expresiones Idiomáticas Avanzadas"
+        },
+        {
+          "id": "C2-02",
+          "title_pt": "Análise de Textos Literários",
+          "title_en": "Literary Text Analysis",
+          "title_ar": "تحليل النصوص الأدبية",
+          "title_es": "Análisis de Textos Literarios"
+        },
+        {
+          "id": "C2-03",
+          "title_pt": "Estruturas Sintáticas Complexas",
+          "title_en": "Complex Syntactic Structures",
+          "title_ar": "التراكيب النحوية المعقدة",
+          "title_es": "Estructuras Sintácticas Complejas"
+        },
+        {
+          "id": "C2-04",
+          "title_pt": "Linguagem Jurídica e Acadêmica",
+          "title_en": "Legal and Academic Language",
+          "title_ar": "اللغة القانونية والأكاديمية",
+          "title_es": "Lenguaje Jurídico y Académico"
+        },
+        {
+          "id": "C2-05",
+          "title_pt": "Variações Regionais",
+          "title_en": "Regional Variations",
+          "title_ar": "الاختلافات الإقليمية",
+          "title_es": "Variaciones Regionales"
+        },
+        {
+          "id": "C2-06",
+          "title_pt": "Humor e Ironia",
+          "title_en": "Humor and Irony",
+          "title_ar": "الفكاهة والسخرية",
+          "title_es": "Humor e Ironía"
+        },
+        {
+          "id": "C2-07",
+          "title_pt": "Tradução Avançada (PT↔EN↔AR)",
+          "title_en": "Advanced Translation (PT↔EN↔AR)",
+          "title_ar": "الترجمة المتقدمة (برتغالي↔إنجليزي↔عربي)",
+          "title_es": "Traducción Avanzada (ES↔EN↔AR)"
+        },
+        {
+          "id": "C2-08",
+          "title_pt": "Prosa Científica e Técnica",
+          "title_en": "Scientific and Technical Prose",
+          "title_ar": "النثر العلمي والتقني",
+          "title_es": "Prosa Científica y Técnica"
+        },
+        {
+          "id": "C2-09",
+          "title_pt": "Filosofia e Pensamento Crítico",
+          "title_en": "Philosophy and Critical Thinking",
+          "title_ar": "الفلسفة والتفكير النقدي",
+          "title_es": "Filosofía y Pensamiento Crítico"
+        },
+        {
+          "id": "C2-10",
+          "title_pt": "Oratória e Apresentações",
+          "title_en": "Oratory and Presentations",
+          "title_ar": "الخطابة والعروض",
+          "title_es": "Oratoria y Presentaciones"
+        },
+        {
+          "id": "C2-11",
+          "title_pt": "Prova Final: Proficiência",
+          "title_en": "Final Test: Proficiency",
+          "title_ar": "الاختبار النهائي: الإتقان",
+          "title_es": "Examen Final: Proficiencia"
+        },
+        {
+          "id": "C2-12",
+          "title_pt": "Certificado e Próximos Passos",
+          "title_en": "Certificate and Next Steps",
+          "title_ar": "الشهادة والخطوات التالية",
+          "title_es": "Certificado y Próximos Pasos"
+        }
+      ],
+      "name_es": "Proficiencia",
+      "description_es": "Dominio casi nativo en todos los contextos."
+    }
+  ]
+}
