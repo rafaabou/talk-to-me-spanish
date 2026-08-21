@@ -25,7 +25,9 @@ class AudioService {
   Future<bool> playText(String text, String lang) async {
     final key = audioKey(text, lang); // e.g. "es_bac80f75e917.opus"
     final asset = 'assets/audio/$key';
-    debugPrint('AudioService: playing $asset for lang=$lang text="$text"');
+    if (kDebugMode) {
+      debugPrint('AudioService: playing $asset for lang=$lang text="$text"');
+    }
     return playAsset(asset);
   }
 
@@ -34,10 +36,14 @@ class AudioService {
       // Verify the asset actually exists first
       final exists = await _assetExists(assetPath);
       if (!exists) {
-        debugPrint('AudioService: asset NOT FOUND: $assetPath');
+        if (kDebugMode) {
+          debugPrint('AudioService: asset NOT FOUND: $assetPath');
+        }
         return false;
       }
-      debugPrint('AudioService: asset found, setting up player');
+      if (kDebugMode) {
+        debugPrint('AudioService: asset found, setting up player');
+      }
       final player = _audioPlayer;
       await player.stop();
       await player.setAsset(assetPath);
@@ -63,10 +69,14 @@ class AudioService {
           await sub.cancel();
         }
       }
-      debugPrint('AudioService: playback done, duration=${player.duration}');
+      if (kDebugMode) {
+        debugPrint('AudioService: playback done, duration=${player.duration}');
+      }
       return true;
     } catch (e, s) {
-      debugPrint('AudioService: ERROR playing $assetPath: $e\n$s');
+      if (kDebugMode) {
+        debugPrint('AudioService: ERROR playing $assetPath: $e\n$s');
+      }
       // A broken/stuck player should never require an app restart.
       try {
         await _player?.dispose();

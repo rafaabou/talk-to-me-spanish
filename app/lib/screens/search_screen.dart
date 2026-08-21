@@ -6,6 +6,7 @@ import '../services/content_index.dart';
 import 'lesson_screen.dart';
 import '../widgets/app_selection_area.dart';
 import '../widgets/credit_footer.dart';
+import '../services/ui_text.dart';
 
 class SearchResult {
   final String lessonId;
@@ -27,6 +28,7 @@ class _SearchScreenState extends State<SearchScreen> {
   List<SearchResult>? _index;
   List<SearchResult> _results = [];
   bool _loading = true;
+  bool _failed = false;
 
   @override
   void initState() {
@@ -41,7 +43,17 @@ class _SearchScreenState extends State<SearchScreen> {
   }
 
   Future<void> _buildIndex() async {
-    final index = await ContentIndexRepository.instance.load();
+    late final ContentIndex index;
+    try {
+      index = await ContentIndexRepository.instance.load();
+    } catch (e) {
+      if (!mounted) return;
+      setState(() {
+        _loading = false;
+        _failed = true;
+      });
+      return;
+    }
     final results = <SearchResult>[];
     for (final v in index.vocab) {
       results.add(
@@ -117,13 +129,7 @@ class _SearchScreenState extends State<SearchScreen> {
     return AppSelectionArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Text(
-            lang == 'ar'
-                ? 'بحث'
-                : lang == 'es'
-                ? 'Buscar'
-                : 'Search',
-          ),
+          title: Text(uiText(lang, ar: 'بحث', es: 'Buscar', other: 'Search')),
         ),
         body: Column(
           children: [
@@ -134,12 +140,12 @@ class _SearchScreenState extends State<SearchScreen> {
                 autofocus: true,
                 onChanged: _search,
                 decoration: InputDecoration(
-                  hintText:
-                      lang == 'ar'
-                          ? 'اكتب كلمة...'
-                          : lang == 'es'
-                          ? 'Escribe una palabra...'
-                          : 'Type a word...',
+                  hintText: uiText(
+                    lang,
+                    ar: 'اكتب كلمة...',
+                    es: 'Escribe una palabra...',
+                    other: 'Type a word...',
+                  ),
                   prefixIcon: const Icon(Icons.search),
                   border: const OutlineInputBorder(),
                 ),
@@ -149,14 +155,54 @@ class _SearchScreenState extends State<SearchScreen> {
               child:
                   _loading
                       ? const Center(child: CircularProgressIndicator())
+                      : _failed
+                      ? Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(
+                            Icons.error_outline,
+                            size: 56,
+                            color: Theme.of(context).colorScheme.error,
+                          ),
+                          const SizedBox(height: 12),
+                          Text(
+                            uiText(
+                              lang,
+                              ar: 'تعذر تحميل فهرس البحث',
+                              es: 'Error al cargar el índice de búsqueda',
+                              other: 'Failed to load search index',
+                            ),
+                          ),
+                          const SizedBox(height: 16),
+                          FilledButton.icon(
+                            onPressed: () {
+                              setState(() {
+                                _loading = true;
+                                _failed = false;
+                              });
+                              _buildIndex();
+                            },
+                            icon: const Icon(Icons.refresh),
+                            label: Text(
+                              uiText(
+                                lang,
+                                ar: 'إعادة المحاولة',
+                                es: 'Reintentar',
+                                other: 'Retry',
+                              ),
+                            ),
+                          ),
+                        ],
+                      )
                       : _results.isEmpty
                       ? Center(
                         child: Text(
-                          lang == 'ar'
-                              ? 'لا توجد نتائج'
-                              : lang == 'es'
-                              ? 'Sin resultados'
-                              : 'No results',
+                          uiText(
+                            lang,
+                            ar: 'لا توجد نتائج',
+                            es: 'Sin resultados',
+                            other: 'No results',
+                          ),
                           style: Theme.of(context).textTheme.bodyLarge,
                         ),
                       )
@@ -210,29 +256,18 @@ class _SearchScreenState extends State<SearchScreen> {
   String _fieldLabel(String field, String lang) {
     switch (field) {
       case 'vocabulary':
-        return lang == 'ar'
-            ? 'المفردات'
-            : lang == 'es'
-            ? 'Vocabulario'
-            : 'Vocabulary';
+        return uiText(
+          lang,
+          ar: 'المفردات',
+          es: 'Vocabulario',
+          other: 'Vocabulary',
+        );
       case 'dialogue':
-        return lang == 'ar'
-            ? 'الحوار'
-            : lang == 'es'
-            ? 'Diálogo'
-            : 'Dialogue';
+        return uiText(lang, ar: 'الحوار', es: 'Diálogo', other: 'Dialogue');
       case 'reading':
-        return lang == 'ar'
-            ? 'القراءة'
-            : lang == 'es'
-            ? 'Lectura'
-            : 'Reading';
+        return uiText(lang, ar: 'القراءة', es: 'Lectura', other: 'Reading');
       default:
-        return lang == 'ar'
-            ? 'القواعد'
-            : lang == 'es'
-            ? 'Gramática'
-            : 'Grammar';
+        return uiText(lang, ar: 'القواعد', es: 'Gramática', other: 'Grammar');
     }
   }
 }

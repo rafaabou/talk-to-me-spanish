@@ -16,7 +16,9 @@ class NotificationService {
       await _channel.invokeMethod('init');
       _initialized = true;
     } catch (e) {
-      debugPrint('NotificationService init failed: $e');
+      if (kDebugMode) {
+        debugPrint('NotificationService init failed: $e');
+      }
     }
   }
 
@@ -26,7 +28,9 @@ class NotificationService {
         'hour': hour,
       });
     } catch (e) {
-      debugPrint('scheduleDailyReviewReminder failed: $e');
+      if (kDebugMode) {
+        debugPrint('scheduleDailyReviewReminder failed: $e');
+      }
     }
   }
 
@@ -34,7 +38,9 @@ class NotificationService {
     try {
       await _channel.invokeMethod('scheduleStreakNudge', {'hour': hour});
     } catch (e) {
-      debugPrint('scheduleStreakNudge failed: $e');
+      if (kDebugMode) {
+        debugPrint('scheduleStreakNudge failed: $e');
+      }
     }
   }
 
@@ -44,7 +50,9 @@ class NotificationService {
         'dueCount': dueCount,
       });
     } catch (e) {
-      debugPrint('updateReviewNotification failed: $e');
+      if (kDebugMode) {
+        debugPrint('updateReviewNotification failed: $e');
+      }
     }
   }
 
@@ -52,7 +60,9 @@ class NotificationService {
     try {
       await _channel.invokeMethod('cancelAll');
     } catch (e) {
-      debugPrint('cancelAll failed: $e');
+      if (kDebugMode) {
+        debugPrint('cancelAll failed: $e');
+      }
     }
   }
 }

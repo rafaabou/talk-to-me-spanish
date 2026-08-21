@@ -7,6 +7,7 @@ import '../services/progress_service.dart';
 import '../widgets/audio_button.dart';
 import '../widgets/app_selection_area.dart';
 import '../widgets/credit_footer.dart';
+import '../services/ui_text.dart';
 
 class FavoritesScreen extends StatefulWidget {
   const FavoritesScreen({super.key});
@@ -55,11 +56,12 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
       child: Scaffold(
         appBar: AppBar(
           title: Text(
-            lang == 'ar'
-                ? 'الكلمات المفضلة'
-                : lang == 'es'
-                ? 'Palabras favoritas'
-                : 'Favorite words',
+            uiText(
+              lang,
+              ar: 'الكلمات المفضلة',
+              es: 'Palabras favoritas',
+              other: 'Favorite words',
+            ),
           ),
         ),
         body:
@@ -68,11 +70,12 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                 : _words.isEmpty
                 ? Center(
                   child: Text(
-                    lang == 'ar'
-                        ? 'لا توجد كلمات مفضلة بعد'
-                        : lang == 'es'
-                        ? 'Aún no hay palabras favoritas'
-                        : 'No favorite words yet',
+                    uiText(
+                      lang,
+                      ar: 'لا توجد كلمات مفضلة بعد',
+                      es: 'Aún no hay palabras favoritas',
+                      other: 'No favorite words yet',
+                    ),
                     style: Theme.of(context).textTheme.bodyLarge,
                   ),
                 )

@@ -6,6 +6,7 @@ import '../services/content_index.dart';
 import '../widgets/tri_block.dart';
 import '../widgets/app_selection_area.dart';
 import '../widgets/credit_footer.dart';
+import '../services/ui_text.dart';
 
 class GrammarItem {
   final String lessonId;
@@ -62,11 +63,12 @@ class _GrammarScreenState extends State<GrammarScreen> {
       child: Scaffold(
         appBar: AppBar(
           title: Text(
-            lang == 'ar'
-                ? 'مرجع القواعد'
-                : lang == 'es'
-                ? 'Guía de Gramática'
-                : 'Grammar Guide',
+            uiText(
+              lang,
+              ar: 'مرجع القواعد',
+              es: 'Guía de Gramática',
+              other: 'Grammar Guide',
+            ),
           ),
         ),
         body:

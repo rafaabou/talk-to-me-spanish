@@ -97,15 +97,15 @@ class _AppRootState extends State<_AppRoot> {
         return FutureBuilder<bool>(
           future: ProgressService.instance.getOnboardingDone(),
           builder: (context, snapshot) {
-            if (!snapshot.hasData) {
+            if (!snapshot.hasData && !snapshot.hasError) {
               return const Scaffold(
                 body: Center(child: CircularProgressIndicator()),
               );
             }
-            if (snapshot.data == false) {
-              return const OnboardingScreen();
+            if (snapshot.data == true) {
+              return const HomeScreen();
             }
-            return const HomeScreen();
+            return const OnboardingScreen();
           },
         );
       },

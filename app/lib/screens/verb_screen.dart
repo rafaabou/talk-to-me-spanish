@@ -7,6 +7,7 @@ import '../services/verb_repository.dart';
 import '../widgets/audio_button.dart';
 import '../widgets/app_selection_area.dart';
 import '../widgets/credit_footer.dart';
+import '../services/ui_text.dart';
 
 class VerbScreen extends StatefulWidget {
   const VerbScreen({super.key});
@@ -43,11 +44,12 @@ class _VerbScreenState extends State<VerbScreen> {
       child: Scaffold(
         appBar: AppBar(
           title: Text(
-            lang == 'ar'
-                ? 'تصريف الأفعال'
-                : lang == 'es'
-                ? 'Conjugación de Verbos'
-                : 'Verb Conjugations',
+            uiText(
+              lang,
+              ar: 'تصريف الأفعال',
+              es: 'Conjugación de Verbos',
+              other: 'Verb Conjugations',
+            ),
           ),
         ),
         body:
@@ -59,12 +61,12 @@ class _VerbScreenState extends State<VerbScreen> {
                       padding: const EdgeInsets.all(12),
                       child: TextField(
                         decoration: InputDecoration(
-                          hintText:
-                              lang == 'ar'
-                                  ? 'ابحث عن فعل...'
-                                  : lang == 'es'
-                                  ? 'Buscar verbo...'
-                                  : 'Search verb...',
+                          hintText: uiText(
+                            lang,
+                            ar: 'ابحث عن فعل...',
+                            es: 'Buscar verbo...',
+                            other: 'Search verb...',
+                          ),
                           prefixIcon: const Icon(Icons.search),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(12),
@@ -186,7 +188,7 @@ class _VerbDetailScreenState extends State<VerbDetailScreen> {
             Padding(
               padding: const EdgeInsets.all(12),
               child: Text(
-                lang == 'ar' ? widget.verb.en : widget.verb.en,
+                uiText(lang, ar: widget.verb.ar, other: widget.verb.en),
                 style: Theme.of(context).textTheme.titleMedium,
               ),
             ),
@@ -377,11 +379,12 @@ class _VerbQuizScreenState extends State<VerbQuizScreen> {
                         FilledButton(
                           onPressed: () => Navigator.pop(context),
                           child: Text(
-                            lang == 'ar'
-                                ? 'إنهاء'
-                                : lang == 'es'
-                                ? 'Terminar'
-                                : 'Done',
+                            uiText(
+                              lang,
+                              ar: 'إنهاء',
+                              es: 'Terminar',
+                              other: 'Done',
+                            ),
                           ),
                         ),
                       ],
@@ -453,11 +456,7 @@ class _VerbQuizScreenState extends State<VerbQuizScreen> {
                 child: FilledButton(
                   onPressed: _next,
                   child: Text(
-                    lang == 'ar'
-                        ? 'التالي'
-                        : lang == 'es'
-                        ? 'Siguiente'
-                        : 'Next',
+                    uiText(lang, ar: 'التالي', es: 'Siguiente', other: 'Next'),
                   ),
                 ),
               ),

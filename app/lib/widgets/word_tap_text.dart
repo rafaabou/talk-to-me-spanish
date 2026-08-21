@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/course_repository.dart';
 import 'audio_button.dart';
+import '../services/ui_text.dart';
 
 class WordLookup {
   final String es;
@@ -130,7 +131,7 @@ class _WordTapTextState extends State<WordTapText> {
   Widget build(BuildContext context) {
     final lang = Localizations.localeOf(context).languageCode;
     final primary = widget.es;
-    final secondary = lang == 'ar' ? widget.ar : widget.en;
+    final secondary = uiText(lang, ar: widget.ar, other: widget.en);
 
     final textStyle =
         widget.compact

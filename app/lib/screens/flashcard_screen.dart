@@ -8,6 +8,7 @@ import '../services/progress_service.dart';
 import '../widgets/audio_button.dart';
 import '../widgets/app_selection_area.dart';
 import '../widgets/credit_footer.dart';
+import '../services/ui_text.dart';
 
 class FlashcardScreen extends StatefulWidget {
   const FlashcardScreen({super.key});
@@ -126,11 +127,12 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
       child: Scaffold(
         appBar: AppBar(
           title: Text(
-            lang == 'ar'
-                ? 'البطاقات التعليمية'
-                : lang == 'es'
-                ? 'Tarjetas de Estudio'
-                : 'Flashcards',
+            uiText(
+              lang,
+              ar: 'البطاقات التعليمية',
+              es: 'Tarjetas de Estudio',
+              other: 'Flashcards',
+            ),
           ),
           actions: [
             PopupMenuButton<int>(
@@ -182,42 +184,46 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                   ),
                   const SizedBox(height: 16),
                   Text(
-                    lang == 'ar'
-                        ? 'انتهت الجلسة!'
-                        : lang == 'es'
-                        ? '¡Sesión completada!'
-                        : 'Session complete!',
+                    uiText(
+                      lang,
+                      ar: 'انتهت الجلسة!',
+                      es: '¡Sesión completada!',
+                      other: 'Session complete!',
+                    ),
                     style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                   const SizedBox(height: 12),
                   Text(
-                    lang == 'ar'
-                        ? 'عرفت $pct٪'
-                        : lang == 'es'
-                        ? 'Sabías el $pct%'
-                        : 'You knew $pct%',
+                    uiText(
+                      lang,
+                      ar: 'عرفت $pct٪',
+                      es: 'Sabías el $pct%',
+                      other: 'You knew $pct%',
+                    ),
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    lang == 'ar'
-                        ? 'معروف: $_known · كرر لاحقًا: $_again'
-                        : lang == 'es'
-                        ? 'Sabías: $_known · Repasar después: $_again'
-                        : 'Known: $_known · Review again: $_again',
+                    uiText(
+                      lang,
+                      ar: 'معروف: $_known · كرر لاحقًا: $_again',
+                      es: 'Sabías: $_known · Repasar después: $_again',
+                      other: 'Known: $_known · Review again: $_again',
+                    ),
                     style: Theme.of(context).textTheme.bodyMedium,
                   ),
                   const SizedBox(height: 24),
                   FilledButton(
                     onPressed: _newSession,
                     child: Text(
-                      lang == 'ar'
-                          ? 'جلسة جديدة'
-                          : lang == 'es'
-                          ? 'Nueva sesión'
-                          : 'New session',
+                      uiText(
+                        lang,
+                        ar: 'جلسة جديدة',
+                        es: 'Nueva sesión',
+                        other: 'New session',
+                      ),
                     ),
                   ),
                 ],
@@ -243,11 +249,12 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                 style: Theme.of(context).textTheme.labelLarge,
               ),
               Text(
-                lang == 'ar'
-                    ? 'أصايب: $_known · أخطاء: $_again'
-                    : lang == 'es'
-                    ? 'Sabías: $_known · Errores: $_again'
-                    : 'Known: $_known · Errors: $_again',
+                uiText(
+                  lang,
+                  ar: 'أصايب: $_known · أخطاء: $_again',
+                  es: 'Sabías: $_known · Errores: $_again',
+                  other: 'Known: $_known · Errors: $_again',
+                ),
                 style: Theme.of(context).textTheme.labelMedium,
               ),
             ],
@@ -303,18 +310,19 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                                 ?.copyWith(fontStyle: FontStyle.italic),
                           ),
                           Text(
-                            lang == 'ar' ? example.ar : example.en,
+                            uiText(lang, ar: example.ar, other: example.en),
                             textAlign: TextAlign.center,
                             style: Theme.of(context).textTheme.bodySmall,
                           ),
                         ],
                       ] else
                         Text(
-                          lang == 'ar'
-                              ? 'اضغط للكشف عن المعنى'
-                              : lang == 'es'
-                              ? 'Toca para revelar'
-                              : 'Tap to reveal',
+                          uiText(
+                            lang,
+                            ar: 'اضغط للكشف عن المعنى',
+                            es: 'Toca para revelar',
+                            other: 'Tap to reveal',
+                          ),
                           style: Theme.of(context).textTheme.bodySmall,
                         ),
                     ],
@@ -360,11 +368,12 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                         onPressed: () => _next(rating: 1),
                         icon: const Icon(Icons.refresh, color: Colors.orange),
                         label: Text(
-                          lang == 'ar'
-                              ? 'مرة أخرى'
-                              : lang == 'es'
-                              ? 'Otra vez'
-                              : 'Again',
+                          uiText(
+                            lang,
+                            ar: 'مرة أخرى',
+                            es: 'Otra vez',
+                            other: 'Again',
+                          ),
                         ),
                       ),
                     ),
@@ -374,11 +383,12 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                         onPressed: () => _next(rating: 3),
                         icon: const Icon(Icons.check),
                         label: Text(
-                          lang == 'ar'
-                              ? 'أعرفها'
-                              : lang == 'es'
-                              ? 'Sé'
-                              : 'I know it',
+                          uiText(
+                            lang,
+                            ar: 'أعرفها',
+                            es: 'Sé',
+                            other: 'I know it',
+                          ),
                         ),
                       ),
                     ),
@@ -391,11 +401,7 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                         onPressed: () => _next(rating: 4),
                         icon: const Icon(Icons.flash_on),
                         label: Text(
-                          lang == 'ar'
-                              ? 'سهل'
-                              : lang == 'es'
-                              ? 'Fácil'
-                              : 'Easy',
+                          uiText(lang, ar: 'سهل', es: 'Fácil', other: 'Easy'),
                         ),
                       ),
                     ),
