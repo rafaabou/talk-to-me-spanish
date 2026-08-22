@@ -1,6 +1,6 @@
 # Contributing to Talk To Me
 
-Thank you for your interest in contributing to Talk To Me! This document provides guidelines for contributing to the Talk To Me Spanish and Talk To Me Português Brasileiro apps.
+Thank you for your interest in contributing to Talk To Me! This document provides guidelines for contributing to the Talk To Me Spanish app.
 
 ## Code of Conduct
 
@@ -192,7 +192,6 @@ refactor(models): extract course models to separate file
 
 - English (en) - Base
 - Spanish (es) - Primary for Español app
-- Portuguese (pt) - Primary for Português app
 - Arabic (ar) - RTL support
 
 ### Adding New Language
