@@ -2,9 +2,9 @@ name: Build Talk To Me Spanish
 
 on:
   push:
-    branches: [develop, test]
+    branches: [main]
   pull_request:
-    branches: [develop, test]
+    branches: [main]
   workflow_dispatch:
     inputs:
       skip_security:
@@ -84,7 +84,7 @@ jobs:
 
       # ── Secret Scan (TruffleHog) ────────────────────────────────
       - name: Secret Scan (TruffleHog)
-        uses: trufflesecurity/trufflehog@v3
+        uses: trufflesecurity/trufflehog@v3.97.0
         with:
           path: ./
           extra_args: --results=verified
