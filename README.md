@@ -72,6 +72,7 @@ Flow: `feature/x → develop → main`. Cut a tag on `main` to publish a release
 ## 4. How it works — GitHub Actions (`.github/workflows/build.yml`)
 
 Triggers: push/PR to `develop`, `test`; tag `v*`; manual dispatch.
+Runs on the dedicated **self-hosted** runner labelled `spanish` (all 5 jobs).
 
 | Stage | Job | What it does |
 |---|---|---|
