@@ -98,6 +98,7 @@ jobs:
 
       # ── Upload Validation Reports ──────────────────────────────
       - name: Upload Validation Reports
+        continue-on-error: true
         uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -183,6 +184,7 @@ jobs:
           retention-days: 7
 
       - name: Upload Debug Symbols
+        continue-on-error: true
         uses: actions/upload-artifact@v4
         with:
           if-no-files-found: ignore
@@ -228,6 +230,7 @@ jobs:
 
       - name: Upload Grype Report
         if: matrix.scanner == 'grype'
+        continue-on-error: true
         uses: actions/upload-artifact@v4
         with:
           if-no-files-found: ignore
@@ -250,6 +253,7 @@ jobs:
 
       - name: Upload Trivy Results
         if: matrix.scanner == 'trivy'
+        continue-on-error: true
         uses: actions/upload-artifact@v4
         with:
           if-no-files-found: ignore
