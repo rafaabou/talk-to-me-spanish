@@ -53,7 +53,10 @@ void main() {
       final card = scheduler.firstReview('k', 3, now);
       expect(card.lapses, 0);
       expect(card.stability, FsrsScheduler.w4);
-      expect(card.difficulty, closeTo(FsrsScheduler.w1 + FsrsScheduler.w2 * 3, 1e-9));
+      expect(
+        card.difficulty,
+        closeTo(FsrsScheduler.w1 + FsrsScheduler.w2 * 3, 1e-9),
+      );
       expect(card.due.isAfter(now), isTrue);
     });
 
@@ -67,7 +70,11 @@ void main() {
   group('reviewCard', () {
     test('should_increment_reviews_and_lower_difficulty_on_success', () {
       final card = scheduler.firstReview('k', 3, now);
-      final reviewed = scheduler.reviewCard(card, 3, now.add(const Duration(days: 5)));
+      final reviewed = scheduler.reviewCard(
+        card,
+        3,
+        now.add(const Duration(days: 5)),
+      );
       expect(reviewed.reviews, card.reviews + 1);
       expect(reviewed.difficulty, lessThan(card.difficulty));
       expect(reviewed.difficulty, greaterThanOrEqualTo(1.0));
@@ -87,7 +94,11 @@ void main() {
 
     test('should_count_lapse_and_raise_difficulty_on_rating_1', () {
       final card = scheduler.firstReview('k', 3, now);
-      final lapsed = scheduler.reviewCard(card, 1, now.add(const Duration(days: 1)));
+      final lapsed = scheduler.reviewCard(
+        card,
+        1,
+        now.add(const Duration(days: 1)),
+      );
       expect(lapsed.lapses, card.lapses + 1);
       expect(lapsed.difficulty, greaterThan(card.difficulty));
       expect(lapsed.difficulty, lessThanOrEqualTo(10.0));
@@ -139,21 +150,31 @@ void main() {
       expect(
         scheduler.nextInterval(card, 2),
         closeTo(
-          min(card.stability * exp(FsrsScheduler.w9 * (1 - card.difficulty / 10)), 365.0),
+          min(
+            card.stability * exp(FsrsScheduler.w9 * (1 - card.difficulty / 10)),
+            365.0,
+          ),
           1e-9,
         ),
       );
       expect(
         scheduler.nextInterval(card, 3),
         closeTo(
-          min(card.stability * exp(FsrsScheduler.w10 * (1 - card.difficulty / 10)), 365.0),
+          min(
+            card.stability *
+                exp(FsrsScheduler.w10 * (1 - card.difficulty / 10)),
+            365.0,
+          ),
           1e-9,
         ),
       );
       expect(
         scheduler.nextInterval(card, 4),
         closeTo(
-          min(card.stability * exp(FsrsScheduler.w8 * (1 - card.difficulty / 10)), 365.0),
+          min(
+            card.stability * exp(FsrsScheduler.w8 * (1 - card.difficulty / 10)),
+            365.0,
+          ),
           1e-9,
         ),
       );

@@ -40,10 +40,7 @@ void main() {
       await ProgressService.instance.markCompleted('A1-01');
       final completed = await ProgressService.instance.getCompleted();
       expect(completed.length, 2);
-      expect(
-        await ProgressService.instance.isCompleted('A1-01'),
-        isTrue,
-      );
+      expect(await ProgressService.instance.isCompleted('A1-01'), isTrue);
     });
 
     test('should_start_streak_at_1_and_not_double_count_same_day', () async {
@@ -67,10 +64,7 @@ void main() {
     test('should_toggle_exercise_done', () async {
       final key = 'A1-01/exercises/0';
       await ProgressService.instance.toggleExerciseDone(key);
-      expect(
-        await ProgressService.instance.getCompletedExercises(),
-        {key},
-      );
+      expect(await ProgressService.instance.getCompletedExercises(), {key});
       await ProgressService.instance.toggleExerciseDone(key);
       expect(await ProgressService.instance.getCompletedExercises(), isEmpty);
     });

@@ -4,10 +4,7 @@ import 'package:talk_to_me_spanish/services/ui_text.dart';
 void main() {
   group('uiText', () {
     test('should_return_arabic_for_lang_ar', () {
-      expect(
-        uiText('ar', ar: 'أ', pt: 'p', other: 'e'),
-        'أ',
-      );
+      expect(uiText('ar', ar: 'أ', pt: 'p', other: 'e'), 'أ');
     });
 
     test('should_return_pt_for_lang_pt', () {
