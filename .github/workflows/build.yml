@@ -141,6 +141,9 @@ jobs:
       - name: Get Dependencies
         run: flutter pub get --enforce-lockfile
 
+      - name: Install unzip
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq unzip > /dev/null 2>&1
+
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
