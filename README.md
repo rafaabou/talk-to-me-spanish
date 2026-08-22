@@ -1,401 +1,165 @@
-# Talk To Me Spanish By Mohamed Rafaa Tounekti
+# Talk To Me Spanish
 
-![Flutter](https://img.shields.io/badge/Flutter-3.29.3-blue?logo=flutter)
-![Dart](https://img.shields.io/badge/Dart-3.7.2-blue?logo=dart)
-![License](https://img.shields.io/badge/License-Apache_2.0-green)
-![Android](https://img.shields.io/badge/Android-21%2B-green?logo=android)
-![Security](https://img.shields.io/badge/Security-DevSecOps-brightgreen)
-![Offline](https://img.shields.io/badge/Offline-First-orange)
+Offline-first **Spanish** learning app (Flutter, Android). 72 CEFR lessons (A1–C2), FSRS flashcards,
+quizzes, audio with speed/repeat controls, verb conjugator, stats + streaks — 100% offline.
 
-**Talk To Me Spanish** is a complete offline Spanish language learning app. Learn Spanish from A1 (beginner) to C2 (mastery) with interactive lessons, vocabulary, grammar, dialogues, and exercises — all 100% offline.
+- Package: `com.rafaabou.eszero_hero` · Min SDK 24 · Target: arm64 release APK (~30–40 MB)
+- Course content: `app/assets/course/` (72 lessons + index.json + verbs.json)
+- Audio: `app/assets/audio/` (offline .opus clips, MD5-keyed)
 
 ---
 
-## ✨ Features
+## 1. Repository layout
 
-### 🎓 **Complete Curriculum (A1–C2)**
-- **72 lessons** across 6 CEFR levels (A1, A2, B1, B2, C1, C2)
-- Progressive difficulty from basics to mastery
-- Each lesson: Objectives → Vocabulary → Grammar → Dialogue → Reading → Exercises
+```
+.
+├── app/                        # Flutter project
+│   ├── lib/                    # Dart code (screens / services / models / widgets)
+│   ├── assets/course/          # Lesson JSONs (generated) + index.json + verbs.json
+│   ├── assets/audio/           # Offline audio clips
+│   ├── android/                # Android host (Kotlin 2.2, AGP 8.7, minSdk 24)
+│   └── test/                   # Unit + widget tests (55 tests)
+├── tools/                      # Python content pipeline (build_index.py, ...)
+├── .github/workflows/build.yml # GitHub Actions DevSecOps pipeline
+├── .gitlab-ci.yml              # GitLab CI DevSecOps pipeline
+├── Dockerfile                  # Multi-stage builder/scanner images
+├── docker-compose.yml          # Local builder + scanner services
+└── SECURITY.md                 # Security policy & reporting
+```
 
-### 🧠 **Smart Learning**
-- **Spaced Repetition (FSRS)** — Intelligent flashcard algorithm adapts to your progress
-- **Configurable repetition** — 1×, 3×, 7×, 10× review cycles
-- **Streak tracking** — Daily study streaks with calendar heatmap
-- **Progress analytics** — Lesson completion, exercise accuracy, streak stats
+## 2. Local development
 
-### 📚 **Rich Content**
-- **Vocabulary** — 1000+ words with IPA pronunciation, examples, audio
-- **Grammar** — Interactive explanations with expandable sections, audio examples
-- **Dialogues** — Real conversations with speaker labels, audio playback
-- **Reading** — Comprehension texts with translations (ES)
-- **Exercises** — Multiple choice, fill-in-blank, listening, reordering, matching
-- **Speaking** — Repeat-after-me speaking practice
+Requirements: **Flutter 3.29.3** and **JDK 17**.
 
-### 🌍 **Language Support**
-| Language | Code | Status |
-|----------|------|--------|
-| Spanish | `es` | ✅ Primary |
-
-### 🔒 **Privacy & Security**
-- **100% Offline** — No internet required, no data leaves your device
-- **No tracking** — No analytics, no ads, no user accounts
-- **Local storage only** — SharedPreferences for progress
-- **Signed releases** — Cosign signatures, SLSA provenance
-- **Obfuscated builds** — R8 minification + Dart obfuscation
-
----
-
-## 🚀 Quick Start
-
-You can build the app in **three ways**:
-- **Option A** — Build locally on your machine
-- **Option B** — Build via GitHub Actions (CI/CD)
-- **Option C** — Build via GitLab CI/CD
-
-### Prerequisites
-- Android 5.0+ (API 21+)
-- 100MB free storage (includes audio assets)
-
-### Option A: Build Locally
+> ⚠️ JDK 25 breaks the Kotlin Gradle plugin (`JavaVersion.parse` crash).
+> Always build with JDK 17: `export JAVA_HOME=<path-to-jdk17>` if your system Java is newer.
 
 ```bash
-# 1) Prerequisites
-flutter --version  # 3.29.3+
-java --version     # 17+
-
-# 2) Install dependencies
 cd app
 flutter pub get
+flutter analyze            # must be clean
+flutter test               # 55 tests must pass
+flutter run                # run on device/emulator
 
-# 3) Run static analysis + tests (same checks CI runs)
-flutter analyze --fatal-infos
-flutter test
-dart format --set-exit-if-changed --output=none .
-
-# 4) Build the release APK
-flutter build apk --release --obfuscate --split-debug-info=build/debug-info
-
-# 5) Install on a connected device/emulator
-flutter install
-# or manually:
-# adb install -r build/app/outputs/flutter-apk/app-release.apk
+# Release APK (arm64-only, ~30-40 MB)
+flutter build apk --release --target-platform android-arm64
+# output: build/app/outputs/flutter-apk/app-release.apk
 ```
 
-> **Note:** The release build is signed automatically using `android/app/release.keystore`
-> (already present locally, never committed). If you don't have it, the build falls back to
-> reading the environment variables `RELEASE_KEYSTORE_PATH`, `RELEASE_KEYSTORE_PASSWORD`,
-> `RELEASE_KEY_ALIAS`, `RELEASE_KEY_PASSWORD`.
+Release signing reads env vars (`RELEASE_KEYSTORE_PATH`, `RELEASE_KEYSTORE_PASSWORD`,
+`RELEASE_KEY_ALIAS`, `RELEASE_KEY_PASSWORD`). If unset it falls back to
+`android/app/release.keystore` with the development password `release123`
+(see [Security notes](#8-security-notes)).
 
-### Option B: Build via GitHub Actions (CI/CD)
-
-The repository includes a full DevSecOps pipeline in `.github/workflows/build.yml`.
-It runs automatically on every `push`/`pull_request` to `main` or `develop`.
-
-**Pipeline stages:**
-```
-Validate → Build → Scan → Package → Release
-   │         │       │        │        │
-   ▼         ▼       ▼        ▼        ▼
-Format    Build    Grype    Sign      GitHub
-Analyze   APKs     Trivy    Cosign    Release
-Tests     Obfusc.  SBOM     SLSA      Assets
-License   Minify            Proven.
-Gitleaks
-TruffleHog
-```
-
-**What you need to do:**
-1. **Enable GitHub Actions** — already on by default for GitHub repos.
-2. **Add the signing secret** so releases are signed with your real keystore:
-   ```bash
-   gh secret set RELEASE_KEYSTORE_BASE64 \
-     --repo rafaabou/talk-to-me-spanish \
-     --body "$(base64 -w0 app/android/app/release.keystore)"
-   ```
-   > If the secret is not set, CI generates an *ephemeral* keystore and the build still
-   > completes (APK will be debug-signed — fine for testing, not for production releases).
-3. **Watch the run:**
-   ```bash
-   gh run list --repo rafaabou/talk-to-me-spanish
-   gh run watch --repo rafaabou/talk-to-me-spanish
-   ```
-4. **Create a release** by tagging a version:
-   ```bash
-   git tag v1.0.0
-   git push origin v1.0.0
-   ```
-   This triggers the `release` job, which attaches the signed APK, SBOMs and signatures
-   to a GitHub Release page.
-
-**Required GitHub Secrets:**
-| Secret | Purpose | Required |
-|--------|---------|----------|
-| `RELEASE_KEYSTORE_BASE64` | Base64 of `release.keystore` | Yes (production signing) |
-
-### Option C: Build via GitLab CI/CD
-
-The repository also includes a full DevSecOps pipeline in `.gitlab-ci.yml`.
-It runs automatically on every `push`/`merge_request` to `main` or `develop`.
-
-**Pipeline stages (`.gitlab-ci.yml`):**
-```
-validate → build → scan → package → release
-   │         │       │        │        │
-   ▼         ▼       ▼        ▼        ▼
-Format    Build    Grype    Sign      GitLab
-Analyze   APKs     Trivy    Cosign    Release
-Tests     Obfusc.  SBOM     SLSA      Assets
-License   Minify   MobSF    Proven.
-Gitleaks
-TruffleHog
-```
-
-**What you need to do:**
-1. **Push the repository to GitLab** (create a new project, then):
-   ```bash
-   git remote add gitlab git@gitlab.com:YOUR_USERNAME/talk-to-me-spanish.git
-   git push -u gitlab main
-   ```
-2. **Add the signing variable** so releases are signed with your real keystore:
-   ```bash
-   # In GitLab → Settings → CI/CD → Variables, add:
-   RELEASE_KEYSTORE_BASE64 = "$(base64 -w0 app/android/app/release.keystore)"
-   ```
-   > Optional: `MOBSF_API_KEY` and `MOBSF_URL` enable the (manual) MobSF job.
-   > If the keystore variable is not set, CI generates an *ephemeral* keystore and the
-   > build still completes (APK will be debug-signed).
-3. **Watch the pipeline:**
-   ```bash
-   # In GitLab → CI/CD → Pipelines, or via the GitLab CLI
-   glab ci list
-   glab ci status
-   ```
-4. **Create a release** by tagging a version:
-   ```bash
-   git tag v1.0.0
-   git push gitlab v1.0.0
-   ```
-   This triggers the `release` job, which creates a GitLab Release with the signed APK,
-   SBOMs and signatures.
-
-**Required GitLab CI/CD Variables:**
-| Variable | Purpose | Required |
-|----------|---------|----------|
-| `RELEASE_KEYSTORE_BASE64` | Base64 of `release.keystore` | Yes (production signing) |
-| `MOBSF_API_KEY` | MobSF API key | No (optional manual scan) |
-| `MOBSF_URL` | MobSF instance URL | No (optional manual scan) |
-
-### Updating the App
-
-Changes to the app name, description, or labels are in:
-`app/pubspec.yaml`, `app/lib/main.dart`, `app/android/app/src/main/AndroidManifest.xml`.
+### Content regeneration (optional)
 
 ```bash
-# 1) Edit the source file, e.g.
-cd "/path/to/espanol-zero-to-hero/app"
-# ...make your changes...
-
-# 2) Verify (analyze + tests + format)
-cd "/path/to/espanol-zero-to-hero/app" && flutter analyze && flutter test
-
-# 3) Commit & push
-cd "/path/to/espanol-zero-to-hero"
-git add -A && git commit -m "feat: ..." && git push origin main
-
-# 4) Confirm CI passes
-gh run list --repo rafaabou/talk-to-me-spanish
+python3 tools/build_index.py   # rebuild assets/course/index.json from the 72 lessons
 ```
 
----
+## 3. Gitflow
 
-## 🏗️ Architecture
+| Branch | Purpose | CI behaviour |
+|---|---|---|
+| `main` | Production code. Protected. | Full pipeline incl. scans |
+| `develop` | Integration branch | Full pipeline |
+| `feature/*` | Work branches, PR/MR → `develop` | Validation on MR |
+| `hotfix/*` | Urgent fixes → `main` (+ backport to develop) | Full pipeline |
+| `v*` tags | Releases (`v1.1.0`) | Build + GitHub/GitLab Release |
 
-```
-lib/
-├── main.dart                    # App entry point
-├── models/                      # Data models (Lesson, VocabWord, etc.)
-│   ├── course_models.dart
-│   └── verb_models.dart
-├── screens/                     # UI screens
-│   ├── home_screen.dart
-│   ├── lesson_list_screen.dart
-│   ├── lesson_screen.dart
-│   ├── flashcard_screen.dart
-│   ├── quiz_screen.dart
-│   ├── search_screen.dart
-│   ├── favorites_screen.dart
-│   ├── grammar_screen.dart
-│   ├── verb_screen.dart
-│   ├── stats_screen.dart
-│   └── onboarding_screen.dart
-├── widgets/                     # Reusable UI components
-└── services/                    # Business logic
-    ├── app_state.dart           # Global state (theme, lang, speed)
-    ├── audio_service.dart       # Audio playback
-    ├── content_index.dart       # Course index loading
-    ├── course_repository.dart   # Lesson content loading
-    ├── fsrs.dart                # Spaced repetition algorithm
-    ├── home_widget_service.dart # Home screen widget
-    ├── notification_service.dart # Local notifications
-    ├── pdf_export_service.dart  # Lesson PDF export
-    ├── progress_service.dart    # Progress persistence
-    └── verb_repository.dart     # Verb conjugation data
-```
+Flow: `feature/x → develop → main`. Cut a tag on `main` to publish a release.
 
-### Key Technologies
-| Layer | Technology |
-|-------|------------|
-| UI | Flutter 3.29, Material 3 |
-| State | Provider + ChangeNotifier |
-| Audio | just_audio |
-| Persistence | SharedPreferences |
-| PDF | pdf package |
-| Charts | fl_chart |
-| Security | crypto |
+## 4. How it works — GitHub Actions (`.github/workflows/build.yml`)
 
----
+Triggers: push/PR to `develop`, `test`; tag `v*`; manual dispatch.
 
-## 🔧 Configuration
+| Stage | Job | What it does |
+|---|---|---|
+| 1 validate | `validate` | format check → `flutter analyze --fatal-infos` → `flutter test` → gitleaks + TruffleHog secret scans → dependency audit |
+| 2 build | `build` | restore keystore from secret (or ephemeral) → obfuscated arm64 APK → size check |
+| 3 security-scan | `security-scan` (matrix: grype, trivy) | SBOM (Syft) + vulnerability scans, SARIF upload, fails on HIGH+ |
+| 4 package | `package` | apksigner verify → Syft/Grype on the APK → Cosign keyless signature → SLSA provenance attestation |
+| 5 release | `release` | On `v*` tags: creates the GitHub Release with APK + signatures + SBOM |
 
-### App Settings (In-App)
-| Setting | Options | Default |
-|---------|---------|---------|
-| Language | Arabic / English / Spanish | English |
-| Theme | Light / Dark / System | System |
-| Audio Speed | 0.5× / 0.75× / 1.0× | Normal speed |
-| Repeat Count | 1× / 3× / 7× / 10× | Once |
-| Text Size | 80% – 200% | 100% |
-| Notifications | Daily review / Streak reminders | Enabled |
+### Required GitHub secrets
 
-### Audio Settings
-- **Speed control** — 0.5× / 0.75× / 1.0×
-- **Repeat** — 1× / 3× / 7× / 10×
-- **Offline playback** — All audio bundled
+| Secret | Required? | Purpose |
+|---|---|---|
+| `RELEASE_KEYSTORE_BASE64` | optional | `base64 -d` of your real `release.keystore`. If absent, an ephemeral keystore is generated per build (installs work, but signature changes between builds). |
+| `GITHUB_TOKEN` | automatic | Provided by Actions for releases/attestations. |
 
----
+## 5. How it works — GitLab CI (`.gitlab-ci.yml`)
 
-## 🔐 Security & DevSecOps
+Same five stages, self-contained runner image (Flutter + Android SDK installed in-pipeline):
 
-### Build Pipeline (GitHub Actions + GitLab CI)
-```
-Validate → Build → Scan → Package → Release
-   │         │       │        │        │
-   ▼         ▼       ▼        ▼        ▼
-Format    Build    Grype    Sign      Release
-Analyze   APKs     Trivy    Cosign    Assets
-Tests     Obfusc.  SBOM     SLSA      GitHub/
-License   Minify   MobSF    Proven.   GitLab
-Gitleaks           (GitLab) Cosign
-TruffleHog
-```
+| Stage | Jobs | Notes |
+|---|---|---|
+| validate | `validate`, `dependency-update` | analyze + tests; scheduled dep bumps |
+| build | `build` | keystore via `RELEASE_KEYSTORE_BASE64` variable or ephemeral; arm64 APK artifact (1 week) |
+| scan | `grype-scan`, `trivy-scan`, `mobsf-scan` | Syft SBOM + Grype (fails on HIGH+), Trivy SARIF (SAST report), MobSF dynamic static analysis (**manual**, skipped without API key) |
+| package | `package` | cosign-signed artifacts |
+| release | `release` | on `v*` tags → GitLab Release |
 
-### Security Features
-| Feature | Implementation |
-|---------|----------------|
-| **Code Signing** | Release keystore (RSA-2048) |
-| **Obfuscation** | `--obfuscate` + `--split-debug-info` |
-| **Minification** | R8 `isMinifyEnabled = true` |
-| **Backup** | `android:allowBackup="false"` |
-| **Debug** | `android:debuggable="false"` |
-| **Signatures** | Cosign keyless + SLSA provenance |
-| **SBOM** | CycloneDX (Syft) |
-| **Vuln Scan** | Grype, Trivy, MobSF |
-| **Secrets** | Gitleaks + TruffleHog |
-| **Deps** | Grype, license_checker |
+Cache: pub/gradle/flutter keyed per project+branch. Artifacts expire 1–90 days by stage.
 
-### Verified Build
-```bash
-# Verify signature
-apksigner verify --print-certs app-release.apk
+### Required GitLab CI/CD variables
 
-# Verify APK was built (CI: size must exceed 1MB)
-SIZE=$(stat -c%s build/app/outputs/flutter-apk/app-release.apk)
-test "$SIZE" -gt 1000000 && echo "APK size: $SIZE bytes (OK)"
-```
+| Variable | Required? | Purpose |
+|---|---|---|
+| `RELEASE_KEYSTORE_BASE64` | optional | stable signing across builds |
+| `MOBSF_API_KEY`, `MOBSF_URL` | optional | enable the manual MobSF job |
 
----
+Everything else needs no configuration — pipelines run out-of-the-box.
 
-## 🐳 Docker
+## 6. Docker
+
+Multi-stage `Dockerfile`: `base` → `flutter-sdk` (Flutter + Android SDK + NDK) → `builder` / `scanner` targets.
 
 ```bash
-# Build
-docker compose -f docker-compose.yml build builder
-
-# Run security scan
-docker compose --profile ci run --rm scanner-ci
-
-# Development (hot reload)
-docker compose --profile dev up dev
+docker compose build builder          # build toolchain image
+docker compose run --rm builder       # shell with Flutter+Android SDK mounted on ./app
+docker compose build scanner          # scanner image (syft/grype/trivy available)
+docker compose run --rm scanner-ci    # one-shot scan into ./artifacts ./sbom ./sarif
 ```
 
----
+Volumes cache `/root/.pub-cache`, `/root/.gradle` so repeat builds are fast.
 
-## 📦 Release Artifacts
+> `.dockerignore` deliberately KEEPS `app/assets/` (course content + audio are compiled into
+> the APK) and `pubspec.lock` (reproducible `--enforce-lockfile` installs).
 
-| Artifact | Description |
-|----------|-------------|
-| `app-release.apk` | Signed release APK |
-| `app-release.apk.sig` | Cosign signature |
-| `sbom-project.cdx.json` | Project SBOM (CycloneDX) |
-| `sbom-apk.cdx.json` | APK SBOM |
-| `provenance.intoto.jsonl` | SLSA provenance |
-| `sbom-project.cdx.json.sig` | SBOM signature |
+## 7. Configuration reference
 
----
+| Setting | Where | Default |
+|---|---|---|
+| Flutter version | workflow env / GitLab variables / Dockerfile ARG | 3.29.3 |
+| Java version | workflows / Dockerfile | 17 |
+| App id | `app/android/app/build.gradle.kts` | `com.rafaabou.eszero_hero` |
+| Version name/code | `app/pubspec.yaml` (`version:`) | 1.1.0+2 |
+| Progress export file | documents dir | `eszero_progress.json` |
+| UI languages | in-app switcher | en / es / ar (RTL) |
 
-## 📄 License
+## 8. Security notes
 
-**Apache License 2.0** — See [LICENSE](LICENSE) and [NOTICE](NOTICE)
+- **Secret scanning**: gitleaks (config: `.gitleaks.toml`) + TruffleHog run on every push;
+  local devs can enable `.pre-commit-config.yaml` (`pre-commit install`).
+- **Keystore**: never commit `*.keystore` / `*.jks` / `keystore.properties` (gitignored).
+  The repo-local `android/app/release.keystore` is a LOCAL development keystore and is not tracked.
+- **Known dev fallback**: `build.gradle.kts` falls back to password `release123` when env vars
+  are unset (matches the local dev keystore). For production distribution set the
+  `RELEASE_KEY*` env vars or the `RELEASE_KEYSTORE_BASE64` CI secret and generate a strong
+  private keystore: rotate before any public release.
+- **Supply chain**: every release artifact gets a Syft SBOM, Grype scan, Cosign signature
+  and SLSA provenance attestation.
+- Vulnerabilities: see `SECURITY.md` for the reporting policy.
 
+## 9. Verify before push
+
+```bash
+cd app && flutter analyze && flutter test   # both must pass
+git status                                  # nothing unintended staged
+gitleaks detect --no-git -c .gitleaks.toml  # optional local secret scan
 ```
-Copyright 2026 Mohamed Rafaa TOUNEKTI
 
-Licensed under the Apache License, Version 2.0
-```
+## License
 
----
-
-## 🤝 Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for:
-- Development setup
-- Coding standards
-- PR process
-- Testing guidelines
-- Translation workflow
-
----
-
-## 🛡️ Security
-
-See [SECURITY.md](SECURITY.md) for:
-- Vulnerability reporting
-- Security architecture
-- Compliance status
-- Incident response
-
----
-
-## 👤 Author
-
-**Mohamed Rafaa TOUNEKTI**  
-DevOps & DevSecOps Engineer  
-🔗 [LinkedIn](https://linkedin.com/in/mohamed-rafaa-tounekti)  
-✉️ rafaabou@gmail.com  
-🐙 [GitHub](https://github.com/rafaabou)
-
----
-
-## 🙏 Acknowledgments
-
-- Flutter team for the amazing framework
-- Flutter community packages (just_audio, provider, etc.)
-- Open source security tools (Grype, Trivy, Syft, Cosign, Gitleaks, TruffleHog)
-- MobSF for mobile security scanning
-
----
-
-**Made with ❤️ for language learners worldwide**
-
-*Learn Spanish offline, anywhere, anytime — no ads, no tracking, just learning.*
+Apache-2.0 — see `LICENSE` and `NOTICE`.

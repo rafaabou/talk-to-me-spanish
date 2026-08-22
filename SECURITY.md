@@ -176,3 +176,13 @@ Security updates are released as patch versions (e.g., 1.0.1, 1.0.2) and announc
 **Last Updated**: 2026
 **Version**: 1.0
 **Maintainer**: Mohamed Rafaa TOUNEKTI
+## Signing key handling (important)
+
+- `*.keystore` / `*.jks` / `keystore.properties` are **never committed** (gitignored + dockerignored).
+- CI signs releases from the `RELEASE_KEYSTORE_BASE64` secret; without it an **ephemeral
+  development keystore** (password `release123`) is generated per build. APKs built this way
+  are fine for personal testing but must not be published to a store.
+- Before any public/store release: generate a strong private keystore, store it in the CI
+  secret, and treat `release123` strictly as a local-development fallback.
+- If a real secret ever lands in history: rotate it immediately, then purge history
+  (e.g. `git filter-repo`) — rotation alone is not sufficient.

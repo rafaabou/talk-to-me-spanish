@@ -182,3 +182,9 @@ analysis-report.json
 secrets.yaml
 secrets.yml
 *.secret
+# Python tooling (tools/)
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

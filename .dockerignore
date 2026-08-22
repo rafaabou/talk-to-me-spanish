@@ -35,7 +35,7 @@ Thumbs.db
 **/.flutter-plugins-dependencies
 **/.pub-cache/
 **/.pub/
-**/pubspec.lock
+# pubspec.lock IS kept - required by 'flutter pub get --enforce-lockfile'
 **/*.g.dart
 **/*.freezed.dart
 **/*.gr.dart
@@ -121,10 +121,9 @@ temp/
 mobsf_scan.log
 
 # -----------------------------------------------------------------------------
-# Assets that are already bundled in the app
+# NOTE: app/assets (course JSON + audio) MUST be shipped in the image.
+# Never exclude **/assets/ here - the APK is built from these files.
 # -----------------------------------------------------------------------------
-**/assets/
-**/fonts/
 
 # -----------------------------------------------------------------------------
 # Environment
