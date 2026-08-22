@@ -73,14 +73,14 @@ jobs:
       - name: License Check
         run: |
           dart pub global activate license_checker
-          dart pub global run license_checker:lic_ck check-licenses --config lic_ck.yaml || echo "License check completed with findings"
+          export PATH="$PATH:$HOME/.pub-cache/bin"
+          lic_ck check-licenses --config lic_ck.yaml || echo "License check completed with findings"
 
       # ── Secret Scan (Gitleaks) ──────────────────────────────────
       - name: Secret Scan (Gitleaks)
         uses: gitleaks/gitleaks-action@v2
-        with:
-          config: .gitleaks.toml
-          args: --verbose --no-git
+        env:
+          GITLEAKS_ENABLE_UPLOAD_ARTIFACT: false
 
       # ── Secret Scan (TruffleHog) ────────────────────────────────
       - name: Secret Scan (TruffleHog)
@@ -105,7 +105,7 @@ jobs:
           path: |
             app/analysis-report.txt
             app/deps-outdated.json
-          retention-days: 30
+          retention-days: 7
 
   # =========================================================================
   # STAGE 2: BUILD (Compile Spanish App)
@@ -177,16 +177,18 @@ jobs:
       - name: Upload Release APK
         uses: actions/upload-artifact@v4
         with:
+          if-no-files-found: ignore
           name: es-release-apk
           path: app/build/app/outputs/flutter-apk/app-release.apk
-          retention-days: 30
+          retention-days: 7
 
       - name: Upload Debug Symbols
         uses: actions/upload-artifact@v4
         with:
+          if-no-files-found: ignore
           name: es-debug-symbols
           path: app/build/debug-info
-          retention-days: 30
+          retention-days: 7
 
   # =========================================================================
   # STAGE 3: SECURITY SCANS (Parallel)
@@ -228,9 +230,10 @@ jobs:
         if: matrix.scanner == 'grype'
         uses: actions/upload-artifact@v4
         with:
+          if-no-files-found: ignore
           name: es-grype-report
           path: grype-report.json
-          retention-days: 90
+          retention-days: 30
 
       # ── Trivy FS Scan ─────────────────────────────────────────
       - name: Trivy FS Scan
@@ -249,9 +252,10 @@ jobs:
         if: matrix.scanner == 'trivy'
         uses: actions/upload-artifact@v4
         with:
+          if-no-files-found: ignore
           name: es-trivy-results
           path: trivy-results.sarif
-          retention-days: 90
+          retention-days: 30
 
   # =========================================================================
   # STAGE 4: PACKAGE & SIGN
@@ -332,13 +336,14 @@ jobs:
       - name: Upload Release Artifacts
         uses: actions/upload-artifact@v4
         with:
+          if-no-files-found: ignore
           name: es-release-final
           path: |
             apks/*.apk
             *.sig
             sbom*.json
             *.sarif
-          retention-days: 90
+          retention-days: 30
 
   # =========================================================================
   # STAGE 5: RELEASE (Tagged Releases Only)

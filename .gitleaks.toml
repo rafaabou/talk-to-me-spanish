@@ -117,180 +117,180 @@ allowlist_regexes = [
 allowlist_commits = []
 
 # Rules configuration
-[rule]
+[[rules]]
 id = "generic-api-key"
 description = "Generic API Key pattern"
-regex = "(?i)(api[_-]?key|apikey)\\s*[=:]\s*[\"']?([a-zA-Z0-9_\-]{20,})[\"']?"
+regex = "(?i)(api[_-]?key|apikey)\\s*[=:]\\s*[\"']?([a-zA-Z0-9_\\-]{20,})[\"']?"
 tags = ["key", "api"]
 entropy = 3.5
 
-[rule]
+[[rules]]
 id = "generic-secret"
 description = "Generic Secret pattern"
-regex = "(?i)(secret|password|passwd|pwd)\\s*[=:]\s*[\"']?([^\s\"']{8,})[\"']?"
+regex = "(?i)(secret|password|passwd|pwd)\\s*[=:]\\s*[\"']?([^\\s\"']{8,})[\"']?"
 tags = ["secret", "password"]
 entropy = 3.0
 
-[rule]
+[[rules]]
 id = "google-api-key"
 description = "Google API Key"
 regex = "AIza[0-9A-Za-z\\-_]{35}"
 tags = ["google", "api", "key"]
 
-[rule]
+[[rules]]
 id = "firebase-config"
 description = "Firebase Config"
-regex = "(?i)firebase.*[=:]\s*[\"']?([a-zA-Z0-9_\-]{20,})[\"']?"
+regex = "(?i)firebase.*[=:]\\s*[\"']?([a-zA-Z0-9_\\-]{20,})[\"']?"
 tags = ["firebase", "config"]
 
-[rule]
+[[rules]]
 id = "aws-access-key"
 description = "AWS Access Key ID"
 regex = "(?i)AKIA[0-9A-Z]{16}"
 tags = ["aws", "access", "key"]
 
-[rule]
+[[rules]]
 id = "aws-secret-key"
 description = "AWS Secret Access Key"
-regex = "(?i)aws.*secret.*[=:]\s*[\"']?([A-Za-z0-9/+=]{40})[\"']?"
+regex = "(?i)aws.*secret.*[=:]\\s*[\"']?([A-Za-z0-9/+=]{40})[\"']?"
 tags = ["aws", "secret", "key"]
 
-[rule]
+[[rules]]
 id = "github-token"
 description = "GitHub Personal Access Token"
 regex = "gh[pousr]_[A-Za-z0-9_]{36,251}"
 tags = ["github", "token"]
 
-[rule]
+[[rules]]
 id = "gitlab-token"
 description = "GitLab Personal Access Token"
-regex = "glpat-[A-Za-z0-9_\-]{20,}"
+regex = "glpat-[A-Za-z0-9_\\-]{20,}"
 tags = ["gitlab", "token"]
 
-[rule]
+[[rules]]
 id = "slack-token"
 description = "Slack Token"
 regex = "xox[baprs]-[0-9]{12}-[0-9]{12}-[0-9]{12}-[a-z0-9]{32}"
 tags = ["slack", "token"]
 
-[rule]
+[[rules]]
 id = "discord-token"
 description = "Discord Bot Token"
 regex = "[MN][A-Za-z\\d]{23}\\.[\\w-]{6}\\.[\\w-]{27}"
 tags = ["discord", "token"]
 
-[rule]
+[[rules]]
 id = "stripe-key"
 description = "Stripe API Key"
 regex = "(?i)sk_live_[0-9a-zA-Z]{24,}"
 tags = ["stripe", "key"]
 
-[rule]
+[[rules]]
 id = "sendgrid-key"
 description = "SendGrid API Key"
 regex = "SG\\.[A-Za-z0-9\\-_]{22}\\.[A-Za-z0-9\\-_]{43}"
 tags = ["sendgrid", "key"]
 
-[rule]
+[[rules]]
 id = "twilio-key"
 description = "Twilio Auth Token"
 regex = "SK[0-9a-fA-F]{32}"
 tags = ["twilio", "key"]
 
-[rule]
+[[rules]]
 id = "heroku-api-key"
 description = "Heroku API Key"
 regex = "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
 tags = ["heroku", "key"]
 
-[rule]
+[[rules]]
 id = "jwt-token"
 description = "JWT Token"
 regex = "eyJ[A-Za-z0-9_=-]+\\.[A-Za-z0-9_=-]+\\.[A-Za-z0-9_=-]+"
 tags = ["jwt", "token"]
 
-[rule]
+[[rules]]
 id = "ssh-private-key"
 description = "SSH Private Key"
 regex = "-----BEGIN (RSA|DSA|EC|OPENSSH) PRIVATE KEY-----"
 tags = ["ssh", "private", "key"]
 
-[rule]
+[[rules]]
 id = "pgp-private-key"
 description = "PGP Private Key"
 regex = "-----BEGIN PGP PRIVATE KEY BLOCK-----"
 tags = ["pgp", "private", "key"]
 
-[rule]
+[[rules]]
 id = "docker-config-auth"
 description = "Docker Config Auth"
 regex = "\"auth\\s*\":\\s*\"[A-Za-z0-9+/=]{20,}\""
 tags = ["docker", "auth"]
 
-[rule]
+[[rules]]
 id = "npm-token"
 description = "NPM Token"
 regex = "npm_[A-Za-z0-9]{36}"
 tags = ["npm", "token"]
 
-[rule]
+[[rules]]
 id = "pypi-token"
 description = "PyPI Token"
 regex = "pypi-AgEIcHlwaS5vcmc[0-9A-Za-z\\-_]{50,}"
 tags = ["pypi", "token"]
 
-[rule]
+[[rules]]
 id = "generic-bearer-token"
 description = "Generic Bearer Token"
 regex = "(?i)bearer\\s+[A-Za-z0-9\\-_=]{20,}"
 tags = ["bearer", "token"]
 
-[rule]
+[[rules]]
 id = "generic-access-token"
 description = "Generic Access Token"
-regex = "(?i)access[_-]?token\\s*[=:]\s*[\"']?([A-Za-z0-9\\-_=]{20,})[\"']?"
+regex = "(?i)access[_-]?token\\s*[=:]\\s*[\"']?([A-Za-z0-9\\-_=]{20,})[\"']?"
 tags = ["access", "token"]
 
-[rule]
+[[rules]]
 id = "generic-client-secret"
 description = "Generic Client Secret"
-regex = "(?i)client[_-]?secret\\s*[=:]\s*[\"']?([A-Za-z0-9\\-_=]{20,})[\"']?"
+regex = "(?i)client[_-]?secret\\s*[=:]\\s*[\"']?([A-Za-z0-9\\-_=]{20,})[\"']?"
 tags = ["client", "secret"]
 
 # Dart/Flutter specific patterns
-[rule]
+[[rules]]
 id = "flutter-api-key"
 description = "Flutter/Dart API Key in code"
-regex = "(?i)(api[_-]?key|apiKey)\\s*[=:]\s*[\"']([a-zA-Z0-9_\\-]{20,})[\"']"
+regex = "(?i)(api[_-]?key|apiKey)\\s*[=:]\\s*[\"']([a-zA-Z0-9_\\-]{20,})[\"']"
 tags = ["flutter", "dart", "api", "key"]
 
-[rule]
+[[rules]]
 id = "flutter-firebase-config"
 description = "Flutter Firebase Config"
-regex = "(?i)firebase.*(apiKey|authDomain|projectId|storageBucket|messagingSenderId|appId|measurementId)\\s*[=:]\s*[\"']([^\"']{10,})[\"']"
+regex = "(?i)firebase.*(apiKey|authDomain|projectId|storageBucket|messagingSenderId|appId|measurementId)\\s*[=:]\\s*[\"']([^\"']{10,})[\"']"
 tags = ["flutter", "firebase", "config"]
 
-[rule]
+[[rules]]
 id = "dart-private-key"
 description = "Dart Private Key in code"
 regex = "-----BEGIN (RSA|DSA|EC|OPENSSH) PRIVATE KEY-----"
 tags = ["dart", "private", "key"]
 
 # Android specific
-[rule]
+[[rules]]
 id = "android-keystore-password"
 description = "Android Keystore Password in gradle"
-regex = "(?i)storePassword\\s*[=:]\s*[\"']([^\"']+)[\"']"
+regex = "(?i)storePassword\\s*[=:]\\s*[\"']([^\"']+)[\"']"
 tags = ["android", "keystore", "password"]
 
-[rule]
+[[rules]]
 id = "android-key-password"
 description = "Android Key Password in gradle"
-regex = "(?i)keyPassword\\s*[=:]\s*[\"']([^\"']+)[\"']"
+regex = "(?i)keyPassword\\s*[=:]\\s*[\"']([^\"']+)[\"']"
 tags = ["android", "key", "password"]
 
-[rule]
+[[rules]]
 id = "android-signing-config"
 description = "Android Signing Config with passwords"
-regex = "(?i)signingConfigs\\s*\\{[^}]*(storePassword|keyPassword)\\s*[=:]\s*[\"']([^\"']+)[\"']"
+regex = "(?i)signingConfigs\\s*\\{[^}]*(storePassword|keyPassword)\\s*[=:]\\s*[\"']([^\"']+)[\"']"
 tags = ["android", "signing", "config"]
