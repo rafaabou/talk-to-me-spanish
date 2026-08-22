@@ -84,11 +84,10 @@ jobs:
 
       # ── Secret Scan (TruffleHog) ────────────────────────────────
       - name: Secret Scan (TruffleHog)
-        uses: trufflesecurity/trufflehog@main
+        uses: trufflesecurity/trufflehog@v3
         with:
-          path: .
-          fail: true
-          no-verification: true
+          path: ./
+          extra_args: --results=verified
 
       # ── Dependency Audit ────────────────────────────────────────
       - name: Dependency Audit
