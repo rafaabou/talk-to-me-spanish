@@ -61,7 +61,9 @@ jobs:
 
       # ── Static Analysis ──────────────────────────────────────────
       - name: Static Analysis
-        run: flutter analyze --fatal-infos --output=analysis-report.json
+        run: |
+          flutter analyze --fatal-infos
+          flutter analyze --no-pub > analysis-report.txt 2>&1 || true
 
       # ── Unit Tests ───────────────────────────────────────────────
       - name: Unit Tests
@@ -101,7 +103,7 @@ jobs:
         with:
           name: es-validation-reports
           path: |
-            app/analysis-report.json
+            app/analysis-report.txt
             app/deps-outdated.json
           retention-days: 30
 
