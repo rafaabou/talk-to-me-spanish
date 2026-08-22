@@ -1,338 +1,338 @@
 {
-  "id": "C1-01",
-  "level": "C1",
-  "level_name": {
-    "es": "Avanzado",
-    "en": "Advanced",
-    "ar": "متقدم"
+ "id": "C1-01",
+ "level": "C1",
+ "level_name": {
+  "es": "Avanzado",
+  "en": "Advanced",
+  "ar": "متقدم"
+ },
+ "title": {
+  "es": "Subjuntivo en Oraciones Complejas",
+  "en": "Subjunctive in Complex Clauses",
+  "ar": "الشرط في الجمل المعقدة"
+ },
+ "objectives": [
+  {
+   "es": "Emplear el subjuntivo en oraciones subordinadas complejas",
+   "en": "Use the subjunctive in complex subordinate clauses",
+   "ar": "استخدام صيغة الشرط في الجمل التابعة المعقدة"
   },
+  {
+   "es": "Reconocer las conjunciones que exigen subjuntivo",
+   "en": "Recognize conjunctions that require the subjunctive",
+   "ar": "التعرف على أدوات الربط التي تتطلب صيغة الشرط"
+  },
+  {
+   "es": "Diferenciar el subjuntivo presente, imperfecto y futuro",
+   "en": "Distinguish present, imperfect and future subjunctive",
+   "ar": "التمييز بين مضارع الشرط وماضيه ومستقبله"
+  },
+  {
+   "es": "Expresar deseo, hipótesis y concesión con naturalidad",
+   "en": "Express wish, hypothesis and concession naturally",
+   "ar": "التعبير بطلاقة عن الرغبة والافتراض والمقابل الشرطي"
+  }
+ ],
+ "vocabulary": [
+  {
+   "es": "aunque",
+   "ipa": "/ˈaunke/",
+   "en": "although",
+   "ar": "على الرغم من"
+  },
+  {
+   "es": "aunque",
+   "ipa": "/ˈaunke/",
+   "en": "even though",
+   "ar": "حتى لو"
+  },
+  {
+   "es": "aunque",
+   "ipa": "/ˈaunke/",
+   "en": "even if",
+   "ar": "حتى وإن"
+  },
+  {
+   "es": "con tal de que",
+   "ipa": "/ˈkon ˈtal ˈde ˈke/",
+   "en": "as long as",
+   "ar": "بشرط أن"
+  },
+  {
+   "es": "a menos que",
+   "ipa": "/ˈa ˈmenos ˈke/",
+   "en": "unless",
+   "ar": "ما لم"
+  },
+  {
+   "es": "siempre que",
+   "ipa": "/ˈsiempɾe ˈke/",
+   "en": "provided that",
+   "ar": "بشرط أن"
+  },
+  {
+   "es": "sin que",
+   "ipa": "/ˈsin ˈke/",
+   "en": "without",
+   "ar": "من دون أن"
+  },
+  {
+   "es": "para que",
+   "ipa": "/ˈpaɾa ˈke/",
+   "en": "so that",
+   "ar": "لكي"
+  },
+  {
+   "es": "quizás",
+   "ipa": "/kiˈsas/",
+   "en": "maybe",
+   "ar": "ربما"
+  },
+  {
+   "es": "ojalá",
+   "ipa": "/oxaˈla/",
+   "en": "hopefully",
+   "ar": "ليت، يا ليت"
+  },
+  {
+   "es": "aun así",
+   "ipa": "/ˈaun aˈsi/",
+   "en": "even so",
+   "ar": "ومع ذلك"
+  },
+  {
+   "es": "a fin de que",
+   "ipa": "/ˈa ˈfin ˈde ˈke/",
+   "en": "in order that",
+   "ar": "من أجل أن"
+  },
+  {
+   "es": "en caso de que",
+   "ipa": "/ˈen ˈkaso ˈde ˈke/",
+   "en": "in case",
+   "ar": "في حال"
+  },
+  {
+   "es": "aunque",
+   "ipa": "/ˈaunke/",
+   "en": "although",
+   "ar": "رغم أن"
+  },
+  {
+   "es": "sea",
+   "ipa": "/ˈsea/",
+   "en": "may it be; (I) be",
+   "ar": "يكون"
+  },
+  {
+   "es": "fuera",
+   "ipa": "/ˈfueɾa/",
+   "en": "were",
+   "ar": "كان"
+  }
+ ],
+ "grammar": [
+  {
+   "title": {
+    "es": "Conjunciones Concesivas y el Subjuntivo",
+    "en": "Concessive Conjunctions and the Subjunctive",
+    "ar": "أدوات الربط المقابلة وصيغة الشرط"
+   },
+   "explanation": {
+    "es": "Conjunciones como 'aunque', 'aun cuando' y 'así' introducen una concesión y exigen el subjuntivo. 'Por más que' y 'por mucho que' también aparecen con subjuntivo para reforzar la concesión. Compara: 'Aunque llueva, vamos a salir' (concesión real) y 'Aunque llueva, vamos a salir' (hipótesis).",
+    "en": "Conjunctions such as 'embora', 'ainda que', 'mesmo que' and 'conquanto' introduce a concession and require the subjunctive. 'Por mais que' and 'por muito que' also appear with the subjunctive to reinforce the concession. Compare: 'Embora chova, vamos sair' (real concession) and 'Mesmo que chova, vamos sair' (hypothesis).",
+    "ar": "أدوات الربط مثل 'embora' و'ainda que' و'mesmo que' و'conquanto' تقدم مقابلاً شرطيًا وتتطلب صيغة الشرط. كما تظهر 'por mais que' و'por muito que' مع صيغة الشرط لتقوية المقابل. قارن: 'Embora chova, vamos sair' (مقابل حقيقي) و'Mesmo que chova, vamos sair' (افتراض)."
+   },
+   "examples": [
+    {
+     "es": "Aunque esté cansado, voy a continuar el proyecto.",
+     "en": "Although I am tired, I will continue the project.",
+     "ar": "على الرغم من أنني متعب، سأواصل المشروع."
+    },
+    {
+     "es": "Aunque llueva, la fiesta se hará en la playa.",
+     "en": "Even if it rains, the party will happen on the beach.",
+     "ar": "حتى لو مطرت، ستقام الحفلة على الشاطئ."
+    },
+    {
+     "es": "Aunque me paguen el doble, no acepto la propuesta.",
+     "en": "Even if they pay me twice as much, I do not accept the offer.",
+     "ar": "حتى وإن دفعوا لي الضعف، لن أقبل العرض."
+    },
+    {
+     "es": "Por más que lo intente, no consigo levantarme temprano.",
+     "en": "No matter how hard I try, I cannot wake up early.",
+     "ar": "مهما حاولت، لا أستطيع الاستيقاظ مبكرًا."
+    }
+   ]
+  },
+  {
+   "title": {
+    "es": "Expresiones Impersonales y Deseos",
+    "en": "Impersonal Expressions and Wishes",
+    "ar": "التعبيرات غير الشخصية والرغبات"
+   },
+   "explanation": {
+    "es": "Expresiones impersonales como 'es posible que', 'es probable que' y 'es improbable que' piden subjuntivo. Los deseos usan 'ojalá', siempre con subjuntivo. 'Quizás' puede ir con subjuntivo presente o imperfecto, según el grado de incertidumbre.",
+    "en": "Impersonal expressions such as 'é possível que' (it is possible that), 'é provável que' (it is likely that) and 'é improvável que' (it is unlikely that) require the subjunctive. Wishes use 'tomara que', 'quem dera' and 'oxalá', always with the subjunctive. 'Talvez' can take the present or future subjunctive depending on the degree of uncertainty.",
+    "ar": "التعبيرات غير الشخصية مثل 'é possível que' (من الممكن أن) و'é provável que' (من المحتمل أن) و'é improvável que' (من غير المحتمل أن) تتطلب صيغة الشرط. أما الرغبات فتستخدم 'tomara que' و'quem dera' و'oxalá'، دائمًا بصيغة الشرط. وقد تأتي 'talvez' مع مضارع الشرط أو مستقبله حسب درجة عدم اليقين."
+   },
+   "examples": [
+    {
+     "es": "Es posible que él llegue tarde.",
+     "en": "It is possible that he will arrive late.",
+     "ar": "من الممكن أن يصل متأخرًا."
+    },
+    {
+     "es": "Ojalá que ella apruebe el examen.",
+     "en": "Hopefully she passes the exam.",
+     "ar": "ليتها تنجح في الامتحان."
+    },
+    {
+     "es": "Quizás vaya al cine mañana.",
+     "en": "Maybe I will go to the movies tomorrow.",
+     "ar": "ربما أذهب إلى السينما غدًا."
+    },
+    {
+     "es": "Ojalá la vida fuera más simple.",
+     "en": "If only life were simpler.",
+     "ar": "ليت الحياة أبسط."
+    }
+   ]
+  }
+ ],
+ "dialogue": {
   "title": {
-    "es": "Subjuntivo en Oraciones Complejas",
-    "en": "Subjunctive in Complex Clauses",
-    "ar": "الشرط في الجمل المعقدة"
+   "es": "Un Plan Complicado",
+   "en": "A Complicated Plan",
+   "ar": "خطة معقدة"
   },
-  "objectives": [
-    {
-      "es": "Emplear el subjuntivo en oraciones subordinadas complejas",
-      "en": "Use the subjunctive in complex subordinate clauses",
-      "ar": "استخدام صيغة الشرط في الجمل التابعة المعقدة"
-    },
-    {
-      "es": "Reconocer las conjunciones que exigen subjuntivo",
-      "en": "Recognize conjunctions that require the subjunctive",
-      "ar": "التعرف على أدوات الربط التي تتطلب صيغة الشرط"
-    },
-    {
-      "es": "Diferenciar el subjuntivo presente, imperfecto y futuro",
-      "en": "Distinguish present, imperfect and future subjunctive",
-      "ar": "التمييز بين مضارع الشرط وماضيه ومستقبله"
-    },
-    {
-      "es": "Expresar deseo, hipótesis y concesión con naturalidad",
-      "en": "Express wish, hypothesis and concession naturally",
-      "ar": "التعبير بطلاقة عن الرغبة والافتراض والمقابل الشرطي"
-    }
-  ],
-  "vocabulary": [
-    {
-      "es": "aunque",
-      "ipa": "/ˈaunke/",
-      "en": "although",
-      "ar": "على الرغم من"
-    },
-    {
-      "es": "aunque",
-      "ipa": "/ˈaunke/",
-      "en": "even though",
-      "ar": "حتى لو"
-    },
-    {
-      "es": "aunque",
-      "ipa": "/ˈaunke/",
-      "en": "even if",
-      "ar": "حتى وإن"
-    },
-    {
-      "es": "con tal de que",
-      "ipa": "/ˈkon ˈtal ˈde ˈke/",
-      "en": "as long as",
-      "ar": "بشرط أن"
-    },
-    {
-      "es": "a menos que",
-      "ipa": "/ˈa ˈmenos ˈke/",
-      "en": "unless",
-      "ar": "ما لم"
-    },
-    {
-      "es": "siempre que",
-      "ipa": "/ˈsiempɾe ˈke/",
-      "en": "provided that",
-      "ar": "بشرط أن"
-    },
-    {
-      "es": "sin que",
-      "ipa": "/ˈsin ˈke/",
-      "en": "without",
-      "ar": "من دون أن"
-    },
-    {
-      "es": "para que",
-      "ipa": "/ˈpaɾa ˈke/",
-      "en": "so that",
-      "ar": "لكي"
-    },
-    {
-      "es": "quizás",
-      "ipa": "/kiˈsas/",
-      "en": "maybe",
-      "ar": "ربما"
-    },
-    {
-      "es": "ojalá",
-      "ipa": "/oxaˈla/",
-      "en": "hopefully",
-      "ar": "ليت، يا ليت"
-    },
-    {
-      "es": "aun así",
-      "ipa": "/ˈaun aˈsi/",
-      "en": "even so",
-      "ar": "ومع ذلك"
-    },
-    {
-      "es": "a fin de que",
-      "ipa": "/ˈa ˈfin ˈde ˈke/",
-      "en": "in order that",
-      "ar": "من أجل أن"
-    },
-    {
-      "es": "en caso de que",
-      "ipa": "/ˈen ˈkaso ˈde ˈke/",
-      "en": "in case",
-      "ar": "في حال"
-    },
-    {
-      "es": "aunque",
-      "ipa": "/ˈaunke/",
-      "en": "although",
-      "ar": "رغم أن"
-    },
-    {
-      "es": "sea",
-      "ipa": "/ˈsea/",
-      "en": "may it be; (I) be",
-      "ar": "يكون"
-    },
-    {
-      "es": "fuera",
-      "ipa": "/ˈfueɾa/",
-      "en": "were",
-      "ar": "كان"
-    }
-  ],
-  "grammar": [
-    {
-      "title": {
-        "es": "Conjunciones Concesivas y el Subjuntivo",
-        "en": "Concessive Conjunctions and the Subjunctive",
-        "ar": "أدوات الربط المقابلة وصيغة الشرط"
-      },
-      "explanation": {
-        "es": "Conjunciones como 'aunque', 'aun cuando' y 'así' introducen una concesión y exigen el subjuntivo. 'Por más que' y 'por mucho que' también aparecen con subjuntivo para reforzar la concesión. Compara: 'Aunque llueva, vamos a salir' (concesión real) y 'Aunque llueva, vamos a salir' (hipótesis).",
-        "en": "Conjunctions such as 'embora', 'ainda que', 'mesmo que' and 'conquanto' introduce a concession and require the subjunctive. 'Por mais que' and 'por muito que' also appear with the subjunctive to reinforce the concession. Compare: 'Embora chova, vamos sair' (real concession) and 'Mesmo que chova, vamos sair' (hypothesis).",
-        "ar": "أدوات الربط مثل 'embora' و'ainda que' و'mesmo que' و'conquanto' تقدم مقابلاً شرطيًا وتتطلب صيغة الشرط. كما تظهر 'por mais que' و'por muito que' مع صيغة الشرط لتقوية المقابل. قارن: 'Embora chova, vamos sair' (مقابل حقيقي) و'Mesmo que chova, vamos sair' (افتراض)."
-      },
-      "examples": [
-        {
-          "es": "Aunque esté cansado, voy a continuar el proyecto.",
-          "en": "Although I am tired, I will continue the project.",
-          "ar": "على الرغم من أنني متعب، سأواصل المشروع."
-        },
-        {
-          "es": "Aunque llueva, la fiesta se hará en la playa.",
-          "en": "Even if it rains, the party will happen on the beach.",
-          "ar": "حتى لو مطرت، ستقام الحفلة على الشاطئ."
-        },
-        {
-          "es": "Aunque me paguen el doble, no acepto la propuesta.",
-          "en": "Even if they pay me twice as much, I do not accept the offer.",
-          "ar": "حتى وإن دفعوا لي الضعف، لن أقبل العرض."
-        },
-        {
-          "es": "Por más que lo intente, no consigo levantarme temprano.",
-          "en": "No matter how hard I try, I cannot wake up early.",
-          "ar": "مهما حاولت، لا أستطيع الاستيقاظ مبكرًا."
-        }
-      ]
-    },
-    {
-      "title": {
-        "es": "Expresiones Impersonales y Deseos",
-        "en": "Impersonal Expressions and Wishes",
-        "ar": "التعبيرات غير الشخصية والرغبات"
-      },
-      "explanation": {
-        "es": "Expresiones impersonales como 'es posible que', 'es probable que' y 'es improbable que' piden subjuntivo. Los deseos usan 'ojalá', siempre con subjuntivo. 'Quizás' puede ir con subjuntivo presente o imperfecto, según el grado de incertidumbre.",
-        "en": "Impersonal expressions such as 'é possível que' (it is possible that), 'é provável que' (it is likely that) and 'é improvável que' (it is unlikely that) require the subjunctive. Wishes use 'tomara que', 'quem dera' and 'oxalá', always with the subjunctive. 'Talvez' can take the present or future subjunctive depending on the degree of uncertainty.",
-        "ar": "التعبيرات غير الشخصية مثل 'é possível que' (من الممكن أن) و'é provável que' (من المحتمل أن) و'é improvável que' (من غير المحتمل أن) تتطلب صيغة الشرط. أما الرغبات فتستخدم 'tomara que' و'quem dera' و'oxalá'، دائمًا بصيغة الشرط. وقد تأتي 'talvez' مع مضارع الشرط أو مستقبله حسب درجة عدم اليقين."
-      },
-      "examples": [
-        {
-          "es": "Es posible que él llegue tarde.",
-          "en": "It is possible that he will arrive late.",
-          "ar": "من الممكن أن يصل متأخرًا."
-        },
-        {
-          "es": "Ojalá que ella apruebe el examen.",
-          "en": "Hopefully she passes the exam.",
-          "ar": "ليتها تنجح في الامتحان."
-        },
-        {
-          "es": "Quizás vaya al cine mañana.",
-          "en": "Maybe I will go to the movies tomorrow.",
-          "ar": "ربما أذهب إلى السينما غدًا."
-        },
-        {
-          "es": "Ojalá la vida fuera más simple.",
-          "en": "If only life were simpler.",
-          "ar": "ليت الحياة أبسط."
-        }
-      ]
-    }
-  ],
-  "dialogue": {
-    "title": {
-      "es": "Un Plan Complicado",
-      "en": "A Complicated Plan",
-      "ar": "خطة معقدة"
-    },
-    "lines": [
-      {
-        "speaker": "Paula",
-        "es": "Es posible que el viaje salga caro si vamos en julio.",
-        "en": "The trip may be expensive if we go in July.",
-        "ar": "من الممكن أن تكون الرحلة مكلفة إذا ذهبنا في يوليو."
-      },
-      {
-        "speaker": "Marcos",
-        "es": "Ojalá encontremos boletos baratos.",
-        "en": "Hopefully we find cheap tickets.",
-        "ar": "ليتنا نجد تذاكر رخيصة."
-      },
-      {
-        "speaker": "Paula",
-        "es": "Aunque cueste más, prefiero ir en julio.",
-        "en": "Even if it costs more, I prefer to go in July.",
-        "ar": "حتى لو كلفت أكثر، أفضل الذهاب في يوليو."
-      },
-      {
-        "speaker": "Marcos",
-        "es": "A menos que consigas vacaciones, quizás no funcione.",
-        "en": "Unless you get time off, it may not work out.",
-        "ar": "ما لم تحصلي على إجازة، ربما لا ينجح الأمر."
-      },
-      {
-        "speaker": "Paula",
-        "es": "Con tal de que yo organice todo, se puede intentar.",
-        "en": "As long as I arrange everything, we can try.",
-        "ar": "بشرط أن أنظم كل شيء، يمكننا أن نحاول."
-      },
-      {
-        "speaker": "Marcos",
-        "es": "Para que funcione, tenemos que decidir aún esta semana.",
-        "en": "For it to work out, we need to decide this week.",
-        "ar": "لكي ينجح الأمر، علينا أن نقرر هذا الأسبوع."
-      }
-    ]
-  },
-  "reading": {
-    "title": {
-      "es": "Decisiones e Incertidumbres",
-      "en": "Decisions and Uncertainties",
-      "ar": "قرارات وشكوك"
-    },
-    "text_es": "Aunque el futuro sea incierto, hay que decidir hoy. Aunque algunas decisiones asusten, el miedo no puede detener a quien sueña. Ojalá cada uno encuentre su camino, aunque el camino sea largo. A menos que nos rindamos, nada es imposible.",
-    "text_en": "Even if the future is uncertain, we must decide today. Although some choices scare us, fear cannot stop those who dream. Hopefully everyone finds their path, even though the road is long. Unless we give up, nothing is impossible.",
-    "text_ar": "حتى وإن كان المستقبل غير مؤكد، يجب أن نقرر اليوم. على الرغم من أن بعض الخيارات تخيفنا، فإن الخوف لا يستطيع إيقاف من يحلمون. ليت كل واحد يجد طريقه، وإن كان الطريق طويلاً. ما لم نستسلم، فلا شيء مستحيل."
-  },
-  "exercises": [
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "¿Qué frase usa correctamente el subjuntivo después de 'aunque'?",
-        "en": "Which sentence correctly uses the subjunctive after 'embora'?",
-        "ar": "أي جملة تستخدم صيغة الشرط بشكل صحيح بعد 'embora'؟"
-      },
-      "options": [
-        {
-          "es": "Aunque estoy cansado, voy a salir.",
-          "en": "Embora estou cansado, vou sair.",
-          "ar": "Embora estou cansado, vou sair."
-        },
-        {
-          "es": "Aunque esté cansado, voy a salir.",
-          "en": "Embora esteja cansado, vou sair.",
-          "ar": "Embora esteja cansado, vou sair."
-        },
-        {
-          "es": "Aunque estaré cansado, voy a salir.",
-          "en": "Embora estarei cansado, vou sair.",
-          "ar": "Embora estarei cansado, vou sair."
-        }
-      ],
-      "answer": "Aunque esté cansado, voy a salir.",
-      "explanation": {
-        "es": "'Aunque' exige el subjuntivo: 'Aunque esté cansado'.",
-        "en": "'Embora' requires the subjunctive: 'Embora esteja cansado'.",
-        "ar": "'embora' تتطلب صيغة الشرط: 'Embora esteja cansado'."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "Completa: 'Ojalá que él ______ a tiempo.'",
-        "en": "Complete: 'Tomara que ele ______ a tempo.'",
-        "ar": "أكمل: 'Tomara que ele ______ a tempo.'"
-      },
-      "options": [
-        {
-          "es": "llega",
-          "en": "chega",
-          "ar": "chega"
-        },
-        {
-          "es": "llegue",
-          "en": "chegue",
-          "ar": "chegue"
-        },
-        {
-          "es": "llegará",
-          "en": "chegará",
-          "ar": "chegará"
-        }
-      ],
-      "answer": "llegue",
-      "explanation": {
-        "es": "'Ojalá' pide subjuntivo presente: 'llegue'.",
-        "en": "'Tomara que' requires the present subjunctive: 'chegue'.",
-        "ar": "'tomara que' تتطلب مضارع الشرط: 'chegue'."
-      }
-    },
-    {
-      "type": "translation",
-      "prompt": {
-        "es": "Traduce al español: 'Unless it rains, we will leave early.'",
-        "en": "Translate into Portuguese: 'Unless it rains, we will leave early.'",
-        "ar": "ترجم إلى البرتغالية: 'Unless it rains, we will leave early.'"
-      },
-      "options": [],
-      "answer": "A menos que llueva, saldremos temprano.",
-      "explanation": {
-        "es": "'A menos que' + subjuntivo 'llueva'.",
-        "en": "'A menos que' + subjunctive 'chova'.",
-        "ar": "'a menos que' + صيغة الشرط 'chova'."
-      }
-    }
+  "lines": [
+   {
+    "speaker": "Paula",
+    "es": "Es posible que el viaje salga caro si vamos en julio.",
+    "en": "The trip may be expensive if we go in July.",
+    "ar": "من الممكن أن تكون الرحلة مكلفة إذا ذهبنا في يوليو."
+   },
+   {
+    "speaker": "Marcos",
+    "es": "Ojalá encontremos boletos baratos.",
+    "en": "Hopefully we find cheap tickets.",
+    "ar": "ليتنا نجد تذاكر رخيصة."
+   },
+   {
+    "speaker": "Paula",
+    "es": "Aunque cueste más, prefiero ir en julio.",
+    "en": "Even if it costs more, I prefer to go in July.",
+    "ar": "حتى لو كلفت أكثر، أفضل الذهاب في يوليو."
+   },
+   {
+    "speaker": "Marcos",
+    "es": "A menos que consigas vacaciones, quizás no funcione.",
+    "en": "Unless you get time off, it may not work out.",
+    "ar": "ما لم تحصلي على إجازة، ربما لا ينجح الأمر."
+   },
+   {
+    "speaker": "Paula",
+    "es": "Con tal de que yo organice todo, se puede intentar.",
+    "en": "As long as I arrange everything, we can try.",
+    "ar": "بشرط أن أنظم كل شيء، يمكننا أن نحاول."
+   },
+   {
+    "speaker": "Marcos",
+    "es": "Para que funcione, tenemos que decidir aún esta semana.",
+    "en": "For it to work out, we need to decide this week.",
+    "ar": "لكي ينجح الأمر، علينا أن نقرر هذا الأسبوع."
+   }
   ]
+ },
+ "reading": {
+  "title": {
+   "es": "Decisiones e Incertidumbres",
+   "en": "Decisions and Uncertainties",
+   "ar": "قرارات وشكوك"
+  },
+  "text_es": "Aunque el futuro sea incierto, hay que decidir hoy. Aunque algunas decisiones asusten, el miedo no puede detener a quien sueña. Ojalá cada uno encuentre su camino, aunque el camino sea largo. A menos que nos rindamos, nada es imposible.",
+  "text_en": "Even if the future is uncertain, we must decide today. Although some choices scare us, fear cannot stop those who dream. Hopefully everyone finds their path, even though the road is long. Unless we give up, nothing is impossible.",
+  "text_ar": "حتى وإن كان المستقبل غير مؤكد، يجب أن نقرر اليوم. على الرغم من أن بعض الخيارات تخيفنا، فإن الخوف لا يستطيع إيقاف من يحلمون. ليت كل واحد يجد طريقه، وإن كان الطريق طويلاً. ما لم نستسلم، فلا شيء مستحيل."
+ },
+ "exercises": [
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "¿Qué frase usa correctamente el subjuntivo después de 'aunque'?",
+    "en": "Which sentence correctly uses the subjunctive after 'embora'?",
+    "ar": "أي جملة تستخدم صيغة الشرط بشكل صحيح بعد 'embora'؟"
+   },
+   "options": [
+    {
+     "es": "Aunque estoy cansado, voy a salir.",
+     "en": "Although I'm tired, I'm going out.",
+     "ar": "رغم أنني متعب، سأخرج."
+    },
+    {
+     "es": "Aunque esté cansado, voy a salir.",
+     "en": "Embora esteja cansado, vou sair.",
+     "ar": "Embora esteja cansado, vou sair."
+    },
+    {
+     "es": "Aunque estaré cansado, voy a salir.",
+     "en": "Embora estarei cansado, vou sair.",
+     "ar": "Embora estarei cansado, vou sair."
+    }
+   ],
+   "answer": "Aunque esté cansado, voy a salir.",
+   "explanation": {
+    "es": "'Aunque' exige el subjuntivo: 'Aunque esté cansado'.",
+    "en": "'Embora' requires the subjunctive: 'Embora esteja cansado'.",
+    "ar": "'embora' تتطلب صيغة الشرط: 'Embora esteja cansado'."
+   }
+  },
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "Completa: 'Ojalá que él ______ a tiempo.'",
+    "en": "Complete: 'Tomara que ele ______ a tempo.'",
+    "ar": "أكمل: 'Tomara que ele ______ a tempo.'"
+   },
+   "options": [
+    {
+     "es": "llega",
+     "en": "chega",
+     "ar": "chega"
+    },
+    {
+     "es": "llegue",
+     "en": "chegue",
+     "ar": "chegue"
+    },
+    {
+     "es": "llegará",
+     "en": "chegará",
+     "ar": "chegará"
+    }
+   ],
+   "answer": "llegue",
+   "explanation": {
+    "es": "'Ojalá' pide subjuntivo presente: 'llegue'.",
+    "en": "'Tomara que' requires the present subjunctive: 'chegue'.",
+    "ar": "'tomara que' تتطلب مضارع الشرط: 'chegue'."
+   }
+  },
+  {
+   "type": "translation",
+   "prompt": {
+    "es": "Traduce al español: 'Unless it rains, we will leave early.'",
+    "en": "Translate into Portuguese: 'Unless it rains, we will leave early.'",
+    "ar": "ترجم إلى البرتغالية: 'Unless it rains, we will leave early.'"
+   },
+   "options": [],
+   "answer": "A menos que llueva, saldremos temprano.",
+   "explanation": {
+    "es": "'A menos que' + subjuntivo 'llueva'.",
+    "en": "'A menos que' + subjunctive 'chova'.",
+    "ar": "'a menos que' + صيغة الشرط 'chova'."
+   }
+  }
+ ]
 }

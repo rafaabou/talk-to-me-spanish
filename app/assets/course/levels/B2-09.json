@@ -1,321 +1,321 @@
 {
-  "id": "B2-09",
-  "level": "B2",
-  "level_name": {
-    "es": "Intermedio alto",
-    "en": "Upper-Intermediate",
-    "ar": "متوسط متقدم"
+ "id": "B2-09",
+ "level": "B2",
+ "level_name": {
+  "es": "Intermedio alto",
+  "en": "Upper-Intermediate",
+  "ar": "متوسط متقدم"
+ },
+ "title": {
+  "es": "Subjuntivo III (Futuro)",
+  "en": "Subjunctive III (Future)",
+  "ar": "صيغة المستقبل الشرطي"
+ },
+ "objectives": [
+  {
+   "es": "Formar el futuro de subjuntivo",
+   "en": "Form the future subjunctive",
+   "ar": "تكوين صيغة المستقبل من الشرط"
   },
+  {
+   "es": "Usarlo en oraciones temporales y condicionales",
+   "en": "Use it in temporal and conditional clauses",
+   "ar": "استخدامه في الجمل الزمنية والشرطية"
+  },
+  {
+   "es": "Emplearlo después de 'cuando', 'si' y 'en cuanto'",
+   "en": "Use it after 'quando', 'se' and 'assim que'",
+   "ar": "استخدامه بعد 'quando' و'se' و'assim que'"
+  }
+ ],
+ "vocabulary": [
+  {
+   "es": "cuando yo vaya",
+   "ipa": "/ˈkuando ˈʝo ˈbaʝa/",
+   "en": "when I go",
+   "ar": "عندما أذهب"
+  },
+  {
+   "es": "si yo puedo",
+   "ipa": "/ˈsi ˈʝo ˈpueðo/",
+   "en": "if I can",
+   "ar": "إذا استطعت"
+  },
+  {
+   "es": "cuando llegue",
+   "ipa": "/ˈkuando ˈʝege/",
+   "en": "when I arrive",
+   "ar": "عندما أصل"
+  },
+  {
+   "es": "mientras esté",
+   "ipa": "/ˈmientɾas eˈste/",
+   "en": "while I am",
+   "ar": "بينما أكون"
+  },
+  {
+   "es": "en cuanto termine",
+   "ipa": "/ˈen ˈkuanto teˈɾmine/",
+   "en": "as soon as I finish",
+   "ar": "بمجرد أن أنتهي"
+  },
+  {
+   "es": "en cuanto",
+   "ipa": "/ˈen ˈkuanto/",
+   "en": "as soon as",
+   "ar": "حالما"
+  },
+  {
+   "es": "cuanto antes",
+   "ipa": "/ˈkuanto ˈantes/",
+   "en": "as soon as possible",
+   "ar": "في أقرب وقت"
+  },
+  {
+   "es": "a menos que",
+   "ipa": "/ˈa ˈmenos ˈke/",
+   "en": "unless",
+   "ar": "ما لم"
+  },
+  {
+   "es": "salvo que",
+   "ipa": "/ˈsalbo ˈke/",
+   "en": "unless",
+   "ar": "إلا إذا"
+  },
+  {
+   "es": "en caso de",
+   "ipa": "/ˈen ˈkaso ˈde/",
+   "en": "in case",
+   "ar": "في حال"
+  },
+  {
+   "es": "aunque",
+   "ipa": "/ˈaunke/",
+   "en": "even if",
+   "ar": "حتى لو"
+  },
+  {
+   "es": "quienquiera que",
+   "ipa": "/kieˈnkieɾa ˈke/",
+   "en": "whoever",
+   "ar": "من كان"
+  },
+  {
+   "es": "si es necesario",
+   "ipa": "/ˈsi ˈes neseˈsaɾio/",
+   "en": "if necessary",
+   "ar": "إذا لزم الأمر"
+  },
+  {
+   "es": "hubiera",
+   "ipa": "/uˈβieɾa/",
+   "en": "there to be",
+   "ar": "إذا كان هناك"
+  },
+  {
+   "es": "haga",
+   "ipa": "/ˈaɣa/",
+   "en": "(if I) do",
+   "ar": "إذا فعلت"
+  }
+ ],
+ "grammar": [
+  {
+   "title": {
+    "es": "Formación del Futuro de Subjuntivo",
+    "en": "Forming the Future Subjunctive",
+    "ar": "تكوين المستقبل الشرطي"
+   },
+   "explanation": {
+    "es": "En los verbos regulares, el futuro de subjuntivo usa la raíz del infinitivo: hablar → cuando yo hablare, tú hablares, él hablare, nosotros habláremos, ellos hablaren. Verbos irregulares: ser → fuere, estar → estuviere, tener → tuviere, ir → fuere, hacer → hiciere, poder → pudiere, poner → pusiere, saber → supiere, dar → diere, ver → viere.",
+    "en": "In regular verbs, the future subjunctive uses the infinitive stem: hablar → cuando yo hablare, tú hablares, él hablare, nosotros habláremos, ellos hablaren. Irregular verbs: ser → fuere, estar → estuviere, tener → tuviere, ir → fuere, hacer → hiciere, poder → pudiere, poner → pusiere, saber → supiere, dar → diere, ver → viere.",
+    "ar": "في الأفعال المنتظمة، يستخدم المستقبل المنصوب جذر المصدر: hablar ← cuando yo hablare، tú hablares، él hablare، nosotros habláremos، ellos hablaren. الشواذ: ser ← fuere، estar ← estuviere، tener ← tuviere، ir ← fuere، hacer ← hiciere، poder ← pudiere، poner ← pusiere، saber ← supiere، dar ← diere، ver ← viere."
+   },
+   "examples": [
+    {
+     "es": "Cuando hable con ella, te cuento.",
+     "en": "When I talk to her, I'll tell you.",
+     "ar": "عندما أتحدث معها، سأخبرك."
+    },
+    {
+     "es": "Si él puede venir, será genial.",
+     "en": "If he can come, it'll be great.",
+     "ar": "إذا استطاع المجيء، سيكون رائعًا."
+    },
+    {
+     "es": "Cuando ellos lleguen, cenaremos.",
+     "en": "When they arrive, we'll have dinner.",
+     "ar": "عندما يصلون، سنتعشى."
+    },
+    {
+     "es": "Si tienes dudas, pregúntame.",
+     "en": "If you have questions, ask me.",
+     "ar": "إذا كانت لديك أسئلة، فاسألني."
+    }
+   ]
+  },
+  {
+   "title": {
+    "es": "Usos del Futuro de Subjuntivo",
+    "en": "Uses of the Future Subjunctive",
+    "ar": "استخدامات المستقبل الشرطي"
+   },
+   "explanation": {
+    "es": "El futuro de subjuntivo aparece en oraciones temporales (cuando, en cuanto, mientras) y condicionales (si) que se refieren al futuro, y en concesivas (aunque, quienquiera que). En el español moderno se sustituye a menudo por el presente de subjuntivo.",
+    "en": "The future subjunctive appears in temporal clauses (quando, assim que, logo que, enquanto) and conditional clauses (se) that refer to the future, and in concessive clauses (ainda que, quem quer que). The main clause is in the future.",
+    "ar": "يظهر المستقبل الشرطي في الجمل الزمنية (quando، assim que، logo que، enquanto) والشرطية (se) التي تشير إلى المستقبل، وفي الجمل التنازلية (ainda que، quem quer que). وتكون الجملة الرئيسية في صيغة المستقبل."
+   },
+   "examples": [
+    {
+     "es": "En cuanto termine el trabajo, voy a descansar.",
+     "en": "As soon as I finish work, I'll rest.",
+     "ar": "بمجرد أن أنهي العمل، سأرتاح."
+    },
+    {
+     "es": "A menos que estudies, no vas a aprobar.",
+     "en": "Unless you study, you won't pass.",
+     "ar": "ما لم تدرس، فلن تنجح."
+    },
+    {
+     "es": "Mientras esté en España, quiero viajar por el sur.",
+     "en": "While I'm in Spain, I want to travel around the south.",
+     "ar": "بينما أنا في إسبانيا، أريد التجول في الجنوب."
+    },
+    {
+     "es": "Quienquiera que gane la elección, la vida continúa.",
+     "en": "Whoever wins the election, life goes on.",
+     "ar": "من كان يفوز في الانتخابات، فالحياة تستمر."
+    }
+   ]
+  }
+ ],
+ "dialogue": {
   "title": {
-    "es": "Subjuntivo III (Futuro)",
-    "en": "Subjunctive III (Future)",
-    "ar": "صيغة المستقبل الشرطي"
+   "es": "Planes para Después del Trabajo",
+   "en": "Plans for After Work",
+   "ar": "خطط ما بعد العمل"
   },
-  "objectives": [
-    {
-      "es": "Formar el futuro de subjuntivo",
-      "en": "Form the future subjunctive",
-      "ar": "تكوين صيغة المستقبل من الشرط"
-    },
-    {
-      "es": "Usarlo en oraciones temporales y condicionales",
-      "en": "Use it in temporal and conditional clauses",
-      "ar": "استخدامه في الجمل الزمنية والشرطية"
-    },
-    {
-      "es": "Emplearlo después de 'cuando', 'si' y 'en cuanto'",
-      "en": "Use it after 'quando', 'se' and 'assim que'",
-      "ar": "استخدامه بعد 'quando' و'se' و'assim que'"
-    }
-  ],
-  "vocabulary": [
-    {
-      "es": "cuando yo vaya",
-      "ipa": "/ˈkuando ˈʝo ˈbaʝa/",
-      "en": "when I go",
-      "ar": "عندما أذهب"
-    },
-    {
-      "es": "si yo puedo",
-      "ipa": "/ˈsi ˈʝo ˈpueðo/",
-      "en": "if I can",
-      "ar": "إذا استطعت"
-    },
-    {
-      "es": "cuando llegue",
-      "ipa": "/ˈkuando ˈʝege/",
-      "en": "when I arrive",
-      "ar": "عندما أصل"
-    },
-    {
-      "es": "mientras esté",
-      "ipa": "/ˈmientɾas eˈste/",
-      "en": "while I am",
-      "ar": "بينما أكون"
-    },
-    {
-      "es": "en cuanto termine",
-      "ipa": "/ˈen ˈkuanto teˈɾmine/",
-      "en": "as soon as I finish",
-      "ar": "بمجرد أن أنتهي"
-    },
-    {
-      "es": "en cuanto",
-      "ipa": "/ˈen ˈkuanto/",
-      "en": "as soon as",
-      "ar": "حالما"
-    },
-    {
-      "es": "cuanto antes",
-      "ipa": "/ˈkuanto ˈantes/",
-      "en": "as soon as possible",
-      "ar": "في أقرب وقت"
-    },
-    {
-      "es": "a menos que",
-      "ipa": "/ˈa ˈmenos ˈke/",
-      "en": "unless",
-      "ar": "ما لم"
-    },
-    {
-      "es": "salvo que",
-      "ipa": "/ˈsalbo ˈke/",
-      "en": "unless",
-      "ar": "إلا إذا"
-    },
-    {
-      "es": "en caso de",
-      "ipa": "/ˈen ˈkaso ˈde/",
-      "en": "in case",
-      "ar": "في حال"
-    },
-    {
-      "es": "aunque",
-      "ipa": "/ˈaunke/",
-      "en": "even if",
-      "ar": "حتى لو"
-    },
-    {
-      "es": "quienquiera que",
-      "ipa": "/kieˈnkieɾa ˈke/",
-      "en": "whoever",
-      "ar": "من كان"
-    },
-    {
-      "es": "si es necesario",
-      "ipa": "/ˈsi ˈes neseˈsaɾio/",
-      "en": "if necessary",
-      "ar": "إذا لزم الأمر"
-    },
-    {
-      "es": "hubiera",
-      "ipa": "/uˈβieɾa/",
-      "en": "there to be",
-      "ar": "إذا كان هناك"
-    },
-    {
-      "es": "haga",
-      "ipa": "/ˈaɣa/",
-      "en": "(if I) do",
-      "ar": "إذا فعلت"
-    }
-  ],
-  "grammar": [
-    {
-      "title": {
-        "es": "Formación del Futuro de Subjuntivo",
-        "en": "Forming the Future Subjunctive",
-        "ar": "تكوين المستقبل الشرطي"
-      },
-      "explanation": {
-        "es": "En los verbos regulares, el futuro de subjuntivo usa la raíz del infinitivo: hablar → cuando yo hablare, tú hablares, él hablare, nosotros habláremos, ellos hablaren. Verbos irregulares: ser → fuere, estar → estuviere, tener → tuviere, ir → fuere, hacer → hiciere, poder → pudiere, poner → pusiere, saber → supiere, dar → diere, ver → viere.",
-        "en": "In regular verbs, the future subjunctive uses the infinitive stem: falar → quando eu falar, tu falares, ele falar, nós falarmos, eles falarem. Irregular verbs: ser → for, estar → estiver, ter → tiver, ir → for, fazer → fizer, poder → puder, pôr → puser, saber → souber, dar → der, ver → vir (virem).",
-        "ar": "في الأفعال المنتظمة، يستخدم المستقبل الشرطي جذر المصدر: falar ← quando eu falar، tu falares، ele falar، nós falarmos، eles falarem. الأفعال الشاذة: ser ← for، estar ← estiver، ter ← tiver، ir ← for، fazer ← fizer، poder ← puder، pôr ← puser، saber ← souber، dar ← der، ver ← vir (virem)."
-      },
-      "examples": [
-        {
-          "es": "Cuando hable con ella, te cuento.",
-          "en": "When I talk to her, I'll tell you.",
-          "ar": "عندما أتحدث معها، سأخبرك."
-        },
-        {
-          "es": "Si él puede venir, será genial.",
-          "en": "If he can come, it'll be great.",
-          "ar": "إذا استطاع المجيء، سيكون رائعًا."
-        },
-        {
-          "es": "Cuando ellos lleguen, cenaremos.",
-          "en": "When they arrive, we'll have dinner.",
-          "ar": "عندما يصلون، سنتعشى."
-        },
-        {
-          "es": "Si tienes dudas, pregúntame.",
-          "en": "If you have questions, ask me.",
-          "ar": "إذا كانت لديك أسئلة، فاسألني."
-        }
-      ]
-    },
-    {
-      "title": {
-        "es": "Usos del Futuro de Subjuntivo",
-        "en": "Uses of the Future Subjunctive",
-        "ar": "استخدامات المستقبل الشرطي"
-      },
-      "explanation": {
-        "es": "El futuro de subjuntivo aparece en oraciones temporales (cuando, en cuanto, mientras) y condicionales (si) que se refieren al futuro, y en concesivas (aunque, quienquiera que). En el español moderno se sustituye a menudo por el presente de subjuntivo.",
-        "en": "The future subjunctive appears in temporal clauses (quando, assim que, logo que, enquanto) and conditional clauses (se) that refer to the future, and in concessive clauses (ainda que, quem quer que). The main clause is in the future.",
-        "ar": "يظهر المستقبل الشرطي في الجمل الزمنية (quando، assim que، logo que، enquanto) والشرطية (se) التي تشير إلى المستقبل، وفي الجمل التنازلية (ainda que، quem quer que). وتكون الجملة الرئيسية في صيغة المستقبل."
-      },
-      "examples": [
-        {
-          "es": "En cuanto termine el trabajo, voy a descansar.",
-          "en": "As soon as I finish work, I'll rest.",
-          "ar": "بمجرد أن أنهي العمل، سأرتاح."
-        },
-        {
-          "es": "A menos que estudies, no vas a aprobar.",
-          "en": "Unless you study, you won't pass.",
-          "ar": "ما لم تدرس، فلن تنجح."
-        },
-        {
-          "es": "Mientras esté en España, quiero viajar por el sur.",
-          "en": "While I'm in Brazil, I want to travel through the Northeast.",
-          "ar": "بينما أكون في البرازيل، أريد السفر عبر الشمال الشرقي."
-        },
-        {
-          "es": "Quienquiera que gane la elección, la vida continúa.",
-          "en": "Whoever wins the election, life goes on.",
-          "ar": "من كان يفوز في الانتخابات، فالحياة تستمر."
-        }
-      ]
-    }
-  ],
-  "dialogue": {
-    "title": {
-      "es": "Planes para Después del Trabajo",
-      "en": "Plans for After Work",
-      "ar": "خطط ما بعد العمل"
-    },
-    "lines": [
-      {
-        "speaker": "Carla",
-        "es": "Cuando salga del trabajo hoy, quiero ir al gimnasio.",
-        "en": "When I finish work today, I want to go to the gym.",
-        "ar": "عندما أنتهي من العمل اليوم، أريد الذهاب إلى النادي الرياضي."
-      },
-      {
-        "speaker": "Rafael",
-        "es": "¡Genial! Si termino el proyecto temprano, voy contigo.",
-        "en": "Great! If I finish the project early, I'll go with you.",
-        "ar": "رائع! إذا أنهيت المشروع مبكرًا، سأذهب معك."
-      },
-      {
-        "speaker": "Carla",
-        "es": "Genial. En cuanto termines, avísame.",
-        "en": "Cool. As soon as you finish, let me know.",
-        "ar": "حسنًا. بمجرد أن تنتهي، أخبرني."
-      },
-      {
-        "speaker": "Rafael",
-        "es": "De acuerdo. Después, quién sabe, cenamos fuera.",
-        "en": "Deal. Then, who knows, we have dinner out.",
-        "ar": "متفق. ثم بعد ذلك، من يدري، ربما نتناول العشاء خارجًا."
-      },
-      {
-        "speaker": "Carla",
-        "es": "Perfecto. A menos que llueva, nos vamos a divertir.",
-        "en": "Perfect. Unless it rains, we'll have fun.",
-        "ar": "رائع. ما لم يهطل المطر، سنستمتع."
-      }
-    ]
-  },
-  "reading": {
-    "title": {
-      "es": "Planes para el Futuro",
-      "en": "Plans for the Future",
-      "ar": "خطط للمستقبل"
-    },
-    "text_es": "Cuando termines la universidad, muchas puertas se abrirán. Si eliges bien la carrera, el trabajo se vuelve placer. En cuanto consigas una oportunidad, aprovecha cada aprendizaje. Recuerda: en caso de cambiar de idea, siempre puedes empezar de nuevo.",
-    "text_en": "When you finish college, many doors will open. If you choose your career well, work becomes a pleasure. As soon as you get an opportunity, make the most of every lesson. Remember: in case you change your mind, you can always start over.",
-    "text_ar": "عندما تنهي الجامعة، ستُفتح أمامك أبواب كثيرة. إذا اخترت مسيرتك جيدًا، يصبح العمل متعة. بمجرد أن تحصل على فرصة، اغتنم كل ما تتعلمه. وتذكر: في حال غيّرت رأيك، يمكنك دائمًا أن تبدأ من جديد."
-  },
-  "exercises": [
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "Cuando yo ___ con ella, te cuento.",
-        "en": "When I ___ to her, I'll tell you.",
-        "ar": "عندما ___ معها، سأخبرك."
-      },
-      "options": [
-        {
-          "es": "hablo",
-          "en": "falo",
-          "ar": "falo"
-        },
-        {
-          "es": "hable",
-          "en": "falar",
-          "ar": "falar"
-        },
-        {
-          "es": "hablaré",
-          "en": "falarei",
-          "ar": "falarei"
-        }
-      ],
-      "answer": "hable",
-      "explanation": {
-        "es": "Después de 'cuando' con sentido de futuro, usamos el subjuntivo: hable.",
-        "en": "After 'quando' with a future meaning, we use the future subjunctive: falar.",
-        "ar": "بعد 'quando' بمعنى المستقبل نستخدم المستقبل الشرطي: falar."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "Si tú ___ dudas, pregúntame.",
-        "en": "If you ___ questions, ask me.",
-        "ar": "إذا ___ لديك أسئلة، فاسألني."
-      },
-      "options": [
-        {
-          "es": "tiene",
-          "en": "tem",
-          "ar": "tem"
-        },
-        {
-          "es": "tener",
-          "en": "ter",
-          "ar": "ter"
-        },
-        {
-          "es": "tienes",
-          "en": "tiver",
-          "ar": "tiver"
-        }
-      ],
-      "answer": "tienes",
-      "explanation": {
-        "es": "Condición futura: 'si' + presente (tienes).",
-        "en": "Future condition: 'se' + future subjunctive (tiver).",
-        "ar": "شرط مستقبلي: 'se' + المستقبل الشرطي (tiver)."
-      }
-    },
-    {
-      "type": "translation",
-      "prompt": {
-        "es": "Traduce: 'As soon as I finish work, I'll rest.'",
-        "en": "Translate: 'As soon as I finish work, I'll rest.'",
-        "ar": "ترجم: 'As soon as I finish work, I'll rest.'"
-      },
-      "options": [],
-      "answer": "En cuanto termine el trabajo, voy a descansar.",
-      "explanation": {
-        "es": "Temporal: 'en cuanto' + subjuntivo 'termine'.",
-        "en": "Temporal: 'assim que' + future subjunctive 'terminar'.",
-        "ar": "زمنية: 'assim que' + المستقبل الشرطي 'terminar'."
-      }
-    }
+  "lines": [
+   {
+    "speaker": "Carla",
+    "es": "Cuando salga del trabajo hoy, quiero ir al gimnasio.",
+    "en": "When I finish work today, I want to go to the gym.",
+    "ar": "عندما أنتهي من العمل اليوم، أريد الذهاب إلى النادي الرياضي."
+   },
+   {
+    "speaker": "Rafael",
+    "es": "¡Genial! Si termino el proyecto temprano, voy contigo.",
+    "en": "Great! If I finish the project early, I'll go with you.",
+    "ar": "رائع! إذا أنهيت المشروع مبكرًا، سأذهب معك."
+   },
+   {
+    "speaker": "Carla",
+    "es": "Genial. En cuanto termines, avísame.",
+    "en": "Cool. As soon as you finish, let me know.",
+    "ar": "حسنًا. بمجرد أن تنتهي، أخبرني."
+   },
+   {
+    "speaker": "Rafael",
+    "es": "De acuerdo. Después, quién sabe, cenamos fuera.",
+    "en": "Deal. Then, who knows, we have dinner out.",
+    "ar": "متفق. ثم بعد ذلك، من يدري، ربما نتناول العشاء خارجًا."
+   },
+   {
+    "speaker": "Carla",
+    "es": "Perfecto. A menos que llueva, nos vamos a divertir.",
+    "en": "Perfect. Unless it rains, we'll have fun.",
+    "ar": "رائع. ما لم يهطل المطر، سنستمتع."
+   }
   ]
+ },
+ "reading": {
+  "title": {
+   "es": "Planes para el Futuro",
+   "en": "Plans for the Future",
+   "ar": "خطط للمستقبل"
+  },
+  "text_es": "Cuando termines la universidad, muchas puertas se abrirán. Si eliges bien la carrera, el trabajo se vuelve placer. En cuanto consigas una oportunidad, aprovecha cada aprendizaje. Recuerda: en caso de cambiar de idea, siempre puedes empezar de nuevo.",
+  "text_en": "When you finish college, many doors will open. If you choose your career well, work becomes a pleasure. As soon as you get an opportunity, make the most of every lesson. Remember: in case you change your mind, you can always start over.",
+  "text_ar": "عندما تنهي الجامعة، ستُفتح أمامك أبواب كثيرة. إذا اخترت مسيرتك جيدًا، يصبح العمل متعة. بمجرد أن تحصل على فرصة، اغتنم كل ما تتعلمه. وتذكر: في حال غيّرت رأيك، يمكنك دائمًا أن تبدأ من جديد."
+ },
+ "exercises": [
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "Cuando yo ___ con ella, te cuento.",
+    "en": "When I ___ to her, I'll tell you.",
+    "ar": "عندما ___ معها، سأخبرك."
+   },
+   "options": [
+    {
+     "es": "hablo",
+     "en": "falo",
+     "ar": "falo"
+    },
+    {
+     "es": "hable",
+     "en": "falar",
+     "ar": "falar"
+    },
+    {
+     "es": "hablaré",
+     "en": "falarei",
+     "ar": "falarei"
+    }
+   ],
+   "answer": "hable",
+   "explanation": {
+    "es": "Después de 'cuando' con sentido de futuro, usamos el subjuntivo: hable.",
+    "en": "After 'quando' with a future meaning, we use the future subjunctive: falar.",
+    "ar": "بعد 'quando' بمعنى المستقبل نستخدم المستقبل الشرطي: falar."
+   }
+  },
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "Si tú ___ dudas, pregúntame.",
+    "en": "If you ___ questions, ask me.",
+    "ar": "إذا ___ لديك أسئلة، فاسألني."
+   },
+   "options": [
+    {
+     "es": "tiene",
+     "en": "tem",
+     "ar": "tem"
+    },
+    {
+     "es": "tener",
+     "en": "ter",
+     "ar": "ter"
+    },
+    {
+     "es": "tienes",
+     "en": "tiver",
+     "ar": "tiver"
+    }
+   ],
+   "answer": "tienes",
+   "explanation": {
+    "es": "Condición futura: 'si' + presente (tienes).",
+    "en": "Future condition: 'se' + future subjunctive (tiver).",
+    "ar": "شرط مستقبلي: 'se' + المستقبل الشرطي (tiver)."
+   }
+  },
+  {
+   "type": "translation",
+   "prompt": {
+    "es": "Traduce: 'As soon as I finish work, I'll rest.'",
+    "en": "Translate: 'As soon as I finish work, I'll rest.'",
+    "ar": "ترجم: 'As soon as I finish work, I'll rest.'"
+   },
+   "options": [],
+   "answer": "En cuanto termine el trabajo, voy a descansar.",
+   "explanation": {
+    "es": "Temporal: 'en cuanto' + subjuntivo 'termine'.",
+    "en": "Temporal: 'assim que' + future subjunctive 'terminar'.",
+    "ar": "زمنية: 'assim que' + المستقبل الشرطي 'terminar'."
+   }
+  }
+ ]
 }

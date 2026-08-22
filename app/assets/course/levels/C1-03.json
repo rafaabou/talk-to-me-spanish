@@ -1,327 +1,327 @@
 {
-  "id": "C1-03",
-  "level": "C1",
-  "level_name": {
-    "es": "Avanzado",
-    "en": "Advanced",
-    "ar": "متقدم"
+ "id": "C1-03",
+ "level": "C1",
+ "level_name": {
+  "es": "Avanzado",
+  "en": "Advanced",
+  "ar": "متقدم"
+ },
+ "title": {
+  "es": "Crónicas y Cuentos (Lectura)",
+  "en": "Chronicles and Short Stories (Reading)",
+  "ar": "مقالات وقصص قصيرة (قراءة)"
+ },
+ "objectives": [
+  {
+   "es": "Leer e interpretar crónicas y cuentos hispanoamericanos",
+   "en": "Read and interpret Brazilian chronicles and short stories",
+   "ar": "قراءة وتفسير المقالات والقصص القصيرة البرازيلية"
   },
+  {
+   "es": "Identificar la ironía, el humor y la crítica social",
+   "en": "Identify irony, humor and social criticism",
+   "ar": "تحديد السخرية والفكاهة والنقد الاجتماعي"
+  },
+  {
+   "es": "Reconocer los tiempos narrativos en la literatura",
+   "en": "Recognize narrative tenses in literature",
+   "ar": "التعرف على الأزمنة السردية في الأدب"
+  }
+ ],
+ "vocabulary": [
+  {
+   "es": "la crónica",
+   "ipa": "/ˈla ˈkɾonika/",
+   "en": "the chronicle, column",
+   "ar": "المقالة، العمود"
+  },
+  {
+   "es": "el cuento",
+   "ipa": "/ˈel ˈkuento/",
+   "en": "the short story",
+   "ar": "القصة القصيرة"
+  },
+  {
+   "es": "el narrador",
+   "ipa": "/ˈel naraˈðoɾ/",
+   "en": "the narrator",
+   "ar": "الراوي"
+  },
+  {
+   "es": "la trama",
+   "ipa": "/ˈla ˈtɾama/",
+   "en": "the plot",
+   "ar": "الحبكة"
+  },
+  {
+   "es": "la ironía",
+   "ipa": "/ˈla iɾoˈnia/",
+   "en": "the irony",
+   "ar": "السخرية"
+  },
+  {
+   "es": "el humor",
+   "ipa": "/ˈel uˈmoɾ/",
+   "en": "the humor",
+   "ar": "الفكاهة"
+  },
+  {
+   "es": "la cotidianidad",
+   "ipa": "/ˈla kotiðianiˈðað/",
+   "en": "the everyday life",
+   "ar": "الحياة اليومية"
+  },
+  {
+   "es": "la observación",
+   "ipa": "/ˈla oβseɾbaˈsion/",
+   "en": "the observation",
+   "ar": "الملاحظة"
+  },
+  {
+   "es": "el personaje",
+   "ipa": "/ˈel peɾsoˈnaxe/",
+   "en": "the character",
+   "ar": "الشخصية"
+  },
+  {
+   "es": "el escenario",
+   "ipa": "/ˈel esseˈnaɾio/",
+   "en": "the setting",
+   "ar": "المشهد، الخلفية"
+  },
+  {
+   "es": "el desenlace",
+   "ipa": "/ˈel deseˈnlase/",
+   "en": "the ending, outcome",
+   "ar": "الخاتمة"
+  },
+  {
+   "es": "el lector",
+   "ipa": "/ˈel leˈktoɾ/",
+   "en": "the reader",
+   "ar": "القارئ"
+  },
+  {
+   "es": "el autor",
+   "ipa": "/ˈel auˈtoɾ/",
+   "en": "the author",
+   "ar": "الكاتب"
+  },
+  {
+   "es": "la crítica social",
+   "ipa": "/ˈla ˈkɾitika soˈsial/",
+   "en": "social criticism",
+   "ar": "النقد الاجتماعي"
+  },
+  {
+   "es": "el tono",
+   "ipa": "/ˈel ˈtono/",
+   "en": "the tone",
+   "ar": "النبرة، الأسلوب"
+  },
+  {
+   "es": "el clímax",
+   "ipa": "/ˈel ˈklimaks/",
+   "en": "the climax",
+   "ar": "الذروة"
+  }
+ ],
+ "grammar": [
+  {
+   "title": {
+    "es": "Tiempos Narrativos en la Crónica",
+    "en": "Narrative Tenses in the Chronicle",
+    "ar": "الأزمنة السردية في المقالة"
+   },
+   "explanation": {
+    "es": "En la narrativa, el pretérito imperfecto describe el escenario, las acciones habituales y el contexto (ej.: 'vivía', 'ocurría'), mientras el pretérito indefinido narra los hechos puntuales que mueven la trama (ej.: 'me levanté', 'abrió'). Esta combinación crea ritmo y profundidad en el texto.",
+    "en": "In narrative, the imperfect describes the setting, habitual actions and context (e.g., 'vivía' - I used to live, 'ocurría' - it used to happen), while the preterite narrates the one-off events that move the plot (e.g., 'me levanté' - I got up, 'abrió' - it opened). This combination creates rhythm and depth in the text.",
+    "ar": "في السرد، يصف الماضي الاستمراري المشهد والأفعال المعتادة والسياق (مثل 'vivía' كنت أعيش، 'ocurría' كان يحدث)، بينما يسرد الماضي المطلق الأحداث اللحظية التي تحرك الحبكة (مثل 'me levanté' نهضت، 'abrió' فتح). هذا الجمع يخلق إيقاعًا وعمقًا في النص."
+   },
+   "examples": [
+    {
+     "es": "Cuando yo era niño, vivía en un pueblo pequeño.",
+     "en": "When I was a child, I lived in a small town.",
+     "ar": "عندما كنت طفلًا، كنت أسكن في مدينة صغيرة."
+    },
+    {
+     "es": "Ayer me levanté temprano y fui a la panadería.",
+     "en": "Yesterday I woke up early and went to the bakery.",
+     "ar": "بالأمس استيقظت مبكرًا وذهبت إلى المخبز."
+    },
+    {
+     "es": "Ella reía cada vez que lo veía llegar.",
+     "en": "She always laughed when she saw him arrive.",
+     "ar": "كانت تضحك كلما رأته يصل."
+    },
+    {
+     "es": "De repente, la puerta se abrió y entró un gato.",
+     "en": "Suddenly, the door opened and a cat came in.",
+     "ar": "وفجأة فُتح الباب ودخلت قطة."
+    }
+   ]
+  },
+  {
+   "title": {
+    "es": "Discurso Directo en la Narrativa",
+    "en": "Direct Speech in Narrative",
+    "ar": "الكلام المباشر في السرد"
+   },
+   "explanation": {
+    "es": "Los verbos de elocución (decir, exclamar, preguntar, susurrar) introducen el discurso directo y dan vida a los personajes. Pueden ir antes, después o en medio del diálogo, y el tono del verbo revela la emoción del momento: 'exclamó' (sorpresa), 'susurró' (secreto), 'refunfuñó' (queja).",
+    "en": "Speech verbs (to say, to exclaim, to ask, to whisper) introduce direct speech and bring characters to life. They can come before, after or in the middle of the speech, and the tone of the verb reveals the emotion of the moment: 'exclamou' (surprise), 'sussurrou' (secret), 'resmungou' (complaint).",
+    "ar": "أفعال القول (يقول، يصيح، يسأل، يهمس) تقدم الكلام المباشر وتمنح الشخصيات الحياة. وقد تأتي قبل الكلام أو بعده أو في منتصفه، وتكشف نبرة الفعل عن مشاعر اللحظة: 'exclamou' (دهشة)، 'sussurrou' (سر)، 'resmungou' (تذمر)."
+   },
+   "examples": [
+    {
+     "es": "\"¡No lo creo!\", exclamó la abuela.",
+     "en": "\"I can't believe it!\", exclaimed the grandmother.",
+     "ar": "«لا أصدق!» صاحت الجدة."
+    },
+    {
+     "es": "El médico preguntó: \"¿Dormiste bien?\"",
+     "en": "The doctor asked: \"Did you sleep well?\"",
+     "ar": "سأل الطبيب: «هل نمت جيدًا؟»"
+    },
+    {
+     "es": "\"Vámonos\", susurró el niño.",
+     "en": "\"Let's go\", whispered the boy.",
+     "ar": "«دعنا نذهب»، همس الصبي."
+    },
+    {
+     "es": "Ella dijo: \"La vida es demasiado corta para esperar.\"",
+     "en": "She said: \"Life is too short to wait.\"",
+     "ar": "قالت: «الحياة أقصر من أن تنتظر»."
+    }
+   ]
+  }
+ ],
+ "dialogue": {
   "title": {
-    "es": "Crónicas y Cuentos (Lectura)",
-    "en": "Chronicles and Short Stories (Reading)",
-    "ar": "مقالات وقصص قصيرة (قراءة)"
+   "es": "Contando una Historia",
+   "en": "Telling a Story",
+   "ar": "يروي قصة"
   },
-  "objectives": [
-    {
-      "es": "Leer e interpretar crónicas y cuentos hispanoamericanos",
-      "en": "Read and interpret Brazilian chronicles and short stories",
-      "ar": "قراءة وتفسير المقالات والقصص القصيرة البرازيلية"
-    },
-    {
-      "es": "Identificar la ironía, el humor y la crítica social",
-      "en": "Identify irony, humor and social criticism",
-      "ar": "تحديد السخرية والفكاهة والنقد الاجتماعي"
-    },
-    {
-      "es": "Reconocer los tiempos narrativos en la literatura",
-      "en": "Recognize narrative tenses in literature",
-      "ar": "التعرف على الأزمنة السردية في الأدب"
-    }
-  ],
-  "vocabulary": [
-    {
-      "es": "la crónica",
-      "ipa": "/ˈla ˈkɾonika/",
-      "en": "the chronicle, column",
-      "ar": "المقالة، العمود"
-    },
-    {
-      "es": "el cuento",
-      "ipa": "/ˈel ˈkuento/",
-      "en": "the short story",
-      "ar": "القصة القصيرة"
-    },
-    {
-      "es": "el narrador",
-      "ipa": "/ˈel naraˈðoɾ/",
-      "en": "the narrator",
-      "ar": "الراوي"
-    },
-    {
-      "es": "la trama",
-      "ipa": "/ˈla ˈtɾama/",
-      "en": "the plot",
-      "ar": "الحبكة"
-    },
-    {
-      "es": "la ironía",
-      "ipa": "/ˈla iɾoˈnia/",
-      "en": "the irony",
-      "ar": "السخرية"
-    },
-    {
-      "es": "el humor",
-      "ipa": "/ˈel uˈmoɾ/",
-      "en": "the humor",
-      "ar": "الفكاهة"
-    },
-    {
-      "es": "la cotidianidad",
-      "ipa": "/ˈla kotiðianiˈðað/",
-      "en": "the everyday life",
-      "ar": "الحياة اليومية"
-    },
-    {
-      "es": "la observación",
-      "ipa": "/ˈla oβseɾbaˈsion/",
-      "en": "the observation",
-      "ar": "الملاحظة"
-    },
-    {
-      "es": "el personaje",
-      "ipa": "/ˈel peɾsoˈnaxe/",
-      "en": "the character",
-      "ar": "الشخصية"
-    },
-    {
-      "es": "el escenario",
-      "ipa": "/ˈel esseˈnaɾio/",
-      "en": "the setting",
-      "ar": "المشهد، الخلفية"
-    },
-    {
-      "es": "el desenlace",
-      "ipa": "/ˈel deseˈnlase/",
-      "en": "the ending, outcome",
-      "ar": "الخاتمة"
-    },
-    {
-      "es": "el lector",
-      "ipa": "/ˈel leˈktoɾ/",
-      "en": "the reader",
-      "ar": "القارئ"
-    },
-    {
-      "es": "el autor",
-      "ipa": "/ˈel auˈtoɾ/",
-      "en": "the author",
-      "ar": "الكاتب"
-    },
-    {
-      "es": "la crítica social",
-      "ipa": "/ˈla ˈkɾitika soˈsial/",
-      "en": "social criticism",
-      "ar": "النقد الاجتماعي"
-    },
-    {
-      "es": "el tono",
-      "ipa": "/ˈel ˈtono/",
-      "en": "the tone",
-      "ar": "النبرة، الأسلوب"
-    },
-    {
-      "es": "el clímax",
-      "ipa": "/ˈel ˈklimaks/",
-      "en": "the climax",
-      "ar": "الذروة"
-    }
-  ],
-  "grammar": [
-    {
-      "title": {
-        "es": "Tiempos Narrativos en la Crónica",
-        "en": "Narrative Tenses in the Chronicle",
-        "ar": "الأزمنة السردية في المقالة"
-      },
-      "explanation": {
-        "es": "En la narrativa, el pretérito imperfecto describe el escenario, las acciones habituales y el contexto (ej.: 'vivía', 'ocurría'), mientras el pretérito indefinido narra los hechos puntuales que mueven la trama (ej.: 'me levanté', 'abrió'). Esta combinación crea ritmo y profundidad en el texto.",
-        "en": "In narrative, the imperfect describes the setting, habitual actions and context (e.g., 'morava' - I used to live, 'acontecia' - it used to happen), while the preterite narrates the one-time events that move the plot (e.g., 'acordei' - I woke up, 'abriu' - it opened). The compound preterite can indicate repetition in the past: 'tenho visto' (I have been seeing). This combination creates rhythm and depth in the text.",
-        "ar": "في السرد، يصف الماضي الناقص المشهد والأفعال المعتادة والسياق (مثل 'morava' كنت أسكن، 'acontecia' كان يحدث)، بينما يسرد الماضي التام الأحداث اللحظية التي تحرك الحبكة (مثل 'acordei' استيقظت، 'abriu' فُتح). وقد يعبّر الماضي التام المركب عن التكرار في الماضي: 'tenho visto'. هذا الجمع يخلق إيقاعًا وعمقًا في النص."
-      },
-      "examples": [
-        {
-          "es": "Cuando yo era niño, vivía en un pueblo pequeño.",
-          "en": "When I was a child, I lived in a small town.",
-          "ar": "عندما كنت طفلًا، كنت أسكن في مدينة صغيرة."
-        },
-        {
-          "es": "Ayer me levanté temprano y fui a la panadería.",
-          "en": "Yesterday I woke up early and went to the bakery.",
-          "ar": "بالأمس استيقظت مبكرًا وذهبت إلى المخبز."
-        },
-        {
-          "es": "Ella reía cada vez que lo veía llegar.",
-          "en": "She always laughed when she saw him arrive.",
-          "ar": "كانت تضحك كلما رأته يصل."
-        },
-        {
-          "es": "De repente, la puerta se abrió y entró un gato.",
-          "en": "Suddenly, the door opened and a cat came in.",
-          "ar": "وفجأة فُتح الباب ودخلت قطة."
-        }
-      ]
-    },
-    {
-      "title": {
-        "es": "Discurso Directo en la Narrativa",
-        "en": "Direct Speech in Narrative",
-        "ar": "الكلام المباشر في السرد"
-      },
-      "explanation": {
-        "es": "Los verbos de elocución (decir, exclamar, preguntar, susurrar) introducen el discurso directo y dan vida a los personajes. Pueden ir antes, después o en medio del diálogo, y el tono del verbo revela la emoción del momento: 'exclamó' (sorpresa), 'susurró' (secreto), 'refunfuñó' (queja).",
-        "en": "Speech verbs (to say, to exclaim, to ask, to whisper) introduce direct speech and bring characters to life. They can come before, after or in the middle of the speech, and the tone of the verb reveals the emotion of the moment: 'exclamou' (surprise), 'sussurrou' (secret), 'resmungou' (complaint).",
-        "ar": "أفعال القول (يقول، يصيح، يسأل، يهمس) تقدم الكلام المباشر وتمنح الشخصيات الحياة. وقد تأتي قبل الكلام أو بعده أو في منتصفه، وتكشف نبرة الفعل عن مشاعر اللحظة: 'exclamou' (دهشة)، 'sussurrou' (سر)، 'resmungou' (تذمر)."
-      },
-      "examples": [
-        {
-          "es": "\"¡No lo creo!\", exclamó la abuela.",
-          "en": "\"I can't believe it!\", exclaimed the grandmother.",
-          "ar": "«لا أصدق!» صاحت الجدة."
-        },
-        {
-          "es": "El médico preguntó: \"¿Dormiste bien?\"",
-          "en": "The doctor asked: \"Did you sleep well?\"",
-          "ar": "سأل الطبيب: «هل نمت جيدًا؟»"
-        },
-        {
-          "es": "\"Vámonos\", susurró el niño.",
-          "en": "\"Let's go\", whispered the boy.",
-          "ar": "«دعنا نذهب»، همس الصبي."
-        },
-        {
-          "es": "Ella dijo: \"La vida es demasiado corta para esperar.\"",
-          "en": "She said: \"Life is too short to wait.\"",
-          "ar": "قالت: «الحياة أقصر من أن تنتظر»."
-        }
-      ]
-    }
-  ],
-  "dialogue": {
-    "title": {
-      "es": "Contando una Historia",
-      "en": "Telling a Story",
-      "ar": "يروي قصة"
-    },
-    "lines": [
-      {
-        "speaker": "Abuela",
-        "es": "Cuando yo era pequeña, la calle era de tierra y todo el mundo se conocía.",
-        "en": "When I was little, the street was dirt and everyone knew each other.",
-        "ar": "عندما كنت صغيرة، كان الشارع ترابيًا وكان الجميع يعرف بعضهم."
-      },
-      {
-        "speaker": "Nieto",
-        "es": "¿Y qué era lo más divertido?",
-        "en": "And what was the most fun thing that happened?",
-        "ar": "وما الذي كان يحدث من أمتع الأشياء؟"
-      },
-      {
-        "speaker": "Abuela",
-        "es": "Reuníamos a los niños e inventábamos historias de fantasmas.",
-        "en": "We gathered the kids and made up ghost stories.",
-        "ar": "كنا نجمع الأطفال ونختلق قصص الأشباح."
-      },
-      {
-        "speaker": "Nieto",
-        "es": "\"¡Cuenta otra!\", gritaban todos cada noche.",
-        "en": "\"Tell another one!\", everyone shouted every night.",
-        "ar": "«احكِ غيرها!» كان الجميع يصرخون كل ليلة."
-      },
-      {
-        "speaker": "Abuela",
-        "es": "Y entonces yo hacía suspenso y todos se quedaban calladitos, esperando el desenlace.",
-        "en": "Then I would build suspense and everyone stayed quiet, waiting for the ending.",
-        "ar": "ثم كنت أثير التشويق ويبقى الجميع صامتين في انتظار الخاتمة."
-      }
-    ]
-  },
-  "reading": {
-    "title": {
-      "es": "La Calle de Antaño",
-      "en": "The Street of Long Ago",
-      "ar": "شارع الماضي"
-    },
-    "text_es": "La calle de antaño no tenía prisa: la gente se sentaba en las aceras y conversaba hasta el anochecer. Cada niño tenía una historia que contar, y los mayores, mil historias que corregir. El tiempo pasaba lento, entre café y café. Hoy, nadie se sienta en la acera; todos corren, como si la vida tuviera demasiada prisa.",
-    "text_en": "The street of long ago had no hurry: people sat on the sidewalks and talked until nightfall. Every child had a story to tell, and the elders had a thousand stories to correct. Time passed slowly, between one coffee and the next. Today, nobody sits on the sidewalk anymore; everyone rushes, as if life were in too much of a hurry.",
-    "text_ar": "لم يكن شارع الماضي يعرف العجلة: كان الناس يجلسون على الأرصفة ويتحدثون حتى حلول الليل. كان لكل طفل قصة يحكيها، ولكبار السن ألف قصة يصححونها. كان الوقت يمضي ببطء، بين فنجان قهوة وآخر. أما اليوم فلا أحد يجلس على الرصيف؛ فالجميع يجرون، وكأن الحياة في عجلة من أمرها."
-  },
-  "exercises": [
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "¿Qué tiempo verbal describe acciones habituales en el pasado?",
-        "en": "Which tense describes habitual actions in the past?",
-        "ar": "أي زمن يصف الأفعال المعتادة في الماضي؟"
-      },
-      "options": [
-        {
-          "es": "Pretérito indefinido",
-          "en": "Simple past",
-          "ar": "الماضي البسيط"
-        },
-        {
-          "es": "Pretérito imperfecto",
-          "en": "Imperfect",
-          "ar": "الماضي الناقص"
-        },
-        {
-          "es": "Futuro simple",
-          "en": "Simple future",
-          "ar": "المستقبل"
-        }
-      ],
-      "answer": "Pretérito imperfecto",
-      "explanation": {
-        "es": "El imperfecto describe hábitos y escenarios en el pasado ('vivía', 'iba').",
-        "en": "The imperfect describes habits and setting in the past ('morava', 'ia').",
-        "ar": "الماضي الناقص يصف العادات والمشهد في الماضي ('morava'، 'ia')."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "¿Qué función tiene el verbo de elocución en la narrativa?",
-        "en": "What function does the speech verb have in narrative?",
-        "ar": "ما وظيفة فعل القول في السرد؟"
-      },
-      "options": [
-        {
-          "es": "Introducir el diálogo y revelar la emoción",
-          "en": "Introduce the speech and reveal emotion",
-          "ar": "تقديم الكلام وكشف المشاعر"
-        },
-        {
-          "es": "Describir el escenario",
-          "en": "Describe the setting",
-          "ar": "وصف المشهد"
-        },
-        {
-          "es": "Concluir la trama",
-          "en": "Conclude the plot",
-          "ar": "إنهاء الحبكة"
-        }
-      ],
-      "answer": "Introducir el diálogo y revelar la emoción",
-      "explanation": {
-        "es": "Verbos como 'exclamó' y 'susurró' dan tono y emoción al diálogo.",
-        "en": "Verbs like 'exclamou' and 'sussurrou' give tone and emotion to speech.",
-        "ar": "أفعال مثل 'exclamou' و'sussurrou' تمنح الكلام نبرة وعاطفة."
-      }
-    },
-    {
-      "type": "translation",
-      "prompt": {
-        "es": "Traduce: 'The narrator describes the daily life of a small town.'",
-        "en": "Translate: 'The narrator describes the daily life of a small town.'",
-        "ar": "ترجم: 'The narrator describes the daily life of a small town.'"
-      },
-      "options": [],
-      "answer": "El narrador describe la vida cotidiana de un pueblo pequeño.",
-      "explanation": {
-        "es": "'Cotidiano' es la vida diaria; 'el narrador' es quien cuenta la historia.",
-        "en": "'Cotidiano' is everyday life; 'o narrador' is the one who tells the story.",
-        "ar": "'cotidiano' تعني الحياة اليومية، و'o narrador' هو راوي القصة."
-      }
-    }
+  "lines": [
+   {
+    "speaker": "Abuela",
+    "es": "Cuando yo era pequeña, la calle era de tierra y todo el mundo se conocía.",
+    "en": "When I was little, the street was dirt and everyone knew each other.",
+    "ar": "عندما كنت صغيرة، كان الشارع ترابيًا وكان الجميع يعرف بعضهم."
+   },
+   {
+    "speaker": "Nieto",
+    "es": "¿Y qué era lo más divertido?",
+    "en": "And what was the most fun thing that happened?",
+    "ar": "وما الذي كان يحدث من أمتع الأشياء؟"
+   },
+   {
+    "speaker": "Abuela",
+    "es": "Reuníamos a los niños e inventábamos historias de fantasmas.",
+    "en": "We gathered the kids and made up ghost stories.",
+    "ar": "كنا نجمع الأطفال ونختلق قصص الأشباح."
+   },
+   {
+    "speaker": "Nieto",
+    "es": "\"¡Cuenta otra!\", gritaban todos cada noche.",
+    "en": "\"Tell another one!\", everyone shouted every night.",
+    "ar": "«احكِ غيرها!» كان الجميع يصرخون كل ليلة."
+   },
+   {
+    "speaker": "Abuela",
+    "es": "Y entonces yo hacía suspenso y todos se quedaban calladitos, esperando el desenlace.",
+    "en": "Then I would build suspense and everyone stayed quiet, waiting for the ending.",
+    "ar": "ثم كنت أثير التشويق ويبقى الجميع صامتين في انتظار الخاتمة."
+   }
   ]
+ },
+ "reading": {
+  "title": {
+   "es": "La Calle de Antaño",
+   "en": "The Street of Long Ago",
+   "ar": "شارع الماضي"
+  },
+  "text_es": "La calle de antaño no tenía prisa: la gente se sentaba en las aceras y conversaba hasta el anochecer. Cada niño tenía una historia que contar, y los mayores, mil historias que corregir. El tiempo pasaba lento, entre café y café. Hoy, nadie se sienta en la acera; todos corren, como si la vida tuviera demasiada prisa.",
+  "text_en": "The street of long ago had no hurry: people sat on the sidewalks and talked until nightfall. Every child had a story to tell, and the elders had a thousand stories to correct. Time passed slowly, between one coffee and the next. Today, nobody sits on the sidewalk anymore; everyone rushes, as if life were in too much of a hurry.",
+  "text_ar": "لم يكن شارع الماضي يعرف العجلة: كان الناس يجلسون على الأرصفة ويتحدثون حتى حلول الليل. كان لكل طفل قصة يحكيها، ولكبار السن ألف قصة يصححونها. كان الوقت يمضي ببطء، بين فنجان قهوة وآخر. أما اليوم فلا أحد يجلس على الرصيف؛ فالجميع يجرون، وكأن الحياة في عجلة من أمرها."
+ },
+ "exercises": [
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "¿Qué tiempo verbal describe acciones habituales en el pasado?",
+    "en": "Which tense describes habitual actions in the past?",
+    "ar": "أي زمن يصف الأفعال المعتادة في الماضي؟"
+   },
+   "options": [
+    {
+     "es": "Pretérito indefinido",
+     "en": "Simple past",
+     "ar": "الماضي البسيط"
+    },
+    {
+     "es": "Pretérito imperfecto",
+     "en": "Imperfect",
+     "ar": "الماضي الناقص"
+    },
+    {
+     "es": "Futuro simple",
+     "en": "Simple future",
+     "ar": "المستقبل"
+    }
+   ],
+   "answer": "Pretérito imperfecto",
+   "explanation": {
+    "es": "El imperfecto describe hábitos y escenarios en el pasado ('vivía', 'iba').",
+    "en": "The imperfect describes habits and setting in the past ('morava', 'ia').",
+    "ar": "الماضي الناقص يصف العادات والمشهد في الماضي ('morava'، 'ia')."
+   }
+  },
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "¿Qué función tiene el verbo de elocución en la narrativa?",
+    "en": "What function does the speech verb have in narrative?",
+    "ar": "ما وظيفة فعل القول في السرد؟"
+   },
+   "options": [
+    {
+     "es": "Introducir el diálogo y revelar la emoción",
+     "en": "Introduce the speech and reveal emotion",
+     "ar": "تقديم الكلام وكشف المشاعر"
+    },
+    {
+     "es": "Describir el escenario",
+     "en": "Describe the setting",
+     "ar": "وصف المشهد"
+    },
+    {
+     "es": "Concluir la trama",
+     "en": "Conclude the plot",
+     "ar": "إنهاء الحبكة"
+    }
+   ],
+   "answer": "Introducir el diálogo y revelar la emoción",
+   "explanation": {
+    "es": "Verbos como 'exclamó' y 'susurró' dan tono y emoción al diálogo.",
+    "en": "Verbs like 'exclamou' and 'sussurrou' give tone and emotion to speech.",
+    "ar": "أفعال مثل 'exclamou' و'sussurrou' تمنح الكلام نبرة وعاطفة."
+   }
+  },
+  {
+   "type": "translation",
+   "prompt": {
+    "es": "Traduce: 'The narrator describes the daily life of a small town.'",
+    "en": "Translate: 'The narrator describes the daily life of a small town.'",
+    "ar": "ترجم: 'The narrator describes the daily life of a small town.'"
+   },
+   "options": [],
+   "answer": "El narrador describe la vida cotidiana de un pueblo pequeño.",
+   "explanation": {
+    "es": "'Cotidiano' es la vida diaria; 'el narrador' es quien cuenta la historia.",
+    "en": "'Cotidiano' is everyday life; 'o narrador' is the one who tells the story.",
+    "ar": "'cotidiano' تعني الحياة اليومية، و'o narrador' هو راوي القصة."
+   }
+  }
+ ]
 }

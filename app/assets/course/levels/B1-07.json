@@ -1,322 +1,322 @@
 {
-  "id": "B1-07",
-  "level": "B1",
-  "level_name": {
-    "es": "Intermedio",
-    "en": "Intermediate",
-    "ar": "متوسط"
+ "id": "B1-07",
+ "level": "B1",
+ "level_name": {
+  "es": "Intermedio",
+  "en": "Intermediate",
+  "ar": "متوسط"
+ },
+ "title": {
+  "es": "Expresar Opinión y Argumentar",
+  "en": "Opinions and Argumentation",
+  "ar": "التعبير عن الرأي والمناقشة"
+ },
+ "objectives": [
+  {
+   "es": "Expresar opinión, estar de acuerdo y en desacuerdo con naturalidad.",
+   "en": "Express opinions, agree and disagree naturally.",
+   "ar": "التعبير عن الرأي والموافقة والمعارضة بشكل طبيعي."
   },
+  {
+   "es": "Usar conectores de argumentación para organizar ideas.",
+   "en": "Use argumentation connectors to organize ideas.",
+   "ar": "استخدام أدوات الربط الحجاجية لتنظيم الأفكار."
+  }
+ ],
+ "vocabulary": [
+  {
+   "es": "la opinión",
+   "ipa": "/ˈla opiˈnion/",
+   "en": "the opinion",
+   "ar": "الرأي"
+  },
+  {
+   "es": "estar de acuerdo",
+   "ipa": "/eˈstaɾ ˈde aˈkueɾdo/",
+   "en": "to agree",
+   "ar": "يوافق"
+  },
+  {
+   "es": "estar en desacuerdo",
+   "ipa": "/eˈstaɾ ˈen desaˈkueɾdo/",
+   "en": "to disagree",
+   "ar": "يخالف"
+  },
+  {
+   "es": "el argumento",
+   "ipa": "/ˈel aɾguˈmento/",
+   "en": "the argument",
+   "ar": "الحجة"
+  },
+  {
+   "es": "creo que",
+   "ipa": "/ˈkɾeo ˈke/",
+   "en": "I think that",
+   "ar": "أعتقد أن"
+  },
+  {
+   "es": "en mi opinión",
+   "ipa": "/ˈen ˈmi opiˈnion/",
+   "en": "in my opinion",
+   "ar": "برأيي"
+  },
+  {
+   "es": "porque",
+   "ipa": "/ˈpoɾke/",
+   "en": "because",
+   "ar": "لأن"
+  },
+  {
+   "es": "por eso",
+   "ipa": "/ˈpoɾ ˈeso/",
+   "en": "therefore",
+   "ar": "لذلك"
+  },
+  {
+   "es": "sin embargo",
+   "ipa": "/ˈsin eˈmbaɾgo/",
+   "en": "however",
+   "ar": "ومع ذلك"
+  },
+  {
+   "es": "realmente",
+   "ipa": "/reaˈlmente/",
+   "en": "really",
+   "ar": "حقاً"
+  },
+  {
+   "es": "probable",
+   "ipa": "/pɾoˈβaβle/",
+   "en": "likely",
+   "ar": "محتمل"
+  },
+  {
+   "es": "la certeza",
+   "ipa": "/ˈla seˈɾtesa/",
+   "en": "the certainty",
+   "ar": "اليقين"
+  },
+  {
+   "es": "sugerir",
+   "ipa": "/suxeˈɾiɾ/",
+   "en": "to suggest",
+   "ar": "يقترح"
+  },
+  {
+   "es": "convencer",
+   "ipa": "/konbeˈnseɾ/",
+   "en": "to convince",
+   "ar": "يقنع"
+  },
+  {
+   "es": "criticar",
+   "ipa": "/kɾitiˈkaɾ/",
+   "en": "to criticize",
+   "ar": "ينتقد"
+  }
+ ],
+ "grammar": [
+  {
+   "title": {
+    "es": "Expresiones para dar opinión",
+    "en": "Expressions for giving opinions",
+    "ar": "تعبيرات إبداء الرأي"
+   },
+   "explanation": {
+    "es": "Para dar opinión usamos 'creo que', 'en mi opinión', 'para mí' y 'parece que'. Estas expresiones hacen la afirmación más personal y menos categórica.",
+    "en": "To give an opinion we use 'creo que', 'en mi opinión', 'para mí' and 'parece que'. These expressions make the statement more personal and less categorical.",
+    "ar": "لإبداء الرأي نستخدم 'creo que' و'en mi opinión' و'para mí' و'parece que'. هذه التعبيرات تجعل العبارة أكثر شخصية وأقل قاطعية."
+   },
+   "examples": [
+    {
+     "es": "Creo que la película es muy buena.",
+     "en": "I think the movie is very good.",
+     "ar": "أعتقد أن الفيلم جيد جداً."
+    },
+    {
+     "es": "En mi opinión, él está equivocado.",
+     "en": "In my opinion, he is wrong.",
+     "ar": "برأيي، إنه مخطئ."
+    },
+    {
+     "es": "Para mí, esa idea no tiene sentido.",
+     "en": "For me, this idea does not make sense.",
+     "ar": "بالنسبة لي، هذه الفكرة لا معنى لها."
+    }
+   ]
+  },
+  {
+   "title": {
+    "es": "Conectores de argumentación",
+    "en": "Argumentation connectors",
+    "ar": "أدوات الربط الحجاجية"
+   },
+   "explanation": {
+    "es": "Para justificar, concluir o contrastar, usamos 'porque' (causa), 'por eso' (consecuencia), 'sin embargo' (contraste) y 'además' (adición).",
+    "en": "To justify, conclude or contrast, we use 'porque' (cause), 'por isso' (consequence), 'contudo' (contrast) and 'além disso' (addition).",
+    "ar": "للتبرير أو الخلاصة أو المعارضة، نستخدم 'porque' (السبب) و'por isso' (النتيجة) و'contudo' (الاستدراك) و'além disso' (بالإضافة إلى ذلك)."
+   },
+   "examples": [
+    {
+     "es": "Estudié mucho, por eso aprobé el examen.",
+     "en": "I studied a lot, therefore I passed the exam.",
+     "ar": "درست كثيراً، ولذلك نجحت في الامتحان."
+    },
+    {
+     "es": "El restaurante es caro; sin embargo, es excelente.",
+     "en": "The restaurant is expensive; however, it is excellent.",
+     "ar": "المطعم غالٍ، ومع ذلك، فهو ممتاز."
+    },
+    {
+     "es": "No fui a la fiesta porque estaba enfermo.",
+     "en": "I did not go to the party because I was sick.",
+     "ar": "لم أذهب إلى الحفلة لأنني كنت مريضاً."
+    }
+   ]
+  }
+ ],
+ "dialogue": {
   "title": {
-    "es": "Expresar Opinión y Argumentar",
-    "en": "Opinions and Argumentation",
-    "ar": "التعبير عن الرأي والمناقشة"
+   "es": "Un debate sobre el tráfico",
+   "en": "A debate about traffic",
+   "ar": "نقاش حول المرور"
   },
-  "objectives": [
-    {
-      "es": "Expresar opinión, estar de acuerdo y en desacuerdo con naturalidad.",
-      "en": "Express opinions, agree and disagree naturally.",
-      "ar": "التعبير عن الرأي والموافقة والمعارضة بشكل طبيعي."
-    },
-    {
-      "es": "Usar conectores de argumentación para organizar ideas.",
-      "en": "Use argumentation connectors to organize ideas.",
-      "ar": "استخدام أدوات الربط الحجاجية لتنظيم الأفكار."
-    }
-  ],
-  "vocabulary": [
-    {
-      "es": "la opinión",
-      "ipa": "/ˈla opiˈnion/",
-      "en": "the opinion",
-      "ar": "الرأي"
-    },
-    {
-      "es": "estar de acuerdo",
-      "ipa": "/eˈstaɾ ˈde aˈkueɾdo/",
-      "en": "to agree",
-      "ar": "يوافق"
-    },
-    {
-      "es": "estar en desacuerdo",
-      "ipa": "/eˈstaɾ ˈen desaˈkueɾdo/",
-      "en": "to disagree",
-      "ar": "يخالف"
-    },
-    {
-      "es": "el argumento",
-      "ipa": "/ˈel aɾguˈmento/",
-      "en": "the argument",
-      "ar": "الحجة"
-    },
-    {
-      "es": "creo que",
-      "ipa": "/ˈkɾeo ˈke/",
-      "en": "I think that",
-      "ar": "أعتقد أن"
-    },
-    {
-      "es": "en mi opinión",
-      "ipa": "/ˈen ˈmi opiˈnion/",
-      "en": "in my opinion",
-      "ar": "برأيي"
-    },
-    {
-      "es": "porque",
-      "ipa": "/ˈpoɾke/",
-      "en": "because",
-      "ar": "لأن"
-    },
-    {
-      "es": "por eso",
-      "ipa": "/ˈpoɾ ˈeso/",
-      "en": "therefore",
-      "ar": "لذلك"
-    },
-    {
-      "es": "sin embargo",
-      "ipa": "/ˈsin eˈmbaɾgo/",
-      "en": "however",
-      "ar": "ومع ذلك"
-    },
-    {
-      "es": "realmente",
-      "ipa": "/reaˈlmente/",
-      "en": "really",
-      "ar": "حقاً"
-    },
-    {
-      "es": "probable",
-      "ipa": "/pɾoˈβaβle/",
-      "en": "likely",
-      "ar": "محتمل"
-    },
-    {
-      "es": "la certeza",
-      "ipa": "/ˈla seˈɾtesa/",
-      "en": "the certainty",
-      "ar": "اليقين"
-    },
-    {
-      "es": "sugerir",
-      "ipa": "/suxeˈɾiɾ/",
-      "en": "to suggest",
-      "ar": "يقترح"
-    },
-    {
-      "es": "convencer",
-      "ipa": "/konbeˈnseɾ/",
-      "en": "to convince",
-      "ar": "يقنع"
-    },
-    {
-      "es": "criticar",
-      "ipa": "/kɾitiˈkaɾ/",
-      "en": "to criticize",
-      "ar": "ينتقد"
-    }
-  ],
-  "grammar": [
-    {
-      "title": {
-        "es": "Expresiones para dar opinión",
-        "en": "Expressions for giving opinions",
-        "ar": "تعبيرات إبداء الرأي"
-      },
-      "explanation": {
-        "es": "Para dar opinión usamos 'creo que', 'en mi opinión', 'para mí' y 'parece que'. Estas expresiones hacen la afirmación más personal y menos categórica.",
-        "en": "To give an opinion we use 'acho que', 'na minha opinião', 'para mim' and 'parece que'. These expressions make the statement more personal and less categorical.",
-        "ar": "لإبداء الرأي نستخدم 'acho que' (أعتقد أن) و'na minha opinião' (برأيي) و'para mim' (بالنسبة لي) و'parece que' (يبدو أن). هذه التعبيرات تجعل العبارة أكثر شخصية وأقل قاطعة."
-      },
-      "examples": [
-        {
-          "es": "Creo que la película es muy buena.",
-          "en": "I think the movie is very good.",
-          "ar": "أعتقد أن الفيلم جيد جداً."
-        },
-        {
-          "es": "En mi opinión, él está equivocado.",
-          "en": "In my opinion, he is wrong.",
-          "ar": "برأيي، إنه مخطئ."
-        },
-        {
-          "es": "Para mí, esa idea no tiene sentido.",
-          "en": "For me, this idea does not make sense.",
-          "ar": "بالنسبة لي، هذه الفكرة لا معنى لها."
-        }
-      ]
-    },
-    {
-      "title": {
-        "es": "Conectores de argumentación",
-        "en": "Argumentation connectors",
-        "ar": "أدوات الربط الحجاجية"
-      },
-      "explanation": {
-        "es": "Para justificar, concluir o contrastar, usamos 'porque' (causa), 'por eso' (consecuencia), 'sin embargo' (contraste) y 'además' (adición).",
-        "en": "To justify, conclude or contrast, we use 'porque' (cause), 'por isso' (consequence), 'contudo' (contrast) and 'além disso' (addition).",
-        "ar": "للتبرير أو الخلاصة أو المعارضة، نستخدم 'porque' (السبب) و'por isso' (النتيجة) و'contudo' (الاستدراك) و'além disso' (بالإضافة إلى ذلك)."
-      },
-      "examples": [
-        {
-          "es": "Estudié mucho, por eso aprobé el examen.",
-          "en": "I studied a lot, therefore I passed the exam.",
-          "ar": "درست كثيراً، ولذلك نجحت في الامتحان."
-        },
-        {
-          "es": "El restaurante es caro; sin embargo, es excelente.",
-          "en": "The restaurant is expensive; however, it is excellent.",
-          "ar": "المطعم غالٍ، ومع ذلك، فهو ممتاز."
-        },
-        {
-          "es": "No fui a la fiesta porque estaba enfermo.",
-          "en": "I did not go to the party because I was sick.",
-          "ar": "لم أذهب إلى الحفلة لأنني كنت مريضاً."
-        }
-      ]
-    }
-  ],
-  "dialogue": {
-    "title": {
-      "es": "Un debate sobre el tráfico",
-      "en": "A debate about traffic",
-      "ar": "نقاش حول المرور"
-    },
-    "lines": [
-      {
-        "speaker": "Caio",
-        "es": "Creo que la ciudad necesita más transporte público.",
-        "en": "I think the city needs more public transportation.",
-        "ar": "أعتقد أن المدينة بحاجة إلى المزيد من وسائل النقل العام."
-      },
-      {
-        "speaker": "Lía",
-        "es": "Estoy de acuerdo, pero construir un metro es caro; sin embargo, es necesario.",
-        "en": "I agree, but building a subway is expensive; however, it is necessary.",
-        "ar": "أوافقك، لكن بناء المترو مكلف، ومع ذلك، ضروري."
-      },
-      {
-        "speaker": "Caio",
-        "es": "Por eso, el gobierno debería invertir más.",
-        "en": "Therefore, the government should invest more.",
-        "ar": "لذلك، ينبغي على الحكومة أن تستثمر أكثر."
-      },
-      {
-        "speaker": "Lía",
-        "es": "Estoy un poco en desacuerdo: primero necesitamos más carriles bici.",
-        "en": "I disagree a little: first we need more bike lanes.",
-        "ar": "أخالفك قليلاً: نحتاج أولاً إلى المزيد من مسارات الدراجات."
-      },
-      {
-        "speaker": "Caio",
-        "es": "Realmente, es una buena sugerencia.",
-        "en": "Really, that is a good suggestion.",
-        "ar": "حقاً، إنه اقتراح جيد."
-      },
-      {
-        "speaker": "Lía",
-        "es": "En mi opinión, todo es una cuestión de planificación.",
-        "en": "In my opinion, everything is a matter of planning.",
-        "ar": "برأيي، كل شيء مسألة تخطيط."
-      }
-    ]
-  },
-  "reading": {
-    "title": {
-      "es": "Mi opinión sobre el reciclaje",
-      "en": "My opinion about recycling",
-      "ar": "رأيي في إعادة التدوير"
-    },
-    "text_es": "En mi opinión, el reciclaje debería ser obligatorio en todas las ciudades. Creo que la basura es uno de los mayores problemas de nuestro tiempo. Sin embargo, mucha gente todavía no separa la basura en casa. Por eso, se necesita más educación ambiental.",
-    "text_en": "In my opinion, recycling should be mandatory in every city. I think waste is one of the biggest problems of our time. However, many people still do not sort their garbage at home. Therefore, more environmental education is needed.",
-    "text_ar": "برأيي، ينبغي أن تكون إعادة التدوير إلزامية في جميع المدن. أعتقد أن النفايات من أكبر مشاكل عصرنا. ومع ذلك، لا يزال كثيرون لا يفرزون النفايات في المنزل. لذلك، نحتاج إلى مزيد من التوعية البيئية."
-  },
-  "exercises": [
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "Completa: \"___ mi opinión, la ciudad necesita más transporte público.\"",
-        "en": "Complete: \"___ my opinion, the city needs more public transportation.\"",
-        "ar": "أكمل: \"___ رأيي، المدينة بحاجة إلى المزيد من وسائل النقل العام.\""
-      },
-      "options": [
-        {
-          "es": "En",
-          "en": "In",
-          "ar": "في"
-        },
-        {
-          "es": "De",
-          "en": "Of",
-          "ar": "من"
-        },
-        {
-          "es": "En",
-          "en": "In (neutral)",
-          "ar": "في (محايد)"
-        },
-        {
-          "es": "Con",
-          "en": "With",
-          "ar": "مع"
-        }
-      ],
-      "answer": "En",
-      "explanation": {
-        "es": "La expresión fija es 'en mi opinión'.",
-        "en": "The fixed expression is 'na minha opinião', with the contraction of 'em' + 'a'.",
-        "ar": "التعبير الثابت هو 'na minha opinião' أي برأيي، مع دمج 'em' و'a'."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "Elige el conector de causa: \"Él no vino ___ estaba enfermo.\"",
-        "en": "Choose the cause connector: \"He did not come ___ he was sick.\"",
-        "ar": "اختر أداة السبب: \"لم يأتِ ___ كان مريضاً.\""
-      },
-      "options": [
-        {
-          "es": "porque",
-          "en": "because",
-          "ar": "لأن"
-        },
-        {
-          "es": "por eso",
-          "en": "therefore",
-          "ar": "لذلك"
-        },
-        {
-          "es": "sin embargo",
-          "en": "however",
-          "ar": "ومع ذلك"
-        },
-        {
-          "es": "a pesar de",
-          "en": "despite",
-          "ar": "رغم"
-        }
-      ],
-      "answer": "porque",
-      "explanation": {
-        "es": "'Porque' introduce la causa; 'por eso' y 'sin embargo' tienen otros sentidos.",
-        "en": "'Porque' introduces the cause; 'por isso' and 'contudo' have other meanings.",
-        "ar": "تُدخل 'porque' السبب، بينما 'por isso' و'contudo' لها معانٍ أخرى."
-      }
-    },
-    {
-      "type": "translation",
-      "prompt": {
-        "es": "Traduce al español: \"Creo que el gobierno debería invertir en educación.\"",
-        "en": "Translate to Portuguese: \"I think the government should invest in education.\"",
-        "ar": "ترجم إلى البرتغالية: \"I think the government should invest in education.\""
-      },
-      "options": [],
-      "answer": "Creo que el gobierno debería invertir en educación.",
-      "explanation": {
-        "es": "'Creo que' + 'debería' (condicional) expresa opinión personal con sugerencia.",
-        "en": "'Acho que' + 'deveria' (conditional) expresses a personal opinion with a suggestion.",
-        "ar": "يعبّر 'acho que' مع 'deveria' (الماضي المستقبلي) عن رأي شخصي مع اقتراح."
-      }
-    }
+  "lines": [
+   {
+    "speaker": "Caio",
+    "es": "Creo que la ciudad necesita más transporte público.",
+    "en": "I think the city needs more public transportation.",
+    "ar": "أعتقد أن المدينة بحاجة إلى المزيد من وسائل النقل العام."
+   },
+   {
+    "speaker": "Lía",
+    "es": "Estoy de acuerdo, pero construir un metro es caro; sin embargo, es necesario.",
+    "en": "I agree, but building a subway is expensive; however, it is necessary.",
+    "ar": "أوافقك، لكن بناء المترو مكلف، ومع ذلك، ضروري."
+   },
+   {
+    "speaker": "Caio",
+    "es": "Por eso, el gobierno debería invertir más.",
+    "en": "Therefore, the government should invest more.",
+    "ar": "لذلك، ينبغي على الحكومة أن تستثمر أكثر."
+   },
+   {
+    "speaker": "Lía",
+    "es": "Estoy un poco en desacuerdo: primero necesitamos más carriles bici.",
+    "en": "I disagree a little: first we need more bike lanes.",
+    "ar": "أخالفك قليلاً: نحتاج أولاً إلى المزيد من مسارات الدراجات."
+   },
+   {
+    "speaker": "Caio",
+    "es": "Realmente, es una buena sugerencia.",
+    "en": "Really, that is a good suggestion.",
+    "ar": "حقاً، إنه اقتراح جيد."
+   },
+   {
+    "speaker": "Lía",
+    "es": "En mi opinión, todo es una cuestión de planificación.",
+    "en": "In my opinion, everything is a matter of planning.",
+    "ar": "برأيي، كل شيء مسألة تخطيط."
+   }
   ]
+ },
+ "reading": {
+  "title": {
+   "es": "Mi opinión sobre el reciclaje",
+   "en": "My opinion about recycling",
+   "ar": "رأيي في إعادة التدوير"
+  },
+  "text_es": "En mi opinión, el reciclaje debería ser obligatorio en todas las ciudades. Creo que la basura es uno de los mayores problemas de nuestro tiempo. Sin embargo, mucha gente todavía no separa la basura en casa. Por eso, se necesita más educación ambiental.",
+  "text_en": "In my opinion, recycling should be mandatory in every city. I think waste is one of the biggest problems of our time. However, many people still do not sort their garbage at home. Therefore, more environmental education is needed.",
+  "text_ar": "برأيي، ينبغي أن تكون إعادة التدوير إلزامية في جميع المدن. أعتقد أن النفايات من أكبر مشاكل عصرنا. ومع ذلك، لا يزال كثيرون لا يفرزون النفايات في المنزل. لذلك، نحتاج إلى مزيد من التوعية البيئية."
+ },
+ "exercises": [
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "Completa: \"___ mi opinión, la ciudad necesita más transporte público.\"",
+    "en": "Complete: \"___ my opinion, the city needs more public transportation.\"",
+    "ar": "أكمل: \"___ رأيي، المدينة بحاجة إلى المزيد من وسائل النقل العام.\""
+   },
+   "options": [
+    {
+     "es": "En",
+     "en": "In",
+     "ar": "في"
+    },
+    {
+     "es": "De",
+     "en": "Of",
+     "ar": "من"
+    },
+    {
+     "es": "En",
+     "en": "In (neutral)",
+     "ar": "في (محايد)"
+    },
+    {
+     "es": "Con",
+     "en": "With",
+     "ar": "مع"
+    }
+   ],
+   "answer": "En",
+   "explanation": {
+    "es": "La expresión fija es 'en mi opinión'.",
+    "en": "The fixed expression is 'en mi opinión'.",
+    "ar": "التعبير الثابت هو 'en mi opinión'."
+   }
+  },
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "Elige el conector de causa: \"Él no vino ___ estaba enfermo.\"",
+    "en": "Choose the cause connector: \"He did not come ___ he was sick.\"",
+    "ar": "اختر أداة السبب: \"لم يأتِ ___ كان مريضاً.\""
+   },
+   "options": [
+    {
+     "es": "porque",
+     "en": "because",
+     "ar": "لأن"
+    },
+    {
+     "es": "por eso",
+     "en": "therefore",
+     "ar": "لذلك"
+    },
+    {
+     "es": "sin embargo",
+     "en": "however",
+     "ar": "ومع ذلك"
+    },
+    {
+     "es": "a pesar de",
+     "en": "despite",
+     "ar": "رغم"
+    }
+   ],
+   "answer": "porque",
+   "explanation": {
+    "es": "'Porque' introduce la causa; 'por eso' y 'sin embargo' tienen otros sentidos.",
+    "en": "'Porque' introduces the cause; 'por isso' and 'contudo' have other meanings.",
+    "ar": "تُدخل 'porque' السبب، بينما 'por isso' و'contudo' لها معانٍ أخرى."
+   }
+  },
+  {
+   "type": "translation",
+   "prompt": {
+    "es": "Traduce al español: \"Creo que el gobierno debería invertir en educación.\"",
+    "en": "Translate to Portuguese: \"I think the government should invest in education.\"",
+    "ar": "ترجم إلى البرتغالية: \"I think the government should invest in education.\""
+   },
+   "options": [],
+   "answer": "Creo que el gobierno debería invertir en educación.",
+   "explanation": {
+    "es": "'Creo que' + 'debería' (condicional) expresa opinión personal con sugerencia.",
+    "en": "'Acho que' + 'deveria' (conditional) expresses a personal opinion with a suggestion.",
+    "ar": "يعبّر 'acho que' مع 'deveria' (الماضي المستقبلي) عن رأي شخصي مع اقتراح."
+   }
+  }
+ ]
 }

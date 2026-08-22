@@ -1,329 +1,329 @@
 {
-  "id": "A2-05",
-  "level": "A2",
-  "level_name": {
-    "es": "Básico",
-    "en": "Elementary",
-    "ar": "أساسي"
+ "id": "A2-05",
+ "level": "A2",
+ "level_name": {
+  "es": "Básico",
+  "en": "Elementary",
+  "ar": "أساسي"
+ },
+ "title": {
+  "es": "Comparativos y Superlativos",
+  "en": "Comparatives and Superlatives",
+  "ar": "أسماء التفضيل والمقارنة"
+ },
+ "objectives": [
+  {
+   "es": "Comparar personas y cosas (más/menos/tan)",
+   "en": "Compare people and things (more/less/as)",
+   "ar": "المقارنة بين الأشخاص والأشياء (أكثر/أقل/بنفس القدر)"
   },
+  {
+   "es": "Usar el superlativo (el mejor, el más...)",
+   "en": "Use the superlative (the best, the most...)",
+   "ar": "استخدام صيغة التفضيل (الأفضل، الأكثر...)"
+  },
+  {
+   "es": "Reconocer comparativos irregulares",
+   "en": "Recognize irregular comparatives",
+   "ar": "التعرف على صيغ المقارنة الشاذة"
+  }
+ ],
+ "vocabulary": [
+  {
+   "es": "más",
+   "ipa": "/ˈmas/",
+   "en": "more",
+   "ar": "أكثر"
+  },
+  {
+   "es": "menos",
+   "ipa": "/ˈmenos/",
+   "en": "less",
+   "ar": "أقل"
+  },
+  {
+   "es": "que",
+   "ipa": "/ˈke/",
+   "en": "than",
+   "ar": "من (للمقارنة)"
+  },
+  {
+   "es": "tan... como",
+   "ipa": "/ˈtan ˈkomo/",
+   "en": "as... as",
+   "ar": "بنفس قدر"
+  },
+  {
+   "es": "mejor",
+   "ipa": "/meˈxoɾ/",
+   "en": "better",
+   "ar": "أفضل"
+  },
+  {
+   "es": "peor",
+   "ipa": "/ˈpeoɾ/",
+   "en": "worse",
+   "ar": "أسوأ"
+  },
+  {
+   "es": "el mejor",
+   "ipa": "/ˈel meˈxoɾ/",
+   "en": "the best",
+   "ar": "الأفضل"
+  },
+  {
+   "es": "el peor",
+   "ipa": "/ˈel ˈpeoɾ/",
+   "en": "the worst",
+   "ar": "الأسوأ"
+  },
+  {
+   "es": "mayor",
+   "ipa": "/maˈʝoɾ/",
+   "en": "bigger",
+   "ar": "أكبر"
+  },
+  {
+   "es": "menor",
+   "ipa": "/meˈnoɾ/",
+   "en": "smaller",
+   "ar": "أصغر"
+  },
+  {
+   "es": "grande",
+   "ipa": "/ˈgɾande/",
+   "en": "big",
+   "ar": "كبير"
+  },
+  {
+   "es": "pequeño",
+   "ipa": "/peˈkeɲo/",
+   "en": "small",
+   "ar": "صغير"
+  },
+  {
+   "es": "bonito",
+   "ipa": "/boˈnito/",
+   "en": "beautiful",
+   "ar": "جميل"
+  },
+  {
+   "es": "igual",
+   "ipa": "/iˈɣual/",
+   "en": "equal / the same",
+   "ar": "متساوٍ / مماثل"
+  },
+  {
+   "es": "diferente",
+   "ipa": "/difeˈɾente/",
+   "en": "different",
+   "ar": "مختلف"
+  },
+  {
+   "es": "la altura",
+   "ipa": "/ˈla aˈltuɾa/",
+   "en": "the height",
+   "ar": "الطول"
+  },
+  {
+   "es": "la edad",
+   "ipa": "/ˈla eˈðað/",
+   "en": "the age",
+   "ar": "العمر"
+  }
+ ],
+ "grammar": [
+  {
+   "title": {
+    "es": "Comparativos",
+    "en": "Comparatives",
+    "ar": "صيغ المقارنة"
+   },
+   "explanation": {
+    "es": "Comparativos de superioridad: más... que (more... than). Inferioridad: menos... que. Igualdad: tan... como (as... as). Ejemplos: 'Madrid es más grande que Valencia', 'El café es menos caro que el zumo', 'Ella es tan alta como su hermano'.",
+    "en": "Comparatives of superiority: mais... do que (more... than). Inferiority: menos... do que. Equality: tão... quanto (as... as). Examples: 'São Paulo é maior do que Curitiba' (São Paulo is bigger than Curitiba), 'O café é menos caro do que o suco' (Coffee is less expensive than the juice), 'Ela é tão alta quanto o irmão' (She is as tall as her brother).",
+    "ar": "صيغ المقارنة للتفضيل: mais... do que (أكثر من). للنقصان: menos... do que. للمساواة: tão... quanto (بنفس قدر). أمثلة: 'São Paulo é maior do que Curitiba' (ساو باولو أكبر من كوريتيبا)، 'O café é menos caro do que o suco' (القهوة أقل غلاءً من العصير)، 'Ela é tão alta quanto o irmão' (هي بطول أخيها)."
+   },
+   "examples": [
+    {
+     "es": "El autobús es más barato que el avión.",
+     "en": "The bus is cheaper than the plane.",
+     "ar": "الحافلة أرخص من الطائرة."
+    },
+    {
+     "es": "Este libro es menos interesante que aquel.",
+     "en": "This book is less interesting than that one.",
+     "ar": "هذا الكتاب أقل إثارة من ذلك."
+    },
+    {
+     "es": "Ella es tan simpática como su madre.",
+     "en": "She is as friendly as her mother.",
+     "ar": "هي ودودة مثل أمها تمامًا."
+    }
+   ]
+  },
+  {
+   "title": {
+    "es": "Superlativos",
+    "en": "Superlatives",
+    "ar": "صيغة التفضيل"
+   },
+   "explanation": {
+    "es": "Superlativos: el/la más + adjetivo + de: 'Madrid es la ciudad más bonita de España.' Superlativos irregulares: mejor (the best), peor (the worst), mayor (the biggest), menor (the smallest). 'El mejor' = the best, 'el peor' = the worst.",
+    "en": "Superlatives: el/la más + adjective + de: 'Madrid es la ciudad más bonita de España.' Irregular superlatives: mejor (the best), peor (the worst), mayor (the biggest), menor (the smallest).",
+    "ar": "صيغ التفضيل: el/la más + صفة + de: 'Madrid es la ciudad más bonita de España.' (مدريد أجمل مدينة في إسبانيا). صيغ غير منتظمة: mejor (الأفضل)، peor (الأسوأ)، mayor (الأكبر)، menor (الأصغر)."
+   },
+   "examples": [
+    {
+     "es": "Este es el mejor restaurante de la ciudad.",
+     "en": "This is the best restaurant in the city.",
+     "ar": "هذا هو أفضل مطعم في المدينة."
+    },
+    {
+     "es": "El invierno es la estación más fría del año.",
+     "en": "Winter is the coldest season of the year.",
+     "ar": "الشتاء هو أبرد فصول السنة."
+    },
+    {
+     "es": "Ella es la alumna más dedicada de la clase.",
+     "en": "She is the most dedicated student in the class.",
+     "ar": "هي الطالبة الأكثر اجتهادًا في الفصل."
+    }
+   ]
+  }
+ ],
+ "dialogue": {
   "title": {
-    "es": "Comparativos y Superlativos",
-    "en": "Comparatives and Superlatives",
-    "ar": "أسماء التفضيل والمقارنة"
+   "es": "Comparando Ciudades",
+   "en": "Comparing Cities",
+   "ar": "مقارنة المدن"
   },
-  "objectives": [
-    {
-      "es": "Comparar personas y cosas (más/menos/tan)",
-      "en": "Compare people and things (more/less/as)",
-      "ar": "المقارنة بين الأشخاص والأشياء (أكثر/أقل/بنفس القدر)"
-    },
-    {
-      "es": "Usar el superlativo (el mejor, el más...)",
-      "en": "Use the superlative (the best, the most...)",
-      "ar": "استخدام صيغة التفضيل (الأفضل، الأكثر...)"
-    },
-    {
-      "es": "Reconocer comparativos irregulares",
-      "en": "Recognize irregular comparatives",
-      "ar": "التعرف على صيغ المقارنة الشاذة"
-    }
-  ],
-  "vocabulary": [
-    {
-      "es": "más",
-      "ipa": "/ˈmas/",
-      "en": "more",
-      "ar": "أكثر"
-    },
-    {
-      "es": "menos",
-      "ipa": "/ˈmenos/",
-      "en": "less",
-      "ar": "أقل"
-    },
-    {
-      "es": "que",
-      "ipa": "/ˈke/",
-      "en": "than",
-      "ar": "من (للمقارنة)"
-    },
-    {
-      "es": "tan... como",
-      "ipa": "/ˈtan ˈkomo/",
-      "en": "as... as",
-      "ar": "بنفس قدر"
-    },
-    {
-      "es": "mejor",
-      "ipa": "/meˈxoɾ/",
-      "en": "better",
-      "ar": "أفضل"
-    },
-    {
-      "es": "peor",
-      "ipa": "/ˈpeoɾ/",
-      "en": "worse",
-      "ar": "أسوأ"
-    },
-    {
-      "es": "el mejor",
-      "ipa": "/ˈel meˈxoɾ/",
-      "en": "the best",
-      "ar": "الأفضل"
-    },
-    {
-      "es": "el peor",
-      "ipa": "/ˈel ˈpeoɾ/",
-      "en": "the worst",
-      "ar": "الأسوأ"
-    },
-    {
-      "es": "mayor",
-      "ipa": "/maˈʝoɾ/",
-      "en": "bigger",
-      "ar": "أكبر"
-    },
-    {
-      "es": "menor",
-      "ipa": "/meˈnoɾ/",
-      "en": "smaller",
-      "ar": "أصغر"
-    },
-    {
-      "es": "grande",
-      "ipa": "/ˈgɾande/",
-      "en": "big",
-      "ar": "كبير"
-    },
-    {
-      "es": "pequeño",
-      "ipa": "/peˈkeɲo/",
-      "en": "small",
-      "ar": "صغير"
-    },
-    {
-      "es": "bonito",
-      "ipa": "/boˈnito/",
-      "en": "beautiful",
-      "ar": "جميل"
-    },
-    {
-      "es": "igual",
-      "ipa": "/iˈɣual/",
-      "en": "equal / the same",
-      "ar": "متساوٍ / مماثل"
-    },
-    {
-      "es": "diferente",
-      "ipa": "/difeˈɾente/",
-      "en": "different",
-      "ar": "مختلف"
-    },
-    {
-      "es": "la altura",
-      "ipa": "/ˈla aˈltuɾa/",
-      "en": "the height",
-      "ar": "الطول"
-    },
-    {
-      "es": "la edad",
-      "ipa": "/ˈla eˈðað/",
-      "en": "the age",
-      "ar": "العمر"
-    }
-  ],
-  "grammar": [
-    {
-      "title": {
-        "es": "Comparativos",
-        "en": "Comparatives",
-        "ar": "صيغ المقارنة"
-      },
-      "explanation": {
-        "es": "Comparativos de superioridad: más... que (more... than). Inferioridad: menos... que. Igualdad: tan... como (as... as). Ejemplos: 'Madrid es más grande que Valencia', 'El café es menos caro que el zumo', 'Ella es tan alta como su hermano'.",
-        "en": "Comparatives of superiority: mais... do que (more... than). Inferiority: menos... do que. Equality: tão... quanto (as... as). Examples: 'São Paulo é maior do que Curitiba' (São Paulo is bigger than Curitiba), 'O café é menos caro do que o suco' (Coffee is less expensive than the juice), 'Ela é tão alta quanto o irmão' (She is as tall as her brother).",
-        "ar": "صيغ المقارنة للتفضيل: mais... do que (أكثر من). للنقصان: menos... do que. للمساواة: tão... quanto (بنفس قدر). أمثلة: 'São Paulo é maior do que Curitiba' (ساو باولو أكبر من كوريتيبا)، 'O café é menos caro do que o suco' (القهوة أقل غلاءً من العصير)، 'Ela é tão alta quanto o irmão' (هي بطول أخيها)."
-      },
-      "examples": [
-        {
-          "es": "El autobús es más barato que el avión.",
-          "en": "The bus is cheaper than the plane.",
-          "ar": "الحافلة أرخص من الطائرة."
-        },
-        {
-          "es": "Este libro es menos interesante que aquel.",
-          "en": "This book is less interesting than that one.",
-          "ar": "هذا الكتاب أقل إثارة من ذلك."
-        },
-        {
-          "es": "Ella es tan simpática como su madre.",
-          "en": "She is as friendly as her mother.",
-          "ar": "هي ودودة مثل أمها تمامًا."
-        }
-      ]
-    },
-    {
-      "title": {
-        "es": "Superlativos",
-        "en": "Superlatives",
-        "ar": "صيغة التفضيل"
-      },
-      "explanation": {
-        "es": "Superlativos: el/la más + adjetivo + de: 'Madrid es la ciudad más bonita de España.' Superlativos irregulares: mejor (the best), peor (the worst), mayor (the biggest), menor (the smallest). 'El mejor' = the best, 'el peor' = the worst.",
-        "en": "Superlatives: o/a mais + adjective + de: 'O Rio é a cidade mais bonita do Brasil.' (Rio is the most beautiful city in Brazil.) Irregular superlatives: melhor (the best), pior (the worst), maior (the biggest), menor (the smallest).",
-        "ar": "صيغة التفضيل: o/a mais + صفة + de: 'O Rio é a cidade mais bonita do Brasil.' (ريو هي أجمل مدينة في البرازيل). صيغ التفضيل الشاذة: melhor (الأفضل)، pior (الأسوأ)، maior (الأكبر)، menor (الأصغر)."
-      },
-      "examples": [
-        {
-          "es": "Este es el mejor restaurante de la ciudad.",
-          "en": "This is the best restaurant in the city.",
-          "ar": "هذا هو أفضل مطعم في المدينة."
-        },
-        {
-          "es": "El invierno es la estación más fría del año.",
-          "en": "Winter is the coldest season of the year.",
-          "ar": "الشتاء هو أبرد فصول السنة."
-        },
-        {
-          "es": "Ella es la alumna más dedicada de la clase.",
-          "en": "She is the most dedicated student in the class.",
-          "ar": "هي الطالبة الأكثر اجتهادًا في الفصل."
-        }
-      ]
-    }
-  ],
-  "dialogue": {
-    "title": {
-      "es": "Comparando Ciudades",
-      "en": "Comparing Cities",
-      "ar": "مقارنة المدن"
-    },
-    "lines": [
-      {
-        "speaker": "Lina",
-        "es": "¿Qué opinas de Madrid?",
-        "en": "What do you think of São Paulo?",
-        "ar": "ما رأيك في ساو باولو؟"
-      },
-      {
-        "speaker": "Bruno",
-        "es": "Es más grande que Sevilla, pero es más cara.",
-        "en": "It is bigger than Recife, but it is more expensive.",
-        "ar": "إنها أكبر من ريسيفي، لكنها أغلى."
-      },
-      {
-        "speaker": "Lina",
-        "es": "¿Y el tráfico?",
-        "en": "And the traffic?",
-        "ar": "وحركة المرور؟"
-      },
-      {
-        "speaker": "Bruno",
-        "es": "El tráfico de Madrid es el peor de España.",
-        "en": "São Paulo's traffic is the worst in Brazil.",
-        "ar": "حركة مرور ساو باولو هي الأسوأ في البرازيل."
-      },
-      {
-        "speaker": "Lina",
-        "es": "Prefiero ciudades más tranquilas, como Valencia.",
-        "en": "I prefer calmer cities, like Florianópolis.",
-        "ar": "أفضّل المدن الأكثر هدوءًا مثل فلوريانوبوليس."
-      },
-      {
-        "speaker": "Bruno",
-        "es": "Es verdad. Allí la vida es mejor para la familia.",
-        "en": "True. There, life is better for the family.",
-        "ar": "صحيح. الحياة هناك أفضل للعائلة."
-      }
-    ]
-  },
-  "reading": {
-    "title": {
-      "es": "Valencia y las Otras Ciudades",
-      "en": "Curitiba and the Other Cities",
-      "ar": "كوريتيبا والمدن الأخرى"
-    },
-    "text_es": "Valencia es una de las mejores ciudades de España para vivir. El transporte público es más organizado que en muchas capitales, y los parques son más bonitos que en otras ciudades. Sin embargo, el coste de vida es más alto que en el interior. Aun así, mucha gente quiere vivir allí.",
-    "text_en": "Curitiba is one of the best cities in Brazil to live in. Public transport is more organized than in many capitals, and the parks are more beautiful than in other cities. However, the cost of living is higher than in the countryside. Even so, many people want to live there.",
-    "text_ar": "كوريتيبا من أفضل المدن في البرازيل للعيش. وسائل النقل العامة أكثر تنظيمًا مما هي عليه في عواصم كثيرة، والمتنزهات أجمل مما هي عليه في مدن أخرى. لكن تكلفة المعيشة أعلى مما هي عليه في الريف. ومع ذلك، يريد كثير من الناس العيش هناك."
-  },
-  "exercises": [
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "Madrid es ___ que Valencia.",
-        "en": "São Paulo is ___ than Curitiba.",
-        "ar": "ساو باولو ___ من كوريتيبا."
-      },
-      "options": [
-        {
-          "es": "mayor",
-          "en": "maior",
-          "ar": "maior"
-        },
-        {
-          "es": "mejor",
-          "en": "melhor",
-          "ar": "melhor"
-        },
-        {
-          "es": "menos",
-          "en": "menos",
-          "ar": "menos"
-        }
-      ],
-      "answer": "mayor",
-      "explanation": {
-        "es": "'Mayor' es el comparativo irregular de 'grande'.",
-        "en": "'Maior' is the irregular comparative of 'grande' (big).",
-        "ar": "'maior' هي صيغة المقارنة الشاذة لكلمة 'grande' (كبير)."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "Este es ___ mejor película del año.",
-        "en": "This is ___ best movie of the year.",
-        "ar": "هذا هو ___ أفضل فيلم في السنة."
-      },
-      "options": [
-        {
-          "es": "la",
-          "en": "o",
-          "ar": "o"
-        },
-        {
-          "es": "la",
-          "en": "a",
-          "ar": "a"
-        },
-        {
-          "es": "un",
-          "en": "um",
-          "ar": "um"
-        }
-      ],
-      "answer": "la",
-      "explanation": {
-        "es": "Superlativo: 'la mejor' (femenino).",
-        "en": "Superlative: 'o melhor' (masculine).",
-        "ar": "صيغة التفضيل: 'o melhor' (مذكر)."
-      }
-    },
-    {
-      "type": "translation",
-      "prompt": {
-        "es": "Traduce: 'the best'",
-        "en": "Translate: 'the best'",
-        "ar": "ترجم: 'the best'"
-      },
-      "options": [],
-      "answer": "el mejor",
-      "explanation": {
-        "es": "'El mejor' = the best.",
-        "en": "'O melhor' = the best.",
-        "ar": "'o melhor' = الأفضل."
-      }
-    }
+  "lines": [
+   {
+    "speaker": "Lina",
+    "es": "¿Qué opinas de Madrid?",
+    "en": "What do you think of São Paulo?",
+    "ar": "ما رأيك في ساو باولو؟"
+   },
+   {
+    "speaker": "Bruno",
+    "es": "Es más grande que Sevilla, pero es más cara.",
+    "en": "It is bigger than Recife, but it is more expensive.",
+    "ar": "إنها أكبر من ريسيفي، لكنها أغلى."
+   },
+   {
+    "speaker": "Lina",
+    "es": "¿Y el tráfico?",
+    "en": "And the traffic?",
+    "ar": "وحركة المرور؟"
+   },
+   {
+    "speaker": "Bruno",
+    "es": "El tráfico de Madrid es el peor de España.",
+    "en": "Madrid's traffic is the worst in Spain.",
+    "ar": "حركة المرور في مدريد هي الأسوأ في إسبانيا."
+   },
+   {
+    "speaker": "Lina",
+    "es": "Prefiero ciudades más tranquilas, como Valencia.",
+    "en": "I prefer calmer cities, like Florianópolis.",
+    "ar": "أفضّل المدن الأكثر هدوءًا مثل فلوريانوبوليس."
+   },
+   {
+    "speaker": "Bruno",
+    "es": "Es verdad. Allí la vida es mejor para la familia.",
+    "en": "True. There, life is better for the family.",
+    "ar": "صحيح. الحياة هناك أفضل للعائلة."
+   }
   ]
+ },
+ "reading": {
+  "title": {
+   "es": "Valencia y las Otras Ciudades",
+   "en": "Curitiba and the Other Cities",
+   "ar": "كوريتيبا والمدن الأخرى"
+  },
+  "text_es": "Valencia es una de las mejores ciudades de España para vivir. El transporte público es más organizado que en muchas capitales, y los parques son más bonitos que en otras ciudades. Sin embargo, el coste de vida es más alto que en el interior. Aun así, mucha gente quiere vivir allí.",
+  "text_en": "Valencia is one of the best cities in Spain to live in. Public transport is more organized than in many capitals, and the parks are more beautiful than in other cities. However, the cost of living is higher than in the countryside. Even so, many people want to live there.",
+  "text_ar": "فالنسيا من أفضل مدن إسبانيا للعيش. النقل العام أكثر تنظيمًا منه في عواصم كثيرة، والمتنزهات أجمل منها في مدن أخرى. لكن تكلفة المعيشة أعلى منها في الداخل. ومع ذلك يريد كثير من الناس العيش هناك."
+ },
+ "exercises": [
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "Madrid es ___ que Valencia.",
+    "en": "São Paulo is ___ than Curitiba.",
+    "ar": "ساو باولو ___ من كوريتيبا."
+   },
+   "options": [
+    {
+     "es": "mayor",
+     "en": "maior",
+     "ar": "maior"
+    },
+    {
+     "es": "mejor",
+     "en": "melhor",
+     "ar": "melhor"
+    },
+    {
+     "es": "menos",
+     "en": "menos",
+     "ar": "menos"
+    }
+   ],
+   "answer": "mayor",
+   "explanation": {
+    "es": "'Mayor' es el comparativo irregular de 'grande'.",
+    "en": "'Maior' is the irregular comparative of 'grande' (big).",
+    "ar": "'maior' هي صيغة المقارنة الشاذة لكلمة 'grande' (كبير)."
+   }
+  },
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "Este es ___ mejor película del año.",
+    "en": "This is ___ best movie of the year.",
+    "ar": "هذا هو ___ أفضل فيلم في السنة."
+   },
+   "options": [
+    {
+     "es": "la",
+     "en": "o",
+     "ar": "o"
+    },
+    {
+     "es": "la",
+     "en": "a",
+     "ar": "a"
+    },
+    {
+     "es": "un",
+     "en": "um",
+     "ar": "um"
+    }
+   ],
+   "answer": "la",
+   "explanation": {
+    "es": "Superlativo: 'la mejor' (femenino).",
+    "en": "Superlative: 'o melhor' (masculine).",
+    "ar": "صيغة التفضيل: 'o melhor' (مذكر)."
+   }
+  },
+  {
+   "type": "translation",
+   "prompt": {
+    "es": "Traduce: 'the best'",
+    "en": "Translate: 'the best'",
+    "ar": "ترجم: 'the best'"
+   },
+   "options": [],
+   "answer": "el mejor",
+   "explanation": {
+    "es": "'El mejor' = the best.",
+    "en": "'O melhor' = the best.",
+    "ar": "'o melhor' = الأفضل."
+   }
+  }
+ ]
 }

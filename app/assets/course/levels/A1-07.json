@@ -1,329 +1,329 @@
 {
-  "id": "A1-07",
-  "level": "A1",
-  "level_name": {
-    "es": "Principiante",
-    "en": "Beginner",
-    "ar": "مبتدئ"
+ "id": "A1-07",
+ "level": "A1",
+ "level_name": {
+  "es": "Principiante",
+  "en": "Beginner",
+  "ar": "مبتدئ"
+ },
+ "title": {
+  "es": "Familia y Personas",
+  "en": "Family and People",
+  "ar": "العائلة والأشخاص"
+ },
+ "objectives": [
+  {
+   "es": "Nombrar los miembros de la familia",
+   "en": "Name family members",
+   "ar": "تسمية أفراد العائلة"
   },
+  {
+   "es": "Usar posesivos (mi, su, etc.)",
+   "en": "Use possessives (mi, su, etc.)",
+   "ar": "استخدام ضمائر الملكية (mi، su، إلخ)"
+  },
+  {
+   "es": "Describir personas",
+   "en": "Describe people",
+   "ar": "وصف الأشخاص"
+  }
+ ],
+ "vocabulary": [
+  {
+   "es": "la familia",
+   "ipa": "/ˈla faˈmilia/",
+   "en": "the family",
+   "ar": "العائلة"
+  },
+  {
+   "es": "el padre",
+   "ipa": "/ˈel ˈpaðɾe/",
+   "en": "the father",
+   "ar": "الأب"
+  },
+  {
+   "es": "la madre",
+   "ipa": "/ˈla ˈmaðɾe/",
+   "en": "the mother",
+   "ar": "الأم"
+  },
+  {
+   "es": "el hermano",
+   "ipa": "/ˈel eˈɾmano/",
+   "en": "the brother",
+   "ar": "الأخ"
+  },
+  {
+   "es": "la hermana",
+   "ipa": "/ˈla eˈɾmana/",
+   "en": "the sister",
+   "ar": "الأخت"
+  },
+  {
+   "es": "el hijo",
+   "ipa": "/ˈel ˈixo/",
+   "en": "the son",
+   "ar": "الابن"
+  },
+  {
+   "es": "la hija",
+   "ipa": "/ˈla ˈixa/",
+   "en": "the daughter",
+   "ar": "الابنة"
+  },
+  {
+   "es": "el abuelo",
+   "ipa": "/ˈel aˈβuelo/",
+   "en": "the grandfather",
+   "ar": "الجد"
+  },
+  {
+   "es": "la abuela",
+   "ipa": "/ˈla aˈβuela/",
+   "en": "the grandmother",
+   "ar": "الجدة"
+  },
+  {
+   "es": "el esposo",
+   "ipa": "/ˈel eˈsposo/",
+   "en": "the husband",
+   "ar": "الزوج"
+  },
+  {
+   "es": "la esposa",
+   "ipa": "/ˈla eˈsposa/",
+   "en": "the wife",
+   "ar": "الزوجة"
+  },
+  {
+   "es": "mi",
+   "ipa": "/ˈmi/",
+   "en": "my (m)",
+   "ar": "ملكي (مذكر)"
+  },
+  {
+   "es": "mi",
+   "ipa": "/ˈmi/",
+   "en": "my (f)",
+   "ar": "ملكي (مؤنث)"
+  },
+  {
+   "es": "su",
+   "ipa": "/ˈsu/",
+   "en": "your/his/her",
+   "ar": "ملكك / ملكه"
+  },
+  {
+   "es": "el primo",
+   "ipa": "/ˈel ˈpɾimo/",
+   "en": "the cousin (m)",
+   "ar": "ابن العم / الخال"
+  },
+  {
+   "es": "la tía",
+   "ipa": "/ˈla ˈtia/",
+   "en": "the aunt",
+   "ar": "العمة / الخالة"
+  },
+  {
+   "es": "el tío",
+   "ipa": "/ˈel ˈtio/",
+   "en": "the uncle",
+   "ar": "العم / الخال"
+  }
+ ],
+ "grammar": [
+  {
+   "title": {
+    "es": "Posesivos",
+    "en": "Possessives",
+    "ar": "ضمائر الملكية"
+   },
+   "explanation": {
+    "es": "Posesivos: mi (my), tu/su (your), nuestro/nuestra (our), su (their). Concuerdan en género con el sustantivo: mi padre, mi madre, nuestro coche, nuestra casa.",
+    "en": "Possessives: mi (my), tu/su (your), nuestro/nuestra (our), su (their). They agree in gender with the noun: mi padre (my father), mi madre (my mother), nuestro coche (our car), nuestra casa (our house).",
+    "ar": "ضمائر الملكية: mi (ملكي)، tu/su (ملكك)، nuestro/nuestra (ملكنا)، su (ملكهم). تتطابق في الجنس مع الاسم: mi padre (أبي)، mi madre (أمي)، nuestro coche (سيارتنا)، nuestra casa (منزلنا)."
+   },
+   "examples": [
+    {
+     "es": "Mi madre es médica.",
+     "en": "My mother is a doctor.",
+     "ar": "أمي طبيبة."
+    },
+    {
+     "es": "Su hermano estudia aquí.",
+     "en": "Your/his brother studies here.",
+     "ar": "أخوك يدرس هنا."
+    },
+    {
+     "es": "Nuestra familia es grande.",
+     "en": "Our family is big.",
+     "ar": "عائلتنا كبيرة."
+    }
+   ]
+  },
+  {
+   "title": {
+    "es": "Describiendo Personas",
+    "en": "Describing People",
+    "ar": "وصف الأشخاص"
+   },
+   "explanation": {
+    "es": "Para describir personas usamos ser + adjetivo: Él es alto, ella es simpática. Para la edad: Él tiene 40 años. Para características físicas: pelo (hair), ojos (eyes), alto/bajo (tall/short).",
+    "en": "To describe people we use ser + adjective: Ele é alto (He is tall), ela é simpática (She is friendly). For age: Ele tem 40 anos (He is 40). For physical features: cabelo (hair), olhos (eyes), alto/baixo (tall/short).",
+    "ar": "لوصف الأشخاص نستخدم ser + صفة: Ele é alto (هو طويل)، ela é simpática (هي ودودة). للعمر: Ele tem 40 anos (عمره 40). للصفات الجسدية: cabelo (شعر)، olhos (عيون)، alto/baixo (طويل/قصير)."
+   },
+   "examples": [
+    {
+     "es": "Mi abuelo tiene ochenta años.",
+     "en": "My grandfather is eighty years old.",
+     "ar": "جدي عمره ثمانون عامًا."
+    },
+    {
+     "es": "Mi hermana es baja y simpática.",
+     "en": "My sister is short and friendly.",
+     "ar": "أختي قصيرة وودودة."
+    },
+    {
+     "es": "El tío Pablo tiene el pelo corto.",
+     "en": "Uncle Paulo has short hair.",
+     "ar": "العم باولو لديه شعر قصير."
+    }
+   ]
+  }
+ ],
+ "dialogue": {
   "title": {
-    "es": "Familia y Personas",
-    "en": "Family and People",
-    "ar": "العائلة والأشخاص"
+   "es": "La Familia de Lucas",
+   "en": "Lucas's Family",
+   "ar": "عائلة لوكاس"
   },
-  "objectives": [
-    {
-      "es": "Nombrar los miembros de la familia",
-      "en": "Name family members",
-      "ar": "تسمية أفراد العائلة"
-    },
-    {
-      "es": "Usar posesivos (mi, su, etc.)",
-      "en": "Use possessives (meu, sua, etc.)",
-      "ar": "استخدام ضمائر الملكية (meu، sua، إلخ)"
-    },
-    {
-      "es": "Describir personas",
-      "en": "Describe people",
-      "ar": "وصف الأشخاص"
-    }
-  ],
-  "vocabulary": [
-    {
-      "es": "la familia",
-      "ipa": "/ˈla faˈmilia/",
-      "en": "the family",
-      "ar": "العائلة"
-    },
-    {
-      "es": "el padre",
-      "ipa": "/ˈel ˈpaðɾe/",
-      "en": "the father",
-      "ar": "الأب"
-    },
-    {
-      "es": "la madre",
-      "ipa": "/ˈla ˈmaðɾe/",
-      "en": "the mother",
-      "ar": "الأم"
-    },
-    {
-      "es": "el hermano",
-      "ipa": "/ˈel eˈɾmano/",
-      "en": "the brother",
-      "ar": "الأخ"
-    },
-    {
-      "es": "la hermana",
-      "ipa": "/ˈla eˈɾmana/",
-      "en": "the sister",
-      "ar": "الأخت"
-    },
-    {
-      "es": "el hijo",
-      "ipa": "/ˈel ˈixo/",
-      "en": "the son",
-      "ar": "الابن"
-    },
-    {
-      "es": "la hija",
-      "ipa": "/ˈla ˈixa/",
-      "en": "the daughter",
-      "ar": "الابنة"
-    },
-    {
-      "es": "el abuelo",
-      "ipa": "/ˈel aˈβuelo/",
-      "en": "the grandfather",
-      "ar": "الجد"
-    },
-    {
-      "es": "la abuela",
-      "ipa": "/ˈla aˈβuela/",
-      "en": "the grandmother",
-      "ar": "الجدة"
-    },
-    {
-      "es": "el esposo",
-      "ipa": "/ˈel eˈsposo/",
-      "en": "the husband",
-      "ar": "الزوج"
-    },
-    {
-      "es": "la esposa",
-      "ipa": "/ˈla eˈsposa/",
-      "en": "the wife",
-      "ar": "الزوجة"
-    },
-    {
-      "es": "mi",
-      "ipa": "/ˈmi/",
-      "en": "my (m)",
-      "ar": "ملكي (مذكر)"
-    },
-    {
-      "es": "mi",
-      "ipa": "/ˈmi/",
-      "en": "my (f)",
-      "ar": "ملكي (مؤنث)"
-    },
-    {
-      "es": "su",
-      "ipa": "/ˈsu/",
-      "en": "your/his/her",
-      "ar": "ملكك / ملكه"
-    },
-    {
-      "es": "el primo",
-      "ipa": "/ˈel ˈpɾimo/",
-      "en": "the cousin (m)",
-      "ar": "ابن العم / الخال"
-    },
-    {
-      "es": "la tía",
-      "ipa": "/ˈla ˈtia/",
-      "en": "the aunt",
-      "ar": "العمة / الخالة"
-    },
-    {
-      "es": "el tío",
-      "ipa": "/ˈel ˈtio/",
-      "en": "the uncle",
-      "ar": "العم / الخال"
-    }
-  ],
-  "grammar": [
-    {
-      "title": {
-        "es": "Posesivos",
-        "en": "Possessives",
-        "ar": "ضمائر الملكية"
-      },
-      "explanation": {
-        "es": "Posesivos: mi (my), tu/su (your), nuestro/nuestra (our), su (their). Concuerdan en género con el sustantivo: mi padre, mi madre, nuestro coche, nuestra casa.",
-        "en": "Possessives: meu/minha (my), seu/sua (your/his/her), nosso/nossa (our), seu/sua (their). They agree in gender with the noun: meu pai (my father), minha mãe (my mother), nosso carro (our car), nossa casa (our house).",
-        "ar": "ضمائر الملكية: meu/minha (ملكي)، seu/sua (ملكك / ملكه)، nosso/nossa (ملكنا)، seu/sua (ملكهم). تتطابق في الجنس مع الاسم: meu pai (أبي)، minha mãe (أمي)، nosso carro (سيارتنا)، nossa casa (منزلنا)."
-      },
-      "examples": [
-        {
-          "es": "Mi madre es médica.",
-          "en": "My mother is a doctor.",
-          "ar": "أمي طبيبة."
-        },
-        {
-          "es": "Su hermano estudia aquí.",
-          "en": "Your/his brother studies here.",
-          "ar": "أخوك يدرس هنا."
-        },
-        {
-          "es": "Nuestra familia es grande.",
-          "en": "Our family is big.",
-          "ar": "عائلتنا كبيرة."
-        }
-      ]
-    },
-    {
-      "title": {
-        "es": "Describiendo Personas",
-        "en": "Describing People",
-        "ar": "وصف الأشخاص"
-      },
-      "explanation": {
-        "es": "Para describir personas usamos ser + adjetivo: Él es alto, ella es simpática. Para la edad: Él tiene 40 años. Para características físicas: pelo (hair), ojos (eyes), alto/bajo (tall/short).",
-        "en": "To describe people we use ser + adjective: Ele é alto (He is tall), ela é simpática (She is friendly). For age: Ele tem 40 anos (He is 40). For physical features: cabelo (hair), olhos (eyes), alto/baixo (tall/short).",
-        "ar": "لوصف الأشخاص نستخدم ser + صفة: Ele é alto (هو طويل)، ela é simpática (هي ودودة). للعمر: Ele tem 40 anos (عمره 40). للصفات الجسدية: cabelo (شعر)، olhos (عيون)، alto/baixo (طويل/قصير)."
-      },
-      "examples": [
-        {
-          "es": "Mi abuelo tiene ochenta años.",
-          "en": "My grandfather is eighty years old.",
-          "ar": "جدي عمره ثمانون عامًا."
-        },
-        {
-          "es": "Mi hermana es baja y simpática.",
-          "en": "My sister is short and friendly.",
-          "ar": "أختي قصيرة وودودة."
-        },
-        {
-          "es": "El tío Pablo tiene el pelo corto.",
-          "en": "Uncle Paulo has short hair.",
-          "ar": "العم باولو لديه شعر قصير."
-        }
-      ]
-    }
-  ],
-  "dialogue": {
-    "title": {
-      "es": "La Familia de Lucas",
-      "en": "Lucas's Family",
-      "ar": "عائلة لوكاس"
-    },
-    "lines": [
-      {
-        "speaker": "Ana",
-        "es": "Lucas, cuéntame sobre tu familia.",
-        "en": "Lucas, tell me about your family.",
-        "ar": "لوكاس، حدثني عن عائلتك."
-      },
-      {
-        "speaker": "Lucas",
-        "es": "Mi padre es ingeniero y mi madre es profesora.",
-        "en": "My father is an engineer and my mother is a teacher.",
-        "ar": "أبي مهندس وأمي معلمة."
-      },
-      {
-        "speaker": "Ana",
-        "es": "¿Tienes hermanos?",
-        "en": "Do you have siblings?",
-        "ar": "هل لديك إخوة؟"
-      },
-      {
-        "speaker": "Lucas",
-        "es": "Sí, tengo una hermana menor. Tiene quince años.",
-        "en": "Yes, I have a younger sister. She is fifteen.",
-        "ar": "نعم، لدي أخت أصغر. عمرها خمسة عشر عامًا."
-      },
-      {
-        "speaker": "Ana",
-        "es": "¿Y tus abuelos?",
-        "en": "And your grandparents?",
-        "ar": "وأجدادك؟"
-      },
-      {
-        "speaker": "Lucas",
-        "es": "Mis abuelos viven con nosotros. Son muy queridos.",
-        "en": "My grandparents live with us. They are very dear.",
-        "ar": "يعيش أجدادي معنا. إنهم عزيزون جدًا."
-      }
-    ]
-  },
-  "reading": {
-    "title": {
-      "es": "Familia Hispana",
-      "en": "Brazilian Family",
-      "ar": "عائلة برازيلية"
-    },
-    "text_es": "La familia de Juan es grande. Su padre es médico y su madre es dentista. Juan tiene dos hermanos y una hermana. Los abuelos viven en otra ciudad. Los domingos, toda la familia se reúne para almorzar. Son muy unidos.",
-    "text_en": "João's family is big. His father is a doctor and his mother is a dentist. João has two brothers and one sister. The grandparents live in another city. On Sundays, the whole family gathers for lunch. They are very close.",
-    "text_ar": "عائلة جواو كبيرة. والده طبيب ووالدته طبيبة أسنان. لدى جواو شقيقان وأخت واحدة. يعيش الجدّان في مدينة أخرى. في أيام الأحد، تجتمع العائلة كلها لتناول الغداء. إنهم متحابون جدًا."
-  },
-  "exercises": [
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "¿Cómo se dice 'mother' en español?",
-        "en": "How do you say 'mother' in Portuguese?",
-        "ar": "كيف تقول 'mother' بالبرتغالية؟"
-      },
-      "options": [
-        {
-          "es": "padre",
-          "en": "pai",
-          "ar": "pai"
-        },
-        {
-          "es": "niño",
-          "en": "mãe",
-          "ar": "mãe"
-        },
-        {
-          "es": "abuela",
-          "en": "avó",
-          "ar": "avó"
-        }
-      ],
-      "answer": "niño",
-      "explanation": {
-        "es": "'Madre' significa mother.",
-        "en": "'Mãe' means mother.",
-        "ar": "'mãe' تعني الأم."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "___ padre es médico. (mi)",
-        "en": "___ father is a doctor. (my)",
-        "ar": "___ أبي طبيب. (ملكي)"
-      },
-      "options": [
-        {
-          "es": "Mi",
-          "en": "Minha",
-          "ar": "Minha"
-        },
-        {
-          "es": "Mi",
-          "en": "Meu",
-          "ar": "Meu"
-        },
-        {
-          "es": "Nuestra",
-          "en": "Nossa",
-          "ar": "Nossa"
-        }
-      ],
-      "answer": "Mi",
-      "explanation": {
-        "es": "'Padre' es masculino: mi padre.",
-        "en": "'pai' is masculine: meu pai.",
-        "ar": "'pai' مذكر: meu pai."
-      }
-    },
-    {
-      "type": "translation",
-      "prompt": {
-        "es": "Traduce: 'my grandmother'",
-        "en": "Translate: 'my grandmother'",
-        "ar": "ترجم: 'my grandmother'"
-      },
-      "options": [],
-      "answer": "mi abuela",
-      "explanation": {
-        "es": "'Mi abuela' - abuela es femenino.",
-        "en": "'Minha avó' - avó is feminine.",
-        "ar": "'Minha avó' - avó مؤنثة."
-      }
-    }
+  "lines": [
+   {
+    "speaker": "Ana",
+    "es": "Lucas, cuéntame sobre tu familia.",
+    "en": "Lucas, tell me about your family.",
+    "ar": "لوكاس، حدثني عن عائلتك."
+   },
+   {
+    "speaker": "Lucas",
+    "es": "Mi padre es ingeniero y mi madre es profesora.",
+    "en": "My father is an engineer and my mother is a teacher.",
+    "ar": "أبي مهندس وأمي معلمة."
+   },
+   {
+    "speaker": "Ana",
+    "es": "¿Tienes hermanos?",
+    "en": "Do you have siblings?",
+    "ar": "هل لديك إخوة؟"
+   },
+   {
+    "speaker": "Lucas",
+    "es": "Sí, tengo una hermana menor. Tiene quince años.",
+    "en": "Yes, I have a younger sister. She is fifteen.",
+    "ar": "نعم، لدي أخت أصغر. عمرها خمسة عشر عامًا."
+   },
+   {
+    "speaker": "Ana",
+    "es": "¿Y tus abuelos?",
+    "en": "And your grandparents?",
+    "ar": "وأجدادك؟"
+   },
+   {
+    "speaker": "Lucas",
+    "es": "Mis abuelos viven con nosotros. Son muy queridos.",
+    "en": "My grandparents live with us. They are very dear.",
+    "ar": "يعيش أجدادي معنا. إنهم عزيزون جدًا."
+   }
   ]
+ },
+ "reading": {
+  "title": {
+   "es": "Familia Hispana",
+   "en": "Brazilian Family",
+   "ar": "عائلة برازيلية"
+  },
+  "text_es": "La familia de Juan es grande. Su padre es médico y su madre es dentista. Juan tiene dos hermanos y una hermana. Los abuelos viven en otra ciudad. Los domingos, toda la familia se reúne para almorzar. Son muy unidos.",
+  "text_en": "João's family is big. His father is a doctor and his mother is a dentist. João has two brothers and one sister. The grandparents live in another city. On Sundays, the whole family gathers for lunch. They are very close.",
+  "text_ar": "عائلة جواو كبيرة. والده طبيب ووالدته طبيبة أسنان. لدى جواو شقيقان وأخت واحدة. يعيش الجدّان في مدينة أخرى. في أيام الأحد، تجتمع العائلة كلها لتناول الغداء. إنهم متحابون جدًا."
+ },
+ "exercises": [
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "¿Cómo se dice 'mother' en español?",
+    "en": "How do you say 'mother' in Portuguese?",
+    "ar": "كيف تقول 'mother' بالبرتغالية؟"
+   },
+   "options": [
+    {
+     "es": "padre",
+     "en": "pai",
+     "ar": "pai"
+    },
+    {
+     "es": "niño",
+     "en": "mãe",
+     "ar": "mãe"
+    },
+    {
+     "es": "abuela",
+     "en": "avó",
+     "ar": "avó"
+    }
+   ],
+   "answer": "niño",
+   "explanation": {
+    "es": "'Madre' significa mother.",
+    "en": "'Mãe' means mother.",
+    "ar": "'mãe' تعني الأم."
+   }
+  },
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "___ padre es médico. (mi)",
+    "en": "___ father is a doctor. (my)",
+    "ar": "___ أبي طبيب. (ملكي)"
+   },
+   "options": [
+    {
+     "es": "Mi",
+     "en": "Mi",
+     "ar": "Mi"
+    },
+    {
+     "es": "Mi",
+     "en": "Mi",
+     "ar": "Mi"
+    },
+    {
+     "es": "Nuestra",
+     "en": "Nuestra",
+     "ar": "Nuestra"
+    }
+   ],
+   "answer": "Mi",
+   "explanation": {
+    "es": "'Padre' es masculino: mi padre.",
+    "en": "'Padre' is masculine: mi padre.",
+    "ar": "'Padre' مذكر: mi padre."
+   }
+  },
+  {
+   "type": "translation",
+   "prompt": {
+    "es": "Traduce: 'my grandmother'",
+    "en": "Translate: 'my grandmother'",
+    "ar": "ترجم: 'my grandmother'"
+   },
+   "options": [],
+   "answer": "mi abuela",
+   "explanation": {
+    "es": "'Mi abuela' - abuela es femenino.",
+    "en": "'Mi abuela': 'abuela' is feminine.",
+    "ar": "'mi abuela' - كلمة مؤنثة."
+   }
+  }
+ ]
 }

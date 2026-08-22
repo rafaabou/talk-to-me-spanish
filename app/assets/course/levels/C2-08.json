@@ -1,340 +1,340 @@
 {
-  "id": "C2-08",
-  "level": "C2",
-  "level_name": {
-    "es": "Proficiencia",
-    "en": "Proficiency",
-    "ar": "إتقان"
+ "id": "C2-08",
+ "level": "C2",
+ "level_name": {
+  "es": "Proficiencia",
+  "en": "Proficiency",
+  "ar": "إتقان"
+ },
+ "title": {
+  "es": "Prosa Científica y Técnica",
+  "en": "Scientific and Technical Prose",
+  "ar": "النثر العلمي والتقني"
+ },
+ "objectives": [
+  {
+   "es": "Comprender la estructura del artículo científico y del informe técnico",
+   "en": "Understand the structure of the scientific article and the technical report",
+   "ar": "فهم بنية المقال العلمي والتقرير التقني"
   },
+  {
+   "es": "Usar estructuras impersonales y voz pasiva en prosa técnica",
+   "en": "Use impersonal structures and passive voice in technical prose",
+   "ar": "استخدام التراكيب غير الشخصية والمبني للمجهول في النثر التقني"
+  },
+  {
+   "es": "Emplear conectores de causa, consecuencia y concesión",
+   "en": "Employ connectors of cause, consequence and concession",
+   "ar": "استخدام روابط السبب والنتيجة والاستدراك"
+  },
+  {
+   "es": "Interpretar datos, gráficos y tablas en textos",
+   "en": "Interpret data, charts and tables in texts",
+   "ar": "تفسير البيانات والرسوم البيانية والجداول في النصوص"
+  }
+ ],
+ "vocabulary": [
+  {
+   "es": "el experimento",
+   "ipa": "/ˈel ekspeɾiˈmento/",
+   "en": "experiment",
+   "ar": "التجربة"
+  },
+  {
+   "es": "la hipótesis",
+   "ipa": "/ˈla iˈpotesis/",
+   "en": "hypothesis",
+   "ar": "الفرضية"
+  },
+  {
+   "es": "la variable",
+   "ipa": "/ˈla baˈɾiaβle/",
+   "en": "variable",
+   "ar": "المتغير"
+  },
+  {
+   "es": "la muestra",
+   "ipa": "/ˈla ˈmuestɾa/",
+   "en": "sample",
+   "ar": "العينة"
+  },
+  {
+   "es": "el dato",
+   "ipa": "/ˈel ˈdato/",
+   "en": "data point / datum",
+   "ar": "المعطى / البيان"
+  },
+  {
+   "es": "el resultado",
+   "ipa": "/ˈel resuˈltaðo/",
+   "en": "result",
+   "ar": "النتيجة"
+  },
+  {
+   "es": "la conclusión",
+   "ipa": "/ˈla konkluˈsion/",
+   "en": "conclusion",
+   "ar": "الاستنتاج"
+  },
+  {
+   "es": "la metodología",
+   "ipa": "/ˈla metoðoloˈɣia/",
+   "en": "methodology",
+   "ar": "المنهجية"
+  },
+  {
+   "es": "el marco teórico",
+   "ipa": "/ˈel ˈmaɾko ˈteoɾiko/",
+   "en": "theoretical framework",
+   "ar": "الإطار النظري"
+  },
+  {
+   "es": "la revisión bibliográfica",
+   "ipa": "/ˈla reβiˈsion biβlioˈɣɾafika/",
+   "en": "literature review",
+   "ar": "مراجعة الأدبيات"
+  },
+  {
+   "es": "el artículo",
+   "ipa": "/ˈel aˈɾtikulo/",
+   "en": "article",
+   "ar": "المقال"
+  },
+  {
+   "es": "la revista científica",
+   "ipa": "/ˈla reˈβista sieˈntifika/",
+   "en": "journal",
+   "ar": "الدورية العلمية"
+  },
+  {
+   "es": "el índice",
+   "ipa": "/ˈel ˈindise/",
+   "en": "index",
+   "ar": "المؤشر"
+  },
+  {
+   "es": "el gráfico",
+   "ipa": "/ˈel ˈgɾafiko/",
+   "en": "chart",
+   "ar": "الرسم البياني"
+  },
+  {
+   "es": "la tabla",
+   "ipa": "/ˈla ˈtaβla/",
+   "en": "table",
+   "ar": "الجدول"
+  },
+  {
+   "es": "la precisión",
+   "ipa": "/ˈla pɾesiˈsion/",
+   "en": "precision",
+   "ar": "الدقة"
+  },
+  {
+   "es": "la reproducibilidad",
+   "ipa": "/ˈla repɾoðusiβiliˈðað/",
+   "en": "reproducibility",
+   "ar": "قابلية إعادة الإنتاج"
+  },
+  {
+   "es": "la revisión por pares",
+   "ipa": "/ˈla reβiˈsion ˈpoɾ ˈpaɾes/",
+   "en": "peer review",
+   "ar": "التحكيم / مراجعة الأقران"
+  }
+ ],
+ "grammar": [
+  {
+   "title": {
+    "es": "Estructuras Impersonales en el Texto Científico",
+    "en": "Impersonal Structures in Scientific Text",
+    "ar": "التراكيب غير الشخصية في النص العلمي"
+   },
+   "explanation": {
+    "es": "La prosa científica evita la primera persona e impersonaliza con la voz pasiva, la pasiva refleja y el 'se' indeterminador: 'Se recolectaron 200 muestras', 'Se observó un aumento', 'Cabe destacar que...'. Verbos como 'verificar', 'constatar' y 'demostrar' aparecen en tercera persona. Esta neutralidad transfiere el foco del investigador al dato.",
+    "en": "Scientific prose avoids the first person and impersonalizes with the passive voice, the passive particle and the indefinite 'se': 'Foram coletadas 200 amostras' (200 samples were collected), 'Observou-se um aumento' (An increase was observed), 'Cabe destacar que...' (It should be noted that...). Verbs like 'verificar', 'constatar' and 'demonstrar' appear in the third person. This neutrality shifts the focus from the researcher to the data.",
+    "ar": "يتجنب النثر العلمي المتكلم ويضفي الطابع غير الشخصي عبر المبني للمجهول وأداة 'se' للمجهول أو للإبهام: 'Foram coletadas 200 amostras' (جُمعت 200 عينة)، 'Observou-se um aumento' (لوحظ ارتفاع)، 'Cabe destacar que...' (تجدر الإشارة إلى أن...). وتظهر أفعال مثل 'verificar' و'constatar' و'demonstrar' بصيغة الغائب. تنقل هذه الحيادية التركيز من الباحث إلى المعطى."
+   },
+   "examples": [
+    {
+     "es": "Se recolectaron 200 muestras en tres regiones distintas.",
+     "en": "200 samples were collected in three distinct regions.",
+     "ar": "جُمعت 200 عينة في ثلاث مناطق مختلفة."
+    },
+    {
+     "es": "Se observó una correlación significativa entre las variables.",
+     "en": "A significant correlation was observed between the variables.",
+     "ar": "لوحظ ارتباط ذو دلالة بين المتغيرات."
+    },
+    {
+     "es": "Cabe destacar que los resultados confirman la hipótesis inicial.",
+     "en": "It should be noted that the results confirm the initial hypothesis.",
+     "ar": "تجدر الإشارة إلى أن النتائج تؤكد الفرضية الأولية."
+    }
+   ]
+  },
+  {
+   "title": {
+    "es": "Conectores de Causa, Consecuencia y Concesión",
+    "en": "Connectors of Cause, Consequence and Concession",
+    "ar": "روابط السبب والنتيجة والاستدراك"
+   },
+   "explanation": {
+    "es": "El texto técnico organiza la argumentación con conectores precisos. Causa: 'ya que', 'teniendo en cuenta que'. Consecuencia: 'por lo tanto', 'por consiguiente', 'de modo que'. Concesión: 'aunque', 'aun cuando', 'no obstante'. En 'Aunque la muestra sea pequeña, los datos son consistentes', la concesión introduce la salvedad sin anular la tesis.",
+    "en": "Technical writing organizes argument with precise connectors. Cause: 'ya que', 'teniendo en cuenta que'. Consequence: 'por lo tanto', 'por consiguiente', 'de modo que'. Concession: 'aunque', 'aun cuando', 'no obstante'. In 'Aunque la muestra sea pequeña, los datos son consistentes' (Although the sample is small, the data are consistent), the concession introduces the caveat without invalidating the thesis.",
+    "ar": "ينظم النص التقني الحجاج برابط دقيقة. السبب: 'ya que'، 'teniendo en cuenta que'. النتيجة: 'por lo tanto'، 'por consiguiente'، 'de modo que'. الاستدراك: 'aunque'، 'aun cuando'، 'no obstante'. وفي 'Aunque la muestra sea pequeña, los datos son consistentes' (رغم صغر العينة فإن البيانات متسقة) يقدم الاستدراك التحفظ دون إبطال الأطروحة."
+   },
+   "examples": [
+    {
+     "es": "Ya que la muestra era pequeña, los autores evitaron generalizaciones.",
+     "en": "Since the sample was small, the authors avoided generalizations.",
+     "ar": "نظرًا لأن العينة كانت صغيرة، تجنب المؤلفون التعميمات."
+    },
+    {
+     "es": "Los datos fueron replicados; por consiguiente, la conclusión ganó solidez.",
+     "en": "The data were replicated; consequently, the conclusion gained robustness.",
+     "ar": "أعيد إنتاج البيانات؛ وبالتالي اكتسب الاستنتاج قوة."
+    },
+    {
+     "es": "Aunque el costo sea alto, el método demostró eficacia.",
+     "en": "Even though the cost is high, the method proved effective.",
+     "ar": "وإن كانت التكلفة مرتفعة، فقد أثبت المنهج فعاليته."
+    }
+   ]
+  }
+ ],
+ "dialogue": {
   "title": {
-    "es": "Prosa Científica y Técnica",
-    "en": "Scientific and Technical Prose",
-    "ar": "النثر العلمي والتقني"
+   "es": "En el Laboratorio",
+   "en": "At the Laboratory",
+   "ar": "في المختبر"
   },
-  "objectives": [
-    {
-      "es": "Comprender la estructura del artículo científico y del informe técnico",
-      "en": "Understand the structure of the scientific article and the technical report",
-      "ar": "فهم بنية المقال العلمي والتقرير التقني"
-    },
-    {
-      "es": "Usar estructuras impersonales y voz pasiva en prosa técnica",
-      "en": "Use impersonal structures and passive voice in technical prose",
-      "ar": "استخدام التراكيب غير الشخصية والمبني للمجهول في النثر التقني"
-    },
-    {
-      "es": "Emplear conectores de causa, consecuencia y concesión",
-      "en": "Employ connectors of cause, consequence and concession",
-      "ar": "استخدام روابط السبب والنتيجة والاستدراك"
-    },
-    {
-      "es": "Interpretar datos, gráficos y tablas en textos",
-      "en": "Interpret data, charts and tables in texts",
-      "ar": "تفسير البيانات والرسوم البيانية والجداول في النصوص"
-    }
-  ],
-  "vocabulary": [
-    {
-      "es": "el experimento",
-      "ipa": "/ˈel ekspeɾiˈmento/",
-      "en": "experiment",
-      "ar": "التجربة"
-    },
-    {
-      "es": "la hipótesis",
-      "ipa": "/ˈla iˈpotesis/",
-      "en": "hypothesis",
-      "ar": "الفرضية"
-    },
-    {
-      "es": "la variable",
-      "ipa": "/ˈla baˈɾiaβle/",
-      "en": "variable",
-      "ar": "المتغير"
-    },
-    {
-      "es": "la muestra",
-      "ipa": "/ˈla ˈmuestɾa/",
-      "en": "sample",
-      "ar": "العينة"
-    },
-    {
-      "es": "el dato",
-      "ipa": "/ˈel ˈdato/",
-      "en": "data point / datum",
-      "ar": "المعطى / البيان"
-    },
-    {
-      "es": "el resultado",
-      "ipa": "/ˈel resuˈltaðo/",
-      "en": "result",
-      "ar": "النتيجة"
-    },
-    {
-      "es": "la conclusión",
-      "ipa": "/ˈla konkluˈsion/",
-      "en": "conclusion",
-      "ar": "الاستنتاج"
-    },
-    {
-      "es": "la metodología",
-      "ipa": "/ˈla metoðoloˈɣia/",
-      "en": "methodology",
-      "ar": "المنهجية"
-    },
-    {
-      "es": "el marco teórico",
-      "ipa": "/ˈel ˈmaɾko ˈteoɾiko/",
-      "en": "theoretical framework",
-      "ar": "الإطار النظري"
-    },
-    {
-      "es": "la revisión bibliográfica",
-      "ipa": "/ˈla reβiˈsion biβlioˈɣɾafika/",
-      "en": "literature review",
-      "ar": "مراجعة الأدبيات"
-    },
-    {
-      "es": "el artículo",
-      "ipa": "/ˈel aˈɾtikulo/",
-      "en": "article",
-      "ar": "المقال"
-    },
-    {
-      "es": "la revista científica",
-      "ipa": "/ˈla reˈβista sieˈntifika/",
-      "en": "journal",
-      "ar": "الدورية العلمية"
-    },
-    {
-      "es": "el índice",
-      "ipa": "/ˈel ˈindise/",
-      "en": "index",
-      "ar": "المؤشر"
-    },
-    {
-      "es": "el gráfico",
-      "ipa": "/ˈel ˈgɾafiko/",
-      "en": "chart",
-      "ar": "الرسم البياني"
-    },
-    {
-      "es": "la tabla",
-      "ipa": "/ˈla ˈtaβla/",
-      "en": "table",
-      "ar": "الجدول"
-    },
-    {
-      "es": "la precisión",
-      "ipa": "/ˈla pɾesiˈsion/",
-      "en": "precision",
-      "ar": "الدقة"
-    },
-    {
-      "es": "la reproducibilidad",
-      "ipa": "/ˈla repɾoðusiβiliˈðað/",
-      "en": "reproducibility",
-      "ar": "قابلية إعادة الإنتاج"
-    },
-    {
-      "es": "la revisión por pares",
-      "ipa": "/ˈla reβiˈsion ˈpoɾ ˈpaɾes/",
-      "en": "peer review",
-      "ar": "التحكيم / مراجعة الأقران"
-    }
-  ],
-  "grammar": [
-    {
-      "title": {
-        "es": "Estructuras Impersonales en el Texto Científico",
-        "en": "Impersonal Structures in Scientific Text",
-        "ar": "التراكيب غير الشخصية في النص العلمي"
-      },
-      "explanation": {
-        "es": "La prosa científica evita la primera persona e impersonaliza con la voz pasiva, la pasiva refleja y el 'se' indeterminador: 'Se recolectaron 200 muestras', 'Se observó un aumento', 'Cabe destacar que...'. Verbos como 'verificar', 'constatar' y 'demostrar' aparecen en tercera persona. Esta neutralidad transfiere el foco del investigador al dato.",
-        "en": "Scientific prose avoids the first person and impersonalizes with the passive voice, the passive particle and the indefinite 'se': 'Foram coletadas 200 amostras' (200 samples were collected), 'Observou-se um aumento' (An increase was observed), 'Cabe destacar que...' (It should be noted that...). Verbs like 'verificar', 'constatar' and 'demonstrar' appear in the third person. This neutrality shifts the focus from the researcher to the data.",
-        "ar": "يتجنب النثر العلمي المتكلم ويضفي الطابع غير الشخصي عبر المبني للمجهول وأداة 'se' للمجهول أو للإبهام: 'Foram coletadas 200 amostras' (جُمعت 200 عينة)، 'Observou-se um aumento' (لوحظ ارتفاع)، 'Cabe destacar que...' (تجدر الإشارة إلى أن...). وتظهر أفعال مثل 'verificar' و'constatar' و'demonstrar' بصيغة الغائب. تنقل هذه الحيادية التركيز من الباحث إلى المعطى."
-      },
-      "examples": [
-        {
-          "es": "Se recolectaron 200 muestras en tres regiones distintas.",
-          "en": "200 samples were collected in three distinct regions.",
-          "ar": "جُمعت 200 عينة في ثلاث مناطق مختلفة."
-        },
-        {
-          "es": "Se observó una correlación significativa entre las variables.",
-          "en": "A significant correlation was observed between the variables.",
-          "ar": "لوحظ ارتباط ذو دلالة بين المتغيرات."
-        },
-        {
-          "es": "Cabe destacar que los resultados confirman la hipótesis inicial.",
-          "en": "It should be noted that the results confirm the initial hypothesis.",
-          "ar": "تجدر الإشارة إلى أن النتائج تؤكد الفرضية الأولية."
-        }
-      ]
-    },
-    {
-      "title": {
-        "es": "Conectores de Causa, Consecuencia y Concesión",
-        "en": "Connectors of Cause, Consequence and Concession",
-        "ar": "روابط السبب والنتيجة والاستدراك"
-      },
-      "explanation": {
-        "es": "El texto técnico organiza la argumentación con conectores precisos. Causa: 'ya que', 'teniendo en cuenta que'. Consecuencia: 'por lo tanto', 'por consiguiente', 'de modo que'. Concesión: 'aunque', 'aun cuando', 'no obstante'. En 'Aunque la muestra sea pequeña, los datos son consistentes', la concesión introduce la salvedad sin anular la tesis.",
-        "en": "Technical text organizes argumentation with precise connectors. Cause: 'uma vez que', 'tendo em vista que'. Consequence: 'portanto', 'por conseguinte', 'de modo que'. Concession: 'embora', 'ainda que', 'mesmo que', 'não obstante'. In 'Embora a amostra seja pequena, os dados são consistentes' (Although the sample is small, the data are consistent), the concession introduces the caveat without invalidating the thesis.",
-        "ar": "ينظم النص التقني الحجاج بروابط دقيقة. السبب: 'uma vez que' (نظرًا لأن) و'tendo em vista que' (بالنظر إلى أن). النتيجة: 'portanto' (لذلك) و'por conseguinte' (وبالتالي) و'de modo que' (بحيث). الاستدراك: 'embora' (رغم أن) و'ainda que' (وإن كان) و'mesmo que' (حتى لو) و'não obstante' (مع ذلك). وفي جملة 'Embora a amostra seja pequena, os dados são consistentes' (رغم صغر العينة، فإن البيانات متسقة) يدخل الاستدراك تحفظًا دون إبطال الأطروحة."
-      },
-      "examples": [
-        {
-          "es": "Ya que la muestra era pequeña, los autores evitaron generalizaciones.",
-          "en": "Since the sample was small, the authors avoided generalizations.",
-          "ar": "نظرًا لأن العينة كانت صغيرة، تجنب المؤلفون التعميمات."
-        },
-        {
-          "es": "Los datos fueron replicados; por consiguiente, la conclusión ganó solidez.",
-          "en": "The data were replicated; consequently, the conclusion gained robustness.",
-          "ar": "أعيد إنتاج البيانات؛ وبالتالي اكتسب الاستنتاج قوة."
-        },
-        {
-          "es": "Aunque el costo sea alto, el método demostró eficacia.",
-          "en": "Even though the cost is high, the method proved effective.",
-          "ar": "وإن كانت التكلفة مرتفعة، فقد أثبت المنهج فعاليته."
-        }
-      ]
-    }
-  ],
-  "dialogue": {
-    "title": {
-      "es": "En el Laboratorio",
-      "en": "At the Laboratory",
-      "ar": "في المختبر"
-    },
-    "lines": [
-      {
-        "speaker": "Dr. Nunes",
-        "es": "Se verificó que la temperatura interfirió en los resultados.",
-        "en": "It was verified that the temperature interfered with the results.",
-        "ar": "تأكد أن درجة الحرارة أثرت في النتائج."
-      },
-      {
-        "speaker": "Ana",
-        "es": "¿Debo registrar ese efecto en el informe técnico?",
-        "en": "Should I record this effect in the technical report?",
-        "ar": "هل يجب أن أسجل هذا الأثر في التقرير التقني؟"
-      },
-      {
-        "speaker": "Dr. Nunes",
-        "es": "Sí, porque la reproducibilidad depende de ese control. Por lo tanto, documenta todo.",
-        "en": "Yes, because reproducibility depends on that control. Therefore, document everything.",
-        "ar": "نعم، لأن قابلية إعادة الإنتاج تعتمد على هذا الضبط. لذلك، وثّق كل شيء."
-      },
-      {
-        "speaker": "Ana",
-        "es": "Aunque el gráfico muestre una tendencia, la tabla revela una dispersión alta.",
-        "en": "Although the chart shows a trend, the table reveals high dispersion.",
-        "ar": "رغم أن الرسم البياني يُظهر اتجاهًا، يكشف الجدول تبعثرًا كبيرًا."
-      },
-      {
-        "speaker": "Dr. Nunes",
-        "es": "Exacto. Cabe concluir que la hipótesis fue parcialmente confirmada.",
-        "en": "Exactly. It should be concluded that the hypothesis was partially confirmed.",
-        "ar": "بالضبط. تجدر خلاصة القول إن الفرضية تأكدت جزئيًا."
-      },
-      {
-        "speaker": "Ana",
-        "es": "Ya que falta la revisión por pares, todavía no podemos publicar.",
-        "en": "Since peer review is still pending, we cannot publish yet.",
-        "ar": "نظرًا لأن التحكيم ما زال معلقًا، لا يمكننا النشر بعد."
-      }
-    ]
-  },
-  "reading": {
-    "title": {
-      "es": "El Método Detrás del Artículo",
-      "en": "The Method Behind the Article",
-      "ar": "المنهج الكامن خلف المقال"
-    },
-    "text_es": "El artículo describe la metodología con precisión para garantizar la reproducibilidad del experimento. Se controlaron las variables ambientales y se analizaron 400 muestras en un período de doce meses. Aunque los costos fueran elevados, la financiación fue aprobada mediante un dictamen favorable. Por consiguiente, los autores pudieron concluir que el método es viable a gran escala.",
-    "text_en": "The article describes the methodology with precision to ensure the reproducibility of the experiment. The environmental variables were controlled and 400 samples were analyzed over a period of twelve months. Although costs were high, funding was approved upon a favorable review. Consequently, the authors were able to conclude that the method is viable on a large scale.",
-    "text_ar": "يصف المقال المنهجية بدقة لضمان قابلية إعادة إنتاج التجربة. ضُبطت المتغيرات البيئية وحُللت 400 عينة على مدى اثني عشر شهرًا. ورغم ارتفاع التكاليف، اعتُمد التمويل بعد تقرير إيجابي. وبالتالي، استطاع المؤلفون الاستنتاج أن المنهج قابل للتطبيق على نطاق واسع."
-  },
-  "exercises": [
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "¿Qué frase usa correctamente la voz pasiva científica?",
-        "en": "Which sentence correctly uses the scientific passive voice?",
-        "ar": "أي جملة تستخدم المبني للمجهول العلمي بشكل صحيح؟"
-      },
-      "options": [
-        {
-          "es": "Se recolectaron 200 muestras.",
-          "en": "Foram coletadas 200 amostras.",
-          "ar": "Foram coletadas 200 amostras."
-        },
-        {
-          "es": "Nosotros recolectó 200 muestras. (incorrecto)",
-          "en": "Nós coletou 200 amostras.",
-          "ar": "Nós coletou 200 amostras."
-        },
-        {
-          "es": "Se recolectó 200 muestras. (incorrecto)",
-          "en": "Coletou-se 200 amostras.",
-          "ar": "Coletou-se 200 amostras."
-        }
-      ],
-      "answer": "Se recolectaron 200 muestras.",
-      "explanation": {
-        "es": "En la pasiva refleja, el verbo concuerda con el sujeto plural: 'Se recolectaron'.",
-        "en": "In the passive, the participle agrees with the plural subject '200 amostras': 'Foram coletadas'.",
-        "ar": "في المبني للمجهول يطابق اسم المفعول الفاعل الجمع '200 amostras': 'Foram coletadas'."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "En 'Aunque la muestra sea pequeña', el conector expresa...",
-        "en": "In 'Embora a amostra seja pequena', the connector expresses...",
-        "ar": "في جملة 'Embora a amostra seja pequena'، يعبّر الرابط عن..."
-      },
-      "options": [
-        {
-          "es": "causa",
-          "en": "cause",
-          "ar": "سبب"
-        },
-        {
-          "es": "concesión",
-          "en": "concession",
-          "ar": "استدراك"
-        },
-        {
-          "es": "conclusión",
-          "en": "conclusion",
-          "ar": "استنتاج"
-        }
-      ],
-      "answer": "concesión",
-      "explanation": {
-        "es": "'Aunque' introduce una concesión, es decir, una salvedad.",
-        "en": "'Embora' introduces a concession, that is, a caveat.",
-        "ar": "'embora' يدخل استدراكًا، أي تحفظًا."
-      }
-    },
-    {
-      "type": "translation",
-      "prompt": {
-        "es": "Traduce al español: 'peer review'",
-        "en": "Translate into Portuguese: 'peer review'",
-        "ar": "ترجم إلى البرتغالية: 'peer review'"
-      },
-      "options": [],
-      "answer": "revisión por pares",
-      "explanation": {
-        "es": "'Revisión por pares' es el término consagrado en la academia.",
-        "en": "'Revisão por pares' is the established term in academia.",
-        "ar": "المصطلح المتعارف عليه أكاديميًا هو 'revisão por pares'."
-      }
-    }
+  "lines": [
+   {
+    "speaker": "Dr. Nunes",
+    "es": "Se verificó que la temperatura interfirió en los resultados.",
+    "en": "It was verified that the temperature interfered with the results.",
+    "ar": "تأكد أن درجة الحرارة أثرت في النتائج."
+   },
+   {
+    "speaker": "Ana",
+    "es": "¿Debo registrar ese efecto en el informe técnico?",
+    "en": "Should I record this effect in the technical report?",
+    "ar": "هل يجب أن أسجل هذا الأثر في التقرير التقني؟"
+   },
+   {
+    "speaker": "Dr. Nunes",
+    "es": "Sí, porque la reproducibilidad depende de ese control. Por lo tanto, documenta todo.",
+    "en": "Yes, because reproducibility depends on that control. Therefore, document everything.",
+    "ar": "نعم، لأن قابلية إعادة الإنتاج تعتمد على هذا الضبط. لذلك، وثّق كل شيء."
+   },
+   {
+    "speaker": "Ana",
+    "es": "Aunque el gráfico muestre una tendencia, la tabla revela una dispersión alta.",
+    "en": "Although the chart shows a trend, the table reveals high dispersion.",
+    "ar": "رغم أن الرسم البياني يُظهر اتجاهًا، يكشف الجدول تبعثرًا كبيرًا."
+   },
+   {
+    "speaker": "Dr. Nunes",
+    "es": "Exacto. Cabe concluir que la hipótesis fue parcialmente confirmada.",
+    "en": "Exactly. It should be concluded that the hypothesis was partially confirmed.",
+    "ar": "بالضبط. تجدر خلاصة القول إن الفرضية تأكدت جزئيًا."
+   },
+   {
+    "speaker": "Ana",
+    "es": "Ya que falta la revisión por pares, todavía no podemos publicar.",
+    "en": "Since peer review is still pending, we cannot publish yet.",
+    "ar": "نظرًا لأن التحكيم ما زال معلقًا، لا يمكننا النشر بعد."
+   }
   ]
+ },
+ "reading": {
+  "title": {
+   "es": "El Método Detrás del Artículo",
+   "en": "The Method Behind the Article",
+   "ar": "المنهج الكامن خلف المقال"
+  },
+  "text_es": "El artículo describe la metodología con precisión para garantizar la reproducibilidad del experimento. Se controlaron las variables ambientales y se analizaron 400 muestras en un período de doce meses. Aunque los costos fueran elevados, la financiación fue aprobada mediante un dictamen favorable. Por consiguiente, los autores pudieron concluir que el método es viable a gran escala.",
+  "text_en": "The article describes the methodology with precision to ensure the reproducibility of the experiment. The environmental variables were controlled and 400 samples were analyzed over a period of twelve months. Although costs were high, funding was approved upon a favorable review. Consequently, the authors were able to conclude that the method is viable on a large scale.",
+  "text_ar": "يصف المقال المنهجية بدقة لضمان قابلية إعادة إنتاج التجربة. ضُبطت المتغيرات البيئية وحُللت 400 عينة على مدى اثني عشر شهرًا. ورغم ارتفاع التكاليف، اعتُمد التمويل بعد تقرير إيجابي. وبالتالي، استطاع المؤلفون الاستنتاج أن المنهج قابل للتطبيق على نطاق واسع."
+ },
+ "exercises": [
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "¿Qué frase usa correctamente la voz pasiva científica?",
+    "en": "Which sentence correctly uses the scientific passive voice?",
+    "ar": "أي جملة تستخدم المبني للمجهول العلمي بشكل صحيح؟"
+   },
+   "options": [
+    {
+     "es": "Se recolectaron 200 muestras.",
+     "en": "Foram coletadas 200 amostras.",
+     "ar": "Foram coletadas 200 amostras."
+    },
+    {
+     "es": "Nosotros recolectó 200 muestras. (incorrecto)",
+     "en": "Nosotros recolectó 200 muestras.",
+     "ar": "Nosotros recolectó 200 muestras."
+    },
+    {
+     "es": "Se recolectó 200 muestras. (incorrecto)",
+     "en": "Coletou-se 200 amostras.",
+     "ar": "Coletou-se 200 amostras."
+    }
+   ],
+   "answer": "Se recolectaron 200 muestras.",
+   "explanation": {
+    "es": "En la pasiva refleja, el verbo concuerda con el sujeto plural: 'Se recolectaron'.",
+    "en": "In the passive, the participle agrees with the plural subject '200 amostras': 'Foram coletadas'.",
+    "ar": "في المبني للمجهول يطابق اسم المفعول الفاعل الجمع '200 amostras': 'Foram coletadas'."
+   }
+  },
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "En 'Aunque la muestra sea pequeña', el conector expresa...",
+    "en": "In 'Aunque la muestra sea pequeña', the connector expresses...",
+    "ar": "في جملة 'Aunque la muestra sea pequeña'، يعبّر الرابط عن..."
+   },
+   "options": [
+    {
+     "es": "causa",
+     "en": "cause",
+     "ar": "سبب"
+    },
+    {
+     "es": "concesión",
+     "en": "concession",
+     "ar": "استدراك"
+    },
+    {
+     "es": "conclusión",
+     "en": "conclusion",
+     "ar": "استنتاج"
+    }
+   ],
+   "answer": "concesión",
+   "explanation": {
+    "es": "'Aunque' introduce una concesión, es decir, una salvedad.",
+    "en": "'Embora' introduces a concession, that is, a caveat.",
+    "ar": "'embora' يدخل استدراكًا، أي تحفظًا."
+   }
+  },
+  {
+   "type": "translation",
+   "prompt": {
+    "es": "Traduce al español: 'peer review'",
+    "en": "Translate into Portuguese: 'peer review'",
+    "ar": "ترجم إلى البرتغالية: 'peer review'"
+   },
+   "options": [],
+   "answer": "revisión por pares",
+   "explanation": {
+    "es": "'Revisión por pares' es el término consagrado en la academia.",
+    "en": "'Revisão por pares' is the established term in academia.",
+    "ar": "المصطلح المتعارف عليه أكاديميًا هو 'revisão por pares'."
+   }
+  }
+ ]
 }

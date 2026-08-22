@@ -1,335 +1,335 @@
 {
-  "id": "A2-04",
-  "level": "A2",
-  "level_name": {
-    "es": "Básico",
-    "en": "Elementary",
-    "ar": "أساسي"
+ "id": "A2-04",
+ "level": "A2",
+ "level_name": {
+  "es": "Básico",
+  "en": "Elementary",
+  "ar": "أساسي"
+ },
+ "title": {
+  "es": "Viajando por Hispanoamérica",
+  "en": "Traveling through Brazil",
+  "ar": "السفر في البرازيل"
+ },
+ "objectives": [
+  {
+   "es": "Hablar sobre viajes y medios de transporte",
+   "en": "Talk about trips and means of transport",
+   "ar": "التحدث عن السفر ووسائل النقل"
   },
+  {
+   "es": "Pedir información en el aeropuerto y el hotel",
+   "en": "Ask for information at the airport and hotel",
+   "ar": "طلب المعلومات في المطار والفندق"
+  },
+  {
+   "es": "Nombrar lugares y atracciones turísticas de España",
+   "en": "Name places and tourist attractions in Spain",
+   "ar": "تسمية الأماكن والمعالم السياحية في إسبانيا"
+  }
+ ],
+ "vocabulary": [
+  {
+   "es": "el viaje",
+   "ipa": "/ˈel ˈbiaxe/",
+   "en": "the trip",
+   "ar": "الرحلة"
+  },
+  {
+   "es": "viajar",
+   "ipa": "/biaˈxaɾ/",
+   "en": "to travel",
+   "ar": "يسافر"
+  },
+  {
+   "es": "el billete",
+   "ipa": "/ˈel biˈʝete/",
+   "en": "the ticket",
+   "ar": "التذكرة"
+  },
+  {
+   "es": "el aeropuerto",
+   "ipa": "/ˈel aeɾoˈpueɾto/",
+   "en": "the airport",
+   "ar": "المطار"
+  },
+  {
+   "es": "la maleta",
+   "ipa": "/ˈla maˈleta/",
+   "en": "the suitcase",
+   "ar": "الحقيبة"
+  },
+  {
+   "es": "el vuelo",
+   "ipa": "/ˈel ˈbuelo/",
+   "en": "the flight",
+   "ar": "الرحلة الجوية"
+  },
+  {
+   "es": "el hotel",
+   "ipa": "/ˈel oˈtel/",
+   "en": "the hotel",
+   "ar": "الفندق"
+  },
+  {
+   "es": "reservar",
+   "ipa": "/reseˈɾbaɾ/",
+   "en": "to reserve",
+   "ar": "يحجز"
+  },
+  {
+   "es": "la playa",
+   "ipa": "/ˈla ˈplaʝa/",
+   "en": "the beach",
+   "ar": "الشاطئ"
+  },
+  {
+   "es": "la cascada",
+   "ipa": "/ˈla kaˈskaða/",
+   "en": "the waterfall",
+   "ar": "الشلال"
+  },
+  {
+   "es": "el guía",
+   "ipa": "/ˈel ˈgia/",
+   "en": "the guide",
+   "ar": "الدليل"
+  },
+  {
+   "es": "la entrada",
+   "ipa": "/ˈla eˈntɾaða/",
+   "en": "the entrance / ticket",
+   "ar": "الدخول"
+  },
+  {
+   "es": "el turista",
+   "ipa": "/ˈel tuˈɾista/",
+   "en": "the tourist",
+   "ar": "السائح"
+  },
+  {
+   "es": "el río",
+   "ipa": "/ˈel ˈrio/",
+   "en": "the river",
+   "ar": "النهر"
+  },
+  {
+   "es": "el paseo",
+   "ipa": "/ˈel ˈpaseo/",
+   "en": "the tour",
+   "ar": "الجولة"
+  },
+  {
+   "es": "el destino",
+   "ipa": "/ˈel deˈstino/",
+   "en": "the destination",
+   "ar": "الوجهة"
+  },
+  {
+   "es": "el autobús",
+   "ipa": "/ˈel autoˈβus/",
+   "en": "the bus",
+   "ar": "الحافلة"
+  },
+  {
+   "es": "en avión",
+   "ipa": "/ˈen aˈβion/",
+   "en": "by plane",
+   "ar": "بالطائرة"
+  }
+ ],
+ "grammar": [
+  {
+   "title": {
+    "es": "Medios de Transporte y Preposiciones",
+    "en": "Means of Transport and Prepositions",
+    "ar": "وسائل النقل وحروف الجر"
+   },
+   "explanation": {
+    "es": "Para viajar, usamos 'en' con medios de transporte: en avión (by plane), en autobús (by bus), en tren (by train), en coche (by car). 'Voy a Madrid en avión.' Con destinos: 'a' (movimiento) y 'en' (localización): 'Llego a Sevilla a las tres.'",
+    "en": "To travel, we use 'de' with means of transport: de avião (by plane), de ônibus (by bus), de trem (by train), de carro (by car). 'Vou para São Paulo de avião.' With destinations: 'para' (movement) and 'em' (location): 'Chego em Recife às três horas.'",
+    "ar": "للسفر، نستخدم 'de' مع وسائل النقل: de avião (بالطائرة)، de ônibus (بالحافلة)، de trem (بالقطار)، de carro (بالسيارة). 'Vou para São Paulo de avião.' مع الوجهات: 'para' (حركة) و 'em' (مكان): 'Chego em Recife às três horas.'"
+   },
+   "examples": [
+    {
+     "es": "Vamos a viajar en autobús.",
+     "en": "We are going to travel by bus.",
+     "ar": "سنسافر بالحافلة."
+    },
+    {
+     "es": "El vuelo llega a Madrid por la mañana.",
+     "en": "The flight arrives in Rio in the morning.",
+     "ar": "تصل الرحلة إلى ريو في الصباح."
+    },
+    {
+     "es": "Reservo el hotel en Sevilla.",
+     "en": "I book the hotel in Salvador.",
+     "ar": "أحجز الفندق في سالفادور."
+    }
+   ]
+  },
+  {
+   "title": {
+    "es": "Pidiendo Información en el Viaje",
+    "en": "Asking for Information While Traveling",
+    "ar": "طلب المعلومات أثناء السفر"
+   },
+   "explanation": {
+    "es": "Para pedir información: '¿Dónde está...?' (Where is...?), '¿Cómo llego a...?' (How do I get to...?), '¿A qué hora sale el autobús?' (What time does the bus leave?). Respuestas: 'Está cerca', 'Está a dos manzanas', '¿Está lejos?'",
+    "en": "To ask for information: 'Onde fica...?' (Where is...?), 'Como chego ao...?' (How do I get to...?), 'A que horas sai o ônibus?' (What time does the bus leave?). Answers: 'Fica perto' (It is near), 'É a duas quadras' (It is two blocks away), 'Fica longe?' (Is it far?)",
+    "ar": "لطلب المعلومات: 'Onde fica...?' (أين يقع...؟)، 'Como chego ao...?' (كيف أصل إلى...؟)، 'A que horas sai o ônibus?' (في أي ساعة تغادر الحافلة؟). الإجابات: 'Fica perto' (إنه قريب)، 'É a duas quadras' (على بعد مبنيين)، 'Fica longe?' (هل هو بعيد؟)"
+   },
+   "examples": [
+    {
+     "es": "¿Dónde está el aeropuerto?",
+     "en": "Where is the airport?",
+     "ar": "أين يقع المطار؟"
+    },
+    {
+     "es": "¿Cómo llego a la playa?",
+     "en": "How do I get to the beach?",
+     "ar": "كيف أصل إلى الشاطئ؟"
+    },
+    {
+     "es": "¿A qué hora sale el tren?",
+     "en": "What time does the train leave?",
+     "ar": "في أي ساعة يغادر القطار؟"
+    }
+   ]
+  }
+ ],
+ "dialogue": {
   "title": {
-    "es": "Viajando por Hispanoamérica",
-    "en": "Traveling through Brazil",
-    "ar": "السفر في البرازيل"
+   "es": "En el Aeropuerto",
+   "en": "At the Airport",
+   "ar": "في المطار"
   },
-  "objectives": [
-    {
-      "es": "Hablar sobre viajes y medios de transporte",
-      "en": "Talk about trips and means of transport",
-      "ar": "التحدث عن السفر ووسائل النقل"
-    },
-    {
-      "es": "Pedir información en el aeropuerto y el hotel",
-      "en": "Ask for information at the airport and hotel",
-      "ar": "طلب المعلومات في المطار والفندق"
-    },
-    {
-      "es": "Nombrar lugares y atracciones turísticas de España",
-      "en": "Name places and tourist attractions in Brazil",
-      "ar": "تسمية الأماكن والمعالم السياحية في البرازيل"
-    }
-  ],
-  "vocabulary": [
-    {
-      "es": "el viaje",
-      "ipa": "/ˈel ˈbiaxe/",
-      "en": "the trip",
-      "ar": "الرحلة"
-    },
-    {
-      "es": "viajar",
-      "ipa": "/biaˈxaɾ/",
-      "en": "to travel",
-      "ar": "يسافر"
-    },
-    {
-      "es": "el billete",
-      "ipa": "/ˈel biˈʝete/",
-      "en": "the ticket",
-      "ar": "التذكرة"
-    },
-    {
-      "es": "el aeropuerto",
-      "ipa": "/ˈel aeɾoˈpueɾto/",
-      "en": "the airport",
-      "ar": "المطار"
-    },
-    {
-      "es": "la maleta",
-      "ipa": "/ˈla maˈleta/",
-      "en": "the suitcase",
-      "ar": "الحقيبة"
-    },
-    {
-      "es": "el vuelo",
-      "ipa": "/ˈel ˈbuelo/",
-      "en": "the flight",
-      "ar": "الرحلة الجوية"
-    },
-    {
-      "es": "el hotel",
-      "ipa": "/ˈel oˈtel/",
-      "en": "the hotel",
-      "ar": "الفندق"
-    },
-    {
-      "es": "reservar",
-      "ipa": "/reseˈɾbaɾ/",
-      "en": "to reserve",
-      "ar": "يحجز"
-    },
-    {
-      "es": "la playa",
-      "ipa": "/ˈla ˈplaʝa/",
-      "en": "the beach",
-      "ar": "الشاطئ"
-    },
-    {
-      "es": "la cascada",
-      "ipa": "/ˈla kaˈskaða/",
-      "en": "the waterfall",
-      "ar": "الشلال"
-    },
-    {
-      "es": "el guía",
-      "ipa": "/ˈel ˈgia/",
-      "en": "the guide",
-      "ar": "الدليل"
-    },
-    {
-      "es": "la entrada",
-      "ipa": "/ˈla eˈntɾaða/",
-      "en": "the entrance / ticket",
-      "ar": "الدخول"
-    },
-    {
-      "es": "el turista",
-      "ipa": "/ˈel tuˈɾista/",
-      "en": "the tourist",
-      "ar": "السائح"
-    },
-    {
-      "es": "el río",
-      "ipa": "/ˈel ˈrio/",
-      "en": "the river",
-      "ar": "النهر"
-    },
-    {
-      "es": "el paseo",
-      "ipa": "/ˈel ˈpaseo/",
-      "en": "the tour",
-      "ar": "الجولة"
-    },
-    {
-      "es": "el destino",
-      "ipa": "/ˈel deˈstino/",
-      "en": "the destination",
-      "ar": "الوجهة"
-    },
-    {
-      "es": "el autobús",
-      "ipa": "/ˈel autoˈβus/",
-      "en": "the bus",
-      "ar": "الحافلة"
-    },
-    {
-      "es": "en avión",
-      "ipa": "/ˈen aˈβion/",
-      "en": "by plane",
-      "ar": "بالطائرة"
-    }
-  ],
-  "grammar": [
-    {
-      "title": {
-        "es": "Medios de Transporte y Preposiciones",
-        "en": "Means of Transport and Prepositions",
-        "ar": "وسائل النقل وحروف الجر"
-      },
-      "explanation": {
-        "es": "Para viajar, usamos 'en' con medios de transporte: en avión (by plane), en autobús (by bus), en tren (by train), en coche (by car). 'Voy a Madrid en avión.' Con destinos: 'a' (movimiento) y 'en' (localización): 'Llego a Sevilla a las tres.'",
-        "en": "To travel, we use 'de' with means of transport: de avião (by plane), de ônibus (by bus), de trem (by train), de carro (by car). 'Vou para São Paulo de avião.' With destinations: 'para' (movement) and 'em' (location): 'Chego em Recife às três horas.'",
-        "ar": "للسفر، نستخدم 'de' مع وسائل النقل: de avião (بالطائرة)، de ônibus (بالحافلة)، de trem (بالقطار)، de carro (بالسيارة). 'Vou para São Paulo de avião.' مع الوجهات: 'para' (حركة) و 'em' (مكان): 'Chego em Recife às três horas.'"
-      },
-      "examples": [
-        {
-          "es": "Vamos a viajar en autobús.",
-          "en": "We are going to travel by bus.",
-          "ar": "سنسافر بالحافلة."
-        },
-        {
-          "es": "El vuelo llega a Madrid por la mañana.",
-          "en": "The flight arrives in Rio in the morning.",
-          "ar": "تصل الرحلة إلى ريو في الصباح."
-        },
-        {
-          "es": "Reservo el hotel en Sevilla.",
-          "en": "I book the hotel in Salvador.",
-          "ar": "أحجز الفندق في سالفادور."
-        }
-      ]
-    },
-    {
-      "title": {
-        "es": "Pidiendo Información en el Viaje",
-        "en": "Asking for Information While Traveling",
-        "ar": "طلب المعلومات أثناء السفر"
-      },
-      "explanation": {
-        "es": "Para pedir información: '¿Dónde está...?' (Where is...?), '¿Cómo llego a...?' (How do I get to...?), '¿A qué hora sale el autobús?' (What time does the bus leave?). Respuestas: 'Está cerca', 'Está a dos manzanas', '¿Está lejos?'",
-        "en": "To ask for information: 'Onde fica...?' (Where is...?), 'Como chego ao...?' (How do I get to...?), 'A que horas sai o ônibus?' (What time does the bus leave?). Answers: 'Fica perto' (It is near), 'É a duas quadras' (It is two blocks away), 'Fica longe?' (Is it far?)",
-        "ar": "لطلب المعلومات: 'Onde fica...?' (أين يقع...؟)، 'Como chego ao...?' (كيف أصل إلى...؟)، 'A que horas sai o ônibus?' (في أي ساعة تغادر الحافلة؟). الإجابات: 'Fica perto' (إنه قريب)، 'É a duas quadras' (على بعد مبنيين)، 'Fica longe?' (هل هو بعيد؟)"
-      },
-      "examples": [
-        {
-          "es": "¿Dónde está el aeropuerto?",
-          "en": "Where is the airport?",
-          "ar": "أين يقع المطار؟"
-        },
-        {
-          "es": "¿Cómo llego a la playa?",
-          "en": "How do I get to the beach?",
-          "ar": "كيف أصل إلى الشاطئ؟"
-        },
-        {
-          "es": "¿A qué hora sale el tren?",
-          "en": "What time does the train leave?",
-          "ar": "في أي ساعة يغادر القطار؟"
-        }
-      ]
-    }
-  ],
-  "dialogue": {
-    "title": {
-      "es": "En el Aeropuerto",
-      "en": "At the Airport",
-      "ar": "في المطار"
-    },
-    "lines": [
-      {
-        "speaker": "Turista",
-        "es": "Perdón, ¿dónde está la puerta de embarque?",
-        "en": "Excuse me, where is the boarding gate?",
-        "ar": "عذرًا، أين بوابة الصعود إلى الطائرة؟"
-      },
-      {
-        "speaker": "Empleado",
-        "es": "Está en la segunda planta, a la derecha.",
-        "en": "It is on the second floor, to the right.",
-        "ar": "إنها في الطابق الثاني، على اليمين."
-      },
-      {
-        "speaker": "Turista",
-        "es": "¿A qué hora sale el vuelo a Sevilla?",
-        "en": "What time does the flight to Salvador leave?",
-        "ar": "في أي ساعة تغادر الرحلة إلى سالفادور؟"
-      },
-      {
-        "speaker": "Empleado",
-        "es": "El vuelo sale a las diez y media.",
-        "en": "The flight leaves at ten thirty.",
-        "ar": "تغادر الرحلة في العاشرة والنصف."
-      },
-      {
-        "speaker": "Turista",
-        "es": "¿Y el autobús al hotel?",
-        "en": "And the bus to the hotel?",
-        "ar": "والحافلة إلى الفندق؟"
-      },
-      {
-        "speaker": "Empleado",
-        "es": "El autobús está enfrente del aeropuerto. ¡Buen viaje!",
-        "en": "The bus is in front of the airport. Have a good trip!",
-        "ar": "الحافلة أمام المطار. رحلة سعيدة!"
-      }
-    ]
-  },
-  "reading": {
-    "title": {
-      "es": "Un Viaje por España",
-      "en": "A Trip through Brazil",
-      "ar": "رحلة عبر البرازيل"
-    },
-    "text_es": "El verano pasado, Ana hizo un viaje increíble por España. Voló a Sevilla, paseó por el centro histórico y después fue en autobús a la sierra. Allí visitó cascadas y nadó en ríos de agua clara. Ya quiere volver el año que viene.",
-    "text_en": "Last summer, Ana took an incredible trip through Brazil. She flew to Salvador, toured the historic center and then went by bus to Chapada Diamantina. There, she visited waterfalls and swam in clear-water rivers. She already wants to go back next year.",
-    "text_ar": "في الصيف الماضي، قامت آنا برحلة مذهلة عبر البرازيل. سافرت بالطائرة إلى سالفادور، وتجولت في المركز التاريخي ثم ذهبت بالحافلة إلى تشابادا ديامانتينا. هناك، زارت الشلالات وسبحت في أنهار ذات مياه صافية. إنها تريد العودة في العام القادم."
-  },
-  "exercises": [
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "Voy a viajar ___ avión.",
-        "en": "I am going to travel ___ plane.",
-        "ar": "سأسافر ___ طائرة."
-      },
-      "options": [
-        {
-          "es": "en",
-          "en": "de",
-          "ar": "de"
-        },
-        {
-          "es": "a",
-          "en": "para",
-          "ar": "para"
-        },
-        {
-          "es": "en",
-          "en": "em",
-          "ar": "em"
-        }
-      ],
-      "answer": "en",
-      "explanation": {
-        "es": "Medio de transporte: en avión.",
-        "en": "Means of transport: de avião (by plane).",
-        "ar": "وسيلة النقل: de avião (بالطائرة)."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "¿Dónde ___ el hotel?",
-        "en": "Where ___ the hotel?",
-        "ar": "أين ___ الفندق؟"
-      },
-      "options": [
-        {
-          "es": "está",
-          "en": "fica",
-          "ar": "fica"
-        },
-        {
-          "es": "habla",
-          "en": "fale",
-          "ar": "fale"
-        },
-        {
-          "es": "llega",
-          "en": "chega",
-          "ar": "chega"
-        }
-      ],
-      "answer": "está",
-      "explanation": {
-        "es": "'¿Dónde está?' = Where is it located?",
-        "en": "'Onde fica?' = Where is it located?",
-        "ar": "'Onde fica?' = أين يقع؟"
-      }
-    },
-    {
-      "type": "translation",
-      "prompt": {
-        "es": "Traduce: 'the airport'",
-        "en": "Translate: 'the airport'",
-        "ar": "ترجم: 'the airport'"
-      },
-      "options": [],
-      "answer": "el aeropuerto",
-      "explanation": {
-        "es": "'El aeropuerto' = the airport.",
-        "en": "'O aeroporto' = the airport.",
-        "ar": "'o aeroporto' = المطار."
-      }
-    }
+  "lines": [
+   {
+    "speaker": "Turista",
+    "es": "Perdón, ¿dónde está la puerta de embarque?",
+    "en": "Excuse me, where is the boarding gate?",
+    "ar": "عذرًا، أين بوابة الصعود إلى الطائرة؟"
+   },
+   {
+    "speaker": "Empleado",
+    "es": "Está en la segunda planta, a la derecha.",
+    "en": "It is on the second floor, to the right.",
+    "ar": "إنها في الطابق الثاني، على اليمين."
+   },
+   {
+    "speaker": "Turista",
+    "es": "¿A qué hora sale el vuelo a Sevilla?",
+    "en": "What time does the flight to Salvador leave?",
+    "ar": "في أي ساعة تغادر الرحلة إلى سالفادور؟"
+   },
+   {
+    "speaker": "Empleado",
+    "es": "El vuelo sale a las diez y media.",
+    "en": "The flight leaves at ten thirty.",
+    "ar": "تغادر الرحلة في العاشرة والنصف."
+   },
+   {
+    "speaker": "Turista",
+    "es": "¿Y el autobús al hotel?",
+    "en": "And the bus to the hotel?",
+    "ar": "والحافلة إلى الفندق؟"
+   },
+   {
+    "speaker": "Empleado",
+    "es": "El autobús está enfrente del aeropuerto. ¡Buen viaje!",
+    "en": "The bus is in front of the airport. Have a good trip!",
+    "ar": "الحافلة أمام المطار. رحلة سعيدة!"
+   }
   ]
+ },
+ "reading": {
+  "title": {
+   "es": "Un Viaje por España",
+   "en": "A Trip through Brazil",
+   "ar": "رحلة عبر البرازيل"
+  },
+  "text_es": "El verano pasado, Ana hizo un viaje increíble por España. Voló a Sevilla, paseó por el centro histórico y después fue en autobús a la sierra. Allí visitó cascadas y nadó en ríos de agua clara. Ya quiere volver el año que viene.",
+  "text_en": "Last summer, Ana took an incredible trip through Brazil. She flew to Salvador, toured the historic center and then went by bus to Chapada Diamantina. There, she visited waterfalls and swam in clear-water rivers. She already wants to go back next year.",
+  "text_ar": "في الصيف الماضي، قامت آنا برحلة مذهلة عبر البرازيل. سافرت بالطائرة إلى سالفادور، وتجولت في المركز التاريخي ثم ذهبت بالحافلة إلى تشابادا ديامانتينا. هناك، زارت الشلالات وسبحت في أنهار ذات مياه صافية. إنها تريد العودة في العام القادم."
+ },
+ "exercises": [
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "Voy a viajar ___ avión.",
+    "en": "I am going to travel ___ plane.",
+    "ar": "سأسافر ___ طائرة."
+   },
+   "options": [
+    {
+     "es": "en",
+     "en": "de",
+     "ar": "de"
+    },
+    {
+     "es": "a",
+     "en": "para",
+     "ar": "para"
+    },
+    {
+     "es": "en",
+     "en": "em",
+     "ar": "em"
+    }
+   ],
+   "answer": "en",
+   "explanation": {
+    "es": "Medio de transporte: en avión.",
+    "en": "Means of transport: de avião (by plane).",
+    "ar": "وسيلة النقل: de avião (بالطائرة)."
+   }
+  },
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "¿Dónde ___ el hotel?",
+    "en": "Where ___ the hotel?",
+    "ar": "أين ___ الفندق؟"
+   },
+   "options": [
+    {
+     "es": "está",
+     "en": "fica",
+     "ar": "fica"
+    },
+    {
+     "es": "habla",
+     "en": "fale",
+     "ar": "fale"
+    },
+    {
+     "es": "llega",
+     "en": "chega",
+     "ar": "chega"
+    }
+   ],
+   "answer": "está",
+   "explanation": {
+    "es": "'¿Dónde está?' = Where is it located?",
+    "en": "'Onde fica?' = Where is it located?",
+    "ar": "'Onde fica?' = أين يقع؟"
+   }
+  },
+  {
+   "type": "translation",
+   "prompt": {
+    "es": "Traduce: 'the airport'",
+    "en": "Translate: 'the airport'",
+    "ar": "ترجم: 'the airport'"
+   },
+   "options": [],
+   "answer": "el aeropuerto",
+   "explanation": {
+    "es": "'El aeropuerto' = the airport.",
+    "en": "'O aeroporto' = the airport.",
+    "ar": "'o aeroporto' = المطار."
+   }
+  }
+ ]
 }

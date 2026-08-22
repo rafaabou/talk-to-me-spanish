@@ -1,327 +1,327 @@
 {
-  "id": "B2-11",
-  "level": "B2",
-  "level_name": {
-    "es": "Intermedio alto",
-    "en": "Upper-Intermediate",
-    "ar": "متوسط متقدم"
+ "id": "B2-11",
+ "level": "B2",
+ "level_name": {
+  "es": "Intermedio alto",
+  "en": "Upper-Intermediate",
+  "ar": "متوسط متقدم"
+ },
+ "title": {
+  "es": "Falsos Amigos y Consejos de Traducción",
+  "en": "False Cognates and Translation Tips",
+  "ar": "الكلمات المتماثلة الخادعة ونصائح الترجمة"
+ },
+ "objectives": [
+  {
+   "es": "Reconocer falsos amigos comunes",
+   "en": "Recognize common false cognates",
+   "ar": "التعرف على الكلمات المتماثلة الخادعة الشائعة"
   },
+  {
+   "es": "Evitar errores de traducción típicos",
+   "en": "Avoid typical translation mistakes",
+   "ar": "تجنب أخطاء الترجمة الشائعة"
+  },
+  {
+   "es": "Aplicar estrategias de traducción eficaces",
+   "en": "Apply effective translation strategies",
+   "ar": "تطبيق استراتيجيات ترجمة فعالة"
+  }
+ ],
+ "vocabulary": [
+  {
+   "es": "en realidad",
+   "ipa": "/ˈen realiˈðað/",
+   "en": "actually",
+   "ar": "في الواقع"
+  },
+  {
+   "es": "tener la intención de",
+   "ipa": "/teˈneɾ ˈla inteˈnsion ˈde/",
+   "en": "to intend (not 'to pretend')",
+   "ar": "ينوي"
+  },
+  {
+   "es": "la librería",
+   "ipa": "/ˈla liβɾeˈɾia/",
+   "en": "the bookstore (not 'library')",
+   "ar": "متجر الكتب"
+  },
+  {
+   "es": "la biblioteca",
+   "ipa": "/ˈla biβlioˈteka/",
+   "en": "the library",
+   "ar": "المكتبة"
+  },
+  {
+   "es": "sensato",
+   "ipa": "/seˈnsato/",
+   "en": "sensible (not 'sensitive')",
+   "ar": "حكيم"
+  },
+  {
+   "es": "los padres",
+   "ipa": "/ˈlos ˈpaðɾes/",
+   "en": "the parents (not 'the country')",
+   "ar": "الوالدان"
+  },
+  {
+   "es": "empujar",
+   "ipa": "/empuˈxaɾ/",
+   "en": "to push (not 'to embarrass')",
+   "ar": "يدفع"
+  },
+  {
+   "es": "ver",
+   "ipa": "/ˈbeɾ/",
+   "en": "to watch (not 'to assist')",
+   "ar": "يشاهد"
+  },
+  {
+   "es": "la conferencia",
+   "ipa": "/ˈla konfeˈɾensia/",
+   "en": "the lecture",
+   "ar": "المحاضرة"
+  },
+  {
+   "es": "la fábrica",
+   "ipa": "/ˈla ˈfaβɾika/",
+   "en": "the factory (not 'fabric')",
+   "ar": "المصنع"
+  },
+  {
+   "es": "la fecha",
+   "ipa": "/ˈla ˈfetʃa/",
+   "en": "the date",
+   "ar": "التاريخ"
+  },
+  {
+   "es": "el gasto",
+   "ipa": "/ˈel ˈgasto/",
+   "en": "the expense",
+   "ar": "المصروف"
+  },
+  {
+   "es": "lograr",
+   "ipa": "/loˈɣɾaɾ/",
+   "en": "to achieve (not 'to realize')",
+   "ar": "يحقق"
+  },
+  {
+   "es": "la tela",
+   "ipa": "/ˈla ˈtela/",
+   "en": "the fabric (not 'text')",
+   "ar": "القماش"
+  },
+  {
+   "es": "tolerar",
+   "ipa": "/toleˈɾaɾ/",
+   "en": "to tolerate (not 'to support')",
+   "ar": "يتحمل"
+  },
+  {
+   "es": "posiblemente",
+   "ipa": "/posiβleˈmente/",
+   "en": "possibly (not 'eventually')",
+   "ar": "ربما"
+  }
+ ],
+ "grammar": [
+  {
+   "title": {
+    "es": "Los Falsos Amigos Más Comunes",
+    "en": "The Most Common False Cognates",
+    "ar": "الكلمات المتماثلة الخادعة الأكثر شيوعًا"
+   },
+   "explanation": {
+    "es": "Los falsos amigos son palabras que parecen iguales en las dos lenguas pero tienen significados diferentes. Ejemplos: pretender no es 'to pretend', librería no es 'library', ver no es 'to assist'. Presta atención al contexto para elegir la traducción correcta.",
+    "en": "False cognates are words that look the same in both languages but have different meanings. Examples: pretender is not 'to pretend', livraria is not 'library', assistir is not 'to assist'. Pay attention to context to choose the correct translation.",
+    "ar": "الكلمات المتماثلة الخادعة هي كلمات تبدو متشابهة في اللغتين لكن معانيها مختلفة. أمثلة: pretender ليست 'to pretend'، وlivraria ليست 'library'، وassistir ليست 'to assist'. انتبه إلى السياق لتختار الترجمة الصحيحة."
+   },
+   "examples": [
+    {
+     "es": "Tengo la intención de viajar el próximo año. (pretend = fingir)",
+     "en": "I intend to travel next year. (pretend = fingir)",
+     "ar": "أنوي السفر في العام القادم. (pretend تعني يتظاهر)"
+    },
+    {
+     "es": "Compré un libro en la librería, no en la biblioteca.",
+     "en": "I bought a book at the bookstore, not the library.",
+     "ar": "اشتريت كتابًا من متجر الكتب، وليس من المكتبة."
+    },
+    {
+     "es": "Él es sensato; siempre piensa antes de actuar. (sensitive = sensible)",
+     "en": "He is sensible; he always thinks before acting. (sensitive = sensível)",
+     "ar": "إنه حكيم؛ يفكر دائمًا قبل أن يتصرف. (sensitive تعني حساس)"
+    },
+    {
+     "es": "Vamos a ver la película esta noche. (assist = ayudar)",
+     "en": "Let's watch the movie tonight. (assist = ajudar)",
+     "ar": "لنشاهد الفيلم الليلة. (assist تعني يساعد)"
+    }
+   ]
+  },
+  {
+   "title": {
+    "es": "Consejos de Traducción",
+    "en": "Translation Tips",
+    "ar": "نصائح الترجمة"
+   },
+   "explanation": {
+    "es": "Estrategias: considera el contexto; no traduzcas palabra por palabra; verifica los falsos amigos; busca la estructura natural de la lengua de llegada. Ejemplos: 'actually' es 'en realidad' y 'tener sentido' corresponde a 'to make sense'.",
+    "en": "Strategies: consider context; don't translate word for word; check false cognates; look for the natural structure of the target language. Examples: 'actually' is 'na verdade' and 'fazer sentido' corresponds to 'to make sense'.",
+    "ar": "استراتيجيات: راعِ السياق؛ لا تترجم كلمة بكلمة؛ تحقق من الكلمات الخادعة؛ ابحث عن البنية الطبيعية في لغة الهدف. أمثلة: 'actually' هي 'na verdade'، و'fazer sentido' تقابل 'to make sense'."
+   },
+   "examples": [
+    {
+     "es": "'Actually' en español es 'en realidad', no 'actualmente'.",
+     "en": "'Actually' in Portuguese is 'na verdade', not 'atualmente'.",
+     "ar": "كلمة 'actually' في البرتغالية هي 'na verdade'، وليست 'atualmente'."
+    },
+    {
+     "es": "El contexto decide el sentido de 'lograr': lograr un sueño.",
+     "en": "Context decides the meaning of 'realizar': to fulfill a dream.",
+     "ar": "يحدد السياق معنى 'realizar': تحقيق حلم."
+    },
+    {
+     "es": "No traduzcas palabra por palabra: 'tener sentido' (to make sense).",
+     "en": "Don't translate word for word: 'fazer sentido' (to make sense).",
+     "ar": "لا تترجم كلمة بكلمة: 'fazer sentido' (أن يكون منطقيًا)."
+    },
+    {
+     "es": "'Eventualmente' puede significar 'quizás'; 'eventually' es 'finalmente'.",
+     "en": "'Eventualmente' can mean 'maybe'; 'eventually' is 'por fim'.",
+     "ar": "'eventualmente' قد تعني ربما؛ بينما 'eventually' تعني في النهاية."
+    }
+   ]
+  }
+ ],
+ "dialogue": {
   "title": {
-    "es": "Falsos Amigos y Consejos de Traducción",
-    "en": "False Cognates and Translation Tips",
-    "ar": "الكلمات المتماثلة الخادعة ونصائح الترجمة"
+   "es": "Correcciones en la Traducción",
+   "en": "Fixes in the Translation",
+   "ar": "تصحيحات في الترجمة"
   },
-  "objectives": [
-    {
-      "es": "Reconocer falsos amigos comunes",
-      "en": "Recognize common false cognates",
-      "ar": "التعرف على الكلمات المتماثلة الخادعة الشائعة"
-    },
-    {
-      "es": "Evitar errores de traducción típicos",
-      "en": "Avoid typical translation mistakes",
-      "ar": "تجنب أخطاء الترجمة الشائعة"
-    },
-    {
-      "es": "Aplicar estrategias de traducción eficaces",
-      "en": "Apply effective translation strategies",
-      "ar": "تطبيق استراتيجيات ترجمة فعالة"
-    }
-  ],
-  "vocabulary": [
-    {
-      "es": "en realidad",
-      "ipa": "/ˈen realiˈðað/",
-      "en": "actually",
-      "ar": "في الواقع"
-    },
-    {
-      "es": "tener la intención de",
-      "ipa": "/teˈneɾ ˈla inteˈnsion ˈde/",
-      "en": "to intend (not 'to pretend')",
-      "ar": "ينوي"
-    },
-    {
-      "es": "la librería",
-      "ipa": "/ˈla liβɾeˈɾia/",
-      "en": "the bookstore (not 'library')",
-      "ar": "متجر الكتب"
-    },
-    {
-      "es": "la biblioteca",
-      "ipa": "/ˈla biβlioˈteka/",
-      "en": "the library",
-      "ar": "المكتبة"
-    },
-    {
-      "es": "sensato",
-      "ipa": "/seˈnsato/",
-      "en": "sensible (not 'sensitive')",
-      "ar": "حكيم"
-    },
-    {
-      "es": "los padres",
-      "ipa": "/ˈlos ˈpaðɾes/",
-      "en": "the parents (not 'the country')",
-      "ar": "الوالدان"
-    },
-    {
-      "es": "empujar",
-      "ipa": "/empuˈxaɾ/",
-      "en": "to push (not 'to embarrass')",
-      "ar": "يدفع"
-    },
-    {
-      "es": "ver",
-      "ipa": "/ˈbeɾ/",
-      "en": "to watch (not 'to assist')",
-      "ar": "يشاهد"
-    },
-    {
-      "es": "la conferencia",
-      "ipa": "/ˈla konfeˈɾensia/",
-      "en": "the lecture",
-      "ar": "المحاضرة"
-    },
-    {
-      "es": "la fábrica",
-      "ipa": "/ˈla ˈfaβɾika/",
-      "en": "the factory (not 'fabric')",
-      "ar": "المصنع"
-    },
-    {
-      "es": "la fecha",
-      "ipa": "/ˈla ˈfetʃa/",
-      "en": "the date",
-      "ar": "التاريخ"
-    },
-    {
-      "es": "el gasto",
-      "ipa": "/ˈel ˈgasto/",
-      "en": "the expense",
-      "ar": "المصروف"
-    },
-    {
-      "es": "lograr",
-      "ipa": "/loˈɣɾaɾ/",
-      "en": "to achieve (not 'to realize')",
-      "ar": "يحقق"
-    },
-    {
-      "es": "la tela",
-      "ipa": "/ˈla ˈtela/",
-      "en": "the fabric (not 'text')",
-      "ar": "القماش"
-    },
-    {
-      "es": "tolerar",
-      "ipa": "/toleˈɾaɾ/",
-      "en": "to tolerate (not 'to support')",
-      "ar": "يتحمل"
-    },
-    {
-      "es": "posiblemente",
-      "ipa": "/posiβleˈmente/",
-      "en": "possibly (not 'eventually')",
-      "ar": "ربما"
-    }
-  ],
-  "grammar": [
-    {
-      "title": {
-        "es": "Los Falsos Amigos Más Comunes",
-        "en": "The Most Common False Cognates",
-        "ar": "الكلمات المتماثلة الخادعة الأكثر شيوعًا"
-      },
-      "explanation": {
-        "es": "Los falsos amigos son palabras que parecen iguales en las dos lenguas pero tienen significados diferentes. Ejemplos: pretender no es 'to pretend', librería no es 'library', ver no es 'to assist'. Presta atención al contexto para elegir la traducción correcta.",
-        "en": "False cognates are words that look the same in both languages but have different meanings. Examples: pretender is not 'to pretend', livraria is not 'library', assistir is not 'to assist'. Pay attention to context to choose the correct translation.",
-        "ar": "الكلمات المتماثلة الخادعة هي كلمات تبدو متشابهة في اللغتين لكن معانيها مختلفة. أمثلة: pretender ليست 'to pretend'، وlivraria ليست 'library'، وassistir ليست 'to assist'. انتبه إلى السياق لتختار الترجمة الصحيحة."
-      },
-      "examples": [
-        {
-          "es": "Tengo la intención de viajar el próximo año. (pretend = fingir)",
-          "en": "I intend to travel next year. (pretend = fingir)",
-          "ar": "أنوي السفر في العام القادم. (pretend تعني يتظاهر)"
-        },
-        {
-          "es": "Compré un libro en la librería, no en la biblioteca.",
-          "en": "I bought a book at the bookstore, not the library.",
-          "ar": "اشتريت كتابًا من متجر الكتب، وليس من المكتبة."
-        },
-        {
-          "es": "Él es sensato; siempre piensa antes de actuar. (sensitive = sensible)",
-          "en": "He is sensible; he always thinks before acting. (sensitive = sensível)",
-          "ar": "إنه حكيم؛ يفكر دائمًا قبل أن يتصرف. (sensitive تعني حساس)"
-        },
-        {
-          "es": "Vamos a ver la película esta noche. (assist = ayudar)",
-          "en": "Let's watch the movie tonight. (assist = ajudar)",
-          "ar": "لنشاهد الفيلم الليلة. (assist تعني يساعد)"
-        }
-      ]
-    },
-    {
-      "title": {
-        "es": "Consejos de Traducción",
-        "en": "Translation Tips",
-        "ar": "نصائح الترجمة"
-      },
-      "explanation": {
-        "es": "Estrategias: considera el contexto; no traduzcas palabra por palabra; verifica los falsos amigos; busca la estructura natural de la lengua de llegada. Ejemplos: 'actually' es 'en realidad' y 'tener sentido' corresponde a 'to make sense'.",
-        "en": "Strategies: consider context; don't translate word for word; check false cognates; look for the natural structure of the target language. Examples: 'actually' is 'na verdade' and 'fazer sentido' corresponds to 'to make sense'.",
-        "ar": "استراتيجيات: راعِ السياق؛ لا تترجم كلمة بكلمة؛ تحقق من الكلمات الخادعة؛ ابحث عن البنية الطبيعية في لغة الهدف. أمثلة: 'actually' هي 'na verdade'، و'fazer sentido' تقابل 'to make sense'."
-      },
-      "examples": [
-        {
-          "es": "'Actually' en español es 'en realidad', no 'actualmente'.",
-          "en": "'Actually' in Portuguese is 'na verdade', not 'atualmente'.",
-          "ar": "كلمة 'actually' في البرتغالية هي 'na verdade'، وليست 'atualmente'."
-        },
-        {
-          "es": "El contexto decide el sentido de 'lograr': lograr un sueño.",
-          "en": "Context decides the meaning of 'realizar': to fulfill a dream.",
-          "ar": "يحدد السياق معنى 'realizar': تحقيق حلم."
-        },
-        {
-          "es": "No traduzcas palabra por palabra: 'tener sentido' (to make sense).",
-          "en": "Don't translate word for word: 'fazer sentido' (to make sense).",
-          "ar": "لا تترجم كلمة بكلمة: 'fazer sentido' (أن يكون منطقيًا)."
-        },
-        {
-          "es": "'Eventualmente' puede significar 'quizás'; 'eventually' es 'finalmente'.",
-          "en": "'Eventualmente' can mean 'maybe'; 'eventually' is 'por fim'.",
-          "ar": "'eventualmente' قد تعني ربما؛ بينما 'eventually' تعني في النهاية."
-        }
-      ]
-    }
-  ],
-  "dialogue": {
-    "title": {
-      "es": "Correcciones en la Traducción",
-      "en": "Fixes in the Translation",
-      "ar": "تصحيحات في الترجمة"
-    },
-    "lines": [
-      {
-        "speaker": "Sara",
-        "es": "¿Me ayudas con esta traducción? Escribí 'I am embarrassed' como 'estoy embarazado'.",
-        "en": "Can you help me with this translation? I wrote 'I am embarrassed' as 'estou embaraçado'.",
-        "ar": "هل تساعدني في هذه الترجمة؟ كتبت 'I am embarrassed' بأنها 'estou embaraçado'."
-      },
-      {
-        "speaker": "Tomás",
-        "es": "¡Cuidado! 'Embarrassed' es 'avergonzado', no 'embarazado'.",
-        "en": "Careful! 'Embarrassed' is 'constrangido', not 'embaraçado'.",
-        "ar": "انتبه! 'Embarrassed' تعني 'constrangido'، وليست 'embaraçado'."
-      },
-      {
-        "speaker": "Sara",
-        "es": "Ah, entiendo. ¿Y 'pretend'?",
-        "en": "Ah, I see. And 'pretend'?",
-        "ar": "آه، فهمت. وماذا عن 'pretend'؟"
-      },
-      {
-        "speaker": "Tomás",
-        "es": "'Pretend' significa 'fingir'. 'Tener la intención de' es 'to intend'.",
-        "en": "'Pretend' means 'to fake'. 'Pretender' is 'to intend'.",
-        "ar": "'Pretend' تعني 'يتظاهر'. أما 'pretender' فتعني 'ينوي'."
-      },
-      {
-        "speaker": "Sara",
-        "es": "¡Qué interesante! Voy a prestar más atención a los falsos amigos.",
-        "en": "How interesting! I'll pay more attention to false cognates.",
-        "ar": "كم هذا مثير! سأنتبه أكثر إلى الكلمات الخادعة."
-      }
-    ]
-  },
-  "reading": {
-    "title": {
-      "es": "Los Desafíos de la Traducción",
-      "en": "The Challenges of Translation",
-      "ar": "تحديات الترجمة"
-    },
-    "text_es": "Traducir bien es más que cambiar palabras. El traductor necesita considerar el contexto y la cultura del lector. Los falsos amigos, por ejemplo, pueden causar confusiones divertidas o serias. Por eso, es importante verificar cada término y buscar siempre la expresión más natural.",
-    "text_en": "Translating well is more than swapping words. The translator must consider the context and culture of the reader. False cognates, for example, can cause funny or serious confusion. Therefore, it is important to check each term and always look for the most natural expression.",
-    "text_ar": "الترجمة الجيدة أكثر من مجرد استبدال الكلمات. يجب على المترجم أن يراعي سياق النص وثقافة القارئ. فالكلمات المتماثلة الخادعة، على سبيل المثال، يمكن أن تسبب التباسًا مضحكًا أو خطيرًا. لذلك، من المهم التحقق من كل مصطلح والبحث دائمًا عن التعبير الأكثر طبيعية."
-  },
-  "exercises": [
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "Compré un libro en la ___, no en la biblioteca.",
-        "en": "I bought a book at the ___, not the library.",
-        "ar": "اشتريت كتابًا من ___، وليس من المكتبة."
-      },
-      "options": [
-        {
-          "es": "librería",
-          "en": "livraria",
-          "ar": "livraria"
-        },
-        {
-          "es": "lectura",
-          "en": "leitura",
-          "ar": "leitura"
-        },
-        {
-          "es": "libro",
-          "en": "livro",
-          "ar": "livro"
-        }
-      ],
-      "answer": "librería",
-      "explanation": {
-        "es": "'Librería' es la tienda de libros; 'biblioteca' es donde se prestan libros.",
-        "en": "'Livraria' is the bookstore; 'biblioteca' is where books are borrowed.",
-        "ar": "'livraria' هي متجر الكتب، أما 'biblioteca' فهي مكان استعارة الكتب."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "Él es ___; siempre piensa antes de actuar.",
-        "en": "He is ___; he always thinks before acting.",
-        "ar": "إنه ___؛ يفكر دائمًا قبل أن يتصرف."
-      },
-      "options": [
-        {
-          "es": "sensible",
-          "en": "sensível",
-          "ar": "sensível"
-        },
-        {
-          "es": "sensato",
-          "en": "sensato",
-          "ar": "sensato"
-        },
-        {
-          "es": "sensato",
-          "en": "sensible",
-          "ar": "sensible"
-        }
-      ],
-      "answer": "sensato",
-      "explanation": {
-        "es": "'Sensible' (inglés) es 'sensato'; 'sensitive' es 'sensible'.",
-        "en": "'Sensible' (English) is 'sensato'; 'sensitive' is 'sensível'.",
-        "ar": "'Sensible' بالإنجليزية تعني 'sensato'، بينما 'sensitive' تعني 'sensível'."
-      }
-    },
-    {
-      "type": "translation",
-      "prompt": {
-        "es": "Traduce: 'I intend to travel next year.'",
-        "en": "Translate: 'I intend to travel next year.'",
-        "ar": "ترجم: 'I intend to travel next year.'"
-      },
-      "options": [],
-      "answer": "Tengo la intención de viajar el próximo año. (pretend = fingir)",
-      "explanation": {
-        "es": "'To intend' es 'tener la intención de'; cuidado con el falso amigo 'pretend' (fingir).",
-        "en": "'To intend' is 'pretender'; beware of the false cognate 'pretend' (to fake).",
-        "ar": "'To intend' تعني 'pretender'؛ واحذر الكلمة الخادعة 'pretend' (يتظاهر)."
-      }
-    }
+  "lines": [
+   {
+    "speaker": "Sara",
+    "es": "¿Me ayudas con esta traducción? Escribí 'I am embarrassed' como 'estoy embarazado'.",
+    "en": "Can you help me with this translation? I wrote 'I am embarrassed' as 'estoy embarazado'.",
+    "ar": "هل تساعدني في هذه الترجمة؟ كتبت 'I am embarrassed' هكذا: 'estoy embarazado'."
+   },
+   {
+    "speaker": "Tomás",
+    "es": "¡Cuidado! 'Embarrassed' es 'avergonzado', no 'embarazado'.",
+    "en": "Careful! 'Embarrassed' is 'avergonzado', not 'embarazado' (pregnant).",
+    "ar": "احذر! تعني 'Embarrassed' بالإسبانية 'avergonzado'، وليست 'embarazado' (الحامل)."
+   },
+   {
+    "speaker": "Sara",
+    "es": "Ah, entiendo. ¿Y 'pretend'?",
+    "en": "Ah, I see. And 'pretend'?",
+    "ar": "آه، فهمت. وماذا عن 'pretend'؟"
+   },
+   {
+    "speaker": "Tomás",
+    "es": "'Pretend' significa 'fingir'. 'Tener la intención de' es 'to intend'.",
+    "en": "'Pretend' means 'to fake'. 'Pretender' is 'to intend'.",
+    "ar": "'Pretend' تعني 'يتظاهر'. أما 'pretender' فتعني 'ينوي'."
+   },
+   {
+    "speaker": "Sara",
+    "es": "¡Qué interesante! Voy a prestar más atención a los falsos amigos.",
+    "en": "How interesting! I'll pay more attention to false cognates.",
+    "ar": "كم هذا مثير! سأنتبه أكثر إلى الكلمات الخادعة."
+   }
   ]
+ },
+ "reading": {
+  "title": {
+   "es": "Los Desafíos de la Traducción",
+   "en": "The Challenges of Translation",
+   "ar": "تحديات الترجمة"
+  },
+  "text_es": "Traducir bien es más que cambiar palabras. El traductor necesita considerar el contexto y la cultura del lector. Los falsos amigos, por ejemplo, pueden causar confusiones divertidas o serias. Por eso, es importante verificar cada término y buscar siempre la expresión más natural.",
+  "text_en": "Translating well is more than swapping words. The translator must consider the context and culture of the reader. False cognates, for example, can cause funny or serious confusion. Therefore, it is important to check each term and always look for the most natural expression.",
+  "text_ar": "الترجمة الجيدة أكثر من مجرد استبدال الكلمات. يجب على المترجم أن يراعي سياق النص وثقافة القارئ. فالكلمات المتماثلة الخادعة، على سبيل المثال، يمكن أن تسبب التباسًا مضحكًا أو خطيرًا. لذلك، من المهم التحقق من كل مصطلح والبحث دائمًا عن التعبير الأكثر طبيعية."
+ },
+ "exercises": [
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "Compré un libro en la ___, no en la biblioteca.",
+    "en": "I bought a book at the ___, not the library.",
+    "ar": "اشتريت كتابًا من ___، وليس من المكتبة."
+   },
+   "options": [
+    {
+     "es": "librería",
+     "en": "livraria",
+     "ar": "livraria"
+    },
+    {
+     "es": "lectura",
+     "en": "leitura",
+     "ar": "leitura"
+    },
+    {
+     "es": "libro",
+     "en": "livro",
+     "ar": "livro"
+    }
+   ],
+   "answer": "librería",
+   "explanation": {
+    "es": "'Librería' es la tienda de libros; 'biblioteca' es donde se prestan libros.",
+    "en": "'Livraria' is the bookstore; 'biblioteca' is where books are borrowed.",
+    "ar": "'livraria' هي متجر الكتب، أما 'biblioteca' فهي مكان استعارة الكتب."
+   }
+  },
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "Él es ___; siempre piensa antes de actuar.",
+    "en": "He is ___; he always thinks before acting.",
+    "ar": "إنه ___؛ يفكر دائمًا قبل أن يتصرف."
+   },
+   "options": [
+    {
+     "es": "sensible",
+     "en": "sensível",
+     "ar": "sensível"
+    },
+    {
+     "es": "sensato",
+     "en": "sensato",
+     "ar": "sensato"
+    },
+    {
+     "es": "sensato",
+     "en": "sensible",
+     "ar": "sensible"
+    }
+   ],
+   "answer": "sensato",
+   "explanation": {
+    "es": "'Sensible' (inglés) es 'sensato'; 'sensitive' es 'sensible'.",
+    "en": "'Sensible' (English) is 'sensato'; 'sensitive' is 'sensível'.",
+    "ar": "'Sensible' بالإنجليزية تعني 'sensato'، بينما 'sensitive' تعني 'sensível'."
+   }
+  },
+  {
+   "type": "translation",
+   "prompt": {
+    "es": "Traduce: 'I intend to travel next year.'",
+    "en": "Translate: 'I intend to travel next year.'",
+    "ar": "ترجم: 'I intend to travel next year.'"
+   },
+   "options": [],
+   "answer": "Tengo la intención de viajar el próximo año. (pretend = fingir)",
+   "explanation": {
+    "es": "'To intend' es 'tener la intención de'; cuidado con el falso amigo 'pretend' (fingir).",
+    "en": "'To intend' is 'pretender'; beware of the false cognate 'pretend' (to fake).",
+    "ar": "'To intend' تعني 'pretender'؛ واحذر الكلمة الخادعة 'pretend' (يتظاهر)."
+   }
+  }
+ ]
 }

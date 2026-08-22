@@ -1,327 +1,327 @@
 {
-  "id": "C1-12",
-  "level": "C1",
-  "level_name": {
-    "es": "Avanzado",
-    "en": "Advanced",
-    "ar": "متقدم"
+ "id": "C1-12",
+ "level": "C1",
+ "level_name": {
+  "es": "Avanzado",
+  "en": "Advanced",
+  "ar": "متقدم"
+ },
+ "title": {
+  "es": "Repaso C1",
+  "en": "C1 Review",
+  "ar": "مراجعة المستوى C1"
+ },
+ "objectives": [
+  {
+   "es": "Revisar el subjuntivo en cláusulas complejas",
+   "en": "Review the subjunctive in complex clauses",
+   "ar": "مراجعة صيغة الشرط في الجمل المعقدة"
   },
+  {
+   "es": "Consolidar el discurso indirecto, la rección y la concordancia",
+   "en": "Consolidate reported speech, regimen and agreement",
+   "ar": "تثبيت الكلام المنقول والتعدية والمطابقة"
+  },
+  {
+   "es": "Integrar vocabulario avanzado en situaciones reales",
+   "en": "Integrate advanced vocabulary in real situations",
+   "ar": "دمج المفردات المتقدمة في مواقف حقيقية"
+  }
+ ],
+ "vocabulary": [
+  {
+   "es": "el subjuntivo",
+   "ipa": "/ˈel suβxuˈntiβo/",
+   "en": "the subjunctive",
+   "ar": "صيغة الشرط"
+  },
+  {
+   "es": "la jerga",
+   "ipa": "/ˈla ˈxeɾga/",
+   "en": "the slang",
+   "ar": "اللغة الدارجة"
+  },
+  {
+   "es": "la crónica",
+   "ipa": "/ˈla ˈkɾonika/",
+   "en": "the chronicle",
+   "ar": "المقالة"
+  },
+  {
+   "es": "el discurso indirecto",
+   "ipa": "/ˈel diˈskuɾso indiˈɾekto/",
+   "en": "reported speech",
+   "ar": "الكلام المنقول"
+  },
+  {
+   "es": "la rección",
+   "ipa": "/ˈla reˈksion/",
+   "en": "the regimen",
+   "ar": "التعدية"
+  },
+  {
+   "es": "la concordancia",
+   "ipa": "/ˈla konkoˈɾdansia/",
+   "en": "the agreement",
+   "ar": "المطابقة"
+  },
+  {
+   "es": "el énfasis",
+   "ipa": "/ˈel ˈenfasis/",
+   "en": "the emphasis",
+   "ar": "التوكيد"
+  },
+  {
+   "es": "el registro",
+   "ipa": "/ˈel reˈxistɾo/",
+   "en": "the register",
+   "ar": "المستوى اللغوي"
+  },
+  {
+   "es": "la argumentación",
+   "ipa": "/ˈla aɾgumentaˈsion/",
+   "en": "the argumentation",
+   "ar": "الحجاج، الجدل"
+  },
+  {
+   "es": "la inversión",
+   "ipa": "/ˈla inbeˈɾsion/",
+   "en": "the inversion",
+   "ar": "القلب، التقديم"
+  },
+  {
+   "es": "fluido",
+   "ipa": "/ˈfluiðo/",
+   "en": "fluent",
+   "ar": "طليق"
+  },
+  {
+   "es": "matizar",
+   "ipa": "/matiˈsaɾ/",
+   "en": "to nuance",
+   "ar": "يضفي فروقًا دقيقة"
+  },
+  {
+   "es": "la sutileza",
+   "ipa": "/ˈla sutiˈlesa/",
+   "en": "the subtlety",
+   "ar": "البراعة، الدقة"
+  },
+  {
+   "es": "contextualizar",
+   "ipa": "/kontekstualiˈsaɾ/",
+   "en": "to contextualize",
+   "ar": "يضع في سياقه"
+  },
+  {
+   "es": "revisar",
+   "ipa": "/reβiˈsaɾ/",
+   "en": "to review",
+   "ar": "يراجع"
+  },
+  {
+   "es": "consolidar",
+   "ipa": "/konsoliˈðaɾ/",
+   "en": "to consolidate",
+   "ar": "يوطد، يثبت"
+  }
+ ],
+ "grammar": [
+  {
+   "title": {
+    "es": "Revisión del Subjuntivo y del Discurso Indirecto",
+    "en": "Review of the Subjunctive and Reported Speech",
+    "ar": "مراجعة صيغة الشرط والكلام المنقول"
+   },
+   "explanation": {
+    "es": "En el nivel C1, el subjuntivo aparece en concesiones, condiciones y deseos: 'aunque estuviera', 'en caso de que sea', 'ojalá'. El discurso indirecto retrocede los tiempos y adapta pronombres y adverbios. Reunir estas estructuras exige atención al contexto: quien domina esta combinación expresa hipótesis y relatos con precisión.",
+    "en": "At the C1 level, the subjunctive appears in concessions, conditions and wishes: 'aunque estuviera' (although he was), 'en caso de que sea' (should it be), 'ojalá' (hopefully). Reported speech moves tenses back and adjusts pronouns and adverbs. Combining these structures requires attention to context: those who master it express hypotheses and reports with precision.",
+    "ar": "في المستوى C1، يظهر المنصوب في الاستدراك والشروط والأمنيات: 'aunque estuviera' (رغم أنه كان)، 'en caso de que sea' (في حال كان)، 'ojalá' (ليت). ويُرجّع الكلام غير المباشر الأزمنة ويكيّف الضمائر والظروف. والجمع بين هذه التراكيب يتطلب الانتباه للسياق: فمن يتقنها يعبر عن الفرضيات والسرد بدقة."
+   },
+   "examples": [
+    {
+     "es": "Aunque él estuviera cansado, siguió adelante.",
+     "en": "Although he was tired, he carried on.",
+     "ar": "على الرغم من أنه كان متعبًا، واصل طريقه."
+    },
+    {
+     "es": "Ella dijo que llegaría más tarde.",
+     "en": "She said she would arrive later.",
+     "ar": "قالت إنها ستصل لاحقًا."
+    },
+    {
+     "es": "Ojalá el examen sea fácil.",
+     "en": "Hopefully the exam will be easy.",
+     "ar": "ليت الامتحان يكون سهلًا."
+    },
+    {
+     "es": "Preguntó si yo había visto la película.",
+     "en": "He asked if I had seen the film.",
+     "ar": "سأل إذا كنت قد شاهدت الفيلم."
+    }
+   ]
+  },
+  {
+   "title": {
+    "es": "Revisión de la Concordancia y del Énfasis",
+    "en": "Review of Agreement and Emphasis",
+    "ar": "مراجعة المطابقة والتوكيد"
+   },
+   "explanation": {
+    "es": "La concordancia flexible con partitivos y porcentajes y el destaque por inversión o estructura de relieve son marcas de quien habla con naturalidad. 'Fue en el último semestre cuando todo cambió' y 'La mayoría de los profesores aprobó el proyecto' muestran dominio de la norma y de la expresividad. Revisar estos puntos prepara al hablante para el nivel C2.",
+    "en": "Flexible agreement with partitives and percentages, and emphasis through inversion or clefting, are marks of those who speak naturally. 'Foi no último semestre que tudo mudou' (It was in the last semester that everything changed) and 'A maioria dos professores aprovou o projeto' (Most teachers approved the project) show mastery of the norm and of expressiveness. Reviewing these points prepares the speaker for the C2 level.",
+    "ar": "المطابقة المرنة مع الكسور الجزئية والنسب المئوية، والإبراز بالقلب أو التقسيم، علامات من يتحدث بطلاقة. جملتا 'Foi no último semestre que tudo mudou' (في الفصل الأخير تغير كل شيء) و'A maioria dos professores aprovou o projeto' (وافق معظم المعلمين على المشروع) تدلان على إتقان القاعدة والتعبير. ومراجعة هذه النقاط تُعدّ المتحدث لمستوى C2."
+   },
+   "examples": [
+    {
+     "es": "La mayoría de los profesores aprobó el proyecto.",
+     "en": "Most of the teachers approved the project.",
+     "ar": "وافق معظم المعلمين على المشروع."
+    },
+    {
+     "es": "Fue en el último semestre cuando todo cambió.",
+     "en": "It was in the last semester that everything changed.",
+     "ar": "في الفصل الأخير تغير كل شيء."
+    },
+    {
+     "es": "El 20% del presupuesto fue destinado a la educación.",
+     "en": "20% of the budget was allocated to education.",
+     "ar": "خُصص 20% من الميزانية للتعليم."
+    },
+    {
+     "es": "Lo que me preocupa es la falta de tiempo.",
+     "en": "What worries me is the lack of time.",
+     "ar": "ما يقلقني هو ضيق الوقت."
+    }
+   ]
+  }
+ ],
+ "dialogue": {
   "title": {
-    "es": "Repaso C1",
-    "en": "C1 Review",
-    "ar": "مراجعة المستوى C1"
+   "es": "Rumbo al C2",
+   "en": "Heading to C2",
+   "ar": "نحو المستوى C2"
   },
-  "objectives": [
-    {
-      "es": "Revisar el subjuntivo en cláusulas complejas",
-      "en": "Review the subjunctive in complex clauses",
-      "ar": "مراجعة صيغة الشرط في الجمل المعقدة"
-    },
-    {
-      "es": "Consolidar el discurso indirecto, la rección y la concordancia",
-      "en": "Consolidate reported speech, regimen and agreement",
-      "ar": "تثبيت الكلام المنقول والتعدية والمطابقة"
-    },
-    {
-      "es": "Integrar vocabulario avanzado en situaciones reales",
-      "en": "Integrate advanced vocabulary in real situations",
-      "ar": "دمج المفردات المتقدمة في مواقف حقيقية"
-    }
-  ],
-  "vocabulary": [
-    {
-      "es": "el subjuntivo",
-      "ipa": "/ˈel suβxuˈntiβo/",
-      "en": "the subjunctive",
-      "ar": "صيغة الشرط"
-    },
-    {
-      "es": "la jerga",
-      "ipa": "/ˈla ˈxeɾga/",
-      "en": "the slang",
-      "ar": "اللغة الدارجة"
-    },
-    {
-      "es": "la crónica",
-      "ipa": "/ˈla ˈkɾonika/",
-      "en": "the chronicle",
-      "ar": "المقالة"
-    },
-    {
-      "es": "el discurso indirecto",
-      "ipa": "/ˈel diˈskuɾso indiˈɾekto/",
-      "en": "reported speech",
-      "ar": "الكلام المنقول"
-    },
-    {
-      "es": "la rección",
-      "ipa": "/ˈla reˈksion/",
-      "en": "the regimen",
-      "ar": "التعدية"
-    },
-    {
-      "es": "la concordancia",
-      "ipa": "/ˈla konkoˈɾdansia/",
-      "en": "the agreement",
-      "ar": "المطابقة"
-    },
-    {
-      "es": "el énfasis",
-      "ipa": "/ˈel ˈenfasis/",
-      "en": "the emphasis",
-      "ar": "التوكيد"
-    },
-    {
-      "es": "el registro",
-      "ipa": "/ˈel reˈxistɾo/",
-      "en": "the register",
-      "ar": "المستوى اللغوي"
-    },
-    {
-      "es": "la argumentación",
-      "ipa": "/ˈla aɾgumentaˈsion/",
-      "en": "the argumentation",
-      "ar": "الحجاج، الجدل"
-    },
-    {
-      "es": "la inversión",
-      "ipa": "/ˈla inbeˈɾsion/",
-      "en": "the inversion",
-      "ar": "القلب، التقديم"
-    },
-    {
-      "es": "fluido",
-      "ipa": "/ˈfluiðo/",
-      "en": "fluent",
-      "ar": "طليق"
-    },
-    {
-      "es": "matizar",
-      "ipa": "/matiˈsaɾ/",
-      "en": "to nuance",
-      "ar": "يضفي فروقًا دقيقة"
-    },
-    {
-      "es": "la sutileza",
-      "ipa": "/ˈla sutiˈlesa/",
-      "en": "the subtlety",
-      "ar": "البراعة، الدقة"
-    },
-    {
-      "es": "contextualizar",
-      "ipa": "/kontekstualiˈsaɾ/",
-      "en": "to contextualize",
-      "ar": "يضع في سياقه"
-    },
-    {
-      "es": "revisar",
-      "ipa": "/reβiˈsaɾ/",
-      "en": "to review",
-      "ar": "يراجع"
-    },
-    {
-      "es": "consolidar",
-      "ipa": "/konsoliˈðaɾ/",
-      "en": "to consolidate",
-      "ar": "يوطد، يثبت"
-    }
-  ],
-  "grammar": [
-    {
-      "title": {
-        "es": "Revisión del Subjuntivo y del Discurso Indirecto",
-        "en": "Review of the Subjunctive and Reported Speech",
-        "ar": "مراجعة صيغة الشرط والكلام المنقول"
-      },
-      "explanation": {
-        "es": "En el nivel C1, el subjuntivo aparece en concesiones, condiciones y deseos: 'aunque estuviera', 'en caso de que sea', 'ojalá'. El discurso indirecto retrocede los tiempos y adapta pronombres y adverbios. Reunir estas estructuras exige atención al contexto: quien domina esta combinación expresa hipótesis y relatos con precisión.",
-        "en": "At the C1 level, the subjunctive appears in concessions, conditions and wishes: 'embora estivesse' (although he was), 'caso seja' (should it be), 'tomara que' (hopefully). Reported speech moves tenses back and adjusts pronouns and adverbs. Bringing these structures together requires attention to context: those who master this combination express hypotheses and reports with precision.",
-        "ar": "في المستوى C1، تظهر صيغة الشرط في المقابلات والشروط والرغبات: 'embora estivesse' (رغم أنه كان)، و'caso seja' (إذا كان)، و'tomara que' (ليت). يرجّع الكلام المنقول الأزمنة ويكيّف الضمائر والظروف. الجمع بين هذه التراكيب يتطلب الانتباه إلى السياق: فمن يتقن هذا الدمج يعبر عن الفرضيات والرواية بدقة."
-      },
-      "examples": [
-        {
-          "es": "Aunque él estuviera cansado, siguió adelante.",
-          "en": "Although he was tired, he carried on.",
-          "ar": "على الرغم من أنه كان متعبًا، واصل طريقه."
-        },
-        {
-          "es": "Ella dijo que llegaría más tarde.",
-          "en": "She said she would arrive later.",
-          "ar": "قالت إنها ستصل لاحقًا."
-        },
-        {
-          "es": "Ojalá el examen sea fácil.",
-          "en": "Hopefully the exam will be easy.",
-          "ar": "ليت الامتحان يكون سهلًا."
-        },
-        {
-          "es": "Preguntó si yo había visto la película.",
-          "en": "He asked if I had seen the film.",
-          "ar": "سأل إذا كنت قد شاهدت الفيلم."
-        }
-      ]
-    },
-    {
-      "title": {
-        "es": "Revisión de la Concordancia y del Énfasis",
-        "en": "Review of Agreement and Emphasis",
-        "ar": "مراجعة المطابقة والتوكيد"
-      },
-      "explanation": {
-        "es": "La concordancia flexible con partitivos y porcentajes y el destaque por inversión o estructura de relieve son marcas de quien habla con naturalidad. 'Fue en el último semestre cuando todo cambió' y 'La mayoría de los profesores aprobó el proyecto' muestran dominio de la norma y de la expresividad. Revisar estos puntos prepara al hablante para el nivel C2.",
-        "en": "Flexible agreement with partitives and percentages, and emphasis through inversion or clefting, are marks of those who speak naturally. 'Foi no último semestre que tudo mudou' (It was in the last semester that everything changed) and 'A maioria dos professores aprovou o projeto' (Most teachers approved the project) show mastery of the norm and of expressiveness. Reviewing these points prepares the speaker for the C2 level.",
-        "ar": "المطابقة المرنة مع الكسور الجزئية والنسب المئوية، والإبراز بالقلب أو التقسيم، علامات من يتحدث بطلاقة. جملتا 'Foi no último semestre que tudo mudou' (في الفصل الأخير تغير كل شيء) و'A maioria dos professores aprovou o projeto' (وافق معظم المعلمين على المشروع) تدلان على إتقان القاعدة والتعبير. ومراجعة هذه النقاط تُعدّ المتحدث لمستوى C2."
-      },
-      "examples": [
-        {
-          "es": "La mayoría de los profesores aprobó el proyecto.",
-          "en": "Most of the teachers approved the project.",
-          "ar": "وافق معظم المعلمين على المشروع."
-        },
-        {
-          "es": "Fue en el último semestre cuando todo cambió.",
-          "en": "It was in the last semester that everything changed.",
-          "ar": "في الفصل الأخير تغير كل شيء."
-        },
-        {
-          "es": "El 20% del presupuesto fue destinado a la educación.",
-          "en": "20% of the budget was allocated to education.",
-          "ar": "خُصص 20% من الميزانية للتعليم."
-        },
-        {
-          "es": "Lo que me preocupa es la falta de tiempo.",
-          "en": "What worries me is the lack of time.",
-          "ar": "ما يقلقني هو ضيق الوقت."
-        }
-      ]
-    }
-  ],
-  "dialogue": {
-    "title": {
-      "es": "Rumbo al C2",
-      "en": "Heading to C2",
-      "ar": "نحو المستوى C2"
-    },
-    "lines": [
-      {
-        "speaker": "Profesor",
-        "es": "¿Ya dominas el subjuntivo en concesiones complejas?",
-        "en": "Do you already master the subjunctive in complex concessions?",
-        "ar": "هل أتقنت صيغة الشرط في المقابلات المعقدة؟"
-      },
-      {
-        "speaker": "Alumno",
-        "es": "Sí, aunque todavía matizo el discurso indirecto con hesitación.",
-        "en": "Yes, although I still nuance reported speech with hesitation.",
-        "ar": "نعم، على الرغم من أنني ما أزال أضفي فروقًا على الكلام المنقول بتردد."
-      },
-      {
-        "speaker": "Profesor",
-        "es": "Fue con la práctica que consolidaste la concordancia y la rección.",
-        "en": "It was through practice that you consolidated agreement and regimen.",
-        "ar": "بالممارسة ثبّت المطابقة والتعدية."
-      },
-      {
-        "speaker": "Alumno",
-        "es": "La mayoría de los ejercicios me ayudó a contextualizar el vocabulario.",
-        "en": "Most of the exercises helped me contextualize the vocabulary.",
-        "ar": "ساعدتني معظم التمارين على وضع المفردات في سياقها."
-      },
-      {
-        "speaker": "Profesor",
-        "es": "En suma, estás listo para el próximo desafío. ¡Felicidades!",
-        "en": "In short, you are ready for the next challenge. Congratulations!",
-        "ar": "باختصار، أنت جاهز للتحدي القادم. تهانينا!"
-      }
-    ]
-  },
-  "reading": {
-    "title": {
-      "es": "El Camino de la Fluidez",
-      "en": "The Path to Fluency",
-      "ar": "طريق الطلاقة"
-    },
-    "text_es": "La fluidez avanzada no es solo velocidad, sino precisión y sutileza. Quien domina el subjuntivo, el discurso indirecto y la concordancia consigue matizar cualquier idea. Es el registro adecuado para cada situación lo que revela al hablante experimentado. Revisar todo esto consolida la base para el siguiente nivel.",
-    "text_en": "Advanced fluency is not just speed, but precision and subtlety. Those who master the subjunctive, reported speech and agreement can nuance any idea. It is the right register for each situation that reveals the experienced speaker. Reviewing all of this consolidates the foundation for the next level.",
-    "text_ar": "الطلاقة المتقدمة ليست مجرد سرعة، بل دقة وبراعة. من يتقن صيغة الشرط والكلام المنقول والمطابقة يستطيع أن يضفي فروقًا دقيقة على أي فكرة. إن اختيار المستوى اللغوي المناسب لكل موقف هو ما يكشف المتحدث الخبير. ومراجعة كل هذا توطد الأساس للمستوى القادم."
-  },
-  "exercises": [
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "Completa: 'Aunque él ______ cansado, siguió adelante.'",
-        "en": "Complete: 'Embora ele ______ cansado, seguiu em frente.'",
-        "ar": "أكمل: 'Embora ele ______ cansado, seguiu em frente.'"
-      },
-      "options": [
-        {
-          "es": "estuviera",
-          "en": "estivesse",
-          "ar": "estivesse"
-        },
-        {
-          "es": "estaba",
-          "en": "estava",
-          "ar": "estava"
-        },
-        {
-          "es": "estará",
-          "en": "estará",
-          "ar": "estará"
-        }
-      ],
-      "answer": "estuviera",
-      "explanation": {
-        "es": "'Aunque' exige el subjuntivo imperfecto después de un verbo en pasado: 'estuviera'.",
-        "en": "'Embora' requires the imperfect subjunctive after a past verb: 'estivesse'.",
-        "ar": "'embora' تتطلب الماضي الشرطي بعد فعل ماضٍ: 'estivesse'."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "Discurso indirecto de: \"Voy a viajar\", dijo Pedro.",
-        "en": "Reported speech of: \"Vou viajar\", disse Pedro.",
-        "ar": "الكلام المنقول لـ: «سأسافر»، قال بيدرو."
-      },
-      "options": [
-        {
-          "es": "Pedro dijo que iba a viajar.",
-          "en": "Pedro disse que ia viajar.",
-          "ar": "Pedro disse que ia viajar."
-        },
-        {
-          "es": "Pedro dijo que va a viajar.",
-          "en": "Pedro disse que vai viajar.",
-          "ar": "Pedro disse que vai viajar."
-        },
-        {
-          "es": "Pedro dijo que irá a viajar.",
-          "en": "Pedro disse que irá viajar.",
-          "ar": "Pedro disse que irá viajar."
-        }
-      ],
-      "answer": "Pedro dijo que iba a viajar.",
-      "explanation": {
-        "es": "En el discurso indirecto, el presente 'voy' se vuelve imperfecto 'iba'.",
-        "en": "In reported speech, the present 'vou' becomes the imperfect 'ia'.",
-        "ar": "في الكلام المنقول يتحول المضارع 'vou' إلى الماضي الناقص 'ia'."
-      }
-    },
-    {
-      "type": "translation",
-      "prompt": {
-        "es": "Traduce con énfasis: 'It was the team that solved the whole problem.'",
-        "en": "Translate with emphasis: 'It was the team that solved the whole problem.'",
-        "ar": "ترجم مع التوكيد: 'It was the team that solved the whole problem.'"
-      },
-      "options": [],
-      "answer": "Fue el equipo el que resolvió todo el problema.",
-      "explanation": {
-        "es": "La estructura de relieve 'fue... quien' destaca el sujeto 'el equipo'.",
-        "en": "The cleft structure 'Foi ... que' highlights the subject 'a equipe'.",
-        "ar": "تركيب التقسيم 'Foi ... que' يبرز الفاعل 'a equipe'."
-      }
-    }
+  "lines": [
+   {
+    "speaker": "Profesor",
+    "es": "¿Ya dominas el subjuntivo en concesiones complejas?",
+    "en": "Do you already master the subjunctive in complex concessions?",
+    "ar": "هل أتقنت صيغة الشرط في المقابلات المعقدة؟"
+   },
+   {
+    "speaker": "Alumno",
+    "es": "Sí, aunque todavía matizo el discurso indirecto con hesitación.",
+    "en": "Yes, although I still nuance reported speech with hesitation.",
+    "ar": "نعم، على الرغم من أنني ما أزال أضفي فروقًا على الكلام المنقول بتردد."
+   },
+   {
+    "speaker": "Profesor",
+    "es": "Fue con la práctica que consolidaste la concordancia y la rección.",
+    "en": "It was through practice that you consolidated agreement and regimen.",
+    "ar": "بالممارسة ثبّت المطابقة والتعدية."
+   },
+   {
+    "speaker": "Alumno",
+    "es": "La mayoría de los ejercicios me ayudó a contextualizar el vocabulario.",
+    "en": "Most of the exercises helped me contextualize the vocabulary.",
+    "ar": "ساعدتني معظم التمارين على وضع المفردات في سياقها."
+   },
+   {
+    "speaker": "Profesor",
+    "es": "En suma, estás listo para el próximo desafío. ¡Felicidades!",
+    "en": "In short, you are ready for the next challenge. Congratulations!",
+    "ar": "باختصار، أنت جاهز للتحدي القادم. تهانينا!"
+   }
   ]
+ },
+ "reading": {
+  "title": {
+   "es": "El Camino de la Fluidez",
+   "en": "The Path to Fluency",
+   "ar": "طريق الطلاقة"
+  },
+  "text_es": "La fluidez avanzada no es solo velocidad, sino precisión y sutileza. Quien domina el subjuntivo, el discurso indirecto y la concordancia consigue matizar cualquier idea. Es el registro adecuado para cada situación lo que revela al hablante experimentado. Revisar todo esto consolida la base para el siguiente nivel.",
+  "text_en": "Advanced fluency is not just speed, but precision and subtlety. Those who master the subjunctive, reported speech and agreement can nuance any idea. It is the right register for each situation that reveals the experienced speaker. Reviewing all of this consolidates the foundation for the next level.",
+  "text_ar": "الطلاقة المتقدمة ليست مجرد سرعة، بل دقة وبراعة. من يتقن صيغة الشرط والكلام المنقول والمطابقة يستطيع أن يضفي فروقًا دقيقة على أي فكرة. إن اختيار المستوى اللغوي المناسب لكل موقف هو ما يكشف المتحدث الخبير. ومراجعة كل هذا توطد الأساس للمستوى القادم."
+ },
+ "exercises": [
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "Completa: 'Aunque él ______ cansado, siguió adelante.'",
+    "en": "Complete: 'Embora ele ______ cansado, seguiu em frente.'",
+    "ar": "أكمل: 'Embora ele ______ cansado, seguiu em frente.'"
+   },
+   "options": [
+    {
+     "es": "estuviera",
+     "en": "estivesse",
+     "ar": "estivesse"
+    },
+    {
+     "es": "estaba",
+     "en": "estava",
+     "ar": "estava"
+    },
+    {
+     "es": "estará",
+     "en": "estará",
+     "ar": "estará"
+    }
+   ],
+   "answer": "estuviera",
+   "explanation": {
+    "es": "'Aunque' exige el subjuntivo imperfecto después de un verbo en pasado: 'estuviera'.",
+    "en": "'Embora' requires the imperfect subjunctive after a past verb: 'estivesse'.",
+    "ar": "'embora' تتطلب الماضي الشرطي بعد فعل ماضٍ: 'estivesse'."
+   }
+  },
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "Discurso indirecto de: \"Voy a viajar\", dijo Pedro.",
+    "en": "Reported speech of: \"Vou viajar\", disse Pedro.",
+    "ar": "الكلام المنقول لـ: «سأسافر»، قال بيدرو."
+   },
+   "options": [
+    {
+     "es": "Pedro dijo que iba a viajar.",
+     "en": "Pedro disse que ia viajar.",
+     "ar": "Pedro disse que ia viajar."
+    },
+    {
+     "es": "Pedro dijo que va a viajar.",
+     "en": "Pedro disse que vai viajar.",
+     "ar": "Pedro disse que vai viajar."
+    },
+    {
+     "es": "Pedro dijo que irá a viajar.",
+     "en": "Pedro disse que irá viajar.",
+     "ar": "Pedro disse que irá viajar."
+    }
+   ],
+   "answer": "Pedro dijo que iba a viajar.",
+   "explanation": {
+    "es": "En el discurso indirecto, el presente 'voy' se vuelve imperfecto 'iba'.",
+    "en": "In reported speech, the present 'vou' becomes the imperfect 'ia'.",
+    "ar": "في الكلام المنقول يتحول المضارع 'vou' إلى الماضي الناقص 'ia'."
+   }
+  },
+  {
+   "type": "translation",
+   "prompt": {
+    "es": "Traduce con énfasis: 'It was the team that solved the whole problem.'",
+    "en": "Translate with emphasis: 'It was the team that solved the whole problem.'",
+    "ar": "ترجم مع التوكيد: 'It was the team that solved the whole problem.'"
+   },
+   "options": [],
+   "answer": "Fue el equipo el que resolvió todo el problema.",
+   "explanation": {
+    "es": "La estructura de relieve 'fue... quien' destaca el sujeto 'el equipo'.",
+    "en": "The cleft structure 'Foi ... que' highlights the subject 'a equipe'.",
+    "ar": "تركيب التقسيم 'Foi ... que' يبرز الفاعل 'a equipe'."
+   }
+  }
+ ]
 }

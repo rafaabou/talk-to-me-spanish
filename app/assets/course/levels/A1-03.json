@@ -1,317 +1,317 @@
 {
-  "id": "A1-03",
-  "level": "A1",
-  "level_name": {
-    "es": "Principiante",
-    "en": "Beginner",
-    "ar": "مبتدئ"
+ "id": "A1-03",
+ "level": "A1",
+ "level_name": {
+  "es": "Principiante",
+  "en": "Beginner",
+  "ar": "مبتدئ"
+ },
+ "title": {
+  "es": "Números del 0 al 100",
+  "en": "Numbers 0 to 100",
+  "ar": "الأرقام من 0 إلى 100"
+ },
+ "objectives": [
+  {
+   "es": "Contar de 0 a 100 en español",
+   "en": "Count from 0 to 100 in Portuguese",
+   "ar": "العد من 0 إلى 100 بالبرتغالية"
   },
+  {
+   "es": "Usar números en teléfonos y precios",
+   "en": "Use numbers in phones and prices",
+   "ar": "استخدام الأرقام في الهواتف والأسعار"
+  },
+  {
+   "es": "Preguntar la edad",
+   "en": "Ask someone's age",
+   "ar": "السؤال عن العمر"
+  }
+ ],
+ "vocabulary": [
+  {
+   "es": "cero",
+   "ipa": "/ˈseɾo/",
+   "en": "zero",
+   "ar": "صفر"
+  },
+  {
+   "es": "uno",
+   "ipa": "/ˈuno/",
+   "en": "one",
+   "ar": "واحد"
+  },
+  {
+   "es": "dos",
+   "ipa": "/ˈdos/",
+   "en": "two",
+   "ar": "اثنان"
+  },
+  {
+   "es": "tres",
+   "ipa": "/ˈtɾes/",
+   "en": "three",
+   "ar": "ثلاثة"
+  },
+  {
+   "es": "cuatro",
+   "ipa": "/ˈkuatɾo/",
+   "en": "four",
+   "ar": "أربعة"
+  },
+  {
+   "es": "cinco",
+   "ipa": "/ˈsinko/",
+   "en": "five",
+   "ar": "خمسة"
+  },
+  {
+   "es": "seis",
+   "ipa": "/ˈseis/",
+   "en": "six",
+   "ar": "ستة"
+  },
+  {
+   "es": "siete",
+   "ipa": "/ˈsiete/",
+   "en": "seven",
+   "ar": "سبعة"
+  },
+  {
+   "es": "ocho",
+   "ipa": "/ˈotʃo/",
+   "en": "eight",
+   "ar": "ثمانية"
+  },
+  {
+   "es": "nueve",
+   "ipa": "/ˈnueβe/",
+   "en": "nine",
+   "ar": "تسعة"
+  },
+  {
+   "es": "diez",
+   "ipa": "/ˈdies/",
+   "en": "ten",
+   "ar": "عشرة"
+  },
+  {
+   "es": "veinte",
+   "ipa": "/ˈbeinte/",
+   "en": "twenty",
+   "ar": "عشرون"
+  },
+  {
+   "es": "treinta",
+   "ipa": "/ˈtɾeinta/",
+   "en": "thirty",
+   "ar": "ثلاثون"
+  },
+  {
+   "es": "cien",
+   "ipa": "/ˈsien/",
+   "en": "one hundred",
+   "ar": "مئة"
+  },
+  {
+   "es": "la edad",
+   "ipa": "/ˈla eˈðað/",
+   "en": "the age",
+   "ar": "العمر"
+  },
+  {
+   "es": "el precio",
+   "ipa": "/ˈel ˈpɾesio/",
+   "en": "the price",
+   "ar": "السعر"
+  }
+ ],
+ "grammar": [
+  {
+   "title": {
+    "es": "Números 11-20",
+    "en": "Numbers 11-20",
+    "ar": "الأرقام من 11 إلى 20"
+   },
+   "explanation": {
+    "es": "Once (11), doce (12), trece (13), catorce (14), quince (15), dieciséis (16), diecisiete (17), dieciocho (18), diecinueve (19), veinte (20). Del 21 al 29: veintiuno, veintidós, etc.",
+    "en": "Onze (11), doze (12), treze (13), quatorze (14), quinze (15), dezesseis (16), dezessete (17), dezoito (18), dezenove (19), vinte (20). From 21 to 29: vinte e um, vinte e dois, etc.",
+    "ar": "أحد عشر (11)، اثنا عشر (12)، ثلاثة عشر (13)، أربعة عشر (14)، خمسة عشر (15)، ستة عشر (16)، سبعة عشر (17)، ثمانية عشر (18)، تسعة عشر (19)، عشرون (20). من 21 إلى 29: vinte e um، vinte e dois، إلخ."
+   },
+   "examples": [
+    {
+     "es": "Yo tengo veinticinco años.",
+     "en": "I am twenty-five years old.",
+     "ar": "عمري خمسة وعشرون عامًا."
+    },
+    {
+     "es": "El café cuesta siete euros.",
+     "en": "The coffee costs seven reais.",
+     "ar": "سعر القهوة سبعة ريالات."
+    },
+    {
+     "es": "Mi número es nueve, ocho, siete.",
+     "en": "My number is nine, eight, seven.",
+     "ar": "رقمي هو تسعة، ثمانية، سبعة."
+    }
+   ]
+  },
+  {
+   "title": {
+    "es": "Preguntando la Edad",
+    "en": "Asking Age",
+    "ar": "السؤال عن العمر"
+   },
+   "explanation": {
+    "es": "Para preguntar la edad: '¿Cuántos años tienes?' La respuesta: 'Tengo X años.' Se usa el verbo 'tener' (to have), no 'ser' (to be).",
+    "en": "To ask age: '¿Cuántos años tienes?' (How old are you?). The answer: 'Tengo X años.' The verb 'tener' (to have) is used, not 'ser' (to be).",
+    "ar": "للسؤال عن العمر: '¿Cuántos años tienes؟' (كم عمرك؟). الجواب: 'Tengo X años.' يُستخدم الفعل 'tener' (يملك) وليس 'ser' (يكون)."
+   },
+   "examples": [
+    {
+     "es": "¿Cuántos años tienes?",
+     "en": "How old are you?",
+     "ar": "كم عمرك؟"
+    },
+    {
+     "es": "Tengo treinta años.",
+     "en": "I am thirty years old.",
+     "ar": "عمري ثلاثون عامًا."
+    },
+    {
+     "es": "Ella tiene veinte años.",
+     "en": "She is twenty years old.",
+     "ar": "عمرها عشرون عامًا."
+    }
+   ]
+  }
+ ],
+ "dialogue": {
   "title": {
-    "es": "Números del 0 al 100",
-    "en": "Numbers 0 to 100",
-    "ar": "الأرقام من 0 إلى 100"
+   "es": "Comprando Café",
+   "en": "Buying Coffee",
+   "ar": "شراء القهوة"
   },
-  "objectives": [
-    {
-      "es": "Contar de 0 a 100 en español",
-      "en": "Count from 0 to 100 in Portuguese",
-      "ar": "العد من 0 إلى 100 بالبرتغالية"
-    },
-    {
-      "es": "Usar números en teléfonos y precios",
-      "en": "Use numbers in phones and prices",
-      "ar": "استخدام الأرقام في الهواتف والأسعار"
-    },
-    {
-      "es": "Preguntar la edad",
-      "en": "Ask someone's age",
-      "ar": "السؤال عن العمر"
-    }
-  ],
-  "vocabulary": [
-    {
-      "es": "cero",
-      "ipa": "/ˈseɾo/",
-      "en": "zero",
-      "ar": "صفر"
-    },
-    {
-      "es": "uno",
-      "ipa": "/ˈuno/",
-      "en": "one",
-      "ar": "واحد"
-    },
-    {
-      "es": "dos",
-      "ipa": "/ˈdos/",
-      "en": "two",
-      "ar": "اثنان"
-    },
-    {
-      "es": "tres",
-      "ipa": "/ˈtɾes/",
-      "en": "three",
-      "ar": "ثلاثة"
-    },
-    {
-      "es": "cuatro",
-      "ipa": "/ˈkuatɾo/",
-      "en": "four",
-      "ar": "أربعة"
-    },
-    {
-      "es": "cinco",
-      "ipa": "/ˈsinko/",
-      "en": "five",
-      "ar": "خمسة"
-    },
-    {
-      "es": "seis",
-      "ipa": "/ˈseis/",
-      "en": "six",
-      "ar": "ستة"
-    },
-    {
-      "es": "siete",
-      "ipa": "/ˈsiete/",
-      "en": "seven",
-      "ar": "سبعة"
-    },
-    {
-      "es": "ocho",
-      "ipa": "/ˈotʃo/",
-      "en": "eight",
-      "ar": "ثمانية"
-    },
-    {
-      "es": "nueve",
-      "ipa": "/ˈnueβe/",
-      "en": "nine",
-      "ar": "تسعة"
-    },
-    {
-      "es": "diez",
-      "ipa": "/ˈdies/",
-      "en": "ten",
-      "ar": "عشرة"
-    },
-    {
-      "es": "veinte",
-      "ipa": "/ˈbeinte/",
-      "en": "twenty",
-      "ar": "عشرون"
-    },
-    {
-      "es": "treinta",
-      "ipa": "/ˈtɾeinta/",
-      "en": "thirty",
-      "ar": "ثلاثون"
-    },
-    {
-      "es": "cien",
-      "ipa": "/ˈsien/",
-      "en": "one hundred",
-      "ar": "مئة"
-    },
-    {
-      "es": "la edad",
-      "ipa": "/ˈla eˈðað/",
-      "en": "the age",
-      "ar": "العمر"
-    },
-    {
-      "es": "el precio",
-      "ipa": "/ˈel ˈpɾesio/",
-      "en": "the price",
-      "ar": "السعر"
-    }
-  ],
-  "grammar": [
-    {
-      "title": {
-        "es": "Números 11-20",
-        "en": "Numbers 11-20",
-        "ar": "الأرقام من 11 إلى 20"
-      },
-      "explanation": {
-        "es": "Once (11), doce (12), trece (13), catorce (14), quince (15), dieciséis (16), diecisiete (17), dieciocho (18), diecinueve (19), veinte (20). Del 21 al 29: veintiuno, veintidós, etc.",
-        "en": "Onze (11), doze (12), treze (13), quatorze (14), quinze (15), dezesseis (16), dezessete (17), dezoito (18), dezenove (19), vinte (20). From 21 to 29: vinte e um, vinte e dois, etc.",
-        "ar": "أحد عشر (11)، اثنا عشر (12)، ثلاثة عشر (13)، أربعة عشر (14)، خمسة عشر (15)، ستة عشر (16)، سبعة عشر (17)، ثمانية عشر (18)، تسعة عشر (19)، عشرون (20). من 21 إلى 29: vinte e um، vinte e dois، إلخ."
-      },
-      "examples": [
-        {
-          "es": "Yo tengo veinticinco años.",
-          "en": "I am twenty-five years old.",
-          "ar": "عمري خمسة وعشرون عامًا."
-        },
-        {
-          "es": "El café cuesta siete euros.",
-          "en": "The coffee costs seven reais.",
-          "ar": "سعر القهوة سبعة ريالات."
-        },
-        {
-          "es": "Mi número es nueve, ocho, siete.",
-          "en": "My number is nine, eight, seven.",
-          "ar": "رقمي هو تسعة، ثمانية، سبعة."
-        }
-      ]
-    },
-    {
-      "title": {
-        "es": "Preguntando la Edad",
-        "en": "Asking Age",
-        "ar": "السؤال عن العمر"
-      },
-      "explanation": {
-        "es": "Para preguntar la edad: '¿Cuántos años tienes?' La respuesta: 'Tengo X años.' Se usa el verbo 'tener' (to have), no 'ser' (to be).",
-        "en": "To ask age: 'Quantos anos você tem?' (How old are you?). The answer: 'Eu tenho X anos.' (I am X years old.) The verb 'ter' (to have) is used, not 'ser' (to be).",
-        "ar": "للسؤال عن العمر: 'Quantos anos você tem?' (كم عمرك؟). الجواب: 'Eu tenho X anos.' (عمري X سنة). يُستخدم الفعل 'ter' (يملك) وليس 'ser' (يكون)."
-      },
-      "examples": [
-        {
-          "es": "¿Cuántos años tienes?",
-          "en": "How old are you?",
-          "ar": "كم عمرك؟"
-        },
-        {
-          "es": "Tengo treinta años.",
-          "en": "I am thirty years old.",
-          "ar": "عمري ثلاثون عامًا."
-        },
-        {
-          "es": "Ella tiene veinte años.",
-          "en": "She is twenty years old.",
-          "ar": "عمرها عشرون عامًا."
-        }
-      ]
-    }
-  ],
-  "dialogue": {
-    "title": {
-      "es": "Comprando Café",
-      "en": "Buying Coffee",
-      "ar": "شراء القهوة"
-    },
-    "lines": [
-      {
-        "speaker": "Cliente",
-        "es": "¡Buenos días! Un café, por favor.",
-        "en": "Good morning! A coffee, please.",
-        "ar": "صباح الخير! فنجان قهوة، من فضلك."
-      },
-      {
-        "speaker": "Camarero",
-        "es": "¡Buenos días! Son siete euros.",
-        "en": "Good morning! It's seven reais.",
-        "ar": "صباح الخير! سبعة ريالات."
-      },
-      {
-        "speaker": "Cliente",
-        "es": "Aquí tiene diez euros.",
-        "en": "Here is ten reais.",
-        "ar": "ها هي عشرة ريالات."
-      },
-      {
-        "speaker": "Camarero",
-        "es": "Y el cambio son tres euros. ¡Gracias!",
-        "en": "And the change is three reais. Thank you!",
-        "ar": "والباقي ثلاثة ريالات. شكرًا!"
-      },
-      {
-        "speaker": "Cliente",
-        "es": "De nada. ¡Hasta luego!",
-        "en": "You're welcome. See you later!",
-        "ar": "عفوًا. أراك لاحقًا!"
-      }
-    ]
-  },
-  "reading": {
-    "title": {
-      "es": "Números en el Día a Día",
-      "en": "Numbers in Daily Life",
-      "ar": "الأرقام في الحياة اليومية"
-    },
-    "text_es": "Los números son muy importantes. En la panadería, el pan cuesta cinco euros. El autobús número veinte va al centro. Su teléfono es 9876-5432. Hoy ella tiene veinticinco años y está muy feliz.",
-    "text_en": "Numbers are very important. At the bakery, the bread costs five reais. Bus number twenty goes downtown. Her phone number is 9876-5432. Today she is twenty-five years old and is very happy.",
-    "text_ar": "الأرقام مهمة جدًا. في المخبز، سعر الخبز خمسة ريالات. الحافلة رقم عشرين تذهب إلى المركز. رقم هاتفها 9876-5432. اليوم عمرها خمسة وعشرون عامًا وهي سعيدة جدًا."
-  },
-  "exercises": [
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "¿Cómo se dice 15 en español?",
-        "en": "How do you say 15 in Portuguese?",
-        "ar": "كيف تقول 15 بالبرتغالية؟"
-      },
-      "options": [
-        {
-          "es": "catorce",
-          "en": "quatorze",
-          "ar": "quatorze"
-        },
-        {
-          "es": "quince",
-          "en": "quinze",
-          "ar": "quinze"
-        },
-        {
-          "es": "dieciséis",
-          "en": "dezesseis",
-          "ar": "dezesseis"
-        }
-      ],
-      "answer": "quince",
-      "explanation": {
-        "es": "15 es 'quince'.",
-        "en": "15 is 'quinze'.",
-        "ar": "15 هي 'quinze'."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "¿Cuántos años tienes? - Yo ___ veinte años.",
-        "en": "How old are you? - I ___ twenty years old.",
-        "ar": "كم عمرك؟ - عمري عشرون عامًا."
-      },
-      "options": [
-        {
-          "es": "soy",
-          "en": "sou",
-          "ar": "sou"
-        },
-        {
-          "es": "tengo",
-          "en": "tenho",
-          "ar": "tenho"
-        },
-        {
-          "es": "estoy",
-          "en": "estou",
-          "ar": "estou"
-        }
-      ],
-      "answer": "tengo",
-      "explanation": {
-        "es": "Usamos 'tener' para la edad: 'yo tengo'.",
-        "en": "We use 'ter' for age: 'eu tenho'.",
-        "ar": "نستخدم 'ter' للعمر: 'eu tenho'."
-      }
-    },
-    {
-      "type": "translation",
-      "prompt": {
-        "es": "Traduce: 'one hundred'",
-        "en": "Translate: 'one hundred'",
-        "ar": "ترجم: 'one hundred'"
-      },
-      "options": [],
-      "answer": "cien",
-      "explanation": {
-        "es": "'Cien' significa one hundred.",
-        "en": "'cem' means one hundred.",
-        "ar": "'cem' تعني مئة."
-      }
-    }
+  "lines": [
+   {
+    "speaker": "Cliente",
+    "es": "¡Buenos días! Un café, por favor.",
+    "en": "Good morning! A coffee, please.",
+    "ar": "صباح الخير! فنجان قهوة، من فضلك."
+   },
+   {
+    "speaker": "Camarero",
+    "es": "¡Buenos días! Son siete euros.",
+    "en": "Good morning! It's seven reais.",
+    "ar": "صباح الخير! سبعة ريالات."
+   },
+   {
+    "speaker": "Cliente",
+    "es": "Aquí tiene diez euros.",
+    "en": "Here is ten reais.",
+    "ar": "ها هي عشرة ريالات."
+   },
+   {
+    "speaker": "Camarero",
+    "es": "Y el cambio son tres euros. ¡Gracias!",
+    "en": "And the change is three reais. Thank you!",
+    "ar": "والباقي ثلاثة ريالات. شكرًا!"
+   },
+   {
+    "speaker": "Cliente",
+    "es": "De nada. ¡Hasta luego!",
+    "en": "You're welcome. See you later!",
+    "ar": "عفوًا. أراك لاحقًا!"
+   }
   ]
+ },
+ "reading": {
+  "title": {
+   "es": "Números en el Día a Día",
+   "en": "Numbers in Daily Life",
+   "ar": "الأرقام في الحياة اليومية"
+  },
+  "text_es": "Los números son muy importantes. En la panadería, el pan cuesta cinco euros. El autobús número veinte va al centro. Su teléfono es 9876-5432. Hoy ella tiene veinticinco años y está muy feliz.",
+  "text_en": "Numbers are very important. At the bakery, the bread costs five reais. Bus number twenty goes downtown. Her phone number is 9876-5432. Today she is twenty-five years old and is very happy.",
+  "text_ar": "الأرقام مهمة جدًا. في المخبز، سعر الخبز خمسة ريالات. الحافلة رقم عشرين تذهب إلى المركز. رقم هاتفها 9876-5432. اليوم عمرها خمسة وعشرون عامًا وهي سعيدة جدًا."
+ },
+ "exercises": [
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "¿Cómo se dice 15 en español?",
+    "en": "How do you say 15 in Portuguese?",
+    "ar": "كيف تقول 15 بالبرتغالية؟"
+   },
+   "options": [
+    {
+     "es": "catorce",
+     "en": "quatorze",
+     "ar": "quatorze"
+    },
+    {
+     "es": "quince",
+     "en": "quinze",
+     "ar": "quinze"
+    },
+    {
+     "es": "dieciséis",
+     "en": "dezesseis",
+     "ar": "dezesseis"
+    }
+   ],
+   "answer": "quince",
+   "explanation": {
+    "es": "15 es 'quince'.",
+    "en": "15 is 'quinze'.",
+    "ar": "15 هي 'quinze'."
+   }
+  },
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "¿Cuántos años tienes? - Yo ___ veinte años.",
+    "en": "How old are you? - I ___ twenty years old.",
+    "ar": "كم عمرك؟ - عمري عشرون عامًا."
+   },
+   "options": [
+    {
+     "es": "soy",
+     "en": "sou",
+     "ar": "sou"
+    },
+    {
+     "es": "tengo",
+     "en": "I have",
+     "ar": "لديّ"
+    },
+    {
+     "es": "estoy",
+     "en": "I am",
+     "ar": "أنا"
+    }
+   ],
+   "answer": "tengo",
+   "explanation": {
+    "es": "Usamos 'tener' para la edad: 'yo tengo'.",
+    "en": "We use 'tener' for age: 'yo tengo'.",
+    "ar": "نستخدم 'tener' للعمر: 'yo tengo'."
+   }
+  },
+  {
+   "type": "translation",
+   "prompt": {
+    "es": "Traduce: 'one hundred'",
+    "en": "Translate: 'one hundred'",
+    "ar": "ترجم: 'one hundred'"
+   },
+   "options": [],
+   "answer": "cien",
+   "explanation": {
+    "es": "'Cien' significa one hundred.",
+    "en": "'cem' means one hundred.",
+    "ar": "'cem' تعني مئة."
+   }
+  }
+ ]
 }

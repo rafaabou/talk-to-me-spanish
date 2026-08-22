@@ -1,327 +1,327 @@
 {
-  "id": "C1-06",
-  "level": "C1",
-  "level_name": {
-    "es": "Avanzado",
-    "en": "Advanced",
-    "ar": "متقدم"
+ "id": "C1-06",
+ "level": "C1",
+ "level_name": {
+  "es": "Avanzado",
+  "en": "Advanced",
+  "ar": "متقدم"
+ },
+ "title": {
+  "es": "Música y Cultura Popular",
+  "en": "Music and Popular Culture",
+  "ar": "الموسيقى والثقافة الشعبية"
+ },
+ "objectives": [
+  {
+   "es": "Comprender la letra y el ritmo de canciones hispánicas",
+   "en": "Understand the lyrics and rhythm of Brazilian songs",
+   "ar": "فهم كلمات وإيقاع الأغاني البرازيلية"
   },
+  {
+   "es": "Reconocer las figuras retóricas en la música",
+   "en": "Recognize figures of speech in music",
+   "ar": "التعرف على الصور البلاغية في الموسيقى"
+  },
+  {
+   "es": "Hablar sobre géneros y cultura popular",
+   "en": "Talk about genres and popular culture",
+   "ar": "التحدث عن الأنواع الموسيقية والثقافة الشعبية"
+  }
+ ],
+ "vocabulary": [
+  {
+   "es": "la música",
+   "ipa": "/ˈla ˈmusika/",
+   "en": "the music",
+   "ar": "الموسيقى"
+  },
+  {
+   "es": "la letra",
+   "ipa": "/ˈla ˈletɾa/",
+   "en": "the lyrics",
+   "ar": "كلمات الأغنية"
+  },
+  {
+   "es": "el ritmo",
+   "ipa": "/ˈel ˈritmo/",
+   "en": "the rhythm",
+   "ar": "الإيقاع"
+  },
+  {
+   "es": "el samba",
+   "ipa": "/ˈel ˈsamba/",
+   "en": "the samba",
+   "ar": "السامبا"
+  },
+  {
+   "es": "la bossa nova",
+   "ipa": "/ˈla ˈbossa ˈnoβa/",
+   "en": "bossa nova",
+   "ar": "البوسا نوفا"
+  },
+  {
+   "es": "el forró",
+   "ipa": "/ˈel foˈro/",
+   "en": "forró (northeastern genre)",
+   "ar": "الفورو (نوع شمال شرقي)"
+  },
+  {
+   "es": "el funk carioca",
+   "ipa": "/ˈel ˈfunk kaˈɾioka/",
+   "en": "funk carioca",
+   "ar": "الفانك الكاريوكي"
+  },
+  {
+   "es": "la música sertaneja",
+   "ipa": "/ˈla ˈmusika seɾtaˈnexa/",
+   "en": "sertanejo (country music)",
+   "ar": "السيرتانيجو (الموسيقى الريفية)"
+  },
+  {
+   "es": "la MPB",
+   "ipa": "/ˈla ˈmpb/",
+   "en": "Brazilian Popular Music",
+   "ar": "الموسيقى الشعبية البرازيلية"
+  },
+  {
+   "es": "el cantante",
+   "ipa": "/ˈel kaˈntante/",
+   "en": "the singer",
+   "ar": "المغني"
+  },
+  {
+   "es": "la guitarra",
+   "ipa": "/ˈla giˈtara/",
+   "en": "the acoustic guitar",
+   "ar": "الجيتار الأكوستيك"
+  },
+  {
+   "es": "el estribillo",
+   "ipa": "/ˈel estɾiˈβiʝo/",
+   "en": "the chorus",
+   "ar": "اللازمة"
+  },
+  {
+   "es": "la melodía",
+   "ipa": "/ˈla meloˈðia/",
+   "en": "the melody",
+   "ar": "اللحن"
+  },
+  {
+   "es": "la estrofa",
+   "ipa": "/ˈla eˈstɾofa/",
+   "en": "the verse, stanza",
+   "ar": "المقطع"
+  },
+  {
+   "es": "la cultura popular",
+   "ipa": "/ˈla kuˈltuɾa popuˈlaɾ/",
+   "en": "popular culture",
+   "ar": "الثقافة الشعبية"
+  },
+  {
+   "es": "la presentación",
+   "ipa": "/ˈla pɾesentaˈsion/",
+   "en": "the performance",
+   "ar": "العرض، الأداء"
+  }
+ ],
+ "grammar": [
+  {
+   "title": {
+    "es": "Colocación Pronominal en la Música",
+    "en": "Pronoun Placement in Music",
+    "ar": "موضع الضمائر في الموسيقى"
+   },
+   "explanation": {
+    "es": "En la música y en la poesía, la colocación pronominal obedece al ritmo y al énfasis. El pronombre átono normalmente precede al verbo: 'no me digas', 'ya te dije'. La elección depende del efecto estético y del registro.",
+    "en": "In music and poetry, pronoun placement follows rhythm and emphasis. The unstressed pronoun normally goes before the verb: 'no me digas', 'ya te dije'. The choice depends on aesthetic effect and register.",
+    "ar": "في الموسيقى والشعر يخضع موضع الضمائر للإيقاع والتوكيد. عادةً يسبق الضمير غير المنبور الفعل: 'no me digas'، 'ya te dije'. والاختيار يعتمد على الأثر الجمالي ومستوى اللغة."
+   },
+   "examples": [
+    {
+     "es": "No me digas que olvidaste la letra.",
+     "en": "Don't tell me you forgot the lyrics.",
+     "ar": "لا تقل لي إنك نسيت الكلمات."
+    },
+    {
+     "es": "Ya te he dicho mil veces esa melodía.",
+     "en": "I already told you this melody a thousand times.",
+     "ar": "سبق أن أخبرتك بهذا اللحن ألف مرة."
+    },
+    {
+     "es": "Ella me dijo que la canción era nuestra.",
+     "en": "She told me the song was ours.",
+     "ar": "قالت لي إن الأغنية كانت لنا."
+    },
+    {
+     "es": "Ahora me acuerdo del estribillo entero.",
+     "en": "Now I remember the whole chorus.",
+     "ar": "الآن أتذكر اللازمة كاملة."
+    }
+   ]
+  },
+  {
+   "title": {
+    "es": "Metáforas y Personificación en la Letra",
+    "en": "Metaphors and Personification in Lyrics",
+    "ar": "الاستعارات والتشخيص في الكلمات"
+   },
+   "explanation": {
+    "es": "Las letras hispánicas usan metáforas (comparación implícita) y personificación (dar cualidades humanas a cosas) para crear emoción. 'El mar llora' da al mar la capacidad de llorar; 'la nostalgia vive en el pecho' trata la nostalgia como algo que habita un lugar. Estas figuras hacen la lengua poética y marcante.",
+    "en": "Brazilian lyrics use metaphors (implicit comparison) and personification (giving human qualities to things) to create emotion. 'O mar chora' (the sea cries) gives the sea the ability to cry; 'a saudade mora no peito' (the longing lives in the chest) treats longing as something that dwells in a place. These figures make the language poetic and striking.",
+    "ar": "تستخدم الكلمات البرازيلية الاستعارات (تشبيه ضمني) والتشخيص (إعطاء صفات بشرية للأشياء) لإيجاد العاطفة. فجملة 'O mar chora' (البحر يبكي) تمنح البحر القدرة على البكاء، وجملة 'a saudade mora no peito' (الشوق يسكن الصدر) تعامل الشوق كشيء يقطن مكانًا. هذه الصور تجعل اللغة شاعرية ومؤثرة."
+   },
+   "examples": [
+    {
+     "es": "El mar llora cuando te vas.",
+     "en": "The sea cries when you go away.",
+     "ar": "البحر يبكي عندما ترحل."
+    },
+    {
+     "es": "Mi corazón baila al ritmo del samba.",
+     "en": "My heart dances to the rhythm of the samba.",
+     "ar": "قلبي يرقص على إيقاع السامبا."
+    },
+    {
+     "es": "La nostalgia vive en el pecho de quien ama.",
+     "en": "Longing lives in the chest of those who love.",
+     "ar": "الشوق يسكن صدر من يحب."
+    },
+    {
+     "es": "El tiempo corre sin pedir permiso.",
+     "en": "Time runs by without asking permission.",
+     "ar": "الزمن يمضي دون استئذان."
+    }
+   ]
+  }
+ ],
+ "dialogue": {
   "title": {
-    "es": "Música y Cultura Popular",
-    "en": "Music and Popular Culture",
-    "ar": "الموسيقى والثقافة الشعبية"
+   "es": "La Playlist Perfecta",
+   "en": "The Perfect Playlist",
+   "ar": "قائمة التشغيل المثالية"
   },
-  "objectives": [
-    {
-      "es": "Comprender la letra y el ritmo de canciones hispánicas",
-      "en": "Understand the lyrics and rhythm of Brazilian songs",
-      "ar": "فهم كلمات وإيقاع الأغاني البرازيلية"
-    },
-    {
-      "es": "Reconocer las figuras retóricas en la música",
-      "en": "Recognize figures of speech in music",
-      "ar": "التعرف على الصور البلاغية في الموسيقى"
-    },
-    {
-      "es": "Hablar sobre géneros y cultura popular",
-      "en": "Talk about genres and popular culture",
-      "ar": "التحدث عن الأنواع الموسيقية والثقافة الشعبية"
-    }
-  ],
-  "vocabulary": [
-    {
-      "es": "la música",
-      "ipa": "/ˈla ˈmusika/",
-      "en": "the music",
-      "ar": "الموسيقى"
-    },
-    {
-      "es": "la letra",
-      "ipa": "/ˈla ˈletɾa/",
-      "en": "the lyrics",
-      "ar": "كلمات الأغنية"
-    },
-    {
-      "es": "el ritmo",
-      "ipa": "/ˈel ˈritmo/",
-      "en": "the rhythm",
-      "ar": "الإيقاع"
-    },
-    {
-      "es": "el samba",
-      "ipa": "/ˈel ˈsamba/",
-      "en": "the samba",
-      "ar": "السامبا"
-    },
-    {
-      "es": "la bossa nova",
-      "ipa": "/ˈla ˈbossa ˈnoβa/",
-      "en": "bossa nova",
-      "ar": "البوسا نوفا"
-    },
-    {
-      "es": "el forró",
-      "ipa": "/ˈel foˈro/",
-      "en": "forró (northeastern genre)",
-      "ar": "الفورو (نوع شمال شرقي)"
-    },
-    {
-      "es": "el funk carioca",
-      "ipa": "/ˈel ˈfunk kaˈɾioka/",
-      "en": "funk carioca",
-      "ar": "الفانك الكاريوكي"
-    },
-    {
-      "es": "la música sertaneja",
-      "ipa": "/ˈla ˈmusika seɾtaˈnexa/",
-      "en": "sertanejo (country music)",
-      "ar": "السيرتانيجو (الموسيقى الريفية)"
-    },
-    {
-      "es": "la MPB",
-      "ipa": "/ˈla ˈmpb/",
-      "en": "Brazilian Popular Music",
-      "ar": "الموسيقى الشعبية البرازيلية"
-    },
-    {
-      "es": "el cantante",
-      "ipa": "/ˈel kaˈntante/",
-      "en": "the singer",
-      "ar": "المغني"
-    },
-    {
-      "es": "la guitarra",
-      "ipa": "/ˈla giˈtara/",
-      "en": "the acoustic guitar",
-      "ar": "الجيتار الأكوستيك"
-    },
-    {
-      "es": "el estribillo",
-      "ipa": "/ˈel estɾiˈβiʝo/",
-      "en": "the chorus",
-      "ar": "اللازمة"
-    },
-    {
-      "es": "la melodía",
-      "ipa": "/ˈla meloˈðia/",
-      "en": "the melody",
-      "ar": "اللحن"
-    },
-    {
-      "es": "la estrofa",
-      "ipa": "/ˈla eˈstɾofa/",
-      "en": "the verse, stanza",
-      "ar": "المقطع"
-    },
-    {
-      "es": "la cultura popular",
-      "ipa": "/ˈla kuˈltuɾa popuˈlaɾ/",
-      "en": "popular culture",
-      "ar": "الثقافة الشعبية"
-    },
-    {
-      "es": "la presentación",
-      "ipa": "/ˈla pɾesentaˈsion/",
-      "en": "the performance",
-      "ar": "العرض، الأداء"
-    }
-  ],
-  "grammar": [
-    {
-      "title": {
-        "es": "Colocación Pronominal en la Música",
-        "en": "Pronoun Placement in Music",
-        "ar": "موضع الضمائر في الموسيقى"
-      },
-      "explanation": {
-        "es": "En la música y en la poesía, la colocación pronominal obedece al ritmo y al énfasis. El pronombre átono normalmente precede al verbo: 'no me digas', 'ya te dije'. La elección depende del efecto estético y del registro.",
-        "en": "In music and poetry, pronoun placement follows rhythm and emphasis. Proclisis (pronoun before the verb) is common after adverbs and negative words: 'não me diga' (don't tell me), 'já te falei' (I already told you). In lyrics, enclisis also appears: 'disse-me ela' (she told me). The choice depends on aesthetic effect and register.",
-        "ar": "في الموسيقى والشعر، يخضع موضع الضمائر للإيقاع والتوكيد. يكثر تقدم الضمير (الاستباق) بعد الظروف وأدوات النفي: 'não me diga' (لا تقل لي)، 'já te falei' (سبق أن أخبرتك). كما يظهر إلحاق الضمير بالفعل في الكلمات: 'disse-me ela'. والاختيار يعتمد على الأثر الجمالي والمستوى اللغوي."
-      },
-      "examples": [
-        {
-          "es": "No me digas que olvidaste la letra.",
-          "en": "Don't tell me you forgot the lyrics.",
-          "ar": "لا تقل لي إنك نسيت الكلمات."
-        },
-        {
-          "es": "Ya te he dicho mil veces esa melodía.",
-          "en": "I already told you this melody a thousand times.",
-          "ar": "سبق أن أخبرتك بهذا اللحن ألف مرة."
-        },
-        {
-          "es": "Ella me dijo que la canción era nuestra.",
-          "en": "She told me the song was ours.",
-          "ar": "قالت لي إن الأغنية كانت لنا."
-        },
-        {
-          "es": "Ahora me acuerdo del estribillo entero.",
-          "en": "Now I remember the whole chorus.",
-          "ar": "الآن أتذكر اللازمة كاملة."
-        }
-      ]
-    },
-    {
-      "title": {
-        "es": "Metáforas y Personificación en la Letra",
-        "en": "Metaphors and Personification in Lyrics",
-        "ar": "الاستعارات والتشخيص في الكلمات"
-      },
-      "explanation": {
-        "es": "Las letras hispánicas usan metáforas (comparación implícita) y personificación (dar cualidades humanas a cosas) para crear emoción. 'El mar llora' da al mar la capacidad de llorar; 'la nostalgia vive en el pecho' trata la nostalgia como algo que habita un lugar. Estas figuras hacen la lengua poética y marcante.",
-        "en": "Brazilian lyrics use metaphors (implicit comparison) and personification (giving human qualities to things) to create emotion. 'O mar chora' (the sea cries) gives the sea the ability to cry; 'a saudade mora no peito' (the longing lives in the chest) treats longing as something that dwells in a place. These figures make the language poetic and striking.",
-        "ar": "تستخدم الكلمات البرازيلية الاستعارات (تشبيه ضمني) والتشخيص (إعطاء صفات بشرية للأشياء) لإيجاد العاطفة. فجملة 'O mar chora' (البحر يبكي) تمنح البحر القدرة على البكاء، وجملة 'a saudade mora no peito' (الشوق يسكن الصدر) تعامل الشوق كشيء يقطن مكانًا. هذه الصور تجعل اللغة شاعرية ومؤثرة."
-      },
-      "examples": [
-        {
-          "es": "El mar llora cuando te vas.",
-          "en": "The sea cries when you go away.",
-          "ar": "البحر يبكي عندما ترحل."
-        },
-        {
-          "es": "Mi corazón baila al ritmo del samba.",
-          "en": "My heart dances to the rhythm of the samba.",
-          "ar": "قلبي يرقص على إيقاع السامبا."
-        },
-        {
-          "es": "La nostalgia vive en el pecho de quien ama.",
-          "en": "Longing lives in the chest of those who love.",
-          "ar": "الشوق يسكن صدر من يحب."
-        },
-        {
-          "es": "El tiempo corre sin pedir permiso.",
-          "en": "Time runs by without asking permission.",
-          "ar": "الزمن يمضي دون استئذان."
-        }
-      ]
-    }
-  ],
-  "dialogue": {
-    "title": {
-      "es": "La Playlist Perfecta",
-      "en": "The Perfect Playlist",
-      "ar": "قائمة التشغيل المثالية"
-    },
-    "lines": [
-      {
-        "speaker": "Bía",
-        "es": "Esa canción de bossa nova tiene una melodía que me calma.",
-        "en": "This bossa nova song has a melody that calms me.",
-        "ar": "هذه الأغنية من البوسا نوفا لها لحن يهدئني."
-      },
-      {
-        "speaker": "Caio",
-        "es": "Ya te dije que el forró es mi pasión en la fiesta.",
-        "en": "I already told you that forró is my passion at the party.",
-        "ar": "سبق أن أخبرتك أن الفورو هو شغفي في الحفلة."
-      },
-      {
-        "speaker": "Bía",
-        "es": "¡No me digas! ¿Y el estribillo de la música sertaneja, lo cantas?",
-        "en": "Don't tell me! And the sertanejo chorus, do you sing it?",
-        "ar": "لا تقل لي! وهل تغني لازمة السيرتانيجو؟"
-      },
-      {
-        "speaker": "Caio",
-        "es": "Canto la estrofa entera, pero desafino en la última parte.",
-        "en": "I sing the whole verse, but I go off-key in the last part.",
-        "ar": "أغني المقطع كاملًا، لكن أخرج عن اللحن في الجزء الأخير."
-      },
-      {
-        "speaker": "Bía",
-        "es": "Entonces deja la letra conmigo y el ritmo contigo.",
-        "en": "Then leave the lyrics to me and the rhythm to you.",
-        "ar": "إذن اترك الكلمات لي والإيقاع لك."
-      }
-    ]
-  },
-  "reading": {
-    "title": {
-      "es": "El Sonido de España",
-      "en": "The Sound of Brazil",
-      "ar": "صوت البرازيل"
-    },
-    "text_es": "La música hispánica es un espejo de la cultura popular: la salsa habla del cotidiano, el flamenco intensifica los versos y el reguetón anima la fiesta. Cada ritmo lleva una historia de resistencia y alegría. Quien escucha con atención percibe que la letra es tan importante como la melodía.",
-    "text_en": "Brazilian music is a mirror of popular culture: the samba speaks of daily life, bossa nova softens the verses and forró enlivens the hinterland. Each rhythm carries a story of resistance and joy. Those who listen carefully realize that the lyrics are as important as the melody.",
-    "text_ar": "الموسيقى البرازيلية مرآة للثقافة الشعبية: السامبا تتحدث عن الحياة اليومية، والبوسا نوفا تُنعم الأبيات، والفورو يضفي الحيوية على الريف البرازيلي. يحمل كل إيقاع قصة مقاومة وفرح. ومن يستمع بانتباه يدرك أن الكلمات لا تقل أهمية عن اللحن."
-  },
-  "exercises": [
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "En 'La nostalgia vive en el pecho', ¿qué figura retórica aparece?",
-        "en": "In 'A saudade mora no peito', which figure of speech appears?",
-        "ar": "في عبارة 'A saudade mora no peito'، ما الصورة البلاغية الظاهرة؟"
-      },
-      "options": [
-        {
-          "es": "Metáfora y personificación",
-          "en": "Metaphor and personification",
-          "ar": "استعارة وتشخيص"
-        },
-        {
-          "es": "Hipérbole",
-          "en": "Hyperbole",
-          "ar": "مبالغة"
-        },
-        {
-          "es": "Onomatopeya",
-          "en": "Onomatopoeia",
-          "ar": "محاكاة صوتية"
-        }
-      ],
-      "answer": "Metáfora y personificación",
-      "explanation": {
-        "es": "La nostalgia 'vive', como una persona: hay personificación y comparación implícita (metáfora).",
-        "en": "Longing 'lives' like a person: personification and implicit comparison (metaphor).",
-        "ar": "الشوق «يسكن» كأنه إنسان: تشخيص وتشبيه ضمني (استعارة)."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "¿Qué género habla del nordeste brasileño y usa acordeón?",
-        "en": "Which genre speaks of the northeastern hinterland and uses the accordion?",
-        "ar": "أي نوع موسيقي يتحدث عن ريف الشمال الشرقي ويستخدم الأكورديون؟"
-      },
-      "options": [
-        {
-          "es": "Bossa nova",
-          "en": "Bossa nova",
-          "ar": "البوسا نوفا"
-        },
-        {
-          "es": "Forró",
-          "en": "Forró",
-          "ar": "الفورو"
-        },
-        {
-          "es": "Funk carioca",
-          "en": "Funk carioca",
-          "ar": "الفانك الكاريوكي"
-        }
-      ],
-      "answer": "Forró",
-      "explanation": {
-        "es": "El forró es típico del noreste brasileño y usa acordeón, tambor y triángulo.",
-        "en": "Forró is typical of the Northeast and uses accordion, bass drum and triangle.",
-        "ar": "الفورو نمط نموذجي من الشمال الشرقي ويستخدم الأكورديون والطبل والمثلث."
-      }
-    },
-    {
-      "type": "translation",
-      "prompt": {
-        "es": "Traduce: 'This samba chorus is full of metaphors about love.'",
-        "en": "Translate: 'This samba chorus is full of metaphors about love.'",
-        "ar": "ترجم: 'This samba chorus is full of metaphors about love.'"
-      },
-      "options": [],
-      "answer": "Este estribillo de samba está lleno de metáforas sobre el amor.",
-      "explanation": {
-        "es": "'Estribillo' es chorus; 'metáforas sobre el amor' es about love.",
-        "en": "'Refrão' is chorus; 'metáforas sobre o amor' is metaphors about love.",
-        "ar": "'refrão' هي اللازمة، و'metáforas sobre o amor' تعني استعارات عن الحب."
-      }
-    }
+  "lines": [
+   {
+    "speaker": "Bía",
+    "es": "Esa canción de bossa nova tiene una melodía que me calma.",
+    "en": "This bossa nova song has a melody that calms me.",
+    "ar": "هذه الأغنية من البوسا نوفا لها لحن يهدئني."
+   },
+   {
+    "speaker": "Caio",
+    "es": "Ya te dije que el forró es mi pasión en la fiesta.",
+    "en": "I already told you that forró is my passion at the party.",
+    "ar": "سبق أن أخبرتك أن الفورو هو شغفي في الحفلة."
+   },
+   {
+    "speaker": "Bía",
+    "es": "¡No me digas! ¿Y el estribillo de la música sertaneja, lo cantas?",
+    "en": "Don't tell me! And the sertanejo chorus, do you sing it?",
+    "ar": "لا تقل لي! وهل تغني لازمة السيرتانيجو؟"
+   },
+   {
+    "speaker": "Caio",
+    "es": "Canto la estrofa entera, pero desafino en la última parte.",
+    "en": "I sing the whole verse, but I go off-key in the last part.",
+    "ar": "أغني المقطع كاملًا، لكن أخرج عن اللحن في الجزء الأخير."
+   },
+   {
+    "speaker": "Bía",
+    "es": "Entonces deja la letra conmigo y el ritmo contigo.",
+    "en": "Then leave the lyrics to me and the rhythm to you.",
+    "ar": "إذن اترك الكلمات لي والإيقاع لك."
+   }
   ]
+ },
+ "reading": {
+  "title": {
+   "es": "El Sonido de España",
+   "en": "The Sound of Brazil",
+   "ar": "صوت البرازيل"
+  },
+  "text_es": "La música hispánica es un espejo de la cultura popular: la salsa habla del cotidiano, el flamenco intensifica los versos y el reguetón anima la fiesta. Cada ritmo lleva una historia de resistencia y alegría. Quien escucha con atención percibe que la letra es tan importante como la melodía.",
+  "text_en": "Brazilian music is a mirror of popular culture: the samba speaks of daily life, bossa nova softens the verses and forró enlivens the hinterland. Each rhythm carries a story of resistance and joy. Those who listen carefully realize that the lyrics are as important as the melody.",
+  "text_ar": "الموسيقى البرازيلية مرآة للثقافة الشعبية: السامبا تتحدث عن الحياة اليومية، والبوسا نوفا تُنعم الأبيات، والفورو يضفي الحيوية على الريف البرازيلي. يحمل كل إيقاع قصة مقاومة وفرح. ومن يستمع بانتباه يدرك أن الكلمات لا تقل أهمية عن اللحن."
+ },
+ "exercises": [
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "En 'La nostalgia vive en el pecho', ¿qué figura retórica aparece?",
+    "en": "In 'A saudade mora no peito', which figure of speech appears?",
+    "ar": "في عبارة 'A saudade mora no peito'، ما الصورة البلاغية الظاهرة؟"
+   },
+   "options": [
+    {
+     "es": "Metáfora y personificación",
+     "en": "Metaphor and personification",
+     "ar": "استعارة وتشخيص"
+    },
+    {
+     "es": "Hipérbole",
+     "en": "Hyperbole",
+     "ar": "مبالغة"
+    },
+    {
+     "es": "Onomatopeya",
+     "en": "Onomatopoeia",
+     "ar": "محاكاة صوتية"
+    }
+   ],
+   "answer": "Metáfora y personificación",
+   "explanation": {
+    "es": "La nostalgia 'vive', como una persona: hay personificación y comparación implícita (metáfora).",
+    "en": "Longing 'lives' like a person: personification and implicit comparison (metaphor).",
+    "ar": "الشوق «يسكن» كأنه إنسان: تشخيص وتشبيه ضمني (استعارة)."
+   }
+  },
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "¿Qué género habla del nordeste brasileño y usa acordeón?",
+    "en": "Which genre speaks of the northeastern hinterland and uses the accordion?",
+    "ar": "أي نوع موسيقي يتحدث عن ريف الشمال الشرقي ويستخدم الأكورديون؟"
+   },
+   "options": [
+    {
+     "es": "Bossa nova",
+     "en": "Bossa nova",
+     "ar": "البوسا نوفا"
+    },
+    {
+     "es": "Forró",
+     "en": "Forró",
+     "ar": "الفورو"
+    },
+    {
+     "es": "Funk carioca",
+     "en": "Funk carioca",
+     "ar": "الفانك الكاريوكي"
+    }
+   ],
+   "answer": "Forró",
+   "explanation": {
+    "es": "El forró es típico del noreste brasileño y usa acordeón, tambor y triángulo.",
+    "en": "Forró is typical of the Northeast and uses accordion, bass drum and triangle.",
+    "ar": "الفورو نمط نموذجي من الشمال الشرقي ويستخدم الأكورديون والطبل والمثلث."
+   }
+  },
+  {
+   "type": "translation",
+   "prompt": {
+    "es": "Traduce: 'This samba chorus is full of metaphors about love.'",
+    "en": "Translate: 'This samba chorus is full of metaphors about love.'",
+    "ar": "ترجم: 'This samba chorus is full of metaphors about love.'"
+   },
+   "options": [],
+   "answer": "Este estribillo de samba está lleno de metáforas sobre el amor.",
+   "explanation": {
+    "es": "'Estribillo' es chorus; 'metáforas sobre el amor' es about love.",
+    "en": "'Refrão' is chorus; 'metáforas sobre o amor' is metaphors about love.",
+    "ar": "'refrão' هي اللازمة، و'metáforas sobre o amor' تعني استعارات عن الحب."
+   }
+  }
+ ]
 }

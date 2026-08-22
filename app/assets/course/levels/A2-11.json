@@ -1,335 +1,335 @@
 {
-  "id": "A2-11",
-  "level": "A2",
-  "level_name": {
-    "es": "Básico",
-    "en": "Elementary",
-    "ar": "أساسي"
+ "id": "A2-11",
+ "level": "A2",
+ "level_name": {
+  "es": "Básico",
+  "en": "Elementary",
+  "ar": "أساسي"
+ },
+ "title": {
+  "es": "Pasado Continuo (Pretérito Imperfecto)",
+  "en": "Past Continuous (Imperfect)",
+  "ar": "الماضي المستمر"
+ },
+ "objectives": [
+  {
+   "es": "Formar el pretérito imperfecto (hábitos en el pasado)",
+   "en": "Form the past imperfect (habits in the past)",
+   "ar": "تكوين زمن الماضي الناقص (العادات في الماضي)"
   },
+  {
+   "es": "Describir escenas y rutinas antiguas",
+   "en": "Describe old scenes and routines",
+   "ar": "وصف المشاهد والروتين القديم"
+  },
+  {
+   "es": "Contar historias de la infancia",
+   "en": "Tell childhood stories",
+   "ar": "سرد قصص الطفولة"
+  }
+ ],
+ "vocabulary": [
+  {
+   "es": "antes",
+   "ipa": "/ˈantes/",
+   "en": "before",
+   "ar": "قبل"
+  },
+  {
+   "es": "cuando",
+   "ipa": "/ˈkuando/",
+   "en": "when",
+   "ar": "عندما"
+  },
+  {
+   "es": "siempre",
+   "ipa": "/ˈsiempɾe/",
+   "en": "always",
+   "ar": "دائمًا"
+  },
+  {
+   "es": "antiguamente",
+   "ipa": "/antiɣuaˈmente/",
+   "en": "in the past",
+   "ar": "قديمًا"
+  },
+  {
+   "es": "de vez en cuando",
+   "ipa": "/ˈde ˈbes ˈen ˈkuando/",
+   "en": "sometimes / from time to time",
+   "ar": "من حين لآخر"
+  },
+  {
+   "es": "todos los días",
+   "ipa": "/ˈtoðos ˈlos ˈdias/",
+   "en": "every day",
+   "ar": "كل يوم"
+  },
+  {
+   "es": "jugar",
+   "ipa": "/xuˈɣaɾ/",
+   "en": "to play",
+   "ar": "يلعب"
+  },
+  {
+   "es": "vivir",
+   "ipa": "/biˈβiɾ/",
+   "en": "to live / to reside",
+   "ar": "يسكن"
+  },
+  {
+   "es": "soñar",
+   "ipa": "/soˈɲaɾ/",
+   "en": "to dream",
+   "ar": "يحلم"
+  },
+  {
+   "es": "recordar",
+   "ipa": "/rekoˈɾdaɾ/",
+   "en": "to remember",
+   "ar": "يتذكر"
+  },
+  {
+   "es": "la infancia",
+   "ipa": "/ˈla iˈnfansia/",
+   "en": "the childhood",
+   "ar": "الطفولة"
+  },
+  {
+   "es": "el niño",
+   "ipa": "/ˈel ˈniɲo/",
+   "en": "the child",
+   "ar": "الطفل"
+  },
+  {
+   "es": "la escuela",
+   "ipa": "/ˈla eˈskuela/",
+   "en": "the school",
+   "ar": "المدرسة"
+  },
+  {
+   "es": "jugar",
+   "ipa": "/xuˈɣaɾ/",
+   "en": "to play (a game)",
+   "ar": "يلعب"
+  },
+  {
+   "es": "leer",
+   "ipa": "/ˈleeɾ/",
+   "en": "to read",
+   "ar": "يقرأ"
+  },
+  {
+   "es": "contar",
+   "ipa": "/koˈntaɾ/",
+   "en": "to tell",
+   "ar": "يحكي"
+  },
+  {
+   "es": "el vecino",
+   "ipa": "/ˈel beˈsino/",
+   "en": "the neighbor",
+   "ar": "الجار"
+  },
+  {
+   "es": "la fiesta",
+   "ipa": "/ˈla ˈfiesta/",
+   "en": "the party",
+   "ar": "الحفلة"
+  }
+ ],
+ "grammar": [
+  {
+   "title": {
+    "es": "Pretérito Imperfecto (-ar)",
+    "en": "Past Imperfect (-ar)",
+    "ar": "الماضي الناقص (الأفعال المنتهية بـ -ar)"
+   },
+   "explanation": {
+    "es": "El pretérito imperfecto describe hábitos, acciones continuas y escenarios en el pasado. Verbos en -ar: yo hablaba, tú hablabas, nosotros hablábamos, ellos hablaban. Ejemplo: 'Cuando era niño, jugaba en la calle todos los días.'",
+    "en": "The imperfect tense describes habits, ongoing actions and scenes in the past. -ar verbs: yo hablaba, tú hablabas, nosotros hablábamos, ellos hablaban. Example: 'Cuando era niño, jugaba en la calle todos los días.' (When I was a child, I played in the street every day.)",
+    "ar": "الماضي الاستمراري يصف العادات والأفعال المستمرة والمشاهد في الماضي. الأفعال المنتهية بـ -ar: yo hablaba، tú hablabas، nosotros hablábamos، ellos hablaban. مثال: 'Cuando era niño, jugaba en la calle todos los días.' (عندما كنت طفلًا كنت ألعب في الشارع كل يوم.)"
+   },
+   "examples": [
+    {
+     "es": "Antiguamente, vivíamos en el interior.",
+     "en": "In the past, we lived in the countryside.",
+     "ar": "قديمًا، كنا نسكن في الريف."
+    },
+    {
+     "es": "Estudiaba inglés todos los días.",
+     "en": "I studied English every day.",
+     "ar": "كنت أدرس الإنجليزية كل يوم."
+    },
+    {
+     "es": "Ella trabajaba en un banco.",
+     "en": "She worked at a bank.",
+     "ar": "كانت تعمل في أحد البنوك."
+    }
+   ]
+  },
+  {
+   "title": {
+    "es": "Pretérito Imperfecto (-er/-ir) e Irregulares",
+    "en": "Past Imperfect (-er/-ir) and Irregular Verbs",
+    "ar": "الماضي الناقص (الأفعال المنتهية بـ -er/-ir) والأفعال الشاذة"
+   },
+   "explanation": {
+    "es": "Verbos en -er/-ir: yo comía, tú comías, nosotros comíamos, ellos comían; yo abría, tú abrías, nosotros abríamos. Irregulares: ser (era, éramos), tener (tenía, teníamos), estar (estaba), ir (iba, íbamos). Ejemplo: 'Tenía diez años e iba a la escuela a pie.'",
+    "en": "-er/-ir verbs: yo comía, tú comías, nosotros comíamos, ellos comían; yo abría, tú abrías, nosotros abríamos. Irregulars: ser (era, éramos), tener (tenía, teníamos), estar (estaba), ir (iba, íbamos). Example: 'Tenía diez años e iba a la escuela a pie.' (He was ten years old and walked to school.)",
+    "ar": "الأفعال المنتهية بـ -er/-ir: yo comía، tú comías، nosotros comíamos، ellos comían؛ yo abría، tú abrías، nosotros abríamos. الشواذ: ser (era، éramos)، tener (tenía، teníamos)، estar (estaba)، ir (iba، íbamos). مثال: 'Tenía diez años e iba a la escuela a pie.' (كان عمره عشر سنوات وكان يذهب إلى المدرسة مشيًا.)"
+   },
+   "examples": [
+    {
+     "es": "Cuando era niño, tenía un perro.",
+     "en": "When I was a child, I had a dog.",
+     "ar": "عندما كنت طفلًا، كان لدي كلب."
+    },
+    {
+     "es": "Íbamos a la playa de vez en cuando.",
+     "en": "We went to the beach from time to time.",
+     "ar": "كنا نذهب إلى الشاطئ من حين لآخر."
+    },
+    {
+     "es": "Ella siempre contaba historias divertidas.",
+     "en": "She always told funny stories.",
+     "ar": "كانت تحكي دائمًا قصصًا مضحكة."
+    }
+   ]
+  }
+ ],
+ "dialogue": {
   "title": {
-    "es": "Pasado Continuo (Pretérito Imperfecto)",
-    "en": "Past Continuous (Imperfect)",
-    "ar": "الماضي المستمر"
+   "es": "Los Recuerdos de la Abuela",
+   "en": "Grandma's Memories",
+   "ar": "ذكريات الجدة"
   },
-  "objectives": [
-    {
-      "es": "Formar el pretérito imperfecto (hábitos en el pasado)",
-      "en": "Form the past imperfect (habits in the past)",
-      "ar": "تكوين زمن الماضي الناقص (العادات في الماضي)"
-    },
-    {
-      "es": "Describir escenas y rutinas antiguas",
-      "en": "Describe old scenes and routines",
-      "ar": "وصف المشاهد والروتين القديم"
-    },
-    {
-      "es": "Contar historias de la infancia",
-      "en": "Tell childhood stories",
-      "ar": "سرد قصص الطفولة"
-    }
-  ],
-  "vocabulary": [
-    {
-      "es": "antes",
-      "ipa": "/ˈantes/",
-      "en": "before",
-      "ar": "قبل"
-    },
-    {
-      "es": "cuando",
-      "ipa": "/ˈkuando/",
-      "en": "when",
-      "ar": "عندما"
-    },
-    {
-      "es": "siempre",
-      "ipa": "/ˈsiempɾe/",
-      "en": "always",
-      "ar": "دائمًا"
-    },
-    {
-      "es": "antiguamente",
-      "ipa": "/antiɣuaˈmente/",
-      "en": "in the past",
-      "ar": "قديمًا"
-    },
-    {
-      "es": "de vez en cuando",
-      "ipa": "/ˈde ˈbes ˈen ˈkuando/",
-      "en": "sometimes / from time to time",
-      "ar": "من حين لآخر"
-    },
-    {
-      "es": "todos los días",
-      "ipa": "/ˈtoðos ˈlos ˈdias/",
-      "en": "every day",
-      "ar": "كل يوم"
-    },
-    {
-      "es": "jugar",
-      "ipa": "/xuˈɣaɾ/",
-      "en": "to play",
-      "ar": "يلعب"
-    },
-    {
-      "es": "vivir",
-      "ipa": "/biˈβiɾ/",
-      "en": "to live / to reside",
-      "ar": "يسكن"
-    },
-    {
-      "es": "soñar",
-      "ipa": "/soˈɲaɾ/",
-      "en": "to dream",
-      "ar": "يحلم"
-    },
-    {
-      "es": "recordar",
-      "ipa": "/rekoˈɾdaɾ/",
-      "en": "to remember",
-      "ar": "يتذكر"
-    },
-    {
-      "es": "la infancia",
-      "ipa": "/ˈla iˈnfansia/",
-      "en": "the childhood",
-      "ar": "الطفولة"
-    },
-    {
-      "es": "el niño",
-      "ipa": "/ˈel ˈniɲo/",
-      "en": "the child",
-      "ar": "الطفل"
-    },
-    {
-      "es": "la escuela",
-      "ipa": "/ˈla eˈskuela/",
-      "en": "the school",
-      "ar": "المدرسة"
-    },
-    {
-      "es": "jugar",
-      "ipa": "/xuˈɣaɾ/",
-      "en": "to play (a game)",
-      "ar": "يلعب"
-    },
-    {
-      "es": "leer",
-      "ipa": "/ˈleeɾ/",
-      "en": "to read",
-      "ar": "يقرأ"
-    },
-    {
-      "es": "contar",
-      "ipa": "/koˈntaɾ/",
-      "en": "to tell",
-      "ar": "يحكي"
-    },
-    {
-      "es": "el vecino",
-      "ipa": "/ˈel beˈsino/",
-      "en": "the neighbor",
-      "ar": "الجار"
-    },
-    {
-      "es": "la fiesta",
-      "ipa": "/ˈla ˈfiesta/",
-      "en": "the party",
-      "ar": "الحفلة"
-    }
-  ],
-  "grammar": [
-    {
-      "title": {
-        "es": "Pretérito Imperfecto (-ar)",
-        "en": "Past Imperfect (-ar)",
-        "ar": "الماضي الناقص (الأفعال المنتهية بـ -ar)"
-      },
-      "explanation": {
-        "es": "El pretérito imperfecto describe hábitos, acciones continuas y escenarios en el pasado. Verbos en -ar: yo hablaba, tú hablabas, nosotros hablábamos, ellos hablaban. Ejemplo: 'Cuando era niño, jugaba en la calle todos los días.'",
-        "en": "The past imperfect describes habits, continuous actions and scenes in the past. -ar verbs: eu falava, você falava, nós falávamos, vocês falavam. Example: 'Quando eu era criança, eu brincava na rua todos os dias.' (When I was a child, I played in the street every day.)",
-        "ar": "الماضي الناقص يصف العادات والأفعال المستمرة والمشاهد في الماضي. الأفعال المنتهية بـ -ar: eu falava، você falava، nós falávamos، vocês falavam. مثال: 'Quando eu era criança, eu brincava na rua todos os dias.' (عندما كنت طفلًا، كنت ألعب في الشارع كل يوم.)"
-      },
-      "examples": [
-        {
-          "es": "Antiguamente, vivíamos en el interior.",
-          "en": "In the past, we lived in the countryside.",
-          "ar": "قديمًا، كنا نسكن في الريف."
-        },
-        {
-          "es": "Estudiaba inglés todos los días.",
-          "en": "I studied English every day.",
-          "ar": "كنت أدرس الإنجليزية كل يوم."
-        },
-        {
-          "es": "Ella trabajaba en un banco.",
-          "en": "She worked at a bank.",
-          "ar": "كانت تعمل في أحد البنوك."
-        }
-      ]
-    },
-    {
-      "title": {
-        "es": "Pretérito Imperfecto (-er/-ir) e Irregulares",
-        "en": "Past Imperfect (-er/-ir) and Irregular Verbs",
-        "ar": "الماضي الناقص (الأفعال المنتهية بـ -er/-ir) والأفعال الشاذة"
-      },
-      "explanation": {
-        "es": "Verbos en -er/-ir: yo comía, tú comías, nosotros comíamos, ellos comían; yo abría, tú abrías, nosotros abríamos. Irregulares: ser (era, éramos), tener (tenía, teníamos), estar (estaba), ir (iba, íbamos). Ejemplo: 'Tenía diez años e iba a la escuela a pie.'",
-        "en": "-er/-ir verbs: eu comia, você comia, nós comíamos, eles comiam; eu abria, você abria, nós abríamos. Irregulars: ser (era, éramos), ter (tinha, tínhamos), estar (estava), ir (ia, íamos). Example: 'Ele tinha dez anos e ia à escola a pé.' (He was ten years old and walked to school.)",
-        "ar": "الأفعال المنتهية بـ -er/-ir: eu comia، você comia، nós comíamos، eles comiam؛ eu abria، você abria، nós abríamos. الأفعال الشاذة: ser (era، éramos)، ter (tinha، tínhamos)، estar (estava)، ir (ia، íamos). مثال: 'Ele tinha dez anos e ia à escola a pé.' (كان عمره عشر سنوات ويذهب إلى المدرسة مشيًا.)"
-      },
-      "examples": [
-        {
-          "es": "Cuando era niño, tenía un perro.",
-          "en": "When I was a child, I had a dog.",
-          "ar": "عندما كنت طفلًا، كان لدي كلب."
-        },
-        {
-          "es": "Íbamos a la playa de vez en cuando.",
-          "en": "We went to the beach from time to time.",
-          "ar": "كنا نذهب إلى الشاطئ من حين لآخر."
-        },
-        {
-          "es": "Ella siempre contaba historias divertidas.",
-          "en": "She always told funny stories.",
-          "ar": "كانت تحكي دائمًا قصصًا مضحكة."
-        }
-      ]
-    }
-  ],
-  "dialogue": {
-    "title": {
-      "es": "Los Recuerdos de la Abuela",
-      "en": "Grandma's Memories",
-      "ar": "ذكريات الجدة"
-    },
-    "lines": [
-      {
-        "speaker": "Abuela",
-        "es": "Cuando era niña, vivía en una granja.",
-        "en": "When I was a child, I lived on a farm.",
-        "ar": "عندما كنت طفلة، كنت أسكن في مزرعة."
-      },
-      {
-        "speaker": "Nieta",
-        "es": "¿Y cómo era tu rutina?",
-        "en": "And what was your routine like?",
-        "ar": "وكيف كان روتينك؟"
-      },
-      {
-        "speaker": "Abuela",
-        "es": "Me despertaba temprano, llevaba el café a mi padre y jugaba con mis hermanos.",
-        "en": "I woke up early, took coffee to my father and played with my brothers.",
-        "ar": "كنت أستيقظ مبكرًا، وأحمل القهوة لأبي وألعب مع إخوتي."
-      },
-      {
-        "speaker": "Nieta",
-        "es": "¿Tenían muchos animales?",
-        "en": "Did you have many animals?",
-        "ar": "هل كان لديكم حيوانات كثيرة؟"
-      },
-      {
-        "speaker": "Abuela",
-        "es": "¡Sí! Teníamos vacas, caballos y gallinas.",
-        "en": "Yes! We had cows, horses and chickens.",
-        "ar": "نعم! كان لدينا أبقار وخيول ودجاج."
-      },
-      {
-        "speaker": "Nieta",
-        "es": "¡Cuánto echo de menos aquel tiempo, abuela!",
-        "en": "How you miss those times, grandma!",
-        "ar": "كم تشتاقين إلى تلك الأيام يا جدتي!"
-      }
-    ]
-  },
-  "reading": {
-    "title": {
-      "es": "La Infancia de Mi Abuelo",
-      "en": "My Grandfather's Childhood",
-      "ar": "طفولة جدي"
-    },
-    "text_es": "Cuando era niño, mi abuelo vivía en un pequeño pueblo del interior. Todos los días iba a pie a la escuela y ayudaba a la familia en la plantación. Por la noche, leía historias a los hermanos y todos dormían temprano. Él dice que era una vida difícil, pero llena de alegría.",
-    "text_en": "As a child, my grandfather lived in a small town in the countryside. Every day, he walked to school and helped the family on the plantation. At night, he read stories to his brothers and everyone slept early. He says it was a hard life, but full of joy.",
-    "text_ar": "في طفولته، كان جدي يسكن في مدينة صغيرة في الريف. كل يوم، كان يمشي إلى المدرسة ويساعد العائلة في المزرعة. في الليل، كان يقرأ القصص لإخوته وكان الجميع ينامون مبكرًا. يقول إنها كانت حياة صعبة لكنها مليئة بالفرح."
-  },
-  "exercises": [
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "Cuando era niño, ___ en la calle. (jugar)",
-        "en": "When I was a child, I ___ in the street. (brincar)",
-        "ar": "عندما كنت طفلًا، ___ في الشارع. (brincar)"
-      },
-      "options": [
-        {
-          "es": "jugaba",
-          "en": "brincava",
-          "ar": "brincava"
-        },
-        {
-          "es": "juego",
-          "en": "brinco",
-          "ar": "brinco"
-        },
-        {
-          "es": "jugué",
-          "en": "brinquei",
-          "ar": "brinquei"
-        }
-      ],
-      "answer": "jugaba",
-      "explanation": {
-        "es": "Hábito en el pasado = pretérito imperfecto: jugaba.",
-        "en": "Habit in the past = past imperfect: brincava.",
-        "ar": "العادة في الماضي = الماضي الناقص: brincava."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "Antiguamente, nosotros ___ en el interior. (vivir)",
-        "en": "In the past, we ___ in the countryside. (morar)",
-        "ar": "قديمًا، نحن ___ في الريف. (morar)"
-      },
-      "options": [
-        {
-          "es": "vivíamos",
-          "en": "morávamos",
-          "ar": "morávamos"
-        },
-        {
-          "es": "vivimos",
-          "en": "moramos",
-          "ar": "moramos"
-        },
-        {
-          "es": "viviremos",
-          "en": "moraremos",
-          "ar": "moraremos"
-        }
-      ],
-      "answer": "vivíamos",
-      "explanation": {
-        "es": "Descripción del pasado con 'nosotros': vivíamos.",
-        "en": "Description of the past with 'nós': morávamos.",
-        "ar": "وصف الماضي مع 'nós': morávamos."
-      }
-    },
-    {
-      "type": "translation",
-      "prompt": {
-        "es": "Traduce: 'when'",
-        "en": "Translate: 'when'",
-        "ar": "ترجم: 'when'"
-      },
-      "options": [],
-      "answer": "cuando",
-      "explanation": {
-        "es": "'Cuando' = when.",
-        "en": "'Quando' = when.",
-        "ar": "'quando' = عندما."
-      }
-    }
+  "lines": [
+   {
+    "speaker": "Abuela",
+    "es": "Cuando era niña, vivía en una granja.",
+    "en": "When I was a child, I lived on a farm.",
+    "ar": "عندما كنت طفلة، كنت أسكن في مزرعة."
+   },
+   {
+    "speaker": "Nieta",
+    "es": "¿Y cómo era tu rutina?",
+    "en": "And what was your routine like?",
+    "ar": "وكيف كان روتينك؟"
+   },
+   {
+    "speaker": "Abuela",
+    "es": "Me despertaba temprano, llevaba el café a mi padre y jugaba con mis hermanos.",
+    "en": "I woke up early, took coffee to my father and played with my brothers.",
+    "ar": "كنت أستيقظ مبكرًا، وأحمل القهوة لأبي وألعب مع إخوتي."
+   },
+   {
+    "speaker": "Nieta",
+    "es": "¿Tenían muchos animales?",
+    "en": "Did you have many animals?",
+    "ar": "هل كان لديكم حيوانات كثيرة؟"
+   },
+   {
+    "speaker": "Abuela",
+    "es": "¡Sí! Teníamos vacas, caballos y gallinas.",
+    "en": "Yes! We had cows, horses and chickens.",
+    "ar": "نعم! كان لدينا أبقار وخيول ودجاج."
+   },
+   {
+    "speaker": "Nieta",
+    "es": "¡Cuánto echo de menos aquel tiempo, abuela!",
+    "en": "How you miss those times, grandma!",
+    "ar": "كم تشتاقين إلى تلك الأيام يا جدتي!"
+   }
   ]
+ },
+ "reading": {
+  "title": {
+   "es": "La Infancia de Mi Abuelo",
+   "en": "My Grandfather's Childhood",
+   "ar": "طفولة جدي"
+  },
+  "text_es": "Cuando era niño, mi abuelo vivía en un pequeño pueblo del interior. Todos los días iba a pie a la escuela y ayudaba a la familia en la plantación. Por la noche, leía historias a los hermanos y todos dormían temprano. Él dice que era una vida difícil, pero llena de alegría.",
+  "text_en": "As a child, my grandfather lived in a small town in the countryside. Every day, he walked to school and helped the family on the plantation. At night, he read stories to his brothers and everyone slept early. He says it was a hard life, but full of joy.",
+  "text_ar": "في طفولته، كان جدي يسكن في مدينة صغيرة في الريف. كل يوم، كان يمشي إلى المدرسة ويساعد العائلة في المزرعة. في الليل، كان يقرأ القصص لإخوته وكان الجميع ينامون مبكرًا. يقول إنها كانت حياة صعبة لكنها مليئة بالفرح."
+ },
+ "exercises": [
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "Cuando era niño, ___ en la calle. (jugar)",
+    "en": "When I was a child, I ___ in the street. (brincar)",
+    "ar": "عندما كنت طفلًا، ___ في الشارع. (brincar)"
+   },
+   "options": [
+    {
+     "es": "jugaba",
+     "en": "brincava",
+     "ar": "brincava"
+    },
+    {
+     "es": "juego",
+     "en": "brinco",
+     "ar": "brinco"
+    },
+    {
+     "es": "jugué",
+     "en": "brinquei",
+     "ar": "brinquei"
+    }
+   ],
+   "answer": "jugaba",
+   "explanation": {
+    "es": "Hábito en el pasado = pretérito imperfecto: jugaba.",
+    "en": "Habit in the past = past imperfect: brincava.",
+    "ar": "العادة في الماضي = الماضي الناقص: brincava."
+   }
+  },
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "Antiguamente, nosotros ___ en el interior. (vivir)",
+    "en": "In the past, we ___ in the countryside. (morar)",
+    "ar": "قديمًا، نحن ___ في الريف. (morar)"
+   },
+   "options": [
+    {
+     "es": "vivíamos",
+     "en": "morávamos",
+     "ar": "morávamos"
+    },
+    {
+     "es": "vivimos",
+     "en": "moramos",
+     "ar": "moramos"
+    },
+    {
+     "es": "viviremos",
+     "en": "moraremos",
+     "ar": "moraremos"
+    }
+   ],
+   "answer": "vivíamos",
+   "explanation": {
+    "es": "Descripción del pasado con 'nosotros': vivíamos.",
+    "en": "Description of the past with 'nós': morávamos.",
+    "ar": "وصف الماضي مع 'nós': morávamos."
+   }
+  },
+  {
+   "type": "translation",
+   "prompt": {
+    "es": "Traduce: 'when'",
+    "en": "Translate: 'when'",
+    "ar": "ترجم: 'when'"
+   },
+   "options": [],
+   "answer": "cuando",
+   "explanation": {
+    "es": "'Cuando' = when.",
+    "en": "'Quando' = when.",
+    "ar": "'quando' = عندما."
+   }
+  }
+ ]
 }

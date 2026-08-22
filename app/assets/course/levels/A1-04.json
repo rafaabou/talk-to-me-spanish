@@ -1,323 +1,323 @@
 {
-  "id": "A1-04",
-  "level": "A1",
-  "level_name": {
-    "es": "Principiante",
-    "en": "Beginner",
-    "ar": "مبتدئ"
+ "id": "A1-04",
+ "level": "A1",
+ "level_name": {
+  "es": "Principiante",
+  "en": "Beginner",
+  "ar": "مبتدئ"
+ },
+ "title": {
+  "es": "Artículos y Sustantivos",
+  "en": "Articles and Nouns",
+  "ar": "أدوات التعريف والأسماء"
+ },
+ "objectives": [
+  {
+   "es": "Distinguir artículos definidos e indefinidos",
+   "en": "Distinguish definite and indefinite articles",
+   "ar": "التمييز بين أدوات التعريف والتنكير"
   },
+  {
+   "es": "Identificar el género de los sustantivos",
+   "en": "Identify the gender of nouns",
+   "ar": "تحديد جنس الأسماء"
+  },
+  {
+   "es": "Formar el plural de los sustantivos",
+   "en": "Form the plural of nouns",
+   "ar": "تكوين جمع الأسماء"
+  }
+ ],
+ "vocabulary": [
+  {
+   "es": "el libro",
+   "ipa": "/ˈel ˈliβɾo/",
+   "en": "the book",
+   "ar": "الكتاب"
+  },
+  {
+   "es": "la mesa",
+   "ipa": "/ˈla ˈmesa/",
+   "en": "the table",
+   "ar": "الطاولة"
+  },
+  {
+   "es": "el bolígrafo",
+   "ipa": "/ˈel boˈliɣɾafo/",
+   "en": "the pen",
+   "ar": "القلم"
+  },
+  {
+   "es": "el cuaderno",
+   "ipa": "/ˈel kuaˈðeɾno/",
+   "en": "the notebook",
+   "ar": "الدفتر"
+  },
+  {
+   "es": "la escuela",
+   "ipa": "/ˈla eˈskuela/",
+   "en": "the school",
+   "ar": "المدرسة"
+  },
+  {
+   "es": "el profesor",
+   "ipa": "/ˈel pɾofeˈsoɾ/",
+   "en": "the teacher (m)",
+   "ar": "المعلم"
+  },
+  {
+   "es": "la profesora",
+   "ipa": "/ˈla pɾofeˈsoɾa/",
+   "en": "the teacher (f)",
+   "ar": "المعلمة"
+  },
+  {
+   "es": "el alumno",
+   "ipa": "/ˈel aˈlumno/",
+   "en": "the student (m)",
+   "ar": "الطالب"
+  },
+  {
+   "es": "la alumna",
+   "ipa": "/ˈla aˈlumna/",
+   "en": "the student (f)",
+   "ar": "الطالبة"
+  },
+  {
+   "es": "la casa",
+   "ipa": "/ˈla ˈkasa/",
+   "en": "the house",
+   "ar": "المنزل"
+  },
+  {
+   "es": "el coche",
+   "ipa": "/ˈel ˈkotʃe/",
+   "en": "the car",
+   "ar": "السيارة"
+  },
+  {
+   "es": "la ciudad",
+   "ipa": "/ˈla siuˈðað/",
+   "en": "the city",
+   "ar": "المدينة"
+  },
+  {
+   "es": "el perro",
+   "ipa": "/ˈel ˈpero/",
+   "en": "the dog",
+   "ar": "الكلب"
+  },
+  {
+   "es": "uno",
+   "ipa": "/ˈuno/",
+   "en": "a (m)",
+   "ar": "أداة تنكير مذكر"
+  },
+  {
+   "es": "una",
+   "ipa": "/ˈuna/",
+   "en": "a (f)",
+   "ar": "أداة تنكير مؤنث"
+  },
+  {
+   "es": "los",
+   "ipa": "/ˈlos/",
+   "en": "the (m, pl)",
+   "ar": "ال (جمع مذكر)"
+  },
+  {
+   "es": "las",
+   "ipa": "/ˈlas/",
+   "en": "the (f, pl)",
+   "ar": "ال (جمع مؤنث)"
+  }
+ ],
+ "grammar": [
+  {
+   "title": {
+    "es": "Artículos Definidos",
+    "en": "Definite Articles",
+    "ar": "أدوات التعريف"
+   },
+   "explanation": {
+    "es": "Los artículos definidos son: el (masculino singular), la (femenino singular), los (masculino plural), las (femenino plural). Ejemplos: el libro, la casa, los libros, las casas. La mayoría de los sustantivos terminados en -o son masculinos y en -a femeninos.",
+    "en": "The definite articles are: o (masc. sing.), a (fem. sing.), os (masc. pl.), as (fem. pl.). Examples: o livro (the book), a casa (the house), os livros (the books), as casas (the houses). Most nouns ending in -o are masculine and -a are feminine.",
+    "ar": "أدوات التعريف هي: o (مذكر مفرد)، a (مؤنث مفرد)، os (مذكر جمع)، as (مؤنث جمع). أمثلة: o livro (الكتاب)، a casa (المنزل)، os livros (الكتب)، as casas (المنازل). معظم الأسماء المنتهية بـ -o مذكر والمنتهية بـ -a مؤنث."
+   },
+   "examples": [
+    {
+     "es": "El libro está sobre la mesa.",
+     "en": "The book is on the table.",
+     "ar": "الكتاب على الطاولة."
+    },
+    {
+     "es": "La profesora es muy buena.",
+     "en": "The teacher is very good.",
+     "ar": "المعلمة جيدة جدًا."
+    },
+    {
+     "es": "Los alumnos estudian español.",
+     "en": "The students study Portuguese.",
+     "ar": "يدرس الطلاب البرتغالية."
+    }
+   ]
+  },
+  {
+   "title": {
+    "es": "Formación del Plural",
+    "en": "Forming the Plural",
+    "ar": "تكوين الجمع"
+   },
+   "explanation": {
+    "es": "Los sustantivos terminados en vocal forman el plural con -s: libro → libros, casa → casas. Terminados en -r o -z: profesor → profesores, lápiz → lápices. Terminados en -s: mes → meses.",
+    "en": "Nouns ending in a vowel form the plural with -s: livro → livros (books), casa → casas (houses). Ending in -r or -s: professor → professores (teachers). Ending in -ão: cão → cães (dogs) (some: cidadão → cidadãos, pão → pães).",
+    "ar": "الأسماء المنتهية بحرف علة تجمع بإضافة -s: livro → livros (كتب)، casa → casas (منازل). المنتهية بـ -r أو -s: professor → professores (معلمون). المنتهية بـ -ão: cão → cães (كلاب) (وبعضها: cidadão → cidadãos، pão → pães)."
+   },
+   "examples": [
+    {
+     "es": "Un libro → dos libros",
+     "en": "One book → two books",
+     "ar": "كتاب واحد → كتابان"
+    },
+    {
+     "es": "Una casa → muchas casas",
+     "en": "One house → many houses",
+     "ar": "منزل واحد → منازل كثيرة"
+    },
+    {
+     "es": "El pan → los panes",
+     "en": "The bread → the breads",
+     "ar": "الخبز → الأرغفة"
+    }
+   ]
+  }
+ ],
+ "dialogue": {
   "title": {
-    "es": "Artículos y Sustantivos",
-    "en": "Articles and Nouns",
-    "ar": "أدوات التعريف والأسماء"
+   "es": "En el Aula",
+   "en": "In the Classroom",
+   "ar": "في الفصل الدراسي"
   },
-  "objectives": [
-    {
-      "es": "Distinguir artículos definidos e indefinidos",
-      "en": "Distinguish definite and indefinite articles",
-      "ar": "التمييز بين أدوات التعريف والتنكير"
-    },
-    {
-      "es": "Identificar el género de los sustantivos",
-      "en": "Identify the gender of nouns",
-      "ar": "تحديد جنس الأسماء"
-    },
-    {
-      "es": "Formar el plural de los sustantivos",
-      "en": "Form the plural of nouns",
-      "ar": "تكوين جمع الأسماء"
-    }
-  ],
-  "vocabulary": [
-    {
-      "es": "el libro",
-      "ipa": "/ˈel ˈliβɾo/",
-      "en": "the book",
-      "ar": "الكتاب"
-    },
-    {
-      "es": "la mesa",
-      "ipa": "/ˈla ˈmesa/",
-      "en": "the table",
-      "ar": "الطاولة"
-    },
-    {
-      "es": "el bolígrafo",
-      "ipa": "/ˈel boˈliɣɾafo/",
-      "en": "the pen",
-      "ar": "القلم"
-    },
-    {
-      "es": "el cuaderno",
-      "ipa": "/ˈel kuaˈðeɾno/",
-      "en": "the notebook",
-      "ar": "الدفتر"
-    },
-    {
-      "es": "la escuela",
-      "ipa": "/ˈla eˈskuela/",
-      "en": "the school",
-      "ar": "المدرسة"
-    },
-    {
-      "es": "el profesor",
-      "ipa": "/ˈel pɾofeˈsoɾ/",
-      "en": "the teacher (m)",
-      "ar": "المعلم"
-    },
-    {
-      "es": "la profesora",
-      "ipa": "/ˈla pɾofeˈsoɾa/",
-      "en": "the teacher (f)",
-      "ar": "المعلمة"
-    },
-    {
-      "es": "el alumno",
-      "ipa": "/ˈel aˈlumno/",
-      "en": "the student (m)",
-      "ar": "الطالب"
-    },
-    {
-      "es": "la alumna",
-      "ipa": "/ˈla aˈlumna/",
-      "en": "the student (f)",
-      "ar": "الطالبة"
-    },
-    {
-      "es": "la casa",
-      "ipa": "/ˈla ˈkasa/",
-      "en": "the house",
-      "ar": "المنزل"
-    },
-    {
-      "es": "el coche",
-      "ipa": "/ˈel ˈkotʃe/",
-      "en": "the car",
-      "ar": "السيارة"
-    },
-    {
-      "es": "la ciudad",
-      "ipa": "/ˈla siuˈðað/",
-      "en": "the city",
-      "ar": "المدينة"
-    },
-    {
-      "es": "el perro",
-      "ipa": "/ˈel ˈpero/",
-      "en": "the dog",
-      "ar": "الكلب"
-    },
-    {
-      "es": "uno",
-      "ipa": "/ˈuno/",
-      "en": "a (m)",
-      "ar": "أداة تنكير مذكر"
-    },
-    {
-      "es": "una",
-      "ipa": "/ˈuna/",
-      "en": "a (f)",
-      "ar": "أداة تنكير مؤنث"
-    },
-    {
-      "es": "los",
-      "ipa": "/ˈlos/",
-      "en": "the (m, pl)",
-      "ar": "ال (جمع مذكر)"
-    },
-    {
-      "es": "las",
-      "ipa": "/ˈlas/",
-      "en": "the (f, pl)",
-      "ar": "ال (جمع مؤنث)"
-    }
-  ],
-  "grammar": [
-    {
-      "title": {
-        "es": "Artículos Definidos",
-        "en": "Definite Articles",
-        "ar": "أدوات التعريف"
-      },
-      "explanation": {
-        "es": "Los artículos definidos son: el (masculino singular), la (femenino singular), los (masculino plural), las (femenino plural). Ejemplos: el libro, la casa, los libros, las casas. La mayoría de los sustantivos terminados en -o son masculinos y en -a femeninos.",
-        "en": "The definite articles are: o (masc. sing.), a (fem. sing.), os (masc. pl.), as (fem. pl.). Examples: o livro (the book), a casa (the house), os livros (the books), as casas (the houses). Most nouns ending in -o are masculine and -a are feminine.",
-        "ar": "أدوات التعريف هي: o (مذكر مفرد)، a (مؤنث مفرد)، os (مذكر جمع)، as (مؤنث جمع). أمثلة: o livro (الكتاب)، a casa (المنزل)، os livros (الكتب)، as casas (المنازل). معظم الأسماء المنتهية بـ -o مذكر والمنتهية بـ -a مؤنث."
-      },
-      "examples": [
-        {
-          "es": "El libro está sobre la mesa.",
-          "en": "The book is on the table.",
-          "ar": "الكتاب على الطاولة."
-        },
-        {
-          "es": "La profesora es muy buena.",
-          "en": "The teacher is very good.",
-          "ar": "المعلمة جيدة جدًا."
-        },
-        {
-          "es": "Los alumnos estudian español.",
-          "en": "The students study Portuguese.",
-          "ar": "يدرس الطلاب البرتغالية."
-        }
-      ]
-    },
-    {
-      "title": {
-        "es": "Formación del Plural",
-        "en": "Forming the Plural",
-        "ar": "تكوين الجمع"
-      },
-      "explanation": {
-        "es": "Los sustantivos terminados en vocal forman el plural con -s: libro → libros, casa → casas. Terminados en -r o -z: profesor → profesores, lápiz → lápices. Terminados en -s: mes → meses.",
-        "en": "Nouns ending in a vowel form the plural with -s: livro → livros (books), casa → casas (houses). Ending in -r or -s: professor → professores (teachers). Ending in -ão: cão → cães (dogs) (some: cidadão → cidadãos, pão → pães).",
-        "ar": "الأسماء المنتهية بحرف علة تجمع بإضافة -s: livro → livros (كتب)، casa → casas (منازل). المنتهية بـ -r أو -s: professor → professores (معلمون). المنتهية بـ -ão: cão → cães (كلاب) (وبعضها: cidadão → cidadãos، pão → pães)."
-      },
-      "examples": [
-        {
-          "es": "Un libro → dos libros",
-          "en": "One book → two books",
-          "ar": "كتاب واحد → كتابان"
-        },
-        {
-          "es": "Una casa → muchas casas",
-          "en": "One house → many houses",
-          "ar": "منزل واحد → منازل كثيرة"
-        },
-        {
-          "es": "El pan → los panes",
-          "en": "The bread → the breads",
-          "ar": "الخبز → الأرغفة"
-        }
-      ]
-    }
-  ],
-  "dialogue": {
-    "title": {
-      "es": "En el Aula",
-      "en": "In the Classroom",
-      "ar": "في الفصل الدراسي"
-    },
-    "lines": [
-      {
-        "speaker": "Profesora",
-        "es": "Abran los libros en la página diez.",
-        "en": "Open your books to page ten.",
-        "ar": "افتحوا الكتب في الصفحة عشرة."
-      },
-      {
-        "speaker": "Alumna",
-        "es": "Profesora, ¿dónde está mi bolígrafo?",
-        "en": "Teacher, where is my pen?",
-        "ar": "أستاذة، أين قلمي؟"
-      },
-      {
-        "speaker": "Profesora",
-        "es": "Está sobre la mesa, al lado del cuaderno.",
-        "en": "It's on the table, next to the notebook.",
-        "ar": "إنه على الطاولة، بجانب الدفتر."
-      },
-      {
-        "speaker": "Alumno",
-        "es": "¿Los ejercicios son para hoy?",
-        "en": "Are the exercises due today?",
-        "ar": "هل الواجبات لهذا اليوم؟"
-      },
-      {
-        "speaker": "Profesora",
-        "es": "Sí, los ejercicios de la página doce.",
-        "en": "Yes, the exercises on page twelve.",
-        "ar": "نعم، تمارين الصفحة اثني عشر."
-      }
-    ]
-  },
-  "reading": {
-    "title": {
-      "es": "Una Escuela en Latinoamérica",
-      "en": "A School in Brazil",
-      "ar": "مدرسة في البرازيل"
-    },
-    "text_es": "La escuela es grande. Los alumnos estudian en el aula diez. La profesora escribe en la pizarra con un bolígrafo. Los libros están en las mesas. El perro del portero espera en la puerta de la casa.",
-    "text_en": "The school is big. The students study in room ten. The teacher writes on the board with a pen. The books are on the desks. The doorman's dog waits at the house door.",
-    "text_ar": "المدرسة كبيرة. يدرس الطلاب في الغرفة عشرة. تكتب المعلمة على السبورة بقلم. الكتب على الطاولات. كلب الحارس ينتظر عند باب المنزل."
-  },
-  "exercises": [
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "¿Cuál es el artículo correcto para 'casa'?",
-        "en": "What is the correct article for 'casa'?",
-        "ar": "ما أداة التعريف الصحيحة لكلمة 'casa'؟"
-      },
-      "options": [
-        {
-          "es": "el",
-          "en": "o",
-          "ar": "o"
-        },
-        {
-          "es": "la",
-          "en": "a",
-          "ar": "a"
-        },
-        {
-          "es": "los",
-          "en": "os",
-          "ar": "os"
-        }
-      ],
-      "answer": "la",
-      "explanation": {
-        "es": "'Casa' es femenino: 'la casa'.",
-        "en": "'casa' is feminine: 'a casa'.",
-        "ar": "'casa' مؤنثة: 'a casa'."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "prompt": {
-        "es": "¿Cuál es el plural de 'libro'?",
-        "en": "What is the plural of 'livro'?",
-        "ar": "ما جمع كلمة 'livro'؟"
-      },
-      "options": [
-        {
-          "es": "libroes",
-          "en": "livroes",
-          "ar": "livroes"
-        },
-        {
-          "es": "libros",
-          "en": "livros",
-          "ar": "livros"
-        },
-        {
-          "es": "libres",
-          "en": "livres",
-          "ar": "livres"
-        }
-      ],
-      "answer": "libros",
-      "explanation": {
-        "es": "El plural es 'libros'.",
-        "en": "The plural is 'livros'.",
-        "ar": "الجمع هو 'livros'."
-      }
-    },
-    {
-      "type": "translation",
-      "prompt": {
-        "es": "Traduce: 'the teacher (f)'",
-        "en": "Translate: 'the teacher (f)'",
-        "ar": "ترجم: 'the teacher (f)'"
-      },
-      "options": [],
-      "answer": "la profesora",
-      "explanation": {
-        "es": "'La profesora' es femenino.",
-        "en": "'A professora' is feminine.",
-        "ar": "'A professora' مؤنثة."
-      }
-    }
+  "lines": [
+   {
+    "speaker": "Profesora",
+    "es": "Abran los libros en la página diez.",
+    "en": "Open your books to page ten.",
+    "ar": "افتحوا الكتب في الصفحة عشرة."
+   },
+   {
+    "speaker": "Alumna",
+    "es": "Profesora, ¿dónde está mi bolígrafo?",
+    "en": "Teacher, where is my pen?",
+    "ar": "أستاذة، أين قلمي؟"
+   },
+   {
+    "speaker": "Profesora",
+    "es": "Está sobre la mesa, al lado del cuaderno.",
+    "en": "It's on the table, next to the notebook.",
+    "ar": "إنه على الطاولة، بجانب الدفتر."
+   },
+   {
+    "speaker": "Alumno",
+    "es": "¿Los ejercicios son para hoy?",
+    "en": "Are the exercises due today?",
+    "ar": "هل الواجبات لهذا اليوم؟"
+   },
+   {
+    "speaker": "Profesora",
+    "es": "Sí, los ejercicios de la página doce.",
+    "en": "Yes, the exercises on page twelve.",
+    "ar": "نعم، تمارين الصفحة اثني عشر."
+   }
   ]
+ },
+ "reading": {
+  "title": {
+   "es": "Una Escuela en Latinoamérica",
+   "en": "A School in Latin America",
+   "ar": "مدرسة في أمريكا اللاتينية"
+  },
+  "text_es": "La escuela es grande. Los alumnos estudian en el aula diez. La profesora escribe en la pizarra con un bolígrafo. Los libros están en las mesas. El perro del portero espera en la puerta de la casa.",
+  "text_en": "The school is big. The students study in room ten. The teacher writes on the board with a pen. The books are on the desks. The doorman's dog waits at the house door.",
+  "text_ar": "المدرسة كبيرة. يدرس الطلاب في الغرفة عشرة. تكتب المعلمة على السبورة بقلم. الكتب على الطاولات. كلب الحارس ينتظر عند باب المنزل."
+ },
+ "exercises": [
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "¿Cuál es el artículo correcto para 'casa'?",
+    "en": "What is the correct article for 'casa'?",
+    "ar": "ما أداة التعريف الصحيحة لكلمة 'casa'؟"
+   },
+   "options": [
+    {
+     "es": "el",
+     "en": "o",
+     "ar": "o"
+    },
+    {
+     "es": "la",
+     "en": "a",
+     "ar": "a"
+    },
+    {
+     "es": "los",
+     "en": "os",
+     "ar": "os"
+    }
+   ],
+   "answer": "la",
+   "explanation": {
+    "es": "'Casa' es femenino: 'la casa'.",
+    "en": "'casa' is feminine: 'a casa'.",
+    "ar": "'casa' مؤنثة: 'a casa'."
+   }
+  },
+  {
+   "type": "multiple_choice",
+   "prompt": {
+    "es": "¿Cuál es el plural de 'libro'?",
+    "en": "What is the plural of 'livro'?",
+    "ar": "ما جمع كلمة 'livro'؟"
+   },
+   "options": [
+    {
+     "es": "libroes",
+     "en": "livroes",
+     "ar": "livroes"
+    },
+    {
+     "es": "libros",
+     "en": "livros",
+     "ar": "livros"
+    },
+    {
+     "es": "libres",
+     "en": "livres",
+     "ar": "livres"
+    }
+   ],
+   "answer": "libros",
+   "explanation": {
+    "es": "El plural es 'libros'.",
+    "en": "The plural is 'livros'.",
+    "ar": "الجمع هو 'livros'."
+   }
+  },
+  {
+   "type": "translation",
+   "prompt": {
+    "es": "Traduce: 'the teacher (f)'",
+    "en": "Translate: 'the teacher (f)'",
+    "ar": "ترجم: 'the teacher (f)'"
+   },
+   "options": [],
+   "answer": "la profesora",
+   "explanation": {
+    "es": "'La profesora' es femenino.",
+    "en": "'A professora' is feminine.",
+    "ar": "'A professora' مؤنثة."
+   }
+  }
+ ]
 }
