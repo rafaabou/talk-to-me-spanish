@@ -1,422 +1,327 @@
-name: Build Talk To Me Spanish
-
-on:
+'on':
   push:
-    branches: [dev]
+    branches:
+    - main
   pull_request:
-    branches: [dev]
+    branches:
+    - main
   workflow_dispatch:
     inputs:
       skip_security:
-        description: 'Skip security scans (emergency only)'
+        description: Skip security scans (emergency only)
         required: false
         default: 'false'
         type: boolean
-
 env:
-  FLUTTER_VERSION: '3.29.3'
+  FLUTTER_VERSION: 3.29.3
   JAVA_VERSION: '17'
-
 permissions:
   contents: read
   security-events: write
   packages: write
   id-token: write
   attestations: write
-
 jobs:
-  # =========================================================================
-  # STAGE 1: VALIDATE (Pre-build checks)
-  # =========================================================================
   validate:
     name: Validate Spanish App
-    runs-on: [self-hosted, linux, X64, spanish]
+    runs-on:
+    - self-hosted
+    - linux
+    - X64
+    - spanish
     timeout-minutes: 15
     defaults:
       run:
         working-directory: app
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          flutter-version: ${{ env.FLUTTER_VERSION }}
-          channel: stable
-          cache: true
-
-      - name: Setup Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: ${{ env.JAVA_VERSION }}
-          cache: gradle
-
-      # ── Format Check ─────────────────────────────────────────────
-      - name: Format Check
-        run: dart format --set-exit-if-changed --output=none .
-
-      # ── Static Analysis ──────────────────────────────────────────
-      - name: Static Analysis
-        run: |
-          flutter analyze --fatal-infos
-          flutter analyze --no-pub > analysis-report.txt 2>&1 || true
-
-      # ── Unit Tests ───────────────────────────────────────────────
-      - name: Unit Tests
-        run: flutter test
-
-      # ── License Check ────────────────────────────────────────────
-      - name: License Check
-        run: |
-          dart pub global activate license_checker
-          export PATH="$PATH:$HOME/.pub-cache/bin"
-          lic_ck check-licenses --config lic_ck.yaml || echo "License check completed with findings"
-
-      # ── Secret Scan (Gitleaks) ──────────────────────────────────
-      - name: Secret Scan (Gitleaks)
-        uses: gitleaks/gitleaks-action@v2
-        env:
-          GITLEAKS_ENABLE_UPLOAD_ARTIFACT: false
-
-      # ── Secret Scan (TruffleHog) ────────────────────────────────
-      - name: Secret Scan (TruffleHog)
-        uses: trufflesecurity/trufflehog@v3.97.0
-        with:
-          path: ./
-          extra_args: --results=verified
-
-      # ── Dependency Audit ────────────────────────────────────────
-      - name: Dependency Audit
-        run: |
-          flutter pub outdated --json > deps-outdated.json || true
-          cat deps-outdated.json
-
-      # ── Upload Validation Reports ──────────────────────────────
-      - name: Upload Validation Reports
-        continue-on-error: true
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: es-validation-reports
-          path: |
-            app/analysis-report.txt
-            app/deps-outdated.json
-          retention-days: 7
-
-  # =========================================================================
-  # STAGE 2: BUILD (Compile Spanish App)
-  # =========================================================================
-  build:
-    name: Build Spanish App
-    needs: validate
-    runs-on: [self-hosted, linux, X64, spanish]
-    timeout-minutes: 30
-    defaults:
-      run:
-        working-directory: app
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          flutter-version: ${{ env.FLUTTER_VERSION }}
-          channel: stable
-          cache: true
-
-      - name: Setup Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: ${{ env.JAVA_VERSION }}
-          cache: gradle
-
-      - name: Get Dependencies
-        run: flutter pub get --enforce-lockfile
-
-      - name: Install unzip
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq unzip > /dev/null 2>&1
-
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
-
-      - name: Accept Android Licenses
-        run: yes | sdkmanager --licenses > /dev/null 2>&1 || true
-
-      # ── Restore Release Keystore from Secret ────────────────────
-      - name: Restore Release Keystore
-        run: |
-          if [ -n "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" ]; then
-            echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.keystore
-            ls -la android/app/release.keystore
-          else
-            echo "RELEASE_KEYSTORE_BASE64 not set - generating ephemeral keystore"
-            keytool -genkeypair -v \
-              -keystore android/app/release.keystore \
-              -alias release \
-              -keyalg RSA -keysize 2048 -validity 10000 \
-              -storepass release123 -keypass release123 \
-              -dname "CN=Talk To Me Spanish, OU=DevOps, O=Mohamed Rafaa TOUNEKTI, L=Tunis, C=TN"
-          fi
-
-      # ── Build Spanish APK ───────────────────────────────────────
-      - name: Build Spanish Release APK
-        run: |
-          flutter build apk --release \
-            --obfuscate \
-            --split-debug-info=build/debug-info \
-            --target-platform android-arm64
-
-      # ── Verify Build Outputs ────────────────────────────────────
-      - name: Verify Build Outputs
-        run: |
-          ls -la build/app/outputs/flutter-apk/app-release.apk
-          SIZE=$(stat -c%s build/app/outputs/flutter-apk/app-release.apk)
-          echo "APK size: $SIZE bytes"
-          test "$SIZE" -gt 1000000 || exit 1
-
-      # ── Upload Build Artifacts ──────────────────────────────────
-      - name: Upload Release APK
-        uses: actions/upload-artifact@v4
-        with:
-          if-no-files-found: ignore
-          name: es-release-apk
-          path: app/build/app/outputs/flutter-apk/app-release.apk
-          retention-days: 7
-
-      - name: Upload Debug Symbols
-        continue-on-error: true
-        uses: actions/upload-artifact@v4
-        with:
-          if-no-files-found: ignore
-          name: es-debug-symbols
-          path: app/build/debug-info
-          retention-days: 7
-
-  # =========================================================================
-  # STAGE 3: SECURITY SCANS (Parallel)
-  # =========================================================================
-  security-scan:
-    name: Security Scans (Spanish)
-    needs: build
-    runs-on: [self-hosted, linux, X64, spanish]
-    timeout-minutes: 20
-    strategy:
-      fail-fast: false
-      matrix:
-        scanner: [grype, trivy]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      # ── Grype Vulnerability Scan ──────────────────────────────
-      - name: Generate SBOM (Syft)
-        if: matrix.scanner == 'grype'
-        uses: anchore/sbom-action@v0
-        with:
-          path: .
-          format: cyclonedx-json
-          output-file: sbom.cdx.json
-
-      - name: Vulnerability Scan (Grype)
-        if: matrix.scanner == 'grype'
-        uses: anchore/grype-action@v1
-        with:
-          path: sbom.cdx.json
-          fail-build: true
-          severity-cutoff: high
-          output: grype-report.json
-
-      - name: Upload Grype Report
-        if: matrix.scanner == 'grype'
-        continue-on-error: true
-        uses: actions/upload-artifact@v4
-        with:
-          if-no-files-found: ignore
-          name: es-grype-report
-          path: grype-report.json
-          retention-days: 30
-
-      # ── Trivy FS Scan ─────────────────────────────────────────
-      - name: Trivy FS Scan
-        if: matrix.scanner == 'trivy'
-        uses: aquasecurity/trivy-action@master
-        with:
-          scan-type: fs
-          scan-ref: .
-          format: sarif
-          output: trivy-results.sarif
-          severity: HIGH,CRITICAL
-          exit-code: '1'
-          ignore-unfixed: true
-
-      - name: Upload Trivy Results
-        if: matrix.scanner == 'trivy'
-        continue-on-error: true
-        uses: actions/upload-artifact@v4
-        with:
-          if-no-files-found: ignore
-          name: es-trivy-results
-          path: trivy-results.sarif
-          retention-days: 30
-
-    # =========================================================================
-  # STAGE 4: PACKAGE & RELEASE (GitHub Releases - bypasses artifact quota)
-# =========================================================================
-package:
-  name: Package & Release Spanish App
-  needs: [build, security-scan]
-  runs-on: [self-hosted, linux, X64, spanish]
-  timeout-minutes: 15
-  permissions:
-    contents: write
-    packages: write
-    id-token: write
-    attestations: write
-  steps:
-    - name: Checkout
+    - name: Checkout repository
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
-
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
       with:
         flutter-version: ${{ env.FLUTTER_VERSION }}
         channel: stable
         cache: true
-
     - name: Setup Java
       uses: actions/setup-java@v4
       with:
-        distribution: 'temurin'
+        distribution: temurin
         java-version: ${{ env.JAVA_VERSION }}
         cache: gradle
+    - name: Format Check
+      run: dart format --set-exit-if-changed --output=none .
+    - name: Static Analysis
+      run: 'flutter analyze --fatal-infos
 
-    - name: Setup Android SDK
-      uses: android-actions/setup-android@v3
+        flutter analyze --no-pub > analysis-report.txt 2>&1 || true'
+    - name: Unit Tests
+      run: flutter test
+    - name: License Check
+      run: 'dart pub global activate license_checker
 
-    - name: Accept Android Licenses
-      run: yes | sdkmanager --licenses > /dev/null 2>&1 || true
+        export PATH="$PATH:$HOME/.pub-cache/bin"
 
+        lic_ck check-licenses --config lic_ck.yaml || echo "License check completed with findings"'
+    - name: Secret Scan (Gitleaks)
+      uses: gitleaks/gitleaks-action@v2
+      env:
+        GITLEAKS_ENABLE_UPLOAD_ARTIFACT: 'false'
+    - name: Secret Scan (TruffleHog)
+      uses: trufflesecurity/trufflehog@v3.97.0
+      with:
+        path: ./
+        extra_args: --results=verified
+    - name: Dependency Audit
+      run: 'flutter pub outdated --json > deps-outdated.json || true
+
+        cat deps-outdated.json'
+    - name: Upload Validation Reports
+      continue-on-error: true
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: spanish-validation-reports
+        path: 'app/analysis-report.txt
+
+          app/deps-outdated.json'
+        retention-days: 7
+  build:
+    name: Build Spanish App
+    needs: validate
+    runs-on:
+    - self-hosted
+    - linux
+    - X64
+    - spanish
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: app
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: ${{ env.FLUTTER_VERSION }}
+        channel: stable
+        cache: true
+    - name: Setup Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: temurin
+        java-version: ${{ env.JAVA_VERSION }}
+        cache: gradle
+    - name: Get Dependencies
+      run: flutter pub get --enforce-lockfile
     - name: Install unzip
       run: sudo apt-get update -qq && sudo apt-get install -y -qq unzip > /dev/null 2>&1
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v3
+    - name: Accept Android Licenses
+      run: yes | sdkmanager --licenses > /dev/null 2>&1 || true
+    - name: Restore Release Keystore
+      run: "if [ -n \"${ secrets.RELEASE_KEYSTORE_BASE64 }\" ]; then\n  echo \"${ secrets.RELEASE_KEYSTORE_BASE64 }\" | base64\
+        \ -d > android/app/release.keystore\n  ls -la android/app/release.keystore\nelse\n  echo \"RELEASE_KEYSTORE_BASE64\
+        \ not set - generating ephemeral keystore\"\n  keytool -genkeypair -v \\\n    -keystore android/app/release.keystore\
+        \ \\\n    -alias release \\\n    -keyalg RSA -keysize 2048 -validity 10000 \\\n    -storepass release123 -keypass\
+        \ release123 \\\n    -dname \"CN=Talk To Me Espa\xF1ol, OU=DevOps, O=Mohamed Rafaa TOUNEKTI, L=Tunis, C=TN\"\nfi"
+    - name: Build Spanish Release APK
+      run: "flutter build apk --release \\\n  --obfuscate \\\n  --split-debug-info=build/debug-info \\\n  --target-platform\
+        \ android-arm64"
+    - name: Verify Build Outputs
+      run: 'ls -la build/app/outputs/flutter-apk/app-release.apk
 
+        SIZE=$(stat -c%s build/app/outputs/flutter-apk/app-release.apk)
+
+        echo "APK size: $SIZE bytes"
+
+        test "$SIZE" -gt 1000000 || exit 1'
+    - name: Upload Release APK
+      uses: actions/upload-artifact@v4
+      with:
+        if-no-files-found: ignore
+        name: spanish-release-apk
+        path: app/build/app/outputs/flutter-apk/app-release.apk
+        retention-days: 7
+    - name: Upload Debug Symbols
+      continue-on-error: true
+      uses: actions/upload-artifact@v4
+      with:
+        if-no-files-found: ignore
+        name: spanish-debug-symbols
+        path: app/build/debug-info
+        retention-days: 7
+  security-scan:
+    name: Security Scans (Spanish)
+    needs: build
+    runs-on:
+    - self-hosted
+    - linux
+    - X64
+    - spanish
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        scanner:
+        - grype
+        - trivy
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Generate SBOM (Syft)
+      if: matrix.scanner == 'grype'
+      uses: anchore/sbom-action@v0
+      with:
+        path: .
+        format: cyclonedx-json
+        output-file: sbom.cdx.json
+    - name: Vulnerability Scan (Grype)
+      if: matrix.scanner == 'grype'
+      uses: anchore/grype-action@v1
+      with:
+        path: sbom.cdx.json
+        fail-build: true
+        severity-cutoff: high
+        output: grype-report.json
+    - name: Upload Grype Report
+      if: matrix.scanner == 'grype'
+      continue-on-error: true
+      uses: actions/upload-artifact@v4
+      with:
+        if-no-files-found: ignore
+        name: spanish-grype-report
+        path: grype-report.json
+        retention-days: 30
+    - name: Trivy FS Scan
+      if: matrix.scanner == 'trivy'
+      uses: aquasecurity/trivy-action@master
+      with:
+        scan-type: fs
+        scan-ref: .
+        format: sarif
+        output: trivy-results.sarif
+        severity: HIGH,CRITICAL
+        exit-code: '1'
+        ignore-unfixed: true
+    - name: Upload Trivy Results
+      if: matrix.scanner == 'trivy'
+      continue-on-error: true
+      uses: actions/upload-artifact@v4
+      with:
+        if-no-files-found: ignore
+        name: spanish-trivy-results
+        path: trivy-results.sarif
+        retention-days: 30
+  package:
+    name: Package & Release Spanish App
+    needs:
+    - build
+    - security-scan
+    runs-on:
+    - self-hosted
+    - linux
+    - X64
+    - spanish
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      packages: write
+      id-token: write
+      attestations: write
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: ${{ env.FLUTTER_VERSION }}
+        channel: stable
+        cache: true
+    - name: Setup Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: temurin
+        java-version: ${{ env.JAVA_VERSION }}
+        cache: gradle
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v3
+    - name: Accept Android Licenses
+      run: yes | sdkmanager --licenses > /dev/null 2>&1 || true
+    - name: Install unzip
+      run: sudo apt-get update -qq && sudo apt-get install -y -qq unzip > /dev/null 2>&1
     - name: Get Dependencies
       working-directory: app
       run: flutter pub get --enforce-lockfile
-
     - name: Restore Release Keystore
       working-directory: app
-      run: |
-        if [ -n "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" ]; then
-          echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.keystore
-          ls -la android/app/release.keystore
-        else
-          echo "RELEASE_KEYSTORE_BASE64 not set - generating ephemeral keystore"
-          keytool -genkeypair -v \
-            -keystore android/app/release.keystore \
-            -alias release \
-            -keyalg RSA -keysize 2048 -validity 10000 \
-            -storepass release123 -keypass release123 \
-            -dname "CN=Talk To Me Español, OU=DevOps, O=Mohamed Rafaa TOUNEKTI, L=Tunis, C=TN"
-        fi
-
+      run: "if [ -n \"${ secrets.RELEASE_KEYSTORE_BASE64 }\" ]; then\n  echo \"${ secrets.RELEASE_KEYSTORE_BASE64 }\" | base64\
+        \ -d > android/app/release.keystore\n  ls -la android/app/release.keystore\nelse\n  echo \"RELEASE_KEYSTORE_BASE64\
+        \ not set - generating ephemeral keystore\"\n  keytool -genkeypair -v \\\n    -keystore android/app/release.keystore\
+        \ \\\n    -alias release \\\n    -keyalg RSA -keysize 2048 -validity 10000 \\\n    -storepass release123 -keypass\
+        \ release123 \\\n    -dname \"CN=Talk To Me Espa\xF1ol, OU=DevOps, O=Mohamed Rafaa TOUNEKTI, L=Tunis, C=TN\"\nfi"
     - name: Build Spanish Release APK
       working-directory: app
-      run: |
-        flutter build apk --release \
-          --obfuscate \
-          --split-debug-info=build/debug-info \
-          --target-platform android-arm64
-
+      run: "flutter build apk --release \\\n  --obfuscate \\\n  --split-debug-info=build/debug-info \\\n  --target-platform\
+        \ android-arm64"
     - name: Generate SBOMs
       uses: anchore/sbom-action@v0
       with:
         path: .
         format: cyclonedx-json
         output-file: sbom-project.cdx.json
-
     - name: Generate APK SBOM
-      run: |
-        syft app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json
-
+      run: syft app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json
     - name: Scan APK SBOM (Grype)
       uses: anchore/grype-action@v1
       with:
         path: sbom-apk.cdx.json
         fail-build: true
         severity-cutoff: high
-
     - name: Install Cosign
       uses: sigstore/cosign-installer@v3
-
     - name: Sign APK & SBOM (Keyless)
-      run: |
-        cosign sign-blob --yes \
-          --output-signature app-release.apk.sig \
-          app/build/app/outputs/flutter-apk/app-release.apk
-        cosign sign-blob --yes \
-          --output-signature sbom-project.cdx.json.sig \
-          sbom-project.cdx.json
-
+      run: "cosign sign-blob --yes \\\n  --output-signature app-release.apk.sig \\\n  app/build/app/outputs/flutter-apk/app-release.apk\n\
+        cosign sign-blob --yes \\\n  --output-signature sbom-project.cdx.json.sig \\\n  sbom-project.cdx.json"
     - name: Generate Provenance (SLSA)
       uses: slsa-framework/slsa-github-generator/actions/generate-attestations@v2
       with:
         subject-path: app/build/app/outputs/flutter-apk/app-release.apk
         provenance-name: provenance.intoto.jsonl
-
     - name: Upload to GitHub Release
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        TAG="v${{ github.run_number }}-${{ github.sha::8 }}"
-        gh release create "$TAG" \
-          app/build/app/outputs/flutter-apk/app-release.apk \
-          app-release.apk.sig \
-          sbom-project.cdx.json \
-          sbom-project.cdx.json.sig \
-          sbom-apk.cdx.json \
-          provenance.intoto.jsonl \
-          --title "Spanish Build ${{ github.run_number }}" \
-          --notes "Auto-build from commit ${{ github.sha }}"
-
-  # =========================================================================
-  # STAGE 5: RELEASE (Tagged Releases Only)
-  # =========================================================================
+      run: "TAG=\"v${ github.run_number }-${ github.sha::8 }\"\ngh release create \"$TAG\" \\\n  app/build/app/outputs/flutter-apk/app-release.apk\
+        \ \\\n  app-release.apk.sig \\\n  sbom-project.cdx.json \\\n  sbom-project.cdx.json.sig \\\n  sbom-apk.cdx.json \\\
+        \n  provenance.intoto.jsonl \\\n  --title \"Spanish Build ${ github.run_number }\" \\\n  --notes \"Auto-build from\
+        \ commit ${ github.sha }\""
   release:
     name: Release Spanish App
     needs: package
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
-    runs-on: [self-hosted, linux, X64, spanish]
+    runs-on:
+    - self-hosted
+    - linux
+    - X64
+    - spanish
     timeout-minutes: 10
     permissions:
       contents: write
     steps:
-      - name: Download Release Assets
-        uses: actions/download-artifact@v4
-        with:
-          name: es-release-final
-          path: ./release
-
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
-        with:
-          files: |
-            release/*.apk
-            release/*.sig
-            release/sbom*.json
-          generate_release_notes: true
-          draft: false
-          prerelease: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v2
+      with:
+        generate_release_notes: true
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
