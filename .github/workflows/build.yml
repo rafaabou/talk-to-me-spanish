@@ -131,21 +131,6 @@ jobs:
         echo "APK size: $SIZE bytes"
 
         test "$SIZE" -gt 1000000 || exit 1'
-    - name: Upload Release APK
-      uses: actions/upload-artifact@v4
-      with:
-        if-no-files-found: ignore
-        name: spanish-release-apk
-        path: app/build/app/outputs/flutter-apk/app-release.apk
-        retention-days: 7
-    - name: Upload Debug Symbols
-      continue-on-error: true
-      uses: actions/upload-artifact@v4
-      with:
-        if-no-files-found: ignore
-        name: spanish-debug-symbols
-        path: app/build/debug-info
-        retention-days: 7
   security-scan:
     name: Security Scans (Spanish)
     needs: build
@@ -181,15 +166,6 @@ jobs:
         fail-build: true
         severity-cutoff: high
         output: grype-report.json
-    - name: Upload Grype Report
-      if: matrix.scanner == 'grype'
-      continue-on-error: true
-      uses: actions/upload-artifact@v4
-      with:
-        if-no-files-found: ignore
-        name: spanish-grype-report
-        path: grype-report.json
-        retention-days: 30
     - name: Trivy FS Scan
       if: matrix.scanner == 'trivy'
       uses: aquasecurity/trivy-action@master
@@ -201,15 +177,6 @@ jobs:
         severity: HIGH,CRITICAL
         exit-code: '1'
         ignore-unfixed: true
-    - name: Upload Trivy Results
-      if: matrix.scanner == 'trivy'
-      continue-on-error: true
-      uses: actions/upload-artifact@v4
-      with:
-        if-no-files-found: ignore
-        name: spanish-trivy-results
-        path: trivy-results.sarif
-        retention-days: 30
   package:
     name: Package & Release Spanish App
     needs:
