@@ -134,7 +134,7 @@ jobs:
 
         test "$SIZE" -gt 1000000 || exit 1'
     - name: Build Docker Image (local)
-      run: docker build -t talk-to-me-spanish:${{ github.sha }} app/
+      run: docker build -t talk-to-me-spanish:${{ github.sha }} .
       if: always()
     - name: Install Grype
       run: curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b $HOME/.local/bin
