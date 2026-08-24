@@ -270,92 +270,125 @@ jobs:
           retention-days: 30
 
   # =========================================================================
-  # STAGE 4: PACKAGE & SIGN
-  # =========================================================================
-  package:
-    name: Package & Sign Spanish App
-    needs: [build, security-scan]
-    runs-on: [self-hosted, linux, X64, spanish]
-    timeout-minutes: 10
-    permissions:
-      contents: write
-      packages: write
-      id-token: write
-      attestations: write
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+# STAGE 4: PACKAGE & RELEASE (GitHub Releases - bypasses artifact quota)
+# =========================================================================
+package:
+  name: Package & Release Spanish App
+  needs: [build, security-scan]
+  runs-on: [self-hosted, linux, X64, spanish]
+  timeout-minutes: 15
+  permissions:
+    contents: write
+    packages: write
+    id-token: write
+    attestations: write
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
-      - name: Download APK
-        uses: actions/download-artifact@v4
-        with:
-          name: es-release-apk
-          path: ./apks
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: ${{ env.FLUTTER_VERSION }}
+        channel: stable
+        cache: true
 
-      # ── Verify APK Signature (build-tools) ────────────────────
-      - name: Verify APK Signature
-        run: |
-          APKSIGNER=$(ls "$ANDROID_HOME"/build-tools/*/apksigner 2>/dev/null | tail -1)
-          if [ -n "$APKSIGNER" ]; then
-            "$APKSIGNER" verify --print-certs apks/app-release.apk
-          else
-            echo "apksigner not found - skipping signature verification"
-          fi
+    - name: Setup Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: ${{ env.JAVA_VERSION }}
+        cache: gradle
 
-      # ── Generate SBOMs ─────────────────────────────────────────
-      - name: Generate Project SBOM (Syft)
-        uses: anchore/sbom-action@v0
-        with:
-          path: .
-          format: cyclonedx-json
-          output-file: sbom-project.cdx.json
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v3
 
-      - name: Generate APK SBOM
-        run: |
-          syft apks/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json
+    - name: Accept Android Licenses
+      run: yes | sdkmanager --licenses > /dev/null 2>&1 || true
 
-      # ── Vulnerability Scan on APK SBOM ────────────────────────
-      - name: Scan APK SBOM (Grype)
-        uses: anchore/grype-action@v1
-        with:
-          path: sbom-apk.cdx.json
-          fail-build: true
-          severity-cutoff: high
+    - name: Install unzip
+      run: sudo apt-get update -qq && sudo apt-get install -y -qq unzip > /dev/null 2>&1
 
-      # ── Sign with Cosign (Keyless) ────────────────────────────
-      - name: Install Cosign
-        uses: sigstore/cosign-installer@v3
+    - name: Get Dependencies
+      working-directory: app
+      run: flutter pub get --enforce-lockfile
 
-      - name: Sign APK & SBOM (Keyless)
-        run: |
-          cosign sign-blob --yes \
-            --output-signature app-release.apk.sig \
-            apks/app-release.apk
-          cosign sign-blob --yes \
-            --output-signature sbom-project.cdx.json.sig \
-            sbom-project.cdx.json
+    - name: Restore Release Keystore
+      working-directory: app
+      run: |
+        if [ -n "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" ]; then
+          echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.keystore
+          ls -la android/app/release.keystore
+        else
+          echo "RELEASE_KEYSTORE_BASE64 not set - generating ephemeral keystore"
+          keytool -genkeypair -v \
+            -keystore android/app/release.keystore \
+            -alias release \
+            -keyalg RSA -keysize 2048 -validity 10000 \
+            -storepass release123 -keypass release123 \
+            -dname "CN=Talk To Me Español, OU=DevOps, O=Mohamed Rafaa TOUNEKTI, L=Tunis, C=TN"
+        fi
 
-      # ── Generate Provenance (SLSA) ────────────────────────────
-      - name: Generate Provenance Attestation
-        uses: slsa-framework/slsa-github-generator/actions/generate-attestations@v2
-        with:
-          subject-path: apks/app-release.apk
-          provenance-name: provenance.intoto.jsonl
+    - name: Build Spanish Release APK
+      working-directory: app
+      run: |
+        flutter build apk --release \
+          --obfuscate \
+          --split-debug-info=build/debug-info \
+          --target-platform android-arm64
 
-      # ── Upload Release Assets ─────────────────────────────────
-      - name: Upload Release Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          if-no-files-found: ignore
-          name: es-release-final
-          path: |
-            apks/*.apk
-            *.sig
-            sbom*.json
-            *.sarif
-          retention-days: 30
+    - name: Generate SBOMs
+      uses: anchore/sbom-action@v0
+      with:
+        path: .
+        format: cyclonedx-json
+        output-file: sbom-project.cdx.json
+
+    - name: Generate APK SBOM
+      run: |
+        syft app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json
+
+    - name: Scan APK SBOM (Grype)
+      uses: anchore/grype-action@v1
+      with:
+        path: sbom-apk.cdx.json
+        fail-build: true
+        severity-cutoff: high
+
+    - name: Install Cosign
+      uses: sigstore/cosign-installer@v3
+
+    - name: Sign APK & SBOM (Keyless)
+      run: |
+        cosign sign-blob --yes \
+          --output-signature app-release.apk.sig \
+          app/build/app/outputs/flutter-apk/app-release.apk
+        cosign sign-blob --yes \
+          --output-signature sbom-project.cdx.json.sig \
+          sbom-project.cdx.json
+
+    - name: Generate Provenance (SLSA)
+      uses: slsa-framework/slsa-github-generator/actions/generate-attestations@v2
+      with:
+        subject-path: app/build/app/outputs/flutter-apk/app-release.apk
+        provenance-name: provenance.intoto.jsonl
+
+    - name: Upload to GitHub Release
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        TAG="v${{ github.run_number }}-${{ github.sha::8 }}"
+        gh release create "$TAG" \
+          app/build/app/outputs/flutter-apk/app-release.apk \
+          app-release.apk.sig \
+          sbom-project.cdx.json \
+          sbom-project.cdx.json.sig \
+          sbom-apk.cdx.json \
+          provenance.intoto.jsonl \
+          --title "Spanish Build ${{ github.run_number }}" \
+          --notes "Auto-build from commit ${{ github.sha }}"
 
   # =========================================================================
   # STAGE 5: RELEASE (Tagged Releases Only)
