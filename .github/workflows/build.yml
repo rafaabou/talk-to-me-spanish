@@ -160,9 +160,9 @@ jobs:
     - name: Generate SBOM (Syft)
       run: 'export PATH="$HOME/.local/bin:$PATH"
 
-        syft . -o cyclonedx-json=sbom-project.cdx.json
+        syft file:. -o cyclonedx-json=sbom-project.cdx.json
 
-        syft app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json'
+        syft file:app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json'
     - name: Vulnerability Scan (Grype)
       run: 'export PATH="$HOME/.local/bin:$PATH"
 
@@ -228,6 +228,11 @@ jobs:
         path: .
         format: cyclonedx-json
         output-file: sbom-project.cdx.json
+      run: 'export PATH="$HOME/.local/bin:$PATH"
+
+        syft file:. -o cyclonedx-json=sbom-project.cdx.json
+
+        syft file:app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json'
     - name: Generate APK SBOM
       run: syft app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json
     - name: Vulnerability Scan on APK SBOM
