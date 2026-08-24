@@ -104,6 +104,13 @@ build:
   - SIZE=$(stat -c%s app/build/app/outputs/flutter-apk/app-release.apk)
   - echo "APK size: $SIZE bytes"
   - test "$SIZE" -gt 1000000 || exit 1
+  - echo "=== BUILD DOCKER IMAGE (local) ==="
+  - docker build -t talk-to-me-spanish:$CI_COMMIT_SHA app/
+  - curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b $HOME/.local/bin
+  - curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b $HOME/.local/bin
+  - export PATH="$HOME/.local/bin:$PATH"
+  - grype talk-to-me-spanish:$CI_COMMIT_SHA --fail-on high
+  - syft talk-to-me-spanish:$CI_COMMIT_SHA -o cyclonedx-json=sbom-docker.cdx.json
   rules:
   - if: $CI_PIPELINE_SOURCE == "merge_request_event"
   - if: $CI_COMMIT_BRANCH == "main"
