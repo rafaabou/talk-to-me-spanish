@@ -153,32 +153,16 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
+    - name: Install Grype
+      run: curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b /usr/local/bin
+    - name: Install Syft
+      run: curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
     - name: Generate SBOM (Syft)
-      if: matrix.scanner == 'grype'
-      uses: anchore/sbom-action@v0
-      with:
-        path: .
-        format: cyclonedx-json
-        output-file: sbom.cdx.json
+      run: 'syft . -o cyclonedx-json=sbom-project.cdx.json
+
+        syft app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json'
     - name: Vulnerability Scan (Grype)
-      if: matrix.scanner == 'grype'
-      uses: anchore/grype-action@v1
-      with:
-        path: sbom.cdx.json
-        fail-build: true
-        severity-cutoff: high
-        output: grype-report.json
-    - name: Trivy FS Scan
-      if: matrix.scanner == 'trivy'
-      uses: aquasecurity/trivy-action@master
-      with:
-        scan-type: fs
-        scan-ref: .
-        format: sarif
-        output: trivy-results.sarif
-        severity: HIGH,CRITICAL
-        exit-code: '1'
-        ignore-unfixed: true
+      run: "grype sbom:sbom-project.cdx.json --fail-on high\n grype sbom:sbom-apk.cdx.json --fail-on high"
   package:
     name: Package & Release Spanish App
     needs:
@@ -240,12 +224,8 @@ jobs:
         output-file: sbom-project.cdx.json
     - name: Generate APK SBOM
       run: syft app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json
-    - name: Scan APK SBOM (Grype)
-      uses: anchore/grype-action@v1
-      with:
-        path: sbom-apk.cdx.json
-        fail-build: true
-        severity-cutoff: high
+    - name: Vulnerability Scan on APK SBOM
+      run: grype sbom:sbom-apk.cdx.json --fail-on high
     - name: Install Cosign
       uses: sigstore/cosign-installer@v3
     - name: Sign APK & SBOM (Keyless)
