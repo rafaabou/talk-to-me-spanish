@@ -163,7 +163,7 @@ jobs:
       with:
         context: app
         push: true
-        tags: ghcr.io/rafaabou/talk-to-me-espanol:${ github.sha }
+        tags: ghcr.io/rafaabou/talk-to-me-espanol:${{ github.sha }}
         cache-from: type=gha
         cache-to: type=gha,mode=max
     - name: Install Grype
@@ -173,11 +173,11 @@ jobs:
     - name: Scan Image (Grype)
       run: 'export PATH="$HOME/.local/bin:$PATH"
 
-        grype ghcr.io/rafaabou/talk-to-me-espanol:${ github.sha } --fail-on high'
+        grype ghcr.io/rafaabou/talk-to-me-espanol:${{ github.sha }} --fail-on high'
     - name: Generate Image SBOM (Syft)
       run: 'export PATH="$HOME/.local/bin:$PATH"
 
-        syft ghcr.io/rafaabou/talk-to-me-espanol:${ github.sha } -o cyclonedx-json=sbom-docker.cdx.json'
+        syft ghcr.io/rafaabou/talk-to-me-espanol:${{ github.sha }} -o cyclonedx-json=sbom-docker.cdx.json'
   security-scan:
     name: Security Scans (Spanish)
     needs:
@@ -270,18 +270,15 @@ jobs:
       run: "flutter build apk --release \\\n  --obfuscate \\\n  --split-debug-info=build/debug-info \\\n  --target-platform\
         \ android-arm64"
     - name: Generate SBOMs
-      uses: anchore/sbom-action@v0
-      with:
-        path: .
-        format: cyclonedx-json
-        output-file: sbom-project.cdx.json
       run: 'export PATH="$HOME/.local/bin:$PATH"
 
         syft file:. -o cyclonedx-json=sbom-project.cdx.json
 
         syft file:app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json'
     - name: Generate APK SBOM
-      run: syft app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json
+      run: 'export PATH="$HOME/.local/bin:$PATH"
+
+        syft file:app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json'
     - name: Vulnerability Scan on APK SBOM
       run: 'export PATH="$HOME/.local/bin:$PATH"
 
@@ -299,10 +296,10 @@ jobs:
     - name: Upload to GitHub Release
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: "TAG=\"v${ github.run_number }-${ github.sha::8 }\"\ngh release create \"$TAG\" \\\n  app/build/app/outputs/flutter-apk/app-release.apk\
+      run: "TAG=\"v${{ github.run_number }}-${{ github.sha::8 }}\"\ngh release create \"$TAG\" \\\n  app/build/app/outputs/flutter-apk/app-release.apk\
         \ \\\n  app-release.apk.sig \\\n  sbom-project.cdx.json \\\n  sbom-project.cdx.json.sig \\\n  sbom-apk.cdx.json \\\
-        \n  provenance.intoto.jsonl \\\n  --title \"Spanish Build ${ github.run_number }\" \\\n  --notes \"Auto-build from\
-        \ commit ${ github.sha }\""
+        \n  provenance.intoto.jsonl \\\n  --title \"Spanish Build ${{ github.run_number }}\" \\\n  --notes \"Auto-build from\
+        \ commit ${{ github.sha }}\""
   release:
     name: Release Spanish App
     needs: package
