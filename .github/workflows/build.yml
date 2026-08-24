@@ -269,8 +269,8 @@ jobs:
           path: trivy-results.sarif
           retention-days: 30
 
-  # =========================================================================
-# STAGE 4: PACKAGE & RELEASE (GitHub Releases - bypasses artifact quota)
+    # =========================================================================
+  # STAGE 4: PACKAGE & RELEASE (GitHub Releases - bypasses artifact quota)
 # =========================================================================
 package:
   name: Package & Release Spanish App
