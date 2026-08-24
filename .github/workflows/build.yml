@@ -125,7 +125,7 @@ jobs:
     - name: Accept Android Licenses
       run: yes | sdkmanager --licenses > /dev/null 2>&1 || true
     - name: Restore Release Keystore
-      run: "if [ -n \"${ secrets.RELEASE_KEYSTORE_BASE64 }\" ]; then\n  echo \"${ secrets.RELEASE_KEYSTORE_BASE64 }\" | base64\
+      run: "if [ -n \"${{ secrets.RELEASE_KEYSTORE_BASE64 }}\" ]; then\n  echo \"${{ secrets.RELEASE_KEYSTORE_BASE64 }}\" | base64\
         \ -d > android/app/release.keystore\n  ls -la android/app/release.keystore\nelse\n  echo \"RELEASE_KEYSTORE_BASE64\
         \ not set - generating ephemeral keystore\"\n  keytool -genkeypair -v \\\n    -keystore android/app/release.keystore\
         \ \\\n    -alias release \\\n    -keyalg RSA -keysize 2048 -validity 10000 \\\n    -storepass release123 -keypass\
@@ -264,7 +264,7 @@ jobs:
       run: flutter pub get --enforce-lockfile
     - name: Restore Release Keystore
       working-directory: app
-      run: "if [ -n \"${ secrets.RELEASE_KEYSTORE_BASE64 }\" ]; then\n  echo \"${ secrets.RELEASE_KEYSTORE_BASE64 }\" | base64\
+      run: "if [ -n \"${{ secrets.RELEASE_KEYSTORE_BASE64 }}\" ]; then\n  echo \"${{ secrets.RELEASE_KEYSTORE_BASE64 }}\" | base64\
         \ -d > android/app/release.keystore\n  ls -la android/app/release.keystore\nelse\n  echo \"RELEASE_KEYSTORE_BASE64\
         \ not set - generating ephemeral keystore\"\n  keytool -genkeypair -v \\\n    -keystore android/app/release.keystore\
         \ \\\n    -alias release \\\n    -keyalg RSA -keysize 2048 -validity 10000 \\\n    -storepass release123 -keypass\
