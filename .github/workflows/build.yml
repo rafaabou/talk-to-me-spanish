@@ -296,7 +296,8 @@ jobs:
     - name: Upload to GitHub Release
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: "TAG=\"v${{ github.run_number }}-${{ github.sha::8 }}\"\ngh release create \"$TAG\" \\\n  app/build/app/outputs/flutter-apk/app-release.apk\
+      run: "export PATH=\"$HOME/.local/bin:$PATH\"\nSHORT_SHA=\"${{ github.sha }}\"\nSHORT_SHA=\"${SHORT_SHA:0:8}\"\nTAG=\"\
+        v${{ github.run_number }}-${SHORT_SHA}\"\ngh release create \"$TAG\" \\\n  app/build/app/outputs/flutter-apk/app-release.apk\
         \ \\\n  app-release.apk.sig \\\n  sbom-project.cdx.json \\\n  sbom-project.cdx.json.sig \\\n  sbom-apk.cdx.json \\\
         \n  provenance.intoto.jsonl \\\n  --title \"Spanish Build ${{ github.run_number }}\" \\\n  --notes \"Auto-build from\
         \ commit ${{ github.sha }}\""
