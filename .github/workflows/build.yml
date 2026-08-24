@@ -154,15 +154,21 @@ jobs:
       with:
         fetch-depth: 0
     - name: Install Grype
-      run: curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b /usr/local/bin
+      run: curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b $HOME/.local/bin
     - name: Install Syft
-      run: curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
+      run: curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b $HOME/.local/bin
     - name: Generate SBOM (Syft)
-      run: 'syft . -o cyclonedx-json=sbom-project.cdx.json
+      run: 'export PATH="$HOME/.local/bin:$PATH"
+
+        syft . -o cyclonedx-json=sbom-project.cdx.json
 
         syft app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json'
     - name: Vulnerability Scan (Grype)
-      run: "grype sbom:sbom-project.cdx.json --fail-on high\n grype sbom:sbom-apk.cdx.json --fail-on high"
+      run: 'export PATH="$HOME/.local/bin:$PATH"
+
+        grype sbom:sbom-project.cdx.json --fail-on high
+
+        grype sbom:sbom-apk.cdx.json --fail-on high'
   package:
     name: Package & Release Spanish App
     needs:
@@ -225,7 +231,9 @@ jobs:
     - name: Generate APK SBOM
       run: syft app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json
     - name: Vulnerability Scan on APK SBOM
-      run: grype sbom:sbom-apk.cdx.json --fail-on high
+      run: 'export PATH="$HOME/.local/bin:$PATH"
+
+        grype sbom:sbom-apk.cdx.json --fail-on high'
     - name: Install Cosign
       uses: sigstore/cosign-installer@v3
     - name: Sign APK & SBOM (Keyless)
