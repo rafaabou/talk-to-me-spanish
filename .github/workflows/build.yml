@@ -57,7 +57,7 @@ jobs:
 
         flutter analyze --no-pub > analysis-report.txt 2>&1 || true'
     - name: Unit Tests
-      run: flutter test
+      run: flutter test -j 1
     - name: License Check
       run: 'dart pub global activate license_checker
 

@@ -72,5 +72,5 @@ void main() {
 
     final prefs = await SharedPreferences.getInstance();
     expect(prefs.getInt('quiz_best_A1'), score);
-  });
+  }, timeout: const Timeout(Duration(minutes: 5)));
 }

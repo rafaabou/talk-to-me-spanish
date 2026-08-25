@@ -51,7 +51,7 @@ validate:
   - echo "=== STATIC ANALYSIS ==="
   - cd app && flutter analyze --fatal-infos
   - echo "=== UNIT TESTS ==="
-  - cd app && flutter test
+  - cd app && flutter test -j 1
   - echo "=== LICENSE CHECK ==="
   - cd app && dart pub global activate license_checker
   - cd app && dart pub global run license_checker:lic_ck check-licenses --config lic_ck.yaml || echo "License check completed
