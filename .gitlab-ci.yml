@@ -130,13 +130,15 @@ build:
   - curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b $HOME/.local/bin
   - syft talk-to-me-spanish:$CI_COMMIT_SHA -o cyclonedx-json=sbom-docker.cdx.json
   - echo "=== IMAGE SCAN (TRIVY) ==="
-  - curl -fsSL "https://github.com/aquasecurity/trivy/releases/download/v0.55.2/trivy_0.55.2_Linux-64bit.tar.gz"
+  - curl -fsSL "https://github.com/aquasecurity/trivy/releases/download/v0.74.0/trivy_0.74.0_Linux-64bit.tar.gz"
     | tar xz -C /usr/local/bin trivy
   - trivy image --severity HIGH,CRITICAL --ignore-unfixed --exit-code 0 talk-to-me-spanish:$CI_COMMIT_SHA
   - echo "=== IMAGE LINT (DOCKLE) ==="
   - curl -fsSL "https://github.com/goodwithtech/dockle/releases/download/v0.4.14/dockle_0.4.14_Linux-64bit.tar.gz"
     | tar xz -C /usr/local/bin dockle
-  - dockle --exit-code 1 talk-to-me-spanish:$CI_COMMIT_SHA
+  - docker save talk-to-me-spanish:$CI_COMMIT_SHA -o /tmp/scan.tar
+  - dockle --exit-code 1 --exit-level fatal --input /tmp/scan.tar
+  - rm -f /tmp/scan.tar
   rules:
   - if: $CI_PIPELINE_SOURCE == "merge_request_event"
   - if: $CI_COMMIT_BRANCH == "main"
