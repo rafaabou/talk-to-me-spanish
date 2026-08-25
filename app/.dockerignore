@@ -21,9 +21,9 @@ build/
 # --- Android/Gradle local state (host SDK/JDK paths, signing material) ---
 .gradle/
 android/local.properties
-android/key.properties
-android/*.keystore
-android/*.jks
+**/key.properties
+**/*.keystore
+**/*.jks
 
 # --- IDE / OS junk ---
 .idea/

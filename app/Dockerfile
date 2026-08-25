@@ -16,7 +16,16 @@
 # ---- Stage 1: build ----------------------------------------------------------
 FROM ghcr.io/cirruslabs/flutter:3.29.3 AS build
 
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
 WORKDIR /app
+
+# Pre-install Android components Gradle needs (cached until base image changes):
+# NDK 26.3.11579264 = flutter.ndkVersion on Flutter 3.29.3
+# (license prompt isolated so sdkmanager's exit doesn't SIGPIPE 'yes' into 141)
+RUN ( yes | sdkmanager --licenses > /dev/null ) || true ; \
+    sdkmanager "platform-tools" "platforms;android-34" "platforms;android-35" \
+      "build-tools;34.0.0" "ndk;26.3.11579264" "cmake;3.22.1" > /dev/null
 
 COPY pubspec.yaml pubspec.lock ./
 
@@ -24,11 +33,22 @@ RUN flutter pub get --enforce-lockfile
 
 COPY . .
 
-RUN flutter build apk \
-    --release \
-    --obfuscate \
-    --split-debug-info=build/debug-info \
-    --target-platform android-arm64
+# app/.dockerignore excludes host keystores (never bake real keys into images).
+# Generate an ephemeral one for this throwaway scan-only build instead; the
+# random password lives only in this layer's process memory, never in history.
+RUN KS_PASS="$(od -An -N16 -tx1 /dev/urandom | tr -d ' \n')" && \
+    if [ ! -f android/app/release.keystore ]; then \
+      keytool -genkeypair \
+        -keystore android/app/release.keystore \
+        -alias release -keyalg RSA -keysize 2048 -validity 10000 \
+        -storepass "$KS_PASS" -keypass "$KS_PASS" \
+        -dname "CN=Docker Scan Build, OU=CI, O=Local"; \
+    fi && \
+    flutter build apk \
+      --release \
+      --obfuscate \
+      --split-debug-info=build/debug-info \
+      --target-platform android-arm64
 
 # ---- Stage 2: runtime (artifact holder for scanners) --------------------------
 FROM alpine:3.20 AS runtime
