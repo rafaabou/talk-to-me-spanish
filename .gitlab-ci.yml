@@ -77,6 +77,22 @@ validate:
   - if: $CI_PIPELINE_SOURCE == "merge_request_event"
   - if: $CI_COMMIT_BRANCH == "main"
   - if: $CI_COMMIT_BRANCH == "develop"
+hadolint:
+  stage: validate
+  image: alpine:3.20
+  timeout: 5m
+  tags:
+  - spanish
+  needs: []
+  script:
+  - echo "=== DOCKERFILE LINT (HADOLINT) ==="
+  - wget -qO /usr/local/bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.12.0/hadolint-Linux-x86_64
+    && chmod +x /usr/local/bin/hadolint
+  - hadolint app/Dockerfile
+  rules:
+  - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+  - if: $CI_COMMIT_BRANCH == "main"
+  - if: $CI_COMMIT_BRANCH == "develop"
 build:
   before_script: *id001
   stage: build
@@ -106,11 +122,21 @@ build:
   - test "$SIZE" -gt 1000000 || exit 1
   - echo "=== BUILD DOCKER IMAGE (local) ==="
   - docker build -t talk-to-me-spanish:$CI_COMMIT_SHA app/
+  - echo "=== IMAGE SCAN (GRYPE) ==="
   - curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b $HOME/.local/bin
-  - curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b $HOME/.local/bin
   - export PATH="$HOME/.local/bin:$PATH"
-  - grype talk-to-me-spanish:$CI_COMMIT_SHA --fail-on high
+  - grype talk-to-me-spanish:$CI_COMMIT_SHA --only-fixed --fail-on critical
+  - echo "=== IMAGE SBOM (SYFT) ==="
+  - curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b $HOME/.local/bin
   - syft talk-to-me-spanish:$CI_COMMIT_SHA -o cyclonedx-json=sbom-docker.cdx.json
+  - echo "=== IMAGE SCAN (TRIVY) ==="
+  - curl -fsSL "https://github.com/aquasecurity/trivy/releases/download/v0.55.2/trivy_0.55.2_Linux-64bit.tar.gz"
+    | tar xz -C /usr/local/bin trivy
+  - trivy image --severity HIGH,CRITICAL --ignore-unfixed --exit-code 0 talk-to-me-spanish:$CI_COMMIT_SHA
+  - echo "=== IMAGE LINT (DOCKLE) ==="
+  - curl -fsSL "https://github.com/goodwithtech/dockle/releases/download/v0.4.14/dockle_0.4.14_Linux-64bit.tar.gz"
+    | tar xz -C /usr/local/bin dockle
+  - dockle --exit-code 1 talk-to-me-spanish:$CI_COMMIT_SHA
   rules:
   - if: $CI_PIPELINE_SOURCE == "merge_request_event"
   - if: $CI_COMMIT_BRANCH == "main"
