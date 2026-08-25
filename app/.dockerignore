@@ -1,0 +1,41 @@
+# =============================================================================
+# .dockerignore for the Docker BUILD CONTEXT (= this app/ directory)
+#
+# IMPORTANT: Docker reads .dockerignore from the CONTEXT ROOT, not the repo
+# root. Since 'docker build' runs with context ./app, THIS file is the one
+# that takes effect. A stale .dart_tool/ copied into the image overrides the
+# container's own package_config.json and breaks compilation with host-only
+# absolute paths (e.g. /home/github-runner/_work/_tool/flutter/...).
+#
+# pubspec.lock MUST stay included ('flutter pub get --enforce-lockfile').
+# =============================================================================
+
+# --- Stale local Flutter/Dart state (contains HOST absolute paths) ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# --- Build outputs ---
+build/
+
+# --- Android/Gradle local state (host SDK/JDK paths, signing material) ---
+.gradle/
+android/local.properties
+android/key.properties
+android/*.keystore
+android/*.jks
+
+# --- IDE / OS junk ---
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Secrets ---
+*.key
+*.pem
+.env*
