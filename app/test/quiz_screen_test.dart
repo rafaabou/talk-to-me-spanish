@@ -7,19 +7,17 @@ import 'package:talk_to_me_spanish/services/app_state.dart';
 import 'package:talk_to_me_spanish/services/course_repository.dart';
 
 void main() {
-  Future<void> settle(WidgetTester tester) async {
-    for (var i = 0; i < 10; i++) {
-      await tester.pump(const Duration(milliseconds: 100));
+  // Poll until [cond] is true instead of relying on a fixed number of pumps -
+  // fixed loops are flaky on loaded CI runners.
+  Future<void> pumpUntil(
+    WidgetTester tester,
+    bool Function() cond, {
+    int maxPumps = 300,
+  }) async {
+    for (var i = 0; i < maxPumps && !cond(); i++) {
+      await tester.pump(const Duration(milliseconds: 50));
     }
-  }
-
-  Future<void> waitForQuestions(WidgetTester tester) async {
-    for (var i = 0; i < 40; i++) {
-      await tester.pump(const Duration(milliseconds: 100));
-    }
-    if (!tester.any(find.byType(OutlinedButton))) {
-      fail('questions never loaded');
-    }
+    expect(cond(), isTrue, reason: 'condition not met after $maxPumps pumps');
   }
 
   testWidgets('quiz_completion_persists_best_score_matching_displayed_result', (
@@ -43,17 +41,29 @@ void main() {
         child: const MaterialApp(home: QuizScreen(levelId: 'A1')),
       ),
     );
-    await waitForQuestions(tester);
 
+    // Questions loaded -> first set of option buttons rendered.
+    await pumpUntil(tester, () => tester.any(find.byType(OutlinedButton)));
+
+    // Answer all 10 questions: tap an option, wait for Next, tap Next.
+    // After every Next the Next button disappears (new unanswered question
+    // or result screen), which is what makes this loop deterministic.
     for (var i = 0; i < 10; i++) {
-      final option = find.byType(OutlinedButton).first;
-      await tester.tap(option);
-      await settle(tester);
+      await tester.tap(find.byType(OutlinedButton).first);
       final next = find.widgetWithText(FilledButton, 'Next');
-      expect(next, findsOneWidget);
+      await pumpUntil(tester, () => tester.any(next));
       await tester.tap(next);
-      await settle(tester);
+      await pumpUntil(
+        tester,
+        () => tester.any(next) == false && tester.any(find.byType(Text)),
+      );
     }
+
+    // Result screen reached.
+    await pumpUntil(
+      tester,
+      () => tester.any(find.textContaining('Best score:')),
+    );
 
     final scoreFinder = find.textContaining(RegExp(r'^\d+/10$'));
     final scoreText = tester.widget<Text>(scoreFinder.first).data!;
@@ -62,8 +72,5 @@ void main() {
 
     final prefs = await SharedPreferences.getInstance();
     expect(prefs.getInt('quiz_best_A1'), score);
-
-    final bestFinder = find.textContaining('Best score:');
-    expect(bestFinder, findsOneWidget);
   });
 }
