@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:1
 # =============================================================================
 # Multi-stage Dockerfile - Talk To Me Spanish
 #
@@ -35,8 +36,12 @@ COPY . .
 
 # app/.dockerignore excludes host keystores (never bake real keys into images).
 # Generate an ephemeral one for this throwaway scan-only build instead; the
-# random password lives only in this layer's process memory, never in history.
-RUN KS_PASS="$(od -An -N16 -tx1 /dev/urandom | tr -d ' \n')" && \
+# random password lives only in this layer's process memory, never in history,
+# and is handed to Gradle inline via RELEASE_KEYSTORE_PASSWORD (see
+# android/app/build.gradle.kts) - no ENV instruction, nothing leaked.
+# Gradle cache mount keeps Kotlin/dart-snapshot artifacts across builds.
+RUN --mount=type=cache,target=/root/.gradle \
+    KS_PASS="$(od -An -N16 -tx1 /dev/urandom | tr -d ' \n')" && \
     if [ ! -f android/app/release.keystore ]; then \
       keytool -genkeypair \
         -keystore android/app/release.keystore \
@@ -44,6 +49,8 @@ RUN KS_PASS="$(od -An -N16 -tx1 /dev/urandom | tr -d ' \n')" && \
         -storepass "$KS_PASS" -keypass "$KS_PASS" \
         -dname "CN=Docker Scan Build, OU=CI, O=Local"; \
     fi && \
+    RELEASE_KEYSTORE_PASSWORD="$KS_PASS" \
+    RELEASE_KEY_PASSWORD="$KS_PASS" \
     flutter build apk \
       --release \
       --obfuscate \
