@@ -133,6 +133,8 @@ jobs:
         echo "APK size: $SIZE bytes"
 
         test "$SIZE" -gt 1000000 || exit 1'
+    - name: Stage APK into Docker context
+      run: cp build/app/outputs/flutter-apk/app-release.apk ./app-release.apk
     - name: Lint Dockerfile (Hadolint)
       run: |
         mkdir -p "$HOME/.local/bin"

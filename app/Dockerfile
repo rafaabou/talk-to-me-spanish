@@ -1,68 +1,21 @@
 # syntax=docker/dockerfile:1
 # =============================================================================
-# Multi-stage Dockerfile - Talk To Me Spanish
+# Scan-only artifact image - Talk To Me Spanish
 #
-# Stage 1 (build):   compile the release APK inside the pinned Flutter image
-# Stage 2 (runtime): minimal artifact holder used ONLY for local security
-#                    scans (trivy image / dockle). Never pushed to a registry.
+# The production APK is compiled ON THE HOST by CI ("Build Spanish Release
+# APK" step) and staged into this build context as app-release.apk. This image
+# exists purely so trivy/grype/dockle can inspect the shipped artifact in a
+# hardened, minimal container. It is never published.
 #
 # Passes: hadolint (no warnings) and dockle CIS checks:
 #         CIS-DI-0001 non-root user, CIS-DI-0005 content trust,
 #         CIS-DI-0006 healthcheck.
 #
-# NOTE: app/.dockerignore (context root) keeps host .dart_tool/, build/ and
-#       keystores out of the image. pubspec.lock stays in for --enforce-lockfile.
+# NOTE: app/.dockerignore excludes *.apk except the staged app-release.apk,
+#       plus keystores/host state.
 # =============================================================================
 
-# ---- Stage 1: build ----------------------------------------------------------
-FROM ghcr.io/cirruslabs/flutter:3.29.3 AS build
-
-SHELL ["/bin/bash", "-o", "pipefail", "-c"]
-
-WORKDIR /app
-
-# Pre-install Android components Gradle needs (cached until base image changes):
-# NDK 27.0.12077973 = pinned in android/app/build.gradle.kts (required by plugins)
-# (license prompt isolated so sdkmanager's exit doesn't SIGPIPE 'yes' into 141)
-RUN ( yes | sdkmanager --licenses > /dev/null ) || true ; \
-    sdkmanager "platform-tools" "platforms;android-34" "platforms;android-35" \
-      "build-tools;34.0.0" "ndk;27.0.12077973" "cmake;3.22.1" > /dev/null
-
-COPY pubspec.yaml pubspec.lock ./
-
-RUN flutter pub get --enforce-lockfile
-
-COPY . .
-
-# Bound Gradle heap so the in-container build stays within the runner's
-# memory limit (peak = JVM 2G + Kotlin daemon + Dart AOT).
-ENV GRADLE_OPTS="-Dorg.gradle.jvmargs=-Xmx2048m\ -XX:MaxMetaspaceSize=512m"
-
-# app/.dockerignore excludes host keystores (never bake real keys into images).
-# Generate an ephemeral one for this throwaway scan-only build instead; the
-# random password lives only in this layer's process memory, never in history,
-# and is handed to Gradle inline via RELEASE_KEYSTORE_PASSWORD (see
-# android/app/build.gradle.kts) - no ENV instruction, nothing leaked.
-# Gradle cache mount keeps Kotlin/dart-snapshot artifacts across builds.
-RUN --mount=type=cache,target=/root/.gradle \
-    KS_PASS="$(od -An -N16 -tx1 /dev/urandom | tr -d ' \n')" && \
-    if [ ! -f android/app/release.keystore ]; then \
-      keytool -genkeypair \
-        -keystore android/app/release.keystore \
-        -alias release -keyalg RSA -keysize 2048 -validity 10000 \
-        -storepass "$KS_PASS" -keypass "$KS_PASS" \
-        -dname "CN=Docker Scan Build, OU=CI, O=Local"; \
-    fi && \
-    RELEASE_KEYSTORE_PASSWORD="$KS_PASS" \
-    RELEASE_KEY_PASSWORD="$KS_PASS" \
-    flutter build apk \
-      --release \
-      --obfuscate \
-      --split-debug-info=build/debug-info \
-      --target-platform android-arm64
-
-# ---- Stage 2: runtime (artifact holder for scanners) --------------------------
-FROM alpine:3.20 AS runtime
+FROM alpine:3.20
 
 LABEL org.opencontainers.image.title="talk-to-me-spanish" \
       org.opencontainers.image.description="Release APK artifact container (scan-only, never published)" \
@@ -75,8 +28,7 @@ ENV DOCKER_CONTENT_TRUST=1
 
 HEALTHCHECK --interval=30s --timeout=5s --retries=3 CMD [ -f /app-release.apk ] || exit 1
 
-COPY --from=build --chown=appuser:appgroup \
-     /app/build/app/outputs/flutter-apk/app-release.apk /app-release.apk
+COPY app-release.apk /app-release.apk
 
 USER appuser
 
