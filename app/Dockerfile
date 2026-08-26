@@ -34,6 +34,10 @@ RUN flutter pub get --enforce-lockfile
 
 COPY . .
 
+# Bound Gradle heap so the in-container build stays within the runner's
+# memory limit (peak = JVM 2G + Kotlin daemon + Dart AOT).
+ENV GRADLE_OPTS="-Dorg.gradle.jvmargs=-Xmx2048m\ -XX:MaxMetaspaceSize=512m"
+
 # app/.dockerignore excludes host keystores (never bake real keys into images).
 # Generate an ephemeral one for this throwaway scan-only build instead; the
 # random password lives only in this layer's process memory, never in history,
