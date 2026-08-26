@@ -142,7 +142,7 @@ jobs:
         "$HOME/.local/bin/hadolint" Dockerfile
       if: always()
     - name: Build Docker Image (local)
-      run: docker build -t talk-to-me-spanish:${{ github.sha }} .
+      run: DOCKER_BUILDKIT=1 docker build -t talk-to-me-spanish:${{ github.sha }} .
       if: always()
     - name: Install Grype
       run: curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b $HOME/.local/bin

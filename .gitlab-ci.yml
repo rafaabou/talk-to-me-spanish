@@ -121,6 +121,7 @@ build:
   - echo "APK size: $SIZE bytes"
   - test "$SIZE" -gt 1000000 || exit 1
   - echo "=== BUILD DOCKER IMAGE (local) ==="
+  - export DOCKER_BUILDKIT=1
   - docker build -t talk-to-me-spanish:$CI_COMMIT_SHA app/
   - echo "=== IMAGE SCAN (GRYPE) ==="
   - curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b $HOME/.local/bin
