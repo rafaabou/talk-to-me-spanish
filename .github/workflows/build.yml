@@ -231,7 +231,7 @@ jobs:
     - name: Generate SBOMs
       run: 'export PATH="$HOME/.local/bin:$PATH"
 
-        syft file:. -o cyclonedx-json=sbom-project.cdx.json
+        syft dir:. -o cyclonedx-json=sbom-project.cdx.json
 
         syft file:app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json'
     - name: Vulnerability Scan on APK SBOM
