@@ -243,6 +243,10 @@ jobs:
     - name: Sign APK & SBOM (Keyless)
       run: "cosign sign-blob --yes \\\n  --output-signature app-release.apk.sig \\\n  app/build/app/outputs/flutter-apk/app-release.apk\n\
         cosign sign-blob --yes \\\n  --output-signature sbom-project.cdx.json.sig \\\n  sbom-project.cdx.json"
+    - name: Install GitHub CLI
+      run: |
+        mkdir -p "$HOME/.local/bin"
+        curl -fsSL https://raw.githubusercontent.com/cli/cli/trunk/install.sh | sh -s -- -b $HOME/.local/bin
     - name: Upload to GitHub Release
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
