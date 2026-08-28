@@ -1,9 +1,8 @@
 stages:
-- validate
-- build
-- scan
-- package
-- release
+  - validate
+  - build
+  - package
+  - release
 variables:
   FLUTTER_VERSION: 3.29.3
   JAVA_VERSION: '17'
@@ -13,29 +12,25 @@ variables:
   GRADLE_OPTS: -Xmx2g -XX:MaxMetaspaceSize=512m
 .setup:
   before_script: &id001
-  - apt-get update -qq && apt-get install -y -qq openjdk-17-jdk-headless unzip curl git python3 python3-pip 2>/dev/null |
-    tail -5
+  - apt-get update -qq && apt-get install -y -qq openjdk-17-jdk-headless unzip curl git python3 python3-pip 2>/dev/null | tail -5
   - export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
   - export PATH="$JAVA_HOME/bin:$PATH"
-  - "if [ ! -d \"/opt/flutter\" ]; then\n  curl -sL \"https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${FLUTTER_VERSION}-stable.tar.xz\"\
-    \ | tar xJ -C /opt\nfi\n"
+  - "if [ ! -d \"/opt/flutter\" ]; then\n  curl -sL \"https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${FLUTTER_VERSION}-stable.tar.xz\" \n    | tar xJ -C /opt\nfi\n"
   - export PATH="/opt/flutter/bin:$PATH"
   - flutter config --no-analytics
   - flutter doctor -v
-  - "if [ ! -d \"$ANDROID_SDK_ROOT\" ]; then\n  mkdir -p \"$ANDROID_SDK_ROOT/cmdline-tools\"\n  curl -sL \"https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip\"\
-    \ -o /tmp/cmdline-tools.zip\n  unzip -q /tmp/cmdline-tools.zip -d \"$ANDROID_SDK_ROOT/cmdline-tools\"\n  mv \"$ANDROID_SDK_ROOT/cmdline-tools/cmdline-tools\"\
-    \ \"$ANDROID_SDK_ROOT/cmdline-tools/latest\"\nfi\n"
+  - "if [ ! -d \"$ANDROID_SDK_ROOT\" ]; then\n  mkdir -p \"$ANDROID_SDK_ROOT/cmdline-tools\"\n  curl -sL \"https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip\" \n    -o /tmp/cmdline-tools.zip\n  unzip -q /tmp/cmdline-tools.zip -d \"$ANDROID_SDK_ROOT/cmdline-tools\"\n  mv \"$ANDROID_SDK_ROOT/cmdline-tools/cmdline-tools\" \n    \"$ANDROID_SDK_ROOT/cmdline-tools/latest\"\nfi\n"
   - export PATH="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/platform-tools:$PATH"
   - yes | sdkmanager --licenses > /dev/null 2>&1 || true
   - sdkmanager "platforms;android-34" "build-tools;34.0.0" "ndk;27.0.12077973" > /dev/null
 .cache: &id002
   key: ${CI_PROJECT_ID}-flutter-es-${CI_COMMIT_REF_SLUG}
   paths:
-  - /root/.pub-cache/
-  - /root/.flutter/
-  - /root/.gradle/
-  - /opt/flutter/
-  - /opt/android-sdk/
+    - /root/.pub-cache/
+    - /root/.flutter/
+    - /root/.gradle/
+    - /opt/flutter/
+    - /opt/android-sdk/
   policy: pull-push
 validate:
   before_script: *id001
@@ -43,218 +38,145 @@ validate:
   image: ubuntu:22.04
   timeout: 15m
   tags:
-  - spanish
+    - spanish
   cache: *id002
   script:
-  - echo "=== FORMAT CHECK ==="
-  - cd app && dart format --set-exit-if-changed --output=none .
-  - echo "=== STATIC ANALYSIS ==="
-  - cd app && flutter analyze --fatal-infos
-  - echo "=== UNIT TESTS ==="
-  - cd app && flutter test -j 1
-  - echo "=== LICENSE CHECK ==="
-  - cd app && dart pub global activate license_checker
-  - cd app && dart pub global run license_checker:lic_ck check-licenses --config lic_ck.yaml || echo "License check completed
-    with findings"
-  - echo "=== SECRET SCAN (GITLEAKS) ==="
-  - 'curl -sL "https://github.com/gitleaks/gitleaks/releases/latest/download/gitleaks_Linux_x64.tar.gz" | tar xz -C /usr/local/bin
-    gitleaks
-
-    gitleaks detect --source . --verbose --config .gitleaks.toml --no-git
-
-    '
-  - echo "=== SECRET SCAN (TRUFFLEHOG) ==="
-  - 'curl -sL "https://github.com/trufflesecurity/trufflehog/releases/latest/download/trufflehog_Linux_x86_64.tar.gz" | tar
-    xz -C /usr/local/bin trufflehog
-
-    trufflehog filesystem . --fail --results=verified
-
-    '
-  - echo "=== DEPENDENCY AUDIT ==="
-  - cd app && flutter pub outdated --json > deps-outdated.json || true
-  - cat deps-outdated.json
+    - echo "=== FORMAT CHECK ==="
+    - cd app && dart format --set-exit-if-changed --output=none .
+    - echo "=== STATIC ANALYSIS ==="
+    - cd app && flutter analyze --fatal-infos
+    - echo "=== UNIT TESTS ==="
+    - cd app && flutter test -j 1
+    - echo "=== LICENSE CHECK ==="
+    - cd app && dart pub global activate license_checker
+    - cd app && dart pub global run license_checker:lic_ck check-licenses --config lic_ck.yaml || echo "License check completed with findings"
+    - echo "=== SECRET SCAN (GITLEAKS) ==="
+    - 'curl -sL "https://github.com/gitleaks/gitleaks/releases/latest/download/gitleaks_Linux_x64.tar.gz" | tar xz -C /usr/local/bin gitleaks'
+    - gitleaks detect --source . --verbose --config .gitleaks.toml --no-git
+    - echo "=== SECRET SCAN (TRUFFLEHOG) ==="
+    - 'curl -sL "https://github.com/trufflesecurity/trufflehog/releases/latest/download/trufflehog_Linux_x86_64.tar.gz" | tar xz -C /usr/local/bin trufflehog'
+    - trufflehog filesystem . --fail --results=verified
+    - echo "=== DEPENDENCY AUDIT ==="
+    - cd app && flutter pub outdated --json > deps-outdated.json || true
+    - cat deps-outdated.json
   rules:
-  - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-  - if: $CI_COMMIT_BRANCH == "main"
-  - if: $CI_COMMIT_BRANCH == "develop"
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == "main"
+    - if: $CI_COMMIT_BRANCH == "develop"
 hadolint:
   stage: validate
   image: alpine:3.20
   timeout: 5m
   tags:
-  - spanish
+    - spanish
   needs: []
   script:
-  - echo "=== DOCKERFILE LINT (HADOLINT) ==="
-  - wget -qO /usr/local/bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.12.0/hadolint-Linux-x86_64
-    && chmod +x /usr/local/bin/hadolint
-  - hadolint app/Dockerfile
+    - echo "=== DOCKERFILE LINT (HADOLINT) ==="
+    - wget -qO /usr/local/bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.12.0/hadolint-Linux-x86_64 && chmod +x /usr/local/bin/hadolint
+    - hadolint app/Dockerfile
   rules:
-  - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-  - if: $CI_COMMIT_BRANCH == "main"
-  - if: $CI_COMMIT_BRANCH == "develop"
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == "main"
+    - if: $CI_COMMIT_BRANCH == "develop"
 build:
   before_script: *id001
   stage: build
   image: ubuntu:22.04
   timeout: 30m
   tags:
-  - spanish
+    - spanish
   cache: *id002
   needs:
-  - validate
+    - validate
   script:
-  - echo "=== GET DEPENDENCIES ==="
-  - cd app && flutter pub get --enforce-lockfile
-  - echo "=== RESTORE RELEASE KEYSTORE ==="
-  - "if [ -n \"$RELEASE_KEYSTORE_BASE64\" ]; then\n  echo \"$RELEASE_KEYSTORE_BASE64\" | base64 -d > app/android/app/release.keystore\n\
-    \  ls -la app/android/app/release.keystore\nelse\n  echo \"RELEASE_KEYSTORE_BASE64 not set - generating ephemeral keystore\"\
-    \n  keytool -genkeypair -v \\\n    -keystore app/android/app/release.keystore \\\n    -alias release \\\n    -keyalg RSA\
-    \ -keysize 2048 -validity 10000 \\\n    -storepass release123 -keypass release123 \\\n    -dname \"CN=Talk To Me Espa\xF1\
-    ol, OU=DevOps, O=Mohamed Rafaa TOUNEKTI, L=Tunis, C=TN\"\nfi\n"
-  - echo "=== BUILD SPANISH APK ==="
-  - cd app
-  - flutter build apk --release --obfuscate --split-debug-info=build/debug-info --target-platform android-arm64
-  - echo "=== VERIFY BUILD OUTPUTS ==="
-  - ls -la app/build/app/outputs/flutter-apk/app-release.apk
-  - SIZE=$(stat -c%s app/build/app/outputs/flutter-apk/app-release.apk)
-  - echo "APK size: $SIZE bytes"
-  - test "$SIZE" -gt 1000000 || exit 1
-  - echo "=== BUILD DOCKER IMAGE (local) ==="
-  - cp app/build/app/outputs/flutter-apk/app-release.apk app/app-release.apk
-  - export DOCKER_BUILDKIT=1
-  - docker build -t talk-to-me-spanish:$CI_COMMIT_SHA app/
-  - echo "=== IMAGE SCAN (GRYPE) ==="
-  - curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b $HOME/.local/bin
-  - export PATH="$HOME/.local/bin:$PATH"
-  - grype talk-to-me-spanish:$CI_COMMIT_SHA --only-fixed --fail-on critical
-  - echo "=== IMAGE SBOM (SYFT) ==="
-  - curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b $HOME/.local/bin
-  - syft talk-to-me-spanish:$CI_COMMIT_SHA -o cyclonedx-json=sbom-docker.cdx.json
-  - echo "=== IMAGE SCAN (TRIVY) ==="
-  - curl -fsSL "https://github.com/aquasecurity/trivy/releases/download/v0.74.0/trivy_0.74.0_Linux-64bit.tar.gz"
-    | tar xz -C /usr/local/bin trivy
-  - trivy image --severity HIGH,CRITICAL --ignore-unfixed --exit-code 0 talk-to-me-spanish:$CI_COMMIT_SHA
-  - echo "=== IMAGE LINT (DOCKLE) ==="
-  - curl -fsSL "https://github.com/goodwithtech/dockle/releases/download/v0.4.14/dockle_0.4.14_Linux-64bit.tar.gz"
-    | tar xz -C /usr/local/bin dockle
-  - docker save talk-to-me-spanish:$CI_COMMIT_SHA -o /tmp/scan.tar
-  - dockle --exit-code 1 --exit-level fatal --input /tmp/scan.tar
-  - rm -f /tmp/scan.tar
+    - echo "=== GET DEPENDENCIES ==="
+    - cd app && flutter pub get --enforce-lockfile
+    - echo "=== RESTORE RELEASE KEYSTORE ==="
+    - "if [ -n \"$RELEASE_KEYSTORE_BASE64\" ]; then\n  echo \"$RELEASE_KEYSTORE_BASE64\" | base64 -d > app/android/app/release.keystore\n  ls -la app/android/app/release.keystore\nelse\n  echo \"RELEASE_KEYSTORE_BASE64 not set - generating ephemeral keystore\"\n  keytool -genkeypair -v \\\n    -keystore app/android/app/release.keystore \\\n    -alias release \\\n    -keyalg RSA -keysize 2048 -validity 10000 \\\n    -storepass release123 -keypass release123 \\\n    -dname \"CN=Talk To Me Espa\xF1ol, OU=DevOps, O=Mohamed Rafaa TOUNEKTI, L=Tunis, C=TN\"\nfi\n"
+    - echo "=== BUILD SPANISH APK ==="
+    - cd app
+    - flutter build apk --release --obfuscate --split-debug-info=build/debug-info --target-platform android-arm64
+    - echo "=== VERIFY BUILD OUTPUTS ==="
+    - ls -la app/build/app/outputs/flutter-apk/app-release.apk
+    - SIZE=$(stat -c%s app/build/app/outputs/flutter-apk/app-release.apk)
+    - echo "APK size: $SIZE bytes"
+    - test "$SIZE" -gt 1000000 || exit 1
+    - echo "=== BUILD DOCKER IMAGE (local) ==="
+    - cp app/build/app/outputs/flutter-apk/app-release.apk app/app-release.apk
+    - export DOCKER_BUILDKIT=1
+    - docker build -t talk-to-me-spanish:$CI_COMMIT_SHA app/
+    - echo "=== IMAGE SCAN (HADOLINT) ==="
+    - wget -qO /usr/local/bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.12.0/hadolint-Linux-x86_64 && chmod +x /usr/local/bin/hadolint
+    - hadolint app/Dockerfile
+    - echo "=== IMAGE SCAN (GRYPE) ==="
+    - curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b $HOME/.local/bin
+    - export PATH="$HOME/.local/bin:$PATH"
+    - grype talk-to-me-spanish:$CI_COMMIT_SHA --only-fixed --fail-on critical
+    - echo "=== IMAGE SBOM (SYFT) ==="
+    - curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b $HOME/.local/bin
+    - syft talk-to-me-spanish:$CI_COMMIT_SHA -o cyclonedx-json=sbom-docker.cdx.json
+    - echo "=== IMAGE SCAN (TRIVY) ==="
+    - curl -fsSL "https://github.com/aquasecurity/trivy/releases/download/v0.74.0/trivy_0.74.0_Linux-64bit.tar.gz" | tar xz -C /usr/local/bin trivy
+    - trivy image --severity HIGH,CRITICAL --ignore-unfixed --exit-code 0 talk-to-me-spanish:$CI_COMMIT_SHA
+    - echo "=== IMAGE LINT (DOCKLE) ==="
+    - curl -fsSL "https://github.com/goodwithtech/dockle/releases/download/v0.4.14/dockle_0.4.14_Linux-64bit.tar.gz" | tar xz -C /usr/local/bin dockle
+    - docker save talk-to-me-spanish:$CI_COMMIT_SHA -o /tmp/scan.tar
+    - dockle --exit-code 1 --exit-level fatal --input /tmp/scan.tar
+    - rm -f /tmp/scan.tar
   rules:
-  - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-  - if: $CI_COMMIT_BRANCH == "main"
-  - if: $CI_COMMIT_BRANCH == "develop"
-  - if: $CI_COMMIT_TAG =~ /^v/
-grype-scan:
-  stage: scan
-  image: anchore/grype:latest
-  timeout: 20m
-  tags:
-  - spanish
-  needs:
-  - build
-  script:
-  - echo "=== GENERATE SBOM (SYFT) ==="
-  - syft . -o cyclonedx-json=sbom-project.cdx.json
-  - syft app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-es-apk.cdx.json
-  - echo "=== VULNERABILITY SCAN (GRYPE) ==="
-  - grype sbom:sbom-project.cdx.json --fail-on high --output json > grype-project-report.json
-  - grype sbom:sbom-es-apk.cdx.json --fail-on high --output json > grype-es-report.json
-  rules:
-  - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-  - if: $CI_COMMIT_BRANCH == "main"
-  - if: $CI_COMMIT_BRANCH == "develop"
-  - if: $CI_COMMIT_TAG =~ /^v/
-trivy-scan:
-  stage: scan
-  image: aquasec/trivy:latest
-  timeout: 20m
-  tags:
-  - spanish
-  needs:
-  - build
-  script:
-  - echo "=== TRIVY FS SCAN ==="
-  - trivy fs --severity HIGH,CRITICAL --format sarif -o trivy-results.sarif .
-  - trivy fs --severity HIGH,CRITICAL --format json -o trivy-results.json .
-  rules:
-  - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-  - if: $CI_COMMIT_BRANCH == "main"
-  - if: $CI_COMMIT_BRANCH == "develop"
-  - if: $CI_COMMIT_TAG =~ /^v/
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == "main"
+    - if: $CI_COMMIT_BRANCH == "develop"
+    - if: $CI_COMMIT_TAG =~ /^v/
 package:
   before_script: *id001
   stage: package
   image: ubuntu:22.04
   timeout: 20m
   tags:
-  - spanish
+    - spanish
   cache: *id002
   needs:
-  - build
-  - grype-scan
-  - trivy-scan
+    - build
   script:
-  - echo "=== RE-BUILD APK (clean, ensures keystore) ==="
-  - cd app && flutter pub get --enforce-lockfile
-  - "if [ -n \"$RELEASE_KEYSTORE_BASE64\" ]; then\n  echo \"$RELEASE_KEYSTORE_BASE64\" | base64 -d > app/android/app/release.keystore\n\
-    else\n  keytool -genkeypair -v \\\n    -keystore app/android/app/release.keystore \\\n    -alias release \\\n    -keyalg\
-    \ RSA -keysize 2048 -validity 10000 \\\n    -storepass release123 -keypass release123 \\\n    -dname \"CN=Talk To Me Espa\xF1\
-    ol, OU=DevOps, O=Mohamed Rafaa TOUNEKTI, L=Tunis, C=TN\"\nfi\n"
-  - cd app
-  - flutter build apk --release --obfuscate --split-debug-info=build/debug-info --target-platform android-arm64
-  - echo "=== GENERATE SBOMs ==="
-  - syft . -o cyclonedx-json=sbom-project.cdx.json
-  - syft app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-es-apk.cdx.json
-  - echo "=== VULNERABILITY SCAN ON APK SBOM ==="
-  - grype sbom:sbom-es-apk.cdx.json --fail-on high
-  - echo "=== SIGN WITH COSIGN (KEYLESS) ==="
-  - curl -sL "https://github.com/sigstore/cosign/releases/latest/download/cosign-linux-amd64" -o /usr/local/bin/cosign &&
-    chmod +x /usr/local/bin/cosign
-  - cosign sign-blob --yes --output-signature app-release.apk.sig app/build/app/outputs/flutter-apk/app-release.apk
-  - cosign sign-blob --yes --output-signature sbom-project.cdx.json.sig sbom-project.cdx.json
-  - echo "=== GENERATE PROVENANCE (SLSA) ==="
-  - curl -sL "https://github.com/slsa-framework/slsa-verifier/releases/latest/download/slsa-verifier-linux-amd64" -o /usr/local/bin/slsa-verifier
-    && chmod +x /usr/local/bin/slsa-verifier
-  - slsa-verifier generate-provenance app/build/app/outputs/flutter-apk/app-release.apk --output provenance.intoto.jsonl
-  - echo "=== UPLOAD TO GITLAB RELEASE ==="
-  - "TAG=\"v${CI_PIPELINE_ID}-${CI_COMMIT_SHORT_SHA}\"\nif ! release-cli list --project \"${CI_PROJECT_ID}\" | grep -q \"\
-    ^$TAG$\"; then\n  release-cli create \\\n    --name \"Spanish Build ${CI_PIPELINE_ID}\" \\\n    --tag-name \"$TAG\" \\\
-    \n    --description \"Auto-build from commit ${CI_COMMIT_SHA}\" \\\n    --assets-link \"{\\\"name\\\":\\\"talk-to-me-espanol.apk\\\
-    \",\\\"url\\\":\\\"${CI_PROJECT_URL}/-/jobs/${CI_JOB_ID}/artifacts/app/build/app/outputs/flutter-apk/app-release.apk\\\
-    \"}\"\nfi\nrelease-cli upload \\\n  --tag-name \"$TAG\" \\\n  --assets-link \"{\\\"name\\\":\\\"talk-to-me-espanol.apk\\\
-    \",\\\"url\\\":\\\"${CI_PROJECT_URL}/-/jobs/${CI_JOB_ID}/artifacts/app/build/app/outputs/flutter-apk/app-release.apk\\\
-    \"}\" \\\n  --assets-link \"{\\\"name\\\":\\\"app-release.apk.sig\\\",\\\"url\\\":\\\"${CI_PROJECT_URL}/-/jobs/${CI_JOB_ID}/artifacts/app-release.apk.sig\\\
-    \"}\" \\\n  --assets-link \"{\\\"name\\\":\\\"sbom-project.cdx.json\\\",\\\"url\\\":\\\"${CI_PROJECT_URL}/-/jobs/${CI_JOB_ID}/artifacts/sbom-project.cdx.json\\\
-    \"}\" \\\n  --assets-link \"{\\\"name\\\":\\\"sbom-project.cdx.json.sig\\\",\\\"url\\\":\\\"${CI_PROJECT_URL}/-/jobs/${CI_JOB_ID}/artifacts/sbom-project.cdx.json.sig\\\
-    \"}\" \\\n  --assets-link \"{\\\"name\\\":\\\"sbom-es-apk.cdx.json\\\",\\\"url\\\":\\\"${CI_PROJECT_URL}/-/jobs/${CI_JOB_ID}/artifacts/sbom-es-apk.cdx.json\\\
-    \"}\" \\\n  --assets-link \"{\\\"name\\\":\\\"provenance.intoto.jsonl\\\",\\\"url\\\":\\\"${CI_PROJECT_URL}/-/jobs/${CI_JOB_ID}/artifacts/provenance.intoto.jsonl\\\
-    \"}\"\n"
+    - echo "=== RE-BUILD APK (clean, ensures keystore) ==="
+    - cd app && flutter pub get --enforce-lockfile
+    - "if [ -n \"$RELEASE_KEYSTORE_BASE64\" ]; then\n  echo \"$RELEASE_KEYSTORE_BASE64\" | base64 -d > app/android/app/release.keystore\nelse\n  keytool -genkeypair -v \\\n    -keystore app/android/app/release.keystore \\\n    -alias release \\\n    -keyalg RSA -keysize 2048 -validity 10000 \\\n    -storepass release123 -keypass release123 \\\n    -dname \"CN=Talk To Me Espa\xF1ol, OU=DevOps, O=Mohamed Rafaa TOUNEKTI, L=Tunis, C=TN\"\nfi\n"
+    - cd app
+    - flutter build apk --release --obfuscate --split-debug-info=build/debug-info --target-platform android-arm64
+    - echo "=== GENERATE SBOMs ==="
+    - syft dir:. -o cyclonedx-json=sbom-project.cdx.json
+    - syft app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-es-apk.cdx.json
+    - echo "=== VULNERABILITY SCAN ON APK SBOM ==="
+    - grype sbom:sbom-es-apk.cdx.json --fail-on high
+    - echo "=== SIGN WITH COSIGN (KEYLESS) ==="
+    - curl -sL "https://github.com/sigstore/cosign/releases/latest/download/cosign-linux-amd64" -o /usr/local/bin/cosign && chmod +x /usr/local/bin/cosign
+    - cosign sign-blob --yes --output-signature app-release.apk.sig app/build/app/outputs/flutter-apk/app-release.apk
+    - cosign sign-blob --yes --output-signature sbom-project.cdx.json.sig sbom-project.cdx.json
+    - echo "=== UPLOAD TO GITLAB RELEASE ==="
+    - "TAG=\"v${CI_PIPELINE_ID}-${CI_COMMIT_SHORT_SHA}\"\nif ! release-cli list --project \"${CI_PROJECT_ID}\" | grep -q \"^$TAG$\"; then\n  release-cli create \\\n    --name \"Spanish Build ${CI_PIPELINE_ID}\" \\\n    --tag-name \"$TAG\" \\\n    --description \"Auto-build from commit ${CI_COMMIT_SHA}\" \\\n    --assets-link \"{\\\"name\\\":\\\"talk-to-me-espanol.apk\\\",\\\"url\\\":\\\"${CI_PROJECT_URL}/-/jobs/${CI_JOB_ID}/artifacts/app/build/app/outputs/flutter-apk/app-release.apk\\\"}\"\nfi\nrelease-cli upload \\\n  --tag-name \"$TAG\" \\\n  --assets-link \"{\\\"name\\\":\\\"talk-to-me-espanol.apk\\\",\\\"url\\\":\\\"${CI_PROJECT_URL}/-/jobs/${CI_JOB_ID}/artifacts/app/build/app/outputs/flutter-apk/app-release.apk\\\"}\" \\\n  --assets-link \"{\\\"name\\\":\\\"app-release.apk.sig\\\",\\\"url\\\":\\\"${CI_PROJECT_URL}/-/jobs/${CI_JOB_ID}/artifacts/app-release.apk.sig\\\"}\" \\\n  --assets-link \"{\\\"name\\\":\\\"sbom-project.cdx.json\\\",\\\"url\\\":\\\"${CI_PROJECT_URL}/-/jobs/${CI_JOB_ID}/artifacts/sbom-project.cdx.json\\\"}\" \\\n  --assets-link \"{\\\"name\\\":\\\"sbom-project.cdx.json.sig\\\",\\\"url\\\":\\\"${CI_PROJECT_URL}/-/jobs/${CI_JOB_ID}/artifacts/sbom-project.cdx.json.sig\\\"}\" \\\n  --assets-link \"{\\\"name\\\":\\\"sbom-es-apk.cdx.json\\\",\\\"url\\\":\\\"${CI_PROJECT_URL}/-/jobs/${CI_JOB_ID}/artifacts/sbom-es-apk.cdx.json\\\"}\""
   artifacts:
     paths:
-    - app/build/app/outputs/flutter-apk/app-release.apk
-    - app-release.apk.sig
-    - sbom-project.cdx.json
-    - sbom-project.cdx.json.sig
-    - sbom-es-apk.cdx.json
-    - provenance.intoto.jsonl
+      - app/build/app/outputs/flutter-apk/app-release.apk
+      - app-release.apk.sig
+      - sbom-project.cdx.json
+      - sbom-project.cdx.json.sig
+      - sbom-es-apk.cdx.json
     expire_in: 90 days
   rules:
-  - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-  - if: $CI_COMMIT_BRANCH == "main"
-  - if: $CI_COMMIT_BRANCH == "develop"
-  - if: $CI_COMMIT_TAG =~ /^v/
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == "main"
+    - if: $CI_COMMIT_BRANCH == "develop"
+    - if: $CI_COMMIT_TAG =~ /^v/
 release:
   stage: release
   image: registry.gitlab.com/gitlab-org/release-cli:latest
   timeout: 10m
   needs:
-  - package
+    - package
   rules:
-  - if: $CI_COMMIT_TAG =~ /^v/
+    - if: $CI_COMMIT_BRANCH == "main"
+    - if: $CI_COMMIT_TAG =~ /^v/
   script:
-  - echo "=== CREATING GITLAB RELEASE FOR $CI_COMMIT_TAG ==="
-  - "release-cli create \\\n  --name \"Release $CI_COMMIT_TAG\" \\\n  --tag-name \"$CI_COMMIT_TAG\" \\\n  --description \"\
-    $(printf 'Release %s\\n\\n## Assets\\n- Talk To Me Espa\xF1ol APK\\n- SBOMs (CycloneDX)\\n- Cosign Signatures\\n- SLSA\
-    \ Provenance' \"$CI_COMMIT_TAG\")\" \\\n  --ref \"$CI_COMMIT_SHA\"\n"
+    - echo "=== CREATING GITLAB RELEASE FOR $CI_COMMIT_TAG ==="
+    - "release-cli create \\\n  --name \"Release $CI_COMMIT_TAG\" \\\n  --tag-name \"$CI_COMMIT_TAG\" \\\n  --description \"$(printf 'Release %s\\n\\n## Assets\\n- Talk To Me Espa\xF1ol APK\\n- SBOMs (CycloneDX)\\n- Cosign Signatures' \"$CI_COMMIT_TAG\")\" \\\n  --ref \"$CI_COMMIT_SHA\""

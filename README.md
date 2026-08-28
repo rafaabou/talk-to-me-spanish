@@ -22,7 +22,7 @@ quizzes, audio with speed/repeat controls, verb conjugator, stats + streaks — 
 ├── tools/                      # Python content pipeline (build_index.py, ...)
 ├── .github/workflows/build.yml # GitHub Actions DevSecOps pipeline
 ├── .gitlab-ci.yml              # GitLab CI DevSecOps pipeline
-├── Dockerfile                  # Multi-stage builder/scanner images
+├── Dockerfile                  # Scan-only image (Alpine + COPY app-release.apk)
 ├── docker-compose.yml          # Local builder + scanner services
 └── SECURITY.md                 # Security policy & reporting
 ```
@@ -61,37 +61,36 @@ python3 tools/build_index.py   # rebuild assets/course/index.json from the 72 le
 
 | Branch | Purpose | CI behaviour |
 |---|---|---|
-| `main` | Production code. Protected. | Full pipeline incl. scans |
+| `main` | Production code. Protected. | Full pipeline incl. scans; creates GitHub Release on every push |
 | `develop` | Integration branch | Full pipeline |
 | `feature/*` | Work branches, PR/MR → `develop` | Validation on MR |
 | `hotfix/*` | Urgent fixes → `main` (+ backport to develop) | Full pipeline |
-| `v*` tags | Releases (`v1.1.0`) | Build + GitHub/GitLab Release |
+| `v*` tags | Explicit versioned releases | Full pipeline; creates GitHub Release |
 
-Flow: `feature/x → develop → main`. Cut a tag on `main` to publish a release.
+Flow: `feature/x → develop → main`. Every push to `main` produces a release artifact.
 
 ## 4. How it works — GitHub Actions (`.github/workflows/build.yml`)
 
-Triggers: push/PR to `develop`, `test`; tag `v*`; manual dispatch.
-Runs on the dedicated **self-hosted** runner labelled `spanish` (all 5 jobs).
+Triggers: push/PR to `main`, `develop`; tag `v*`; manual dispatch.
+Runs on the dedicated **self-hosted** runner labelled `spanish` (all 4 jobs).
 
 | Stage | Job | What it does |
 |---|---|---|
-| 1 validate | `validate` | format check → `flutter analyze --fatal-infos` → `flutter test` → gitleaks + TruffleHog secret scans → dependency audit |
-| 2 build | `build` | restore keystore from secret (or ephemeral) → obfuscated arm64 APK → size check |
-| 3 security-scan | `security-scan` (matrix: grype, trivy) | SBOM (Syft) + vulnerability scans, SARIF upload, fails on HIGH+ |
-| 4 package | `package` | apksigner verify → Syft/Grype on the APK → Cosign keyless signature → SLSA provenance attestation |
-| 5 release | `release` | On `v*` tags: creates the GitHub Release with APK + signatures + SBOM |
+| 1 validate | `validate` (30m) | format check → `flutter analyze --fatal-infos` → `flutter test` → gitleaks + TruffleHog secret scans → dependency audit |
+| 2 build | `build` (90m) | restore keystore (or ephemeral) → obfuscated arm64 APK → size check → **inline security scans** (Hadolint, Grype, Syft, Trivy, Dockle all `if: always()`) |
+| 3 package | `package` (45m) | apksigner verify → Syft `dir:.` (project SBOM) + Grype `--fail-on high` (APK SBOM) → Cosign keyless signature → `gh release create` |
+| 4 release | `release` (20m) | **runs on every push to `main`** → GitHub Release via `softprops/action-gh-release@v2` with APK, signatures, SBOMs |
 
 ### Required GitHub secrets
 
 | Secret | Required? | Purpose |
 |---|---|---|
 | `RELEASE_KEYSTORE_BASE64` | optional | `base64 -d` of your real `release.keystore`. If absent, an ephemeral keystore is generated per build (installs work, but signature changes between builds). |
-| `GITHUB_TOKEN` | automatic | Provided by Actions for releases/attestations. |
+| `GITHUB_TOKEN` | automatic | Provided by Actions for releases. |
 
 ## 5. How it works — GitLab CI (`.gitlab-ci.yml`)
 
-Same five stages, self-contained runner image (Flutter + Android SDK installed in-pipeline):
+Same four stages, self-contained runner image (Flutter + Android SDK installed in-pipeline):
 
 | Stage | Jobs | Notes |
 |---|---|---|
@@ -99,7 +98,7 @@ Same five stages, self-contained runner image (Flutter + Android SDK installed i
 | build | `build` | keystore via `RELEASE_KEYSTORE_BASE64` variable or ephemeral; arm64 APK artifact (1 week) |
 | scan | `grype-scan`, `trivy-scan`, `mobsf-scan` | Syft SBOM + Grype (fails on HIGH+), Trivy SARIF (SAST report), MobSF dynamic static analysis (**manual**, skipped without API key) |
 | package | `package` | cosign-signed artifacts |
-| release | `release` | on `v*` tags → GitLab Release |
+| release | `release` | **runs on every push to `main`** → GitLab Release |
 
 Cache: pub/gradle/flutter keyed per project+branch. Artifacts expire 1–90 days by stage.
 
@@ -114,13 +113,22 @@ Everything else needs no configuration — pipelines run out-of-the-box.
 
 ## 6. Docker
 
-Multi-stage `Dockerfile`: `base` → `flutter-sdk` (Flutter + Android SDK + NDK) → `builder` / `scanner` targets.
+**Scan-only `Dockerfile`** (no in-container compilation — eliminates OOM on small runners):
+
+```dockerfile
+FROM alpine:3.22
+COPY app-release.apk /app-release.apk
+# ... scanners (hadolint, dockle, trivy, grype, syft) installed at runtime
+```
 
 ```bash
-docker compose build builder          # build toolchain image
-docker compose run --rm builder       # shell with Flutter+Android SDK mounted on ./app
-docker compose build scanner          # scanner image (syft/grype/trivy available)
+# Build APK on host, then scan via docker-compose
+docker compose build scanner
 docker compose run --rm scanner-ci    # one-shot scan into ./artifacts ./sbom ./sarif
+
+# Local development shell with Flutter + Android SDK (builder service)
+docker compose build builder
+docker compose run --rm builder       # shell with Flutter+Android SDK mounted on ./app
 ```
 
 Volumes cache `/root/.pub-cache`, `/root/.gradle` so repeat builds are fast.
@@ -138,6 +146,10 @@ Volumes cache `/root/.pub-cache`, `/root/.gradle` so repeat builds are fast.
 | Version name/code | `app/pubspec.yaml` (`version:`) | 1.1.0+2 |
 | Progress export file | documents dir | `eszero_progress.json` |
 | UI languages | in-app switcher | en / es / ar (RTL) |
+| Runner labels (GH Actions) | `.github/workflows/build.yml` | `self-hosted, linux, X64, spanish` |
+| Runner labels (GitLab) | `.gitlab-ci.yml` | `spanish` |
+| CI Java setup | `actions/setup-java@v5` (no `cache: gradle`) | Temurin 17 |
+| CI Flutter setup | `subosito/flutter-action@v2` (`cache: false`) | 3.29.3 stable |
 
 ## 8. Security notes
 
@@ -149,8 +161,8 @@ Volumes cache `/root/.pub-cache`, `/root/.gradle` so repeat builds are fast.
   are unset (matches the local dev keystore). For production distribution set the
   `RELEASE_KEY*` env vars or the `RELEASE_KEYSTORE_BASE64` CI secret and generate a strong
   private keystore: rotate before any public release.
-- **Supply chain**: every release artifact gets a Syft SBOM, Grype scan, Cosign signature
-  and SLSA provenance attestation.
+- **Supply chain**: every release artifact gets a Syft SBOM (project + APK), Grype scan,
+  Cosign keyless signature, and a GitHub Release with all artifacts attached.
 - Vulnerabilities: see `SECURITY.md` for the reporting policy.
 
 ## 9. Verify before push

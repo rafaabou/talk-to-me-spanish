@@ -112,7 +112,6 @@ Please include the following information:
 3. Signed with release keystore
 4. SBOM generated (CycloneDX)
 5. Cosign signatures generated
-6. SLSA provenance generated
 6. Published to GitHub/GitLab releases
 
 ## Vulnerability Disclosure
@@ -152,7 +151,6 @@ We follow coordinated vulnerability disclosure:
 | Gitleaks | Secret detection | Pre-commit + CI |
 | TruffleHog | Secret detection | Pre-commit + CI |
 | Cosign | Artifact signing | Release |
-| SLSA Provenance | Supply chain integrity | Release |
 
 ## Incident Response
 

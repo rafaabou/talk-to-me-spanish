@@ -15,7 +15,7 @@
 #       plus keystores/host state.
 # =============================================================================
 
-FROM alpine:3.20
+FROM alpine:3.22
 
 LABEL org.opencontainers.image.title="talk-to-me-spanish" \
       org.opencontainers.image.description="Release APK artifact container (scan-only, never published)" \
