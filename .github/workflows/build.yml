@@ -238,6 +238,10 @@ jobs:
       working-directory: app
       run: "flutter build apk --release \\\n  --obfuscate \\\n  --split-debug-info=build/debug-info \\\n  --target-platform\
         \ android-arm64"
+    - name: Install Grype & Syft
+      run: |
+        curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b $HOME/.local/bin
+        curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b $HOME/.local/bin
     - name: Generate SBOMs
       run: 'export PATH="$HOME/.local/bin:$PATH"
 
@@ -265,7 +269,7 @@ jobs:
         \ \\\n  app-release.apk.sig \\\n  sbom-project.cdx.json \\\n  sbom-project.cdx.json.sig \\\n  sbom-apk.cdx.json \\\
         \n  --title \"Spanish Build ${{ github.run_number }}\" \\\n  --notes \"Auto-build from\
         \ commit ${{ github.sha }}\""
-release:
+  release:
     name: Release Spanish App
     needs: package
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
