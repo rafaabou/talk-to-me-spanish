@@ -265,7 +265,7 @@ jobs:
         \ \\\n  app-release.apk.sig \\\n  sbom-project.cdx.json \\\n  sbom-project.cdx.json.sig \\\n  sbom-apk.cdx.json \\\
         \n  --title \"Spanish Build ${{ github.run_number }}\" \\\n  --notes \"Auto-build from\
         \ commit ${{ github.sha }}\""
-  release:
+release:
     name: Release Spanish App
     needs: package
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -291,6 +291,11 @@ jobs:
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
         git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/rafaabou/talk-to-me-spanish.git"
+        # Delete existing release and tag if they exist
+        gh release delete "$TAG" --yes 2>/dev/null || true
+        git push origin --delete "$TAG" 2>/dev/null || true
+        git tag -d "$TAG" 2>/dev/null || true
+        # Create tag
         git tag -f "$TAG" "${{ github.sha }}"
         git push origin -f "$TAG"
         # Create release with all artifacts
