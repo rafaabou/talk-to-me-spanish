@@ -125,8 +125,9 @@ void main() {
     final data = VerbData(
       [TenseInfo('present', TriTextLabel('Presente', 'Present', 'المضارع'))],
       ['yo', 'tú', 'él/ella', 'nosotros', 'ustedes', 'ellos/ellas'],
+      {'-ar': []},
       [
-        VerbInfo('ser', 'to be', 'يكون', {
+        VerbInfo('ser', 'to be', 'يكون', 'irregular', false, {
           'present': ['soy', 'eres', 'es', 'somos', 'son', 'son'],
         }),
       ],

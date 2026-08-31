@@ -77,55 +77,86 @@ class _VerbScreenState extends State<VerbScreen> {
                             (v) => setState(() => _query = v.toLowerCase()),
                       ),
                     ),
-                    Expanded(
-                      child: ListView(
-                        children: [
-                          ...data!.verbs
-                              .where(
-                                (v) =>
-                                    _query.isEmpty ||
-                                    v.inf.contains(_query) ||
-                                    v.en.toLowerCase().contains(_query) ||
-                                    v.ar.contains(_query),
-                              )
-                              .map(
-                                (v) => Card(
-                                  child: ListTile(
-                                    leading: CircleAvatar(
-                                      backgroundColor:
-                                          Theme.of(
-                                            context,
-                                          ).colorScheme.primaryContainer,
-                                      child: Text(v.inf[0].toUpperCase()),
-                                    ),
-                                    title: Text(
-                                      v.inf,
-                                      style: const TextStyle(
-                                        fontWeight: FontWeight.w600,
-                                      ),
-                                    ),
-                                    subtitle: Text(lang == 'ar' ? v.ar : v.en),
-                                    trailing: const Icon(Icons.chevron_right),
-                                    onTap:
-                                        () => Navigator.push(
-                                          context,
-                                          MaterialPageRoute(
-                                            builder:
-                                                (_) => VerbDetailScreen(
-                                                  data: data,
-                                                  verb: v,
-                                                ),
-                                          ),
-                                        ),
-                                  ),
-                                ),
-                              ),
-                          const CreditFooter(),
-                        ],
-                      ),
-                    ),
+                    Expanded(child: _buildGroupedList(data!, lang)),
                   ],
                 ),
+      ),
+    );
+  }
+
+  Widget _buildGroupedList(VerbData data, String lang) {
+    if (_query.isNotEmpty) {
+      final results =
+          data.verbs
+              .where(
+                (v) =>
+                    v.inf.contains(_query) ||
+                    v.en.toLowerCase().contains(_query) ||
+                    v.ar.contains(_query),
+              )
+              .toList();
+      return ListView(
+        children: [
+          ...results.map((v) => _verbTile(data, v, lang)),
+          const CreditFooter(),
+        ],
+      );
+    }
+
+    final groups = data.conjGroups;
+    if (groups.isEmpty) {
+      return ListView(
+        children: [
+          ...data.verbs.map((v) => _verbTile(data, v, lang)),
+          const CreditFooter(),
+        ],
+      );
+    }
+
+    return ListView(
+      children: [
+        for (final entry in groups.entries) ...[
+          _sectionHeader(entry.key, entry.value.length, lang),
+          ...entry.value
+              .map((inf) => data.verbs.firstWhere((v) => v.inf == inf))
+              .map((v) => _verbTile(data, v, lang)),
+        ],
+        const CreditFooter(),
+      ],
+    );
+  }
+
+  Widget _sectionHeader(String conjType, int count, String lang) {
+    final label = '-${conjType.toUpperCase()} Verbs ($count)';
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 16, 16, 4),
+      child: Text(
+        label,
+        style: Theme.of(context).textTheme.titleSmall?.copyWith(
+          fontWeight: FontWeight.bold,
+          color: Theme.of(context).colorScheme.primary,
+        ),
+      ),
+    );
+  }
+
+  Widget _verbTile(VerbData data, VerbInfo v, String lang) {
+    return Card(
+      child: ListTile(
+        leading: CircleAvatar(
+          backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+          child: Text(v.inf[0].toUpperCase()),
+        ),
+        title: Text(v.inf, style: const TextStyle(fontWeight: FontWeight.w600)),
+        subtitle: Text('${v.en} · ${v.ar}'),
+        trailing: const Icon(Icons.chevron_right),
+        onTap:
+            () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (_) => VerbDetailScreen(data: data, verb: v),
+              ),
+            ),
       ),
     );
   }
@@ -148,16 +179,22 @@ class _VerbDetailScreenState extends State<VerbDetailScreen> {
     final lang = context.watch<AppState>().lang;
     final tense = widget.data.tenses[_tenseIndex];
     final forms = widget.verb.conjugation(tense.id);
-    final title = lang == 'ar' ? widget.verb.ar : widget.verb.inf;
 
     return AppSelectionArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Text(title),
+          title: Text(
+            '${widget.verb.inf}  ${widget.verb.en}  ${widget.verb.ar}',
+          ),
           actions: [
             IconButton(
               icon: const Icon(Icons.quiz),
-              tooltip: 'Conjugation Quiz',
+              tooltip: uiText(
+                lang,
+                ar: 'اختبار التصريف',
+                es: 'Quiz de Conjugación',
+                other: 'Conjugation Quiz',
+              ),
               onPressed:
                   () => Navigator.push(
                     context,
@@ -174,13 +211,6 @@ class _VerbDetailScreenState extends State<VerbDetailScreen> {
         ),
         body: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.all(12),
-              child: Text(
-                uiText(lang, ar: widget.verb.ar, other: widget.verb.en),
-                style: Theme.of(context).textTheme.titleMedium,
-              ),
-            ),
             SizedBox(
               height: 48,
               child: ListView.separated(
@@ -296,7 +326,6 @@ class _VerbQuizScreenState extends State<VerbQuizScreen> {
     for (int i = 0; i < forms.length; i++) {
       final correct = forms[i];
       if (correct.isEmpty) continue;
-      // Build 3 distractors from other persons in same tense
       final otherForms =
           forms.where((f) => f != correct && f.isNotEmpty).toList();
       otherForms.shuffle(Random());
