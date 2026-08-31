@@ -145,7 +145,10 @@ class _VerbScreenState extends State<VerbScreen> {
       child: ListTile(
         leading: CircleAvatar(
           backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-          child: Text(v.inf[0].toUpperCase()),
+          child:
+              v.hasFullAudio
+                  ? const Icon(Icons.volume_up, size: 20)
+                  : Text(v.inf[0].toUpperCase()),
         ),
         title: Text(v.inf, style: const TextStyle(fontWeight: FontWeight.w600)),
         subtitle: Text('${v.en} · ${v.ar}'),
@@ -260,7 +263,10 @@ class _VerbDetailScreenState extends State<VerbDetailScreen> {
                           form.isEmpty
                               ? null
                               : AudioButton(
-                                text: widget.verb.inf,
+                                text:
+                                    widget.verb.hasFullAudio
+                                        ? form
+                                        : widget.verb.inf,
                                 lang: 'es',
                                 compact: true,
                               ),
