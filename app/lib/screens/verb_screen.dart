@@ -20,6 +20,7 @@ class _VerbScreenState extends State<VerbScreen> {
   VerbData? _data;
   String _query = '';
   bool _loading = true;
+  bool _audioOnly = false;
 
   @override
   void initState() {
@@ -77,6 +78,7 @@ class _VerbScreenState extends State<VerbScreen> {
                             (v) => setState(() => _query = v.toLowerCase()),
                       ),
                     ),
+                    _buildAudioFilter(data!, lang),
                     Expanded(child: _buildGroupedList(data!, lang)),
                   ],
                 ),
@@ -84,10 +86,53 @@ class _VerbScreenState extends State<VerbScreen> {
     );
   }
 
+  Widget _buildAudioFilter(VerbData data, String lang) {
+    final total = data.verbs.length;
+    final withAudio = data.verbs.where((v) => v.hasFullAudio).length;
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 12),
+      child: Row(
+        children: [
+          ChoiceChip(
+            label: Text(
+              uiText(
+                lang,
+                ar: 'الكل ($total)',
+                es: 'Todos ($total)',
+                other: 'All ($total)',
+              ),
+            ),
+            selected: !_audioOnly,
+            onSelected: (_) => setState(() => _audioOnly = false),
+          ),
+          const SizedBox(width: 8),
+          ChoiceChip(
+            avatar: const Icon(Icons.volume_up, size: 18),
+            label: Text(
+              uiText(
+                lang,
+                ar: 'صوت ($withAudio)',
+                es: 'Con Audio ($withAudio)',
+                other: 'Audio ($withAudio)',
+              ),
+            ),
+            selected: _audioOnly,
+            onSelected: (_) => setState(() => _audioOnly = true),
+          ),
+        ],
+      ),
+    );
+  }
+
   Widget _buildGroupedList(VerbData data, String lang) {
+    List<VerbInfo> verbs =
+        _audioOnly
+            ? data.verbs.where((v) => v.hasFullAudio).toList()
+            : data.verbs;
+
     if (_query.isNotEmpty) {
       final results =
-          data.verbs
+          verbs
               .where(
                 (v) =>
                     v.inf.contains(_query) ||
@@ -103,11 +148,20 @@ class _VerbScreenState extends State<VerbScreen> {
       );
     }
 
+    if (_audioOnly) {
+      return ListView(
+        children: [
+          ...verbs.map((v) => _verbTile(data, v, lang)),
+          const CreditFooter(),
+        ],
+      );
+    }
+
     final groups = data.conjGroups;
     if (groups.isEmpty) {
       return ListView(
         children: [
-          ...data.verbs.map((v) => _verbTile(data, v, lang)),
+          ...verbs.map((v) => _verbTile(data, v, lang)),
           const CreditFooter(),
         ],
       );
