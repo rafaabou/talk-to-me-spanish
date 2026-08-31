@@ -230,7 +230,7 @@ class _VerbDetailScreenState extends State<VerbDetailScreen> {
                           form.isEmpty
                               ? null
                               : AudioButton(
-                                text: form,
+                                text: widget.verb.inf,
                                 lang: 'es',
                                 compact: true,
                               ),
