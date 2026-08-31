@@ -22,12 +22,15 @@ class _QuizScreenState extends State<QuizScreen> {
   List<Exercise>? _questions;
   int _index = 0;
   String? _selected;
+  String? _selectedMatchLeft;
   bool _revealed = false;
   int _score = 0;
   int _best = 0;
   bool _loading = true;
   bool _finished = false;
   final Set<int> _wrong = {};
+  List<String> _matchPairsLeft = [];
+  List<String> _matchPairsRight = [];
 
   @override
   void initState() {
@@ -82,6 +85,7 @@ class _QuizScreenState extends State<QuizScreen> {
     setState(() {
       _index++;
       _selected = null;
+      _selectedMatchLeft = null;
       _revealed = false;
       if (_index >= _questions!.length) {
         _finished = true;
@@ -103,6 +107,7 @@ class _QuizScreenState extends State<QuizScreen> {
       _index = 0;
       _score = 0;
       _selected = null;
+      _selectedMatchLeft = null;
       _revealed = false;
       _finished = false;
     });
@@ -136,6 +141,230 @@ class _QuizScreenState extends State<QuizScreen> {
                 : _buildQuestion(_questions![_index], lang),
       ),
     );
+  }
+
+  List<String> _matchCorrectRight = [];
+  final Set<String> _matchedLeft = {};
+  final Set<String> _matchedRight = {};
+
+  Widget _buildMatchPairs(Exercise e, String lang) {
+    if (_matchPairsLeft.isEmpty ||
+        _matchPairsLeft.length != _matchPairsRight.length) {
+      _initMatchPairsState(e);
+    }
+    final allMatched = _matchedLeft.length == _matchPairsLeft.length;
+    if (allMatched && !_revealed) {
+      _revealed = true;
+      _score++;
+    }
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Padding(
+          padding: const EdgeInsets.all(16),
+          child: Text(
+            '${_index + 1}/${_questions!.length}',
+            style: Theme.of(context).textTheme.labelLarge,
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: Text(
+            e.prompt.es,
+            style: Theme.of(
+              context,
+            ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
+            textAlign: TextAlign.center,
+          ),
+        ),
+        const SizedBox(height: 16),
+        Expanded(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Row(
+              children: [
+                Expanded(
+                  child: Column(
+                    children: [
+                      Text(
+                        uiText(
+                          lang,
+                          pt: 'Português',
+                          es: 'Español',
+                          ar: 'الإسبانية',
+                          other: 'Spanish',
+                        ),
+                        style: Theme.of(context).textTheme.labelLarge,
+                      ),
+                      const SizedBox(height: 8),
+                      Expanded(
+                        child: ListView.builder(
+                          itemCount: _matchPairsLeft.length,
+                          itemBuilder: (context, i) {
+                            final pt = _matchPairsLeft[i];
+                            final matched = _matchedLeft.contains(pt);
+                            final selected = _selectedMatchLeft == pt;
+                            return Padding(
+                              padding: const EdgeInsets.symmetric(vertical: 3),
+                              child: OutlinedButton(
+                                onPressed:
+                                    matched
+                                        ? null
+                                        : () => setState(() {
+                                          _selectedMatchLeft = pt;
+                                        }),
+                                style: OutlinedButton.styleFrom(
+                                  backgroundColor:
+                                      matched
+                                          ? Colors.green.withValues(alpha: 0.2)
+                                          : selected
+                                          ? Theme.of(context)
+                                              .colorScheme
+                                              .primary
+                                              .withValues(alpha: 0.15)
+                                          : null,
+                                  side: BorderSide(
+                                    color:
+                                        matched
+                                            ? Colors.green
+                                            : selected
+                                            ? Theme.of(
+                                              context,
+                                            ).colorScheme.primary
+                                            : Colors.grey,
+                                  ),
+                                  padding: const EdgeInsets.symmetric(
+                                    vertical: 10,
+                                    horizontal: 8,
+                                  ),
+                                ),
+                                child: Text(
+                                  pt,
+                                  style: const TextStyle(fontSize: 14),
+                                ),
+                              ),
+                            );
+                          },
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Column(
+                    children: [
+                      Text(
+                        uiText(
+                          lang,
+                          pt: 'Inglês',
+                          es: 'Inglés',
+                          ar: 'الإنجليزية',
+                          other: 'English',
+                        ),
+                        style: Theme.of(context).textTheme.labelLarge,
+                      ),
+                      const SizedBox(height: 8),
+                      Expanded(
+                        child: ListView.builder(
+                          itemCount: _matchPairsRight.length,
+                          itemBuilder: (context, i) {
+                            final en = _matchPairsRight[i];
+                            final matched = _matchedRight.contains(en);
+                            return Padding(
+                              padding: const EdgeInsets.symmetric(vertical: 3),
+                              child: OutlinedButton(
+                                onPressed:
+                                    matched || _selectedMatchLeft == null
+                                        ? null
+                                        : () => _tryMatchPair(en),
+                                style: OutlinedButton.styleFrom(
+                                  backgroundColor:
+                                      matched
+                                          ? Colors.green.withValues(alpha: 0.2)
+                                          : null,
+                                  side: BorderSide(
+                                    color: matched ? Colors.green : Colors.grey,
+                                  ),
+                                  padding: const EdgeInsets.symmetric(
+                                    vertical: 10,
+                                    horizontal: 8,
+                                  ),
+                                ),
+                                child: Text(
+                                  en,
+                                  style: const TextStyle(fontSize: 14),
+                                ),
+                              ),
+                            );
+                          },
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+        const SizedBox(height: 8),
+        if (allMatched)
+          Padding(
+            padding: const EdgeInsets.all(16),
+            child: FilledButton(
+              onPressed: _next,
+              child: Text(
+                uiText(lang, ar: 'التالي', es: 'Siguiente', other: 'Next'),
+              ),
+            ),
+          ),
+        const CreditFooter(),
+      ],
+    );
+  }
+
+  void _initMatchPairsState(Exercise e) {
+    final pairs = e.answer.split('|');
+    final left = <String>[];
+    final right = <String>[];
+    final correct = <String>[];
+    for (final p in pairs) {
+      final parts = p.split('::');
+      if (parts.length == 2) {
+        left.add(parts[0]);
+        right.add(parts[1]);
+        correct.add(parts[1]);
+      }
+    }
+    final shuffledRight = List<String>.from(right)..shuffle();
+    _matchPairsLeft = left;
+    _matchPairsRight = shuffledRight;
+    _matchCorrectRight = correct;
+    _matchedLeft.clear();
+    _matchedRight.clear();
+    _selectedMatchLeft = null;
+  }
+
+  void _tryMatchPair(String en) {
+    final left = _selectedMatchLeft;
+    if (left == null) return;
+
+    final leftIdx = _matchPairsLeft.indexOf(left);
+    final correctEn =
+        leftIdx < _matchCorrectRight.length ? _matchCorrectRight[leftIdx] : '';
+
+    if (en == correctEn) {
+      setState(() {
+        _matchedLeft.add(left);
+        _matchedRight.add(en);
+        _selectedMatchLeft = null;
+      });
+    } else {
+      _wrong.add(_index);
+      setState(() {
+        _selectedMatchLeft = null;
+      });
+    }
   }
 
   Widget _buildResult(String lang) {
@@ -215,6 +444,7 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   Widget _buildQuestion(Exercise e, String lang) {
+    if (e.type == 'match_pairs') return _buildMatchPairs(e, lang);
     final q = e.prompt;
     final isMC = const [
       'multiple_choice',

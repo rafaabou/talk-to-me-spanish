@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import '../models/course_models.dart';
 
@@ -34,7 +35,8 @@ class CourseRepository {
   Future<Lesson?> tryLoadLesson(String id) async {
     try {
       return await loadLesson(id);
-    } catch (_) {
+    } catch (e) {
+      debugPrint('Failed to load lesson $id: $e');
       return null;
     }
   }

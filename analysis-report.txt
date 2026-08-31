@@ -1,2 +1,0 @@
-Command 'flutter' not found, but can be installed with:
-sudo snap install flutter

@@ -80,7 +80,9 @@ class AudioService {
       // A broken/stuck player should never require an app restart.
       try {
         await _player?.dispose();
-      } catch (_) {}
+      } catch (e) {
+        debugPrint('AudioService: dispose failed: $e');
+      }
       _player = null;
       return false;
     }
@@ -89,7 +91,9 @@ class AudioService {
   Future<void> stop() async {
     try {
       await _player?.stop();
-    } catch (_) {}
+    } catch (e) {
+      debugPrint('AudioService: stop failed: $e');
+    }
   }
 
   Future<bool> audioExists(String text, String lang) async {

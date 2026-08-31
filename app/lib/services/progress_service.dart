@@ -1,7 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
+import 'package:flutter/foundation.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'course_repository.dart';
 import 'fsrs.dart';
 
 class ProgressService {
@@ -43,7 +45,9 @@ class ProgressService {
           jsonDecode(entry) as Map<String, dynamic>,
         );
         map[card.key] = card;
-      } catch (_) {}
+      } catch (e) {
+        debugPrint('Failed to parse FSRS card: $e');
+      }
     }
     return map;
   }
@@ -313,8 +317,13 @@ class ProgressService {
     final fsrsCards = await getFsrsCards();
     final dueCount =
         fsrsCards.values.where((c) => !c.due.isAfter(DateTime.now())).length;
+    final levels = await CourseRepository.instance.loadLevels();
+    var totalLessons = 0;
+    for (final level in levels.values) {
+      totalLessons += level.lessons.length;
+    }
     return 'Talk To Me Spanish By Mohamed Rafaa Tounekti — Progress\n'
-        'Lessons completed: ${completed.length}/72\n'
+        'Lessons completed: ${completed.length}/$totalLessons\n'
         'Exercises completed: ${exercises.length}\n'
         'Favorite words: ${favorites.length}\n'
         'Day streak: $streak\n'
@@ -384,7 +393,9 @@ class ProgressService {
       if (data['repeat_count'] is int) {
         await prefs.setInt(_repeatCountKey, data['repeat_count'] as int);
       }
-    } catch (_) {}
+    } catch (e) {
+      debugPrint('Import data failed: $e');
+    }
   }
 
   Future<String> exportToFile() async {
@@ -400,7 +411,8 @@ class ProgressService {
       if (!await file.exists()) return false;
       await importData(await file.readAsString());
       return true;
-    } catch (_) {
+    } catch (e) {
+      debugPrint('Import from file failed: $e');
       return false;
     }
   }

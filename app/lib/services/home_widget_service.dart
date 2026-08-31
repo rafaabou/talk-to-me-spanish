@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
 class HomeWidgetService {
@@ -16,6 +17,8 @@ class HomeWidgetService {
         'streak': streak,
         'lessonsCompleted': lessonsCompleted,
       });
-    } catch (_) {}
+    } catch (e) {
+      debugPrint('Home widget update failed: $e');
+    }
   }
 }

@@ -59,7 +59,8 @@ class _HomeScreenState extends State<HomeScreen> {
         _dueCount = dueCount;
         _loading = false;
       });
-    } catch (_) {
+    } catch (e) {
+      debugPrint('Failed to load levels: $e');
       if (!mounted || _levels != null) return;
       setState(() {
         _loading = false;
@@ -88,7 +89,9 @@ class _HomeScreenState extends State<HomeScreen> {
       await NotificationService.instance.updateReviewNotification(_dueCount);
       await NotificationService.instance.scheduleDailyReviewReminder();
       await NotificationService.instance.scheduleStreakNudge();
-    } catch (_) {}
+    } catch (e) {
+      debugPrint('Notification scheduling failed: $e');
+    }
   }
 
   int _dueCount = 0;
@@ -658,10 +661,30 @@ class _ThemeSelector extends StatelessWidget {
       icon: Icon(icon),
       onSelected: state.setThemeMode,
       itemBuilder:
-          (_) => const [
-            PopupMenuItem(value: ThemeMode.light, child: Text('Light')),
-            PopupMenuItem(value: ThemeMode.dark, child: Text('Dark')),
-            PopupMenuItem(value: ThemeMode.system, child: Text('System')),
+          (_) => [
+            PopupMenuItem(
+              value: ThemeMode.light,
+              child: Text(
+                uiText(state.lang, ar: 'فاتح', es: 'Claro', other: 'Light'),
+              ),
+            ),
+            PopupMenuItem(
+              value: ThemeMode.dark,
+              child: Text(
+                uiText(state.lang, ar: 'داكن', es: 'Oscuro', other: 'Dark'),
+              ),
+            ),
+            PopupMenuItem(
+              value: ThemeMode.system,
+              child: Text(
+                uiText(
+                  state.lang,
+                  ar: 'النظام',
+                  es: 'Sistema',
+                  other: 'System',
+                ),
+              ),
+            ),
           ],
     );
   }
@@ -756,7 +779,55 @@ class _SettingsMenu extends StatelessWidget {
               }
             }
           case 'reset':
-            ProgressService.instance.resetAll();
+            final confirmed = await showDialog<bool>(
+              context: context,
+              builder:
+                  (ctx) => AlertDialog(
+                    title: Text(
+                      uiText(
+                        state.lang,
+                        ar: 'مسح التقدم',
+                        es: 'Borrar progreso',
+                        other: 'Reset Progress',
+                      ),
+                    ),
+                    content: Text(
+                      uiText(
+                        state.lang,
+                        ar: 'هل أنت متأكد؟ لن تتمكن من التراجع.',
+                        es: '¿Estás seguro? No se podrá deshacer.',
+                        other: 'Are you sure? This cannot be undone.',
+                      ),
+                    ),
+                    actions: [
+                      TextButton(
+                        onPressed: () => Navigator.pop(ctx, false),
+                        child: Text(
+                          uiText(
+                            state.lang,
+                            ar: 'إلغاء',
+                            es: 'Cancelar',
+                            other: 'Cancel',
+                          ),
+                        ),
+                      ),
+                      FilledButton(
+                        onPressed: () => Navigator.pop(ctx, true),
+                        child: Text(
+                          uiText(
+                            state.lang,
+                            ar: 'مسح',
+                            es: 'Borrar',
+                            other: 'Reset',
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+            );
+            if (confirmed == true) {
+              ProgressService.instance.resetAll();
+            }
         }
       },
       itemBuilder:
@@ -935,7 +1006,9 @@ class _SettingsMenu extends StatelessWidget {
       final dir = await getApplicationDocumentsDirectory();
       final file = File('${dir.path}/eszero_progress.json');
       if (await file.exists()) return file.path;
-    } catch (_) {}
+    } catch (e) {
+      debugPrint('Import file lookup failed: $e');
+    }
     return null;
   }
 }

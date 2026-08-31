@@ -10,18 +10,6 @@ class _ReorderItem {
   _ReorderItem({required this.text});
 }
 
-class _MatchPair {
-  final String left;
-  final String right;
-  final String correctRight;
-  bool selected = false;
-  _MatchPair({
-    required this.left,
-    required this.right,
-    required this.correctRight,
-  });
-}
-
 class ExerciseTile extends StatefulWidget {
   final String lessonId;
   final int index;
@@ -71,22 +59,12 @@ class _ExerciseTileState extends State<ExerciseTile> {
     return scrambled;
   }
 
-  List<String> get _matchLeft {
-    if (widget.e.type != 'match_pairs') return [];
-    final pairs = widget.e.answer.split('|');
-    return pairs.map((p) => p.split('::').first).toList();
-  }
-
-  List<String> get _matchRight {
-    if (widget.e.type != 'match_pairs') return [];
-    final pairs = widget.e.answer.split('|');
-    final right = pairs.map((p) => p.split('::').last).toList();
-    final shuffled = List<String>.from(right)..shuffle();
-    return shuffled;
-  }
-
   List<_ReorderItem> _reorderState = [];
-  List<_MatchPair> _matchState = [];
+  List<String> _matchPairsLeft = [];
+  List<String> _matchPairsRight = [];
+  String? _selectedMatchLeft;
+  final Set<String> _matchedLeft = {};
+  final Set<String> _matchedRight = {};
 
   @override
   void initState() {
@@ -102,16 +80,21 @@ class _ExerciseTileState extends State<ExerciseTile> {
 
   void _initMatchPairs() {
     if (!_isMatchPairs) return;
-    final left = _matchLeft;
-    final right = _matchRight;
-    _matchState = List.generate(
-      left.length,
-      (i) => _MatchPair(
-        left: left[i],
-        right: right[i],
-        correctRight: left.length > i ? _getCorrectRight(left[i]) : '',
-      ),
-    );
+    final pairs = widget.e.answer.split('|');
+    final left = <String>[];
+    final right = <String>[];
+    for (final p in pairs) {
+      final parts = p.split('::');
+      if (parts.length == 2) {
+        left.add(parts[0]);
+        right.add(parts[1]);
+      }
+    }
+    _matchPairsLeft = left;
+    _matchPairsRight = List<String>.from(right)..shuffle();
+    _matchedLeft.clear();
+    _matchedRight.clear();
+    _selectedMatchLeft = null;
   }
 
   String _getCorrectRight(String left) {
@@ -131,10 +114,28 @@ class _ExerciseTileState extends State<ExerciseTile> {
     });
   }
 
-  void _onMatchTap(int index) {
+  void _onMatchLeftTap(String pt) {
     setState(() {
-      _matchState[index].selected = !_matchState[index].selected;
+      _selectedMatchLeft = pt;
     });
+  }
+
+  void _onMatchRightTap(String en) {
+    final left = _selectedMatchLeft;
+    if (left == null) return;
+    final correctEn = _getCorrectRight(left);
+    setState(() {
+      if (en == correctEn) {
+        _matchedLeft.add(left);
+        _matchedRight.add(en);
+        _selectedMatchLeft = null;
+      } else {
+        _selectedMatchLeft = null;
+      }
+    });
+    if (_checkMatchPairs()) {
+      _submitAnswer('');
+    }
   }
 
   bool _checkReorder() {
@@ -144,11 +145,7 @@ class _ExerciseTileState extends State<ExerciseTile> {
   }
 
   bool _checkMatchPairs() {
-    for (final m in _matchState) {
-      if (m.selected && m.right != m.correctRight) return false;
-      if (!m.selected && m.right == m.correctRight) return false;
-    }
-    return true;
+    return _matchedLeft.length == _matchPairsLeft.length;
   }
 
   void _submitAnswer(String selected) {
@@ -345,26 +342,7 @@ class _ExerciseTileState extends State<ExerciseTile> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         TriBlock(e.explanation),
-                        if (!_isMC && !_isReorder && !_isMatchPairs) ...[
-                          const SizedBox(height: 4),
-                          Row(
-                            children: [
-                              Text(
-                                e.answer,
-                                style: const TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                              const SizedBox(width: 6),
-                              AudioButton(
-                                text: e.answer.split('/')[0],
-                                lang: 'es',
-                                compact: true,
-                              ),
-                            ],
-                          ),
-                        ],
-                        if (_isReorder || _isMatchPairs) ...[
+                        if (!_isMC) ...[
                           const SizedBox(height: 4),
                           Row(
                             children: [
@@ -424,77 +402,115 @@ class _ExerciseTileState extends State<ExerciseTile> {
 
   Widget _buildMatchPairs(BuildContext context, String lang) {
     return Column(
-      children:
-          _matchState.asMap().entries.map((entry) {
-            final index = entry.key;
-            final pair = entry.value;
-            return Card(
-              margin: const EdgeInsets.symmetric(vertical: 4),
-              child: ListTile(
-                leading: Text(
-                  pair.left,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.w600,
-                    fontSize: 16,
-                  ),
-                ),
-                title: GestureDetector(
-                  onTap: () => _onMatchTap(index),
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 12,
-                      vertical: 8,
+      children: [
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Expanded(
+              child: Column(
+                children: [
+                  Text(
+                    uiText(
+                      lang,
+                      pt: 'Português',
+                      es: 'Español',
+                      ar: 'الإسبانية',
+                      other: 'Spanish',
                     ),
-                    decoration: BoxDecoration(
-                      color:
-                          pair.selected
-                              ? (pair.right == pair.correctRight
+                    style: Theme.of(context).textTheme.labelLarge,
+                  ),
+                  const SizedBox(height: 4),
+                  ...List.generate(_matchPairsLeft.length, (i) {
+                    final pt = _matchPairsLeft[i];
+                    final matched = _matchedLeft.contains(pt);
+                    final selected = _selectedMatchLeft == pt;
+                    return Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 3),
+                      child: OutlinedButton(
+                        onPressed: matched ? null : () => _onMatchLeftTap(pt),
+                        style: OutlinedButton.styleFrom(
+                          backgroundColor:
+                              matched
                                   ? Colors.green.withValues(alpha: 0.2)
-                                  : Colors.red.withValues(alpha: 0.2))
-                              : Theme.of(
-                                context,
-                              ).colorScheme.surfaceContainerHighest,
-                      border: Border.all(
-                        color:
-                            pair.selected
-                                ? (pair.right == pair.correctRight
+                                  : selected
+                                  ? Theme.of(
+                                    context,
+                                  ).colorScheme.primary.withValues(alpha: 0.15)
+                                  : null,
+                          side: BorderSide(
+                            color:
+                                matched
                                     ? Colors.green
-                                    : Colors.red)
-                                : Colors.grey,
+                                    : selected
+                                    ? Theme.of(context).colorScheme.primary
+                                    : Colors.grey,
+                          ),
+                          padding: const EdgeInsets.symmetric(
+                            vertical: 8,
+                            horizontal: 8,
+                          ),
+                        ),
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          child: Text(pt, style: const TextStyle(fontSize: 14)),
+                        ),
                       ),
-                      borderRadius: BorderRadius.circular(8),
-                    ),
-                    child: Text(
-                      pair.right,
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight:
-                            pair.selected ? FontWeight.bold : FontWeight.normal,
-                        color:
-                            pair.selected
-                                ? (pair.right == pair.correctRight
-                                    ? Colors.green
-                                    : Colors.red)
-                                : Theme.of(context).textTheme.bodyLarge?.color,
-                      ),
-                    ),
-                  ),
-                ),
-                trailing:
-                    pair.selected
-                        ? Icon(
-                          pair.right == pair.correctRight
-                              ? Icons.check_circle
-                              : Icons.cancel,
-                          color:
-                              pair.right == pair.correctRight
-                                  ? Colors.green
-                                  : Colors.red,
-                        )
-                        : null,
+                    );
+                  }),
+                ],
               ),
-            );
-          }).toList(),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                children: [
+                  Text(
+                    uiText(
+                      lang,
+                      pt: 'Inglês',
+                      es: 'Inglés',
+                      ar: 'الإنجليزية',
+                      other: 'English',
+                    ),
+                    style: Theme.of(context).textTheme.labelLarge,
+                  ),
+                  const SizedBox(height: 4),
+                  ...List.generate(_matchPairsRight.length, (i) {
+                    final en = _matchPairsRight[i];
+                    final matched = _matchedRight.contains(en);
+                    return Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 3),
+                      child: OutlinedButton(
+                        onPressed:
+                            matched || _selectedMatchLeft == null
+                                ? null
+                                : () => _onMatchRightTap(en),
+                        style: OutlinedButton.styleFrom(
+                          backgroundColor:
+                              matched
+                                  ? Colors.green.withValues(alpha: 0.2)
+                                  : null,
+                          side: BorderSide(
+                            color: matched ? Colors.green : Colors.grey,
+                          ),
+                          padding: const EdgeInsets.symmetric(
+                            vertical: 8,
+                            horizontal: 8,
+                          ),
+                        ),
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          child: Text(en, style: const TextStyle(fontSize: 14)),
+                        ),
+                      ),
+                    );
+                  }),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ],
     );
   }
 }

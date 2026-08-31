@@ -132,56 +132,6 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# =============================================================================
-# IDE
-# =============================================================================
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Testing
-coverage/
-*.lcov
-*.coverage
-
-# Temporary
-*.tmp
-*.temp
-tmp/
-temp/
-*.bak
-
-# Python
-__pycache__/
-*.pyc
-
-# Dependencies
-node_modules/
-.pub-cache/
-
-# Generated
-*.g.dart
-*.freezed.dart
-*.gr.dart
-
-# Analysis
-analysis-report.json
-
-# Secrets (never commit!)
-secrets.yaml
-secrets.yml
-*.secret
 # Python tooling (tools/)
 .venv/
 venv/

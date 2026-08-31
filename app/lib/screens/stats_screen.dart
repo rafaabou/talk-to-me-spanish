@@ -6,7 +6,6 @@ import '../services/course_repository.dart';
 import '../services/progress_service.dart';
 import '../widgets/app_selection_area.dart';
 import '../widgets/credit_footer.dart';
-import 'dart:async';
 import '../services/ui_text.dart';
 
 class StatsScreen extends StatefulWidget {
@@ -22,7 +21,7 @@ class _StatsScreenState extends State<StatsScreen> {
   int _exercises = 0;
   int _favorites = 0;
   int _streak = 0;
-  final int _totalLessons = 72;
+  int _totalLessons = 0;
   int _totalExercises = 0;
   Map<String, int> _quizBest = {};
   List<DateTime> _studyDays = [];
@@ -41,8 +40,10 @@ class _StatsScreenState extends State<StatsScreen> {
     final studyDays = await ProgressService.instance.getStudyDays();
 
     var totalExercises = 0;
+    var totalLessons = 0;
     final levels = await CourseRepository.instance.loadLevels();
     for (final level in levels.values) {
+      totalLessons += level.lessons.length;
       for (final lessonMeta in level.lessons) {
         final id = lessonMeta['id'] as String;
         final lesson = await CourseRepository.instance.tryLoadLesson(id);
@@ -61,6 +62,7 @@ class _StatsScreenState extends State<StatsScreen> {
       _exercises = exercises.length;
       _favorites = favorites.length;
       _streak = streak;
+      _totalLessons = totalLessons;
       _totalExercises = totalExercises;
       _quizBest = quizBest;
       _studyDays = studyDays;

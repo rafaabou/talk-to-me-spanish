@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../services/audio_service.dart';
+import '../services/ui_text.dart';
 
 class AudioButton extends StatelessWidget {
   final String text;
@@ -20,7 +21,14 @@ class AudioButton extends StatelessWidget {
         ..hideCurrentSnackBar()
         ..showSnackBar(
           SnackBar(
-            content: Text('Audio not available'),
+            content: Text(
+              uiText(
+                lang,
+                ar: 'الصوت غير متاح',
+                es: 'Audio no disponible',
+                other: 'Audio not available',
+              ),
+            ),
             duration: const Duration(seconds: 1),
           ),
         );
@@ -30,12 +38,10 @@ class AudioButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      icon: Icon(
-        compact ? Icons.volume_up : Icons.volume_up,
-        size: compact ? 18 : 22,
-      ),
+      icon: const Icon(Icons.volume_up),
+      iconSize: compact ? 18 : 22,
       color: Theme.of(context).colorScheme.primary,
-      tooltip: 'Listen',
+      tooltip: uiText(lang, ar: 'استمع', es: 'Escuchar', other: 'Listen'),
       onPressed: () => _play(context),
     );
   }
