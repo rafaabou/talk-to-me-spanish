@@ -79,7 +79,7 @@ class _VerbScreenState extends State<VerbScreen> {
                       ),
                     ),
                     _buildAudioFilter(data!, lang),
-                    Expanded(child: _buildGroupedList(data!, lang)),
+                    Expanded(child: _buildGroupedList(data, lang)),
                   ],
                 ),
       ),
