@@ -264,11 +264,39 @@ jobs:
     - name: Upload to GitHub Release
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: "export PATH=\"$HOME/.local/bin:$PATH\"\nSHORT_SHA=\"${{ github.sha }}\"\nSHORT_SHA=\"${SHORT_SHA:0:8}\"\nTAG=\"\
-        v${{ github.run_number }}-${SHORT_SHA}\"\ngh release create \"$TAG\" \\\n  app/build/app/outputs/flutter-apk/app-release.apk\
-        \ \\\n  app-release.apk.sig \\\n  sbom-project.cdx.json \\\n  sbom-project.cdx.json.sig \\\n  sbom-apk.cdx.json \\\
-        \n  --title \"Spanish Build ${{ github.run_number }}\" \\\n  --notes \"Auto-build from\
-        \ commit ${{ github.sha }}\""
+      run: |
+        export PATH="$HOME/.local/bin:$PATH"
+        TAG="v1.4.2"
+        gh release create "$TAG" \
+          app/build/app/outputs/flutter-apk/app-release.apk \
+          app-release.apk.sig \
+          sbom-project.cdx.json \
+          sbom-project.cdx.json.sig \
+          sbom-apk.cdx.json \
+          --title "Talk To Me Spanish By Mohamed Rafaa Tounekti" \
+          --notes "## Talk To Me Spanish v1.4.2
+          By **Mohamed Rafaa Tounekti**
+
+          ### What's New in v1.4.2
+          - Audio filter toggle (All / With Audio) on verb screen
+          - 1,816 verbs with 8 tenses (present, preterite, imperfect, future, conditional, subjunctive, subjunctive past, imperative)
+          - Trilingual display (Spanish + English + Arabic)
+          - TTS audio for verb infinitives and lesson vocabulary
+          - Verb conjugation grouping by type (-AR/-ER/-IR/-OR/irregular)
+          - Audio icon badges for verbs with full audio
+
+          ### Previous Features
+          - Complete lesson library with dialogues, grammar, readings, exercises
+          - Flashcard review with FSRS spaced repetition
+          - Quiz mode with best score tracking
+          - Offline support — all content bundled in app
+          - Pinch-to-zoom and text selection everywhere
+
+          ### Technical
+          - Built with Flutter 3.29.3
+          - Signed APK with Cosign keyless signing
+          - SBOM + vulnerability scanning included
+          - CI/CD: validate → build → scan → package → release"
   release:
     name: Release Spanish App
     needs: package
@@ -288,9 +316,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         export PATH="$HOME/.local/bin:$PATH"
-        SHORT_SHA="${{ github.sha }}"
-        SHORT_SHA="${SHORT_SHA:0:8}"
-        TAG="v${{ github.run_number }}-${SHORT_SHA}"
+        TAG="v1.4.2"
         # Create tag with auth
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
@@ -309,5 +335,27 @@ jobs:
           sbom-project.cdx.json \
           sbom-project.cdx.json.sig \
           sbom-apk.cdx.json \
-          --title "Spanish Build ${{ github.run_number }}" \
-          --notes "Auto-build from commit ${{ github.sha }}"
+          --title "Talk To Me Spanish By Mohamed Rafaa Tounekti" \
+          --notes "## Talk To Me Spanish v1.4.2
+          By **Mohamed Rafaa Tounekti**
+
+          ### What's New in v1.4.2
+          - Audio filter toggle (All / With Audio) on verb screen
+          - 1,816 verbs with 8 tenses (present, preterite, imperfect, future, conditional, subjunctive, subjunctive past, imperative)
+          - Trilingual display (Spanish + English + Arabic)
+          - TTS audio for verb infinitives and lesson vocabulary
+          - Verb conjugation grouping by type (-AR/-ER/-IR/-OR/irregular)
+          - Audio icon badges for verbs with full audio
+
+          ### Previous Features
+          - Complete lesson library with dialogues, grammar, readings, exercises
+          - Flashcard review with FSRS spaced repetition
+          - Quiz mode with best score tracking
+          - Offline support — all content bundled in app
+          - Pinch-to-zoom and text selection everywhere
+
+          ### Technical
+          - Built with Flutter 3.29.3
+          - Signed APK with Cosign keyless signing
+          - SBOM + vulnerability scanning included
+          - CI/CD: validate → build → scan → package → release"
