@@ -1,6 +1,7 @@
-# Contributing to Talk To Me
+# Contributing to Talk To Me Spanish
 
-Thank you for your interest in contributing to Talk To Me! This document provides guidelines for contributing to the Talk To Me Spanish app.
+Thank you for your interest in contributing to Talk To Me Spanish!
+By Mohamed Rafaa Tounekti.
 
 ## Code of Conduct
 
@@ -10,13 +11,13 @@ This project adheres to a Code of Conduct. By participating, you are expected to
 
 ### Types of Contributions
 
-1. **Bug Reports** - Found a bug? Let us know!
-2. **Feature Requests** - Have an idea? We'd love to hear it!
-3. **Code Contributions** - Fix bugs, add features, improve performance
-4. **Documentation** - Improve docs, fix typos, add examples
-4. **Translations** - Add or improve language support
-5. **Security** - Report vulnerabilities (see SECURITY.md)
-6. **Testing** - Write tests, report bugs, test releases
+1. **Bug Reports** — Found a bug? Let us know!
+2. **Feature Requests** — Have an idea? We'd love to hear it!
+3. **Code Contributions** — Fix bugs, add features, improve performance
+4. **Documentation** — Improve docs, fix typos, add examples
+5. **Translations** — Add or improve language support
+6. **Security** — Report vulnerabilities (see SECURITY.md)
+7. **Testing** — Write tests, report bugs, test releases
 
 ### Before You Start
 
@@ -35,12 +36,14 @@ This project adheres to a Code of Conduct. By participating, you are expected to
 - Java 17
 - Git
 
+> **IMPORTANT**: JDK 25 breaks the Kotlin Gradle plugin. Always use JDK 17.
+
 ### Setup
 
 ```bash
 # Clone the repository
-git clone https://github.com/rafaabou/talk-to-me-spanish.git
-cd talk-to-me-spanish/app
+git clone https://github.com/rafaabou/espanol-zero-to-hero.git
+cd espanol-zero-to-hero/app
 
 # Install dependencies
 flutter pub get
@@ -58,11 +61,11 @@ dart format --set-exit-if-changed --output=none .
 # Static analysis
 flutter analyze --fatal-infos
 
-# Run tests
+# Run tests (55 tests)
 flutter test
 
 # Build release APK
-flutter build apk --release --obfuscate --split-debug-info=build/debug-info
+JAVA_HOME=/path/to/jdk17 flutter build apk --release --obfuscate --split-debug-info=build/debug-info --target-platform android-arm64
 
 # Check dependencies
 flutter pub outdated
@@ -83,22 +86,20 @@ flutter pub deps
 
 ### Architecture Guidelines
 
-- **Clean Architecture**: Separate UI, business logic, data layers
-- **State Management**: Provider pattern (already established)
-- **Dependency Injection**: Constructor injection preferred
-- **Error Handling**: Use Result/Either pattern, avoid exceptions for control flow
-- **Async**: Use `Future`/`Stream`, avoid blocking calls
+- **Provider + ChangeNotifier**: State management pattern (already established)
+- **Singleton services**: Lazy-loading singletons for repositories
+- **Trilingual**: Every UI string in ES/EN/AR via `TriText`
+- **Offline-first**: No network calls required
 
 ### File Organization
 
 ```
 lib/
 ├── main.dart                 # App entry point
-├── models/                   # Data models
-├── screens/                  # UI screens
-├── widgets/                  # Reusable widgets
-├── services/                 # Business logic/services
-└── utils/                    # Utilities/helpers
+├── models/                   # Data models (TriText, Lesson, VerbInfo)
+├── screens/                  # UI screens (14 files)
+├── widgets/                  # Reusable widgets (6 files)
+├── services/                 # Business logic (11 files)
 ```
 
 ### Naming Conventions
@@ -154,8 +155,8 @@ refactor(models): extract course models to separate file
 5. **Open PR** against `develop` branch
 6. **Describe** changes clearly in PR description
 7. **Wait** for CI checks to pass
-7. **Address** review feedback
-8. **Merge** after approval
+8. **Address** review feedback
+9. **Merge** after approval
 
 ### PR Requirements
 
@@ -165,7 +166,6 @@ refactor(models): extract course models to separate file
 - [ ] Tests pass (`flutter test`)
 - [ ] No new warnings from `flutter analyze`
 - [ ] Updated documentation if needed
-- [ ] CHANGELOG.md updated (for significant changes)
 - [ ] Security scan passes (no new vulnerabilities)
 
 ## Testing
@@ -178,6 +178,18 @@ refactor(models): extract course models to separate file
 | Widget | `test/` | `flutter test` |
 | Integration | `integration_test/` | `flutter test integration_test` |
 
+### Test Files (55 tests)
+
+| File | Covers |
+|------|--------|
+| `course_repository_test.dart` | Level/lesson loading, caching |
+| `fsrs_test.dart` | FSRS algorithm, card lifecycle |
+| `pinch_test.dart` | Pinch-to-zoom gesture handling |
+| `progress_service_test.dart` | Persistence, streaks, favorites, SRS |
+| `quiz_screen_test.dart` | Quiz logic, scoring |
+| `ui_text_test.dart` | Localization helper |
+| `widget_test.dart` | Widget rendering |
+
 ### Test Guidelines
 
 - Test business logic, not UI implementation
@@ -186,33 +198,6 @@ refactor(models): extract course models to separate file
 - Aim for >80% coverage on business logic
 - Name tests clearly: `should_<expected>_when_<condition>`
 
-## Adding Translations
-
-### Supported Languages
-
-- English (en) - Base
-- Spanish (es) - Primary for Español app
-- Arabic (ar) - RTL support
-
-### Adding New Language
-
-1. Add locale to `AppState` supported languages
-2. Create translation files in `lib/l10n/` (if using gen_l10n)
-3. Or add translations to `TriText` model objects
-4. Test RTL layout for Arabic
-5. Update `pubspec.yaml` with new locale
-
-### Translation Format
-
-```dart
-TriText(
-  es: 'Hola mundo',
-  en: 'Hello world',
-  ar: 'مرحبا بالعالم',
-  pt: 'Olá mundo',
-)
-```
-
 ## Adding Content
 
 ### Course Structure
@@ -220,37 +205,37 @@ TriText(
 ```
 assets/course/
 ├── levels/
-│   ├── A1.json
-│   ├── A2.json
+│   ├── index.json          # Level metadata
+│   ├── A1-01.json          # Individual lessons
 │   └── ...
-├── index.json
-└── verbs.json
+├── index.json              # Search index
+└── verbs.json              # Verb conjugations
 ```
 
 ### Adding a Lesson
 
-1. Add lesson to appropriate level JSON
+1. Add lesson JSON to appropriate level in `assets/course/levels/`
 2. Include all required fields:
    - `id`, `level`, `title` (TriText)
    - `objectives` (List<TriText>)
    - `vocabulary` (List<VocabWord>)
    - `grammar` (List<GrammarSection>)
-   - `dialogueLines` (List<DialogueLine>)
-   - `readingText` (TriText, optional)
-   - `culturalTips` (TriText, optional)
+   - `dialogue` (title + lines)
+   - `reading` (title + text)
    - `speaking` (List<SpeakingItem>)
    - `exercises` (List<Exercise>)
+   - `culturalTips` (TriText, optional)
 3. Add audio files to `assets/audio/`
-5. Regenerate index: `dart run tools/generate_index.dart`
-6. Run tests
+4. Regenerate index: `python3 tools/build_index.py`
+5. Run tests
 
 ### Audio Files
 
-- Format: OPUS (preferred) or MP3
-- Naming: `{lang}_{hash}.opus` (auto-generated)
+- Format: `.opus` (Ogg Opus)
+- Naming: `md5(lang:text)[:12].opus` (auto-generated)
 - Location: `assets/audio/`
-- Generate with TTS or record native speakers
-- Optimize for size (target <50KB per clip)
+- Generate with: `python3 tools/gen_audio.py`
+- Voice: es-UY-ValentinaNeural (Microsoft Edge TTS)
 
 ## Code Review Checklist
 
@@ -263,7 +248,6 @@ assets/course/
 - [ ] No debug prints (`print()`, `debugPrint()`)
 - [ ] No hardcoded strings (use TriText)
 - [ ] No TODO/FIXME without issue reference
-- [ ] CHANGELOG updated for significant changes
 
 ### For Reviewers
 
@@ -273,7 +257,6 @@ assets/course/
 - [ ] Performance considered
 - [ ] Documentation updated
 - [ ] Breaking changes documented
-- [ ] Dependencies justified
 
 ## Release Process
 
@@ -288,21 +271,18 @@ We follow [Semantic Versioning](https://semver.org/):
 
 - [ ] All CI checks pass on `main`
 - [ ] Version bumped in `pubspec.yaml`
-- [ ] CHANGELOG.md updated
-- [ ] Release notes drafted
+- [ ] README.md updated
 - [ ] Release keystore available
 - [ ] Build release APKs
 - [ ] Sign with release keystore
 - [ ] Generate SBOMs
 - [ ] Sign artifacts with Cosign
-- [ ] Generate SLSA provenance
 - [ ] Create GitHub/GitLab release
 - [ ] Upload artifacts
-- [ ] Announce release
 
 ## Getting Help
 
-- **Documentation**: Check README.md and code comments
+- **Documentation**: Check README.md, ARCHITECTURE.md, and code comments
 - **Issues**: Search existing issues first
 - **Discussions**: Use GitHub/GitLab Discussions
 - **Security**: See SECURITY.md for vulnerability reporting
@@ -310,9 +290,7 @@ We follow [Semantic Versioning](https://semver.org/):
 ## Recognition
 
 Contributors are recognized in:
-- CHANGELOG.md
 - Release notes
-- Contributors section in README
 - GitHub/GitLab contributor graphs
 
-Thank you for contributing to Talk To Me! 🎉
+Thank you for contributing to Talk To Me!
