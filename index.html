@@ -7,36 +7,51 @@
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; background: linear-gradient(135deg, #c0392b, #f39c12); }
-.card { background: white; border-radius: 20px; padding: 40px; text-align: center; box-shadow: 0 20px 60px rgba(0,0,0,0.3); max-width: 400px; width: 90%; }
+.card { background: white; border-radius: 20px; padding: 40px; text-align: center; box-shadow: 0 20px 60px rgba(0,0,0,0.3); max-width: 420px; width: 90%; }
 .flag { font-size: 60px; margin-bottom: 10px; }
-h1 { color: #c0392b; font-size: 22px; margin-bottom: 8px; }
-p { color: #666; font-size: 14px; margin-bottom: 24px; }
-.btn { display: block; width: 100%; padding: 16px; border: none; border-radius: 12px; font-size: 18px; font-weight: 600; cursor: pointer; margin-bottom: 12px; transition: transform 0.1s; }
+h1 { color: #c0392b; font-size: 22px; margin-bottom: 4px; }
+.sub { color: #888; font-size: 14px; margin-bottom: 6px; }
+.ar { color: #666; font-size: 15px; direction: rtl; margin-bottom: 20px; }
+.btn { display: block; width: 100%; padding: 16px; border: none; border-radius: 12px; font-size: 18px; font-weight: 600; cursor: pointer; margin-bottom: 12px; transition: transform 0.1s; background: #e74c3c; color: white; }
+.btn:hover { background: #c0392b; }
 .btn:active { transform: scale(0.97); }
-.btn-open { background: #e74c3c; color: white; }
-.btn-open:hover { background: #c0392b; }
-.error { background: #fee; border: 1px solid #fcc; color: #c0392b; border-radius: 10px; padding: 16px; margin-top: 16px; font-size: 13px; display: none; }
-.error strong { display: block; margin-bottom: 6px; font-size: 14px; }
+.error { background: #fee; border: 1px solid #fcc; color: #c0392b; border-radius: 10px; padding: 14px; margin-top: 16px; font-size: 12px; display: none; line-height: 1.6; }
+.error strong { display: block; margin-bottom: 4px; font-size: 13px; }
 .success { background: #efe; border: 1px solid #cfc; color: #27ae60; border-radius: 10px; padding: 12px; margin-top: 16px; font-size: 13px; display: none; }
+hr { border: none; border-top: 1px solid #eee; margin: 16px 0; }
+.info { font-size: 12px; color: #999; }
 </style>
 </head>
 <body>
 <div class="card">
   <div class="flag">🇪🇸</div>
   <h1>Talk To Me</h1>
-  <p>Espanol</p>
-  <button class="btn btn-open" onclick="openApp()">Abrir App / Open App</button>
-  <div class="success" id="ok">Server connected!</div>
+  <div class="sub">Espanol</div>
+  <div class="ar">الإسبانية</div>
+  <hr>
+  <button class="btn" onclick="openApp()">Abrir App</button>
+  <button class="btn" onclick="openApp()" style="background:#c0392b">Open App</button>
+  <button class="btn" onclick="openApp()" style="background:#8e44ad">فتح التطبيق</button>
+  <div class="success" id="ok">Server running</div>
   <div class="error" id="err">
-    <strong>Server not running</strong>
-    Open terminal and run:<br><code>cd "$(dirname(location.href.replace('file://','')))" && bash start-server.sh</code>
+    <strong>Servidor nao iniciado / Server not started</strong>
+    Execute no terminal:<br>
+    <code>cd espanol-zero-to-hero && bash start-server.sh</code>
   </div>
+  <div class="info">v1.4.3</div>
 </div>
 <script>
 function openApp() {
   var img = new Image();
-  img.onload = function() { document.getElementById('ok').style.display='block'; document.getElementById('err').style.display='none'; window.open('http://localhost:8002','_blank'); };
-  img.onerror = function() { document.getElementById('err').style.display='block'; document.getElementById('ok').style.display='none'; };
+  img.onload = function() {
+    document.getElementById('ok').style.display='block';
+    document.getElementById('err').style.display='none';
+    window.open('http://localhost:8002','_blank');
+  };
+  img.onerror = function() {
+    document.getElementById('err').style.display='block';
+    document.getElementById('ok').style.display='none';
+  };
   img.src = 'http://localhost:8002/favicon.png?' + Date.now();
 }
 </script>
