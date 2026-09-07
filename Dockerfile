@@ -187,3 +187,30 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 ENTRYPOINT ["bash"]
+
+# =============================================================================
+# STAGE 9: Web Build & Serve
+# =============================================================================
+FROM flutter-sdk AS web-builder
+
+WORKDIR /workspace
+
+COPY app/pubspec.yaml ./app/
+COPY app/pubspec.lock ./app/
+RUN cd app && flutter pub get --enforce-lockfile
+
+COPY app/lib ./app/lib
+COPY app/assets ./app/assets
+COPY app/web ./app/web
+
+RUN cd app && flutter build web --release
+
+FROM python:3.12-slim AS web
+
+WORKDIR /app
+
+COPY --from=web-builder /workspace/app/build/web/ ./web/
+
+EXPOSE 8080
+
+CMD ["python3", "-m", "http.server", "8080", "--directory", "/app/web"]

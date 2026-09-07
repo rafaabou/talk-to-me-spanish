@@ -128,10 +128,23 @@ services:
       - ./app:/workspace/app
       - flutter-cache:/root/.pub-cache
     ports:
-      - "5000:5000"  # Flutter web dev server
-      - "9000:9000"  # Dart Observatory
+      - "5000:5000"
+      - "9000:9000"
     working_dir: /workspace/app
     command: flutter run -d web-server --web-port=5000 --web-hostname=0.0.0.0
+
+  # =============================================================================
+  # Web Service - Runs app in browser via Docker
+  # =============================================================================
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: web
+    container_name: espanol-web
+    profiles: [web]
+    ports:
+      - "8002:8080"
 
 volumes:
   flutter-cache:

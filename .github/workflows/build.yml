@@ -245,47 +245,17 @@ jobs:
     - name: Sign APK & SBOM (Keyless)
       run: "cosign sign-blob --yes \\\n  --output-signature app-release.apk.sig \\\n  app/build/app/outputs/flutter-apk/app-release.apk\n\
         cosign sign-blob --yes \\\n  --output-signature sbom-project.cdx.json.sig \\\n  sbom-project.cdx.json"
-    - name: Install GitHub CLI
-      run: |
-        mkdir -p "$HOME/.local/bin"
-        curl -fsSL https://raw.githubusercontent.com/cli/cli/trunk/install.sh | sh -s -- -b $HOME/.local/bin
-    - name: Upload to GitHub Release
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        export PATH="$HOME/.local/bin:$PATH"
-        TAG="v1.4.3"
-        gh release create "$TAG" \
-          app/build/app/outputs/flutter-apk/app-release.apk \
-          app-release.apk.sig \
-          sbom-project.cdx.json \
-          sbom-project.cdx.json.sig \
-          sbom-apk.cdx.json \
-          --title "Talk To Me Spanish By Mohamed Rafaa Tounekti" \
-          --notes "## Talk To Me Spanish v1.4.3
-          By **Mohamed Rafaa Tounekti**
-
-          ### What's New in v1.4.3
-          - 🌐 Web support — run directly in your browser
-          - 🏗️ CI/CD now builds on GitHub-hosted runners
-
-          ### Previous Features
-          - 1,816 verbs with 8 tenses (present, preterite, imperfect, future, conditional, subjunctive, subjunctive past, imperative)
-          - Audio filter toggle (All / With Audio) on verb screen
-          - Trilingual display (Spanish + English + Arabic)
-          - TTS audio for verb infinitives and lesson vocabulary
-          - Verb conjugation grouping by type (-AR/-ER/-IR/-OR/irregular)
-          - Complete lesson library with dialogues, grammar, readings, exercises
-          - Flashcard review with FSRS spaced repetition
-          - Quiz mode with best score tracking
-          - Offline support — all content bundled in app
-          - Pinch-to-zoom and text selection everywhere
-
-          ### Technical
-          - Built with Flutter 3.29.3
-          - Signed APK with Cosign keyless signing
-          - SBOM + vulnerability scanning included
-          - CI/CD: validate → build → scan → package → release"
+    - name: Upload release artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: release-artifacts
+        path: |
+          app/build/app/outputs/flutter-apk/app-release.apk
+          app-release.apk.sig
+          sbom-project.cdx.json
+          sbom-project.cdx.json.sig
+          sbom-apk.cdx.json
+        retention-days: 7
   release:
     name: Release Spanish App
     needs: package
@@ -299,53 +269,54 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
+    - name: Download release artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: release-artifacts
+        path: artifacts
     - name: Create tag & GitHub Release
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         export PATH="$HOME/.local/bin:$PATH"
+        mkdir -p "$HOME/.local/bin"
+        curl -fsSL https://raw.githubusercontent.com/cli/cli/trunk/install.sh | sh -s -- -b $HOME/.local/bin
         TAG="v1.4.3"
-        # Create tag with auth
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
         git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/rafaabou/talk-to-me-spanish.git"
-        # Delete existing release and tag if they exist
         gh release delete "$TAG" --yes 2>/dev/null || true
         git push origin --delete "$TAG" 2>/dev/null || true
         git tag -d "$TAG" 2>/dev/null || true
-        # Create tag
         git tag -f "$TAG" "${{ github.sha }}"
         git push origin -f "$TAG"
-        # Create release with all artifacts
         gh release create "$TAG" \
-          app/build/app/outputs/flutter-apk/app-release.apk \
-          app-release.apk.sig \
-          sbom-project.cdx.json \
-          sbom-project.cdx.json.sig \
-          sbom-apk.cdx.json \
+          artifacts/app-release.apk \
+          artifacts/app-release.apk.sig \
+          artifacts/sbom-project.cdx.json \
+          artifacts/sbom-project.cdx.json.sig \
+          artifacts/sbom-apk.cdx.json \
           --title "Talk To Me Spanish By Mohamed Rafaa Tounekti" \
           --notes "## Talk To Me Spanish v1.4.3
           By **Mohamed Rafaa Tounekti**
 
           ### What's New in v1.4.3
-          - 🌐 Web support — run directly in your browser
-          - 🏗️ CI/CD now builds on GitHub-hosted runners
+          - Web support - run directly in your browser
+          - CI/CD now builds on GitHub-hosted runners
 
           ### Previous Features
-          - 1,816 verbs with 8 tenses (present, preterite, imperfect, future, conditional, subjunctive, subjunctive past, imperative)
-          - Audio filter toggle (All / With Audio) on verb screen
+          - 1,816 verbs with 8 tenses
+          - Audio filter toggle on verb screen
           - Trilingual display (Spanish + English + Arabic)
-          - TTS audio for verb infinitives and lesson vocabulary
-          - Verb conjugation grouping by type (-AR/-ER/-IR/-OR/irregular)
+          - Verb conjugation grouping by type
           - Complete lesson library with dialogues, grammar, readings, exercises
           - Flashcard review with FSRS spaced repetition
           - Quiz mode with best score tracking
-          - Offline support — all content bundled in app
-          - Pinch-to-zoom and text selection everywhere
+          - Offline support
 
           ### Technical
           - Built with Flutter 3.29.3
           - Signed APK with Cosign keyless signing
           - SBOM + vulnerability scanning included
-          - CI/CD: validate → build → scan → package → release"
+          - CI/CD: validate -> build -> scan -> package -> release"
