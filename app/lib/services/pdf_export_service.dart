@@ -1,12 +1,10 @@
-import 'dart:io';
-import 'package:path_provider/path_provider.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
 import '../models/course_models.dart';
 import '../services/app_state.dart';
 import '../services/course_repository.dart';
-import 'package:share_plus/share_plus.dart';
 import '../services/ui_text.dart';
+import 'pdf_file_helper.dart' as file_helper;
 
 class PdfExportService {
   static final PdfExportService instance = PdfExportService._();
@@ -56,23 +54,15 @@ class PdfExportService {
       pdf.addPage(_buildExercisesPage(lesson, t, lang));
     }
 
-    // Save to file
-    final outputDir = await getApplicationDocumentsDirectory();
+    // Save to file and share
     final fileName =
-        'PTBR_${lessonId}_${DateTime.now().millisecondsSinceEpoch}.pdf';
-    final file = File('${outputDir.path}/$fileName');
-    await file.writeAsBytes(await pdf.save());
-
-    return file.path;
-  }
-
-  Future<void> sharePdf(String filePath) async {
-    await SharePlus.instance.share(
-      ShareParams(
-        files: [XFile(filePath)],
-        text: 'Talk To Me Spanish By Mohamed Rafaa Tounekti - Lesson Handout',
-      ),
+        'ES_${lessonId}_${DateTime.now().millisecondsSinceEpoch}';
+    final result = await file_helper.saveAndSharePdf(
+      await pdf.save(),
+      fileName,
     );
+
+    return result ?? 'PDF generated';
   }
 
   pw.Page _buildCoverPage(Lesson lesson, _Translations t, String lang) {

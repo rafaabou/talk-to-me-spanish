@@ -87,7 +87,6 @@ class _LessonScreenState extends State<LessonScreen> {
         appState: context.read<AppState>(),
       );
       if (!mounted) return;
-      await PdfExportService.instance.sharePdf(path);
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'dart:io';
-import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 import '../models/course_models.dart';
 import '../services/app_state.dart';
@@ -9,6 +7,7 @@ import '../services/course_repository.dart';
 import '../services/progress_service.dart';
 import '../services/notification_service.dart';
 import '../services/home_widget_service.dart';
+import '../services/progress_file_helper.dart' as file_helper;
 import 'lesson_list_screen.dart';
 import 'flashcard_screen.dart';
 import 'search_screen.dart';
@@ -736,17 +735,17 @@ class _SettingsMenu extends StatelessWidget {
               );
             }
           case 'import_file':
-            final path = await _findImportFile();
-            if (path == null) {
+            final jsonString = await file_helper.pickAndReadFile();
+            if (jsonString == null) {
               if (context.mounted) {
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
                     content: Text(
                       uiText(
                         state.lang,
-                        ar: 'لم يتم العثور على ملف تقدم',
-                        es: 'No se encontró archivo de progreso',
-                        other: 'No progress file found',
+                        ar: 'لم يتم اختيار ملف',
+                        es: 'Ningún archivo seleccionado',
+                        other: 'No file selected',
                       ),
                     ),
                     duration: const Duration(seconds: 2),
@@ -754,24 +753,17 @@ class _SettingsMenu extends StatelessWidget {
                 );
               }
             } else {
-              final ok = await ProgressService.instance.importFromFile(path);
+              await ProgressService.instance.importData(jsonString);
               if (context.mounted) {
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
                     content: Text(
-                      ok
-                          ? uiText(
-                            state.lang,
-                            ar: 'تم استيراد التقدم',
-                            es: 'Progreso importado',
-                            other: 'Progress imported',
-                          )
-                          : uiText(
-                            state.lang,
-                            ar: 'فشل الاستيراد',
-                            es: 'Error al importar',
-                            other: 'Import failed',
-                          ),
+                      uiText(
+                        state.lang,
+                        ar: 'تم استيراد التقدم',
+                        es: 'Progreso importado',
+                        other: 'Progress imported',
+                      ),
                     ),
                     duration: const Duration(seconds: 2),
                   ),
@@ -1000,17 +992,6 @@ class _SettingsMenu extends StatelessWidget {
   }
 
   String _withCheck(String label, bool checked) => checked ? '$label ✓' : label;
-
-  Future<String?> _findImportFile() async {
-    try {
-      final dir = await getApplicationDocumentsDirectory();
-      final file = File('${dir.path}/eszero_progress.json');
-      if (await file.exists()) return file.path;
-    } catch (e) {
-      debugPrint('Import file lookup failed: $e');
-    }
-    return null;
-  }
 }
 
 class _QuickAction extends StatelessWidget {

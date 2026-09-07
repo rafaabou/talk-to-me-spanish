@@ -1,8 +1,7 @@
 import 'dart:convert';
-import 'dart:io';
 import 'package:flutter/foundation.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'progress_file_helper.dart' as file_helper;
 import 'course_repository.dart';
 import 'fsrs.dart';
 
@@ -398,22 +397,15 @@ class ProgressService {
     }
   }
 
-  Future<String> exportToFile() async {
-    final dir = await getApplicationDocumentsDirectory();
-    final file = File('${dir.path}/eszero_progress.json');
-    await file.writeAsString(await exportData());
-    return file.path;
+  Future<String?> exportToFile() async {
+    final path = await file_helper.exportToFile(await exportData());
+    return path;
   }
 
   Future<bool> importFromFile(String path) async {
-    try {
-      final file = File(path);
-      if (!await file.exists()) return false;
-      await importData(await file.readAsString());
-      return true;
-    } catch (e) {
-      debugPrint('Import from file failed: $e');
-      return false;
-    }
+    final content = await file_helper.readFromFile(path);
+    if (content == null || content.isEmpty) return false;
+    await importData(content);
+    return true;
   }
 }
