@@ -12,14 +12,17 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; d
 h1 { color: #c0392b; font-size: 22px; margin-bottom: 4px; }
 .sub { color: #888; font-size: 14px; margin-bottom: 6px; }
 .ar { color: #666; font-size: 15px; direction: rtl; margin-bottom: 20px; }
-.btn { display: block; width: 100%; padding: 16px; border: none; border-radius: 12px; font-size: 18px; font-weight: 600; cursor: pointer; margin-bottom: 12px; transition: transform 0.1s; background: #e74c3c; color: white; }
-.btn:hover { background: #c0392b; }
+.btn { display: block; width: 100%; padding: 16px; border: none; border-radius: 12px; font-size: 18px; font-weight: 600; cursor: pointer; margin-bottom: 12px; transition: transform 0.1s; color: white; }
 .btn:active { transform: scale(0.97); }
-.error { background: #fee; border: 1px solid #fcc; color: #c0392b; border-radius: 10px; padding: 14px; margin-top: 16px; font-size: 12px; display: none; line-height: 1.6; }
-.error strong { display: block; margin-bottom: 4px; font-size: 13px; }
-.success { background: #efe; border: 1px solid #cfc; color: #27ae60; border-radius: 10px; padding: 12px; margin-top: 16px; font-size: 13px; display: none; }
+.btn1 { background: #e74c3c; }
+.btn1:hover { background: #c0392b; }
+.btn2 { background: #c0392b; }
+.btn2:hover { background: #a93226; }
+.btn3 { background: #8e44ad; }
+.btn3:hover { background: #7d3c98; }
 hr { border: none; border-top: 1px solid #eee; margin: 16px 0; }
-.info { font-size: 12px; color: #999; }
+.info { font-size: 12px; color: #999; margin-top: 8px; }
+.note { background: #fff3cd; border: 1px solid #ffc107; border-radius: 10px; padding: 12px; margin-top: 16px; font-size: 12px; color: #856404; display: none; }
 </style>
 </head>
 <body>
@@ -29,31 +32,18 @@ hr { border: none; border-top: 1px solid #eee; margin: 16px 0; }
   <div class="sub">Espanol</div>
   <div class="ar">الإسبانية</div>
   <hr>
-  <button class="btn" onclick="openApp()">Abrir App</button>
-  <button class="btn" onclick="openApp()" style="background:#c0392b">Open App</button>
-  <button class="btn" onclick="openApp()" style="background:#8e44ad">فتح التطبيق</button>
-  <div class="success" id="ok">Server running</div>
-  <div class="error" id="err">
-    <strong>Servidor nao iniciado / Server not started</strong>
-    Execute no terminal:<br>
-    <code>cd espanol-zero-to-hero && bash start-server.sh</code>
-  </div>
+  <button class="btn btn1" onclick="window.open('http://localhost:8002','_blank')">Abrir App</button>
+  <button class="btn btn2" onclick="window.open('http://localhost:8002','_blank')">Open App</button>
+  <button class="btn btn3" onclick="window.open('http://localhost:8002','_blank')">فتح التطبيق</button>
+  <div class="note" id="note">If the app does not open, start the server first:<br><code>bash start-server.sh</code></div>
   <div class="info">v1.4.3</div>
 </div>
 <script>
-function openApp() {
+setTimeout(function(){
   var img = new Image();
-  img.onload = function() {
-    document.getElementById('ok').style.display='block';
-    document.getElementById('err').style.display='none';
-    window.open('http://localhost:8002','_blank');
-  };
-  img.onerror = function() {
-    document.getElementById('err').style.display='block';
-    document.getElementById('ok').style.display='none';
-  };
+  img.onerror = function(){ document.getElementById('note').style.display='block'; };
   img.src = 'http://localhost:8002/favicon.png?' + Date.now();
-}
+}, 500);
 </script>
 </body>
 </html>
