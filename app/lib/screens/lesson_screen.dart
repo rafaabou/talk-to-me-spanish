@@ -82,7 +82,7 @@ class _LessonScreenState extends State<LessonScreen> {
 
   Future<void> _exportPdf() async {
     try {
-      final path = await PdfExportService.instance.exportLessonToPdf(
+      await PdfExportService.instance.exportLessonToPdf(
         lessonId: widget.lessonId,
         appState: context.read<AppState>(),
       );
