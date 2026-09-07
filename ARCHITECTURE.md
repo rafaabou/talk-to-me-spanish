@@ -1064,7 +1064,7 @@ Three ecosystems:
 
 ```yaml
 name: talk_to_me_spanish
-version: 1.3.0+5
+version: 1.4.3+6
 environment:
   sdk: ^3.7.2
 dependencies:

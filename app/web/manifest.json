@@ -1,11 +1,11 @@
 {
-    "name": "talk_to_me_spanish",
-    "short_name": "talk_to_me_spanish",
+    "name": "Talk To Me Spanish",
+    "short_name": "Talk To Me ES",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#c0392b",
+    "theme_color": "#e74c3c",
+    "description": "Learn Spanish with interactive lessons and flashcards",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

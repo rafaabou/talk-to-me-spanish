@@ -109,15 +109,10 @@ services:
     devices:
       - /dev/kvm:/dev/kvm
       - /dev/bus/usb:/dev/bus/usb
-    privileged: true
-    environment:
-      - ANDROID_SDK_ROOT=/opt/android-sdk
-    devices:
-      - /dev/kvm
     cap_add:
       - KVM
-    devices:
-      - /dev/kvm:/dev/kvm
+    environment:
+      - ANDROID_SDK_ROOT=/opt/android-sdk
 
   # =============================================================================
   # Development Service - Hot Reload
