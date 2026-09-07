@@ -55,8 +55,7 @@ class PdfExportService {
     }
 
     // Save to file and share
-    final fileName =
-        'ES_${lessonId}_${DateTime.now().millisecondsSinceEpoch}';
+    final fileName = 'ES_${lessonId}_${DateTime.now().millisecondsSinceEpoch}';
     final result = await file_helper.saveAndSharePdf(
       await pdf.save(),
       fileName,

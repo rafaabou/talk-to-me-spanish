@@ -9,8 +9,7 @@ Future<String?> saveAndSharePdf(List<int> pdfBytes, String fileName) async {
   await SharePlus.instance.share(
     ShareParams(
       files: [XFile(file.path)],
-      text:
-          'Talk To Me Spanish By Mohamed Rafaa Tounekti - Lesson Handout',
+      text: 'Talk To Me Spanish By Mohamed Rafaa Tounekti - Lesson Handout',
     ),
   );
   return file.path;
