@@ -4,6 +4,7 @@ import 'package:crypto/crypto.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:just_audio/just_audio.dart';
+import 'web_audio.dart' if (dart.library.js_util) 'web_audio_helper.dart';
 
 class AudioService {
   static final AudioService instance = AudioService._();
@@ -23,7 +24,7 @@ class AudioService {
   }
 
   Future<bool> playText(String text, String lang) async {
-    final key = audioKey(text, lang); // e.g. "es_bac80f75e917.opus"
+    final key = audioKey(text, lang);
     final asset = 'assets/audio/$key';
     if (kDebugMode) {
       debugPrint('AudioService: playing $asset for lang=$lang text="$text"');
@@ -32,8 +33,39 @@ class AudioService {
   }
 
   Future<bool> playAsset(String assetPath) async {
+    if (kIsWeb) {
+      return _playAssetWeb(assetPath);
+    }
+    return _playAssetNative(assetPath);
+  }
+
+  Future<bool> _playAssetWeb(String assetPath) async {
     try {
-      // Verify the asset actually exists first
+      final exists = await _assetExists(assetPath);
+      if (!exists) {
+        if (kDebugMode) {
+          debugPrint('AudioService: asset NOT FOUND: $assetPath');
+        }
+        return false;
+      }
+      final data = await rootBundle.load(assetPath);
+      final bytes = data.buffer.asUint8List();
+      return await playAssetBytes(
+        bytes,
+        'audio/ogg; codecs=opus',
+        speed.clamp(0.5, 2.0),
+        repeat.clamp(1, 10),
+      );
+    } catch (e) {
+      if (kDebugMode) {
+        debugPrint('AudioService: web audio ERROR: $e');
+      }
+      return false;
+    }
+  }
+
+  Future<bool> _playAssetNative(String assetPath) async {
+    try {
       final exists = await _assetExists(assetPath);
       if (!exists) {
         if (kDebugMode) {
@@ -50,7 +82,6 @@ class AudioService {
       await player.setSpeed(speed.clamp(0.5, 2.0));
       final times = repeat.clamp(1, 10);
       for (var i = 0; i < times; i++) {
-        // Subscribe BEFORE play() so we never miss the completed event.
         final completer = Completer<ProcessingState>();
         final sub = player.processingStateStream.listen((s) {
           if (!completer.isCompleted &&
@@ -77,7 +108,6 @@ class AudioService {
       if (kDebugMode) {
         debugPrint('AudioService: ERROR playing $assetPath: $e\n$s');
       }
-      // A broken/stuck player should never require an app restart.
       try {
         await _player?.dispose();
       } catch (e) {
@@ -89,6 +119,10 @@ class AudioService {
   }
 
   Future<void> stop() async {
+    if (kIsWeb) {
+      await stopWebAudio();
+      return;
+    }
     try {
       await _player?.stop();
     } catch (e) {
