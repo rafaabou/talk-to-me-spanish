@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'screens/home_screen.dart';
+import 'screens/main_shell.dart';
 import 'screens/flashcard_screen.dart';
 import 'screens/onboarding_screen.dart';
 import 'services/app_state.dart';
@@ -103,7 +103,7 @@ class _AppRootState extends State<_AppRoot> {
               );
             }
             if (snapshot.data == true) {
-              return const HomeScreen();
+              return const MainShell();
             }
             return const OnboardingScreen();
           },

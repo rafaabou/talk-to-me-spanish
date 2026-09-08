@@ -4,6 +4,7 @@ import 'package:fl_chart/fl_chart.dart';
 import '../services/app_state.dart';
 import '../services/course_repository.dart';
 import '../services/progress_service.dart';
+import '../services/achievement_service.dart';
 import '../widgets/app_selection_area.dart';
 import '../widgets/credit_footer.dart';
 import '../services/ui_text.dart';
@@ -25,6 +26,9 @@ class _StatsScreenState extends State<StatsScreen> {
   int _totalExercises = 0;
   Map<String, int> _quizBest = {};
   List<DateTime> _studyDays = [];
+  List<Achievement> _achievements = [];
+  int _flashcardsReviewed = 0;
+  int _quizzesTaken = 0;
 
   @override
   void initState() {
@@ -38,10 +42,13 @@ class _StatsScreenState extends State<StatsScreen> {
     final favorites = await ProgressService.instance.getFavorites();
     final streak = await ProgressService.instance.getStreak();
     final studyDays = await ProgressService.instance.getStudyDays();
+    final flashcardsReviewed =
+        await ProgressService.instance.getFlashcardsReviewed();
+    final quizzesTaken = await ProgressService.instance.getQuizzesTaken();
 
-    var totalExercises = 0;
-    var totalLessons = 0;
     final levels = await CourseRepository.instance.loadLevels();
+    var totalLessons = 0;
+    var totalExercises = 0;
     for (final level in levels.values) {
       totalLessons += level.lessons.length;
       for (final lessonMeta in level.lessons) {
@@ -56,6 +63,21 @@ class _StatsScreenState extends State<StatsScreen> {
       quizBest[level] = await ProgressService.instance.getQuizBest(level);
     }
 
+    final progress = AchievementProgress(
+      lessonsCompleted: completed.length,
+      exercisesCompleted: exercises.length,
+      favorites: favorites.length,
+      streak: streak,
+      flashcardsReviewed: flashcardsReviewed,
+      quizzesTaken: quizzesTaken,
+      verbsExplored: 0,
+      daysStudied: studyDays.length,
+      speakingDone: 0,
+      backupDone: false,
+    );
+    await AchievementService.instance.checkNew(progress);
+    final achievements = await AchievementService.instance.getUnlocked();
+
     if (!mounted) return;
     setState(() {
       _lessons = completed.length;
@@ -66,6 +88,9 @@ class _StatsScreenState extends State<StatsScreen> {
       _totalExercises = totalExercises;
       _quizBest = quizBest;
       _studyDays = studyDays;
+      _achievements = achievements;
+      _flashcardsReviewed = flashcardsReviewed;
+      _quizzesTaken = quizzesTaken;
       _loading = false;
     });
   }
@@ -131,6 +156,26 @@ class _StatsScreenState extends State<StatsScreen> {
                       ),
                       value: '$_streak',
                     ),
+                    _StatCard(
+                      icon: Icons.style,
+                      label: uiText(
+                        lang,
+                        ar: 'بطاقات مراجعة',
+                        es: 'Tarjetas revisadas',
+                        other: 'Flashcards reviewed',
+                      ),
+                      value: '$_flashcardsReviewed',
+                    ),
+                    _StatCard(
+                      icon: Icons.quiz,
+                      label: uiText(
+                        lang,
+                        ar: 'اختبارات مكتملة',
+                        es: 'Exámenes realizados',
+                        other: 'Quizzes taken',
+                      ),
+                      value: '$_quizzesTaken',
+                    ),
                     const SizedBox(height: 12),
                     _StreakCalendar(studyDays: _studyDays, lang: lang),
                     const SizedBox(height: 12),
@@ -152,6 +197,58 @@ class _StatsScreenState extends State<StatsScreen> {
                         icon: Icons.quiz,
                         label: entry.key,
                         value: '${entry.value}/10',
+                      ),
+                    const SizedBox(height: 12),
+                    Text(
+                      uiText(
+                        lang,
+                        ar: 'الإنجازات',
+                        es: 'Conquistas',
+                        other: 'Achievements',
+                      ),
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                    if (_achievements.isEmpty)
+                      Card(
+                        child: Padding(
+                          padding: const EdgeInsets.all(16),
+                          child: Center(
+                            child: Text(
+                              uiText(
+                                lang,
+                                ar: 'لم تحقق أي إنجاز بعد',
+                                es: 'Ninguna conquista aún',
+                                other: 'No achievements yet',
+                              ),
+                              style: Theme.of(context).textTheme.bodyMedium,
+                            ),
+                          ),
+                        ),
+                      )
+                    else
+                      Wrap(
+                        spacing: 8,
+                        runSpacing: 8,
+                        children: [
+                          for (final a in _achievements)
+                            Chip(
+                              avatar: Text(
+                                a.icon,
+                                style: const TextStyle(fontSize: 18),
+                              ),
+                              label: Text(
+                                uiText(
+                                  lang,
+                                  ar: a.titleAr,
+                                  es: a.titleEs,
+                                  other: a.titleEn,
+                                ),
+                              ),
+                            ),
+                        ],
                       ),
                     const CreditFooter(),
                   ],

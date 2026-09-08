@@ -96,6 +96,7 @@ class _QuizScreenState extends State<QuizScreen> {
 
   void _finish() {
     ProgressService.instance.setQuizBest(widget.levelId, _score);
+    ProgressService.instance.incrementQuizzesTaken();
   }
 
   void _retryWrong() {

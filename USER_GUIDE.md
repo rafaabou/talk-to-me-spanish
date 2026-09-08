@@ -1,6 +1,6 @@
 # User Guide — Talk To Me Spanish
 
-**Version 1.4.3** | By Mohamed Rafaa Tounekti
+**Version 1.5.0** | By Mohamed Rafaa Tounekti
 
 Learn Spanish from zero to fluency. 100% offline, trilingual (Spanish + English + Arabic).
 
@@ -42,6 +42,7 @@ The home screen is your dashboard with:
 - **Progress card** — See how many lessons you've completed and your current streak
 - **Due card** — Words due for review from flashcards
 - **Quick actions** — 6 buttons: Flashcards, Search, Grammar, Favorites, Verbs, Stats
+- **Bottom Navigation** — 5 tabs: Inicio, Cartas, Verbos, Estadisticas, Cuenta
 - **Quizzes** — One card per level (A1-C2), each with 10 questions
 - **Lessons** — All levels listed with lesson counts and completion status
 
@@ -148,6 +149,7 @@ When all cards are done, you see:
    - **Irregular verbs** (e.g., ser, estar, tener, ir)
 3. Use the **search bar** to find a specific verb
 4. Toggle **Audio filter** to show only verbs with full audio
+5. Use the **Comunes** filter to show only the 50 most frequently used verbs.
 
 ### Verb Detail
 
@@ -240,6 +242,36 @@ Tap **Stats** on the home screen to see:
 
 ---
 
+## Achievements
+
+Earn 17 achievement badges as you learn:
+
+| Badge | Requirement |
+|-------|------------|
+| Primeros Pasos | Complete your first lesson |
+| Estudiante | Complete 5 lessons |
+| Estudioso | Complete 20 lessons |
+| Maestro | Complete 50 lessons |
+| Formado | Complete all 72 lessons |
+| Empezando | Complete 10 exercises |
+| Practica Hace al Maestro | Complete 100 exercises |
+| Maestro de Ejercicios | Complete 500 exercises |
+| Coleccionista | Add 5 words to favorites |
+| En Llamas | Study 3 days in a row |
+| Guerrero de la Semana | Study 7 days in a row |
+| Campeon Mensual | Study 30 days in a row |
+| Puntuacion Perfecta | Get 10/10 on any quiz |
+| Entrenador Cerebral | Review 50 flashcards |
+| Maestro de la Memoria | Review 200 flashcards |
+| Explorador | Study on 10 different days |
+| Estudiante Dedicado | Study on 30 different days |
+| Maestro de la Voz | Complete 10 speaking exercises |
+| Guardian de Datos | Export your progress for the first time |
+
+View your achievements on the Estadisticas screen.
+
+---
+
 ## Settings
 
 Access from the app bar menu:
@@ -254,6 +286,19 @@ Access from the app bar menu:
 | **Export Progress** | File or Clipboard | Save your progress |
 | **Import Progress** | Select file | Restore progress from backup |
 | **Reset Progress** | With confirmation | Delete all progress |
+
+---
+
+## Account & Backup
+
+Access from the **Cuenta** tab in the bottom navigation bar:
+
+- **Profile** — Your learner status (saved locally)
+- **Respaldo** — Export/Import/Share your progress as JSON
+- **Clear Data** — Reset all progress (with confirmation)
+- **Acerca de** — App version and privacy info
+
+Your data never leaves your device. Backup creates a local JSON file you can store anywhere.
 
 ---
 

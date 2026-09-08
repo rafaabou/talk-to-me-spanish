@@ -1,6 +1,6 @@
 # Architecture — Talk To Me Spanish
 
-**Version 1.4.3** | By Mohamed Rafaa Tounekti
+**Version 1.5.0** | By Mohamed Rafaa Tounekti
 
 ---
 
@@ -37,8 +37,10 @@ espanol-zero-to-hero/
 │   │   ├── models/
 │   │   │   ├── course_models.dart   # TriText, Lesson, VocabWord, Exercise, etc.
 │   │   │   └── verb_models.dart    # VerbInfo, TenseInfo, VerbData
-│   │   ├── screens/                # 14 screens
+│   │   ├── screens/                # 17 screens
 │   │   │   ├── home_screen.dart    # Dashboard, progress, streak
+│   │   │   ├── main_shell.dart     # Bottom navigation shell
+│   │   │   ├── account_screen.dart # Account, backup, clear data
 │   │   │   ├── onboarding_screen.dart # First-run wizard
 │   │   │   ├── lesson_list_screen.dart # Level lesson list
 │   │   │   ├── lesson_screen.dart  # Full lesson viewer
@@ -52,7 +54,7 @@ espanol-zero-to-hero/
 │   │   │   ├── search_screen.dart  # Global search
 │   │   │   ├── favorites_screen.dart # Bookmarked words
 │   │   │   └── stats_screen.dart   # Statistics + charts
-│   │   ├── services/
+│   │   ├── services/               # 13 services
 │   │   │   ├── app_state.dart      # Global state (lang, theme, zoom, etc.)
 │   │   │   ├── progress_service.dart # All progress tracking
 │   │   │   ├── course_repository.dart # Level/lesson JSON loader
@@ -63,6 +65,7 @@ espanol-zero-to-hero/
 │   │   │   ├── pdf_export_service.dart # PDF handout generator
 │   │   │   ├── notification_service.dart # Native notifications
 │   │   │   ├── home_widget_service.dart # Home screen widget
+│   │   │   ├── achievement_service.dart # Achievement badges & tracking
 │   │   │   ├── ui_text.dart        # i18n helper
 │   │   │   ├── progress_file_helper.dart # Conditional export
 │   │   │   ├── progress_file_helper_io.dart # Mobile file I/O

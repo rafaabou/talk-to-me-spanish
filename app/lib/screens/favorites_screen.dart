@@ -69,14 +69,41 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                 ? const Center(child: CircularProgressIndicator())
                 : _words.isEmpty
                 ? Center(
-                  child: Text(
-                    uiText(
-                      lang,
-                      ar: 'لا توجد كلمات مفضلة بعد',
-                      es: 'Aún no hay palabras favoritas',
-                      other: 'No favorite words yet',
-                    ),
-                    style: Theme.of(context).textTheme.bodyLarge,
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(
+                        Icons.star_outline,
+                        size: 72,
+                        color: Theme.of(
+                          context,
+                        ).colorScheme.primary.withValues(alpha: 0.3),
+                      ),
+                      const SizedBox(height: 16),
+                      Text(
+                        uiText(
+                          lang,
+                          ar: 'لا توجد كلمات مفضلة بعد',
+                          es: 'Aún no hay palabras favoritas',
+                          other: 'No favorite words yet',
+                        ),
+                        style: Theme.of(context).textTheme.titleMedium,
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        uiText(
+                          lang,
+                          ar: 'اضغط على النجمة بجانب أي كلمة لإضافتها',
+                          es:
+                              'Toca la estrella al lado de cualquier palabra para agregarla',
+                          other: 'Tap the star next to any word to add it',
+                        ),
+                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                          color: Theme.of(context).colorScheme.onSurfaceVariant,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                    ],
                   ),
                 )
                 : ListView.builder(

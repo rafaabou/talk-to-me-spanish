@@ -21,6 +21,8 @@ class ProgressService {
   static const _onboardingKey = 'onboarding_done';
   static const _accessibilityKey = 'accessibility_settings';
   static const _repeatCountKey = 'repeat_count';
+  static const _flashcardsReviewedKey = 'flashcards_reviewed';
+  static const _quizzesTakenKey = 'quizzes_taken';
 
   final FsrsScheduler _fsrs = FsrsScheduler();
 
@@ -163,6 +165,9 @@ class ProgressService {
     await prefs.remove(_onboardingKey);
     await prefs.remove(_accessibilityKey);
     await prefs.remove(_repeatCountKey);
+    await prefs.remove(_flashcardsReviewedKey);
+    await prefs.remove(_quizzesTakenKey);
+    await prefs.remove('achievements_unlocked');
     for (final key in prefs.getKeys().where(
       (k) => k.startsWith('quiz_best_'),
     )) {
@@ -305,6 +310,28 @@ class ProgressService {
   Future<void> setRepeatCount(int count) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setInt(_repeatCountKey, count);
+  }
+
+  Future<int> getFlashcardsReviewed() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(_flashcardsReviewedKey) ?? 0;
+  }
+
+  Future<void> incrementFlashcardsReviewed(int count) async {
+    final prefs = await SharedPreferences.getInstance();
+    final current = prefs.getInt(_flashcardsReviewedKey) ?? 0;
+    await prefs.setInt(_flashcardsReviewedKey, current + count);
+  }
+
+  Future<int> getQuizzesTaken() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(_quizzesTakenKey) ?? 0;
+  }
+
+  Future<void> incrementQuizzesTaken() async {
+    final prefs = await SharedPreferences.getInstance();
+    final current = prefs.getInt(_quizzesTakenKey) ?? 0;
+    await prefs.setInt(_quizzesTakenKey, current + 1);
   }
 
   Future<String> exportSummary() async {

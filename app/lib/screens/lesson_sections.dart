@@ -173,20 +173,72 @@ class _SpeakingSectionState extends State<SpeakingSection> {
   @override
   Widget build(BuildContext context) {
     final lang = widget.lang;
+    final progress =
+        widget.items.isEmpty ? 0.0 : _done.length / widget.items.length;
     return Card(
       child: Padding(
         padding: const EdgeInsets.all(12),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Row(
+              children: [
+                Icon(
+                  Icons.record_voice_over,
+                  color: Theme.of(context).colorScheme.primary,
+                ),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    uiText(
+                      lang,
+                      ar: 'تمارين التحدث',
+                      es: 'Ejercicios de Habla',
+                      other: 'Speaking Exercises',
+                    ),
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 8,
+                    vertical: 4,
+                  ),
+                  decoration: BoxDecoration(
+                    color: Theme.of(context).colorScheme.primaryContainer,
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Text(
+                    '${_done.length}/${widget.items.length}',
+                    style: TextStyle(
+                      fontSize: 12,
+                      fontWeight: FontWeight.bold,
+                      color: Theme.of(context).colorScheme.onPrimaryContainer,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 4),
+            LinearProgressIndicator(
+              value: progress,
+              backgroundColor:
+                  Theme.of(context).colorScheme.surfaceContainerHighest,
+              borderRadius: BorderRadius.circular(4),
+            ),
+            const SizedBox(height: 8),
             Text(
               uiText(
                 lang,
-                ar: 'كرر الجمل بصوت عالٍ بعد الاستماع',
-                es: 'Repite cada frase en voz alta después de escuchar',
-                other: 'Repeat each phrase aloud after listening',
+                ar: 'استمع ثم كرر الجمل بصوت عالٍ',
+                es: 'Escucha y repite cada frase en voz alta',
+                other: 'Listen and repeat each phrase aloud',
               ),
-              style: Theme.of(context).textTheme.bodySmall,
+              style: Theme.of(
+                context,
+              ).textTheme.bodySmall?.copyWith(fontStyle: FontStyle.italic),
             ),
             const SizedBox(height: 8),
             ...widget.items.asMap().entries.map((entry) {
@@ -195,39 +247,68 @@ class _SpeakingSectionState extends State<SpeakingSection> {
               final done = _done.contains(i);
               return Padding(
                 padding: const EdgeInsets.symmetric(vertical: 4),
-                child: Row(
-                  children: [
-                    Icon(
-                      done ? Icons.check_circle : Icons.record_voice_over,
-                      size: 20,
-                      color:
-                          done
-                              ? Colors.green
-                              : Theme.of(context).colorScheme.primary,
+                child: Card(
+                  color:
+                      done
+                          ? Colors.green.withValues(alpha: 0.1)
+                          : Theme.of(context).colorScheme.surfaceContainerLow,
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 12,
+                      vertical: 8,
                     ),
-                    const SizedBox(width: 8),
-                    Expanded(child: TriBlock(item.text, compact: true)),
-                    AudioButton(text: item.text.es, lang: 'es', compact: true),
-                    const SizedBox(width: 4),
-                    IconButton(
-                      icon: const Icon(Icons.check, color: Colors.green),
-                      tooltip: uiText(
-                        lang,
-                        ar: 'تم',
-                        es: 'Lo logré',
-                        other: 'Got it',
-                      ),
-                      onPressed: () => setState(() => _done.add(i)),
+                    child: Row(
+                      children: [
+                        Icon(
+                          done ? Icons.check_circle : Icons.mic,
+                          size: 20,
+                          color:
+                              done
+                                  ? Colors.green
+                                  : Theme.of(context).colorScheme.primary,
+                        ),
+                        const SizedBox(width: 12),
+                        Expanded(child: TriBlock(item.text, compact: true)),
+                        AudioButton(
+                          text: item.text.es,
+                          lang: 'es',
+                          compact: true,
+                        ),
+                        const SizedBox(width: 4),
+                        IconButton(
+                          icon: Icon(
+                            done ? Icons.replay : Icons.check,
+                            color: done ? Colors.orange : Colors.green,
+                          ),
+                          tooltip:
+                              done
+                                  ? uiText(
+                                    lang,
+                                    ar: 'إعادة',
+                                    es: 'Rehacer',
+                                    other: 'Redo',
+                                  )
+                                  : uiText(
+                                    lang,
+                                    ar: 'تم',
+                                    es: 'Logré',
+                                    other: 'Got it',
+                                  ),
+                          onPressed:
+                              () => setState(() {
+                                if (done) {
+                                  _done.remove(i);
+                                } else {
+                                  _done.add(i);
+                                }
+                              }),
+                        ),
+                      ],
                     ),
-                  ],
+                  ),
                 ),
               );
             }),
-            const SizedBox(height: 4),
-            Text(
-              '${_done.length}/${widget.items.length}',
-              style: Theme.of(context).textTheme.labelMedium,
-            ),
           ],
         ),
       ),
@@ -281,7 +362,7 @@ class _LessonNotesSectionState extends State<LessonNotesSection> {
           widget.lang == 'ar'
               ? 'تم حفظ الملاحظات'
               : widget.lang == 'es'
-              ? 'Notas salvas'
+              ? 'Notas guardadas'
               : 'Notes saved',
         ),
         duration: const Duration(seconds: 2),

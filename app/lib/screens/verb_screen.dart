@@ -21,6 +21,60 @@ class _VerbScreenState extends State<VerbScreen> {
   String _query = '';
   bool _loading = true;
   bool _audioOnly = false;
+  bool _showCommonOnly = false;
+
+  static const _commonVerbs = {
+    'ser',
+    'estar',
+    'ter',
+    'ir',
+    'fazer',
+    'poder',
+    'dizer',
+    'saber',
+    'querer',
+    'ver',
+    'dar',
+    'ficar',
+    'haver',
+    'deixar',
+    'passar',
+    'trazer',
+    'começar',
+    'partir',
+    'achar',
+    'esperar',
+    'voltar',
+    'chamar',
+    'viver',
+    'sentir',
+    'olhar',
+    'gostar',
+    'jogar',
+    'contar',
+    'andar',
+    'trabalhar',
+    'estudar',
+    'falar',
+    'comer',
+    'beber',
+    'dormir',
+    'abrir',
+    'fechar',
+    'correr',
+    'ler',
+    'escrever',
+    'comprar',
+    'vender',
+    'pagar',
+    'receber',
+    'tomar',
+    'usar',
+    'precisar',
+    'tentar',
+    'entender',
+    'lembrar',
+  };
 
   @override
   void initState() {
@@ -91,35 +145,63 @@ class _VerbScreenState extends State<VerbScreen> {
     final withAudio = data.verbs.where((v) => v.hasFullAudio).length;
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 12),
-      child: Row(
-        children: [
-          ChoiceChip(
-            label: Text(
-              uiText(
-                lang,
-                ar: 'الكل ($total)',
-                es: 'Todos ($total)',
-                other: 'All ($total)',
+      child: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+        child: Row(
+          children: [
+            ChoiceChip(
+              label: Text(
+                uiText(
+                  lang,
+                  ar: 'الأكثر شيوعاً',
+                  es: 'Más comunes',
+                  other: 'Common',
+                ),
               ),
+              selected: _showCommonOnly,
+              onSelected:
+                  (_) => setState(() {
+                    _showCommonOnly = !_showCommonOnly;
+                    _audioOnly = false;
+                  }),
             ),
-            selected: !_audioOnly,
-            onSelected: (_) => setState(() => _audioOnly = false),
-          ),
-          const SizedBox(width: 8),
-          ChoiceChip(
-            avatar: const Icon(Icons.volume_up, size: 18),
-            label: Text(
-              uiText(
-                lang,
-                ar: 'صوت ($withAudio)',
-                es: 'Con Audio ($withAudio)',
-                other: 'Audio ($withAudio)',
+            const SizedBox(width: 8),
+            ChoiceChip(
+              label: Text(
+                uiText(
+                  lang,
+                  ar: 'الكل ($total)',
+                  es: 'Todos ($total)',
+                  other: 'All ($total)',
+                ),
               ),
+              selected: !_audioOnly && !_showCommonOnly,
+              onSelected:
+                  (_) => setState(() {
+                    _audioOnly = false;
+                    _showCommonOnly = false;
+                  }),
             ),
-            selected: _audioOnly,
-            onSelected: (_) => setState(() => _audioOnly = true),
-          ),
-        ],
+            const SizedBox(width: 8),
+            ChoiceChip(
+              avatar: const Icon(Icons.volume_up, size: 18),
+              label: Text(
+                uiText(
+                  lang,
+                  ar: 'صوت ($withAudio)',
+                  es: 'Con Audio ($withAudio)',
+                  other: 'Audio ($withAudio)',
+                ),
+              ),
+              selected: _audioOnly,
+              onSelected:
+                  (_) => setState(() {
+                    _audioOnly = true;
+                    _showCommonOnly = false;
+                  }),
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -128,6 +210,8 @@ class _VerbScreenState extends State<VerbScreen> {
     List<VerbInfo> verbs =
         _audioOnly
             ? data.verbs.where((v) => v.hasFullAudio).toList()
+            : _showCommonOnly
+            ? data.verbs.where((v) => _commonVerbs.contains(v.inf)).toList()
             : data.verbs;
 
     if (_query.isNotEmpty) {
@@ -181,7 +265,7 @@ class _VerbScreenState extends State<VerbScreen> {
   }
 
   Widget _sectionHeader(String conjType, int count, String lang) {
-    final label = '-${conjType.toUpperCase()} Verbs ($count)';
+    final label = 'Verbos -${conjType.toUpperCase()} ($count)';
     return Padding(
       padding: const EdgeInsets.fromLTRB(16, 16, 16, 4),
       child: Text(
@@ -195,16 +279,56 @@ class _VerbScreenState extends State<VerbScreen> {
   }
 
   Widget _verbTile(VerbData data, VerbInfo v, String lang) {
+    final typeColors = {
+      '-AR': Colors.blue,
+      '-ER': Colors.orange,
+      '-IR': Colors.green,
+      '-OR': Colors.purple,
+    };
+    final badge =
+        typeColors.entries
+            .where((e) => v.inf.endsWith(e.key.substring(1).toLowerCase()))
+            .map((e) => e.value)
+            .firstOrNull;
+    final isCommon = _commonVerbs.contains(v.inf);
+
     return Card(
       child: ListTile(
         leading: CircleAvatar(
-          backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+          backgroundColor:
+              badge != null
+                  ? badge.withValues(alpha: 0.2)
+                  : Theme.of(context).colorScheme.primaryContainer,
           child:
               v.hasFullAudio
                   ? const Icon(Icons.volume_up, size: 20)
-                  : Text(v.inf[0].toUpperCase()),
+                  : Text(
+                    v.inf[0].toUpperCase(),
+                    style: TextStyle(color: badge, fontWeight: FontWeight.bold),
+                  ),
         ),
-        title: Text(v.inf, style: const TextStyle(fontWeight: FontWeight.w600)),
+        title: Row(
+          children: [
+            Text(v.inf, style: const TextStyle(fontWeight: FontWeight.w600)),
+            if (isCommon) ...[
+              const SizedBox(width: 6),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                decoration: BoxDecoration(
+                  color: Theme.of(context).colorScheme.tertiaryContainer,
+                  borderRadius: BorderRadius.circular(4),
+                ),
+                child: Text(
+                  uiText(lang, ar: 'شائع', es: 'Común', other: 'Common'),
+                  style: TextStyle(
+                    fontSize: 10,
+                    color: Theme.of(context).colorScheme.onTertiaryContainer,
+                  ),
+                ),
+              ),
+            ],
+          ],
+        ),
         subtitle: Text('${v.en} · ${v.ar}'),
         trailing: const Icon(Icons.chevron_right),
         onTap:
@@ -231,6 +355,95 @@ class VerbDetailScreen extends StatefulWidget {
 class _VerbDetailScreenState extends State<VerbDetailScreen> {
   int _tenseIndex = 0;
 
+  Widget _verbSummaryHeader(VerbData data, String lang) {
+    final v = widget.verb;
+    final typeColors = {
+      '-AR': Colors.blue,
+      '-ER': Colors.orange,
+      '-IR': Colors.green,
+      '-OR': Colors.purple,
+    };
+    final badgeColor =
+        typeColors.entries
+            .where((e) => v.inf.endsWith(e.key.substring(1).toLowerCase()))
+            .map((e) => e.value)
+            .firstOrNull;
+
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: Theme.of(context).colorScheme.surfaceContainerHighest,
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Text(
+                v.inf,
+                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(width: 12),
+              if (badgeColor != null)
+                Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 10,
+                    vertical: 4,
+                  ),
+                  decoration: BoxDecoration(
+                    color: badgeColor.withValues(alpha: 0.2),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Text(
+                    v.conjType.toUpperCase(),
+                    style: TextStyle(
+                      color: badgeColor,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 13,
+                    ),
+                  ),
+                ),
+              const Spacer(),
+              AudioButton(text: v.inf, lang: 'es', compact: false),
+            ],
+          ),
+          const SizedBox(height: 8),
+          Text(
+            '${v.en} · ${v.ar}',
+            style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+              color: Theme.of(context).colorScheme.onSurfaceVariant,
+            ),
+          ),
+          const SizedBox(height: 12),
+          Row(
+            children: [
+              FilledButton.tonalIcon(
+                onPressed:
+                    () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder:
+                            (_) => VerbQuizScreen(
+                              verb: v,
+                              tenseId: data.tenses[_tenseIndex].id,
+                            ),
+                      ),
+                    ),
+                icon: const Icon(Icons.quiz, size: 18),
+                label: Text(
+                  uiText(lang, ar: 'اختبار', es: 'Quiz', other: 'Quiz'),
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final lang = context.watch<AppState>().lang;
@@ -240,34 +453,23 @@ class _VerbDetailScreenState extends State<VerbDetailScreen> {
     return AppSelectionArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Text(
-            '${widget.verb.inf}  ${widget.verb.en}  ${widget.verb.ar}',
-          ),
+          title: Text(widget.verb.inf),
           actions: [
             IconButton(
-              icon: const Icon(Icons.quiz),
+              icon: const Icon(Icons.volume_up),
               tooltip: uiText(
                 lang,
-                ar: 'اختبار التصريف',
-                es: 'Quiz de Conjugación',
-                other: 'Conjugation Quiz',
+                ar: 'استمع',
+                es: 'Escuchar',
+                other: 'Listen',
               ),
-              onPressed:
-                  () => Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder:
-                          (_) => VerbQuizScreen(
-                            verb: widget.verb,
-                            tenseId: widget.data.tenses[_tenseIndex].id,
-                          ),
-                    ),
-                  ),
+              onPressed: () {},
             ),
           ],
         ),
         body: Column(
           children: [
+            _verbSummaryHeader(widget.data, lang),
             SizedBox(
               height: 48,
               child: ListView.separated(
@@ -430,7 +632,7 @@ class _VerbQuizScreenState extends State<VerbQuizScreen> {
     if (_finished) {
       return AppSelectionArea(
         child: Scaffold(
-          appBar: AppBar(title: Text('Quiz Result')),
+          appBar: AppBar(title: const Text('Quiz Result')),
           body: Column(
             children: [
               Expanded(

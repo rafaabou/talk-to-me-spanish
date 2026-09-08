@@ -80,6 +80,7 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
   void _next({required int rating}) {
     final key = _keys[_index];
     ProgressService.instance.markSrs(key, known: rating > 1);
+    ProgressService.instance.incrementFlashcardsReviewed(1);
     setState(() {
       if (rating > 1) {
         _known++;

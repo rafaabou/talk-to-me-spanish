@@ -280,7 +280,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         sudo apt-get update -qq && sudo apt-get install -y -qq gh > /dev/null 2>&1
-        TAG="v1.4.3"
+        TAG="v1.5.0"
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
         git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/rafaabou/talk-to-me-spanish.git"
@@ -296,19 +296,22 @@ jobs:
           artifacts/sbom-project.cdx.json.sig \
           artifacts/sbom-apk.cdx.json \
           --title "Talk To Me Spanish By Mohamed Rafaa Tounekti" \
-          --notes "## Talk To Me Spanish v1.4.3
+          --notes "## Talk To Me Spanish v1.5.0
           By **Mohamed Rafaa Tounekti**
 
-          ### What's New in v1.4.3
-          - Web support - run directly in your browser
-          - CI/CD now builds on GitHub-hosted runners
+          ### What's New in v1.5.0
+          - Bottom navigation bar (Inicio / Cartas / Verbos / Estadisticas / Cuenta)
+          - 17 achievement badges with unlock tracking
+          - Common Verbs filter with color-coded type badges
+          - Enhanced verb detail screen with summary header
+          - Speaking exercises with progress tracking
+          - Account screen with export/import/share/clear data
+          - Flashcard and quiz review counters
 
           ### Previous Features
           - 1,816 verbs with 8 tenses
-          - Audio filter toggle on verb screen
+          - Web support - run directly in your browser
           - Trilingual display (Spanish + English + Arabic)
-          - Verb conjugation grouping by type
-          - Complete lesson library with dialogues, grammar, readings, exercises
           - Flashcard review with FSRS spaced repetition
           - Quiz mode with best score tracking
           - Offline support
