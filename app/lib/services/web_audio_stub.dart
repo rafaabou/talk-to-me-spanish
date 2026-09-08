@@ -9,11 +9,7 @@ Future<bool> playAssetBytes(
   return false;
 }
 
-Future<bool> playAssetUrl(
-  String assetUrl,
-  double speed,
-  int repeat,
-) async {
+Future<bool> playAssetUrl(String assetUrl, double speed, int repeat) async {
   return false;
 }
 

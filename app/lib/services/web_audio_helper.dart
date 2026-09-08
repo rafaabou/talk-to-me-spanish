@@ -17,9 +17,10 @@ Future<bool> playAssetBytes(
     final url = html.Url.createObjectUrlFromBlob(blob);
 
     for (var i = 0; i < repeat; i++) {
-      final audio = html.AudioElement()
-        ..src = url
-        ..playbackRate = speed;
+      final audio =
+          html.AudioElement()
+            ..src = url
+            ..playbackRate = speed;
       _currentAudio = audio;
       audio.play();
       await audio.onEnded.first;
@@ -32,18 +33,15 @@ Future<bool> playAssetBytes(
   }
 }
 
-Future<bool> playAssetUrl(
-  String assetUrl,
-  double speed,
-  int repeat,
-) async {
+Future<bool> playAssetUrl(String assetUrl, double speed, int repeat) async {
   try {
     await stopWebAudio();
 
     for (var i = 0; i < repeat; i++) {
-      final audio = html.AudioElement()
-        ..src = assetUrl
-        ..playbackRate = speed;
+      final audio =
+          html.AudioElement()
+            ..src = assetUrl
+            ..playbackRate = speed;
       _currentAudio = audio;
       audio.play();
       await audio.onEnded.first;
