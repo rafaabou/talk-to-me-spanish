@@ -11,7 +11,7 @@ fi
 
 fuser -k "$PORT/tcp" 2>/dev/null
 
-nohup python3 -m http.server "$PORT" --directory "$WEB_DIR" --bind 0.0.0.0 > /dev/null 2>&1 &
+nohup python3 "$SCRIPT_DIR/serve_web.py" "$PORT" "$WEB_DIR" > /dev/null 2>&1 &
 
 sleep 1
 

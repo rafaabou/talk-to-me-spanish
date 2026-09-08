@@ -210,7 +210,8 @@ FROM python:3.12-slim AS web
 WORKDIR /app
 
 COPY --from=web-builder /workspace/app/build/web/ ./web/
+COPY serve_web.py ./serve_web.py
 
 EXPOSE 8080
 
-CMD ["python3", "-m", "http.server", "8080", "--directory", "/app/web"]
+CMD ["python3", "serve_web.py", "8080", "/app/web"]

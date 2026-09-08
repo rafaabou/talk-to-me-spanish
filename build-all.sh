@@ -25,4 +25,4 @@ flutter build web --release
 echo ""
 echo "[3/3] Starting web server on port $WEB_PORT..."
 echo "Open http://localhost:$WEB_PORT in your browser"
-python3 -m http.server "$WEB_PORT" --directory build/web
+python3 "$SCRIPT_DIR/serve_web.py" "$WEB_PORT" build/web
