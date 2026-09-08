@@ -65,7 +65,12 @@ void main() {
         () => tester.any(find.textContaining('Best score:')),
       );
 
-      final scoreFinder = find.textContaining(RegExp(r'^\d+/10$'));
+      // Let async SharedPreferences write settle.
+      await tester.pump(const Duration(milliseconds: 200));
+      await tester.pumpAndSettle();
+
+      final scoreFinder = find.textContaining(RegExp(r'\d+/10'));
+      expect(scoreFinder, findsWidgets, reason: 'score text not found');
       final scoreText = tester.widget<Text>(scoreFinder.first).data!;
       final score = int.parse(scoreText.split('/').first);
       expect(scoreText.endsWith('/10'), isTrue);
