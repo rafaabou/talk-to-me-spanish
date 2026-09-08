@@ -82,14 +82,15 @@ void main() {
     });
   });
 
-  testWidgets('SelectionArea is present so text can be selected/copied everywhere', (
-    tester,
-  ) async {
-    await tester.pumpWidget(const EszeroApp());
-    await tester.pump(const Duration(seconds: 3));
+  testWidgets(
+    'SelectionArea is present so text can be selected/copied everywhere',
+    (tester) async {
+      await tester.pumpWidget(const EszeroApp());
+      await tester.pump(const Duration(seconds: 3));
 
-    expect(find.byType(SelectionArea), findsOneWidget);
-  });
+      expect(find.byType(SelectionArea), findsOneWidget);
+    },
+  );
 
   testWidgets(
     'single-finger scroll still works (pinch handler is passive for 1 pointer)',
