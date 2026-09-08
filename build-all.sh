@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+set -e
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+APP_DIR="$SCRIPT_DIR/app"
+WEB_PORT=8002
+
+export JAVA_HOME="${JAVA_HOME:-/home/antix/.local/jdk17}"
+export ANDROID_HOME="${ANDROID_HOME:-/home/antix/.local/android-sdk}"
+
+echo "=== Building Talk To Me Spanish ==="
+echo ""
+
+cd "$APP_DIR"
+
+echo "[1/3] Building APK..."
+flutter build apk --release --target-platform android-arm64
+cp build/app/outputs/flutter-apk/app-release.apk "$SCRIPT_DIR/TalkToMeES.apk"
+echo "APK saved to: $SCRIPT_DIR/TalkToMeES.apk"
+
+echo ""
+echo "[2/3] Building Web..."
+flutter build web --release
+
+echo ""
+echo "[3/3] Starting web server on port $WEB_PORT..."
+echo "Open http://localhost:$WEB_PORT in your browser"
+python3 -m http.server "$WEB_PORT" --directory build/web

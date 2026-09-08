@@ -279,9 +279,7 @@ jobs:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        export PATH="$HOME/.local/bin:$PATH"
-        mkdir -p "$HOME/.local/bin"
-        curl -fsSL https://raw.githubusercontent.com/cli/cli/trunk/install.sh | sh -s -- -b $HOME/.local/bin
+        sudo apt-get update -qq && sudo apt-get install -y -qq gh > /dev/null 2>&1
         TAG="v1.4.3"
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
@@ -292,7 +290,7 @@ jobs:
         git tag -f "$TAG" "${{ github.sha }}"
         git push origin -f "$TAG"
         gh release create "$TAG" \
-          artifacts/app-release.apk \
+          artifacts/app/build/app/outputs/flutter-apk/app-release.apk \
           artifacts/app-release.apk.sig \
           artifacts/sbom-project.cdx.json \
           artifacts/sbom-project.cdx.json.sig \
