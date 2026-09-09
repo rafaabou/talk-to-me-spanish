@@ -286,7 +286,7 @@ Push to `main`. The pipeline should trigger on the `spanish`-tagged runner.
 |-------|-----|--------------|
 | **validate** | `validate` | Format check, `flutter analyze --fatal-infos`, `flutter test`, license check, gitleaks, TruffleHog, dependency audit |
 | **build** | `build` | Restore keystore (or ephemeral), build obfuscated arm64 APK, size check, Hadolint Dockerfile lint, Docker image build, Grype scan, Syft SBOM, Trivy scan, Dockle scan |
-| **desktop** | `desktop` (matrix) | Build Linux (ubuntu-latest), Windows (windows-2022), macOS (macos-latest); upload bundles as artifacts |
+| **desktop** | `desktop` (matrix) | Build Linux (ubuntu-latest), Windows (windows-2022), macOS (macos-latest); upload bundles as artifacts. Heavy steps run only with `[desktop]` in push message or on `v*` tags — normal pushes skip them (~150 billed min saved) |
 | **package** | `package` | Restore keystore, rebuild APK, generate SBOMs (project + APK), Grype APK scan (`--fail-on high`), Cosign keyless signing, upload to GitHub Release |
 | **release** | `release` | Create git tag, create GitHub Release with APK, signatures, SBOMs, and desktop zips (Linux/Windows/macOS) |
 
