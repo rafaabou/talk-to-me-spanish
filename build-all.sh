@@ -13,16 +13,26 @@ echo ""
 
 cd "$APP_DIR"
 
-echo "[1/3] Building APK..."
+echo "[1/4] Building APK..."
 flutter build apk --release --target-platform android-arm64
 cp build/app/outputs/flutter-apk/app-release.apk "$SCRIPT_DIR/TalkToMeES.apk"
 echo "APK saved to: $SCRIPT_DIR/TalkToMeES.apk"
 
 echo ""
-echo "[2/3] Building Web..."
+echo "[2/4] Building Linux Desktop..."
+if flutter build linux --release; then
+  rm -rf "$SCRIPT_DIR/TalkToMeES-linux"
+  cp -r build/linux/x64/release/bundle "$SCRIPT_DIR/TalkToMeES-linux"
+  echo "Linux desktop saved to: $SCRIPT_DIR/TalkToMeES-linux"
+else
+  echo "WARNING: Linux desktop build failed (needs libgtk-3-dev, cmake, ninja-build, clang). Skipping."
+fi
+
+echo ""
+echo "[3/4] Building Web..."
 flutter build web --release
 
 echo ""
-echo "[3/3] Starting web server on port $WEB_PORT..."
+echo "[4/4] Starting web server on port $WEB_PORT..."
 echo "Open http://localhost:$WEB_PORT in your browser"
 python3 "$SCRIPT_DIR/serve_web.py" "$WEB_PORT" build/web
