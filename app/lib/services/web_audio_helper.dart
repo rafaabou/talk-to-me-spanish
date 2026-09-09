@@ -65,11 +65,7 @@ Future<bool> playAssetBytes(
   }
 }
 
-Future<bool> playAssetUrl(
-  String assetUrl,
-  double speed,
-  int repeat,
-) async {
+Future<bool> playAssetUrl(String assetUrl, double speed, int repeat) async {
   try {
     await stopWebAudio();
 
