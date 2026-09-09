@@ -216,7 +216,7 @@ jobs:
     - name: Build Linux AppImage
       if: matrix.os == 'ubuntu-latest'
       run: |
-        sudo apt-get update -qq && sudo apt-get install -y -qq mlocate file wget
+        sudo apt-get update -qq && sudo apt-get install -y -qq plocate file wget
         sudo updatedb || true
         mkdir -p /tmp/aibin
         wget -q "https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage" -O /tmp/aibin/appimagetool
