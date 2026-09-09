@@ -188,7 +188,7 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
       fail-fast: false
     runs-on: ${{ matrix.os }}
-    timeout-minutes: 60
+    timeout-minutes: 90
     defaults:
       run:
         working-directory: app
@@ -206,6 +206,9 @@ jobs:
     - name: Install Linux desktop dependencies
       if: matrix.os == 'ubuntu-latest'
       run: sudo apt-get update -qq && sudo apt-get install -y -qq libgtk-3-dev cmake ninja-build clang pkg-config libgstreamer1.0-dev gstreamer1.0-plugins-good
+    - name: Install Visual Studio Build Tools (Windows)
+      if: matrix.os == 'windows-latest'
+      run: choco install visualstudio2022buildtools -y --package-parameters "--quiet --wait --norestart --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended"
     - name: Enable desktop support
       run: flutter config --enable-linux-desktop --enable-windows-desktop --enable-macos-desktop
     - name: Get Dependencies
@@ -354,7 +357,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         sudo apt-get update -qq && sudo apt-get install -y -qq gh > /dev/null 2>&1
-        TAG="v1.5.0"
+        TAG="v1.6.0"
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
         git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/rafaabou/talk-to-me-spanish.git"
@@ -373,7 +376,7 @@ jobs:
           TalkToMeES-windows.zip \
           TalkToMeES-macos.zip \
           --title "Talk To Me Spanish By Mohamed Rafaa Tounekti" \
-          --notes "## Talk To Me Spanish v1.5.0
+          --notes "## Talk To Me Spanish v1.6.0
           By **Mohamed Rafaa Tounekti**
 
           ### Downloads
@@ -382,7 +385,13 @@ jobs:
           - **Windows**: TalkToMeES-windows.zip (unzip and run .exe)
           - **macOS**: TalkToMeES-macos.zip (unzip and open .app)"
 
-          ### What's New in v1.5.0
+          ### What's New in v1.6.0
+          - Desktop apps for Linux, Windows, and macOS
+          - Web audio fix - .opus playback via HTML5 Audio with correct MIME types
+          - serve_web.py ships correct MIME types for audio and fonts
+          - Version display fixed across app and landing page
+
+          ### Previous Features (v1.5.0)
           - Bottom navigation bar (Inicio / Cartas / Verbos / Estadisticas / Cuenta)
           - 17 achievement badges with unlock tracking
           - Common Verbs filter with color-coded type badges
@@ -390,8 +399,6 @@ jobs:
           - Speaking exercises with progress tracking
           - Account screen with export/import/share/clear data
           - Flashcard and quiz review counters
-
-          ### Previous Features
           - 1,816 verbs with 8 tenses
           - Web support - run directly in your browser
           - Trilingual display (Spanish + English + Arabic)
