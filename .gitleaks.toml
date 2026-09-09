@@ -26,6 +26,9 @@ paths = [
     "(?i)^.*\\.ini$",
     "(?i)^.*\\.conf$",
     "(?i)^.*\\.config$",
+    "(?i)^app/windows/runner/runner\\.exe\\.manifest$",
+    "(?i)^app/windows/.*\\.rc$",
+    "(?i)^app/windows/.*\\.ico$",
 ]
 
 # Allowlist for specific patterns that are false positives
