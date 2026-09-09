@@ -208,7 +208,21 @@ jobs:
       run: sudo apt-get update -qq && sudo apt-get install -y -qq libgtk-3-dev cmake ninja-build clang pkg-config libgstreamer1.0-dev gstreamer1.0-plugins-good
     - name: Install Visual Studio Build Tools (Windows)
       if: matrix.os == 'windows-latest'
-      run: choco install visualstudio2022buildtools -y --package-parameters "--quiet --wait --norestart --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended"
+      run: choco install visualstudio2022buildtools -y --package-parameters "--quiet --wait --norestart --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.VC.CMake.Project --includeRecommended"
+    - name: Wait for VS2022 workload registration (Windows)
+      if: matrix.os == 'windows-latest'
+      shell: pwsh
+      run: |
+        $vswhere = "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe"
+        $deadline = (Get-Date).AddMinutes(20)
+        while ((Get-Date) -lt $deadline) {
+          $found = & $vswhere -products * -requires Microsoft.VisualStudio.Workload.NativeDesktop Microsoft.VisualStudio.Component.VC.Tools.x86.x64 Microsoft.VisualStudio.Component.VC.CMake.Project -property installationPath 2>$null | Select-Object -First 1
+          if ($found) { Write-Host "VS2022 toolchain ready at: $found"; exit 0 }
+          Write-Host "Waiting for VS2022 workload registration..."
+          Start-Sleep -Seconds 30
+        }
+        Write-Error "VS2022 NativeDesktop workload not registered after 20 minutes"
+        exit 1
     - name: Enable desktop support
       run: flutter config --enable-linux-desktop --enable-windows-desktop --enable-macos-desktop
     - name: Get Dependencies
