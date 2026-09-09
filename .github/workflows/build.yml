@@ -380,7 +380,7 @@ jobs:
           - **Android**: app-release.apk
           - **Linux**: TalkToMeES-linux.zip (unzip and run)
           - **Windows**: TalkToMeES-windows.zip (unzip and run .exe)
-          - **macOS**: TalkToMeES-macos.zip (unzip and open .app)"
+          - **macOS**: TalkToMeES-macos.zip (unzip and open .app)
 
           ### What's New in v1.6.0
           - Desktop apps for Linux, Windows, and macOS
