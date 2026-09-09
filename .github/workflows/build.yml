@@ -213,6 +213,28 @@ jobs:
     - name: Build Linux Desktop
       if: matrix.os == 'ubuntu-latest'
       run: flutter build linux --release
+    - name: Build Linux AppImage
+      if: matrix.os == 'ubuntu-latest'
+      run: |
+        sudo apt-get update -qq && sudo apt-get install -y -qq locate mlocate file wget > /dev/null 2>&1
+        sudo updatedb || true
+        mkdir -p /tmp/aibin
+        wget -q "https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage" -O /tmp/aibin/appimagetool
+        chmod +x /tmp/aibin/appimagetool
+        (cd /tmp/aibin && ./appimagetool --appimage-extract > /dev/null)
+        mkdir -p /tmp/airoot && ln -sf /tmp/aibin/squashfs-root/AppRun /tmp/airoot/appimagetool
+        export PATH="/tmp/airoot:$PATH"
+        dart pub global activate fastforge
+        export PATH="$PATH:$HOME/.pub-cache/bin"
+        fastforge package --platform=linux --targets=appimage
+        ls -la dist/
+    - name: Upload Linux AppImage
+      if: matrix.os == 'ubuntu-latest'
+      uses: actions/upload-artifact@v4
+      with:
+        name: es-linux-appimage
+        path: app/dist/*.AppImage
+        retention-days: 7
     - name: Build Windows Desktop
       if: matrix.os == 'windows-2022'
       run: flutter build windows --release
@@ -339,7 +361,7 @@ jobs:
     - name: Download desktop artifacts
       uses: actions/download-artifact@v4
       with:
-        pattern: es-*-desktop
+        pattern: es-*
         path: desktop-artifacts
     - name: Zip desktop bundles
       run: |
@@ -347,7 +369,9 @@ jobs:
         (cd desktop-artifacts/es-linux-desktop && zip -qr ../../TalkToMeES-linux.zip .)
         (cd desktop-artifacts/es-windows-desktop && zip -qr ../../TalkToMeES-windows.zip .)
         (cd desktop-artifacts/es-macos-desktop && zip -qr ../../TalkToMeES-macos.zip .)
-        ls -la TalkToMeES-*.zip
+        cp desktop-artifacts/es-linux-appimage/*.AppImage ./TalkToMeES.AppImage
+        chmod +x ./TalkToMeES.AppImage
+        ls -la TalkToMeES-*.zip TalkToMeES.AppImage
     - name: Create tag & GitHub Release
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -372,13 +396,14 @@ jobs:
           TalkToMeES-linux.zip \
           TalkToMeES-windows.zip \
           TalkToMeES-macos.zip \
+          TalkToMeES.AppImage \
           --title "Talk To Me Spanish By Mohamed Rafaa Tounekti" \
           --notes "## Talk To Me Spanish v1.6.0
           By **Mohamed Rafaa Tounekti**
 
           ### Downloads
           - **Android**: app-release.apk
-          - **Linux**: TalkToMeES-linux.zip (unzip and run)
+          - **Linux**: TalkToMeES.AppImage (recommended - chmod +x and double-click, runs on any distro) or TalkToMeES-linux.zip (unzip and run)
           - **Windows**: TalkToMeES-windows.zip (unzip and run .exe)
           - **macOS**: TalkToMeES-macos.zip (unzip and open .app)
 
