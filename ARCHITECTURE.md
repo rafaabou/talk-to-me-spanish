@@ -1,6 +1,6 @@
 # Architecture — Talk To Me Spanish
 
-**Version 1.6.0** | By Mohamed Rafaa Tounekti
+**Version 1.7.0** | By Mohamed Rafaa Tounekti
 
 ---
 

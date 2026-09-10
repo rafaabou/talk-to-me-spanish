@@ -379,7 +379,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         sudo apt-get update -qq && sudo apt-get install -y -qq gh > /dev/null 2>&1
-        TAG="v1.6.0"
+        TAG="v1.7.0"
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
         git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/rafaabou/talk-to-me-spanish.git"
@@ -389,7 +389,7 @@ jobs:
         git tag -f "$TAG" "${{ github.sha }}"
         git push origin -f "$TAG"
         FILES="artifacts/app/build/app/outputs/flutter-apk/app-release.apk artifacts/app-release.apk.sig artifacts/sbom-project.cdx.json artifacts/sbom-project.cdx.json.sig artifacts/sbom-apk.cdx.json"
-        NOTES="## Talk To Me Spanish v1.6.0
+        NOTES="## Talk To Me Spanish v1.7.0
         By **Mohamed Rafaa Tounekti**
 
         ### Downloads
@@ -416,11 +416,10 @@ jobs:
         fi
         NOTES="$NOTES
 
-        ### What's New in v1.6.0
-        - Desktop apps for Linux, Windows, and macOS
-        - Web audio fix - .opus playback via HTML5 Audio with correct MIME types
-        - serve_web.py ships correct MIME types for audio and fonts
-        - Version display fixed across app and landing page
+        ### What's New in v1.7.0
+        - CI cost guard - desktop builds run only with [desktop] in push message (normal pushes ~49 billed min)
+        - Release job tolerates missing desktop artifacts (APK + SBOMs always ship)
+        - Web audio path fix - symlinks for Flutter's double-nested assets/audio so .opus plays in browser
 
         ### Previous Features (v1.5.0)
         - Bottom navigation bar (Inicio / Cartas / Verbos / Estadisticas / Cuenta)
