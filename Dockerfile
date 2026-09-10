@@ -203,7 +203,11 @@ COPY app/lib ./app/lib
 COPY app/assets ./app/assets
 COPY app/web ./app/web
 
-RUN cd app && flutter build web --release
+RUN cd app && flutter build web --release && \
+    for dir in audio course; do \
+      [ -d "build/web/assets/assets/$dir" ] && [ ! -e "build/web/assets/$dir" ] && \
+      (cd build/web/assets && ln -s "assets/$dir" "$dir"); \
+    done
 
 FROM python:3.12-slim AS web
 

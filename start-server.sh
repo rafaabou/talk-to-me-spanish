@@ -9,6 +9,14 @@ if [ ! -d "$WEB_DIR" ]; then
   exit 1
 fi
 
+# Fix Flutter web double-nested assets: files land at assets/assets/audio/ but manifest expects assets/audio/
+for dir in audio course; do
+  if [ -d "$WEB_DIR/assets/assets/$dir" ] && [ ! -e "$WEB_DIR/assets/$dir" ]; then
+    (cd "$WEB_DIR/assets" && ln -s "assets/$dir" "$dir")
+    echo "Symlinked $dir"
+  fi
+done
+
 fuser -k "$PORT/tcp" 2>/dev/null
 
 nohup python3 "$SCRIPT_DIR/serve_web.py" "$PORT" "$WEB_DIR" > /dev/null 2>&1 &

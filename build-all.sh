@@ -32,6 +32,14 @@ echo ""
 echo "[3/4] Building Web..."
 flutter build web --release
 
+WEB_DIR="$APP_DIR/build/web"
+for dir in audio course; do
+  if [ -d "$WEB_DIR/assets/assets/$dir" ] && [ ! -e "$WEB_DIR/assets/$dir" ]; then
+    (cd "$WEB_DIR/assets" && ln -s "assets/$dir" "$dir")
+    echo "Symlinked $dir"
+  fi
+done
+
 echo ""
 echo "[4/4] Starting web server on port $WEB_PORT..."
 echo "Open http://localhost:$WEB_PORT in your browser"
