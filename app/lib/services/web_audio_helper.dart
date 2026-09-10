@@ -37,6 +37,28 @@ Future<bool> _playOnce(String url, double speed) async {
   }
 }
 
+/// Sniffs the real container: some bundled .opus files are MP3 bytes.
+/// Blob MIME must match content or Chrome refuses to play.
+String _sniffMimeType(Uint8List bytes, String fallback) {
+  if (bytes.length >= 4 &&
+      bytes[0] == 0x4F &&
+      bytes[1] == 0x67 &&
+      bytes[2] == 0x67 &&
+      bytes[3] == 0x53) {
+    return 'audio/ogg; codecs=opus';
+  }
+  if (bytes.length >= 3 &&
+      bytes[0] == 0x49 &&
+      bytes[1] == 0x44 &&
+      bytes[2] == 0x33) {
+    return 'audio/mpeg';
+  }
+  if (bytes.length >= 2 && bytes[0] == 0xFF && (bytes[1] & 0xE0) == 0xE0) {
+    return 'audio/mpeg';
+  }
+  return fallback;
+}
+
 Future<bool> playAssetBytes(
   Uint8List bytes,
   String mimeType,
@@ -47,7 +69,7 @@ Future<bool> playAssetBytes(
   try {
     await stopWebAudio();
 
-    final blob = html.Blob([bytes], mimeType);
+    final blob = html.Blob([bytes], _sniffMimeType(bytes, mimeType));
     url = html.Url.createObjectUrlFromBlob(blob);
 
     var ok = true;
