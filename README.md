@@ -13,10 +13,10 @@ Offline-first **Spanish** learning app (Flutter, Android). 72 CEFR lessons (A1-C
 
 ## Run anywhere (portable, no install)
 
-Copy this whole folder to any PC (USB, cloud drive, network share). Only **Python 3** is needed — no Flutter, no dependencies, works offline:
+Copy this whole folder to any PC (USB, cloud drive, network share). No Flutter, no dependencies — **Python 3** (or just Windows PowerShell for the built-in server) — works fully offline (CanvasKit + all 6,669 audio clips are bundled; the service worker even pre-caches them on first run):
 
 - **Linux/macOS**: open a terminal in this folder and run `bash RUN.sh`
-- **Windows**: double-click `RUN.bat`
+- **Windows**: double-click `RUN.bat` (uses Python; falls back to a built-in PowerShell server when Python is not installed)
 
 It serves the prebuilt web app (`app/build/web`) and opens your browser automatically. Use Chrome or Edge (Safari cannot play .opus audio).
 
