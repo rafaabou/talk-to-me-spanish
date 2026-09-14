@@ -50,6 +50,8 @@ jobs:
       run: 'flutter analyze --fatal-infos
 
         flutter analyze --no-pub > analysis-report.txt 2>&1 || true'
+    - name: Audio Key Lint
+      run: python3 app/tools/lint_audio_keys.py app/assets/course/levels es --strict
     - name: Unit Tests
       run: flutter test -j 1
     - name: License Check

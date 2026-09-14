@@ -15,6 +15,7 @@ class AudioButton extends StatelessWidget {
   });
 
   Future<void> _play(BuildContext context) async {
+    if (text.trim().isEmpty) return;
     final ok = await AudioService.instance.playText(text, lang);
     if (!ok && context.mounted) {
       ScaffoldMessenger.of(context)

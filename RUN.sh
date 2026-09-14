@@ -21,11 +21,14 @@ if [ ! -f "$WEB_DIR/index.html" ]; then
   exit 1
 fi
 
-# Recreate Flutter double-nesting symlinks if the copy lost them (e.g. USB/FAT32)
+# Recreate Flutter double-nesting symlinks if the copy lost them (e.g. USB/FAT32).
+# Falls back to a plain copy when symlinks are not permitted.
 for dir in audio course; do
   if [ -d "$WEB_DIR/assets/assets/$dir" ] && [ ! -e "$WEB_DIR/assets/$dir" ]; then
-    (cd "$WEB_DIR/assets" && ln -s "assets/$dir" "$dir" 2>/dev/null) || \
-      { echo "WARNING: cannot create symlink for $dir - audio may 404"; }
+    if ! (cd "$WEB_DIR/assets" && ln -s "assets/$dir" "$dir" 2>/dev/null); then
+      echo "Symlinks blocked - copying $dir files instead..."
+      cp -r "$WEB_DIR/assets/assets/$dir" "$WEB_DIR/assets/$dir"
+    fi
   fi
 done
 

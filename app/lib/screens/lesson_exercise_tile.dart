@@ -220,7 +220,10 @@ class _ExerciseTileState extends State<ExerciseTile> {
                 if (e.type == 'listening' ||
                     e.type == 'dictation' ||
                     _isListeningMCQ) ...[
-                  AudioButton(text: e.audio ?? e.answer, lang: 'es'),
+                  AudioButton(
+                    text: (e.audio ?? e.answer.split('/')[0]).trim(),
+                    lang: 'es',
+                  ),
                   const SizedBox(width: 8),
                 ],
                 Expanded(child: TriBlock(e.prompt)),
@@ -352,12 +355,14 @@ class _ExerciseTileState extends State<ExerciseTile> {
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              const SizedBox(width: 6),
-                              AudioButton(
-                                text: e.answer.split('/')[0],
-                                lang: 'es',
-                                compact: true,
-                              ),
+                              if (!e.answer.contains('::')) ...[
+                                const SizedBox(width: 6),
+                                AudioButton(
+                                  text: e.answer.split('/')[0].trim(),
+                                  lang: 'es',
+                                  compact: true,
+                                ),
+                              ],
                             ],
                           ),
                         ],
@@ -374,7 +379,22 @@ class _ExerciseTileState extends State<ExerciseTile> {
   }
 
   Widget _buildReorder(BuildContext context, String lang) {
-    return ReorderableListView(
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.only(bottom: 8),
+          child: Text(
+            uiText(
+              lang,
+              ar: 'اضغط الكلمات بالترتيب — لا تهم علامات التشكيل',
+              es: 'Toca las palabras en orden — las tildes no importan',
+              other: 'Tap the words in order — accents do not matter',
+            ),
+            style: Theme.of(context).textTheme.bodySmall,
+          ),
+        ),
+        ReorderableListView(
       shrinkWrap: true,
       physics: const NeverScrollableScrollPhysics(),
       onReorder: _onReorder,
@@ -397,6 +417,8 @@ class _ExerciseTileState extends State<ExerciseTile> {
               ),
             );
           }).toList(),
+        ),
+      ],
     );
   }
 

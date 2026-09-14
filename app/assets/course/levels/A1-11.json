@@ -283,18 +283,18 @@
       "options": [
         {
           "es": "por la noche",
-          "en": "à noite",
-          "ar": "à noite"
+          "en": "at night",
+          "ar": "في الليل"
         },
         {
           "es": "por la mañana",
-          "en": "de manhã",
-          "ar": "de manhã"
+          "en": "in the morning",
+          "ar": "في الصباح"
         },
         {
           "es": "por la tarde",
-          "en": "à tarde",
-          "ar": "à tarde"
+          "en": "in the afternoon",
+          "ar": "في الظهيرة"
         }
       ],
       "answer": "por la mañana",

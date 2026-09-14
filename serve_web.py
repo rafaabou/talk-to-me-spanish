@@ -12,6 +12,26 @@ mimetypes.add_type('font/woff', '.woff')
 mimetypes.add_type('application/wasm', '.wasm')
 
 class FlutterHandler(http.server.SimpleHTTPRequestHandler):
+    # Flutter web nests audio/course under assets/assets/ while the
+    # AssetManifest maps them to assets/. Serve both, and survive
+    # copies that lost the assets/audio + assets/course symlinks.
+    DOUBLE_NESTED = ('/assets/audio/', '/assets/course/')
+
+    def _double_nested_path(self):
+        prefix = next(
+            (p for p in self.DOUBLE_NESTED if self.path.startswith(p)), None)
+        if prefix is None:
+            return None
+        alt = '/assets/assets/' + self.path[len('/assets/'):]
+        full = os.path.normpath(os.path.join(os.getcwd(), alt.lstrip('/')))
+        return full if os.path.isfile(full) else None
+
+    def do_GET(self):
+        alt = self._double_nested_path()
+        if alt is not None:
+            self.path = '/assets/assets/' + self.path[len('/assets/'):]
+        return super().do_GET()
+
     def end_headers(self):
         self.send_header('Cache-Control', 'no-cache')
         self.send_header('Access-Control-Allow-Origin', '*')

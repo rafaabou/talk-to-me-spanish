@@ -9,10 +9,10 @@ set WEB_DIR=app\build\web
 
 python --version >nul 2>&1
 if errorlevel 1 (
-  echo ERROR: Python 3 is required but was not found.
-  echo Install it from https://www.python.org/downloads/ then double-click again.
+  echo No Python found - trying built-in PowerShell server instead...
+  powershell -ExecutionPolicy Bypass -File "%~dp0RUN.ps1" -Port %PORT%
   pause
-  exit /b 1
+  exit /b 0
 )
 
 if not exist "%WEB_DIR%\index.html" (

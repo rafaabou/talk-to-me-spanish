@@ -145,7 +145,8 @@ class AudioService {
   }
 
   static String audioKey(String text, String lang) {
-    final h = md5.convert(utf8.encode('$lang:$text')).toString();
+    final t = text.trim();
+    final h = md5.convert(utf8.encode('$lang:$t')).toString();
     return '${lang}_${h.substring(0, 12)}.opus';
   }
 }
