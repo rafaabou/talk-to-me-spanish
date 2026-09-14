@@ -7,7 +7,18 @@ Offline-first **Spanish** learning app (Flutter, Android). 72 CEFR lessons (A1-C
 - Package: `com.rafaabou.eszero_hero`
 - Min SDK: 24 (Android 7.0) | Target: arm64 release APK (~60 MB)
 - Course content: `app/assets/course/` (72 lessons + index.json + verbs.json)
-- Audio: `app/assets/audio/` (~5,932 offline .opus clips, MD5-keyed)
+- Audio: `app/assets/audio/` (6,669 offline .opus clips, MD5-keyed, 100% coverage)
+
+---
+
+## Run anywhere (portable, no install)
+
+Copy this whole folder to any PC (USB, cloud drive, network share). Only **Python 3** is needed — no Flutter, no dependencies, works offline:
+
+- **Linux/macOS**: open a terminal in this folder and run `bash RUN.sh`
+- **Windows**: double-click `RUN.bat`
+
+It serves the prebuilt web app (`app/build/web`) and opens your browser automatically. Use Chrome or Edge (Safari cannot play .opus audio).
 
 ---
 
