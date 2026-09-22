@@ -400,27 +400,27 @@ class _ExerciseTileState extends State<ExerciseTile> {
           ),
         ),
         ReorderableListView(
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      onReorder: _onReorder,
-      children:
-          _reorderState.map((item) {
-            return Card(
-              key: ValueKey('reorder_${item.id}'),
-              child: ListTile(
-                leading: const Icon(Icons.drag_handle),
-                title: Text(
-                  item.text,
-                  style: const TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w600,
+          shrinkWrap: true,
+          physics: const NeverScrollableScrollPhysics(),
+          onReorder: _onReorder,
+          children:
+              _reorderState.map((item) {
+                return Card(
+                  key: ValueKey('reorder_${item.id}'),
+                  child: ListTile(
+                    leading: const Icon(Icons.drag_handle),
+                    title: Text(
+                      item.text,
+                      style: const TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                    trailing:
+                        item.dragging ? const Icon(Icons.drag_indicator) : null,
                   ),
-                ),
-                trailing:
-                    item.dragging ? const Icon(Icons.drag_indicator) : null,
-              ),
-            );
-          }).toList(),
+                );
+              }).toList(),
         ),
         const SizedBox(height: 8),
         FilledButton.tonal(

@@ -45,6 +45,7 @@ class _StatsScreenState extends State<StatsScreen> {
     final flashcardsReviewed =
         await ProgressService.instance.getFlashcardsReviewed();
     final quizzesTaken = await ProgressService.instance.getQuizzesTaken();
+    final speakingDone = await ProgressService.instance.getSpeakingDone();
 
     final levels = await CourseRepository.instance.loadLevels();
     var totalLessons = 0;
@@ -72,7 +73,7 @@ class _StatsScreenState extends State<StatsScreen> {
       quizzesTaken: quizzesTaken,
       verbsExplored: 0,
       daysStudied: studyDays.length,
-      speakingDone: 0,
+      speakingDone: speakingDone,
       backupDone: false,
     );
     await AchievementService.instance.checkNew(progress);

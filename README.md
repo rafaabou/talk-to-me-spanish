@@ -1,13 +1,44 @@
 # Talk To Me Spanish
 
-**Latest release: v1.8.0** | By Mohamed Rafaa Tounekti
+**Latest release: v1.10.0** | By Mohamed Rafaa Tounekti
 
-Offline-first **Spanish** learning app (Flutter, Android). 72 CEFR lessons (A1-C2), 1,816 verbs with 8 tenses, FSRS flashcards, quizzes, trilingual UI (ES/EN/AR), TTS audio, verb conjugation browser, and full DevSecOps CI/CD pipeline — 100% offline.
+Offline-first **Spanish** learning app (Flutter, Android). 72 CEFR lessons (A1-C2), 1,816 verbs with 8 tenses, FSRS flashcards, quizzes, trilingual UI (ES/EN/AR), TTS audio, verb conjugation browser, **voice conversation practice (roleplay + free Q&A)**, and full DevSecOps CI/CD pipeline — 100% offline.
 
 - Package: `com.rafaabou.eszero_hero`
 - Min SDK: 24 (Android 7.0) | Target: arm64 release APK (~60 MB)
 - Course content: `app/assets/course/` (72 lessons + index.json + verbs.json)
 - Audio: `app/assets/audio/` (7,857 offline .opus clips, MD5-keyed, 100% coverage)
+
+---
+
+## Speak offline — one-time setup
+
+Conversation practice uses the phone's speech recognizer. Lessons, audio, and scoring are fully offline; only the **system STT engine** needs an offline language pack if you want zero network during speaking exercises:
+
+1. **Download the offline speech pack** (once, while online):
+   - **Settings → Google → Search, Assistant & Voice → Voice → Offline speech recognition** → tab **All** → install **Spanish (Spain)**
+   - Or: **Google app → profile picture → Settings → Voice → Offline speech recognition**
+   - If the menu moved (Gemini era), search **"Offline speech"** in the phone Settings search bar
+   - Alternate paths on some devices: `Settings → System → Languages & input → Voice input` or `Gboard → Voice typing → Offline speech recognition`
+2. **Keep Speech Services by Google enabled and updated** (Settings → Apps → show system → *Speech Services by Google*).
+3. **Default voice input** = *Speech services by Google*: Settings → Apps → Default apps → Digital assistant app → Voice input.
+4. **Grant the app the microphone**: Settings → Apps → *Talk To Me Spanish* → Permissions → Microphone → **Allow**. The app also shows a rationale dialog the first time you tap **Speak**.
+5. **No TTS voice download is needed** — all lesson audio is bundled `.opus` files.
+6. Optional check: enable airplane mode and speak once. If it fails with *language unavailable*, the offline pack from step 1 is missing.
+
+> The app itself declares **no INTERNET permission** and makes no network calls. Speech recognition runs inside Google's system service; with the offline pack installed it stays on-device.
+
+---
+
+## Conversation mode
+
+Open any lesson → **Practice conversation** (under the dialogue):
+
+- **Roleplay**: the partner's lines auto-play (bundled audio + ES/EN/AR text); tap **Your turn** and answer with the mic.
+- **Free Q&A**: when the partner asks a question, speak a natural answer — scored against the scripted reply *and* related exercise answers (short answers like *"¡Claro!"* still pass via containment scoring).
+- **Score tiers**: ≥90 pass (green) · 50–89 retry (orange) · &lt;50 try again (red). Expected vs heard shown on the score card.
+- **Manual fallback**: if the mic or STT is unavailable, use *Hablé / I spoke* self-grading, **Retry microphone**, or **Settings** (opens app permissions).
+- **Offline**: works without internet when the offline speech pack is installed (see above). Web build: browser STT only; local voice recording is hidden.
 
 ---
 
@@ -25,6 +56,7 @@ It serves the prebuilt web app (`app/build/web`) and opens your browser automati
 ## Features
 
 - 72 CEFR lessons (A1-C2) with vocabulary, grammar, dialogue, reading, exercises
+- **Voice conversation practice**: turn-based roleplay, free spoken Q&A, offline STT scoring (≥90/50 tiers), manual fallback
 - 1,816 Spanish verbs with 8 tenses (present, preterite, imperfect, future, conditional, subjunctive, subjunctive past, imperative)
 - Verb conjugation browser with type grouping (-AR/-ER/-IR/-OR/irregular)
 - Audio filter toggle (All / With Audio) on verb screen
@@ -47,7 +79,7 @@ It serves the prebuilt web app (`app/build/web`) and opens your browser automati
 - Data export/import (JSON backup)
 - Web support — run in browser
 - `build-all.sh` — one command builds APK + web
-- 55/55 tests passing, 0 analyze issues
+- 76/76 tests passing, 0 analyze issues
 
 ---
 
@@ -137,7 +169,7 @@ git clone https://github.com/rafaabou/espanol-zero-to-hero.git
 cd espanol-zero-to-hero/app
 flutter pub get
 flutter analyze              # Must be 0 issues
-flutter test                 # Must pass 55 tests
+flutter test                 # Must pass 76 tests
 
 # 5. Build release APK
 JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 \
@@ -155,7 +187,7 @@ cd app
 flutter pub get              # Install dependencies
 flutter run                  # Run on device/emulator
 flutter analyze              # Static analysis (must be 0 issues)
-flutter test                 # Run 55 tests
+flutter test                 # Run 76 tests
 dart format --set-exit-if-changed --output=none .  # Format check
 ```
 
@@ -499,7 +531,7 @@ Generated by `tools/gen_audio.py` using Microsoft Edge TTS (es-UY-ValentinaNeura
 | Flutter version | workflow env / GitLab variables / Dockerfile ARG | 3.29.3 |
 | Java version | workflows / Dockerfile | 17 |
 | App ID | `app/android/app/build.gradle.kts` | `com.rafaabou.eszero_hero` |
-| Version | `app/pubspec.yaml` (`version:`) | 1.8.0+10 |
+| Version | `app/pubspec.yaml` (`version:`) | 1.10.0+14 |
 | Min SDK | `app/android/app/build.gradle.kts` | 24 |
 | NDK | `app/android/app/build.gradle.kts` | 27.0.12077973 |
 | UI languages | In-app switcher | en / es / ar (RTL) |
@@ -512,7 +544,9 @@ Generated by `tools/gen_audio.py` using Microsoft Edge TTS (es-UY-ValentinaNeura
 
 ## 11. Security Notes
 
-- **Offline-first**: No network calls. No `INTERNET` permission. No analytics. No tracking.
+- **Offline-first**: No network calls from the app. No `INTERNET` permission. No analytics. No tracking.
+- **Microphone**: `RECORD_AUDIO` is declared solely for conversation practice (on-device scoring); recordings stay in the app temp dir and are cleaned up.
+- **Speech recognition**: runs in the system Speech Services process (Google); with the offline pack installed, recognition stays on-device — see *Speak offline — one-time setup*.
 - **Secret scanning**: Gitleaks + TruffleHog run on every push. Enable locally with `pre-commit install`.
 - **Keystore**: `*.keystore` / `*.jks` / `keystore.properties` are never committed (gitignored).
 - **Dev fallback**: `build.gradle.kts` falls back to password `release123` when env vars are unset.
@@ -529,7 +563,7 @@ See `SECURITY.md` for the full security policy and vulnerability reporting proce
 ```bash
 cd app
 flutter analyze              # Must be 0 issues
-flutter test                 # Must pass 55 tests
+flutter test                 # Must pass 76 tests
 git status                   # Nothing unintended staged
 dart format --set-exit-if-changed --output=none .  # Format check
 gitleaks detect --no-git -c .gitleaks.toml         # Optional local secret scan
@@ -544,6 +578,15 @@ Apache-2.0 — see `LICENSE` and `NOTICE`.
 ---
 
 ## Changelog
+
+### v1.10.0 (2026-09-22)
+- **Voice conversation mode**: turn-based roleplay (partner auto-plays, you answer) + free spoken Q&A scored against accepted answers
+- Mic rationale dialog, Retry-microphone, Open Settings on permission failure
+- Offline-first STT (`onDevice` try + automatic fallback); offline-pack error copy with Settings path
+- Score card: expected vs heard + accepted alternatives; haptics on result
+- STT init no longer permanently fails after one error; model audio stops before listening
+- Temp voice-recording cleanup; macOS mic/speech usage strings; `app_settings` dep
+- README: offline STT pack setup, conversation docs, security note for RECORD_AUDIO
 
 ### v1.8.0 (2026-09-12)
 - Unique example phrases for all 1,190 vocab words (ES/EN/AR) with per-word audio buttons

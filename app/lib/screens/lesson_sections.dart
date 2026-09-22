@@ -67,9 +67,20 @@ class VocabTile extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              '${v.tr(lang)}'
-              '${lang == 'en' && v.ar.isNotEmpty ? ' · ${v.ar}' : ''}',
+              v.tr(lang),
+              style: const TextStyle(fontWeight: FontWeight.w600),
             ),
+            if (v.ar.isNotEmpty && v.ar != v.tr(lang)) ...[
+              Align(
+                alignment: Alignment.centerRight,
+                child: Text(
+                  v.ar,
+                  style: Theme.of(context).textTheme.bodySmall,
+                  textDirection: TextDirection.rtl,
+                  textAlign: TextAlign.right,
+                ),
+              ),
+            ],
             if (v.example != null) ...[
               const SizedBox(height: 2),
               Row(
@@ -86,10 +97,21 @@ class VocabTile extends StatelessWidget {
                   AudioButton(text: v.example!.es, lang: 'es', compact: true),
                 ],
               ),
-              Text(
-                uiText(lang, ar: v.example!.ar, other: v.example!.en),
-                style: Theme.of(context).textTheme.bodySmall,
-              ),
+              if (v.example!.en.isNotEmpty)
+                Text(
+                  v.example!.en,
+                  style: Theme.of(context).textTheme.bodySmall,
+                ),
+              if (v.example!.ar.isNotEmpty)
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: Text(
+                    v.example!.ar,
+                    style: Theme.of(context).textTheme.bodySmall,
+                    textDirection: TextDirection.rtl,
+                    textAlign: TextAlign.right,
+                  ),
+                ),
             ],
           ],
         ),
@@ -306,8 +328,12 @@ class _SpeakingSectionState extends State<SpeakingSection> {
                               () => setState(() {
                                 if (done) {
                                   _done.remove(i);
+                                  ProgressService.instance
+                                      .decrementSpeakingDone();
                                 } else {
                                   _done.add(i);
+                                  ProgressService.instance
+                                      .incrementSpeakingDone();
                                 }
                               }),
                         ),

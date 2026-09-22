@@ -23,6 +23,7 @@ class ProgressService {
   static const _repeatCountKey = 'repeat_count';
   static const _flashcardsReviewedKey = 'flashcards_reviewed';
   static const _quizzesTakenKey = 'quizzes_taken';
+  static const _speakingDoneKey = 'speaking_done';
 
   final FsrsScheduler _fsrs = FsrsScheduler();
 
@@ -167,6 +168,7 @@ class ProgressService {
     await prefs.remove(_repeatCountKey);
     await prefs.remove(_flashcardsReviewedKey);
     await prefs.remove(_quizzesTakenKey);
+    await prefs.remove(_speakingDoneKey);
     await prefs.remove('achievements_unlocked');
     for (final key in prefs.getKeys().where(
       (k) => k.startsWith('quiz_best_'),
@@ -334,6 +336,25 @@ class ProgressService {
     await prefs.setInt(_quizzesTakenKey, current + 1);
   }
 
+  Future<int> getSpeakingDone() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(_speakingDoneKey) ?? 0;
+  }
+
+  Future<void> incrementSpeakingDone() async {
+    final prefs = await SharedPreferences.getInstance();
+    final current = prefs.getInt(_speakingDoneKey) ?? 0;
+    await prefs.setInt(_speakingDoneKey, current + 1);
+  }
+
+  Future<void> decrementSpeakingDone() async {
+    final prefs = await SharedPreferences.getInstance();
+    final current = prefs.getInt(_speakingDoneKey) ?? 0;
+    if (current > 0) {
+      await prefs.setInt(_speakingDoneKey, current - 1);
+    }
+  }
+
   Future<String> exportSummary() async {
     final prefs = await SharedPreferences.getInstance();
     final completed = prefs.getStringList(_key) ?? [];
@@ -370,6 +391,7 @@ class ProgressService {
       'notes': jsonDecode(prefs.getString(_notesKey) ?? '{}'),
       'accessibility': jsonDecode(prefs.getString(_accessibilityKey) ?? '{}'),
       'repeat_count': prefs.getInt(_repeatCountKey) ?? 1,
+      'speaking_done': prefs.getInt(_speakingDoneKey) ?? 0,
       'exported': DateTime.now().toIso8601String(),
     });
   }
@@ -418,6 +440,9 @@ class ProgressService {
       }
       if (data['repeat_count'] is int) {
         await prefs.setInt(_repeatCountKey, data['repeat_count'] as int);
+      }
+      if (data['speaking_done'] is int) {
+        await prefs.setInt(_speakingDoneKey, data['speaking_done'] as int);
       }
     } catch (e) {
       debugPrint('Import data failed: $e');

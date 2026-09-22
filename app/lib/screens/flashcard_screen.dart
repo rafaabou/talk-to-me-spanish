@@ -295,7 +295,7 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                           style: Theme.of(context).textTheme.titleLarge,
                         ),
                         const SizedBox(height: 8),
-                        if (lang == 'en' && word.ar.isNotEmpty)
+                        if (word.ar.isNotEmpty && word.ar != word.tr(lang))
                           Text(
                             word.ar,
                             textAlign: TextAlign.center,
@@ -310,11 +310,19 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                             style: Theme.of(context).textTheme.bodyMedium
                                 ?.copyWith(fontStyle: FontStyle.italic),
                           ),
-                          Text(
-                            uiText(lang, ar: example.ar, other: example.en),
-                            textAlign: TextAlign.center,
-                            style: Theme.of(context).textTheme.bodySmall,
-                          ),
+                          if (example.en.isNotEmpty)
+                            Text(
+                              example.en,
+                              textAlign: TextAlign.center,
+                              style: Theme.of(context).textTheme.bodySmall,
+                            ),
+                          if (example.ar.isNotEmpty)
+                            Text(
+                              example.ar,
+                              textAlign: TextAlign.center,
+                              textDirection: TextDirection.rtl,
+                              style: Theme.of(context).textTheme.bodySmall,
+                            ),
                         ],
                       ] else
                         Text(
