@@ -56,9 +56,13 @@ class _ConversationScreenState extends State<ConversationScreen> {
   String? _recPath;
   Timer? _recSafety;
   AudioPlayer? _abPlayer;
+  final ScrollController _scrollCtrl = ScrollController();
 
   ConversationTurn? get _current =>
       _index < widget.turns.length ? widget.turns[_index] : null;
+
+  int get _learnerTotal =>
+      widget.turns.where((t) => t.role == TurnRole.learner).length;
 
   @override
   void initState() {
@@ -82,6 +86,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
   @override
   void dispose() {
     _recSafety?.cancel();
+    _scrollCtrl.dispose();
     SpeechService.instance.cancelCurrent();
     if (_recording) {
       _recorder.cancel().catchError((_) {});
@@ -105,6 +110,23 @@ class _ConversationScreenState extends State<ConversationScreen> {
     HapticFeedback.mediumImpact();
   }
 
+  Future<void> _deleteQuietly(String path) async {
+    try {
+      await File(path).delete();
+    } catch (_) {}
+  }
+
+  void _scrollToBottom() {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted || !_scrollCtrl.hasClients) return;
+      _scrollCtrl.animateTo(
+        _scrollCtrl.position.maxScrollExtent,
+        duration: const Duration(milliseconds: 250),
+        curve: Curves.easeOut,
+      );
+    });
+  }
+
   String _primary(ConversationTurn t) => t.text.tr(targetLang);
 
   void _startTurn() {
@@ -121,6 +143,12 @@ class _ConversationScreenState extends State<ConversationScreen> {
   }
 
   void _advance() {
+    _recSafety?.cancel();
+    if (_recording) {
+      _recording = false;
+      _recorder.cancel().catchError((_) {});
+    }
+    final oldRec = _recPath;
     final turn = _current;
     if (turn != null && turn.role == TurnRole.learner) {
       setState(() {
@@ -138,6 +166,9 @@ class _ConversationScreenState extends State<ConversationScreen> {
       _score = null;
       _recPath = null;
     });
+    if (oldRec != null && oldRec.isNotEmpty) _deleteQuietly(oldRec);
+    _cleanupOldRecordings();
+    _scrollToBottom();
     if (_index < widget.turns.length) {
       _startTurn();
     } else if (mounted) {
@@ -175,7 +206,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
               uiText(
                 widget.lang,
                 ar: 'الميكروفون',
-                pt: 'Microfone',
+                es: 'Micrófono',
                 other: 'Microphone',
               ),
             ),
@@ -184,8 +215,8 @@ class _ConversationScreenState extends State<ConversationScreen> {
                 widget.lang,
                 ar:
                     'نستخدم الميكروفون لسماع نطقك وتقييم الإجابة. لن يُسجَّل شيء خارج الجهاز.',
-                pt:
-                    'Usamos o microfone para ouvir sua fala e avaliar sua resposta. Nada é gravado fora do aparelho.',
+                es:
+                    'Usamos el micrófono para escuchar tu habla y evaluar tu respuesta. Nada se guarda fuera del dispositivo.',
                 other:
                     'We use the microphone to hear your answer and score your pronunciation. Nothing is saved off-device.',
               ),
@@ -197,7 +228,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                   uiText(
                     widget.lang,
                     ar: 'إلغاء',
-                    pt: 'Cancelar',
+                    es: 'Cancelar',
                     other: 'Cancel',
                   ),
                 ),
@@ -208,7 +239,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                   uiText(
                     widget.lang,
                     ar: 'السماح',
-                    pt: 'Permitir',
+                    es: 'Permitir',
                     other: 'Allow',
                   ),
                 ),
@@ -220,16 +251,17 @@ class _ConversationScreenState extends State<ConversationScreen> {
   }
 
   Future<void> _onMicPressed() async {
-    if (_busy) return;
     if (_phase == _Phase.listening) {
       await SpeechService.instance.cancelCurrent();
       return;
     }
+    if (_busy) return;
     final turn = _current;
     if (turn == null || turn.role != TurnRole.learner) return;
 
     if (!_sttChecked || !SpeechService.instance.available) {
       final ok = await SpeechService.instance.ensureInitialized();
+      if (!mounted) return;
       if (!ok) {
         setState(() {
           _fallback = true;
@@ -239,7 +271,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
           uiText(
             widget.lang,
             ar: 'التعرف على الصوت غير متاح — استخدم الوضع اليدوي',
-            pt: 'Reconhecimento de voz indisponível — use o modo manual',
+            es: 'Reconocimiento de voz no disponible — usa el modo manual',
             other: 'Speech recognition unavailable — use manual mode',
           ),
         );
@@ -248,7 +280,23 @@ class _ConversationScreenState extends State<ConversationScreen> {
     }
 
     final allowed = await _showRationale();
-    if (!allowed) return;
+    if (!allowed || !mounted) return;
+    if (!kIsWeb) {
+      final hasMic = await _recorder.hasPermission();
+      if (!mounted) return;
+      if (!hasMic) {
+        setState(() => _fallback = true);
+        _msg(
+          uiText(
+            widget.lang,
+            ar: 'إذن الميكروفون مرفوض',
+            es: 'Permiso de micrófono denegado',
+            other: 'Microphone permission denied',
+          ),
+        );
+        return;
+      }
+    }
 
     setState(() {
       _busy = true;
@@ -282,7 +330,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
           uiText(
             widget.lang,
             ar: 'تعذر تشغيل الميكروفون — استخدم الوضع اليدوي',
-            pt: 'Não foi possível usar o microfone — use o modo manual',
+            es: 'No se pudo usar el micrófono — usa el modo manual',
             other: 'Could not use the microphone — use manual mode',
           ),
         );
@@ -298,6 +346,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
       _partial = '';
     });
     _haptic();
+    _scrollToBottom();
     if (score.passed && _passed.add(_index)) {
       ProgressService.instance.incrementSpeakingDone();
     }
@@ -317,7 +366,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
         uiText(
           widget.lang,
           ar: 'ما زال الميكروفون غير متاح',
-          pt: 'O microfone ainda está indisponível',
+          es: 'El micrófono sigue no disponible',
           other: 'Microphone still unavailable',
         ),
       );
@@ -327,7 +376,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
       uiText(
         widget.lang,
         ar: 'الميكروفون جاهز',
-        pt: 'Microfone pronto',
+        es: 'Micrófono listo',
         other: 'Microphone ready',
       ),
     );
@@ -343,7 +392,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
         uiText(
           widget.lang,
           ar: 'افتح الإعدادات يدوياً لإذن الميكروفون',
-          pt: 'Abra as Configurações para conceder o microfone',
+          es: 'Abre Ajustes para conceder el micrófono',
           other: 'Open Settings to grant the microphone',
         ),
       );
@@ -359,7 +408,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
         return uiText(
           widget.lang,
           ar: 'لم أسمع شيئاً — حاول مرة أخرى',
-          pt: 'Não ouvi nada — tente de novo',
+          es: 'No escuché nada — inténtalo de nuevo',
           other: "Didn't catch that — try again",
         );
       case 'error_network':
@@ -371,8 +420,8 @@ class _ConversationScreenState extends State<ConversationScreen> {
           widget.lang,
           ar:
               'حمّل حزمة اللغة دون اتصال: الإعدادات ← Google ← التعرف على الصوت دون اتصال',
-          pt:
-              'Baixe o pacote offline: Configurações → Google → Reconhecimento de voz offline',
+          es:
+              'Descarga el paquete sin conexión: Ajustes → Google → Reconocimiento de voz sin conexión',
           other:
               'Install the offline pack: Settings → Google → Offline speech recognition',
         );
@@ -380,7 +429,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
         return uiText(
           widget.lang,
           ar: 'تعذر التعرف على الكلام — حاول مرة أخرى',
-          pt: 'Não foi reconhecido — tente de novo',
+          es: 'No se reconoció — inténtalo de nuevo',
           other: 'Not recognized — try again',
         );
     }
@@ -404,7 +453,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
           uiText(
             widget.lang,
             ar: 'إذن الميكروفون مرفوض',
-            pt: 'Permissão de microfone negada',
+            es: 'Permiso de micrófono denegado',
             other: 'Microphone permission denied',
           ),
         );
@@ -435,7 +484,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
         uiText(
           widget.lang,
           ar: 'تعذر بدء التسجيل',
-          pt: 'Não foi possível gravar',
+          es: 'No se pudo grabar',
           other: 'Could not record',
         ),
       );
@@ -469,7 +518,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
         uiText(
           widget.lang,
           ar: 'تعذر تشغيل التسجيل',
-          pt: 'Não foi possível reproduzir a gravação',
+          es: 'No se pudo reproducir la grabación',
           other: 'Could not play the recording',
         ),
       );
@@ -489,13 +538,14 @@ class _ConversationScreenState extends State<ConversationScreen> {
         heard: uiText(
           widget.lang,
           ar: 'تم تقييم يدوي',
-          pt: 'Avaliação manual',
+          es: 'Evaluación manual',
           other: 'Manually graded',
         ),
         expected: turn.accepted.isNotEmpty ? turn.accepted.first : '',
       );
     });
     _haptic();
+    _scrollToBottom();
   }
 
   void _retry() {
@@ -513,6 +563,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
     return Scaffold(
       appBar: AppBar(title: Text(widget.title)),
       body: ListView(
+        controller: _scrollCtrl,
         padding: const EdgeInsets.all(12),
         children: [
           if (!done) ...[
@@ -548,7 +599,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
               uiText(
                 widget.lang,
                 ar: '${_passed.length} ناجحة',
-                pt: '${_passed.length} corretas',
+                es: '${_passed.length} correctas',
                 other: '${_passed.length} correct',
               ),
               style: Theme.of(context).textTheme.bodySmall,
@@ -705,7 +756,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                 uiText(
                   lang,
                   ar: '${turn.speaker} يتحدث…',
-                  pt: '${turn.speaker} fala…',
+                  es: '${turn.speaker} habla…',
                   other: '${turn.speaker} is speaking…',
                 ),
                 style: style.bodySmall?.copyWith(
@@ -720,7 +771,12 @@ class _ConversationScreenState extends State<ConversationScreen> {
                       onPressed: _replayPartner,
                       icon: const Icon(Icons.volume_up, size: 20),
                       label: Text(
-                        uiText(lang, ar: 'استمع', pt: 'Ouvir', other: 'Listen'),
+                        uiText(
+                          lang,
+                          ar: 'استمع',
+                          es: 'Escuchar',
+                          other: 'Listen',
+                        ),
                       ),
                     ),
                   ),
@@ -733,7 +789,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                         uiText(
                           lang,
                           ar: 'دورك',
-                          pt: 'Sua vez',
+                          es: 'Tu turno',
                           other: 'Your turn',
                         ),
                       ),
@@ -753,13 +809,13 @@ class _ConversationScreenState extends State<ConversationScreen> {
             ? uiText(
               lang,
               ar: 'أجب بحرية عن السؤال',
-              pt: 'Responda livremente à pergunta',
+              es: 'Responde libremente a la pregunta',
               other: 'Answer the question freely',
             )
             : uiText(
               lang,
               ar: 'قل هذه الجملة',
-              pt: 'Diga esta frase',
+              es: 'Di esta frase',
               other: 'Say this sentence',
             );
 
@@ -781,7 +837,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                     uiText(
                       lang,
                       ar: 'دورك — ${turn.speaker}',
-                      pt: 'Sua vez — ${turn.speaker}',
+                      es: 'Tu turno — ${turn.speaker}',
                       other: 'Your turn — ${turn.speaker}',
                     ),
                     style: style.bodySmall?.copyWith(
@@ -809,7 +865,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                 uiText(
                   lang,
                   ar: 'تلميح: الجملة المتوقعة تظهر بعد التقييم',
-                  pt: 'Dica: a frase esperada aparece após a avaliação',
+                  es: 'Pista: la frase esperada aparece tras la evaluación',
                   other: 'Hint: the expected phrase shows after scoring',
                 ),
                 style: style.bodySmall,
@@ -825,7 +881,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                     uiText(
                       lang,
                       ar: 'استمع للسؤال',
-                      pt: 'Ouvir pergunta',
+                      es: 'Escuchar pregunta',
                       other: 'Hear prompt',
                     ),
                   ),
@@ -840,7 +896,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                         uiText(
                           lang,
                           ar: 'تكلمت',
-                          pt: 'Falei',
+                          es: 'Hablé',
                           other: 'I spoke',
                         ),
                       ),
@@ -870,20 +926,20 @@ class _ConversationScreenState extends State<ConversationScreen> {
                             ? uiText(
                               lang,
                               ar: 'جارٍ الاستماع…',
-                              pt: 'Ouvindo…',
+                              es: 'Escuchando…',
                               other: 'Listening…',
                             )
                             : _phase == _Phase.result
                             ? uiText(
                               lang,
                               ar: 'إعادة المحاولة',
-                              pt: 'Tentar de novo',
+                              es: 'Intentar de nuevo',
                               other: 'Try again',
                             )
                             : uiText(
                               lang,
                               ar: 'تحدَّث',
-                              pt: 'Falar',
+                              es: 'Hablar',
                               other: 'Speak',
                             ),
                       ),
@@ -897,7 +953,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                 uiText(
                   lang,
                   ar: 'انقر للإيقاف',
-                  pt: 'Toque para parar',
+                  es: 'Toca para detener',
                   other: 'Tap to stop',
                 ),
                 style: style.bodySmall?.copyWith(fontStyle: FontStyle.italic),
@@ -913,7 +969,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                 uiText(
                   lang,
                   ar: 'وضع يدوي: استمع ثم قل الجملة ثم تحقق بنفسك',
-                  pt: 'Modo manual: ouça, fale a frase e verifique você mesmo',
+                  es: 'Modo manual: escucha, di la frase y comprueba tú mismo',
                   other: 'Manual mode: listen, say the phrase, and self-check',
                 ),
                 style: style.bodySmall?.copyWith(fontStyle: FontStyle.italic),
@@ -928,7 +984,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                       uiText(
                         lang,
                         ar: 'إعادة المحاولة بالميكروفون',
-                        pt: 'Tentar o microfone de novo',
+                        es: 'Probar el micrófono de nuevo',
                         other: 'Retry microphone',
                       ),
                     ),
@@ -941,7 +997,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                       uiText(
                         lang,
                         ar: 'الإعدادات',
-                        pt: 'Configurações',
+                        es: 'Ajustes',
                         other: 'Settings',
                       ),
                     ),
@@ -985,18 +1041,18 @@ class _ConversationScreenState extends State<ConversationScreen> {
             : Icons.cancel;
     final label =
         score.passed
-            ? uiText(lang, ar: 'أحسنت!', pt: 'Muito bem!', other: 'Great!')
+            ? uiText(lang, ar: 'أحسنت!', es: '¡Muy bien!', other: 'Great!')
             : score.retry
             ? uiText(
               lang,
               ar: 'اقتربت! أعد المحاولة',
-              pt: 'Quase! Tente de novo',
+              es: '¡Casi! Inténtalo de nuevo',
               other: 'Almost! Try again',
             )
             : uiText(
               lang,
               ar: 'لم أفهم — أعد المحاولة',
-              pt: 'Não entendi — tente de novo',
+              es: 'No te entendí — inténtalo de nuevo',
               other: "Didn't catch that — try again",
             );
     final manual =
@@ -1004,7 +1060,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
         uiText(
           lang,
           ar: 'تم تقييم يدوي',
-          pt: 'Avaliação manual',
+          es: 'Evaluación manual',
           other: 'Manually graded',
         );
     final alternatives =
@@ -1037,21 +1093,21 @@ class _ConversationScreenState extends State<ConversationScreen> {
             if (score.expected.isNotEmpty) ...[
               const SizedBox(height: 6),
               Text(
-                '${uiText(lang, ar: 'المتوقع:', pt: 'Esperado:', other: 'Expected:')} "${score.expected}"',
+                '${uiText(lang, ar: 'المتوقع:', es: 'Esperado:', other: 'Expected:')} "${score.expected}"',
                 style: Theme.of(context).textTheme.bodySmall,
               ),
             ],
             if (!manual && score.heard.isNotEmpty) ...[
               const SizedBox(height: 4),
               Text(
-                '${uiText(lang, ar: 'سمعت:', pt: 'Ouvi:', other: 'Heard:')} "${score.heard}"',
+                '${uiText(lang, ar: 'سمعت:', es: 'Escuché:', other: 'Heard:')} "${score.heard}"',
                 style: Theme.of(context).textTheme.bodySmall,
               ),
             ],
             if (alternatives.isNotEmpty) ...[
               const SizedBox(height: 4),
               Text(
-                '${uiText(lang, ar: 'أجابات مقبولة:', pt: 'Respostas aceitas:', other: 'Accepted answers:')} ${alternatives.join(' · ')}',
+                '${uiText(lang, ar: 'أجابات مقبولة:', es: 'Respuestas aceptadas:', other: 'Accepted answers:')} ${alternatives.join(' · ')}',
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
                   fontStyle: FontStyle.italic,
                   color: Theme.of(context).colorScheme.onSurfaceVariant,
@@ -1081,13 +1137,13 @@ class _ConversationScreenState extends State<ConversationScreen> {
                           ? uiText(
                             lang,
                             ar: 'إنهاء',
-                            pt: 'Concluir',
+                            es: 'Finalizar',
                             other: 'Finish',
                           )
                           : uiText(
                             lang,
                             ar: 'التالي',
-                            pt: 'Próxima',
+                            es: 'Siguiente',
                             other: 'Next',
                           ),
                     ),
@@ -1096,7 +1152,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                     onPressed: _advance,
                     icon: const Icon(Icons.skip_next),
                     label: Text(
-                      uiText(lang, ar: 'تخطي', pt: 'Pular', other: 'Skip'),
+                      uiText(lang, ar: 'تخطي', es: 'Omitir', other: 'Skip'),
                     ),
                   ),
         ),
@@ -1105,7 +1161,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
           onPressed: _replayPartner,
           icon: const Icon(Icons.volume_up, size: 20),
           label: Text(
-            uiText(lang, ar: 'الموديل', pt: 'Modelo', other: 'Model'),
+            uiText(lang, ar: 'الموديل', es: 'Modelo', other: 'Model'),
           ),
         ),
       ],
@@ -1125,13 +1181,13 @@ class _ConversationScreenState extends State<ConversationScreen> {
                   ? uiText(
                     lang,
                     ar: 'إيقاف التسجيل',
-                    pt: 'Parar gravação',
+                    es: 'Detener grabación',
                     other: 'Stop recording',
                   )
                   : uiText(
                     lang,
                     ar: 'سجّل صوتي',
-                    pt: 'Gravar minha voz',
+                    es: 'Grabar mi voz',
                     other: 'Record my voice',
                   ),
             ),
@@ -1147,7 +1203,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                 uiText(
                   lang,
                   ar: 'استمع لنفسك',
-                  pt: 'Ouvir minha voz',
+                  es: 'Escuchar mi voz',
                   other: 'Hear myself',
                 ),
               ),
@@ -1171,7 +1227,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
               uiText(
                 lang,
                 ar: 'أحسنت! انتهت المحادثة',
-                pt: 'Muito bem! Conversa concluída',
+                es: '¡Muy bien! Conversación terminada',
                 other: 'Great! Conversation finished',
               ),
               style: Theme.of(
@@ -1183,10 +1239,10 @@ class _ConversationScreenState extends State<ConversationScreen> {
             Text(
               uiText(
                 lang,
-                ar: '${_passed.length}/${widget.turns.length} جمل صحيحة',
-                pt: '${_passed.length}/${widget.turns.length} frases corretas',
+                ar: '${_passed.length}/$_learnerTotal جمل صحيحة',
+                es: '${_passed.length}/$_learnerTotal frases correctas',
                 other:
-                    '${_passed.length}/${widget.turns.length} correct phrases',
+                    '${_passed.length}/$_learnerTotal correct phrases',
               ),
               style: Theme.of(context).textTheme.bodyLarge,
             ),
@@ -1195,7 +1251,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
               onPressed: () => Navigator.pop(context),
               icon: const Icon(Icons.check),
               label: Text(
-                uiText(lang, ar: 'تم', pt: 'Concluir', other: 'Done'),
+                uiText(lang, ar: 'تم', es: 'Finalizar', other: 'Done'),
               ),
             ),
           ],

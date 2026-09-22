@@ -5,21 +5,21 @@ import 'package:talk_to_me_spanish/services/voice_compare_service.dart';
 
 DialogueLine _line(
   String speaker,
-  String pt, [
+  String es, [
   String en = '',
   String ar = '',
 ]) {
-  return DialogueLine(speaker, TriText(pt, en, ar));
+  return DialogueLine(speaker, TriText(es, en, ar));
 }
 
 Exercise _writing(
-  String promptPt,
+  String promptEs,
   String answer, [
   List<String> accepted = const [],
 ]) {
   return Exercise(
     'writing',
-    TriText(promptPt, '', ''),
+    TriText(promptEs, '', ''),
     const [],
     answer,
     accepted,
@@ -33,10 +33,10 @@ void main() {
     test('splits dialogue into alternating partner/learner turns', () {
       final turns = ConversationTurnEngine.build(
         lines: [
-          _line('Ana', 'Bom dia!'),
-          _line('Pedro', 'Bom dia, tudo bem?'),
-          _line('Ana', 'Tudo bem, obrigado.'),
-          _line('Pedro', 'Ótimo!'),
+          _line('Ana', '¡Buenos días!'),
+          _line('Pedro', '¡Buenos días, ¿cómo estás?'),
+          _line('Ana', 'Bien, gracias.'),
+          _line('Pedro', '¡Genial!'),
         ],
         exercises: const [],
         targetLang: 'es',
@@ -50,7 +50,7 @@ void main() {
 
     test('learnerParity 0 flips roles', () {
       final turns = ConversationTurnEngine.build(
-        lines: [_line('Ana', 'Oi!'), _line('Pedro', 'Oi!')],
+        lines: [_line('Ana', '¡Hola!'), _line('Pedro', '¡Hola!')],
         exercises: const [],
         targetLang: 'es',
         learnerParity: 0,
@@ -62,10 +62,10 @@ void main() {
     test('marks freeAnswer after a question', () {
       final turns = ConversationTurnEngine.build(
         lines: [
-          _line('Ana', 'Você quer café?'),
-          _line('Pedro', 'Sim, por favor.'),
-          _line('Ana', 'Tudo bem.'),
-          _line('Pedro', 'Obrigado.'),
+          _line('Ana', '¿Quieres café?'),
+          _line('Pedro', 'Sí, por favor.'),
+          _line('Ana', 'Bien.'),
+          _line('Pedro', 'Gracias.'),
         ],
         exercises: const [],
         targetLang: 'es',
@@ -77,26 +77,55 @@ void main() {
 
     test('accepted always contains scripted line', () {
       final turns = ConversationTurnEngine.build(
-        lines: [_line('Ana', 'Oi, tudo bem?'), _line('Pedro', 'Tudo bem!')],
+        lines: [_line('Ana', 'Hola, ¿qué tal?'), _line('Pedro', '¡Bien!')],
         exercises: const [],
         targetLang: 'es',
       );
-      expect(turns[1].accepted, contains('Tudo bem!'));
+      expect(turns[1].accepted, contains('¡Bien!'));
     });
 
     test('merges exercise answers into free-answer turn', () {
       final turns = ConversationTurnEngine.build(
-        lines: [_line('Ana', 'Como se diz goodbye?'), _line('Pedro', 'Adeus.')],
+        lines: [
+          _line('Ana', '¿Cómo se dice goodbye?'),
+          _line('Pedro', 'Adiós.'),
+        ],
         exercises: [
-          _writing('Escreva otra forma de decir goodbye', 'tchau', ['tchau']),
-          _writing('Escreva something unrelated', 'zzz'),
+          _writing(
+            'Escribe otra forma de decir goodbye',
+            'hasta luego',
+            ['hasta luego'],
+          ),
+          _writing('Escribe algo sin relación', 'zzz'),
         ],
         targetLang: 'es',
       );
-      // Question "Como se diz goodbye" shares content word with prompt.
+      // Question "¿Cómo se dice goodbye" shares content word with prompt.
       expect(turns[1].freeAnswer, isTrue);
-      expect(turns[1].accepted, contains('Adeus.'));
-      expect(turns[1].accepted, contains('tchau'));
+      expect(turns[1].accepted, contains('Adiós.'));
+      expect(turns[1].accepted, contains('hasta luego'));
+    });
+
+    test('excludes listening_mcq answers from free-answer enrichment', () {
+      final listeningMcq = Exercise(
+        'listening_mcq',
+        TriText('¿Cómo te llamas?', '', ''),
+        const [],
+        'Me llamo Ana.',
+        const [],
+        null,
+        TriText('', '', ''),
+      );
+      final turns = ConversationTurnEngine.build(
+        lines: [
+          _line('Ana', '¿Cómo te llamas?'),
+          _line('Pedro', 'Me llamo Pedro.'),
+        ],
+        exercises: [listeningMcq],
+        targetLang: 'es',
+      );
+      expect(turns[1].accepted, contains('Me llamo Pedro.'));
+      expect(turns[1].accepted, isNot(contains('Me llamo Ana.')));
     });
 
     test('empty lines yield empty turns', () {
@@ -112,13 +141,16 @@ void main() {
   group('scoreLearner / compareAny', () {
     test('exact scripted reply passes', () {
       final turns = ConversationTurnEngine.build(
-        lines: [_line('Ana', 'Bom dia!'), _line('Pedro', 'Bom dia, senhor.')],
+        lines: [
+          _line('Ana', '¡Buenos días!'),
+          _line('Pedro', 'Buenos días, señor.'),
+        ],
         exercises: const [],
         targetLang: 'es',
       );
       final s = ConversationTurnEngine.scoreLearner(
         turns[1],
-        'Bom dia, senhor.',
+        'Buenos días, señor.',
       );
       expect(s.score, 100);
       expect(s.passed, isTrue);
@@ -126,24 +158,32 @@ void main() {
 
     test('short containment answer passes free response', () {
       final score = VoiceCompareService.compareAny([
-        'Claro! Eu te emprestaria com prazer.',
+        '¡Claro! Te lo prestaría con gusto.',
       ], 'Claro');
       expect(score.score, greaterThanOrEqualTo(90));
       expect(score.passed, isTrue);
     });
 
+    test('sub-token answer fails containment floor', () {
+      final score = VoiceCompareService.compareAny([
+        'Buenos días, ¿cómo está usted hoy?',
+      ], 'de');
+      expect(score.score, lessThan(90));
+      expect(score.passed, isFalse);
+    });
+
     test('wrong answer fails below retry band', () {
       final score = VoiceCompareService.compareAny([
-        'Sim, eu gostaria de viajar.',
-      ], 'gato preto na janela');
+        'Sí, me gustaría viajar.',
+      ], 'gato negro en la ventana');
       expect(score.score, lessThan(50));
       expect(score.failed, isTrue);
     });
 
     test('best of multiple accepted answers wins', () {
       final score = VoiceCompareService.compareAny(
-        ['Uma frase completamente diferente da outra'],
-        'Uma frase completamente diferente da outra',
+        ['Una frase completamente diferente de la otra'],
+        'Una frase completamente diferente de la otra',
         // second would fail badly
       );
       expect(score.score, 100);
@@ -151,8 +191,8 @@ void main() {
 
     test('retry band still works with compareAny', () {
       final score = VoiceCompareService.compareAny([
-        'Eu gostaria de um café com leite',
-      ], 'eu gostaria de um cafe com leite por favor');
+        'Me gustaría un café con leche',
+      ], 'me gustaria un cafe con leche por favor');
       expect(score.score, greaterThanOrEqualTo(50));
       expect(score.score, lessThan(100));
     });

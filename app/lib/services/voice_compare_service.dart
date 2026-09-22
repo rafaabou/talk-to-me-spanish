@@ -154,9 +154,12 @@ class VoiceCompareService {
   /// the learner said the right thing with different scope — score ≥ 92.
   static int _containmentScore(String expected, String heard) {
     final e = normalize(expected).split(' ').where((t) => t.isNotEmpty).toSet();
-    final h = normalize(heard).split(' ').where((t) => t.isNotEmpty).toSet();
+    final hNorm = normalize(heard);
+    final h = hNorm.split(' ').where((t) => t.isNotEmpty).toSet();
     if (e.isEmpty || h.isEmpty) return 0;
     if (h.containsAll(e) || e.containsAll(h)) {
+      // Sub-token answers ("de", "el") must not pass a longer phrase.
+      if (h.length == 1 && hNorm.length < 3) return 0;
       final ratio = math.min(e.length, h.length) / math.max(e.length, h.length);
       return (92 + 8 * ratio).round().clamp(0, 100);
     }

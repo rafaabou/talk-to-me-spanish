@@ -136,8 +136,13 @@ class SpeechService {
       onPartial: onPartial,
       preferOffline: true,
     );
-    if (first.error != null && _packRetryErrors.contains(first.error)) {
+    if (first.error != null &&
+        (_packRetryErrors.contains(first.error) ||
+            first.error == 'listen_failed')) {
       debugPrint('SpeechService: retrying listen without onDevice');
+      // Give the recognizer a beat to settle after the cancel() from the
+      // first attempt — an immediate re-listen can throw listen_failed.
+      await Future<void>.delayed(const Duration(milliseconds: 250));
       return _attemptListen(
         localeId: localeId,
         listenFor: listenFor,

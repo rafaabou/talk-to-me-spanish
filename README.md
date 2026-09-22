@@ -79,7 +79,7 @@ It serves the prebuilt web app (`app/build/web`) and opens your browser automati
 - Data export/import (JSON backup)
 - Web support — run in browser
 - `build-all.sh` — one command builds APK + web
-- 76/76 tests passing, 0 analyze issues
+- 79/79 tests passing, 0 analyze issues
 
 ---
 
@@ -169,7 +169,7 @@ git clone https://github.com/rafaabou/espanol-zero-to-hero.git
 cd espanol-zero-to-hero/app
 flutter pub get
 flutter analyze              # Must be 0 issues
-flutter test                 # Must pass 76 tests
+flutter test                 # Must pass 79 tests
 
 # 5. Build release APK
 JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 \
@@ -187,7 +187,7 @@ cd app
 flutter pub get              # Install dependencies
 flutter run                  # Run on device/emulator
 flutter analyze              # Static analysis (must be 0 issues)
-flutter test                 # Run 76 tests
+flutter test                 # Run 79 tests
 dart format --set-exit-if-changed --output=none .  # Format check
 ```
 
@@ -563,7 +563,7 @@ See `SECURITY.md` for the full security policy and vulnerability reporting proce
 ```bash
 cd app
 flutter analyze              # Must be 0 issues
-flutter test                 # Must pass 76 tests
+flutter test                 # Must pass 79 tests
 git status                   # Nothing unintended staged
 dart format --set-exit-if-changed --output=none .  # Format check
 gitleaks detect --no-git -c .gitleaks.toml         # Optional local secret scan

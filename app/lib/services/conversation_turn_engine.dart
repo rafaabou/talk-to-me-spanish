@@ -90,8 +90,10 @@ class ConversationTurnEngine {
     if (qTokens.isEmpty) return const [];
     final out = <String>[];
     for (final ex in exercises) {
-      if (ex.type == 'match_pairs' || ex.type == 'multiple_choice') {
-        // MC options / pair drills are not free spoken answers.
+      if (ex.type == 'match_pairs' ||
+          ex.type == 'multiple_choice' ||
+          ex.type == 'listening_mcq') {
+        // MC options / pair drills / listening MCQs are not free spoken answers.
         continue;
       }
       if (ex.answer.trim().isEmpty) continue;
