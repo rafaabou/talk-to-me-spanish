@@ -1,319 +1,601 @@
 {
- "id": "A1-12",
- "level": "A1",
- "level_name": {
-  "es": "Principiante",
-  "en": "Beginner",
-  "ar": "مبتدئ"
- },
- "title": {
-  "es": "Repaso A1",
-  "en": "A1 Review",
-  "ar": "مراجعة المستوى A1"
- },
- "objectives": [
-  {
-   "es": "Revisar el vocabulario de las lecciones A1-01 a A1-11",
-   "en": "Review vocabulary from lessons A1-01 to A1-11",
-   "ar": "مراجعة مفردات الدروس من A1-01 إلى A1-11"
+  "id": "A1-12",
+  "level": "A1",
+  "level_name": {
+    "es": "Principiante",
+    "en": "Beginner",
+    "ar": "مبتدئ"
   },
-  {
-   "es": "Revisar ser, estar y verbos en presente",
-   "en": "Review ser, estar and present-tense verbs",
-   "ar": "مراجعة ser و estar والأفعال في المضارع"
-  },
-  {
-   "es": "Practicar la conversación básica completa",
-   "en": "Practice complete basic conversation",
-   "ar": "ممارسة محادثة أساسية كاملة"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "hola / hola",
-   "ipa": "/ˈola ˈola/",
-   "en": "hello / hi",
-   "ar": "مرحبًا / أهلاً"
-  },
-  {
-   "es": "gracias / gracias",
-   "ipa": "/ˈgɾasias ˈgɾasias/",
-   "en": "thank you (m/f)",
-   "ar": "شكرًا (مذكر/مؤنث)"
-  },
-  {
-   "es": "mi nombre es",
-   "ipa": "/ˈmi ˈnombɾe ˈes/",
-   "en": "my name is",
-   "ar": "اسمي"
-  },
-  {
-   "es": "yo soy",
-   "ipa": "/ˈʝo ˈsoʝ/",
-   "en": "I am",
-   "ar": "أنا"
-  },
-  {
-   "es": "yo tengo",
-   "ipa": "/ˈʝo ˈtengo/",
-   "en": "I have / I am (age)",
-   "ar": "أملك / عمري"
-  },
-  {
-   "es": "la familia",
-   "ipa": "/ˈla faˈmilia/",
-   "en": "the family",
-   "ar": "العائلة"
-  },
-  {
-   "es": "la casa",
-   "ipa": "/ˈla ˈkasa/",
-   "en": "the house",
-   "ar": "المنزل"
-  },
-  {
-   "es": "comer",
-   "ipa": "/koˈmeɾ/",
-   "en": "to eat",
-   "ar": "يأكل"
-  },
-  {
-   "es": "beber",
-   "ipa": "/beˈβeɾ/",
-   "en": "to drink",
-   "ar": "يشرب"
-  },
-  {
-   "es": "hablar",
-   "ipa": "/aˈβlaɾ/",
-   "en": "to speak",
-   "ar": "يتكلم"
-  },
-  {
-   "es": "estudiar",
-   "ipa": "/estuˈðiaɾ/",
-   "en": "to study",
-   "ar": "يدرس"
-  },
-  {
-   "es": "el precio",
-   "ipa": "/ˈel ˈpɾesio/",
-   "en": "the price",
-   "ar": "السعر"
-  },
-  {
-   "es": "¿qué hora es?",
-   "ipa": "/ˈke ˈoɾa ˈes/",
-   "en": "what time is it?",
-   "ar": "كم الساعة؟"
-  },
-  {
-   "es": "por favor",
-   "ipa": "/ˈpoɾ faˈβoɾ/",
-   "en": "please",
-   "ar": "من فضلك"
-  },
-  {
-   "es": "perdón",
-   "ipa": "/peˈɾdon/",
-   "en": "sorry",
-   "ar": "آسف"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Revisión de Gramática",
-    "en": "Grammar Review",
-    "ar": "مراجعة القواعد"
-   },
-   "explanation": {
-    "es": "En el nivel A1 aprendimos: ser y estar (Yo soy español, Yo estoy cansado), verbos regulares en presente (hablo, como, abro), artículos (el, la, los, las), posesivos (mi, tu, su), preposiciones (en), números y la hora, y el vocabulario esencial para presentarse y sobrevivir en situaciones básicas.",
-    "en": "At level A1 we learned: ser and estar (Yo soy español - I am Spanish, Yo estoy cansado - I am tired), regular present-tense verbs (hablo, como, abro), articles (el, la, los, las), possessives (mi, tu, su), prepositions (en), numbers and time, and essential vocabulary to introduce yourself and handle basic situations.",
-    "ar": "في المستوى A1 تعلمنا: ser و estar (yo soy español - أنا إسباني، yo estoy cansado - أنا متعب)، الأفعال المنتظمة في المضارع (hablo، como، abro)، أدوات التعريف (el، la، los، las)، ضمائر الملكية (mi، tu، su)، حرف الجر (en)، الأرقام والوقت، والمفردات الأساسية لتقديم نفسك والتعامل مع المواقف البسيطة."
-   },
-   "examples": [
-    {
-     "es": "Yo soy español y estoy feliz.",
-     "en": "I am Brazilian and I am happy.",
-     "ar": "أنا برازيلي وأنا سعيد."
-    },
-    {
-     "es": "Mi familia come a las ocho.",
-     "en": "My family eats at eight o'clock.",
-     "ar": "تأكل عائلتي في الساعة الثامنة."
-    },
-    {
-     "es": "El libro está en la mesa, al lado del bolígrafo.",
-     "en": "The book is on the table, next to the pen.",
-     "ar": "الكتاب على الطاولة، بجانب القلم."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "Conversación Completa",
-   "en": "Complete Conversation",
-   "ar": "محادثة كاملة"
+    "es": "Repaso A1",
+    "en": "A1 Review",
+    "ar": "مراجعة المستوى A1"
   },
-  "lines": [
-   {
-    "speaker": "Visitante",
-    "es": "¡Hola! Mi nombre es Karim. Soy de Egipto.",
-    "en": "Hello! My name is Karim. I'm from Egypt.",
-    "ar": "مرحبًا! اسمي كريم. أنا من مصر."
-   },
-   {
-    "speaker": "Marina",
-    "es": "¡Mucho gusto, Karim! Yo soy Marina.",
-    "en": "Nice to meet you, Karim! I'm Marina.",
-    "ar": "سررت بلقائك يا كريم! أنا مارينا."
-   },
-   {
-    "speaker": "Visitante",
-    "es": "¿Qué hora es?",
-    "en": "What time is it?",
-    "ar": "كم الساعة؟"
-   },
-   {
-    "speaker": "Marina",
-    "es": "Son las diez. ¿Quieres un café?",
-    "en": "It's ten o'clock. Would you like a coffee?",
-    "ar": "إنها العاشرة. هل تريد قهوة؟"
-   },
-   {
-    "speaker": "Visitante",
-    "es": "Sí, gracias. Me gustaría un café con leche.",
-    "en": "Yes, thank you. I would like a coffee with milk.",
-    "ar": "نعم، شكرًا. أود قهوة بالحليب."
-   },
-   {
-    "speaker": "Marina",
-    "es": "Aquí tiene. ¡Buen provecho!",
-    "en": "Here you go. Enjoy!",
-    "ar": "تفضل. بالهناء والشفاء!"
-   }
+  "objectives": [
+    {
+      "es": "Revisar el vocabulario de las lecciones A1-01 a A1-11",
+      "en": "Review vocabulary from lessons A1-01 to A1-11",
+      "ar": "مراجعة مفردات الدروس من A1-01 إلى A1-11"
+    },
+    {
+      "es": "Revisar ser, estar y verbos en presente",
+      "en": "Review ser, estar and present-tense verbs",
+      "ar": "مراجعة ser و estar والأفعال في المضارع"
+    },
+    {
+      "es": "Practicar la conversación básica completa",
+      "en": "Practice complete basic conversation",
+      "ar": "ممارسة محادثة أساسية كاملة"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "hola / hola",
+      "ipa": "/ˈola ˈola/",
+      "en": "hello / hi",
+      "ar": "مرحبًا / أهلاً",
+      "example": {
+        "es": "Hola, bienvenidos.",
+        "en": "Hello, welcome.",
+        "ar": "مرحبًا، أهلًا بكم."
+      }
+    },
+    {
+      "es": "gracias / gracias",
+      "ipa": "/ˈgɾasias ˈgɾasias/",
+      "en": "thank you (m/f)",
+      "ar": "شكرًا (مذكر/مؤنث)",
+      "example": {
+        "es": "Muchas gracias, profesora.",
+        "en": "Thank you very much, teacher (f).",
+        "ar": "شكرًا جزيلًا يا أستاذة."
+      }
+    },
+    {
+      "es": "mi nombre es",
+      "ipa": "/ˈmi ˈnombɾe ˈes/",
+      "en": "my name is",
+      "ar": "اسمي",
+      "example": {
+        "es": "Mi nombre es Carlos.",
+        "en": "My name is Carlos.",
+        "ar": "اسمي كارلوس."
+      }
+    },
+    {
+      "es": "yo soy",
+      "ipa": "/ˈʝo ˈsoʝ/",
+      "en": "I am",
+      "ar": "أنا",
+      "example": {
+        "es": "Yo soy el hijo mayor.",
+        "en": "I am the eldest son.",
+        "ar": "أنا الابن الأكبر."
+      }
+    },
+    {
+      "es": "yo tengo",
+      "ipa": "/ˈʝo ˈtengo/",
+      "en": "I have / I am (age)",
+      "ar": "أملك / عمري",
+      "example": {
+        "es": "Yo tengo veinticinco años.",
+        "en": "I am twenty-five years old.",
+        "ar": "عمري خمس وعشرون سنة."
+      }
+    },
+    {
+      "es": "la familia",
+      "ipa": "/ˈla faˈmilia/",
+      "en": "the family",
+      "ar": "العائلة",
+      "example": {
+        "es": "La familia llegó ahora.",
+        "en": "The family just arrived.",
+        "ar": "وصلت العائلة الآن."
+      }
+    },
+    {
+      "es": "la casa",
+      "ipa": "/ˈla ˈkasa/",
+      "en": "the house",
+      "ar": "المنزل",
+      "example": {
+        "es": "Compré la casa ayer.",
+        "en": "I bought the house yesterday.",
+        "ar": "اشتريت المنزل أمس."
+      }
+    },
+    {
+      "es": "comer",
+      "ipa": "/koˈmeɾ/",
+      "en": "to eat",
+      "ar": "يأكل",
+      "example": {
+        "es": "Adoro comer pizza.",
+        "en": "I love eating pizza.",
+        "ar": "أحب أكل البيتزا."
+      }
+    },
+    {
+      "es": "beber",
+      "ipa": "/beˈβeɾ/",
+      "en": "to drink",
+      "ar": "يشرب",
+      "example": {
+        "es": "Prefiero beber agua.",
+        "en": "I prefer drinking water.",
+        "ar": "أفضل شرب الماء."
+      }
+    },
+    {
+      "es": "hablar",
+      "ipa": "/aˈβlaɾ/",
+      "en": "to speak",
+      "ar": "يتكلم",
+      "example": {
+        "es": "Es bueno hablar despacio.",
+        "en": "It's good to speak slowly.",
+        "ar": "من الجيد أن تتحدث ببطء."
+      }
+    },
+    {
+      "es": "estudiar",
+      "ipa": "/estuˈðiaɾ/",
+      "en": "to study",
+      "ar": "يدرس",
+      "example": {
+        "es": "Vamos a estudiar juntos.",
+        "en": "Let's study together.",
+        "ar": "دعونا ندرس معًا."
+      }
+    },
+    {
+      "es": "el precio",
+      "ipa": "/ˈel ˈpɾesio/",
+      "en": "the price",
+      "ar": "السعر",
+      "example": {
+        "es": "¿Cuál es el precio?",
+        "en": "What is the price?",
+        "ar": "ما السعر؟"
+      }
+    },
+    {
+      "es": "¿qué hora es?",
+      "ipa": "/ˈke ˈoɾa ˈes/",
+      "en": "what time is it?",
+      "ar": "كم الساعة؟",
+      "example": {
+        "es": "Señor, ¿qué hora es?",
+        "en": "Sir, what time is it?",
+        "ar": "سيدي، كم الساعة؟"
+      }
+    },
+    {
+      "es": "por favor",
+      "ipa": "/ˈpoɾ faˈβoɾ/",
+      "en": "please",
+      "ar": "من فضلك",
+      "example": {
+        "es": "Otro café, por favor.",
+        "en": "Another coffee, please.",
+        "ar": "قهوة أخرى، من فضلك."
+      }
+    },
+    {
+      "es": "perdón",
+      "ipa": "/peˈɾdon/",
+      "en": "sorry",
+      "ar": "آسف",
+      "example": {
+        "es": "Perdón, no entendí.",
+        "en": "Sorry, I didn't understand.",
+        "ar": "آسف، لم أفهم."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Revisión de Gramática",
+        "en": "Grammar Review",
+        "ar": "مراجعة القواعد"
+      },
+      "explanation": {
+        "es": "En el nivel A1 aprendimos: ser y estar (Yo soy español, Yo estoy cansado), verbos regulares en presente (hablo, como, abro), artículos (el, la, los, las), posesivos (mi, tu, su), preposiciones (en), números y la hora, y el vocabulario esencial para presentarse y sobrevivir en situaciones básicas.",
+        "en": "At level A1 we learned: ser and estar (Yo soy español - I am Spanish, Yo estoy cansado - I am tired), regular present-tense verbs (hablo, como, abro), articles (el, la, los, las), possessives (mi, tu, su), prepositions (en), numbers and time, and essential vocabulary to introduce yourself and handle basic situations.",
+        "ar": "في المستوى A1 تعلمنا: ser و estar (yo soy español - أنا إسباني، yo estoy cansado - أنا متعب)، الأفعال المنتظمة في المضارع (hablo، como، abro)، أدوات التعريف (el، la، los، las)، ضمائر الملكية (mi، tu، su)، حرف الجر (en)، الأرقام والوقت، والمفردات الأساسية لتقديم نفسك والتعامل مع المواقف البسيطة."
+      },
+      "examples": [
+        {
+          "es": "Yo soy español y estoy feliz.",
+          "en": "I am Brazilian and I am happy.",
+          "ar": "أنا برازيلي وأنا سعيد."
+        },
+        {
+          "es": "Mi familia come a las ocho.",
+          "en": "My family eats at eight o'clock.",
+          "ar": "تأكل عائلتي في الساعة الثامنة."
+        },
+        {
+          "es": "El libro está en la mesa, al lado del bolígrafo.",
+          "en": "The book is on the table, next to the pen.",
+          "ar": "الكتاب على الطاولة، بجانب القلم."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Conversación Completa",
+      "en": "Complete Conversation",
+      "ar": "محادثة كاملة"
+    },
+    "lines": [
+      {
+        "speaker": "Visitante",
+        "es": "¡Hola! Mi nombre es Karim. Soy de Egipto.",
+        "en": "Hello! My name is Karim. I'm from Egypt.",
+        "ar": "مرحبًا! اسمي كريم. أنا من مصر."
+      },
+      {
+        "speaker": "Marina",
+        "es": "¡Mucho gusto, Karim! Yo soy Marina.",
+        "en": "Nice to meet you, Karim! I'm Marina.",
+        "ar": "سررت بلقائك يا كريم! أنا مارينا."
+      },
+      {
+        "speaker": "Visitante",
+        "es": "¿Qué hora es?",
+        "en": "What time is it?",
+        "ar": "كم الساعة؟"
+      },
+      {
+        "speaker": "Marina",
+        "es": "Son las diez. ¿Quieres un café?",
+        "en": "It's ten o'clock. Would you like a coffee?",
+        "ar": "إنها العاشرة. هل تريد قهوة؟"
+      },
+      {
+        "speaker": "Visitante",
+        "es": "Sí, gracias. Me gustaría un café con leche.",
+        "en": "Yes, thank you. I would like a coffee with milk.",
+        "ar": "نعم، شكرًا. أود قهوة بالحليب."
+      },
+      {
+        "speaker": "Marina",
+        "es": "Aquí tiene. ¡Buen provecho!",
+        "en": "Here you go. Enjoy!",
+        "ar": "تفضل. بالهناء والشفاء!"
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Conociendo a Karim",
+      "en": "Getting to Know Karim",
+      "ar": "التعرف على كريم"
+    },
+    "text_es": "Karim es de Egipto y ahora vive en España. Habla árabe, inglés y aprende español. Todos los días estudia en la escuela de idiomas. Su familia vive en El Cairo. Él es alto, simpático y muy inteligente. Hoy está feliz porque es su cumpleaños.",
+    "text_en": "Karim is from Egypt and now lives in Spain. He speaks Arabic and English and is learning Spanish. Every day he studies at the language school. His family lives in Cairo. He is tall, friendly and very intelligent. Today he is happy because it's his birthday.",
+    "text_ar": "كريم من مصر ويعيش الآن في إسبانيا. يتحدث العربية والإنجليزية ويتعلم الإسبانية. كل يوم يدرس في مدرسة اللغات. تعيش عائلته في القاهرة. هو طويل وودود وذكي جدًا. اليوم هو سعيد لأنه عيد ميلاده."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: Yo ___ español.",
+        "en": "Complete: I ___ Spanish.",
+        "ar": "أكمل: أنا ___ إسباني."
+      },
+      "options": [
+        {
+          "es": "soy",
+          "en": "I am",
+          "ar": "أنا"
+        },
+        {
+          "es": "estoy",
+          "en": "I am",
+          "ar": "أنا"
+        },
+        {
+          "es": "tengo",
+          "en": "I have",
+          "ar": "لديّ"
+        }
+      ],
+      "answer": "soy",
+      "explanation": {
+        "es": "Nacionalidad = ser: yo soy.",
+        "en": "Nationality = ser: yo soy.",
+        "ar": "الجنسية = ser: yo soy."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'thank you' (femenino)?",
+        "en": "How do you say 'thank you' (feminine)?",
+        "ar": "كيف تقول 'شكرًا' (مؤنث)؟"
+      },
+      "options": [
+        {
+          "es": "gracias",
+          "en": "thank you",
+          "ar": "شكرًا"
+        },
+        {
+          "es": "gracias",
+          "en": "thank you",
+          "ar": "شكرًا"
+        },
+        {
+          "es": "de nada",
+          "en": "you're welcome",
+          "ar": "عفوًا"
+        }
+      ],
+      "answer": "gracias",
+      "explanation": {
+        "es": "Femenino: 'gracias'.",
+        "en": "Feminine form: 'gracias'.",
+        "ar": "الصيغة المؤنثة: 'gracias'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué número es 'veinticinco'?",
+        "en": "Which number is 'vinte e cinco'?",
+        "ar": "ما الرقم 'vinte e cinco'؟"
+      },
+      "options": [
+        {
+          "es": "15",
+          "en": "15",
+          "ar": "15"
+        },
+        {
+          "es": "25",
+          "en": "25",
+          "ar": "25"
+        },
+        {
+          "es": "35",
+          "en": "35",
+          "ar": "35"
+        }
+      ],
+      "answer": "25",
+      "explanation": {
+        "es": "'Veinticinco' = 25.",
+        "en": "'Vinte e cinco' = 25.",
+        "ar": "'vinte e cinco' = 25."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'the family'",
+        "en": "Translate: 'the family'",
+        "ar": "ترجم: 'the family'"
+      },
+      "options": [],
+      "answer": "la familia",
+      "explanation": {
+        "es": "'La familia' significa the family.",
+        "en": "'A família' means the family.",
+        "ar": "'a família' تعني العائلة."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'thank you (m/f)'?",
+        "en": "Which word means 'thank you (m/f)'?",
+        "ar": "أي كلمة تعني 'شكرًا (مذكر/مؤنث)'؟"
+      },
+      "options": [
+        {
+          "es": "perdón",
+          "en": "sorry",
+          "ar": "آسف"
+        },
+        {
+          "es": "beber",
+          "en": "to drink",
+          "ar": "يشرب"
+        },
+        {
+          "es": "gracias / gracias",
+          "en": "thank you (m/f)",
+          "ar": "شكرًا (مذكر/مؤنث)"
+        },
+        {
+          "es": "el precio",
+          "en": "the price",
+          "ar": "السعر"
+        }
+      ],
+      "answer": "gracias / gracias",
+      "explanation": {
+        "es": "'gracias / gracias' significa 'thank you (m/f)'.",
+        "en": "'gracias / gracias' means 'thank you (m/f)'.",
+        "ar": "تعني 'gracias / gracias' 'شكرًا (مذكر/مؤنث)'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'hello / hi'",
+        "en": "Choose the Spanish word: 'hello / hi'",
+        "ar": "اختر الكلمة بالإسبانية: 'مرحبًا / أهلاً'"
+      },
+      "options": [
+        {
+          "es": "perdón",
+          "en": "sorry",
+          "ar": "آسف"
+        },
+        {
+          "es": "hola / hola",
+          "en": "hello / hi",
+          "ar": "مرحبًا / أهلاً"
+        },
+        {
+          "es": "estudiar",
+          "en": "to study",
+          "ar": "يدرس"
+        },
+        {
+          "es": "yo soy",
+          "en": "I am",
+          "ar": "أنا"
+        }
+      ],
+      "answer": "hola / hola",
+      "explanation": {
+        "es": "'hola / hola' significa 'hello / hi'.",
+        "en": "'hola / hola' means 'hello / hi'.",
+        "ar": "تعني 'hola / hola' 'مرحبًا / أهلاً'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'what time is it?' en español?",
+        "en": "How do you say 'what time is it?' in Spanish?",
+        "ar": "كيف تقول 'كم الساعة؟' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "¿qué hora es?",
+          "en": "what time is it?",
+          "ar": "كم الساعة؟"
+        },
+        {
+          "es": "yo soy",
+          "en": "I am",
+          "ar": "أنا"
+        },
+        {
+          "es": "yo tengo",
+          "en": "I have / I am (age)",
+          "ar": "أملك / عمري"
+        }
+      ],
+      "answer": "¿qué hora es?",
+      "explanation": {
+        "es": "'¿qué hora es?' significa 'what time is it?'.",
+        "en": "'¿qué hora es?' means 'what time is it?'.",
+        "ar": "تعني '¿qué hora es?' 'كم الساعة؟'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'I have / I am (age)'?",
+        "en": "Which word means 'I have / I am (age)'?",
+        "ar": "أي كلمة تعني 'أملك / عمري'؟"
+      },
+      "options": [
+        {
+          "es": "gracias / gracias",
+          "en": "thank you (m/f)",
+          "ar": "شكرًا (مذكر/مؤنث)"
+        },
+        {
+          "es": "yo tengo",
+          "en": "I have / I am (age)",
+          "ar": "أملك / عمري"
+        },
+        {
+          "es": "por favor",
+          "en": "please",
+          "ar": "من فضلك"
+        },
+        {
+          "es": "¿qué hora es?",
+          "en": "what time is it?",
+          "ar": "كم الساعة؟"
+        }
+      ],
+      "answer": "yo tengo",
+      "explanation": {
+        "es": "'yo tengo' significa 'I have / I am (age)'.",
+        "en": "'yo tengo' means 'I have / I am (age)'.",
+        "ar": "تعني 'yo tengo' 'أملك / عمري'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I am twenty-five years old.\"",
+        "en": "Translate into Spanish: \"I am twenty-five years old.\"",
+        "ar": "ترجم إلى الإسبانية: \"عمري خمس وعشرون سنة.\""
+      },
+      "options": [],
+      "answer": "Yo tengo veinticinco años.",
+      "explanation": {
+        "es": "Respuesta: \"Yo tengo veinticinco años.\".",
+        "en": "Answer: \"Yo tengo veinticinco años.\".",
+        "ar": "الإجابة: \"Yo tengo veinticinco años.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Nice to meet you, Karim! I'm Marina.\"",
+        "en": "Translate into Spanish: \"Nice to meet you, Karim! I'm Marina.\"",
+        "ar": "ترجم إلى الإسبانية: \"سررت بلقائك يا كريم! أنا مارينا.\""
+      },
+      "options": [],
+      "answer": "¡Mucho gusto, Karim! Yo soy Marina.",
+      "explanation": {
+        "es": "Respuesta: \"¡Mucho gusto, Karim! Yo soy Marina.\".",
+        "en": "Answer: \"¡Mucho gusto, Karim! Yo soy Marina.\".",
+        "ar": "الإجابة: \"¡Mucho gusto, Karim! Yo soy Marina.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Hello! My name is Karim. I'm from Egypt.\"",
+        "en": "Translate into Spanish: \"Hello! My name is Karim. I'm from Egypt.\"",
+        "ar": "ترجم إلى الإسبانية: \"مرحبًا! اسمي كريم. أنا من مصر.\""
+      },
+      "options": [],
+      "answer": "¡Hola! Mi nombre es Karim. Soy de Egipto.",
+      "explanation": {
+        "es": "Respuesta: \"¡Hola! Mi nombre es Karim. Soy de Egipto.\".",
+        "en": "Answer: \"¡Hola! Mi nombre es Karim. Soy de Egipto.\".",
+        "ar": "الإجابة: \"¡Hola! Mi nombre es Karim. Soy de Egipto.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"My name is Carlos.\"",
+        "en": "Translate into Spanish: \"My name is Carlos.\"",
+        "ar": "ترجم إلى الإسبانية: \"اسمي كارلوس.\""
+      },
+      "options": [],
+      "answer": "Mi nombre es Carlos.",
+      "explanation": {
+        "es": "Respuesta: \"Mi nombre es Carlos.\".",
+        "en": "Answer: \"Mi nombre es Carlos.\".",
+        "ar": "الإجابة: \"Mi nombre es Carlos.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "Conociendo a Karim",
-   "en": "Getting to Know Karim",
-   "ar": "التعرف على كريم"
-  },
-  "text_es": "Karim es de Egipto y ahora vive en España. Habla árabe, inglés y aprende español. Todos los días estudia en la escuela de idiomas. Su familia vive en El Cairo. Él es alto, simpático y muy inteligente. Hoy está feliz porque es su cumpleaños.",
-  "text_en": "Karim is from Egypt and now lives in Spain. He speaks Arabic and English and is learning Spanish. Every day he studies at the language school. His family lives in Cairo. He is tall, friendly and very intelligent. Today he is happy because it's his birthday.",
-  "text_ar": "كريم من مصر ويعيش الآن في إسبانيا. يتحدث العربية والإنجليزية ويتعلم الإسبانية. كل يوم يدرس في مدرسة اللغات. تعيش عائلته في القاهرة. هو طويل وودود وذكي جدًا. اليوم هو سعيد لأنه عيد ميلاده."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Completa: Yo ___ español.",
-    "en": "Complete: I ___ Brazilian.",
-    "ar": "أكمل: أنا ___ برازيلي."
-   },
-   "options": [
-    {
-     "es": "soy",
-     "en": "sou",
-     "ar": "sou"
-    },
-    {
-     "es": "estoy",
-     "en": "I am",
-     "ar": "أنا"
-    },
-    {
-     "es": "tengo",
-     "en": "I have",
-     "ar": "لديّ"
-    }
-   ],
-   "answer": "soy",
-   "explanation": {
-    "es": "Nacionalidad = ser: yo soy.",
-    "en": "Nationality = ser: yo soy.",
-    "ar": "الجنسية = ser: yo soy."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Cómo se dice 'thank you' (femenino)?",
-    "en": "How do you say 'thank you' (feminine)?",
-    "ar": "كيف تقول 'شكرًا' (مؤنث)؟"
-   },
-   "options": [
-    {
-     "es": "gracias",
-     "en": "thank you",
-     "ar": "شكرًا"
-    },
-    {
-     "es": "gracias",
-     "en": "thank you",
-     "ar": "شكرًا"
-    },
-    {
-     "es": "de nada",
-     "en": "you're welcome",
-     "ar": "عفوًا"
-    }
-   ],
-   "answer": "gracias",
-   "explanation": {
-    "es": "Femenino: 'gracias'.",
-    "en": "Feminine form: 'gracias'.",
-    "ar": "الصيغة المؤنثة: 'gracias'."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Qué número es 'veinticinco'?",
-    "en": "Which number is 'vinte e cinco'?",
-    "ar": "ما الرقم 'vinte e cinco'؟"
-   },
-   "options": [
-    {
-     "es": "15",
-     "en": "15",
-     "ar": "15"
-    },
-    {
-     "es": "25",
-     "en": "25",
-     "ar": "25"
-    },
-    {
-     "es": "35",
-     "en": "35",
-     "ar": "35"
-    }
-   ],
-   "answer": "25",
-   "explanation": {
-    "es": "'Veinticinco' = 25.",
-    "en": "'Vinte e cinco' = 25.",
-    "ar": "'vinte e cinco' = 25."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'the family'",
-    "en": "Translate: 'the family'",
-    "ar": "ترجم: 'the family'"
-   },
-   "options": [],
-   "answer": "la familia",
-   "explanation": {
-    "es": "'La familia' significa the family.",
-    "en": "'A família' means the family.",
-    "ar": "'a família' تعني العائلة."
-   }
-  }
- ]
 }

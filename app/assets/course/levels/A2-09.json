@@ -1,335 +1,637 @@
 {
- "id": "A2-09",
- "level": "A2",
- "level_name": {
-  "es": "Básico",
-  "en": "Elementary",
-  "ar": "أساسي"
- },
- "title": {
-  "es": "Imperativo (Peticiones y Órdenes)",
-  "en": "Imperative (Requests and Orders)",
-  "ar": "صيغة الأمر (الطلبات والأوامر)"
- },
- "objectives": [
-  {
-   "es": "Dar órdenes, peticiones y consejos con el imperativo",
-   "en": "Give orders, requests and advice with the imperative",
-   "ar": "إصدار الأوامر والطلبات والنصائح بصيغة الأمر"
+  "id": "A2-09",
+  "level": "A2",
+  "level_name": {
+    "es": "Básico",
+    "en": "Elementary",
+    "ar": "أساسي"
   },
-  {
-   "es": "Formar el imperativo afirmativo y negativo",
-   "en": "Form the affirmative and negative imperative",
-   "ar": "تكوين صيغة الأمر المثبتة والمنفية"
-  },
-  {
-   "es": "Usar instrucciones en el día a día",
-   "en": "Use instructions in daily life",
-   "ar": "استخدام التعليمات في الحياة اليومية"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "habla",
-   "ipa": "/ˈaβla/",
-   "en": "speak (you)",
-   "ar": "تكلّم"
-  },
-  {
-   "es": "espera",
-   "ipa": "/eˈspeɾa/",
-   "en": "wait (you)",
-   "ar": "انتظر"
-  },
-  {
-   "es": "escucha",
-   "ipa": "/eˈskutʃa/",
-   "en": "listen (you)",
-   "ar": "استمع"
-  },
-  {
-   "es": "abre",
-   "ipa": "/ˈaβɾe/",
-   "en": "open (you)",
-   "ar": "افتح"
-  },
-  {
-   "es": "cierra",
-   "ipa": "/ˈsiera/",
-   "en": "close (you)",
-   "ar": "أغلق"
-  },
-  {
-   "es": "mira",
-   "ipa": "/ˈmiɾa/",
-   "en": "look (you)",
-   "ar": "انظر"
-  },
-  {
-   "es": "ven",
-   "ipa": "/ˈben/",
-   "en": "come (you)",
-   "ar": "تعال"
-  },
-  {
-   "es": "ve",
-   "ipa": "/ˈbe/",
-   "en": "go (you)",
-   "ar": "اذهب"
-  },
-  {
-   "es": "haz",
-   "ipa": "/ˈas/",
-   "en": "do / make (you)",
-   "ar": "افعل"
-  },
-  {
-   "es": "di",
-   "ipa": "/ˈdi/",
-   "en": "say (you)",
-   "ar": "قل"
-  },
-  {
-   "es": "da",
-   "ipa": "/ˈda/",
-   "en": "give (you)",
-   "ar": "أعطِ"
-  },
-  {
-   "es": "quédate",
-   "ipa": "/ˈkeðate/",
-   "en": "stay (you)",
-   "ar": "ابقَ"
-  },
-  {
-   "es": "siéntate",
-   "ipa": "/ˈsientate/",
-   "en": "sit down",
-   "ar": "اجلس"
-  },
-  {
-   "es": "deprisa",
-   "ipa": "/deˈpɾisa/",
-   "en": "quickly",
-   "ar": "بسرعة"
-  },
-  {
-   "es": "despacio",
-   "ipa": "/deˈspasio/",
-   "en": "slowly",
-   "ar": "ببطء"
-  },
-  {
-   "es": "cuidado",
-   "ipa": "/kuiˈðaðo/",
-   "en": "careful",
-   "ar": "احذر"
-  },
-  {
-   "es": "el silencio",
-   "ipa": "/ˈel siˈlensio/",
-   "en": "the silence",
-   "ar": "الصمت"
-  },
-  {
-   "es": "no",
-   "ipa": "/ˈno/",
-   "en": "no / don't",
-   "ar": "لا"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Imperativo Afirmativo (tú)",
-    "en": "Affirmative Imperative (tú)",
-    "ar": "صيغة الأمر المثبتة (مع tú)"
-   },
-   "explanation": {
-    "es": "El imperativo para 'tú' usa las formas de tercera persona: habla (speak), come (eat), abre (open), escribe (write). Lo usamos para dar órdenes, peticiones y consejos: 'Habla más despacio, por favor.' Verbos irregulares: ser (sé), estar (está), ir (ve), venir (ven), dar (da).",
-    "en": "The imperative for 'tú' uses third-person singular forms: habla (speak), come (eat), abre (open), escribe (write). We use it to give orders, requests and advice: 'Habla más despacio, por favor.' Irregular verbs: ser (sé), estar (está), ir (ve), venir (ven), dar (da).",
-    "ar": "صيغة الأمر مع 'tú' تستخدم صيغ الغائب المفرد: habla (تكلّم)، come (كُل)، abre (افتح)، escribe (اكتب). نستخدمها لإعطاء الأوامر والطلبات والنصائح: 'Habla más despacio, por favor.' (تكلّم ببطء من فضلك.) أفعال شاذة: ser (sé)، estar (está)، ir (ve)، venir (ven)، dar (da)."
-   },
-   "examples": [
-    {
-     "es": "Habla más despacio, por favor.",
-     "en": "Speak more slowly, please.",
-     "ar": "تكلّم ببطء أكثر، من فضلك."
-    },
-    {
-     "es": "Abre la ventana, hace calor aquí.",
-     "en": "Open the window, it is hot here.",
-     "ar": "افتح النافذة، الجو حار هنا."
-    },
-    {
-     "es": "¡Ven aquí ahora!",
-     "en": "Come here now!",
-     "ar": "تعال إلى هنا الآن!"
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Imperativo Negativo y Consejos",
-    "en": "Negative Imperative and Advice",
-    "ar": "صيغة الأمر المنفية والنصائح"
-   },
-   "explanation": {
-    "es": "El imperativo negativo usa 'no + verbo en subjuntivo': 'No fumes aquí' (Don't smoke here), 'No salgas solo' (Don't go out alone). También usamos el imperativo para dar consejos: 'Come bien', 'Descansa', 'Bebe agua'.",
-    "en": "The negative imperative uses 'no + subjunctive': 'No fumes aquí' (Don't smoke here), 'No salgas solo' (Don't go out alone). We also use it to give advice: 'Come bien' (Eat well), 'Descansa' (Rest), 'Bebe agua' (Drink water).",
-    "ar": "صيغة الأمر المنفية تستخدم 'no + المضارع المنصوب': 'No fumes aquí' (لا تدخن هنا)، 'No salgas solo' (لا تخرج وحدك). ونستخدم الأمر أيضًا للنصيحة: 'Come bien' (كُل جيدًا)، 'Descansa' (استرح)، 'Bebe agua' (اشرب الماء)."
-   },
-   "examples": [
-    {
-     "es": "No hables alto en el hospital.",
-     "en": "Do not speak loudly at the hospital.",
-     "ar": "لا تتحدث بصوت عالٍ في المستشفى."
-    },
-    {
-     "es": "No cierres la puerta ahora.",
-     "en": "Do not close the door now.",
-     "ar": "لا تغلق الباب الآن."
-    },
-    {
-     "es": "Descansa un poco, estás cansado.",
-     "en": "Rest a little, you are tired.",
-     "ar": "استرح قليلًا، أنت متعب."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "Instrucciones en la Cocina",
-   "en": "Instructions in the Kitchen",
-   "ar": "تعليمات في المطبخ"
+    "es": "Imperativo (Peticiones y Órdenes)",
+    "en": "Imperative (Requests and Orders)",
+    "ar": "صيغة الأمر (الطلبات والأوامر)"
   },
-  "lines": [
-   {
-    "speaker": "Madre",
-    "es": "Hijo, ayúdame a preparar la cena.",
-    "en": "Son, help me prepare dinner.",
-    "ar": "يا بني، ساعدني في تحضير العشاء."
-   },
-   {
-    "speaker": "Hijo",
-    "es": "¡Claro! ¿Qué hago?",
-    "en": "Of course! What do I do?",
-    "ar": "بالتأكيد! ماذا أفعل؟"
-   },
-   {
-    "speaker": "Madre",
-    "es": "Lava los tomates y corta la cebolla, por favor.",
-    "en": "Wash the tomatoes and cut the onion, please.",
-    "ar": "اغسل الطماطم وقطّع البصل، من فضلك."
-   },
-   {
-    "speaker": "Hijo",
-    "es": "¡Listo! ¿Y ahora?",
-    "en": "Done! And now?",
-    "ar": "انتهيت! والآن؟"
-   },
-   {
-    "speaker": "Madre",
-    "es": "No cierres la puerta del horno. Espera quince minutos.",
-    "en": "Do not close the oven door. Wait fifteen minutes.",
-    "ar": "لا تغلق باب الفرن. انتظر خمس عشرة دقيقة."
-   },
-   {
-    "speaker": "Hijo",
-    "es": "Entendido. Voy a poner la mesa.",
-    "en": "Got it. I will set the table.",
-    "ar": "فهمت. سأجهز المائدة."
-   }
+  "objectives": [
+    {
+      "es": "Dar órdenes, peticiones y consejos con el imperativo",
+      "en": "Give orders, requests and advice with the imperative",
+      "ar": "إصدار الأوامر والطلبات والنصائح بصيغة الأمر"
+    },
+    {
+      "es": "Formar el imperativo afirmativo y negativo",
+      "en": "Form the affirmative and negative imperative",
+      "ar": "تكوين صيغة الأمر المثبتة والمنفية"
+    },
+    {
+      "es": "Usar instrucciones en el día a día",
+      "en": "Use instructions in daily life",
+      "ar": "استخدام التعليمات في الحياة اليومية"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "habla",
+      "ipa": "/ˈaβla/",
+      "en": "speak (you)",
+      "ar": "تكلّم",
+      "example": {
+        "es": "Habla más despacio, por favor.",
+        "en": "Speak more slowly, please.",
+        "ar": "تكلم أبطأ من فضلك."
+      }
+    },
+    {
+      "es": "espera",
+      "ipa": "/eˈspeɾa/",
+      "en": "wait (you)",
+      "ar": "انتظر",
+      "example": {
+        "es": "Espera un minuto aquí.",
+        "en": "Wait a minute here.",
+        "ar": "انتظر دقيقة هنا."
+      }
+    },
+    {
+      "es": "escucha",
+      "ipa": "/eˈskutʃa/",
+      "en": "listen (you)",
+      "ar": "استمع",
+      "example": {
+        "es": "Escucha la explicación del profesor.",
+        "en": "Listen to the teacher's explanation.",
+        "ar": "استمع إلى شرح المعلم."
+      }
+    },
+    {
+      "es": "abre",
+      "ipa": "/ˈaβɾe/",
+      "en": "open (you)",
+      "ar": "افتح",
+      "example": {
+        "es": "Abre la ventana, hace calor.",
+        "en": "Open the window, it is hot.",
+        "ar": "افتح النافذة، الجو حار."
+      }
+    },
+    {
+      "es": "cierra",
+      "ipa": "/ˈsiera/",
+      "en": "close (you)",
+      "ar": "أغلق",
+      "example": {
+        "es": "Cierra la puerta al salir.",
+        "en": "Close the door when you leave.",
+        "ar": "أغلق الباب عند الخروج."
+      }
+    },
+    {
+      "es": "mira",
+      "ipa": "/ˈmiɾa/",
+      "en": "look (you)",
+      "ar": "انظر",
+      "example": {
+        "es": "Mira ese pájaro en el árbol.",
+        "en": "Look at that bird in the tree.",
+        "ar": "انظر إلى ذلك الطائر في الشجرة."
+      }
+    },
+    {
+      "es": "ven",
+      "ipa": "/ˈben/",
+      "en": "come (you)",
+      "ar": "تعال",
+      "example": {
+        "es": "Ven a mi casa esta tarde.",
+        "en": "Come to my house this afternoon.",
+        "ar": "تعال إلى منزلي بعد الظهر."
+      }
+    },
+    {
+      "es": "ve",
+      "ipa": "/ˈbe/",
+      "en": "go (you)",
+      "ar": "اذهب",
+      "example": {
+        "es": "Ve al mercado y compra pan.",
+        "en": "Go to the market and buy bread.",
+        "ar": "اذهب إلى السوق واشترِ خبزًا."
+      }
+    },
+    {
+      "es": "haz",
+      "ipa": "/ˈas/",
+      "en": "do / make (you)",
+      "ar": "افعل",
+      "example": {
+        "es": "Haz tu tarea antes de cenar.",
+        "en": "Do your homework before dinner.",
+        "ar": "افعل واجبك قبل العشاء."
+      }
+    },
+    {
+      "es": "di",
+      "ipa": "/ˈdi/",
+      "en": "say (you)",
+      "ar": "قل",
+      "example": {
+        "es": "Di la verdad siempre.",
+        "en": "Always tell the truth.",
+        "ar": "قل الحقيقة دائمًا."
+      }
+    },
+    {
+      "es": "da",
+      "ipa": "/ˈda/",
+      "en": "give (you)",
+      "ar": "أعطِ",
+      "example": {
+        "es": "Da el libro a tu hermano.",
+        "en": "Give the book to your brother.",
+        "ar": "أعطِ الكتاب لأخيك."
+      }
+    },
+    {
+      "es": "quédate",
+      "ipa": "/ˈkeðate/",
+      "en": "stay (you)",
+      "ar": "ابقَ",
+      "example": {
+        "es": "Quédate en casa hoy.",
+        "en": "Stay home today.",
+        "ar": "ابقَ في المنزل اليوم."
+      }
+    },
+    {
+      "es": "siéntate",
+      "ipa": "/ˈsientate/",
+      "en": "sit down",
+      "ar": "اجلس",
+      "example": {
+        "es": "Siéntate aquí a mi lado.",
+        "en": "Sit down here next to me.",
+        "ar": "اجلس هنا بجانبي."
+      }
+    },
+    {
+      "es": "deprisa",
+      "ipa": "/deˈpɾisa/",
+      "en": "quickly",
+      "ar": "بسرعة",
+      "example": {
+        "es": "Ven deprisa, el tren llega.",
+        "en": "Come quickly, the train is arriving.",
+        "ar": "تعال بسرعة، القطار يصل."
+      }
+    },
+    {
+      "es": "despacio",
+      "ipa": "/deˈspasio/",
+      "en": "slowly",
+      "ar": "ببطء",
+      "example": {
+        "es": "Habla despacio para que te entienda.",
+        "en": "Speak slowly so I can understand you.",
+        "ar": "تكلم ببطء لتفهمني."
+      }
+    },
+    {
+      "es": "cuidado",
+      "ipa": "/kuiˈðaðo/",
+      "en": "careful",
+      "ar": "احذر",
+      "example": {
+        "es": "Cuidado con el escalón.",
+        "en": "Careful with the step.",
+        "ar": "احذر الدرجة."
+      }
+    },
+    {
+      "es": "el silencio",
+      "ipa": "/ˈel siˈlensio/",
+      "en": "the silence",
+      "ar": "الصمت",
+      "example": {
+        "es": "Guarda el silencio en la biblioteca.",
+        "en": "Keep silence in the library.",
+        "ar": "حافظ على الصمت في المكتبة."
+      }
+    },
+    {
+      "es": "no",
+      "ipa": "/ˈno/",
+      "en": "no / don't",
+      "ar": "لا",
+      "example": {
+        "es": "No corras en el pasillo.",
+        "en": "Do not run in the hallway.",
+        "ar": "لا تجر في الممر."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Imperativo Afirmativo (tú)",
+        "en": "Affirmative Imperative (tú)",
+        "ar": "صيغة الأمر المثبتة (مع tú)"
+      },
+      "explanation": {
+        "es": "El imperativo para 'tú' usa las formas de tercera persona: habla (speak), come (eat), abre (open), escribe (write). Lo usamos para dar órdenes, peticiones y consejos: 'Habla más despacio, por favor.' Verbos irregulares: ser (sé), estar (está), ir (ve), venir (ven), dar (da).",
+        "en": "The imperative for 'tú' uses third-person singular forms: habla (speak), come (eat), abre (open), escribe (write). We use it to give orders, requests and advice: 'Habla más despacio, por favor.' Irregular verbs: ser (sé), estar (está), ir (ve), venir (ven), dar (da).",
+        "ar": "صيغة الأمر مع 'tú' تستخدم صيغ الغائب المفرد: habla (تكلّم)، come (كُل)، abre (افتح)، escribe (اكتب). نستخدمها لإعطاء الأوامر والطلبات والنصائح: 'Habla más despacio, por favor.' (تكلّم ببطء من فضلك.) أفعال شاذة: ser (sé)، estar (está)، ir (ve)، venir (ven)، dar (da)."
+      },
+      "examples": [
+        {
+          "es": "Habla más despacio, por favor.",
+          "en": "Speak more slowly, please.",
+          "ar": "تكلّم ببطء أكثر، من فضلك."
+        },
+        {
+          "es": "Abre la ventana, hace calor aquí.",
+          "en": "Open the window, it is hot here.",
+          "ar": "افتح النافذة، الجو حار هنا."
+        },
+        {
+          "es": "¡Ven aquí ahora!",
+          "en": "Come here now!",
+          "ar": "تعال إلى هنا الآن!"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Imperativo Negativo y Consejos",
+        "en": "Negative Imperative and Advice",
+        "ar": "صيغة الأمر المنفية والنصائح"
+      },
+      "explanation": {
+        "es": "El imperativo negativo usa 'no + verbo en subjuntivo': 'No fumes aquí' (Don't smoke here), 'No salgas solo' (Don't go out alone). También usamos el imperativo para dar consejos: 'Come bien', 'Descansa', 'Bebe agua'.",
+        "en": "The negative imperative uses 'no + subjunctive': 'No fumes aquí' (Don't smoke here), 'No salgas solo' (Don't go out alone). We also use it to give advice: 'Come bien' (Eat well), 'Descansa' (Rest), 'Bebe agua' (Drink water).",
+        "ar": "صيغة الأمر المنفية تستخدم 'no + المضارع المنصوب': 'No fumes aquí' (لا تدخن هنا)، 'No salgas solo' (لا تخرج وحدك). ونستخدم الأمر أيضًا للنصيحة: 'Come bien' (كُل جيدًا)، 'Descansa' (استرح)، 'Bebe agua' (اشرب الماء)."
+      },
+      "examples": [
+        {
+          "es": "No hables alto en el hospital.",
+          "en": "Do not speak loudly at the hospital.",
+          "ar": "لا تتحدث بصوت عالٍ في المستشفى."
+        },
+        {
+          "es": "No cierres la puerta ahora.",
+          "en": "Do not close the door now.",
+          "ar": "لا تغلق الباب الآن."
+        },
+        {
+          "es": "Descansa un poco, estás cansado.",
+          "en": "Rest a little, you are tired.",
+          "ar": "استرح قليلًا، أنت متعب."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Instrucciones en la Cocina",
+      "en": "Instructions in the Kitchen",
+      "ar": "تعليمات في المطبخ"
+    },
+    "lines": [
+      {
+        "speaker": "Madre",
+        "es": "Hijo, ayúdame a preparar la cena.",
+        "en": "Son, help me prepare dinner.",
+        "ar": "يا بني، ساعدني في تحضير العشاء."
+      },
+      {
+        "speaker": "Hijo",
+        "es": "¡Claro! ¿Qué hago?",
+        "en": "Of course! What do I do?",
+        "ar": "بالتأكيد! ماذا أفعل؟"
+      },
+      {
+        "speaker": "Madre",
+        "es": "Lava los tomates y corta la cebolla, por favor.",
+        "en": "Wash the tomatoes and cut the onion, please.",
+        "ar": "اغسل الطماطم وقطّع البصل، من فضلك."
+      },
+      {
+        "speaker": "Hijo",
+        "es": "¡Listo! ¿Y ahora?",
+        "en": "Done! And now?",
+        "ar": "انتهيت! والآن؟"
+      },
+      {
+        "speaker": "Madre",
+        "es": "No cierres la puerta del horno. Espera quince minutos.",
+        "en": "Do not close the oven door. Wait fifteen minutes.",
+        "ar": "لا تغلق باب الفرن. انتظر خمس عشرة دقيقة."
+      },
+      {
+        "speaker": "Hijo",
+        "es": "Entendido. Voy a poner la mesa.",
+        "en": "Got it. I will set the table.",
+        "ar": "فهمت. سأجهز المائدة."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "La Receta del Pastel",
+      "en": "The Cake Recipe",
+      "ar": "وصفة الكعكة"
+    },
+    "text_es": "La receta del pastel es simple. Primero, bate los huevos con el azúcar y mezcla la harina con la leche. Pon la masa en el molde y déjala en el horno por treinta minutos. No abras el horno antes de tiempo, y el pastel quedará perfecto.",
+    "text_en": "The cake recipe is simple. First, beat the eggs with the sugar and mix the flour with the milk. Put the batter in the pan and leave it in the oven for thirty minutes. Do not open the oven before the time, and the cake will be perfect.",
+    "text_ar": "وصفة الكعكة بسيطة. أولًا، اخفق البيض مع السكر واخلط الدقيق مع الحليب. ضع الخليط في القالب واتركه في الفرن لمدة ثلاثين دقيقة. لا تفتح الفرن قبل الوقت، وستكون الكعكة مثالية."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Habla más ___, por favor.",
+        "en": "Speak more ___, please.",
+        "ar": "تكلّم أكثر ___، من فضلك."
+      },
+      "options": [
+        {
+          "es": "despacio",
+          "en": "slowly",
+          "ar": "ببطء"
+        },
+        {
+          "es": "deprisa",
+          "en": "quickly",
+          "ar": "بسرعة"
+        },
+        {
+          "es": "siempre",
+          "en": "always",
+          "ar": "دائمًا"
+        }
+      ],
+      "answer": "despacio",
+      "explanation": {
+        "es": "'Despacio' = slowly. Es común con el imperativo.",
+        "en": "'Devagar' = slowly. It is common with the imperative.",
+        "ar": "'devagar' = ببطء. وهو شائع مع صيغة الأمر."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "No ___ aquí. (fumar)",
+        "en": "Do not ___ here. (fumar)",
+        "ar": "لا ___ هنا. (fumar)"
+      },
+      "options": [
+        {
+          "es": "fumes",
+          "en": "you smoke",
+          "ar": "تدخن"
+        },
+        {
+          "es": "fumar",
+          "en": "fumar",
+          "ar": "fumar"
+        },
+        {
+          "es": "fuma",
+          "en": "fuma",
+          "ar": "fuma"
+        }
+      ],
+      "answer": "fumes",
+      "explanation": {
+        "es": "Imperativo negativo: no + fumes.",
+        "en": "Negative imperative: no + fumes.",
+        "ar": "الأمر المنفي: no + fumes."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'wait'",
+        "en": "Translate: 'wait'",
+        "ar": "ترجم: 'wait'"
+      },
+      "options": [],
+      "answer": "espera",
+      "explanation": {
+        "es": "'Espera' = wait (you).",
+        "en": "'Espere' = wait (you).",
+        "ar": "'espere' = انتظر."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'give (you)'?",
+        "en": "Which word means 'give (you)'?",
+        "ar": "أي كلمة تعني 'أعطِ'؟"
+      },
+      "options": [
+        {
+          "es": "da",
+          "en": "give (you)",
+          "ar": "أعطِ"
+        },
+        {
+          "es": "quédate",
+          "en": "stay (you)",
+          "ar": "ابقَ"
+        },
+        {
+          "es": "haz",
+          "en": "do / make (you)",
+          "ar": "افعل"
+        },
+        {
+          "es": "di",
+          "en": "say (you)",
+          "ar": "قل"
+        }
+      ],
+      "answer": "da",
+      "explanation": {
+        "es": "'da' significa 'give (you)'.",
+        "en": "'da' means 'give (you)'.",
+        "ar": "تعني 'da' 'أعطِ'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'stay (you)'",
+        "en": "Choose the Spanish word: 'stay (you)'",
+        "ar": "اختر الكلمة بالإسبانية: 'ابقَ'"
+      },
+      "options": [
+        {
+          "es": "haz",
+          "en": "do / make (you)",
+          "ar": "افعل"
+        },
+        {
+          "es": "cuidado",
+          "en": "careful",
+          "ar": "احذر"
+        },
+        {
+          "es": "quédate",
+          "en": "stay (you)",
+          "ar": "ابقَ"
+        },
+        {
+          "es": "escucha",
+          "en": "listen (you)",
+          "ar": "استمع"
+        }
+      ],
+      "answer": "quédate",
+      "explanation": {
+        "es": "'quédate' significa 'stay (you)'.",
+        "en": "'quédate' means 'stay (you)'.",
+        "ar": "تعني 'quédate' 'ابقَ'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'no / don't' en español?",
+        "en": "How do you say 'no / don't' in Spanish?",
+        "ar": "كيف تقول 'لا' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "siéntate",
+          "en": "sit down",
+          "ar": "اجلس"
+        },
+        {
+          "es": "despacio",
+          "en": "slowly",
+          "ar": "ببطء"
+        },
+        {
+          "es": "da",
+          "en": "give (you)",
+          "ar": "أعطِ"
+        },
+        {
+          "es": "no",
+          "en": "no / don't",
+          "ar": "لا"
+        }
+      ],
+      "answer": "no",
+      "explanation": {
+        "es": "'no' significa 'no / don't'.",
+        "en": "'no' means 'no / don't'.",
+        "ar": "تعني 'no' 'لا'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the silence'?",
+        "en": "Which word means 'the silence'?",
+        "ar": "أي كلمة تعني 'الصمت'؟"
+      },
+      "options": [
+        {
+          "es": "abre",
+          "en": "open (you)",
+          "ar": "افتح"
+        },
+        {
+          "es": "el silencio",
+          "en": "the silence",
+          "ar": "الصمت"
+        },
+        {
+          "es": "espera",
+          "en": "wait (you)",
+          "ar": "انتظر"
+        },
+        {
+          "es": "cierra",
+          "en": "close (you)",
+          "ar": "أغلق"
+        }
+      ],
+      "answer": "el silencio",
+      "explanation": {
+        "es": "'el silencio' significa 'the silence'.",
+        "en": "'el silencio' means 'the silence'.",
+        "ar": "تعني 'el silencio' 'الصمت'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Careful with the step.\"",
+        "en": "Translate into Spanish: \"Careful with the step.\"",
+        "ar": "ترجم إلى الإسبانية: \"احذر الدرجة.\""
+      },
+      "options": [],
+      "answer": "Cuidado con el escalón.",
+      "explanation": {
+        "es": "Respuesta: \"Cuidado con el escalón.\".",
+        "en": "Answer: \"Cuidado con el escalón.\".",
+        "ar": "الإجابة: \"Cuidado con el escalón.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Listen to the teacher's explanation.\"",
+        "en": "Translate into Spanish: \"Listen to the teacher's explanation.\"",
+        "ar": "ترجم إلى الإسبانية: \"استمع إلى شرح المعلم.\""
+      },
+      "options": [],
+      "answer": "Escucha la explicación del profesor.",
+      "explanation": {
+        "es": "Respuesta: \"Escucha la explicación del profesor.\".",
+        "en": "Answer: \"Escucha la explicación del profesor.\".",
+        "ar": "الإجابة: \"Escucha la explicación del profesor.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Always tell the truth.\"",
+        "en": "Translate into Spanish: \"Always tell the truth.\"",
+        "ar": "ترجم إلى الإسبانية: \"قل الحقيقة دائمًا.\""
+      },
+      "options": [],
+      "answer": "Di la verdad siempre.",
+      "explanation": {
+        "es": "Respuesta: \"Di la verdad siempre.\".",
+        "en": "Answer: \"Di la verdad siempre.\".",
+        "ar": "الإجابة: \"Di la verdad siempre.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Come to my house this afternoon.\"",
+        "en": "Translate into Spanish: \"Come to my house this afternoon.\"",
+        "ar": "ترجم إلى الإسبانية: \"تعال إلى منزلي بعد الظهر.\""
+      },
+      "options": [],
+      "answer": "Ven a mi casa esta tarde.",
+      "explanation": {
+        "es": "Respuesta: \"Ven a mi casa esta tarde.\".",
+        "en": "Answer: \"Ven a mi casa esta tarde.\".",
+        "ar": "الإجابة: \"Ven a mi casa esta tarde.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "La Receta del Pastel",
-   "en": "The Cake Recipe",
-   "ar": "وصفة الكعكة"
-  },
-  "text_es": "La receta del pastel es simple. Primero, bate los huevos con el azúcar y mezcla la harina con la leche. Pon la masa en el molde y déjala en el horno por treinta minutos. No abras el horno antes de tiempo, y el pastel quedará perfecto.",
-  "text_en": "The cake recipe is simple. First, beat the eggs with the sugar and mix the flour with the milk. Put the batter in the pan and leave it in the oven for thirty minutes. Do not open the oven before the time, and the cake will be perfect.",
-  "text_ar": "وصفة الكعكة بسيطة. أولًا، اخفق البيض مع السكر واخلط الدقيق مع الحليب. ضع الخليط في القالب واتركه في الفرن لمدة ثلاثين دقيقة. لا تفتح الفرن قبل الوقت، وستكون الكعكة مثالية."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Habla más ___, por favor.",
-    "en": "Speak more ___, please.",
-    "ar": "تكلّم أكثر ___، من فضلك."
-   },
-   "options": [
-    {
-     "es": "despacio",
-     "en": "devagar",
-     "ar": "devagar"
-    },
-    {
-     "es": "deprisa",
-     "en": "depressa",
-     "ar": "depressa"
-    },
-    {
-     "es": "siempre",
-     "en": "sempre",
-     "ar": "sempre"
-    }
-   ],
-   "answer": "despacio",
-   "explanation": {
-    "es": "'Despacio' = slowly. Es común con el imperativo.",
-    "en": "'Devagar' = slowly. It is common with the imperative.",
-    "ar": "'devagar' = ببطء. وهو شائع مع صيغة الأمر."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "No ___ aquí. (fumar)",
-    "en": "Do not ___ here. (fumar)",
-    "ar": "لا ___ هنا. (fumar)"
-   },
-   "options": [
-    {
-     "es": "fumes",
-     "en": "fume",
-     "ar": "fume"
-    },
-    {
-     "es": "fumar",
-     "en": "fumar",
-     "ar": "fumar"
-    },
-    {
-     "es": "fuma",
-     "en": "fuma",
-     "ar": "fuma"
-    }
-   ],
-   "answer": "fumes",
-   "explanation": {
-    "es": "Imperativo negativo: no + fumes.",
-    "en": "Negative imperative: no + fumes.",
-    "ar": "الأمر المنفي: no + fumes."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'wait'",
-    "en": "Translate: 'wait'",
-    "ar": "ترجم: 'wait'"
-   },
-   "options": [],
-   "answer": "espera",
-   "explanation": {
-    "es": "'Espera' = wait (you).",
-    "en": "'Espere' = wait (you).",
-    "ar": "'espere' = انتظر."
-   }
-  }
- ]
 }

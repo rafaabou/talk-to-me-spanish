@@ -33,91 +33,166 @@
       "es": "la letra",
       "ipa": "/ˈla ˈletɾa/",
       "en": "the letter",
-      "ar": "الحرف"
+      "ar": "الحرف",
+      "example": {
+        "es": "La letra 'a' es una vocal.",
+        "en": "The letter 'a' is a vowel.",
+        "ar": "الحرف \"a\" حرف علة."
+      }
     },
     {
       "es": "el sonido",
       "ipa": "/ˈel soˈniðo/",
       "en": "the sound",
-      "ar": "الصوت"
+      "ar": "الصوت",
+      "example": {
+        "es": "El sonido de la música es fuerte.",
+        "en": "The sound of the music is loud.",
+        "ar": "صوت الموسيقى عالٍ."
+      }
     },
     {
       "es": "la vocal",
       "ipa": "/ˈla boˈkal/",
       "en": "the vowel",
-      "ar": "حرف العلة"
+      "ar": "حرف العلة",
+      "example": {
+        "es": "La vocal 'o' es redonda.",
+        "en": "The vowel 'o' is rounded.",
+        "ar": "حرف العلة \"o\" مستدير."
+      }
     },
     {
       "es": "la consonante",
       "ipa": "/ˈla konsoˈnante/",
       "en": "the consonant",
-      "ar": "الحرف الساكن"
+      "ar": "الحرف الساكن",
+      "example": {
+        "es": "La consonante 'r' es difícil.",
+        "en": "The consonant 'r' is hard.",
+        "ar": "الحرف الساكن \"r\" صعب."
+      }
     },
     {
       "es": "el acento",
       "ipa": "/ˈel aˈsento/",
       "en": "the accent",
-      "ar": "علامة التشكيل"
+      "ar": "علامة التشكيل",
+      "example": {
+        "es": "El acento cambia el sonido.",
+        "en": "The accent changes the sound.",
+        "ar": "يغيّر اللكنة الصوت."
+      }
     },
     {
       "es": "la pronunciación",
       "ipa": "/ˈla pɾonunsiaˈsion/",
       "en": "the pronunciation",
-      "ar": "النطق"
+      "ar": "النطق",
+      "example": {
+        "es": "La pronunciación es excelente.",
+        "en": "Her pronunciation is excellent.",
+        "ar": "نطقها ممتاز."
+      }
     },
     {
       "es": "el alfabeto",
       "ipa": "/ˈel alfaˈβeto/",
       "en": "the alphabet",
-      "ar": "الأبجدية"
+      "ar": "الأبجدية",
+      "example": {
+        "es": "El alfabeto español tiene 27 letras.",
+        "en": "The Spanish alphabet has 27 letters.",
+        "ar": "الأبجدية الإسبانية لها 27 حرفًا."
+      }
     },
     {
       "es": "el ejemplo",
       "ipa": "/ˈel eˈxemplo/",
       "en": "the example",
-      "ar": "المثال"
+      "ar": "المثال",
+      "example": {
+        "es": "El ejemplo es muy claro.",
+        "en": "The example is very clear.",
+        "ar": "المثال واضح جدًا."
+      }
     },
     {
       "es": "la palabra",
       "ipa": "/ˈla paˈlaβɾa/",
       "en": "the word",
-      "ar": "الكلمة"
+      "ar": "الكلمة",
+      "example": {
+        "es": "La palabra empieza con 'b'.",
+        "en": "The word starts with 'b'.",
+        "ar": "تبدأ الكلمة بحرف \"b\"."
+      }
     },
     {
       "es": "leer",
       "ipa": "/ˈleeɾ/",
       "en": "to read",
-      "ar": "يقرأ"
+      "ar": "يقرأ",
+      "example": {
+        "es": "Voy a leer el libro hoy.",
+        "en": "I'm going to read the book today.",
+        "ar": "سأقرأ الكتاب اليوم."
+      }
     },
     {
       "es": "escribir",
       "ipa": "/eskɾiˈβiɾ/",
       "en": "to write",
-      "ar": "يكتب"
+      "ar": "يكتب",
+      "example": {
+        "es": "Ella va a escribir una carta.",
+        "en": "She is going to write a letter.",
+        "ar": "ستكتب رسالة."
+      }
     },
     {
       "es": "hablar",
       "ipa": "/aˈβlaɾ/",
       "en": "to speak",
-      "ar": "يتكلم"
+      "ar": "يتكلم",
+      "example": {
+        "es": "Quiero hablar contigo.",
+        "en": "I want to speak with you.",
+        "ar": "أريد أن أتحدث معك."
+      }
     },
     {
       "es": "escuchar",
       "ipa": "/eskuˈtʃaɾ/",
       "en": "to listen",
-      "ar": "يستمع"
+      "ar": "يستمع",
+      "example": {
+        "es": "Me gusta escuchar música.",
+        "en": "I like listening to music.",
+        "ar": "أحب الاستماع إلى الموسيقى."
+      }
     },
     {
       "es": "el nombre",
       "ipa": "/ˈel ˈnombɾe/",
       "en": "the name",
-      "ar": "الاسم"
+      "ar": "الاسم",
+      "example": {
+        "es": "El nombre de mi amiga es Ana.",
+        "en": "Her name is Maria.",
+        "ar": "اسمها ماريا."
+      }
     },
     {
       "es": "bueno",
       "ipa": "/ˈbueno/",
       "en": "good",
-      "ar": "جيد"
+      "ar": "جيد",
+      "example": {
+        "es": "Este café está muy bueno.",
+        "en": "This coffee is very good.",
+        "ar": "هذه القهوة لذيذة جدًا."
+      }
     }
   ],
   "grammar": [
@@ -240,18 +315,18 @@
       "options": [
         {
           "es": "niño",
-          "en": "mãe",
-          "ar": "mãe"
+          "en": "boy",
+          "ar": "ولد"
         },
         {
           "es": "perro",
-          "en": "pé",
-          "ar": "pé"
+          "en": "dog",
+          "ar": "كلب"
         },
         {
           "es": "vocal",
-          "en": "vogal",
-          "ar": "vogal"
+          "en": "vowel",
+          "ar": "حرف علة"
         }
       ],
       "answer": "niño",
@@ -265,8 +340,8 @@
       "type": "multiple_choice",
       "prompt": {
         "es": "¿Cuántas letras tiene el alfabeto español?",
-        "en": "How many letters does the Portuguese alphabet have?",
-        "ar": "كم عدد حروف الأبجدية البرتغالية؟"
+        "en": "How many letters does the Spanish alphabet have?",
+        "ar": "كم عدد حروف الأبجدية بالإسبانية؟"
       },
       "options": [
         {
@@ -275,9 +350,9 @@
           "ar": "24"
         },
         {
-          "es": "26",
-          "en": "26",
-          "ar": "26"
+          "es": "27",
+          "en": "27",
+          "ar": "27"
         },
         {
           "es": "28",
@@ -285,7 +360,7 @@
           "ar": "28"
         }
       ],
-      "answer": "26",
+      "answer": "27",
       "explanation": {
         "es": "El alfabeto tiene 27 letras.",
         "en": "The alphabet has 26 letters.",
@@ -296,16 +371,213 @@
       "type": "translation",
       "prompt": {
         "es": "¿Cómo se dice 'to speak' en español?",
-        "en": "How do you say 'to speak' in Portuguese?",
-        "ar": "كيف تقول 'to speak' بالبرتغالية؟"
+        "en": "How do you say 'to speak' in Spanish?",
+        "ar": "كيف تقول 'to speak' ببالإسبانية؟"
       },
       "options": [],
       "answer": "hablar",
       "explanation": {
         "es": "'Hablar' significa to speak.",
-        "en": "'falar' means to speak.",
-        "ar": "'falar' تعني يتكلم."
+        "en": "'Hablar' means to speak.",
+        "ar": "'hablar' تعني يتكلم."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the alphabet'?",
+        "en": "Which word means 'the alphabet'?",
+        "ar": "أي كلمة تعني 'الأبجدية'؟"
+      },
+      "options": [
+        {
+          "es": "el alfabeto",
+          "en": "the alphabet",
+          "ar": "الأبجدية"
+        },
+        {
+          "es": "hablar",
+          "en": "to speak",
+          "ar": "يتكلم"
+        },
+        {
+          "es": "la palabra",
+          "en": "the word",
+          "ar": "الكلمة"
+        }
+      ],
+      "answer": "el alfabeto",
+      "explanation": {
+        "es": "'el alfabeto' significa 'the alphabet'.",
+        "en": "'el alfabeto' means 'the alphabet'.",
+        "ar": "تعني 'el alfabeto' 'الأبجدية'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the name'",
+        "en": "Choose the Spanish word: 'the name'",
+        "ar": "اختر الكلمة بالإسبانية: 'الاسم'"
+      },
+      "options": [
+        {
+          "es": "la consonante",
+          "en": "the consonant",
+          "ar": "الحرف الساكن"
+        },
+        {
+          "es": "leer",
+          "en": "to read",
+          "ar": "يقرأ"
+        },
+        {
+          "es": "el nombre",
+          "en": "the name",
+          "ar": "الاسم"
+        }
+      ],
+      "answer": "el nombre",
+      "explanation": {
+        "es": "'el nombre' significa 'the name'.",
+        "en": "'el nombre' means 'the name'.",
+        "ar": "تعني 'el nombre' 'الاسم'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the sound' en español?",
+        "en": "How do you say 'the sound' in Spanish?",
+        "ar": "كيف تقول 'الصوت' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "la palabra",
+          "en": "the word",
+          "ar": "الكلمة"
+        },
+        {
+          "es": "la letra",
+          "en": "the letter",
+          "ar": "الحرف"
+        },
+        {
+          "es": "el sonido",
+          "en": "the sound",
+          "ar": "الصوت"
+        }
+      ],
+      "answer": "el sonido",
+      "explanation": {
+        "es": "'el sonido' significa 'the sound'.",
+        "en": "'el sonido' means 'the sound'.",
+        "ar": "تعني 'el sonido' 'الصوت'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'to listen'?",
+        "en": "Which word means 'to listen'?",
+        "ar": "أي كلمة تعني 'يستمع'؟"
+      },
+      "options": [
+        {
+          "es": "escuchar",
+          "en": "to listen",
+          "ar": "يستمع"
+        },
+        {
+          "es": "hablar",
+          "en": "to speak",
+          "ar": "يتكلم"
+        },
+        {
+          "es": "el nombre",
+          "en": "the name",
+          "ar": "الاسم"
+        },
+        {
+          "es": "la consonante",
+          "en": "the consonant",
+          "ar": "الحرف الساكن"
+        }
+      ],
+      "answer": "escuchar",
+      "explanation": {
+        "es": "'escuchar' significa 'to listen'.",
+        "en": "'escuchar' means 'to listen'.",
+        "ar": "تعني 'escuchar' 'يستمع'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Her pronunciation is excellent.\"",
+        "en": "Translate into Spanish: \"Her pronunciation is excellent.\"",
+        "ar": "ترجم إلى الإسبانية: \"نطقها ممتاز.\""
+      },
+      "options": [],
+      "answer": "La pronunciación es excelente.",
+      "explanation": {
+        "es": "Respuesta: \"La pronunciación es excelente.\".",
+        "en": "Answer: \"La pronunciación es excelente.\".",
+        "ar": "الإجابة: \"La pronunciación es excelente.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The word starts with 'b'.\"",
+        "en": "Translate into Spanish: \"The word starts with 'b'.\"",
+        "ar": "ترجم إلى الإسبانية: \"تبدأ الكلمة بحرف \"b\".\""
+      },
+      "options": [],
+      "answer": "La palabra empieza con 'b'.",
+      "explanation": {
+        "es": "Respuesta: \"La palabra empieza con 'b'.\".",
+        "en": "Answer: \"La palabra empieza con 'b'.\".",
+        "ar": "الإجابة: \"La palabra empieza con 'b'.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"No, it's easy. Listen and repeat.\"",
+        "en": "Translate into Spanish: \"No, it's easy. Listen and repeat.\"",
+        "ar": "ترجم إلى الإسبانية: \"لا، إنه سهل. استمع وكرر.\""
+      },
+      "options": [],
+      "answer": "No, es fácil. Escuche y repita.",
+      "explanation": {
+        "es": "Respuesta: \"No, es fácil. Escuche y repita.\".",
+        "en": "Answer: \"No, es fácil. Escuche y repita.\".",
+        "ar": "الإجابة: \"No, es fácil. Escuche y repita.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Very good! Now let's read some words.\"",
+        "en": "Translate into Spanish: \"Very good! Now let's read some words.\"",
+        "ar": "ترجم إلى الإسبانية: \"ممتاز! الآن دعونا نقرأ بعض الكلمات.\""
+      },
+      "options": [],
+      "answer": "¡Muy bien! Ahora vamos a leer algunas palabras.",
+      "explanation": {
+        "es": "Respuesta: \"¡Muy bien! Ahora vamos a leer algunas palabras.\".",
+        "en": "Answer: \"¡Muy bien! Ahora vamos a leer algunas palabras.\".",
+        "ar": "الإجابة: \"¡Muy bien! Ahora vamos a leer algunas palabras.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

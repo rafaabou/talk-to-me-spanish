@@ -1,327 +1,604 @@
 {
- "id": "C1-10",
- "level": "C1",
- "level_name": {
-  "es": "Avanzado",
-  "en": "Advanced",
-  "ar": "متقدم"
- },
- "title": {
-  "es": "Inversión y Énfasis",
-  "en": "Inversion and Emphasis",
-  "ar": "التقديم والتأخير والتوكيد"
- },
- "objectives": [
-  {
-   "es": "Usar la inversión sintáctica para dar énfasis",
-   "en": "Use syntactic inversion to give emphasis",
-   "ar": "استخدام القلب النحوي لإضفاء التوكيد"
+  "id": "C1-10",
+  "level": "C1",
+  "level_name": {
+    "es": "Avanzado",
+    "en": "Advanced",
+    "ar": "متقدم"
   },
-  {
-   "es": "Dominar las estructuras de relieve (es que, lo que... es)",
-   "en": "Master cleft structures (é que, o que... é)",
-   "ar": "إتقان تراكيب التقسيم (é que، o que... é)"
-  },
-  {
-   "es": "Reconocer el orden marcado en textos y en el habla",
-   "en": "Recognize marked word order in texts and speech",
-   "ar": "التعرف على الترتيب المميز في النصوص والكلام"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "la inversión",
-   "ipa": "/ˈla inbeˈɾsion/",
-   "en": "the inversion",
-   "ar": "القلب، التقديم"
-  },
-  {
-   "es": "el énfasis",
-   "ipa": "/ˈel ˈenfasis/",
-   "en": "the emphasis",
-   "ar": "التوكيد"
-  },
-  {
-   "es": "el tópico",
-   "ipa": "/ˈel ˈtopiko/",
-   "en": "the topic",
-   "ar": "الموضوع، المحور"
-  },
-  {
-   "es": "el foco",
-   "ipa": "/ˈel ˈfoko/",
-   "en": "the focus",
-   "ar": "التركيز"
-  },
-  {
-   "es": "realzar",
-   "ipa": "/reaˈlsaɾ/",
-   "en": "to highlight",
-   "ar": "يبرز"
-  },
-  {
-   "es": "destacar",
-   "ipa": "/destaˈkaɾ/",
-   "en": "to emphasize",
-   "ar": "يسلط الضوء"
-  },
-  {
-   "es": "el complemento",
-   "ipa": "/ˈel kompleˈmento/",
-   "en": "the complement",
-   "ar": "المتمم"
-  },
-  {
-   "es": "el sujeto pospuesto",
-   "ipa": "/ˈel suˈxeto poˈspuesto/",
-   "en": "the postposed subject",
-   "ar": "الفاعل المؤخر"
-  },
-  {
-   "es": "la oración de relieve",
-   "ipa": "/ˈla oɾaˈsion ˈde reˈlieβe/",
-   "en": "the cleft sentence",
-   "ar": "الجملة المقسّمة"
-  },
-  {
-   "es": "el adverbio",
-   "ipa": "/ˈel aˈðbeɾbio/",
-   "en": "the adverb",
-   "ar": "الظرف"
-  },
-  {
-   "es": "el adjetivo antepuesto",
-   "ipa": "/ˈel aðxeˈtiβo anteˈpuesto/",
-   "en": "the preposed adjective",
-   "ar": "الصفة المقدّمة"
-  },
-  {
-   "es": "la estructura",
-   "ipa": "/ˈla estɾuˈktuɾa/",
-   "en": "the structure",
-   "ar": "البنية"
-  },
-  {
-   "es": "enfáticamente",
-   "ipa": "/eˈnfatikamente/",
-   "en": "emphatically",
-   "ar": "بتوكيد"
-  },
-  {
-   "es": "enfatizar",
-   "ipa": "/enfatiˈsaɾ/",
-   "en": "to emphasize",
-   "ar": "يؤكد، يشدد"
-  },
-  {
-   "es": "el realce",
-   "ipa": "/ˈel ˈrealse/",
-   "en": "the emphasis, relief",
-   "ar": "الإبراز"
-  },
-  {
-   "es": "poner de relieve",
-   "ipa": "/poˈneɾ ˈde reˈlieβe/",
-   "en": "to put in relief",
-   "ar": "يبرز، يسلط الضوء"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Sujeto Pospuesto y Orden Marcado",
-    "en": "Postposed Subject and Marked Word Order",
-    "ar": "الفاعل المؤخر والترتيب المميز"
-   },
-   "explanation": {
-    "es": "En el orden marcado, el sujeto va después del verbo para dar énfasis o crear un efecto estilístico: 'Llegaron los invitados'. Esta inversión es común con verbos inacusativos y con adverbios en posición inicial: 'De repente, llegó la noticia'. Cuando el sujeto es pospuesto, el verbo concuerda con él normalmente.",
-    "en": "In marked word order, the subject comes after the verb to give emphasis or create a stylistic effect: 'Chegaram os convidados' (The guests arrived). This inversion is common with unaccusative verbs and with adverbs in initial position: 'De repente, chegou a notícia' (Suddenly, the news arrived). When the subject is postposed, the verb agrees with it normally: 'Chegaram os convidados'.",
-    "ar": "في الترتيب المميز، يأتي الفاعل بعد الفعل لإضفاء التوكيد أو إحداث أثر أسلوبي: 'Chegaram os convidados' (وصل الضيوف). هذا القلب شائع مع الأفعال اللازمة ومع الظروف في الموضع الأول: 'De repente, chegou a notícia' (فجأة وصل الخبر). وعندما يتأخر الفاعل يطابقه الفعل بشكل طبيعي: 'Chegaram os convidados'."
-   },
-   "examples": [
-    {
-     "es": "Llegaron los invitados de Madrid.",
-     "en": "The guests from São Paulo arrived.",
-     "ar": "وصل الضيوف القادمون من ساو باولو."
-    },
-    {
-     "es": "Ocurrió algo increíble ayer.",
-     "en": "Something incredible happened yesterday.",
-     "ar": "حدث شيء مذهل بالأمس."
-    },
-    {
-     "es": "Llegó tarde el propio presidente.",
-     "en": "Even the president himself arrived late.",
-     "ar": "حضر متأخرًا الرئيس نفسه."
-    },
-    {
-     "es": "Pasan los años y nada cambia.",
-     "en": "The years go by and nothing changes.",
-     "ar": "تمر السنوات ولا شيء يتغير."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Estructuras de Relieve",
-    "en": "Cleft Structures",
-    "ar": "تراكيب التقسيم"
-   },
-   "explanation": {
-    "es": "Las estructuras de relieve aíslan un elemento para destacarlo: 'Fue María quien resolvió el problema' (destaque del sujeto), 'Fue en Madrid donde se conocieron' (destaque del lugar). La construcción 'lo que... es' destaca un verbo o idea: 'Lo que quiero es tranquilidad'. Estas estructuras son muy frecuentes en el habla.",
-    "en": "Cleft structures isolate an element to highlight it: 'Fue María quien resolvió el problema' (highlighting the subject), 'Fue en Madrid donde se conocieron' (highlighting the place). The construction 'lo que... es' highlights a verb or idea: 'Lo que quiero es tranquilidad' (What I want is peace). These structures are very frequent in speech.",
-    "ar": "تعزل التراكيب المقسومة عنصرًا لإبرازه: 'Fue María quien resolvió el problema' (إبراز الفاعل)، 'Fue en Madrid donde se conocieron' (إبراز المكان). ويبرز تركيب 'lo que... es' فعلًا أو فكرة: 'Lo que quiero es tranquilidad' (ما أريده هو الهدوء). هذه التراكيب شائعة جدًا في الحديث."
-   },
-   "examples": [
-    {
-     "es": "Fue María quien resolvió el problema.",
-     "en": "It was Maria who solved the problem.",
-     "ar": "كانت ماريا هي التي حلت المشكلة."
-    },
-    {
-     "es": "Lo que quiero es tranquilidad.",
-     "en": "What I want is peace and quiet.",
-     "ar": "ما أريده هو الهدوء."
-    },
-    {
-     "es": "Es hoy cuando vamos a celebrar.",
-     "en": "It is today that we are going to celebrate.",
-     "ar": "اليوم هو اليوم الذي سنحتفل فيه."
-    },
-    {
-     "es": "Fue en Madrid donde se conocieron.",
-     "en": "It was in Rio that they met.",
-     "ar": "في ريو تعارفا."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "Dejando las Cosas Claras",
-   "en": "Making Things Clear",
-   "ar": "توضيح الأمور"
+    "es": "Inversión y Énfasis",
+    "en": "Inversion and Emphasis",
+    "ar": "التقديم والتأخير والتوكيد"
   },
-  "lines": [
-   {
-    "speaker": "Vera",
-    "es": "¿Fuiste tú quien marcó la reunión de mañana?",
-    "en": "Was it you who scheduled tomorrow's meeting?",
-    "ar": "هل أنت من حدد اجتماع الغد؟"
-   },
-   {
-    "speaker": "Tulio",
-    "es": "Sí, y fui yo quien invitó a toda la dirección.",
-    "en": "Yes it was, and it was me who invited the whole board.",
-    "ar": "نعم، وأنا من دعوت مجلس الإدارة كاملًا."
-   },
-   {
-    "speaker": "Vera",
-    "es": "Lo que me preocupa es el horario, no el orden del día.",
-    "en": "What worries me is the time, not the agenda.",
-    "ar": "ما يقلقني هو التوقيت، لا جدول الأعمال."
-   },
-   {
-    "speaker": "Tulio",
-    "es": "Entonces cambiemos. Que llegue el informe y después lo discutimos todo.",
-    "en": "Then let's change it. First comes the report, then we discuss everything.",
-    "ar": "إذن لنغيّره. يصل التقرير أولًا ثم نناقش كل شيء."
-   },
-   {
-    "speaker": "Vera",
-    "es": "Perfecto. Es exactamente lo que esperaba oír.",
-    "en": "Perfect. That is exactly what I expected to hear.",
-    "ar": "ممتاز. هذا بالضبط ما كنت أتوقع سماعه."
-   }
+  "objectives": [
+    {
+      "es": "Usar la inversión sintáctica para dar énfasis",
+      "en": "Use syntactic inversion to give emphasis",
+      "ar": "استخدام القلب النحوي لإضفاء التوكيد"
+    },
+    {
+      "es": "Dominar las estructuras de relieve (es que, lo que... es)",
+      "en": "Master cleft structures (é que, o que... é)",
+      "ar": "إتقان تراكيب التقسيم (é que، o que... é)"
+    },
+    {
+      "es": "Reconocer el orden marcado en textos y en el habla",
+      "en": "Recognize marked word order in texts and speech",
+      "ar": "التعرف على الترتيب المميز في النصوص والكلام"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la inversión",
+      "ipa": "/ˈla inbeˈɾsion/",
+      "en": "the inversion",
+      "ar": "القلب، التقديم",
+      "example": {
+        "es": "La inversión de la oración es enfática.",
+        "en": "Sentence inversion is emphatic.",
+        "ar": "قلب الجملة توكيدي."
+      }
+    },
+    {
+      "es": "el énfasis",
+      "ipa": "/ˈel ˈenfasis/",
+      "en": "the emphasis",
+      "ar": "التوكيد",
+      "example": {
+        "es": "El énfasis recae en el adverbio.",
+        "en": "The emphasis falls on the adverb.",
+        "ar": "يرتكز التوكيد على الظرف."
+      }
+    },
+    {
+      "es": "el tópico",
+      "ipa": "/ˈel ˈtopiko/",
+      "en": "the topic",
+      "ar": "الموضوع، المحور",
+      "example": {
+        "es": "El tópico va al inicio de la oración.",
+        "en": "The topic goes at the beginning of the sentence.",
+        "ar": "يأتي الموضوع في بداية الجملة."
+      }
+    },
+    {
+      "es": "el foco",
+      "ipa": "/ˈel ˈfoko/",
+      "en": "the focus",
+      "ar": "التركيز",
+      "example": {
+        "es": "El foco es la información nueva.",
+        "en": "The focus is the new information.",
+        "ar": "التركيز هو المعلومات الجديدة."
+      }
+    },
+    {
+      "es": "realzar",
+      "ipa": "/reaˈlsaɾ/",
+      "en": "to highlight",
+      "ar": "يبرز",
+      "example": {
+        "es": "Realzar el sustantivo exige buen gusto.",
+        "en": "The adjective highlights the noun.",
+        "ar": "يبرز الصفة الاسم."
+      }
+    },
+    {
+      "es": "destacar",
+      "ipa": "/destaˈkaɾ/",
+      "en": "to emphasize",
+      "ar": "يسلط الضوء",
+      "example": {
+        "es": "Destacar la idea clave es útil.",
+        "en": "We highlight the main idea in bold.",
+        "ar": "نبرز الفكرة الرئيسية بالخط العريض."
+      }
+    },
+    {
+      "es": "el complemento",
+      "ipa": "/ˈel kompleˈmento/",
+      "en": "the complement",
+      "ar": "المتمم",
+      "example": {
+        "es": "El complemento enmarca al foco.",
+        "en": "The complement frames the focus.",
+        "ar": "يؤطّر المتمم التركيز."
+      }
+    },
+    {
+      "es": "el sujeto pospuesto",
+      "ipa": "/ˈel suˈxeto poˈspuesto/",
+      "en": "the postposed subject",
+      "ar": "الفاعل المؤخر",
+      "example": {
+        "es": "El sujeto pospuesto llega después del verbo.",
+        "en": "The postposed subject comes after the verb.",
+        "ar": "يأتي الفاعل المؤخر بعد الفعل."
+      }
+    },
+    {
+      "es": "la oración de relieve",
+      "ipa": "/ˈla oɾaˈsion ˈde reˈlieβe/",
+      "en": "the cleft sentence",
+      "ar": "الجملة المقسّمة",
+      "example": {
+        "es": "La oración de relieve usa lo que.",
+        "en": "The cleft sentence uses lo que.",
+        "ar": "تستخدم الجملة المقسّمة lo que."
+      }
+    },
+    {
+      "es": "el adverbio",
+      "ipa": "/ˈel aˈðbeɾbio/",
+      "en": "the adverb",
+      "ar": "الظرف",
+      "example": {
+        "es": "El adverbio modifica al verbo.",
+        "en": "The adverb modifies the verb.",
+        "ar": "يعدّل الظرف الفعل."
+      }
+    },
+    {
+      "es": "el adjetivo antepuesto",
+      "ipa": "/ˈel aðxeˈtiβo anteˈpuesto/",
+      "en": "the preposed adjective",
+      "ar": "الصفة المقدّمة",
+      "example": {
+        "es": "El adjetivo antepuesto da ritmo.",
+        "en": "The preposed adjective gives rhythm.",
+        "ar": "يعطي الصفة المقدّمة الإيقاع."
+      }
+    },
+    {
+      "es": "la estructura",
+      "ipa": "/ˈla estɾuˈktuɾa/",
+      "en": "the structure",
+      "ar": "البنية",
+      "example": {
+        "es": "La estructura de la oración es sujeto-verbo.",
+        "en": "The structure of the sentence is subject-verb.",
+        "ar": "بنية الجملة فاعل-فعل."
+      }
+    },
+    {
+      "es": "enfáticamente",
+      "ipa": "/eˈnfatikamente/",
+      "en": "emphatically",
+      "ar": "بتوكيد",
+      "example": {
+        "es": "Enfáticamente, lo dijo tres veces.",
+        "en": "Emphatically, he said it three times.",
+        "ar": "بتوكيد، قالها ثلاث مرات."
+      }
+    },
+    {
+      "es": "enfatizar",
+      "ipa": "/enfatiˈsaɾ/",
+      "en": "to emphasize",
+      "ar": "يؤكد، يشدد",
+      "example": {
+        "es": "Enfatizar el punto ayudó a todos.",
+        "en": "He emphasized the point with examples.",
+        "ar": "شدد على النقطة بالأمثلة."
+      }
+    },
+    {
+      "es": "el realce",
+      "ipa": "/ˈel ˈrealse/",
+      "en": "the emphasis, relief",
+      "ar": "الإبراز",
+      "example": {
+        "es": "El realce del color atrae la vista.",
+        "en": "The color enhancement attracts the eye.",
+        "ar": "يجذب إبراز اللون النظر."
+      }
+    },
+    {
+      "es": "poner de relieve",
+      "ipa": "/poˈneɾ ˈde reˈlieβe/",
+      "en": "to put in relief",
+      "ar": "يبرز، يسلط الضوء",
+      "example": {
+        "es": "Poner de relieve los logros motiva.",
+        "en": "He highlighted the team's achievements.",
+        "ar": "سلّط الضوء على إنجازات الفريق."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Sujeto Pospuesto y Orden Marcado",
+        "en": "Postposed Subject and Marked Word Order",
+        "ar": "الفاعل المؤخر والترتيب المميز"
+      },
+      "explanation": {
+        "es": "En el orden marcado, el sujeto va después del verbo para dar énfasis o crear un efecto estilístico: 'Llegaron los invitados'. Esta inversión es común con verbos inacusativos y con adverbios en posición inicial: 'De repente, llegó la noticia'. Cuando el sujeto es pospuesto, el verbo concuerda con él normalmente.",
+        "en": "In marked word order, the subject comes after the verb to give emphasis or create a stylistic effect: 'Chegaram os convidados' (The guests arrived). This inversion is common with unaccusative verbs and with adverbs in initial position: 'De repente, chegou a notícia' (Suddenly, the news arrived). When the subject is postposed, the verb agrees with it normally: 'Chegaram os convidados'.",
+        "ar": "في الترتيب المميز، يأتي الفاعل بعد الفعل لإضفاء التوكيد أو إحداث أثر أسلوبي: 'Chegaram os convidados' (وصل الضيوف). هذا القلب شائع مع الأفعال اللازمة ومع الظروف في الموضع الأول: 'De repente, chegou a notícia' (فجأة وصل الخبر). وعندما يتأخر الفاعل يطابقه الفعل بشكل طبيعي: 'Chegaram os convidados'."
+      },
+      "examples": [
+        {
+          "es": "Llegaron los invitados de Madrid.",
+          "en": "The guests from São Paulo arrived.",
+          "ar": "وصل الضيوف القادمون من ساو باولو."
+        },
+        {
+          "es": "Ocurrió algo increíble ayer.",
+          "en": "Something incredible happened yesterday.",
+          "ar": "حدث شيء مذهل بالأمس."
+        },
+        {
+          "es": "Llegó tarde el propio presidente.",
+          "en": "Even the president himself arrived late.",
+          "ar": "حضر متأخرًا الرئيس نفسه."
+        },
+        {
+          "es": "Pasan los años y nada cambia.",
+          "en": "The years go by and nothing changes.",
+          "ar": "تمر السنوات ولا شيء يتغير."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Estructuras de Relieve",
+        "en": "Cleft Structures",
+        "ar": "تراكيب التقسيم"
+      },
+      "explanation": {
+        "es": "Las estructuras de relieve aíslan un elemento para destacarlo: 'Fue María quien resolvió el problema' (destaque del sujeto), 'Fue en Madrid donde se conocieron' (destaque del lugar). La construcción 'lo que... es' destaca un verbo o idea: 'Lo que quiero es tranquilidad'. Estas estructuras son muy frecuentes en el habla.",
+        "en": "Cleft structures isolate an element to highlight it: 'Fue María quien resolvió el problema' (highlighting the subject), 'Fue en Madrid donde se conocieron' (highlighting the place). The construction 'lo que... es' highlights a verb or idea: 'Lo que quiero es tranquilidad' (What I want is peace). These structures are very frequent in speech.",
+        "ar": "تعزل التراكيب المقسومة عنصرًا لإبرازه: 'Fue María quien resolvió el problema' (إبراز الفاعل)، 'Fue en Madrid donde se conocieron' (إبراز المكان). ويبرز تركيب 'lo que... es' فعلًا أو فكرة: 'Lo que quiero es tranquilidad' (ما أريده هو الهدوء). هذه التراكيب شائعة جدًا في الحديث."
+      },
+      "examples": [
+        {
+          "es": "Fue María quien resolvió el problema.",
+          "en": "It was Maria who solved the problem.",
+          "ar": "كانت ماريا هي التي حلت المشكلة."
+        },
+        {
+          "es": "Lo que quiero es tranquilidad.",
+          "en": "What I want is peace and quiet.",
+          "ar": "ما أريده هو الهدوء."
+        },
+        {
+          "es": "Es hoy cuando vamos a celebrar.",
+          "en": "It is today that we are going to celebrate.",
+          "ar": "اليوم هو اليوم الذي سنحتفل فيه."
+        },
+        {
+          "es": "Fue en Madrid donde se conocieron.",
+          "en": "It was in Rio that they met.",
+          "ar": "في ريو تعارفا."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Dejando las Cosas Claras",
+      "en": "Making Things Clear",
+      "ar": "توضيح الأمور"
+    },
+    "lines": [
+      {
+        "speaker": "Vera",
+        "es": "¿Fuiste tú quien marcó la reunión de mañana?",
+        "en": "Was it you who scheduled tomorrow's meeting?",
+        "ar": "هل أنت من حدد اجتماع الغد؟"
+      },
+      {
+        "speaker": "Tulio",
+        "es": "Sí, y fui yo quien invitó a toda la dirección.",
+        "en": "Yes it was, and it was me who invited the whole board.",
+        "ar": "نعم، وأنا من دعوت مجلس الإدارة كاملًا."
+      },
+      {
+        "speaker": "Vera",
+        "es": "Lo que me preocupa es el horario, no el orden del día.",
+        "en": "What worries me is the time, not the agenda.",
+        "ar": "ما يقلقني هو التوقيت، لا جدول الأعمال."
+      },
+      {
+        "speaker": "Tulio",
+        "es": "Entonces cambiemos. Que llegue el informe y después lo discutimos todo.",
+        "en": "Then let's change it. First comes the report, then we discuss everything.",
+        "ar": "إذن لنغيّره. يصل التقرير أولًا ثم نناقش كل شيء."
+      },
+      {
+        "speaker": "Vera",
+        "es": "Perfecto. Es exactamente lo que esperaba oír.",
+        "en": "Perfect. That is exactly what I expected to hear.",
+        "ar": "ممتاز. هذا بالضبط ما كنت أتوقع سماعه."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Poder del Orden de las Palabras",
+      "en": "The Power of Word Order",
+      "ar": "قوة ترتيب الكلمات"
+    },
+    "text_es": "En español, el orden de las palabras no es un mero detalle: 'El profesor llegó' informa; 'Llegó el profesor' enfatiza la llegada. Las estructuras de relieve refuerzan aún más el foco del enunciado. Es esa libertad de arreglo la que permite al hablante matizar el mensaje. Por eso, dominar la inversión es señal de dominio de la lengua.",
+    "text_en": "In Portuguese, word order is not a mere detail: 'O professor chegou' informs; 'Chegou o professor' emphasizes the arrival. Cleft structures reinforce the focus of the utterance even more. It is this freedom of arrangement that allows the speaker to nuance the message. That is why mastering inversion is a sign of mastery of the language.",
+    "text_ar": "في البرتغالية، ليس ترتيب الكلمات مجرد تفصيل: جملة 'O professor chegou' تخبر، وجملة 'Chegou o professor' تؤكد الوصول. وتزيد الجمل المقسّمة من تركيز الكلام أكثر. هذه الحرية في الترتيب هي ما تتيح للمتحدث أن يضفي فروقًا دقيقة على الرسالة. لذلك فإن إتقان القلب علامة على إتقان اللغة."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué frase destaca el lugar con una estructura de relieve?",
+        "en": "Which sentence highlights the place with a cleft structure?",
+        "ar": "أي جملة تبرز المكان بتركيب مقسّم؟"
+      },
+      "options": [
+        {
+          "es": "Fue en Madrid donde se conocieron.",
+          "en": "It was in Madrid that they met.",
+          "ar": "في مدريد حيث تقابلوا."
+        },
+        {
+          "es": "Ellos se conocieron en Madrid.",
+          "en": "They met in Madrid.",
+          "ar": "تقابلوا في مدريد."
+        },
+        {
+          "es": "Ellos en Madrid se conocieron.",
+          "en": "They met in Madrid.",
+          "ar": "تقابلوا في مدريد."
+        }
+      ],
+      "answer": "Fue en Madrid donde se conocieron.",
+      "explanation": {
+        "es": "'Fue... donde' aísla y destaca el elemento: el lugar.",
+        "en": "'Foi ... que' isolates and highlights the element: the place.",
+        "ar": "'Foi ... que' تعزل العنصر وتبرزه: المكان."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa con el orden marcado: '______ algo increíble.'",
+        "en": "Complete with marked word order: '______ uma coisa incrível.'",
+        "ar": "أكمل بالترتيب المميز: '______ uma coisa incrível.'"
+      },
+      "options": [
+        {
+          "es": "Ocurrió",
+          "en": "happened",
+          "ar": "حدث"
+        },
+        {
+          "es": "Ocurrirá",
+          "en": "will happen",
+          "ar": "سيحدث"
+        },
+        {
+          "es": "Ocurriendo",
+          "en": "happening",
+          "ar": "يحدث"
+        }
+      ],
+      "answer": "Ocurrió",
+      "explanation": {
+        "es": "'Ocurrió algo increíble' pospone el sujeto para dar énfasis.",
+        "en": "'Aconteceu uma coisa incrível' postposes the subject for emphasis.",
+        "ar": "جملة 'Aconteceu uma coisa incrível' تؤخر الفاعل للتوكيد."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce con énfasis: 'It was yesterday that they decided everything.'",
+        "en": "Translate with emphasis: 'It was yesterday that they decided everything.'",
+        "ar": "ترجم مع التوكيد: 'It was yesterday that they decided everything.'"
+      },
+      "options": [],
+      "answer": "Fue ayer cuando lo decidieron todo.",
+      "explanation": {
+        "es": "La estructura 'fue... cuando' realza el adverbio de tiempo 'ayer'.",
+        "en": "The structure 'Foi ... que' highlights the adverb of time 'ontem'.",
+        "ar": "تركيب 'Foi ... que' يبرز ظرف الزمن 'ontem'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the adverb'?",
+        "en": "Which word means 'the adverb'?",
+        "ar": "أي كلمة تعني 'الظرف'؟"
+      },
+      "options": [
+        {
+          "es": "enfatizar",
+          "en": "to emphasize",
+          "ar": "يؤكد، يشدد"
+        },
+        {
+          "es": "el adverbio",
+          "en": "the adverb",
+          "ar": "الظرف"
+        },
+        {
+          "es": "la estructura",
+          "en": "the structure",
+          "ar": "البنية"
+        }
+      ],
+      "answer": "el adverbio",
+      "explanation": {
+        "es": "'el adverbio' significa 'the adverb'.",
+        "en": "'el adverbio' means 'the adverb'.",
+        "ar": "تعني 'el adverbio' 'الظرف'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the cleft sentence'",
+        "en": "Choose the Spanish word: 'the cleft sentence'",
+        "ar": "اختر الكلمة بالإسبانية: 'الجملة المقسّمة'"
+      },
+      "options": [
+        {
+          "es": "la inversión",
+          "en": "the inversion",
+          "ar": "القلب، التقديم"
+        },
+        {
+          "es": "la oración de relieve",
+          "en": "the cleft sentence",
+          "ar": "الجملة المقسّمة"
+        },
+        {
+          "es": "el énfasis",
+          "en": "the emphasis",
+          "ar": "التوكيد"
+        },
+        {
+          "es": "el sujeto pospuesto",
+          "en": "the postposed subject",
+          "ar": "الفاعل المؤخر"
+        }
+      ],
+      "answer": "la oración de relieve",
+      "explanation": {
+        "es": "'la oración de relieve' significa 'the cleft sentence'.",
+        "en": "'la oración de relieve' means 'the cleft sentence'.",
+        "ar": "تعني 'la oración de relieve' 'الجملة المقسّمة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the preposed adjective' en español?",
+        "en": "How do you say 'the preposed adjective' in Spanish?",
+        "ar": "كيف تقول 'الصفة المقدّمة' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el complemento",
+          "en": "the complement",
+          "ar": "المتمم"
+        },
+        {
+          "es": "la estructura",
+          "en": "the structure",
+          "ar": "البنية"
+        },
+        {
+          "es": "el adjetivo antepuesto",
+          "en": "the preposed adjective",
+          "ar": "الصفة المقدّمة"
+        }
+      ],
+      "answer": "el adjetivo antepuesto",
+      "explanation": {
+        "es": "'el adjetivo antepuesto' significa 'the preposed adjective'.",
+        "en": "'el adjetivo antepuesto' means 'the preposed adjective'.",
+        "ar": "تعني 'el adjetivo antepuesto' 'الصفة المقدّمة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the emphasis'?",
+        "en": "Which word means 'the emphasis'?",
+        "ar": "أي كلمة تعني 'التوكيد'؟"
+      },
+      "options": [
+        {
+          "es": "el énfasis",
+          "en": "the emphasis",
+          "ar": "التوكيد"
+        },
+        {
+          "es": "el realce",
+          "en": "the emphasis, relief",
+          "ar": "الإبراز"
+        },
+        {
+          "es": "la inversión",
+          "en": "the inversion",
+          "ar": "القلب، التقديم"
+        }
+      ],
+      "answer": "el énfasis",
+      "explanation": {
+        "es": "'el énfasis' significa 'the emphasis'.",
+        "en": "'el énfasis' means 'the emphasis'.",
+        "ar": "تعني 'el énfasis' 'التوكيد'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"He highlighted the team's achievements.\"",
+        "en": "Translate into Spanish: \"He highlighted the team's achievements.\"",
+        "ar": "ترجم إلى الإسبانية: \"سلّط الضوء على إنجازات الفريق.\""
+      },
+      "options": [],
+      "answer": "Poner de relieve los logros motiva.",
+      "explanation": {
+        "es": "Respuesta: \"Poner de relieve los logros motiva.\".",
+        "en": "Answer: \"Poner de relieve los logros motiva.\".",
+        "ar": "الإجابة: \"Poner de relieve los logros motiva.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Perfect. That is exactly what I expected to hear.\"",
+        "en": "Translate into Spanish: \"Perfect. That is exactly what I expected to hear.\"",
+        "ar": "ترجم إلى الإسبانية: \"ممتاز. هذا بالضبط ما كنت أتوقع سماعه.\""
+      },
+      "options": [],
+      "answer": "Perfecto. Es exactamente lo que esperaba oír.",
+      "explanation": {
+        "es": "Respuesta: \"Perfecto. Es exactamente lo que esperaba oír.\".",
+        "en": "Answer: \"Perfecto. Es exactamente lo que esperaba oír.\".",
+        "ar": "الإجابة: \"Perfecto. Es exactamente lo que esperaba oír.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"What worries me is the time, not the agenda.\"",
+        "en": "Translate into Spanish: \"What worries me is the time, not the agenda.\"",
+        "ar": "ترجم إلى الإسبانية: \"ما يقلقني هو التوقيت، لا جدول الأعمال.\""
+      },
+      "options": [],
+      "answer": "Lo que me preocupa es el horario, no el orden del día.",
+      "explanation": {
+        "es": "Respuesta: \"Lo que me preocupa es el horario, no el orden del día.\".",
+        "en": "Answer: \"Lo que me preocupa es el horario, no el orden del día.\".",
+        "ar": "الإجابة: \"Lo que me preocupa es el horario, no el orden del día.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The topic goes at the beginning of the sentence.\"",
+        "en": "Translate into Spanish: \"The topic goes at the beginning of the sentence.\"",
+        "ar": "ترجم إلى الإسبانية: \"يأتي الموضوع في بداية الجملة.\""
+      },
+      "options": [],
+      "answer": "El tópico va al inicio de la oración.",
+      "explanation": {
+        "es": "Respuesta: \"El tópico va al inicio de la oración.\".",
+        "en": "Answer: \"El tópico va al inicio de la oración.\".",
+        "ar": "الإجابة: \"El tópico va al inicio de la oración.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "El Poder del Orden de las Palabras",
-   "en": "The Power of Word Order",
-   "ar": "قوة ترتيب الكلمات"
-  },
-  "text_es": "En español, el orden de las palabras no es un mero detalle: 'El profesor llegó' informa; 'Llegó el profesor' enfatiza la llegada. Las estructuras de relieve refuerzan aún más el foco del enunciado. Es esa libertad de arreglo la que permite al hablante matizar el mensaje. Por eso, dominar la inversión es señal de dominio de la lengua.",
-  "text_en": "In Portuguese, word order is not a mere detail: 'O professor chegou' informs; 'Chegou o professor' emphasizes the arrival. Cleft structures reinforce the focus of the utterance even more. It is this freedom of arrangement that allows the speaker to nuance the message. That is why mastering inversion is a sign of mastery of the language.",
-  "text_ar": "في البرتغالية، ليس ترتيب الكلمات مجرد تفصيل: جملة 'O professor chegou' تخبر، وجملة 'Chegou o professor' تؤكد الوصول. وتزيد الجمل المقسّمة من تركيز الكلام أكثر. هذه الحرية في الترتيب هي ما تتيح للمتحدث أن يضفي فروقًا دقيقة على الرسالة. لذلك فإن إتقان القلب علامة على إتقان اللغة."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Qué frase destaca el lugar con una estructura de relieve?",
-    "en": "Which sentence highlights the place with a cleft structure?",
-    "ar": "أي جملة تبرز المكان بتركيب مقسّم؟"
-   },
-   "options": [
-    {
-     "es": "Fue en Madrid donde se conocieron.",
-     "en": "Foi no Rio que eles se conheceram.",
-     "ar": "Foi no Rio que eles se conheceram."
-    },
-    {
-     "es": "Ellos se conocieron en Madrid.",
-     "en": "Eles se conheceram no Rio.",
-     "ar": "Eles se conheceram no Rio."
-    },
-    {
-     "es": "Ellos en Madrid se conocieron.",
-     "en": "Eles no Rio se conheceram.",
-     "ar": "Eles no Rio se conheceram."
-    }
-   ],
-   "answer": "Fue en Madrid donde se conocieron.",
-   "explanation": {
-    "es": "'Fue... donde' aísla y destaca el elemento: el lugar.",
-    "en": "'Foi ... que' isolates and highlights the element: the place.",
-    "ar": "'Foi ... que' تعزل العنصر وتبرزه: المكان."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Completa con el orden marcado: '______ algo increíble.'",
-    "en": "Complete with marked word order: '______ uma coisa incrível.'",
-    "ar": "أكمل بالترتيب المميز: '______ uma coisa incrível.'"
-   },
-   "options": [
-    {
-     "es": "Ocurrió",
-     "en": "Aconteceu",
-     "ar": "Aconteceu"
-    },
-    {
-     "es": "Ocurrirá",
-     "en": "Acontecerá",
-     "ar": "Acontecerá"
-    },
-    {
-     "es": "Ocurriendo",
-     "en": "Acontecendo",
-     "ar": "Acontecendo"
-    }
-   ],
-   "answer": "Ocurrió",
-   "explanation": {
-    "es": "'Ocurrió algo increíble' pospone el sujeto para dar énfasis.",
-    "en": "'Aconteceu uma coisa incrível' postposes the subject for emphasis.",
-    "ar": "جملة 'Aconteceu uma coisa incrível' تؤخر الفاعل للتوكيد."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce con énfasis: 'It was yesterday that they decided everything.'",
-    "en": "Translate with emphasis: 'It was yesterday that they decided everything.'",
-    "ar": "ترجم مع التوكيد: 'It was yesterday that they decided everything.'"
-   },
-   "options": [],
-   "answer": "Fue ayer cuando lo decidieron todo.",
-   "explanation": {
-    "es": "La estructura 'fue... cuando' realza el adverbio de tiempo 'ayer'.",
-    "en": "The structure 'Foi ... que' highlights the adverb of time 'ontem'.",
-    "ar": "تركيب 'Foi ... que' يبرز ظرف الزمن 'ontem'."
-   }
-  }
- ]
 }

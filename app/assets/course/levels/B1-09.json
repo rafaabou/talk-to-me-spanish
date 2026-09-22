@@ -1,310 +1,582 @@
 {
- "id": "B1-09",
- "level": "B1",
- "level_name": {
-  "es": "Intermedio",
-  "en": "Intermediate",
-  "ar": "متوسط"
- },
- "title": {
-  "es": "Pretérito Pluscuamperfecto",
-  "en": "Pluperfect",
-  "ar": "الماضي التام"
- },
- "objectives": [
-  {
-   "es": "Formar el pretérito pluscuamperfecto con 'había' + participio.",
-   "en": "Form the pluperfect with 'tinha' + past participle.",
-   "ar": "تكوين الماضي التام من 'tinha' + اسم المفعول."
+  "id": "B1-09",
+  "level": "B1",
+  "level_name": {
+    "es": "Intermedio",
+    "en": "Intermediate",
+    "ar": "متوسط"
   },
-  {
-   "es": "Usar el pluscuamperfecto para hablar de acciones anteriores a otras en el pasado.",
-   "en": "Use the pluperfect to talk about actions before other past actions.",
-   "ar": "استخدام الماضي التام للحديث عن أفعال حدثت قبل أفعال أخرى في الماضي."
-  }
- ],
- "vocabulary": [
-  {
-   "es": "el pasado",
-   "ipa": "/ˈel paˈsaðo/",
-   "en": "the past",
-   "ar": "الماضي"
-  },
-  {
-   "es": "recordar",
-   "ipa": "/rekoˈɾdaɾ/",
-   "en": "to remember",
-   "ar": "يتذكر"
-  },
-  {
-   "es": "olvidar",
-   "ipa": "/olbiˈðaɾ/",
-   "en": "to forget",
-   "ar": "ينسى"
-  },
-  {
-   "es": "ya",
-   "ipa": "/ˈʝa/",
-   "en": "already",
-   "ar": "بالفعل"
-  },
-  {
-   "es": "todavía",
-   "ipa": "/toðaˈβia/",
-   "en": "still / yet",
-   "ar": "بعد / لا يزال"
-  },
-  {
-   "es": "cuando",
-   "ipa": "/ˈkuando/",
-   "en": "when",
-   "ar": "عندما"
-  },
-  {
-   "es": "antes",
-   "ipa": "/ˈantes/",
-   "en": "before",
-   "ar": "قبل"
-  },
-  {
-   "es": "después",
-   "ipa": "/deˈspues/",
-   "en": "after",
-   "ar": "بعد"
-  },
-  {
-   "es": "el acontecimiento",
-   "ipa": "/ˈel akontesiˈmiento/",
-   "en": "the event",
-   "ar": "الحدث"
-  },
-  {
-   "es": "la infancia",
-   "ipa": "/ˈla iˈnfansia/",
-   "en": "the childhood",
-   "ar": "الطفولة"
-  },
-  {
-   "es": "el hábito",
-   "ipa": "/ˈel ˈaβito/",
-   "en": "the habit",
-   "ar": "العادة"
-  },
-  {
-   "es": "recordar",
-   "ipa": "/rekoˈɾdaɾ/",
-   "en": "to recall",
-   "ar": "يستحضر"
-  },
-  {
-   "es": "el momento",
-   "ipa": "/ˈel moˈmento/",
-   "en": "the moment",
-   "ar": "اللحظة"
-  },
-  {
-   "es": "la historia",
-   "ipa": "/ˈla iˈstoɾia/",
-   "en": "the story",
-   "ar": "القصة"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Formación del pluscuamperfecto",
-    "en": "Forming the pluperfect",
-    "ar": "تكوين الماضي التام"
-   },
-   "explanation": {
-    "es": "El pretérito pluscuamperfecto se forma con 'había' + participio. Indica una acción pasada anterior a otra acción también pasada.",
-    "en": "The pluperfect is formed with 'tinha/havia' + past participle. It indicates a past action that happened before another past action.",
-    "ar": "يتكوّن الماضي التام من 'tinha/havia' + اسم المفعول. وهو يدل على فعل سابق لفعل آخر في الماضي."
-   },
-   "examples": [
-    {
-     "es": "Yo había estudiado antes del examen.",
-     "en": "I had studied before the exam.",
-     "ar": "كنت قد درست قبل الامتحان."
-    },
-    {
-     "es": "Ella había llegado tarde ayer.",
-     "en": "She had arrived late yesterday.",
-     "ar": "كانت قد وصلت متأخرة أمس."
-    },
-    {
-     "es": "Ya habíamos comido cuando llamaste.",
-     "en": "We had already eaten when you called.",
-     "ar": "كنا قد أكلنا بالفعل عندما اتصلت."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Contraste: indefinido x pluscuamperfecto",
-    "en": "Contrast: simple past x pluperfect",
-    "ar": "المقارنة بين الماضي البسيط والماضي التام"
-   },
-   "explanation": {
-    "es": "Cuando dos acciones ocurren en el pasado, la más antigua usa el pluscuamperfecto y la más reciente usa el pretérito indefinido, generalmente con 'cuando'.",
-    "en": "When two actions happen in the past, the earlier one uses the pluperfect and the later one uses the simple past, usually with 'quando'.",
-    "ar": "عندما يحدث فعلان في الماضي، نستخدم الماضي التام للفعل الأقدم والماضي البسيط للفعل الأحدث، عادة مع 'quando'."
-   },
-   "examples": [
-    {
-     "es": "Cuando llegué, ella ya había salido.",
-     "en": "When I arrived, she had already left.",
-     "ar": "عندما وصلت، كانت قد غادرت بالفعل."
-    },
-    {
-     "es": "Él había vivido en España antes de mudarse.",
-     "en": "He had lived in Spain before moving.",
-     "ar": "كان قد عاش في إسبانيا قبل انتقاله."
-    },
-    {
-     "es": "Yo nunca había visto un lugar tan bonito.",
-     "en": "I had never seen such a beautiful place.",
-     "ar": "لم أكن قد رأيت مكاناً بهذا الجمال."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "Recuerdos de la infancia",
-   "en": "Childhood memories",
-   "ar": "ذكريات الطفولة"
+    "es": "Pretérito Pluscuamperfecto",
+    "en": "Pluperfect",
+    "ar": "الماضي التام"
   },
-  "lines": [
-   {
-    "speaker": "Abuela",
-    "es": "Cuando era niño, ya había conocido el mar.",
-    "en": "When I was a child, I had already seen the sea.",
-    "ar": "عندما كنت طفلة، كنت قد رأيت البحر بالفعل."
-   },
-   {
-    "speaker": "Rubia",
-    "es": "¿En serio? ¿Y dónde había vivido antes?",
-    "en": "Really? And where had you lived before?",
-    "ar": "حقاً؟ وأين كنتِ قد سكنتِ من قبل؟"
-   },
-   {
-    "speaker": "Abuela",
-    "es": "Había vivido en el interior, cerca del río.",
-    "en": "I had lived in the countryside, near the river.",
-    "ar": "كنت قد سكنت في الريف، قرب النهر."
-   },
-   {
-    "speaker": "Rubia",
-    "es": "Nunca había oído esa historia.",
-    "en": "I had never heard that story.",
-    "ar": "لم أكن قد سمعت هذه القصة من قبل."
-   },
-   {
-    "speaker": "Abuela",
-    "es": "Cuando llegó el tren, ya habíamos preparado todo.",
-    "en": "When the train arrived, we had already prepared everything.",
-    "ar": "عندما وصل القطار، كنا قد جهّزنا كل شيء."
-   }
+  "objectives": [
+    {
+      "es": "Formar el pretérito pluscuamperfecto con 'había' + participio.",
+      "en": "Form the pluperfect with 'tinha' + past participle.",
+      "ar": "تكوين الماضي التام من 'tinha' + اسم المفعول."
+    },
+    {
+      "es": "Usar el pluscuamperfecto para hablar de acciones anteriores a otras en el pasado.",
+      "en": "Use the pluperfect to talk about actions before other past actions.",
+      "ar": "استخدام الماضي التام للحديث عن أفعال حدثت قبل أفعال أخرى في الماضي."
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el pasado",
+      "ipa": "/ˈel paˈsaðo/",
+      "en": "the past",
+      "ar": "الماضي",
+      "example": {
+        "es": "El pasado enseña lecciones valiosas.",
+        "en": "The past teaches valuable lessons.",
+        "ar": "الماضي يعلمنا دروسًا ثمينة."
+      }
+    },
+    {
+      "es": "recordar",
+      "ipa": "/rekoˈɾdaɾ/",
+      "en": "to remember",
+      "ar": "يتذكر",
+      "example": {
+        "es": "Recordar el olor de la panadería es dulce.",
+        "en": "I remember the smell of the bakery.",
+        "ar": "أتذكر رائحة المخبز."
+      }
+    },
+    {
+      "es": "olvidar",
+      "ipa": "/olbiˈðaɾ/",
+      "en": "to forget",
+      "ar": "ينسى",
+      "example": {
+        "es": "Nunca olvidaré tu ayuda.",
+        "en": "I will never forget your help.",
+        "ar": "لن أنسى مساعدتك أبدًا."
+      }
+    },
+    {
+      "es": "ya",
+      "ipa": "/ˈʝa/",
+      "en": "already",
+      "ar": "بالفعل",
+      "example": {
+        "es": "Ya terminé con la cena.",
+        "en": "I am already done with dinner.",
+        "ar": "أنهيت العشاء بالفعل."
+      }
+    },
+    {
+      "es": "todavía",
+      "ipa": "/toðaˈβia/",
+      "en": "still / yet",
+      "ar": "بعد / لا يزال",
+      "example": {
+        "es": "Todavía no he visto esa película.",
+        "en": "I still have not seen that movie.",
+        "ar": "لم أرَ ذلك الفيلم بعد."
+      }
+    },
+    {
+      "es": "cuando",
+      "ipa": "/ˈkuando/",
+      "en": "when",
+      "ar": "عندما",
+      "example": {
+        "es": "Cuando era niño, jugaba en la calle.",
+        "en": "When I was a child, I played in the street.",
+        "ar": "عندما كنت طفلًا، كنت ألعب في الشارع."
+      }
+    },
+    {
+      "es": "antes",
+      "ipa": "/ˈantes/",
+      "en": "before",
+      "ar": "قبل",
+      "example": {
+        "es": "Antes todo era más sencillo.",
+        "en": "Before, everything was simpler.",
+        "ar": "كان كل شيء أبسط سابقًا."
+      }
+    },
+    {
+      "es": "después",
+      "ipa": "/deˈspues/",
+      "en": "after",
+      "ar": "بعد",
+      "example": {
+        "es": "Después de la cena, damos un paseo.",
+        "en": "After dinner, we take a walk.",
+        "ar": "بعد العشاء نتمشى."
+      }
+    },
+    {
+      "es": "el acontecimiento",
+      "ipa": "/ˈel akontesiˈmiento/",
+      "en": "the event",
+      "ar": "الحدث",
+      "example": {
+        "es": "El acontecimiento marcó la historia.",
+        "en": "The event marked history.",
+        "ar": "حدد الحدث التاريخ."
+      }
+    },
+    {
+      "es": "la infancia",
+      "ipa": "/ˈla iˈnfansia/",
+      "en": "the childhood",
+      "ar": "الطفولة",
+      "example": {
+        "es": "La infancia dejó huellas en mí.",
+        "en": "Childhood left its mark on me.",
+        "ar": "تركت الطفولة أثرًا فيّ."
+      }
+    },
+    {
+      "es": "el hábito",
+      "ipa": "/ˈel ˈaβito/",
+      "en": "the habit",
+      "ar": "العادة",
+      "example": {
+        "es": "El hábito de leer mejora el vocabulario.",
+        "en": "The habit of reading improves vocabulary.",
+        "ar": "عادة القراءة تحسّن المفردات."
+      }
+    },
+    {
+      "es": "recordar",
+      "ipa": "/rekoˈɾdaɾ/",
+      "en": "to recall",
+      "ar": "يستحضر",
+      "example": {
+        "es": "Intento recordar el número de teléfono.",
+        "en": "I try to remember the phone number.",
+        "ar": "أحاول تذكر رقم الهاتف."
+      }
+    },
+    {
+      "es": "el momento",
+      "ipa": "/ˈel moˈmento/",
+      "en": "the moment",
+      "ar": "اللحظة",
+      "example": {
+        "es": "El momento más feliz llegó tarde.",
+        "en": "That moment was unforgettable.",
+        "ar": "تلك اللحظة كانت لا تُنسى."
+      }
+    },
+    {
+      "es": "la historia",
+      "ipa": "/ˈla iˈstoɾia/",
+      "en": "the story",
+      "ar": "القصة",
+      "example": {
+        "es": "La historia del país es apasionante.",
+        "en": "The country's history is fascinating.",
+        "ar": "تاريخ البلاد شائق."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Formación del pluscuamperfecto",
+        "en": "Forming the pluperfect",
+        "ar": "تكوين الماضي التام"
+      },
+      "explanation": {
+        "es": "El pretérito pluscuamperfecto se forma con 'había' + participio. Indica una acción pasada anterior a otra acción también pasada.",
+        "en": "The pluperfect is formed with 'tinha/havia' + past participle. It indicates a past action that happened before another past action.",
+        "ar": "يتكوّن الماضي التام من 'tinha/havia' + اسم المفعول. وهو يدل على فعل سابق لفعل آخر في الماضي."
+      },
+      "examples": [
+        {
+          "es": "Yo había estudiado antes del examen.",
+          "en": "I had studied before the exam.",
+          "ar": "كنت قد درست قبل الامتحان."
+        },
+        {
+          "es": "Ella había llegado tarde ayer.",
+          "en": "She had arrived late yesterday.",
+          "ar": "كانت قد وصلت متأخرة أمس."
+        },
+        {
+          "es": "Ya habíamos comido cuando llamaste.",
+          "en": "We had already eaten when you called.",
+          "ar": "كنا قد أكلنا بالفعل عندما اتصلت."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Contraste: indefinido x pluscuamperfecto",
+        "en": "Contrast: simple past x pluperfect",
+        "ar": "المقارنة بين الماضي البسيط والماضي التام"
+      },
+      "explanation": {
+        "es": "Cuando dos acciones ocurren en el pasado, la más antigua usa el pluscuamperfecto y la más reciente usa el pretérito indefinido, generalmente con 'cuando'.",
+        "en": "When two actions happen in the past, the earlier one uses the pluperfect and the later one uses the simple past, usually with 'quando'.",
+        "ar": "عندما يحدث فعلان في الماضي، نستخدم الماضي التام للفعل الأقدم والماضي البسيط للفعل الأحدث، عادة مع 'quando'."
+      },
+      "examples": [
+        {
+          "es": "Cuando llegué, ella ya había salido.",
+          "en": "When I arrived, she had already left.",
+          "ar": "عندما وصلت، كانت قد غادرت بالفعل."
+        },
+        {
+          "es": "Él había vivido en España antes de mudarse.",
+          "en": "He had lived in Spain before moving.",
+          "ar": "كان قد عاش في إسبانيا قبل انتقاله."
+        },
+        {
+          "es": "Yo nunca había visto un lugar tan bonito.",
+          "en": "I had never seen such a beautiful place.",
+          "ar": "لم أكن قد رأيت مكاناً بهذا الجمال."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Recuerdos de la infancia",
+      "en": "Childhood memories",
+      "ar": "ذكريات الطفولة"
+    },
+    "lines": [
+      {
+        "speaker": "Abuela",
+        "es": "Cuando era niño, ya había conocido el mar.",
+        "en": "When I was a child, I had already seen the sea.",
+        "ar": "عندما كنت طفلة، كنت قد رأيت البحر بالفعل."
+      },
+      {
+        "speaker": "Rubia",
+        "es": "¿En serio? ¿Y dónde había vivido antes?",
+        "en": "Really? And where had you lived before?",
+        "ar": "حقاً؟ وأين كنتِ قد سكنتِ من قبل؟"
+      },
+      {
+        "speaker": "Abuela",
+        "es": "Había vivido en el interior, cerca del río.",
+        "en": "I had lived in the countryside, near the river.",
+        "ar": "كنت قد سكنت في الريف، قرب النهر."
+      },
+      {
+        "speaker": "Rubia",
+        "es": "Nunca había oído esa historia.",
+        "en": "I had never heard that story.",
+        "ar": "لم أكن قد سمعت هذه القصة من قبل."
+      },
+      {
+        "speaker": "Abuela",
+        "es": "Cuando llegó el tren, ya habíamos preparado todo.",
+        "en": "When the train arrived, we had already prepared everything.",
+        "ar": "عندما وصل القطار، كنا قد جهّزنا كل شيء."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Un día inolvidable",
+      "en": "An unforgettable day",
+      "ar": "يوم لا يُنسى"
+    },
+    "text_es": "Cuando llegué al aeropuerto, descubrí que había olvidado el pasaporte. Afortunadamente, mi madre había guardado una copia. Había prometido ser más organizado, pero me había olvidado otra vez.",
+    "text_en": "When I arrived at the airport, I discovered I had forgotten my passport. Fortunately, my mother had kept a copy. I had promised to be more organized, but I had forgotten again.",
+    "text_ar": "عندما وصلت إلى المطار، اكتشفت أنني نسيت جواز سفري. ولحسن الحظ، كانت أمي قد احتفظت بنسخة. كنت قد وعدت بأن أكون أكثر تنظيماً، لكنني نسيت مرة أخرى."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: \"Cuando llegué, ella ya había ___.\"",
+        "en": "Complete: \"When I arrived, she had already ___.\"",
+        "ar": "أكمل: \"عندما وصلت، كانت قد ___ بالفعل.\""
+      },
+      "options": [
+        {
+          "es": "salido",
+          "en": "left",
+          "ar": "غادرت"
+        },
+        {
+          "es": "salió",
+          "en": "left (simple past)",
+          "ar": "خرجت"
+        },
+        {
+          "es": "sale",
+          "en": "leaves",
+          "ar": "تخرج"
+        },
+        {
+          "es": "salía",
+          "en": "used to leave",
+          "ar": "كانت تخرج"
+        }
+      ],
+      "answer": "salido",
+      "explanation": {
+        "es": "El pluscuamperfecto usa 'había' + participio: 'había salido'.",
+        "en": "The pluperfect uses 'tinha' + participle: 'tinha saído'.",
+        "ar": "يستخدم الماضي التام 'tinha' + اسم المفعول: 'كانت قد غادرت'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: \"Nunca ___ visitado Barcelona antes de 2010.\"",
+        "en": "Complete: \"I had never ___ Rio before 2010.\"",
+        "ar": "أكمل: \"لم أكن قد ___ ريو قبل عام 2010.\""
+      },
+      "options": [
+        {
+          "es": "tenía",
+          "en": "had",
+          "ar": "زرتُ"
+        },
+        {
+          "es": "he",
+          "en": "have",
+          "ar": "أزور"
+        },
+        {
+          "es": "tendría",
+          "en": "would have",
+          "ar": "سأزور"
+        },
+        {
+          "es": "tuvo",
+          "en": "had (he)",
+          "ar": "زُرت"
+        }
+      ],
+      "answer": "tenía",
+      "explanation": {
+        "es": "Antes de un punto en el pasado, usamos 'había' + participio: 'nunca había visitado'.",
+        "en": "Before a point in the past, we use 'tinha' + participle: 'had never visited'.",
+        "ar": "قبل نقطة زمنية في الماضي، نستخدم 'tinha' + اسم المفعول: 'لم أكن قد زرت'."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al inglés: \"Él ya había comido cuando llegué.\"",
+        "en": "Translate to English: \"Ele já tinha comido quando eu cheguei.\"",
+        "ar": "ترجم إلى الإنجليزية: \"Ele já tinha comido quando eu cheguei.\""
+      },
+      "options": [],
+      "answer": "He had already eaten when I arrived.",
+      "explanation": {
+        "es": "'Había comido' es el pluscuamperfecto de 'comer', equivalente a 'had eaten'.",
+        "en": "'Tinha comido' is the pluperfect of 'comer', equivalent to 'had eaten'.",
+        "ar": "'tinha comido' هو الماضي التام من 'comer'، ويعادل 'had eaten'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'after'?",
+        "en": "Which word means 'after'?",
+        "ar": "أي كلمة تعني 'بعد'؟"
+      },
+      "options": [
+        {
+          "es": "recordar",
+          "en": "to remember",
+          "ar": "يتذكر"
+        },
+        {
+          "es": "ya",
+          "en": "already",
+          "ar": "بالفعل"
+        },
+        {
+          "es": "recordar",
+          "en": "to recall",
+          "ar": "يستحضر"
+        },
+        {
+          "es": "después",
+          "en": "after",
+          "ar": "بعد"
+        }
+      ],
+      "answer": "después",
+      "explanation": {
+        "es": "'después' significa 'after'.",
+        "en": "'después' means 'after'.",
+        "ar": "تعني 'después' 'بعد'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'before'",
+        "en": "Choose the Spanish word: 'before'",
+        "ar": "اختر الكلمة بالإسبانية: 'قبل'"
+      },
+      "options": [
+        {
+          "es": "antes",
+          "en": "before",
+          "ar": "قبل"
+        },
+        {
+          "es": "ya",
+          "en": "already",
+          "ar": "بالفعل"
+        },
+        {
+          "es": "todavía",
+          "en": "still / yet",
+          "ar": "بعد / لا يزال"
+        }
+      ],
+      "answer": "antes",
+      "explanation": {
+        "es": "'antes' significa 'before'.",
+        "en": "'antes' means 'before'.",
+        "ar": "تعني 'antes' 'قبل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'still / yet' en español?",
+        "en": "How do you say 'still / yet' in Spanish?",
+        "ar": "كيف تقول 'بعد / لا يزال' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "ya",
+          "en": "already",
+          "ar": "بالفعل"
+        },
+        {
+          "es": "todavía",
+          "en": "still / yet",
+          "ar": "بعد / لا يزال"
+        },
+        {
+          "es": "el pasado",
+          "en": "the past",
+          "ar": "الماضي"
+        },
+        {
+          "es": "el momento",
+          "en": "the moment",
+          "ar": "اللحظة"
+        }
+      ],
+      "answer": "todavía",
+      "explanation": {
+        "es": "'todavía' significa 'still / yet'.",
+        "en": "'todavía' means 'still / yet'.",
+        "ar": "تعني 'todavía' 'بعد / لا يزال'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'when'?",
+        "en": "Which word means 'when'?",
+        "ar": "أي كلمة تعني 'عندما'؟"
+      },
+      "options": [
+        {
+          "es": "la infancia",
+          "en": "the childhood",
+          "ar": "الطفولة"
+        },
+        {
+          "es": "cuando",
+          "en": "when",
+          "ar": "عندما"
+        },
+        {
+          "es": "todavía",
+          "en": "still / yet",
+          "ar": "بعد / لا يزال"
+        }
+      ],
+      "answer": "cuando",
+      "explanation": {
+        "es": "'cuando' significa 'when'.",
+        "en": "'cuando' means 'when'.",
+        "ar": "تعني 'cuando' 'عندما'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"That moment was unforgettable.\"",
+        "en": "Translate into Spanish: \"That moment was unforgettable.\"",
+        "ar": "ترجم إلى الإسبانية: \"تلك اللحظة كانت لا تُنسى.\""
+      },
+      "options": [],
+      "answer": "El momento más feliz llegó tarde.",
+      "explanation": {
+        "es": "Respuesta: \"El momento más feliz llegó tarde.\".",
+        "en": "Answer: \"El momento más feliz llegó tarde.\".",
+        "ar": "الإجابة: \"El momento más feliz llegó tarde.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The country's history is fascinating.\"",
+        "en": "Translate into Spanish: \"The country's history is fascinating.\"",
+        "ar": "ترجم إلى الإسبانية: \"تاريخ البلاد شائق.\""
+      },
+      "options": [],
+      "answer": "La historia del país es apasionante.",
+      "explanation": {
+        "es": "Respuesta: \"La historia del país es apasionante.\".",
+        "en": "Answer: \"La historia del país es apasionante.\".",
+        "ar": "الإجابة: \"La historia del país es apasionante.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I had never heard that story.\"",
+        "en": "Translate into Spanish: \"I had never heard that story.\"",
+        "ar": "ترجم إلى الإسبانية: \"لم أكن قد سمعت هذه القصة من قبل.\""
+      },
+      "options": [],
+      "answer": "Nunca había oído esa historia.",
+      "explanation": {
+        "es": "Respuesta: \"Nunca había oído esa historia.\".",
+        "en": "Answer: \"Nunca había oído esa historia.\".",
+        "ar": "الإجابة: \"Nunca había oído esa historia.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The past teaches valuable lessons.\"",
+        "en": "Translate into Spanish: \"The past teaches valuable lessons.\"",
+        "ar": "ترجم إلى الإسبانية: \"الماضي يعلمنا دروسًا ثمينة.\""
+      },
+      "options": [],
+      "answer": "El pasado enseña lecciones valiosas.",
+      "explanation": {
+        "es": "Respuesta: \"El pasado enseña lecciones valiosas.\".",
+        "en": "Answer: \"El pasado enseña lecciones valiosas.\".",
+        "ar": "الإجابة: \"El pasado enseña lecciones valiosas.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "Un día inolvidable",
-   "en": "An unforgettable day",
-   "ar": "يوم لا يُنسى"
-  },
-  "text_es": "Cuando llegué al aeropuerto, descubrí que había olvidado el pasaporte. Afortunadamente, mi madre había guardado una copia. Había prometido ser más organizado, pero me había olvidado otra vez.",
-  "text_en": "When I arrived at the airport, I discovered I had forgotten my passport. Fortunately, my mother had kept a copy. I had promised to be more organized, but I had forgotten again.",
-  "text_ar": "عندما وصلت إلى المطار، اكتشفت أنني نسيت جواز سفري. ولحسن الحظ، كانت أمي قد احتفظت بنسخة. كنت قد وعدت بأن أكون أكثر تنظيماً، لكنني نسيت مرة أخرى."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Completa: \"Cuando llegué, ella ya había ___.\"",
-    "en": "Complete: \"When I arrived, she had already ___.\"",
-    "ar": "أكمل: \"عندما وصلت، كانت قد ___ بالفعل.\""
-   },
-   "options": [
-    {
-     "es": "salido",
-     "en": "left",
-     "ar": "غادرت"
-    },
-    {
-     "es": "salió",
-     "en": "left (simple past)",
-     "ar": "خرجت"
-    },
-    {
-     "es": "sale",
-     "en": "leaves",
-     "ar": "تخرج"
-    },
-    {
-     "es": "salía",
-     "en": "used to leave",
-     "ar": "كانت تخرج"
-    }
-   ],
-   "answer": "salido",
-   "explanation": {
-    "es": "El pluscuamperfecto usa 'había' + participio: 'había salido'.",
-    "en": "The pluperfect uses 'tinha' + participle: 'tinha saído'.",
-    "ar": "يستخدم الماضي التام 'tinha' + اسم المفعول: 'كانت قد غادرت'."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Completa: \"Nunca ___ visitado Barcelona antes de 2010.\"",
-    "en": "Complete: \"I had never ___ Rio before 2010.\"",
-    "ar": "أكمل: \"لم أكن قد ___ ريو قبل عام 2010.\""
-   },
-   "options": [
-    {
-     "es": "tenía",
-     "en": "had",
-     "ar": "زرتُ"
-    },
-    {
-     "es": "he",
-     "en": "have",
-     "ar": "أزور"
-    },
-    {
-     "es": "tendría",
-     "en": "would have",
-     "ar": "سأزور"
-    },
-    {
-     "es": "tuvo",
-     "en": "had (he)",
-     "ar": "زُرت"
-    }
-   ],
-   "answer": "tenía",
-   "explanation": {
-    "es": "Antes de un punto en el pasado, usamos 'había' + participio: 'nunca había visitado'.",
-    "en": "Before a point in the past, we use 'tinha' + participle: 'had never visited'.",
-    "ar": "قبل نقطة زمنية في الماضي، نستخدم 'tinha' + اسم المفعول: 'لم أكن قد زرت'."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce al inglés: \"Él ya había comido cuando llegué.\"",
-    "en": "Translate to English: \"Ele já tinha comido quando eu cheguei.\"",
-    "ar": "ترجم إلى الإنجليزية: \"Ele já tinha comido quando eu cheguei.\""
-   },
-   "options": [],
-   "answer": "He had already eaten when I arrived.",
-   "explanation": {
-    "es": "'Había comido' es el pluscuamperfecto de 'comer', equivalente a 'had eaten'.",
-    "en": "'Tinha comido' is the pluperfect of 'comer', equivalent to 'had eaten'.",
-    "ar": "'tinha comido' هو الماضي التام من 'comer'، ويعادل 'had eaten'."
-   }
-  }
- ]
 }

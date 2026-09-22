@@ -1,340 +1,627 @@
 {
- "id": "C2-01",
- "level": "C2",
- "level_name": {
-  "es": "Proficiencia",
-  "en": "Proficiency",
-  "ar": "إتقان"
- },
- "title": {
-  "es": "Expresiones Idiomáticas Avanzadas",
-  "en": "Advanced Idiomatic Expressions",
-  "ar": "التعبيرات الاصطلاحية المتقدمة"
- },
- "objectives": [
-  {
-   "es": "Reconocer y usar expresiones idiomáticas avanzadas del español",
-   "en": "Recognize and use advanced idiomatic expressions of Brazilian Portuguese",
-   "ar": "التعرف على التعابير الاصطلاحية المتقدمة في البرتغالية البرازيلية واستخدامها"
+  "id": "C2-01",
+  "level": "C2",
+  "level_name": {
+    "es": "Proficiencia",
+    "en": "Proficiency",
+    "ar": "إتقان"
   },
-  {
-   "es": "Distinguir el sentido literal del figurado en contextos reales",
-   "en": "Distinguish literal from figurative meaning in real contexts",
-   "ar": "التمييز بين المعنى الحرفي والمعنى المجازي في سياقات حقيقية"
-  },
-  {
-   "es": "Ajustar el registro del discurso al contexto y al interlocutor",
-   "en": "Adjust the register of speech to the context and the interlocutor",
-   "ar": "ضبط مستوى الخطاب وفقًا للسياق والمتحدث"
-  },
-  {
-   "es": "Comprender chistes y metáforas culturales de la vida cotidiana hispana",
-   "en": "Understand jokes and cultural metaphors of everyday Brazilian life",
-   "ar": "فهم النكات والاستعارات الثقافية في الحياة اليومية البرازيلية"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "hacer el ridículo",
-   "ipa": "/aˈseɾ ˈel riˈðikulo/",
-   "en": "to embarrass oneself in public",
-   "ar": "يحرج نفسه أمام الناس"
-  },
-  {
-   "es": "quedarse esperando en vano",
-   "ipa": "/keˈðaɾse espeˈɾando ˈen ˈbano/",
-   "en": "to be left empty-handed",
-   "ar": "يخسر كل شيء / يظل بلا شيء"
-  },
-  {
-   "es": "redundar",
-   "ipa": "/reðuˈndaɾ/",
-   "en": "to state the obvious",
-   "ar": "يُطيل في كلام بديهي"
-  },
-  {
-   "es": "arrimar el ascua a su sardina",
-   "ipa": "/ariˈmaɾ ˈel ˈaskua ˈa ˈsu saˈɾdina/",
-   "en": "to look after one's own interests",
-   "ar": "يُرجّح كفته / يخدم مصلحته"
-  },
-  {
-   "es": "dar largas, enrollarse",
-   "ipa": "/ˈdaɾ ˈlaɾgas enroˈʝaɾse/",
-   "en": "to pad out, to drag on pointlessly",
-   "ar": "يطيل الكلام بلا فائدة"
-  },
-  {
-   "es": "ir con el cuento",
-   "ipa": "/ˈiɾ ˈkon ˈel ˈkuento/",
-   "en": "to spill the beans",
-   "ar": "يفشي السر"
-  },
-  {
-   "es": "comerse las palabras",
-   "ipa": "/koˈmeɾse ˈlas paˈlaβɾas/",
-   "en": "to eat one's words",
-   "ar": "يتراجع عن كلامه نادمًا"
-  },
-  {
-   "es": "ponerse la camiseta",
-   "ipa": "/poˈneɾse ˈla kamiˈseta/",
-   "en": "to commit wholeheartedly",
-   "ar": "يلتزم بإخلاص تام"
-  },
-  {
-   "es": "bajar la guardia",
-   "ipa": "/baˈxaɾ ˈla ˈguaɾdia/",
-   "en": "to give up, to let things fall apart",
-   "ar": "يستسلم / يُسقط الأمر"
-  },
-  {
-   "es": "hacer de carabina, aguantar la vela",
-   "ipa": "/aˈseɾ ˈde kaɾaˈβina aɣuaˈntaɾ ˈla ˈbela/",
-   "en": "to be a third wheel",
-   "ar": "يكون طرفًا ثالثًا محرجًا"
-  },
-  {
-   "es": "irse por las nubes, divagar",
-   "ipa": "/ˈiɾse ˈpoɾ ˈlas ˈnuβes diβaˈɣaɾ/",
-   "en": "to talk nonsense, to be confused",
-   "ar": "يتكلم كلامًا غير مفهوم"
-  },
-  {
-   "es": "tragarse un sapo, aguantar",
-   "ipa": "/tɾaˈɣaɾse ˈun ˈsapo aɣuaˈntaɾ/",
-   "en": "to swallow an insult silently",
-   "ar": "يتجرع الإهانة بصمت"
-  },
-  {
-   "es": "insistir en lo mismo",
-   "ipa": "/insiˈstiɾ ˈen ˈlo ˈmismo/",
-   "en": "to harp on the same subject",
-   "ar": "يُعيد نفس الموضوع مرارًا"
-  },
-  {
-   "es": "hacer algo a la ligera, chapuceramente",
-   "ipa": "/aˈseɾ ˈalgo ˈa ˈla liˈxeɾa tʃapuseɾaˈmente/",
-   "en": "to do something hastily and sloppily",
-   "ar": "يعمل الشيء على عجل وبلا إتقان"
-  },
-  {
-   "es": "rematar la faena y exhibir el resultado",
-   "ipa": "/remaˈtaɾ ˈla ˈfaena ˈʝ eksiˈβiɾ ˈel resuˈltaðo/",
-   "en": "to do something and prove it",
-   "ar": "يقوم بالأمر ويُثبته"
-  },
-  {
-   "es": "quedarse alerta, con las orejas paradas",
-   "ipa": "/keˈðaɾse aˈleɾta ˈkon ˈlas oˈɾexas paˈɾaðas/",
-   "en": "to be on alert, suspicious",
-   "ar": "يكون في حالة تأهب وارتياب"
-  },
-  {
-   "es": "adular, ser un pelota",
-   "ipa": "/aðuˈlaɾ ˈseɾ ˈun peˈlota/",
-   "en": "to suck up to someone",
-   "ar": "يتملق"
-  },
-  {
-   "es": "dejar en la estacada",
-   "ipa": "/deˈxaɾ ˈen ˈla estaˈkaða/",
-   "en": "to leave someone in the lurch",
-   "ar": "يتركه في مأزق / يتخلى عنه"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Idiomatismos y Concordancia",
-    "en": "Idioms and Agreement",
-    "ar": "التعابير الاصطلاحية والمطابقة"
-   },
-   "explanation": {
-    "es": "Las expresiones idiomáticas son unidades fijas: la estructura no cambia, pero los pronombres átonos y la flexión verbal concuerdan con el sujeto. En 'Arrimé el ascua a mi sardina', el posesivo y el verbo varían; el núcleo de la expresión permanece intacto. 'Ponerse la camiseta' admite variación de objeto: 'ponerse la camiseta del equipo'.",
-    "en": "Idioms are fixed units: the structure does not change, but oblique pronouns and verb inflection agree with the subject. In 'Arrimé el ascua a mi sardina' (I looked after my own interests), the possessive and the verb vary; the core of the expression remains intact. 'Ponerse la camiseta' (to commit to a cause) accepts variation of the object: 'ponerse la camiseta del equipo'.",
-    "ar": "التعابير الاصطلاحية وحدات ثابتة: لا يتغير بناؤها، لكن الضمائر المتصلة وتصريف الفعل يطابقان الفاعل. في 'Arrimé el ascua a mi sardina' (قدّمت مصلحتي)، يتغير الملكية والفعل بينما يبقى جوهر التعبير ثابتًا. و'Ponerse la camiseta' (الانحياز لفريق) تقبل تنويع المفعول: 'ponerse la camiseta del equipo'."
-   },
-   "examples": [
-    {
-     "es": "No voy a bajar la guardia ahora que estamos al final.",
-     "en": "I am not going to give up now that we are at the end.",
-     "ar": "لن أستسلم الآن ونحن في النهاية."
-    },
-    {
-     "es": "Ella hace de carabina mejor de lo que ve películas.",
-     "en": "She is a better third wheel than a movie watcher.",
-     "ar": "هي أتقن في لعب دور الطرف الثالث منها في مشاهدة الأفلام."
-    },
-    {
-     "es": "Nos tragamos un sapo toda la semana por culpa del jefe.",
-     "en": "We swallowed insults all week because of the boss.",
-     "ar": "تجرعنا الإهانات طوال الأسبوع بسبب المدير."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Registro: Informal y Formal",
-    "en": "Register: Informal and Formal",
-    "ar": "المستوى: غير الرسمي والرسمي"
-   },
-   "explanation": {
-    "es": "Casi todos los idiomatismos anteriores pertenecen al registro coloquial. En contextos formales o académicos hay que parafrasear: en lugar de 'ser un pelota', di 'adular'; en lugar de 'dejar en la estacada', usa 'abandonar' o 'no cumplir el compromiso'. El dominio del registro es uno de los signos más fuertes de competencia en el nivel C2.",
-    "en": "Nearly all of the idioms above belong to the colloquial register. In formal or academic contexts, paraphrase instead: rather than 'ser un pelota' (to suck up), say 'adular'; rather than 'dejar en la estacada' (to leave in the lurch), use 'abandonar' or 'no cumplir el compromiso'. Mastering register is one of the strongest signs of C2 proficiency.",
-    "ar": "جميع التعابير السابقة تقريبًا تنتمي إلى المستوى العامي. في السياقات الرسمية أو الأكاديمية يجب إعادة الصياغة: بدل 'ser un pelota' (يتملق) قل 'adular'؛ وبدل 'dejar en la estacada' (يتركه في مأزق) استخدم 'abandonar' أو 'no cumplir el compromiso'. إتقان مستوى اللغة من أقوى مؤشرات إتقان المستوى C2."
-   },
-   "examples": [
-    {
-     "es": "Formal: El orador adulaba a las autoridades presentes.",
-     "en": "Formal: The speaker flattered the authorities present.",
-     "ar": "رسمي: كان المتحدث يتملق المسؤولين الحاضرين."
-    },
-    {
-     "es": "Informal: Se pasó el día haciéndole la pelota al jefe.",
-     "en": "Informal: He spent the day sucking up to the boss.",
-     "ar": "غير رسمي: أمضى اليوم كله يتملق المدير."
-    },
-    {
-     "es": "Formal: La empresa no cumplió el compromiso asumido.",
-     "en": "Formal: The company did not honor its commitment.",
-     "ar": "رسمي: لم توفِّ الشركة بالتزامها."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "Después de la Fiesta",
-   "en": "After the Party",
-   "ar": "بعد الحفلة"
+    "es": "Expresiones Idiomáticas Avanzadas",
+    "en": "Advanced Idiomatic Expressions",
+    "ar": "التعبيرات الاصطلاحية المتقدمة"
   },
-  "lines": [
-   {
-    "speaker": "Clara",
-    "es": "¿Viste a Pedro haciéndole la pelota al director toda la noche?",
-    "en": "Did you see Pedro sucking up to the director all night?",
-    "ar": "هل رأيتِ بيدرو يتملق المدير طوال الليل؟"
-   },
-   {
-    "speaker": "Rafael",
-    "es": "Claro que lo vi. Se fue por las nubes cuando intentó elogiar la charla.",
-    "en": "Of course I saw. He went off the rails when he tried to praise the lecture.",
-    "ar": "بالتأكيد رأيتُه. لقد تلخبط في كلامه عندما حاول مدح المحاضرة."
-   },
-   {
-    "speaker": "Clara",
-    "es": "¿Y Mariana? Volvió a bajar la guardia y no llevó el informe.",
-    "en": "And Mariana? She let things fall apart again and did not bring the report.",
-    "ar": "وماريانا؟ لقد استسلمت مجددًا ولم تحضر التقرير."
-   },
-   {
-    "speaker": "Rafael",
-    "es": "Pues sí, pero yo voy a aguantar la vela, como siempre, y terminar el proyecto solo.",
-    "en": "Right, but as always I'll be the one left holding the bag and finish the project alone.",
-    "ar": "صحيح، لكنني سأبقى كما هو الحال دائمًا في موقف صعب وأنهي المشروع وحدي."
-   },
-   {
-    "speaker": "Clara",
-    "es": "No te comas las palabras después, ¿eh? Ya me están entrando dudas con esa gente.",
-    "en": "Don't eat your words later, okay? I am already getting suspicious of this crowd.",
-    "ar": "لا تتراجع عن كلامك لاحقًا، اتفقنا؟ أنا بدأت أشك في هذه المجموعة."
-   },
-   {
-    "speaker": "Rafael",
-    "es": "De acuerdo. Antes dejo a nadie en la estacada que dar largas hasta la madrugada.",
-    "en": "Deal. I would rather not leave anyone in the lurch than drag things on until dawn.",
-    "ar": "متّفق. الأفضل ألا أتخلى عن أحد بدلًا من إطالة الكلام بلا طائل حتى الفجر."
-   }
+  "objectives": [
+    {
+      "es": "Reconocer y usar expresiones idiomáticas avanzadas del español",
+      "en": "Recognize and use advanced idiomatic expressions of Brazilian Portuguese",
+      "ar": "التعرف على التعابير الاصطلاحية المتقدمة في البرتغالية البرازيلية واستخدامها"
+    },
+    {
+      "es": "Distinguir el sentido literal del figurado en contextos reales",
+      "en": "Distinguish literal from figurative meaning in real contexts",
+      "ar": "التمييز بين المعنى الحرفي والمعنى المجازي في سياقات حقيقية"
+    },
+    {
+      "es": "Ajustar el registro del discurso al contexto y al interlocutor",
+      "en": "Adjust the register of speech to the context and the interlocutor",
+      "ar": "ضبط مستوى الخطاب وفقًا للسياق والمتحدث"
+    },
+    {
+      "es": "Comprender chistes y metáforas culturales de la vida cotidiana hispana",
+      "en": "Understand jokes and cultural metaphors of everyday Brazilian life",
+      "ar": "فهم النكات والاستعارات الثقافية في الحياة اليومية البرازيلية"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "hacer el ridículo",
+      "ipa": "/aˈseɾ ˈel riˈðikulo/",
+      "en": "to embarrass oneself in public",
+      "ar": "يحرج نفسه أمام الناس",
+      "example": {
+        "es": "Hacer el ridículo en público avergüenza.",
+        "en": "Do not embarrass yourself in public.",
+        "ar": "لا تحرج نفسك أمام الناس."
+      }
+    },
+    {
+      "es": "quedarse esperando en vano",
+      "ipa": "/keˈðaɾse espeˈɾando ˈen ˈbano/",
+      "en": "to be left empty-handed",
+      "ar": "يخسر كل شيء / يظل بلا شيء",
+      "example": {
+        "es": "Quedarse esperando en vano frustra.",
+        "en": "We were left waiting in vain all afternoon.",
+        "ar": "ظللنا ننتظر عبثًا طوال الظهيرة."
+      }
+    },
+    {
+      "es": "redundar",
+      "ipa": "/reðuˈndaɾ/",
+      "en": "to state the obvious",
+      "ar": "يُطيل في كلام بديهي",
+      "example": {
+        "es": "Explicar lo obvio solo redundará.",
+        "en": "Explaining the obvious will only state the obvious.",
+        "ar": "شرح البديهي لن يؤدي سوى لتفصيل ما هو واضح."
+      }
+    },
+    {
+      "es": "arrimar el ascua a su sardina",
+      "ipa": "/ariˈmaɾ ˈel ˈaskua ˈa ˈsu saˈɾdina/",
+      "en": "to look after one's own interests",
+      "ar": "يُرجّح كفته / يخدم مصلحته",
+      "example": {
+        "es": "Arrimar el ascua a su sardina molesta al equipo.",
+        "en": "Do not look after your own interests in the meeting.",
+        "ar": "لا ترجّح كفتك في الاجتماع."
+      }
+    },
+    {
+      "es": "dar largas, enrollarse",
+      "ipa": "/ˈdaɾ ˈlaɾgas enroˈʝaɾse/",
+      "en": "to pad out, to drag on pointlessly",
+      "ar": "يطيل الكلام بلا فائدة",
+      "example": {
+        "es": "El verbo dar largas, enrollarse significa alargar sin sentido.",
+        "en": "The verb dar largas, enrollarse means to pad out pointlessly.",
+        "ar": "الفعل dar largas, enrollasse يعني الإطالة بلا معنى."
+      }
+    },
+    {
+      "es": "ir con el cuento",
+      "ipa": "/ˈiɾ ˈkon ˈel ˈkuento/",
+      "en": "to spill the beans",
+      "ar": "يفشي السر",
+      "example": {
+        "es": "Ir con el cuento arruina la sorpresa.",
+        "en": "If you spill the beans, you lose the surprise.",
+        "ar": "إن فشّرت السر، ضاعت المفاجأة."
+      }
+    },
+    {
+      "es": "comerse las palabras",
+      "ipa": "/koˈmeɾse ˈlas paˈlaβɾas/",
+      "en": "to eat one's words",
+      "ar": "يتراجع عن كلامه نادمًا",
+      "example": {
+        "es": "Comerse las palabras en público incomoda.",
+        "en": "Do not eat your words in the interview.",
+        "ar": "لا ترجع عن كلامك في المقابلة."
+      }
+    },
+    {
+      "es": "ponerse la camiseta",
+      "ipa": "/poˈneɾse ˈla kamiˈseta/",
+      "en": "to commit wholeheartedly",
+      "ar": "يلتزم بإخلاص تام",
+      "example": {
+        "es": "Ponerse la camiseta demuestra compromiso.",
+        "en": "That team commits wholeheartedly in every match.",
+        "ar": "ذلك الفريق يلتزم بإخلاص تام في كل مباراة."
+      }
+    },
+    {
+      "es": "bajar la guardia",
+      "ipa": "/baˈxaɾ ˈla ˈguaɾdia/",
+      "en": "to give up, to let things fall apart",
+      "ar": "يستسلم / يُسقط الأمر",
+      "example": {
+        "es": "Bajar la guardia ahora sería un error.",
+        "en": "Do not let things fall apart now.",
+        "ar": "لا تُسقط الأمر الآن."
+      }
+    },
+    {
+      "es": "hacer de carabina, aguantar la vela",
+      "ipa": "/aˈseɾ ˈde kaɾaˈβina aɣuaˈntaɾ ˈla ˈbela/",
+      "en": "to be a third wheel",
+      "ar": "يكون طرفًا ثالثًا محرجًا",
+      "example": {
+        "es": "La expresión hacer de carabina, aguantar la vela incomoda.",
+        "en": "We are a third wheel if we go with them.",
+        "ar": "نحن طرف ثالث محرج إذا ذهبنا معهم."
+      }
+    },
+    {
+      "es": "irse por las nubes, divagar",
+      "ipa": "/ˈiɾse ˈpoɾ ˈlas ˈnuβes diβaˈɣaɾ/",
+      "en": "to talk nonsense, to be confused",
+      "ar": "يتكلم كلامًا غير مفهوم",
+      "example": {
+        "es": "Irse por las nubes, divagar no ayuda en la reunión.",
+        "en": "Stop talking nonsense and answer.",
+        "ar": "كف عن الكلام غير المفهوم وأجب."
+      }
+    },
+    {
+      "es": "tragarse un sapo, aguantar",
+      "ipa": "/tɾaˈɣaɾse ˈun ˈsapo aɣuaˈntaɾ/",
+      "en": "to swallow an insult silently",
+      "ar": "يتجرع الإهانة بصمت",
+      "example": {
+        "es": "Tragarse un sapo, aguantar en silencio duele.",
+        "en": "I had to swallow an insult silently.",
+        "ar": "اضطررت إلى تجرع الإهانة بصمت."
+      }
+    },
+    {
+      "es": "insistir en lo mismo",
+      "ipa": "/insiˈstiɾ ˈen ˈlo ˈmismo/",
+      "en": "to harp on the same subject",
+      "ar": "يُعيد نفس الموضوع مرارًا",
+      "example": {
+        "es": "Insistir en lo mismo cansa al grupo.",
+        "en": "Do not harp on the same subject all meeting.",
+        "ar": "لا تكرر نفس الموضوع طوال الاجتماع."
+      }
+    },
+    {
+      "es": "hacer algo a la ligera, chapuceramente",
+      "ipa": "/aˈseɾ ˈalgo ˈa ˈla liˈxeɾa tʃapuseɾaˈmente/",
+      "en": "to do something hastily and sloppily",
+      "ar": "يعمل الشيء على عجل وبلا إتقان",
+      "example": {
+        "es": "Hacer algo a la ligera, chapuceramente trae errores.",
+        "en": "Do not do the work hastily and sloppily.",
+        "ar": "لا تنجز العمل على عجل وبلا إتقان."
+      }
+    },
+    {
+      "es": "rematar la faena y exhibir el resultado",
+      "ipa": "/remaˈtaɾ ˈla ˈfaena ˈʝ eksiˈβiɾ ˈel resuˈltaðo/",
+      "en": "to do something and prove it",
+      "ar": "يقوم بالأمر ويُثبته",
+      "example": {
+        "es": "Rematar la faena y exhibir el resultado cuesta.",
+        "en": "Finish the job and show the result.",
+        "ar": "أنهِ العمل وأظهر النتيجة."
+      }
+    },
+    {
+      "es": "quedarse alerta, con las orejas paradas",
+      "ipa": "/keˈðaɾse aˈleɾta ˈkon ˈlas oˈɾexas paˈɾaðas/",
+      "en": "to be on alert, suspicious",
+      "ar": "يكون في حالة تأهب وارتياب",
+      "example": {
+        "es": "Quedarse alerta, con las orejas paradas salva en la calle.",
+        "en": "Be on alert on the street.",
+        "ar": "كن في حالة تأهب في الشارع."
+      }
+    },
+    {
+      "es": "adular, ser un pelota",
+      "ipa": "/aðuˈlaɾ ˈseɾ ˈun peˈlota/",
+      "en": "to suck up to someone",
+      "ar": "يتملق",
+      "example": {
+        "es": "Adular, ser un pelota con el jefe se nota rápido.",
+        "en": "Do not suck up to the boss.",
+        "ar": "لا تتملق أمام الرئيس."
+      }
+    },
+    {
+      "es": "dejar en la estacada",
+      "ipa": "/deˈxaɾ ˈen ˈla estaˈkaða/",
+      "en": "to leave someone in the lurch",
+      "ar": "يتركه في مأزق / يتخلى عنه",
+      "example": {
+        "es": "Dejar en la estacada a un amigo duele.",
+        "en": "Do not leave me in the lurch again.",
+        "ar": "لا تتركني في مأزق مرة أخرى."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Idiomatismos y Concordancia",
+        "en": "Idioms and Agreement",
+        "ar": "التعابير الاصطلاحية والمطابقة"
+      },
+      "explanation": {
+        "es": "Las expresiones idiomáticas son unidades fijas: la estructura no cambia, pero los pronombres átonos y la flexión verbal concuerdan con el sujeto. En 'Arrimé el ascua a mi sardina', el posesivo y el verbo varían; el núcleo de la expresión permanece intacto. 'Ponerse la camiseta' admite variación de objeto: 'ponerse la camiseta del equipo'.",
+        "en": "Idioms are fixed units: the structure does not change, but oblique pronouns and verb inflection agree with the subject. In 'Arrimé el ascua a mi sardina' (I looked after my own interests), the possessive and the verb vary; the core of the expression remains intact. 'Ponerse la camiseta' (to commit to a cause) accepts variation of the object: 'ponerse la camiseta del equipo'.",
+        "ar": "التعابير الاصطلاحية وحدات ثابتة: لا يتغير بناؤها، لكن الضمائر المتصلة وتصريف الفعل يطابقان الفاعل. في 'Arrimé el ascua a mi sardina' (قدّمت مصلحتي)، يتغير الملكية والفعل بينما يبقى جوهر التعبير ثابتًا. و'Ponerse la camiseta' (الانحياز لفريق) تقبل تنويع المفعول: 'ponerse la camiseta del equipo'."
+      },
+      "examples": [
+        {
+          "es": "No voy a bajar la guardia ahora que estamos al final.",
+          "en": "I am not going to give up now that we are at the end.",
+          "ar": "لن أستسلم الآن ونحن في النهاية."
+        },
+        {
+          "es": "Ella hace de carabina mejor de lo que ve películas.",
+          "en": "She is a better third wheel than a movie watcher.",
+          "ar": "هي أتقن في لعب دور الطرف الثالث منها في مشاهدة الأفلام."
+        },
+        {
+          "es": "Nos tragamos un sapo toda la semana por culpa del jefe.",
+          "en": "We swallowed insults all week because of the boss.",
+          "ar": "تجرعنا الإهانات طوال الأسبوع بسبب المدير."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Registro: Informal y Formal",
+        "en": "Register: Informal and Formal",
+        "ar": "المستوى: غير الرسمي والرسمي"
+      },
+      "explanation": {
+        "es": "Casi todos los idiomatismos anteriores pertenecen al registro coloquial. En contextos formales o académicos hay que parafrasear: en lugar de 'ser un pelota', di 'adular'; en lugar de 'dejar en la estacada', usa 'abandonar' o 'no cumplir el compromiso'. El dominio del registro es uno de los signos más fuertes de competencia en el nivel C2.",
+        "en": "Nearly all of the idioms above belong to the colloquial register. In formal or academic contexts, paraphrase instead: rather than 'ser un pelota' (to suck up), say 'adular'; rather than 'dejar en la estacada' (to leave in the lurch), use 'abandonar' or 'no cumplir el compromiso'. Mastering register is one of the strongest signs of C2 proficiency.",
+        "ar": "جميع التعابير السابقة تقريبًا تنتمي إلى المستوى العامي. في السياقات الرسمية أو الأكاديمية يجب إعادة الصياغة: بدل 'ser un pelota' (يتملق) قل 'adular'؛ وبدل 'dejar en la estacada' (يتركه في مأزق) استخدم 'abandonar' أو 'no cumplir el compromiso'. إتقان مستوى اللغة من أقوى مؤشرات إتقان المستوى C2."
+      },
+      "examples": [
+        {
+          "es": "Formal: El orador adulaba a las autoridades presentes.",
+          "en": "Formal: The speaker flattered the authorities present.",
+          "ar": "رسمي: كان المتحدث يتملق المسؤولين الحاضرين."
+        },
+        {
+          "es": "Informal: Se pasó el día haciéndole la pelota al jefe.",
+          "en": "Informal: He spent the day sucking up to the boss.",
+          "ar": "غير رسمي: أمضى اليوم كله يتملق المدير."
+        },
+        {
+          "es": "Formal: La empresa no cumplió el compromiso asumido.",
+          "en": "Formal: The company did not honor its commitment.",
+          "ar": "رسمي: لم توفِّ الشركة بالتزامها."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Después de la Fiesta",
+      "en": "After the Party",
+      "ar": "بعد الحفلة"
+    },
+    "lines": [
+      {
+        "speaker": "Clara",
+        "es": "¿Viste a Pedro haciéndole la pelota al director toda la noche?",
+        "en": "Did you see Pedro sucking up to the director all night?",
+        "ar": "هل رأيتِ بيدرو يتملق المدير طوال الليل؟"
+      },
+      {
+        "speaker": "Rafael",
+        "es": "Claro que lo vi. Se fue por las nubes cuando intentó elogiar la charla.",
+        "en": "Of course I saw. He went off the rails when he tried to praise the lecture.",
+        "ar": "بالتأكيد رأيتُه. لقد تلخبط في كلامه عندما حاول مدح المحاضرة."
+      },
+      {
+        "speaker": "Clara",
+        "es": "¿Y Mariana? Volvió a bajar la guardia y no llevó el informe.",
+        "en": "And Mariana? She let things fall apart again and did not bring the report.",
+        "ar": "وماريانا؟ لقد استسلمت مجددًا ولم تحضر التقرير."
+      },
+      {
+        "speaker": "Rafael",
+        "es": "Pues sí, pero yo voy a aguantar la vela, como siempre, y terminar el proyecto solo.",
+        "en": "Right, but as always I'll be the one left holding the bag and finish the project alone.",
+        "ar": "صحيح، لكنني سأبقى كما هو الحال دائمًا في موقف صعب وأنهي المشروع وحدي."
+      },
+      {
+        "speaker": "Clara",
+        "es": "No te comas las palabras después, ¿eh? Ya me están entrando dudas con esa gente.",
+        "en": "Don't eat your words later, okay? I am already getting suspicious of this crowd.",
+        "ar": "لا تتراجع عن كلامك لاحقًا، اتفقنا؟ أنا بدأت أشك في هذه المجموعة."
+      },
+      {
+        "speaker": "Rafael",
+        "es": "De acuerdo. Antes dejo a nadie en la estacada que dar largas hasta la madrugada.",
+        "en": "Deal. I would rather not leave anyone in the lurch than drag things on until dawn.",
+        "ar": "متّفق. الأفضل ألا أتخلى عن أحد بدلًا من إطالة الكلام بلا طائل حتى الفجر."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Valor del Registro",
+      "en": "The Value of Register",
+      "ar": "قيمة المستوى اللغوي"
+    },
+    "text_es": "En la entrevista de trabajo, Ana casi hace el ridículo al usar una jerga en el lugar equivocado. Al darse cuenta del desliz, lo remedió con elegancia y se puso la camiseta de la empresa en los meses siguientes. La experiencia le enseñó que dominar el registro es tan importante como dominar el vocabulario. Hoy parafrasea con naturalidad, sin bajar jamás la guardia.",
+    "text_en": "At the job interview, Ana almost embarrassed herself by using slang in the wrong place. Noticing the slip, she remedied it with elegance and committed herself wholeheartedly to the company in the following months. The experience taught her that mastering register is as important as mastering vocabulary. Today she paraphrases with ease, without ever giving up.",
+    "text_ar": "في مقابلة العمل، كادت آنا أن تتعرض للإحراج عندما استخدمت تعبيرًا عاميًا في غير موضعه. وبعد أن لاحظت الخطأ، عالجته بأناقة والتصقت بالشركة بإخلاص في الأشهر التالية. علّمتها التجربة أن إتقان المستوى اللغوي لا يقل أهمية عن إتقان المفردات. وهي اليوم تعيد الصياغة بسهولة دون أن تستسلم أبدًا."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué expresión significa 'contar un secreto'?",
+        "en": "Which expression means 'to tell a secret'?",
+        "ar": "ما التعبير الذي يعني 'إفشاء سر'؟"
+      },
+      "options": [
+        {
+          "es": "comerse las palabras",
+          "en": "to eat one's words",
+          "ar": "يتراجع عن كلامه نادمًا"
+        },
+        {
+          "es": "ir con el cuento",
+          "en": "to spill the beans",
+          "ar": "يفشي السر"
+        },
+        {
+          "es": "redundar",
+          "en": "to state the obvious",
+          "ar": "يفصح عن البديهي"
+        }
+      ],
+      "answer": "ir con el cuento",
+      "explanation": {
+        "es": "'Ir con el cuento' es revelar, contar un secreto.",
+        "en": "'Dar com a língua nos dentes' means to reveal, to tell a secret.",
+        "ar": "التعبير 'dar com a língua nos dentes' يعني الإفصاح عن سر."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "En un texto formal, ¿cómo sustituir 'ser un pelota'?",
+        "en": "In a formal text, how do you replace 'puxar saco'?",
+        "ar": "في نص رسمي، بماذا نستبدل 'puxar saco'؟"
+      },
+      "options": [
+        {
+          "es": "adular",
+          "en": "adular",
+          "ar": "adular"
+        },
+        {
+          "es": "irse por las nubes, divagar",
+          "en": "to talk nonsense, to be confused",
+          "ar": "يتكلم كلامًا غير مفهوم"
+        },
+        {
+          "es": "hacer de carabina, aguantar la vela",
+          "en": "to be a third wheel",
+          "ar": "يكون طرفًا ثالثًا محرجًا"
+        }
+      ],
+      "answer": "adular",
+      "explanation": {
+        "es": "'Adular' es el equivalente formal de 'ser un pelota'.",
+        "en": "'Adular' (to flatter) is the formal equivalent of 'puxar saco'.",
+        "ar": "الفعل 'adular' (يتملق) هو المقابل الرسمي لـ 'puxar saco'."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: 'to eat one's words'",
+        "en": "Translate into Spanish: 'to eat one's words'",
+        "ar": "ترجم إلى بالإسبانية: 'to eat one's words'"
+      },
+      "options": [],
+      "answer": "comerse las palabras",
+      "explanation": {
+        "es": "'Comerse las palabras' es la expresión equivalente.",
+        "en": "'Morder a língua' is the equivalent expression.",
+        "ar": "التعبير 'morder a língua' هو المكافئ."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'to eat one's words'?",
+        "en": "Which word means 'to eat one's words'?",
+        "ar": "أي كلمة تعني 'يتراجع عن كلامه نادمًا'؟"
+      },
+      "options": [
+        {
+          "es": "dejar en la estacada",
+          "en": "to leave someone in the lurch",
+          "ar": "يتركه في مأزق / يتخلى عنه"
+        },
+        {
+          "es": "comerse las palabras",
+          "en": "to eat one's words",
+          "ar": "يتراجع عن كلامه نادمًا"
+        },
+        {
+          "es": "tragarse un sapo, aguantar",
+          "en": "to swallow an insult silently",
+          "ar": "يتجرع الإهانة بصمت"
+        }
+      ],
+      "answer": "comerse las palabras",
+      "explanation": {
+        "es": "'comerse las palabras' significa 'to eat one's words'.",
+        "en": "'comerse las palabras' means 'to eat one's words'.",
+        "ar": "تعني 'comerse las palabras' 'يتراجع عن كلامه نادمًا'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'to do something hastily and sloppily'",
+        "en": "Choose the Spanish word: 'to do something hastily and sloppily'",
+        "ar": "اختر الكلمة بالإسبانية: 'يعمل الشيء على عجل وبلا إتقان'"
+      },
+      "options": [
+        {
+          "es": "quedarse esperando en vano",
+          "en": "to be left empty-handed",
+          "ar": "يخسر كل شيء / يظل بلا شيء"
+        },
+        {
+          "es": "dejar en la estacada",
+          "en": "to leave someone in the lurch",
+          "ar": "يتركه في مأزق / يتخلى عنه"
+        },
+        {
+          "es": "hacer algo a la ligera, chapuceramente",
+          "en": "to do something hastily and sloppily",
+          "ar": "يعمل الشيء على عجل وبلا إتقان"
+        }
+      ],
+      "answer": "hacer algo a la ligera, chapuceramente",
+      "explanation": {
+        "es": "'hacer algo a la ligera, chapuceramente' significa 'to do something hastily and sloppily'.",
+        "en": "'hacer algo a la ligera, chapuceramente' means 'to do something hastily and sloppily'.",
+        "ar": "تعني 'hacer algo a la ligera, chapuceramente' 'يعمل الشيء على عجل وبلا إتقان'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'to swallow an insult silently' en español?",
+        "en": "How do you say 'to swallow an insult silently' in Spanish?",
+        "ar": "كيف تقول 'يتجرع الإهانة بصمت' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "tragarse un sapo, aguantar",
+          "en": "to swallow an insult silently",
+          "ar": "يتجرع الإهانة بصمت"
+        },
+        {
+          "es": "bajar la guardia",
+          "en": "to give up, to let things fall apart",
+          "ar": "يستسلم / يُسقط الأمر"
+        },
+        {
+          "es": "insistir en lo mismo",
+          "en": "to harp on the same subject",
+          "ar": "يُعيد نفس الموضوع مرارًا"
+        },
+        {
+          "es": "quedarse alerta, con las orejas paradas",
+          "en": "to be on alert, suspicious",
+          "ar": "يكون في حالة تأهب وارتياب"
+        }
+      ],
+      "answer": "tragarse un sapo, aguantar",
+      "explanation": {
+        "es": "'tragarse un sapo, aguantar' significa 'to swallow an insult silently'.",
+        "en": "'tragarse un sapo, aguantar' means 'to swallow an insult silently'.",
+        "ar": "تعني 'tragarse un sapo, aguantar' 'يتجرع الإهانة بصمت'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'to state the obvious'?",
+        "en": "Which word means 'to state the obvious'?",
+        "ar": "أي كلمة تعني 'يُطيل في كلام بديهي'؟"
+      },
+      "options": [
+        {
+          "es": "redundar",
+          "en": "to state the obvious",
+          "ar": "يُطيل في كلام بديهي"
+        },
+        {
+          "es": "ponerse la camiseta",
+          "en": "to commit wholeheartedly",
+          "ar": "يلتزم بإخلاص تام"
+        },
+        {
+          "es": "comerse las palabras",
+          "en": "to eat one's words",
+          "ar": "يتراجع عن كلامه نادمًا"
+        }
+      ],
+      "answer": "redundar",
+      "explanation": {
+        "es": "'redundar' significa 'to state the obvious'.",
+        "en": "'redundar' means 'to state the obvious'.",
+        "ar": "تعني 'redundar' 'يُطيل في كلام بديهي'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Do not harp on the same subject all meeting.\"",
+        "en": "Translate into Spanish: \"Do not harp on the same subject all meeting.\"",
+        "ar": "ترجم إلى الإسبانية: \"لا تكرر نفس الموضوع طوال الاجتماع.\""
+      },
+      "options": [],
+      "answer": "Insistir en lo mismo cansa al grupo.",
+      "explanation": {
+        "es": "Respuesta: \"Insistir en lo mismo cansa al grupo.\".",
+        "en": "Answer: \"Insistir en lo mismo cansa al grupo.\".",
+        "ar": "الإجابة: \"Insistir en lo mismo cansa al grupo.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Do not look after your own interests in the meeting.\"",
+        "en": "Translate into Spanish: \"Do not look after your own interests in the meeting.\"",
+        "ar": "ترجم إلى الإسبانية: \"لا ترجّح كفتك في الاجتماع.\""
+      },
+      "options": [],
+      "answer": "Arrimar el ascua a su sardina molesta al equipo.",
+      "explanation": {
+        "es": "Respuesta: \"Arrimar el ascua a su sardina molesta al equipo.\".",
+        "en": "Answer: \"Arrimar el ascua a su sardina molesta al equipo.\".",
+        "ar": "الإجابة: \"Arrimar el ascua a su sardina molesta al equipo.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Right, but as always I'll be the one left holding the bag and finish the project alone.\"",
+        "en": "Translate into Spanish: \"Right, but as always I'll be the one left holding the bag and finish the project alone.\"",
+        "ar": "ترجم إلى الإسبانية: \"صحيح، لكنني سأبقى كما هو الحال دائمًا في موقف صعب وأنهي المشروع وحدي.\""
+      },
+      "options": [],
+      "answer": "Pues sí, pero yo voy a aguantar la vela, como siempre, y terminar el proyecto solo.",
+      "explanation": {
+        "es": "Respuesta: \"Pues sí, pero yo voy a aguantar la vela, como siempre, y terminar el proyecto solo.\".",
+        "en": "Answer: \"Pues sí, pero yo voy a aguantar la vela, como siempre, y terminar el proyecto solo.\".",
+        "ar": "الإجابة: \"Pues sí, pero yo voy a aguantar la vela, como siempre, y terminar el proyecto solo.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Of course I saw. He went off the rails when he tried to praise the lecture.\"",
+        "en": "Translate into Spanish: \"Of course I saw. He went off the rails when he tried to praise the lecture.\"",
+        "ar": "ترجم إلى الإسبانية: \"بالتأكيد رأيتُه. لقد تلخبط في كلامه عندما حاول مدح المحاضرة.\""
+      },
+      "options": [],
+      "answer": "Claro que lo vi. Se fue por las nubes cuando intentó elogiar la charla.",
+      "explanation": {
+        "es": "Respuesta: \"Claro que lo vi. Se fue por las nubes cuando intentó elogiar la charla.\".",
+        "en": "Answer: \"Claro que lo vi. Se fue por las nubes cuando intentó elogiar la charla.\".",
+        "ar": "الإجابة: \"Claro que lo vi. Se fue por las nubes cuando intentó elogiar la charla.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "El Valor del Registro",
-   "en": "The Value of Register",
-   "ar": "قيمة المستوى اللغوي"
-  },
-  "text_es": "En la entrevista de trabajo, Ana casi hace el ridículo al usar una jerga en el lugar equivocado. Al darse cuenta del desliz, lo remedió con elegancia y se puso la camiseta de la empresa en los meses siguientes. La experiencia le enseñó que dominar el registro es tan importante como dominar el vocabulario. Hoy parafrasea con naturalidad, sin bajar jamás la guardia.",
-  "text_en": "At the job interview, Ana almost embarrassed herself by using slang in the wrong place. Noticing the slip, she remedied it with elegance and committed herself wholeheartedly to the company in the following months. The experience taught her that mastering register is as important as mastering vocabulary. Today she paraphrases with ease, without ever giving up.",
-  "text_ar": "في مقابلة العمل، كادت آنا أن تتعرض للإحراج عندما استخدمت تعبيرًا عاميًا في غير موضعه. وبعد أن لاحظت الخطأ، عالجته بأناقة والتصقت بالشركة بإخلاص في الأشهر التالية. علّمتها التجربة أن إتقان المستوى اللغوي لا يقل أهمية عن إتقان المفردات. وهي اليوم تعيد الصياغة بسهولة دون أن تستسلم أبدًا."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Qué expresión significa 'contar un secreto'?",
-    "en": "Which expression means 'to tell a secret'?",
-    "ar": "ما التعبير الذي يعني 'إفشاء سر'؟"
-   },
-   "options": [
-    {
-     "es": "comerse las palabras",
-     "en": "to eat one's words",
-     "ar": "يتراجع عن كلامه نادمًا"
-    },
-    {
-     "es": "ir con el cuento",
-     "en": "to spill the beans",
-     "ar": "يفشي السر"
-    },
-    {
-     "es": "redundar",
-     "en": "chover no molhado",
-     "ar": "chover no molhado"
-    }
-   ],
-   "answer": "ir con el cuento",
-   "explanation": {
-    "es": "'Ir con el cuento' es revelar, contar un secreto.",
-    "en": "'Dar com a língua nos dentes' means to reveal, to tell a secret.",
-    "ar": "التعبير 'dar com a língua nos dentes' يعني الإفصاح عن سر."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "En un texto formal, ¿cómo sustituir 'ser un pelota'?",
-    "en": "In a formal text, how do you replace 'puxar saco'?",
-    "ar": "في نص رسمي، بماذا نستبدل 'puxar saco'؟"
-   },
-   "options": [
-    {
-     "es": "adular",
-     "en": "adular",
-     "ar": "adular"
-    },
-    {
-     "es": "irse por las nubes, divagar",
-     "en": "to talk nonsense, to be confused",
-     "ar": "يتكلم كلامًا غير مفهوم"
-    },
-    {
-     "es": "hacer de carabina, aguantar la vela",
-     "en": "to be a third wheel",
-     "ar": "يكون طرفًا ثالثًا محرجًا"
-    }
-   ],
-   "answer": "adular",
-   "explanation": {
-    "es": "'Adular' es el equivalente formal de 'ser un pelota'.",
-    "en": "'Adular' (to flatter) is the formal equivalent of 'puxar saco'.",
-    "ar": "الفعل 'adular' (يتملق) هو المقابل الرسمي لـ 'puxar saco'."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce al español: 'to eat one's words'",
-    "en": "Translate into Portuguese: 'to eat one's words'",
-    "ar": "ترجم إلى البرتغالية: 'to eat one's words'"
-   },
-   "options": [],
-   "answer": "comerse las palabras",
-   "explanation": {
-    "es": "'Comerse las palabras' es la expresión equivalente.",
-    "en": "'Morder a língua' is the equivalent expression.",
-    "ar": "التعبير 'morder a língua' هو المكافئ."
-   }
-  }
- ]
 }

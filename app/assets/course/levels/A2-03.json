@@ -1,335 +1,622 @@
 {
- "id": "A2-03",
- "level": "A2",
- "level_name": {
-  "es": "Básico",
-  "en": "Elementary",
-  "ar": "أساسي"
- },
- "title": {
-  "es": "Pronombres de Objeto",
-  "en": "Object Pronouns",
-  "ar": "ضمائر المفعول"
- },
- "objectives": [
-  {
-   "es": "Usar pronombres de objeto (me, te, le, nos)",
-   "en": "Use object pronouns (me, te, lhe, nos)",
-   "ar": "استخدام ضمائر المفعول (me، te، lhe، nos)"
+  "id": "A2-03",
+  "level": "A2",
+  "level_name": {
+    "es": "Básico",
+    "en": "Elementary",
+    "ar": "أساسي"
   },
-  {
-   "es": "Sustituir objetos directos e indirectos",
-   "en": "Replace direct and indirect objects",
-   "ar": "استبدال المفعول به المباشر وغير المباشر"
-  },
-  {
-   "es": "Hacer peticiones de favor con naturalidad",
-   "en": "Make requests for favors naturally",
-   "ar": "تقديم طلبات المعروف بشكل طبيعي"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "me",
-   "ipa": "/ˈme/",
-   "en": "me",
-   "ar": "إياي / لي"
-  },
-  {
-   "es": "te",
-   "ipa": "/ˈte/",
-   "en": "you",
-   "ar": "إياك / لك"
-  },
-  {
-   "es": "lo / la",
-   "ipa": "/ˈlo ˈla/",
-   "en": "him / her / it",
-   "ar": "إياه / إياها"
-  },
-  {
-   "es": "los / las",
-   "ipa": "/ˈlos ˈlas/",
-   "en": "them",
-   "ar": "إياهم / إياهن"
-  },
-  {
-   "es": "le",
-   "ipa": "/ˈle/",
-   "en": "to him / to her",
-   "ar": "له / لها"
-  },
-  {
-   "es": "nos",
-   "ipa": "/ˈnos/",
-   "en": "us",
-   "ar": "إيانا / لنا"
-  },
-  {
-   "es": "dar",
-   "ipa": "/ˈdaɾ/",
-   "en": "to give",
-   "ar": "يعطي"
-  },
-  {
-   "es": "prestar",
-   "ipa": "/pɾeˈstaɾ/",
-   "en": "to lend",
-   "ar": "يعير"
-  },
-  {
-   "es": "pedir",
-   "ipa": "/peˈðiɾ/",
-   "en": "to ask for",
-   "ar": "يطلب"
-  },
-  {
-   "es": "ayudar",
-   "ipa": "/aʝuˈðaɾ/",
-   "en": "to help",
-   "ar": "يساعد"
-  },
-  {
-   "es": "oír",
-   "ipa": "/ˈoiɾ/",
-   "en": "to hear / to listen",
-   "ar": "يسمع"
-  },
-  {
-   "es": "invitar",
-   "ipa": "/inbiˈtaɾ/",
-   "en": "to invite",
-   "ar": "يدعو"
-  },
-  {
-   "es": "esperar",
-   "ipa": "/espeˈɾaɾ/",
-   "en": "to wait for",
-   "ar": "ينتظر"
-  },
-  {
-   "es": "abrazar",
-   "ipa": "/aβɾaˈsaɾ/",
-   "en": "to hug",
-   "ar": "يعانق"
-  },
-  {
-   "es": "el favor",
-   "ipa": "/ˈel faˈβoɾ/",
-   "en": "the favor",
-   "ar": "المعروف"
-  },
-  {
-   "es": "el consejo",
-   "ipa": "/ˈel koˈnsexo/",
-   "en": "the advice",
-   "ar": "النصيحة"
-  },
-  {
-   "es": "la respuesta",
-   "ipa": "/ˈla reˈspuesta/",
-   "en": "the answer",
-   "ar": "الإجابة"
-  },
-  {
-   "es": "entender",
-   "ipa": "/enteˈndeɾ/",
-   "en": "to understand",
-   "ar": "يفهم"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Pronombres de Objeto Directo",
-    "en": "Direct Object Pronouns",
-    "ar": "ضمائر المفعول به المباشر"
-   },
-   "explanation": {
-    "es": "Los pronombres átonos de objeto sustituyen al objeto directo: me (me), te (you), lo/la (him/her/it), nos (us), los/las (them). En español suelen ir antes del verbo: 'Te veo.' En el habla informal es común empezar con el pronombre: 'Te llamo mañana.'",
-    "en": "Unstressed object pronouns replace the direct object: me (me), te (you), lo/la (him/her/it), nos (us), los/las (them). In Spanish they usually go before the verb: 'Te veo.' In informal speech, starting with the pronoun is common: 'Te llamo mañana.'",
-    "ar": "ضمائر المفعول غير المنبورة تحل محل المفعول به المباشر: me (إياي)، te (إياك)، lo/la (إياه/إياها)، nos (إيانا)، los/las (إياهم/إياهن). في الإسبانية تأتي عادة قبل الفعل: 'Te veo.' وفي الكلام غير الرسمي يشيع البدء بالضمير: 'Te llamo mañana.'"
-   },
-   "examples": [
-    {
-     "es": "Te veo esta noche.",
-     "en": "I see you tonight.",
-     "ar": "أراك الليلة."
-    },
-    {
-     "es": "Ella me espera en la escuela.",
-     "en": "She waits for me at school.",
-     "ar": "تنتظرني في المدرسة."
-    },
-    {
-     "es": "Los invitamos a la fiesta.",
-     "en": "We invited them to the party.",
-     "ar": "دعونا إياهم إلى الحفلة."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Pronombres de Objeto Indirecto",
-    "en": "Indirect Object Pronouns",
-    "ar": "ضمائر المفعول به غير المباشر"
-   },
-   "explanation": {
-    "es": "Los pronombres de objeto indirecto indican para quién: me, te, le, nos, les. 'Le' significa 'para él/ella'. Ejemplos: 'Le doy el libro' (I give him/her the book), 'Ella te presta el coche' (She lends you the car). Verbos comunes: dar, prestar, pedir.",
-    "en": "The indirect object pronouns indicate for whom: me, te, lhe, nos, lhes. 'Lhe' means 'to him/her'. Examples: 'Eu lhe dou o livro' (I give him/her the book), 'Ela te empresta o carro' (She lends you the car). Common verbs: dar, emprestar, pedir.",
-    "ar": "ضمائر المفعول به غير المباشر تدل على الجهة المستفيدة: me، te، lhe، nos، lhes. 'lhe' تعني 'له/لها'. أمثلة: 'Eu lhe dou o livro' (أعطيه الكتاب)، 'Ela te empresta o carro' (هي تعيرك السيارة). أفعال شائعة: dar، emprestar، pedir."
-   },
-   "examples": [
-    {
-     "es": "Le presto el dinero.",
-     "en": "I lend you/him/her the money.",
-     "ar": "أقرضه المال."
-    },
-    {
-     "es": "Ella me pidió un favor.",
-     "en": "She asked me a favor.",
-     "ar": "طلبت مني معروفًا."
-    },
-    {
-     "es": "Le damos un consejo.",
-     "en": "We give you/him/her advice.",
-     "ar": "نعطيه نصيحة."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "La Petición de Favor",
-   "en": "The Request for a Favor",
-   "ar": "طلب المعروف"
+    "es": "Pronombres de Objeto",
+    "en": "Object Pronouns",
+    "ar": "ضمائر المفعول"
   },
-  "lines": [
-   {
-    "speaker": "Marina",
-    "es": "Pedro, ¿puedes ayudarme?",
-    "en": "Pedro, can you help me?",
-    "ar": "بيدرو، هل يمكنك مساعدتي؟"
-   },
-   {
-    "speaker": "Pedro",
-    "es": "¡Claro! ¿Qué necesitas?",
-    "en": "Of course! What do you need?",
-    "ar": "بالتأكيد! ماذا تحتاجين؟"
-   },
-   {
-    "speaker": "Marina",
-    "es": "Necesito que me prestes el coche hoy.",
-    "en": "I need you to lend me the car today.",
-    "ar": "أحتاج أن تعيرني السيارة اليوم."
-   },
-   {
-    "speaker": "Pedro",
-    "es": "Sin problema. Te espero en el garaje.",
-    "en": "No problem. I will wait for you at the garage.",
-    "ar": "لا مشكلة. سأنتظرك في المرآب."
-   },
-   {
-    "speaker": "Marina",
-    "es": "¡Muchas gracias! Te lo devuelvo esta noche.",
-    "en": "Thank you very much! I will return it to you tonight.",
-    "ar": "شكرًا جزيلًا! سأعيدها لك في الليل."
-   },
-   {
-    "speaker": "Pedro",
-    "es": "No te preocupes. Si pasa algo, me llamas.",
-    "en": "Do not worry. Anything, call me.",
-    "ar": "لا تقلقي. أي شيء، اتصل بي."
-   }
+  "objectives": [
+    {
+      "es": "Usar pronombres de objeto (me, te, le, nos)",
+      "en": "Use object pronouns (me, te, lhe, nos)",
+      "ar": "استخدام ضمائر المفعول (me، te، lhe، nos)"
+    },
+    {
+      "es": "Sustituir objetos directos e indirectos",
+      "en": "Replace direct and indirect objects",
+      "ar": "استبدال المفعول به المباشر وغير المباشر"
+    },
+    {
+      "es": "Hacer peticiones de favor con naturalidad",
+      "en": "Make requests for favors naturally",
+      "ar": "تقديم طلبات المعروف بشكل طبيعي"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "me",
+      "ipa": "/ˈme/",
+      "en": "me",
+      "ar": "إياي / لي",
+      "example": {
+        "es": "El problema me preocupa.",
+        "en": "The problem worries me.",
+        "ar": "المشكلة تقلقني."
+      }
+    },
+    {
+      "es": "te",
+      "ipa": "/ˈte/",
+      "en": "you",
+      "ar": "إياك / لك",
+      "example": {
+        "es": "Te espero en la plaza.",
+        "en": "I will wait for you in the square.",
+        "ar": "سأنتظرك في الساحة."
+      }
+    },
+    {
+      "es": "lo / la",
+      "ipa": "/ˈlo ˈla/",
+      "en": "him / her / it",
+      "ar": "إياه / إياها",
+      "example": {
+        "es": "Lo vi en la calle ayer.",
+        "en": "I saw him on the street yesterday.",
+        "ar": "رأيته في الشارع أمس."
+      }
+    },
+    {
+      "es": "los / las",
+      "ipa": "/ˈlos ˈlas/",
+      "en": "them",
+      "ar": "إياهم / إياهن",
+      "example": {
+        "es": "Los compré en el mercado.",
+        "en": "I bought them at the market.",
+        "ar": "اشتريتهم من السوق."
+      }
+    },
+    {
+      "es": "le",
+      "ipa": "/ˈle/",
+      "en": "to him / to her",
+      "ar": "له / لها",
+      "example": {
+        "es": "Le di el libro a mi hermana.",
+        "en": "I gave the book to my sister.",
+        "ar": "أعطيت الكتاب لأختي."
+      }
+    },
+    {
+      "es": "nos",
+      "ipa": "/ˈnos/",
+      "en": "us",
+      "ar": "إيانا / لنا",
+      "example": {
+        "es": "Nos vemos mañana.",
+        "en": "See you tomorrow.",
+        "ar": "نرى غدًا."
+      }
+    },
+    {
+      "es": "dar",
+      "ipa": "/ˈdaɾ/",
+      "en": "to give",
+      "ar": "يعطي",
+      "example": {
+        "es": "Voy a dar un paseo por la ciudad.",
+        "en": "I am going to take a walk through the city.",
+        "ar": "سأتجول في المدينة."
+      }
+    },
+    {
+      "es": "prestar",
+      "ipa": "/pɾeˈstaɾ/",
+      "en": "to lend",
+      "ar": "يعير",
+      "example": {
+        "es": "Puedo prestarte mi bicicleta.",
+        "en": "I can lend you my bike.",
+        "ar": "يمكنني إعارة دراجتي."
+      }
+    },
+    {
+      "es": "pedir",
+      "ipa": "/peˈðiɾ/",
+      "en": "to ask for",
+      "ar": "يطلب",
+      "example": {
+        "es": "Pediré un café con leche.",
+        "en": "I will order a coffee with milk.",
+        "ar": "سأطلب قهوة بالحليب."
+      }
+    },
+    {
+      "es": "ayudar",
+      "ipa": "/aʝuˈðaɾ/",
+      "en": "to help",
+      "ar": "يساعد",
+      "example": {
+        "es": "Voy a ayudar a mi abuela.",
+        "en": "I am going to help my grandmother.",
+        "ar": "سأساعد جدتي."
+      }
+    },
+    {
+      "es": "oír",
+      "ipa": "/ˈoiɾ/",
+      "en": "to hear / to listen",
+      "ar": "يسمع",
+      "example": {
+        "es": "No puedo oír la música.",
+        "en": "I cannot hear the music.",
+        "ar": "لا أستطيع سماع الموسيقى."
+      }
+    },
+    {
+      "es": "invitar",
+      "ipa": "/inbiˈtaɾ/",
+      "en": "to invite",
+      "ar": "يدعو",
+      "example": {
+        "es": "Quiero invitarte a mi casa.",
+        "en": "I want to invite you to my house.",
+        "ar": "أريد أن أدعوك إلى منزلي."
+      }
+    },
+    {
+      "es": "esperar",
+      "ipa": "/espeˈɾaɾ/",
+      "en": "to wait for",
+      "ar": "ينتظر",
+      "example": {
+        "es": "Esperar tu respuesta me agota.",
+        "en": "I await your reply soon.",
+        "ar": "أنتظر ردك قريبًا."
+      }
+    },
+    {
+      "es": "abrazar",
+      "ipa": "/aβɾaˈsaɾ/",
+      "en": "to hug",
+      "ar": "يعانق",
+      "example": {
+        "es": "Me gusta abrazar a mis amigos.",
+        "en": "I like to hug my friends.",
+        "ar": "أحب عناق أصدقائي."
+      }
+    },
+    {
+      "es": "el favor",
+      "ipa": "/ˈel faˈβoɾ/",
+      "en": "the favor",
+      "ar": "المعروف",
+      "example": {
+        "es": "¿Me haces el favor de esperar?",
+        "en": "Can you do me a favor?",
+        "ar": "هل تفعل لي معروفًا؟"
+      }
+    },
+    {
+      "es": "el consejo",
+      "ipa": "/ˈel koˈnsexo/",
+      "en": "the advice",
+      "ar": "النصيحة",
+      "example": {
+        "es": "El consejo de mi madre fue útil.",
+        "en": "My mother's advice was useful.",
+        "ar": "كانت نصيحة أمي مفيدة."
+      }
+    },
+    {
+      "es": "la respuesta",
+      "ipa": "/ˈla reˈspuesta/",
+      "en": "the answer",
+      "ar": "الإجابة",
+      "example": {
+        "es": "La respuesta es muy sencilla.",
+        "en": "The answer is very simple.",
+        "ar": "الإجابة بسيطة جدًا."
+      }
+    },
+    {
+      "es": "entender",
+      "ipa": "/enteˈndeɾ/",
+      "en": "to understand",
+      "ar": "يفهم",
+      "example": {
+        "es": "Es difícil entender esta regla.",
+        "en": "It is hard to understand this rule.",
+        "ar": "من الصعب فهم هذه القاعدة."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Pronombres de Objeto Directo",
+        "en": "Direct Object Pronouns",
+        "ar": "ضمائر المفعول به المباشر"
+      },
+      "explanation": {
+        "es": "Los pronombres átonos de objeto sustituyen al objeto directo: me (me), te (you), lo/la (him/her/it), nos (us), los/las (them). En español suelen ir antes del verbo: 'Te veo.' En el habla informal es común empezar con el pronombre: 'Te llamo mañana.'",
+        "en": "Unstressed object pronouns replace the direct object: me (me), te (you), lo/la (him/her/it), nos (us), los/las (them). In Spanish they usually go before the verb: 'Te veo.' In informal speech, starting with the pronoun is common: 'Te llamo mañana.'",
+        "ar": "ضمائر المفعول غير المنبورة تحل محل المفعول به المباشر: me (إياي)، te (إياك)، lo/la (إياه/إياها)، nos (إيانا)، los/las (إياهم/إياهن). في الإسبانية تأتي عادة قبل الفعل: 'Te veo.' وفي الكلام غير الرسمي يشيع البدء بالضمير: 'Te llamo mañana.'"
+      },
+      "examples": [
+        {
+          "es": "Te veo esta noche.",
+          "en": "I see you tonight.",
+          "ar": "أراك الليلة."
+        },
+        {
+          "es": "Ella me espera en la escuela.",
+          "en": "She waits for me at school.",
+          "ar": "تنتظرني في المدرسة."
+        },
+        {
+          "es": "Los invitamos a la fiesta.",
+          "en": "We invited them to the party.",
+          "ar": "دعونا إياهم إلى الحفلة."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Pronombres de Objeto Indirecto",
+        "en": "Indirect Object Pronouns",
+        "ar": "ضمائر المفعول به غير المباشر"
+      },
+      "explanation": {
+        "es": "Los pronombres de objeto indirecto indican para quién: me, te, le, nos, les. 'Le' significa 'para él/ella'. Ejemplos: 'Le doy el libro' (I give him/her the book), 'Ella te presta el coche' (She lends you the car). Verbos comunes: dar, prestar, pedir.",
+        "en": "The indirect object pronouns indicate for whom: me, te, lhe, nos, lhes. 'Lhe' means 'to him/her'. Examples: 'Eu lhe dou o livro' (I give him/her the book), 'Ela te empresta o carro' (She lends you the car). Common verbs: dar, emprestar, pedir.",
+        "ar": "ضمائر المفعول به غير المباشر تدل على الجهة المستفيدة: me، te، lhe، nos، lhes. 'lhe' تعني 'له/لها'. أمثلة: 'Eu lhe dou o livro' (أعطيه الكتاب)، 'Ela te empresta o carro' (هي تعيرك السيارة). أفعال شائعة: dar، emprestar، pedir."
+      },
+      "examples": [
+        {
+          "es": "Le presto el dinero.",
+          "en": "I lend you/him/her the money.",
+          "ar": "أقرضه المال."
+        },
+        {
+          "es": "Ella me pidió un favor.",
+          "en": "She asked me a favor.",
+          "ar": "طلبت مني معروفًا."
+        },
+        {
+          "es": "Le damos un consejo.",
+          "en": "We give you/him/her advice.",
+          "ar": "نعطيه نصيحة."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "La Petición de Favor",
+      "en": "The Request for a Favor",
+      "ar": "طلب المعروف"
+    },
+    "lines": [
+      {
+        "speaker": "Marina",
+        "es": "Pedro, ¿puedes ayudarme?",
+        "en": "Pedro, can you help me?",
+        "ar": "بيدرو، هل يمكنك مساعدتي؟"
+      },
+      {
+        "speaker": "Pedro",
+        "es": "¡Claro! ¿Qué necesitas?",
+        "en": "Of course! What do you need?",
+        "ar": "بالتأكيد! ماذا تحتاجين؟"
+      },
+      {
+        "speaker": "Marina",
+        "es": "Necesito que me prestes el coche hoy.",
+        "en": "I need you to lend me the car today.",
+        "ar": "أحتاج أن تعيرني السيارة اليوم."
+      },
+      {
+        "speaker": "Pedro",
+        "es": "Sin problema. Te espero en el garaje.",
+        "en": "No problem. I will wait for you at the garage.",
+        "ar": "لا مشكلة. سأنتظرك في المرآب."
+      },
+      {
+        "speaker": "Marina",
+        "es": "¡Muchas gracias! Te lo devuelvo esta noche.",
+        "en": "Thank you very much! I will return it to you tonight.",
+        "ar": "شكرًا جزيلًا! سأعيدها لك في الليل."
+      },
+      {
+        "speaker": "Pedro",
+        "es": "No te preocupes. Si pasa algo, me llamas.",
+        "en": "Do not worry. Anything, call me.",
+        "ar": "لا تقلقي. أي شيء، اتصل بي."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "La Ayuda del Hermano",
+      "en": "The Brother's Help",
+      "ar": "مساعدة الأخ"
+    },
+    "text_es": "María va a mudarse y necesita ayuda. Le pidió a su hermano que la ayude el sábado, y él aceptó. Él la va a esperar en el nuevo apartamento. Ella le dará un regalo para agradecer.",
+    "text_en": "Maria is going to move and needs help. She asked her brother to help her on Saturday, and he accepted. He will wait for her at the new apartment. She will give him a gift to thank him.",
+    "text_ar": "ماريا على وشك الانتقال وتحتاج إلى مساعدة. طلبت من أخيها مساعدتها يوم السبت، فوافق. سينتظرها في الشقة الجديدة. ستعطيه هدية لشكره."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Ella ___ ayudó con la tarea.",
+        "en": "She ___ helped with the homework.",
+        "ar": "هي ___ ساعدت في الواجب."
+      },
+      "options": [
+        {
+          "es": "me",
+          "en": "me",
+          "ar": "me"
+        },
+        {
+          "es": "te",
+          "en": "te",
+          "ar": "te"
+        },
+        {
+          "es": "le",
+          "en": "to him/her",
+          "ar": "له/لها"
+        }
+      ],
+      "answer": "me",
+      "explanation": {
+        "es": "'Me' = me (objeto directo).",
+        "en": "'Me' = me (direct object).",
+        "ar": "'me' = إياي (مفعول به مباشر)."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Nosotros ___ prestamos el coche.",
+        "en": "We ___ lend the car.",
+        "ar": "نحن ___ نعير السيارة."
+      },
+      "options": [
+        {
+          "es": "le",
+          "en": "to him/her",
+          "ar": "له/لها"
+        },
+        {
+          "es": "nos",
+          "en": "nos",
+          "ar": "nos"
+        },
+        {
+          "es": "les",
+          "en": "to them",
+          "ar": "لهم"
+        }
+      ],
+      "answer": "le",
+      "explanation": {
+        "es": "'Le' = para él/ella. Prestar algo a alguien.",
+        "en": "'Lhe' = to him/her. To lend something to someone.",
+        "ar": "'lhe' = له/لها. إعارة شيء لشخص ما."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'can you help me?'",
+        "en": "Translate: 'can you help me?'",
+        "ar": "ترجم: 'can you help me?'"
+      },
+      "options": [],
+      "answer": "¿puedes ayudarme?",
+      "explanation": {
+        "es": "'¿Puedes ayudarme?' = Can you help me?",
+        "en": "'Pode me ajudar?' = Can you help me?",
+        "ar": "'Pode me ajudar?' = هل يمكنك مساعدتي؟"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the answer'?",
+        "en": "Which word means 'the answer'?",
+        "ar": "أي كلمة تعني 'الإجابة'؟"
+      },
+      "options": [
+        {
+          "es": "me",
+          "en": "me",
+          "ar": "إياي / لي"
+        },
+        {
+          "es": "la respuesta",
+          "en": "the answer",
+          "ar": "الإجابة"
+        },
+        {
+          "es": "esperar",
+          "en": "to wait for",
+          "ar": "ينتظر"
+        }
+      ],
+      "answer": "la respuesta",
+      "explanation": {
+        "es": "'la respuesta' significa 'the answer'.",
+        "en": "'la respuesta' means 'the answer'.",
+        "ar": "تعني 'la respuesta' 'الإجابة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'me'",
+        "en": "Choose the Spanish word: 'me'",
+        "ar": "اختر الكلمة بالإسبانية: 'إياي / لي'"
+      },
+      "options": [
+        {
+          "es": "le",
+          "en": "to him / to her",
+          "ar": "له / لها"
+        },
+        {
+          "es": "me",
+          "en": "me",
+          "ar": "إياي / لي"
+        },
+        {
+          "es": "el favor",
+          "en": "the favor",
+          "ar": "المعروف"
+        }
+      ],
+      "answer": "me",
+      "explanation": {
+        "es": "'me' significa 'me'.",
+        "en": "'me' means 'me'.",
+        "ar": "تعني 'me' 'إياي / لي'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the favor' en español?",
+        "en": "How do you say 'the favor' in Spanish?",
+        "ar": "كيف تقول 'المعروف' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el consejo",
+          "en": "the advice",
+          "ar": "النصيحة"
+        },
+        {
+          "es": "nos",
+          "en": "us",
+          "ar": "إيانا / لنا"
+        },
+        {
+          "es": "el favor",
+          "en": "the favor",
+          "ar": "المعروف"
+        }
+      ],
+      "answer": "el favor",
+      "explanation": {
+        "es": "'el favor' significa 'the favor'.",
+        "en": "'el favor' means 'the favor'.",
+        "ar": "تعني 'el favor' 'المعروف'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'to hug'?",
+        "en": "Which word means 'to hug'?",
+        "ar": "أي كلمة تعني 'يعانق'؟"
+      },
+      "options": [
+        {
+          "es": "el consejo",
+          "en": "the advice",
+          "ar": "النصيحة"
+        },
+        {
+          "es": "te",
+          "en": "you",
+          "ar": "إياك / لك"
+        },
+        {
+          "es": "me",
+          "en": "me",
+          "ar": "إياي / لي"
+        },
+        {
+          "es": "abrazar",
+          "en": "to hug",
+          "ar": "يعانق"
+        }
+      ],
+      "answer": "abrazar",
+      "explanation": {
+        "es": "'abrazar' significa 'to hug'.",
+        "en": "'abrazar' means 'to hug'.",
+        "ar": "تعني 'abrazar' 'يعانق'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I am going to help my grandmother.\"",
+        "en": "Translate into Spanish: \"I am going to help my grandmother.\"",
+        "ar": "ترجم إلى الإسبانية: \"سأساعد جدتي.\""
+      },
+      "options": [],
+      "answer": "Voy a ayudar a mi abuela.",
+      "explanation": {
+        "es": "Respuesta: \"Voy a ayudar a mi abuela.\".",
+        "en": "Answer: \"Voy a ayudar a mi abuela.\".",
+        "ar": "الإجابة: \"Voy a ayudar a mi abuela.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I am going to take a walk through the city.\"",
+        "en": "Translate into Spanish: \"I am going to take a walk through the city.\"",
+        "ar": "ترجم إلى الإسبانية: \"سأتجول في المدينة.\""
+      },
+      "options": [],
+      "answer": "Voy a dar un paseo por la ciudad.",
+      "explanation": {
+        "es": "Respuesta: \"Voy a dar un paseo por la ciudad.\".",
+        "en": "Answer: \"Voy a dar un paseo por la ciudad.\".",
+        "ar": "الإجابة: \"Voy a dar un paseo por la ciudad.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I want to invite you to my house.\"",
+        "en": "Translate into Spanish: \"I want to invite you to my house.\"",
+        "ar": "ترجم إلى الإسبانية: \"أريد أن أدعوك إلى منزلي.\""
+      },
+      "options": [],
+      "answer": "Quiero invitarte a mi casa.",
+      "explanation": {
+        "es": "Respuesta: \"Quiero invitarte a mi casa.\".",
+        "en": "Answer: \"Quiero invitarte a mi casa.\".",
+        "ar": "الإجابة: \"Quiero invitarte a mi casa.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I saw him on the street yesterday.\"",
+        "en": "Translate into Spanish: \"I saw him on the street yesterday.\"",
+        "ar": "ترجم إلى الإسبانية: \"رأيته في الشارع أمس.\""
+      },
+      "options": [],
+      "answer": "Lo vi en la calle ayer.",
+      "explanation": {
+        "es": "Respuesta: \"Lo vi en la calle ayer.\".",
+        "en": "Answer: \"Lo vi en la calle ayer.\".",
+        "ar": "الإجابة: \"Lo vi en la calle ayer.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "La Ayuda del Hermano",
-   "en": "The Brother's Help",
-   "ar": "مساعدة الأخ"
-  },
-  "text_es": "María va a mudarse y necesita ayuda. Le pidió a su hermano que la ayude el sábado, y él aceptó. Él la va a esperar en el nuevo apartamento. Ella le dará un regalo para agradecer.",
-  "text_en": "Maria is going to move and needs help. She asked her brother to help her on Saturday, and he accepted. He will wait for her at the new apartment. She will give him a gift to thank him.",
-  "text_ar": "ماريا على وشك الانتقال وتحتاج إلى مساعدة. طلبت من أخيها مساعدتها يوم السبت، فوافق. سينتظرها في الشقة الجديدة. ستعطيه هدية لشكره."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Ella ___ ayudó con la tarea.",
-    "en": "She ___ helped with the homework.",
-    "ar": "هي ___ ساعدت في الواجب."
-   },
-   "options": [
-    {
-     "es": "me",
-     "en": "me",
-     "ar": "me"
-    },
-    {
-     "es": "te",
-     "en": "te",
-     "ar": "te"
-    },
-    {
-     "es": "le",
-     "en": "lhe",
-     "ar": "lhe"
-    }
-   ],
-   "answer": "me",
-   "explanation": {
-    "es": "'Me' = me (objeto directo).",
-    "en": "'Me' = me (direct object).",
-    "ar": "'me' = إياي (مفعول به مباشر)."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Nosotros ___ prestamos el coche.",
-    "en": "We ___ lend the car.",
-    "ar": "نحن ___ نعير السيارة."
-   },
-   "options": [
-    {
-     "es": "le",
-     "en": "lhe",
-     "ar": "lhe"
-    },
-    {
-     "es": "nos",
-     "en": "nos",
-     "ar": "nos"
-    },
-    {
-     "es": "les",
-     "en": "os",
-     "ar": "os"
-    }
-   ],
-   "answer": "le",
-   "explanation": {
-    "es": "'Le' = para él/ella. Prestar algo a alguien.",
-    "en": "'Lhe' = to him/her. To lend something to someone.",
-    "ar": "'lhe' = له/لها. إعارة شيء لشخص ما."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'can you help me?'",
-    "en": "Translate: 'can you help me?'",
-    "ar": "ترجم: 'can you help me?'"
-   },
-   "options": [],
-   "answer": "¿puedes ayudarme?",
-   "explanation": {
-    "es": "'¿Puedes ayudarme?' = Can you help me?",
-    "en": "'Pode me ajudar?' = Can you help me?",
-    "ar": "'Pode me ajudar?' = هل يمكنك مساعدتي؟"
-   }
-  }
- ]
 }

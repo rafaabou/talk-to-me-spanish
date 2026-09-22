@@ -1,335 +1,617 @@
 {
- "id": "A1-10",
- "level": "A1",
- "level_name": {
-  "es": "Principiante",
-  "en": "Beginner",
-  "ar": "مبتدئ"
- },
- "title": {
-  "es": "La Casa y las Habitaciones",
-  "en": "The House and Rooms",
-  "ar": "المنزل والغرف"
- },
- "objectives": [
-  {
-   "es": "Nombrar las habitaciones de la casa",
-   "en": "Name the rooms of the house",
-   "ar": "تسمية غرف المنزل"
+  "id": "A1-10",
+  "level": "A1",
+  "level_name": {
+    "es": "Principiante",
+    "en": "Beginner",
+    "ar": "مبتدئ"
   },
-  {
-   "es": "Usar preposiciones de lugar (en, en el, en la)",
-   "en": "Use prepositions of place (em, no, na)",
-   "ar": "استخدام حروف الجر المكانية (em، no، na)"
-  },
-  {
-   "es": "Describir dónde están los objetos",
-   "en": "Describe where objects are",
-   "ar": "وصف أماكن الأشياء"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "la casa",
-   "ipa": "/ˈla ˈkasa/",
-   "en": "the house",
-   "ar": "المنزل"
-  },
-  {
-   "es": "la sala de estar",
-   "ipa": "/ˈla ˈsala ˈde eˈstaɾ/",
-   "en": "the living room",
-   "ar": "غرفة المعيشة"
-  },
-  {
-   "es": "la cocina",
-   "ipa": "/ˈla koˈsina/",
-   "en": "the kitchen",
-   "ar": "المطبخ"
-  },
-  {
-   "es": "el dormitorio",
-   "ipa": "/ˈel doɾmiˈtoɾio/",
-   "en": "the bedroom",
-   "ar": "غرفة النوم"
-  },
-  {
-   "es": "el baño",
-   "ipa": "/ˈel ˈbaɲo/",
-   "en": "the bathroom",
-   "ar": "الحمام"
-  },
-  {
-   "es": "la puerta",
-   "ipa": "/ˈla ˈpueɾta/",
-   "en": "the door",
-   "ar": "الباب"
-  },
-  {
-   "es": "la ventana",
-   "ipa": "/ˈla beˈntana/",
-   "en": "the window",
-   "ar": "النافذة"
-  },
-  {
-   "es": "la pared",
-   "ipa": "/ˈla paˈɾeð/",
-   "en": "the wall",
-   "ar": "الجدار"
-  },
-  {
-   "es": "la cama",
-   "ipa": "/ˈla ˈkama/",
-   "en": "the bed",
-   "ar": "السرير"
-  },
-  {
-   "es": "la mesa",
-   "ipa": "/ˈla ˈmesa/",
-   "en": "the table",
-   "ar": "الطاولة"
-  },
-  {
-   "es": "la silla",
-   "ipa": "/ˈla ˈsiʝa/",
-   "en": "the chair",
-   "ar": "الكرسي"
-  },
-  {
-   "es": "el sofá",
-   "ipa": "/ˈel soˈfa/",
-   "en": "the sofa",
-   "ar": "الأريكة"
-  },
-  {
-   "es": "el armario",
-   "ipa": "/ˈel aˈɾmaɾio/",
-   "en": "the wardrobe",
-   "ar": "خزانة الملابس"
-  },
-  {
-   "es": "el frigorífico",
-   "ipa": "/ˈel fɾiɣoˈɾifiko/",
-   "en": "the refrigerator",
-   "ar": "الثلاجة"
-  },
-  {
-   "es": "la cocina (electrodoméstico)",
-   "ipa": "/ˈla koˈsina elektɾoðoˈmestiko/",
-   "en": "the stove",
-   "ar": "الموقد"
-  },
-  {
-   "es": "en",
-   "ipa": "/ˈen/",
-   "en": "in/at/on",
-   "ar": "في"
-  },
-  {
-   "es": "en el/en la",
-   "ipa": "/ˈen ˈel ˈen ˈla/",
-   "en": "in the (m/f)",
-   "ar": "في (مذكر/مؤنث)"
-  },
-  {
-   "es": "encima de",
-   "ipa": "/eˈnsima ˈde/",
-   "en": "on top of",
-   "ar": "فوق"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Preposiciones de Lugar",
-    "en": "Prepositions of Place",
-    "ar": "حروف الجر المكانية"
-   },
-   "explanation": {
-    "es": "En español usamos 'en' con el artículo: en + el = en el, en + la = en la. Ejemplos: El libro está en la mesa (on the table), Yo estoy en el dormitorio (I'm in the bedroom), La llave está encima del sofá (The key is on top of the sofa).",
-    "en": "In Spanish we use 'en' with articles: en + el = en el, en + la = en la. Examples: El libro está en la mesa (The book is on the table), Yo estoy en el dormitorio (I'm in the bedroom), La llave está encima del sofá (The key is on top of the sofa).",
-    "ar": "في الإسبانية نستخدم 'en' مع أدوات التعريف: en + el = en el، en + la = en la. أمثلة: El libro está en la mesa (الكتاب على الطاولة)، Yo estoy en el dormitorio (أنا في غرفة النوم)، La llave está encima del sofá (المفتاح فوق الأريكة)."
-   },
-   "examples": [
-    {
-     "es": "El gato está en la sala de estar.",
-     "en": "The cat is in the living room.",
-     "ar": "القط في غرفة المعيشة."
-    },
-    {
-     "es": "La comida está en el frigorífico.",
-     "en": "The food is in the refrigerator.",
-     "ar": "الطعام في الثلاجة."
-    },
-    {
-     "es": "Yo estoy en casa hoy.",
-     "en": "I'm at home today.",
-     "ar": "أنا في المنزل اليوم."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Describiendo la Casa",
-    "en": "Describing the House",
-    "ar": "وصف المنزل"
-   },
-   "explanation": {
-    "es": "Para describir la casa, usa 'hay' (there is/there are): Hay tres dormitorios en la casa (There are three bedrooms in the house). 'Cerca de' (near), 'lejos de' (far from), 'al lado de' (next to).",
-    "en": "To describe the house, use 'há' (there is/there are) or 'tem': Tem três quartos na casa (There are three bedrooms in the house). 'Perto de' (near), 'longe de' (far from), 'ao lado de' (next to).",
-    "ar": "لوصف المنزل، استخدم 'há' (يوجد) أو 'tem': Tem três quartos na casa (يوجد ثلاث غرف نوم في المنزل). 'Perto de' (قريب من)، 'longe de' (بعيد عن)، 'ao lado de' (بجانب)."
-   },
-   "examples": [
-    {
-     "es": "La casa tiene dos baños.",
-     "en": "The house has two bathrooms.",
-     "ar": "المنزل فيه حمامان."
-    },
-    {
-     "es": "El mercado está cerca de la casa.",
-     "en": "The market is near the house.",
-     "ar": "السوق قريب من المنزل."
-    },
-    {
-     "es": "La escuela está al lado del parque.",
-     "en": "The school is next to the park.",
-     "ar": "المدرسة بجانب الحديقة."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "La Nueva Casa",
-   "en": "The New House",
-   "ar": "المنزل الجديد"
+    "es": "La Casa y las Habitaciones",
+    "en": "The House and Rooms",
+    "ar": "المنزل والغرف"
   },
-  "lines": [
-   {
-    "speaker": "Amiga",
-    "es": "¿Cómo es tu nueva casa?",
-    "en": "What's your new house like?",
-    "ar": "كيف هو منزلك الجديد؟"
-   },
-   {
-    "speaker": "Rafael",
-    "es": "¡Es grande! Tiene una sala de estar, tres dormitorios y una cocina enorme.",
-    "en": "It's big! It has a living room, three bedrooms and a huge kitchen.",
-    "ar": "إنه كبير! فيه غرفة معيشة وثلاث غرف نوم ومطبخ ضخم."
-   },
-   {
-    "speaker": "Amiga",
-    "es": "¿Y qué hay en la sala de estar?",
-    "en": "And what's in the living room?",
-    "ar": "وماذا يوجد في غرفة المعيشة؟"
-   },
-   {
-    "speaker": "Rafael",
-    "es": "Hay un sofá nuevo y una mesa de centro.",
-    "en": "There's a new sofa and a coffee table.",
-    "ar": "توجد أريكة جديدة وطاولة قهوة."
-   },
-   {
-    "speaker": "Amiga",
-    "es": "¿Dónde está el baño?",
-    "en": "Where is the bathroom?",
-    "ar": "أين الحمام؟"
-   },
-   {
-    "speaker": "Rafael",
-    "es": "Está al lado del dormitorio principal.",
-    "en": "It's next to the main bedroom.",
-    "ar": "إنه بجانب غرفة النوم الرئيسية."
-   }
+  "objectives": [
+    {
+      "es": "Nombrar las habitaciones de la casa",
+      "en": "Name the rooms of the house",
+      "ar": "تسمية غرف المنزل"
+    },
+    {
+      "es": "Usar preposiciones de lugar (en, en el, en la)",
+      "en": "Use prepositions of place (em, no, na)",
+      "ar": "استخدام حروف الجر المكانية (em، no، na)"
+    },
+    {
+      "es": "Describir dónde están los objetos",
+      "en": "Describe where objects are",
+      "ar": "وصف أماكن الأشياء"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la casa",
+      "ipa": "/ˈla ˈkasa/",
+      "en": "the house",
+      "ar": "المنزل",
+      "example": {
+        "es": "Nosotros compramos la casa nueva.",
+        "en": "We bought the new house.",
+        "ar": "اشترينا المنزل الجديد."
+      }
+    },
+    {
+      "es": "la sala de estar",
+      "ipa": "/ˈla ˈsala ˈde eˈstaɾ/",
+      "en": "the living room",
+      "ar": "غرفة المعيشة",
+      "example": {
+        "es": "La sala de estar tiene dos sofás.",
+        "en": "The living room has two sofas.",
+        "ar": "غرفة المعيشة فيها أريكتان."
+      }
+    },
+    {
+      "es": "la cocina",
+      "ipa": "/ˈla koˈsina/",
+      "en": "the kitchen",
+      "ar": "المطبخ",
+      "example": {
+        "es": "La cocina está limpia.",
+        "en": "The kitchen is clean.",
+        "ar": "المطبخ نظيف."
+      }
+    },
+    {
+      "es": "el dormitorio",
+      "ipa": "/ˈel doɾmiˈtoɾio/",
+      "en": "the bedroom",
+      "ar": "غرفة النوم",
+      "example": {
+        "es": "El dormitorio está ordenado.",
+        "en": "The bedroom is tidy.",
+        "ar": "غرفة النوم مرتبة."
+      }
+    },
+    {
+      "es": "el baño",
+      "ipa": "/ˈel ˈbaɲo/",
+      "en": "the bathroom",
+      "ar": "الحمام",
+      "example": {
+        "es": "El baño es pequeño.",
+        "en": "The bathroom is small.",
+        "ar": "الحمام صغير."
+      }
+    },
+    {
+      "es": "la puerta",
+      "ipa": "/ˈla ˈpueɾta/",
+      "en": "the door",
+      "ar": "الباب",
+      "example": {
+        "es": "La puerta está abierta.",
+        "en": "The door is open.",
+        "ar": "الباب مفتوح."
+      }
+    },
+    {
+      "es": "la ventana",
+      "ipa": "/ˈla beˈntana/",
+      "en": "the window",
+      "ar": "النافذة",
+      "example": {
+        "es": "La ventana está cerrada.",
+        "en": "The window is closed.",
+        "ar": "النافذة مغلقة."
+      }
+    },
+    {
+      "es": "la pared",
+      "ipa": "/ˈla paˈɾeð/",
+      "en": "the wall",
+      "ar": "الجدار",
+      "example": {
+        "es": "La pared es blanca.",
+        "en": "The wall is white.",
+        "ar": "الجدار أبيض."
+      }
+    },
+    {
+      "es": "la cama",
+      "ipa": "/ˈla ˈkama/",
+      "en": "the bed",
+      "ar": "السرير",
+      "example": {
+        "es": "La cama es cómoda.",
+        "en": "The bed is comfortable.",
+        "ar": "السرير مريح."
+      }
+    },
+    {
+      "es": "la mesa",
+      "ipa": "/ˈla ˈmesa/",
+      "en": "the table",
+      "ar": "الطاولة",
+      "example": {
+        "es": "La mesa de la cocina es grande.",
+        "en": "The kitchen table is big.",
+        "ar": "طاولة المطبخ كبيرة."
+      }
+    },
+    {
+      "es": "la silla",
+      "ipa": "/ˈla ˈsiʝa/",
+      "en": "the chair",
+      "ar": "الكرسي",
+      "example": {
+        "es": "La silla está en la sala.",
+        "en": "The chair is in the living room.",
+        "ar": "الكرسي في غرفة المعيشة."
+      }
+    },
+    {
+      "es": "el sofá",
+      "ipa": "/ˈel soˈfa/",
+      "en": "the sofa",
+      "ar": "الأريكة",
+      "example": {
+        "es": "El sofá es azul.",
+        "en": "The sofa is blue.",
+        "ar": "الأريكة زرقاء."
+      }
+    },
+    {
+      "es": "el armario",
+      "ipa": "/ˈel aˈɾmaɾio/",
+      "en": "the wardrobe",
+      "ar": "خزانة الملابس",
+      "example": {
+        "es": "El armario está lleno.",
+        "en": "The wardrobe is full.",
+        "ar": "خزانة الملابس ممتلئة."
+      }
+    },
+    {
+      "es": "el frigorífico",
+      "ipa": "/ˈel fɾiɣoˈɾifiko/",
+      "en": "the refrigerator",
+      "ar": "الثلاجة",
+      "example": {
+        "es": "El frigorífico tiene comida.",
+        "en": "The refrigerator has food.",
+        "ar": "في الثلاجة طعام."
+      }
+    },
+    {
+      "es": "la cocina (electrodoméstico)",
+      "ipa": "/ˈla koˈsina elektɾoðoˈmestiko/",
+      "en": "the stove",
+      "ar": "الموقد",
+      "example": {
+        "es": "La cocina tiene fogón nuevo.",
+        "en": "The kitchen has a new stove.",
+        "ar": "في المطبخ موقد جديد."
+      }
+    },
+    {
+      "es": "en",
+      "ipa": "/ˈen/",
+      "en": "in/at/on",
+      "ar": "في",
+      "example": {
+        "es": "El tren llega en cinco minutos.",
+        "en": "The train arrives in five minutes.",
+        "ar": "يصل القطار خلال خمس دقائق."
+      }
+    },
+    {
+      "es": "en el/en la",
+      "ipa": "/ˈen ˈel ˈen ˈla/",
+      "en": "in the (m/f)",
+      "ar": "في (مذكر/مؤنث)",
+      "example": {
+        "es": "La llave está en la bolsa.",
+        "en": "The key is in the bag.",
+        "ar": "المفتاح في الحقيبة."
+      }
+    },
+    {
+      "es": "encima de",
+      "ipa": "/eˈnsima ˈde/",
+      "en": "on top of",
+      "ar": "فوق",
+      "example": {
+        "es": "El gato duerme encima de una almofada.",
+        "en": "The cat sleeps on top of a cushion.",
+        "ar": "ينام القط فوق وسادة."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Preposiciones de Lugar",
+        "en": "Prepositions of Place",
+        "ar": "حروف الجر المكانية"
+      },
+      "explanation": {
+        "es": "En español usamos 'en' con el artículo: en + el = en el, en + la = en la. Ejemplos: El libro está en la mesa (on the table), Yo estoy en el dormitorio (I'm in the bedroom), La llave está encima del sofá (The key is on top of the sofa).",
+        "en": "In Spanish we use 'en' with articles: en + el = en el, en + la = en la. Examples: El libro está en la mesa (The book is on the table), Yo estoy en el dormitorio (I'm in the bedroom), La llave está encima del sofá (The key is on top of the sofa).",
+        "ar": "في الإسبانية نستخدم 'en' مع أدوات التعريف: en + el = en el، en + la = en la. أمثلة: El libro está en la mesa (الكتاب على الطاولة)، Yo estoy en el dormitorio (أنا في غرفة النوم)، La llave está encima del sofá (المفتاح فوق الأريكة)."
+      },
+      "examples": [
+        {
+          "es": "El gato está en la sala de estar.",
+          "en": "The cat is in the living room.",
+          "ar": "القط في غرفة المعيشة."
+        },
+        {
+          "es": "La comida está en el frigorífico.",
+          "en": "The food is in the refrigerator.",
+          "ar": "الطعام في الثلاجة."
+        },
+        {
+          "es": "Yo estoy en casa hoy.",
+          "en": "I'm at home today.",
+          "ar": "أنا في المنزل اليوم."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Describiendo la Casa",
+        "en": "Describing the House",
+        "ar": "وصف المنزل"
+      },
+      "explanation": {
+        "es": "Para describir la casa, usa 'hay' (there is/there are): Hay tres dormitorios en la casa (There are three bedrooms in the house). 'Cerca de' (near), 'lejos de' (far from), 'al lado de' (next to).",
+        "en": "To describe the house, use 'há' (there is/there are) or 'tem': Tem três quartos na casa (There are three bedrooms in the house). 'Perto de' (near), 'longe de' (far from), 'ao lado de' (next to).",
+        "ar": "لوصف المنزل، استخدم 'há' (يوجد) أو 'tem': Tem três quartos na casa (يوجد ثلاث غرف نوم في المنزل). 'Perto de' (قريب من)، 'longe de' (بعيد عن)، 'ao lado de' (بجانب)."
+      },
+      "examples": [
+        {
+          "es": "La casa tiene dos baños.",
+          "en": "The house has two bathrooms.",
+          "ar": "المنزل فيه حمامان."
+        },
+        {
+          "es": "El mercado está cerca de la casa.",
+          "en": "The market is near the house.",
+          "ar": "السوق قريب من المنزل."
+        },
+        {
+          "es": "La escuela está al lado del parque.",
+          "en": "The school is next to the park.",
+          "ar": "المدرسة بجانب الحديقة."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "La Nueva Casa",
+      "en": "The New House",
+      "ar": "المنزل الجديد"
+    },
+    "lines": [
+      {
+        "speaker": "Amiga",
+        "es": "¿Cómo es tu nueva casa?",
+        "en": "What's your new house like?",
+        "ar": "كيف هو منزلك الجديد؟"
+      },
+      {
+        "speaker": "Rafael",
+        "es": "¡Es grande! Tiene una sala de estar, tres dormitorios y una cocina enorme.",
+        "en": "It's big! It has a living room, three bedrooms and a huge kitchen.",
+        "ar": "إنه كبير! فيه غرفة معيشة وثلاث غرف نوم ومطبخ ضخم."
+      },
+      {
+        "speaker": "Amiga",
+        "es": "¿Y qué hay en la sala de estar?",
+        "en": "And what's in the living room?",
+        "ar": "وماذا يوجد في غرفة المعيشة؟"
+      },
+      {
+        "speaker": "Rafael",
+        "es": "Hay un sofá nuevo y una mesa de centro.",
+        "en": "There's a new sofa and a coffee table.",
+        "ar": "توجد أريكة جديدة وطاولة قهوة."
+      },
+      {
+        "speaker": "Amiga",
+        "es": "¿Dónde está el baño?",
+        "en": "Where is the bathroom?",
+        "ar": "أين الحمام؟"
+      },
+      {
+        "speaker": "Rafael",
+        "es": "Está al lado del dormitorio principal.",
+        "en": "It's next to the main bedroom.",
+        "ar": "إنه بجانب غرفة النوم الرئيسية."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Mi Casa",
+      "en": "My House",
+      "ar": "منزلي"
+    },
+    "text_es": "Mi casa está cerca del centro. En la entrada hay una puerta grande y dos ventanas. La sala de estar es luminosa y tiene un sofá amarillo. En la cocina, la cocina y el frigorífico son nuevos. El dormitorio es pequeño, pero la cama es cómoda. Amo mi casa.",
+    "text_en": "My house is near downtown. At the entrance, there's a big door and two windows. The living room is bright and has a yellow sofa. In the kitchen, the stove and refrigerator are new. The bedroom is small, but the bed is comfortable. I love my house.",
+    "text_ar": "منزلي قريب من المركز. عند المدخل باب كبير ونافذتان. غرفة المعيشة مشرقة وفيها أريكة صفراء. في المطبخ، الموقد والثلاجة جديدان. غرفة النوم صغيرة لكن السرير مريح. أحب منزلي."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Dónde está el libro? (en + la mesa)",
+        "en": "Where is the book? (em + a mesa)",
+        "ar": "أين الكتاب؟ (em + a mesa)"
+      },
+      "options": [
+        {
+          "es": "en el mesa",
+          "en": "on the table incorrect",
+          "ar": "على الطاولة (خطأ)"
+        },
+        {
+          "es": "en la mesa",
+          "en": "on the table",
+          "ar": "على الطاولة"
+        },
+        {
+          "es": "en mesa",
+          "en": "on table incorrect",
+          "ar": "على طاولة (خطأ)"
+        }
+      ],
+      "answer": "en la mesa",
+      "explanation": {
+        "es": "en + la = en la: en la mesa.",
+        "en": "em + a = na: na mesa.",
+        "ar": "em + a = na: na mesa."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué es 'la cocina'?",
+        "en": "What is 'a cozinha'?",
+        "ar": "ما هي 'a cozinha'؟"
+      },
+      "options": [
+        {
+          "es": "the bedroom",
+          "en": "the bedroom",
+          "ar": "the bedroom"
+        },
+        {
+          "es": "the kitchen",
+          "en": "the kitchen",
+          "ar": "the kitchen"
+        },
+        {
+          "es": "the bathroom",
+          "en": "the bathroom",
+          "ar": "the bathroom"
+        }
+      ],
+      "answer": "the kitchen",
+      "explanation": {
+        "es": "'La cocina' es the kitchen.",
+        "en": "'A cozinha' is the kitchen.",
+        "ar": "'a cozinha' هي المطبخ."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'the bathroom'",
+        "en": "Translate: 'the bathroom'",
+        "ar": "ترجم: 'the bathroom'"
+      },
+      "options": [],
+      "answer": "el baño",
+      "explanation": {
+        "es": "'El baño' es the bathroom.",
+        "en": "'O banheiro' is the bathroom.",
+        "ar": "'o banheiro' هو الحمام."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the door'?",
+        "en": "Which word means 'the door'?",
+        "ar": "أي كلمة تعني 'الباب'؟"
+      },
+      "options": [
+        {
+          "es": "la puerta",
+          "en": "the door",
+          "ar": "الباب"
+        },
+        {
+          "es": "el baño",
+          "en": "the bathroom",
+          "ar": "الحمام"
+        },
+        {
+          "es": "la cocina",
+          "en": "the kitchen",
+          "ar": "المطبخ"
+        }
+      ],
+      "answer": "la puerta",
+      "explanation": {
+        "es": "'la puerta' significa 'the door'.",
+        "en": "'la puerta' means 'the door'.",
+        "ar": "تعني 'la puerta' 'الباب'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the wall'",
+        "en": "Choose the Spanish word: 'the wall'",
+        "ar": "اختر الكلمة بالإسبانية: 'الجدار'"
+      },
+      "options": [
+        {
+          "es": "la casa",
+          "en": "the house",
+          "ar": "المنزل"
+        },
+        {
+          "es": "la pared",
+          "en": "the wall",
+          "ar": "الجدار"
+        },
+        {
+          "es": "la silla",
+          "en": "the chair",
+          "ar": "الكرسي"
+        }
+      ],
+      "answer": "la pared",
+      "explanation": {
+        "es": "'la pared' significa 'the wall'.",
+        "en": "'la pared' means 'the wall'.",
+        "ar": "تعني 'la pared' 'الجدار'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'on top of' en español?",
+        "en": "How do you say 'on top of' in Spanish?",
+        "ar": "كيف تقول 'فوق' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el dormitorio",
+          "en": "the bedroom",
+          "ar": "غرفة النوم"
+        },
+        {
+          "es": "la puerta",
+          "en": "the door",
+          "ar": "الباب"
+        },
+        {
+          "es": "encima de",
+          "en": "on top of",
+          "ar": "فوق"
+        }
+      ],
+      "answer": "encima de",
+      "explanation": {
+        "es": "'encima de' significa 'on top of'.",
+        "en": "'encima de' means 'on top of'.",
+        "ar": "تعني 'encima de' 'فوق'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the house'?",
+        "en": "Which word means 'the house'?",
+        "ar": "أي كلمة تعني 'المنزل'؟"
+      },
+      "options": [
+        {
+          "es": "el frigorífico",
+          "en": "the refrigerator",
+          "ar": "الثلاجة"
+        },
+        {
+          "es": "la casa",
+          "en": "the house",
+          "ar": "المنزل"
+        },
+        {
+          "es": "la cama",
+          "en": "the bed",
+          "ar": "السرير"
+        }
+      ],
+      "answer": "la casa",
+      "explanation": {
+        "es": "'la casa' significa 'the house'.",
+        "en": "'la casa' means 'the house'.",
+        "ar": "تعني 'la casa' 'المنزل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The bathroom is small.\"",
+        "en": "Translate into Spanish: \"The bathroom is small.\"",
+        "ar": "ترجم إلى الإسبانية: \"الحمام صغير.\""
+      },
+      "options": [],
+      "answer": "El baño es pequeño.",
+      "explanation": {
+        "es": "Respuesta: \"El baño es pequeño.\".",
+        "en": "Answer: \"El baño es pequeño.\".",
+        "ar": "الإجابة: \"El baño es pequeño.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"There's a new sofa and a coffee table.\"",
+        "en": "Translate into Spanish: \"There's a new sofa and a coffee table.\"",
+        "ar": "ترجم إلى الإسبانية: \"توجد أريكة جديدة وطاولة قهوة.\""
+      },
+      "options": [],
+      "answer": "Hay un sofá nuevo y una mesa de centro.",
+      "explanation": {
+        "es": "Respuesta: \"Hay un sofá nuevo y una mesa de centro.\".",
+        "en": "Answer: \"Hay un sofá nuevo y una mesa de centro.\".",
+        "ar": "الإجابة: \"Hay un sofá nuevo y una mesa de centro.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The living room has two sofas.\"",
+        "en": "Translate into Spanish: \"The living room has two sofas.\"",
+        "ar": "ترجم إلى الإسبانية: \"غرفة المعيشة فيها أريكتان.\""
+      },
+      "options": [],
+      "answer": "La sala de estar tiene dos sofás.",
+      "explanation": {
+        "es": "Respuesta: \"La sala de estar tiene dos sofás.\".",
+        "en": "Answer: \"La sala de estar tiene dos sofás.\".",
+        "ar": "الإجابة: \"La sala de estar tiene dos sofás.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The wall is white.\"",
+        "en": "Translate into Spanish: \"The wall is white.\"",
+        "ar": "ترجم إلى الإسبانية: \"الجدار أبيض.\""
+      },
+      "options": [],
+      "answer": "La pared es blanca.",
+      "explanation": {
+        "es": "Respuesta: \"La pared es blanca.\".",
+        "en": "Answer: \"La pared es blanca.\".",
+        "ar": "الإجابة: \"La pared es blanca.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "Mi Casa",
-   "en": "My House",
-   "ar": "منزلي"
-  },
-  "text_es": "Mi casa está cerca del centro. En la entrada hay una puerta grande y dos ventanas. La sala de estar es luminosa y tiene un sofá amarillo. En la cocina, la cocina y el frigorífico son nuevos. El dormitorio es pequeño, pero la cama es cómoda. Amo mi casa.",
-  "text_en": "My house is near downtown. At the entrance, there's a big door and two windows. The living room is bright and has a yellow sofa. In the kitchen, the stove and refrigerator are new. The bedroom is small, but the bed is comfortable. I love my house.",
-  "text_ar": "منزلي قريب من المركز. عند المدخل باب كبير ونافذتان. غرفة المعيشة مشرقة وفيها أريكة صفراء. في المطبخ، الموقد والثلاجة جديدان. غرفة النوم صغيرة لكن السرير مريح. أحب منزلي."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Dónde está el libro? (en + la mesa)",
-    "en": "Where is the book? (em + a mesa)",
-    "ar": "أين الكتاب؟ (em + a mesa)"
-   },
-   "options": [
-    {
-     "es": "en el mesa",
-     "en": "no mesa",
-     "ar": "no mesa"
-    },
-    {
-     "es": "en la mesa",
-     "en": "na mesa",
-     "ar": "na mesa"
-    },
-    {
-     "es": "en mesa",
-     "en": "em mesa",
-     "ar": "em mesa"
-    }
-   ],
-   "answer": "en la mesa",
-   "explanation": {
-    "es": "en + la = en la: en la mesa.",
-    "en": "em + a = na: na mesa.",
-    "ar": "em + a = na: na mesa."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Qué es 'la cocina'?",
-    "en": "What is 'a cozinha'?",
-    "ar": "ما هي 'a cozinha'؟"
-   },
-   "options": [
-    {
-     "es": "the bedroom",
-     "en": "the bedroom",
-     "ar": "the bedroom"
-    },
-    {
-     "es": "the kitchen",
-     "en": "the kitchen",
-     "ar": "the kitchen"
-    },
-    {
-     "es": "the bathroom",
-     "en": "the bathroom",
-     "ar": "the bathroom"
-    }
-   ],
-   "answer": "the kitchen",
-   "explanation": {
-    "es": "'La cocina' es the kitchen.",
-    "en": "'A cozinha' is the kitchen.",
-    "ar": "'a cozinha' هي المطبخ."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'the bathroom'",
-    "en": "Translate: 'the bathroom'",
-    "ar": "ترجم: 'the bathroom'"
-   },
-   "options": [],
-   "answer": "el baño",
-   "explanation": {
-    "es": "'El baño' es the bathroom.",
-    "en": "'O banheiro' is the bathroom.",
-    "ar": "'o banheiro' هو الحمام."
-   }
-  }
- ]
 }

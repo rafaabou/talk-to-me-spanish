@@ -42,21 +42,25 @@ class _QuizScreenState extends State<QuizScreen> {
     final levels = await CourseRepository.instance.loadLevels();
     final level = levels[widget.levelId];
     final questions = <Exercise>[];
+    final seen = <String>{};
     if (level != null) {
       for (final lessonMeta in level.lessons) {
         final id = lessonMeta['id'] as String;
         final lesson = await CourseRepository.instance.tryLoadLesson(id);
         if (lesson == null) continue;
-        questions.addAll(
-          lesson.exercises.where(
-            (e) => const [
-              'multiple_choice',
-              'fill_blank',
-              'listening',
-              'listening_mcq',
-            ].contains(e.type),
-          ),
-        );
+        for (final e in lesson.exercises) {
+          if (!const [
+            'multiple_choice',
+            'fill_blank',
+            'listening',
+            'listening_mcq',
+          ].contains(e.type)) {
+            continue;
+          }
+          final key =
+              '${e.type}|${e.prompt.es}|${e.prompt.en}|${e.prompt.ar}|${e.answer}';
+          if (seen.add(key)) questions.add(e);
+        }
       }
     }
     final best = await ProgressService.instance.getQuizBest(widget.levelId);

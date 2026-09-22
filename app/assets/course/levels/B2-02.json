@@ -1,327 +1,604 @@
 {
- "id": "B2-02",
- "level": "B2",
- "level_name": {
-  "es": "Intermedio alto",
-  "en": "Upper-Intermediate",
-  "ar": "متوسط متقدم"
- },
- "title": {
-  "es": "Política y Sociedad",
-  "en": "Politics and Society",
-  "ar": "السياسة والمجتمع"
- },
- "objectives": [
-  {
-   "es": "Comprender y usar el vocabulario básico de la política",
-   "en": "Understand and use basic political vocabulary",
-   "ar": "فهم واستخدام المفردات السياسية الأساسية"
+  "id": "B2-02",
+  "level": "B2",
+  "level_name": {
+    "es": "Intermedio alto",
+    "en": "Upper-Intermediate",
+    "ar": "متوسط متقدم"
   },
-  {
-   "es": "Expresar opiniones sobre cuestiones sociales",
-   "en": "Express opinions on social issues",
-   "ar": "التعبير عن الآراء حول القضايا الاجتماعية"
-  },
-  {
-   "es": "Discutir el proceso electoral en español",
-   "en": "Discuss the electoral process in Portuguese",
-   "ar": "مناقشة العملية الانتخابية باللغة البرتغالية"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "el gobierno",
-   "ipa": "/ˈel goˈβieɾno/",
-   "en": "the government",
-   "ar": "الحكومة"
-  },
-  {
-   "es": "la elección",
-   "ipa": "/ˈla eleˈksion/",
-   "en": "the election",
-   "ar": "الانتخابات"
-  },
-  {
-   "es": "el voto",
-   "ipa": "/ˈel ˈboto/",
-   "en": "the vote",
-   "ar": "التصويت"
-  },
-  {
-   "es": "el candidato",
-   "ipa": "/ˈel kandiˈðato/",
-   "en": "the candidate",
-   "ar": "المرشح"
-  },
-  {
-   "es": "el partido",
-   "ipa": "/ˈel paˈɾtiðo/",
-   "en": "the political party",
-   "ar": "الحزب السياسي"
-  },
-  {
-   "es": "el presidente",
-   "ipa": "/ˈel pɾesiˈðente/",
-   "en": "the president",
-   "ar": "الرئيس"
-  },
-  {
-   "es": "el senador",
-   "ipa": "/ˈel senaˈðoɾ/",
-   "en": "the senator",
-   "ar": "السيناتور"
-  },
-  {
-   "es": "el diputado",
-   "ipa": "/ˈel dipuˈtaðo/",
-   "en": "the congressman",
-   "ar": "النائب"
-  },
-  {
-   "es": "el derecho",
-   "ipa": "/ˈel deˈɾetʃo/",
-   "en": "the right",
-   "ar": "الحق"
-  },
-  {
-   "es": "la ley",
-   "ipa": "/ˈla ˈleʝ/",
-   "en": "the law",
-   "ar": "القانون"
-  },
-  {
-   "es": "la democracia",
-   "ipa": "/ˈla demoˈkɾasia/",
-   "en": "the democracy",
-   "ar": "الديمقراطية"
-  },
-  {
-   "es": "la justicia",
-   "ipa": "/ˈla xuˈstisia/",
-   "en": "the justice",
-   "ar": "العدالة"
-  },
-  {
-   "es": "el impuesto",
-   "ipa": "/ˈel iˈmpuesto/",
-   "en": "the tax",
-   "ar": "الضريبة"
-  },
-  {
-   "es": "la ciudadanía",
-   "ipa": "/ˈla siuðaðaˈnia/",
-   "en": "the citizenship",
-   "ar": "المواطنة"
-  },
-  {
-   "es": "la libertad",
-   "ipa": "/ˈla liβeˈɾtað/",
-   "en": "the freedom",
-   "ar": "الحرية"
-  },
-  {
-   "es": "la manifestación",
-   "ipa": "/ˈla manifestaˈsion/",
-   "en": "the demonstration",
-   "ar": "المظاهرة"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Formación de Palabras Políticas",
-    "en": "Forming Political Words",
-    "ar": "تكوين الكلمات السياسية"
-   },
-   "explanation": {
-    "es": "Muchos sustantivos políticos vienen de verbos. El sufijo -ción crea sustantivos a partir de verbos en -ar: manifestar → manifestación. Otros verbos cambian la forma: elegir → elección, gobernar → gobierno, votar → voto.",
-    "en": "Many political nouns come from verbs. The suffix -ção creates nouns from -ar verbs: manifestar → manifestação. Other verbs change form: eleger → eleição, governar → governo, votar → voto.",
-    "ar": "تشتق أسماء سياسية كثيرة من الأفعال. اللاحقة -ção تكوّن الأسماء من الأفعال المنتهية بـ -ar: manifestar ← manifestação. وتتغير أشكال أفعال أخرى: eleger ← eleição، governar ← governo، votar ← voto."
-   },
-   "examples": [
-    {
-     "es": "elegir → la elección",
-     "en": "to elect → the election",
-     "ar": "ينتخب ← الانتخابات"
-    },
-    {
-     "es": "gobernar → el gobierno",
-     "en": "to govern → the government",
-     "ar": "يحكم ← الحكومة"
-    },
-    {
-     "es": "manifestar → la manifestación",
-     "en": "to demonstrate → the demonstration",
-     "ar": "يتظاهر ← المظاهرة"
-    },
-    {
-     "es": "votar → el voto",
-     "en": "to vote → the vote",
-     "ar": "يصوت ← التصويت"
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Expresar Opinión y Exigir Acciones",
-    "en": "Expressing Opinion and Demanding Action",
-    "ar": "التعبير عن الرأي والمطالبة بالإجراءات"
-   },
-   "explanation": {
-    "es": "Para dar opinión usamos 'en mi opinión', 'creo que' (con indicativo) y 'no se puede negar que'. Para exigir o recomendar acciones usamos 'es preciso que', 'es fundamental que' + subjuntivo.",
-    "en": "To give an opinion we use 'en mi opinión', 'creo que' (with indicative) and 'no se puede negar que'. To demand or recommend actions we use 'es preciso que', 'es fundamental que' + subjunctive.",
-    "ar": "لإبداء الرأي نستخدم 'en mi opinión' و'creo que' (مع الإخباري) و'no se puede negar que'. ولطلب أو توصية أفعال نستخدم 'es preciso que' و'es fundamental que' + المنصوب."
-   },
-   "examples": [
-    {
-     "es": "En mi opinión, el voto es esencial para la democracia.",
-     "en": "In my opinion, voting is essential to democracy.",
-     "ar": "في رأيي، التصويت ضروري للديمقراطية."
-    },
-    {
-     "es": "Creo que los impuestos deberían ser más justos.",
-     "en": "I think taxes should be fairer.",
-     "ar": "أعتقد أن الضرائب يجب أن تكون أكثر عدلًا."
-    },
-    {
-     "es": "Es preciso que los ciudadanos participen en la vida pública.",
-     "en": "Citizens must participate in public life.",
-     "ar": "يجب أن يشارك المواطنون في الحياة العامة."
-    },
-    {
-     "es": "No se puede negar que la justicia es importante para todos.",
-     "en": "There's no denying that justice matters to everyone.",
-     "ar": "لا يمكن إنكار أن العدالة مهمة للجميع."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "La Discusión sobre las Elecciones",
-   "en": "The Discussion about the Elections",
-   "ar": "النقاش حول الانتخابات"
+    "es": "Política y Sociedad",
+    "en": "Politics and Society",
+    "ar": "السياسة والمجتمع"
   },
-  "lines": [
-   {
-    "speaker": "Pablo",
-    "es": "¿Vas a votar en las próximas elecciones?",
-    "en": "Are you going to vote in the next elections?",
-    "ar": "هل ستصوت في الانتخابات المقبلة؟"
-   },
-   {
-    "speaker": "Carla",
-    "es": "¡Claro! En mi opinión, el voto es un deber y un derecho de todo ciudadano.",
-    "en": "Of course! In my opinion, voting is a duty and a right of every citizen.",
-    "ar": "بالتأكيد! في رأيي، التصويت واجب وحق لكل مواطن."
-   },
-   {
-    "speaker": "Pablo",
-    "es": "Es verdad, pero creo que muchos candidatos no cumplen sus promesas.",
-    "en": "That's true, but I think many candidates don't keep their promises.",
-    "ar": "هذا صحيح، لكنني أعتقد أن العديد من المرشحين لا يوفون بوعودهم."
-   },
-   {
-    "speaker": "Carla",
-    "es": "Por eso es preciso que sigamos la política de cerca.",
-    "en": "That's why we need to follow politics closely.",
-    "ar": "لذلك يجب أن نتابع السياسة عن قرب."
-   },
-   {
-    "speaker": "Pablo",
-    "es": "De acuerdo. La participación de la sociedad es fundamental para la democracia.",
-    "en": "I agree. Society's participation is essential to democracy.",
-    "ar": "أوافقك الرأي. مشاركة المجتمع أساسية للديمقراطية."
-   }
+  "objectives": [
+    {
+      "es": "Comprender y usar el vocabulario básico de la política",
+      "en": "Understand and use basic political vocabulary",
+      "ar": "فهم واستخدام المفردات السياسية الأساسية"
+    },
+    {
+      "es": "Expresar opiniones sobre cuestiones sociales",
+      "en": "Express opinions on social issues",
+      "ar": "التعبير عن الآراء حول القضايا الاجتماعية"
+    },
+    {
+      "es": "Discutir el proceso electoral en español",
+      "en": "Discuss the electoral process in Portuguese",
+      "ar": "مناقشة العملية الانتخابية باللغة البرتغالية"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el gobierno",
+      "ipa": "/ˈel goˈβieɾno/",
+      "en": "the government",
+      "ar": "الحكومة",
+      "example": {
+        "es": "El gobierno anunció nuevas medidas.",
+        "en": "The government announced new measures.",
+        "ar": "أعلنت الحكومة إجراءات جديدة."
+      }
+    },
+    {
+      "es": "la elección",
+      "ipa": "/ˈla eleˈksion/",
+      "en": "the election",
+      "ar": "الانتخابات",
+      "example": {
+        "es": "La elección será en noviembre.",
+        "en": "The election will be in November.",
+        "ar": "ستكون الانتخابات في نوفمبر."
+      }
+    },
+    {
+      "es": "el voto",
+      "ipa": "/ˈel ˈboto/",
+      "en": "the vote",
+      "ar": "التصويت",
+      "example": {
+        "es": "El voto secreto protege al ciudadano.",
+        "en": "Every vote counts in democracy.",
+        "ar": "كل صوت يُحسب في الديمقراطية."
+      }
+    },
+    {
+      "es": "el candidato",
+      "ipa": "/ˈel kandiˈðato/",
+      "en": "the candidate",
+      "ar": "المرشح",
+      "example": {
+        "es": "El candidato prometió bajar impuestos.",
+        "en": "The candidate promised to lower taxes.",
+        "ar": "وعد المرشح بخفض الضرائب."
+      }
+    },
+    {
+      "es": "el partido",
+      "ipa": "/ˈel paˈɾtiðo/",
+      "en": "the political party",
+      "ar": "الحزب السياسي",
+      "example": {
+        "es": "El partido gobernante perdió apoyo.",
+        "en": "The ruling party lost support.",
+        "ar": "فقد الحزب الحاكم دعمه."
+      }
+    },
+    {
+      "es": "el presidente",
+      "ipa": "/ˈel pɾesiˈðente/",
+      "en": "the president",
+      "ar": "الرئيس",
+      "example": {
+        "es": "El presidente habló en la tele.",
+        "en": "The president spoke on TV.",
+        "ar": "تحدث الرئيس على التلفاز."
+      }
+    },
+    {
+      "es": "el senador",
+      "ipa": "/ˈel senaˈðoɾ/",
+      "en": "the senator",
+      "ar": "السيناتور",
+      "example": {
+        "es": "El senador presentó un proyecto de ley.",
+        "en": "The senator introduced a bill.",
+        "ar": "قدّم السيناتور مشروع قانون."
+      }
+    },
+    {
+      "es": "el diputado",
+      "ipa": "/ˈel dipuˈtaðo/",
+      "en": "the congressman",
+      "ar": "النائب",
+      "example": {
+        "es": "El diputado defendió a sus votantes.",
+        "en": "The congressman defended his voters.",
+        "ar": "دافع النائب عن ناخبيه."
+      }
+    },
+    {
+      "es": "el derecho",
+      "ipa": "/ˈel deˈɾetʃo/",
+      "en": "the right",
+      "ar": "الحق",
+      "example": {
+        "es": "El derecho a la educación es fundamental.",
+        "en": "The right to education is fundamental.",
+        "ar": "الحق في التعليم أساسي."
+      }
+    },
+    {
+      "es": "la ley",
+      "ipa": "/ˈla ˈleʝ/",
+      "en": "the law",
+      "ar": "القانون",
+      "example": {
+        "es": "La ley entró en vigor en enero.",
+        "en": "The law came into force in January.",
+        "ar": "دخل القانون حيز التنفيذ في يناير."
+      }
+    },
+    {
+      "es": "la democracia",
+      "ipa": "/ˈla demoˈkɾasia/",
+      "en": "the democracy",
+      "ar": "الديمقراطية",
+      "example": {
+        "es": "La democracia exige participación.",
+        "en": "Democracy demands participation.",
+        "ar": "تتطلب الديمقراطية المشاركة."
+      }
+    },
+    {
+      "es": "la justicia",
+      "ipa": "/ˈla xuˈstisia/",
+      "en": "the justice",
+      "ar": "العدالة",
+      "example": {
+        "es": "La justicia debe ser igual para todos.",
+        "en": "Justice must be equal for everyone.",
+        "ar": "يجب أن تكون العدالة متساوية للجميع."
+      }
+    },
+    {
+      "es": "el impuesto",
+      "ipa": "/ˈel iˈmpuesto/",
+      "en": "the tax",
+      "ar": "الضريبة",
+      "example": {
+        "es": "El impuesto sobre la renta subió.",
+        "en": "The income tax went up.",
+        "ar": "ارتفع ضريبة الدخل."
+      }
+    },
+    {
+      "es": "la ciudadanía",
+      "ipa": "/ˈla siuðaðaˈnia/",
+      "en": "the citizenship",
+      "ar": "المواطنة",
+      "example": {
+        "es": "La ciudadanía votó mayoritariamente.",
+        "en": "The citizenship voted by majority.",
+        "ar": "صوّتت المواطنة بالأغلبية."
+      }
+    },
+    {
+      "es": "la libertad",
+      "ipa": "/ˈla liβeˈɾtað/",
+      "en": "the freedom",
+      "ar": "الحرية",
+      "example": {
+        "es": "La libertad de expresión es un derecho.",
+        "en": "Freedom of expression is a right.",
+        "ar": "حرية التعبير حق."
+      }
+    },
+    {
+      "es": "la manifestación",
+      "ipa": "/ˈla manifestaˈsion/",
+      "en": "the demonstration",
+      "ar": "المظاهرة",
+      "example": {
+        "es": "La manifestación pacífica reunió miles.",
+        "en": "The peaceful demonstration gathered thousands.",
+        "ar": "جمعت المظاهرة السلمية الآلاف."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Formación de Palabras Políticas",
+        "en": "Forming Political Words",
+        "ar": "تكوين الكلمات السياسية"
+      },
+      "explanation": {
+        "es": "Muchos sustantivos políticos vienen de verbos. El sufijo -ción crea sustantivos a partir de verbos en -ar: manifestar → manifestación. Otros verbos cambian la forma: elegir → elección, gobernar → gobierno, votar → voto.",
+        "en": "Many political nouns come from verbs. The suffix -ção creates nouns from -ar verbs: manifestar → manifestação. Other verbs change form: eleger → eleição, governar → governo, votar → voto.",
+        "ar": "تشتق أسماء سياسية كثيرة من الأفعال. اللاحقة -ção تكوّن الأسماء من الأفعال المنتهية بـ -ar: manifestar ← manifestação. وتتغير أشكال أفعال أخرى: eleger ← eleição، governar ← governo، votar ← voto."
+      },
+      "examples": [
+        {
+          "es": "elegir → la elección",
+          "en": "to elect → the election",
+          "ar": "ينتخب ← الانتخابات"
+        },
+        {
+          "es": "gobernar → el gobierno",
+          "en": "to govern → the government",
+          "ar": "يحكم ← الحكومة"
+        },
+        {
+          "es": "manifestar → la manifestación",
+          "en": "to demonstrate → the demonstration",
+          "ar": "يتظاهر ← المظاهرة"
+        },
+        {
+          "es": "votar → el voto",
+          "en": "to vote → the vote",
+          "ar": "يصوت ← التصويت"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Expresar Opinión y Exigir Acciones",
+        "en": "Expressing Opinion and Demanding Action",
+        "ar": "التعبير عن الرأي والمطالبة بالإجراءات"
+      },
+      "explanation": {
+        "es": "Para dar opinión usamos 'en mi opinión', 'creo que' (con indicativo) y 'no se puede negar que'. Para exigir o recomendar acciones usamos 'es preciso que', 'es fundamental que' + subjuntivo.",
+        "en": "To give an opinion we use 'en mi opinión', 'creo que' (with indicative) and 'no se puede negar que'. To demand or recommend actions we use 'es preciso que', 'es fundamental que' + subjunctive.",
+        "ar": "لإبداء الرأي نستخدم 'en mi opinión' و'creo que' (مع الإخباري) و'no se puede negar que'. ولطلب أو توصية أفعال نستخدم 'es preciso que' و'es fundamental que' + المنصوب."
+      },
+      "examples": [
+        {
+          "es": "En mi opinión, el voto es esencial para la democracia.",
+          "en": "In my opinion, voting is essential to democracy.",
+          "ar": "في رأيي، التصويت ضروري للديمقراطية."
+        },
+        {
+          "es": "Creo que los impuestos deberían ser más justos.",
+          "en": "I think taxes should be fairer.",
+          "ar": "أعتقد أن الضرائب يجب أن تكون أكثر عدلًا."
+        },
+        {
+          "es": "Es preciso que los ciudadanos participen en la vida pública.",
+          "en": "Citizens must participate in public life.",
+          "ar": "يجب أن يشارك المواطنون في الحياة العامة."
+        },
+        {
+          "es": "No se puede negar que la justicia es importante para todos.",
+          "en": "There's no denying that justice matters to everyone.",
+          "ar": "لا يمكن إنكار أن العدالة مهمة للجميع."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "La Discusión sobre las Elecciones",
+      "en": "The Discussion about the Elections",
+      "ar": "النقاش حول الانتخابات"
+    },
+    "lines": [
+      {
+        "speaker": "Pablo",
+        "es": "¿Vas a votar en las próximas elecciones?",
+        "en": "Are you going to vote in the next elections?",
+        "ar": "هل ستصوت في الانتخابات المقبلة؟"
+      },
+      {
+        "speaker": "Carla",
+        "es": "¡Claro! En mi opinión, el voto es un deber y un derecho de todo ciudadano.",
+        "en": "Of course! In my opinion, voting is a duty and a right of every citizen.",
+        "ar": "بالتأكيد! في رأيي، التصويت واجب وحق لكل مواطن."
+      },
+      {
+        "speaker": "Pablo",
+        "es": "Es verdad, pero creo que muchos candidatos no cumplen sus promesas.",
+        "en": "That's true, but I think many candidates don't keep their promises.",
+        "ar": "هذا صحيح، لكنني أعتقد أن العديد من المرشحين لا يوفون بوعودهم."
+      },
+      {
+        "speaker": "Carla",
+        "es": "Por eso es preciso que sigamos la política de cerca.",
+        "en": "That's why we need to follow politics closely.",
+        "ar": "لذلك يجب أن نتابع السياسة عن قرب."
+      },
+      {
+        "speaker": "Pablo",
+        "es": "De acuerdo. La participación de la sociedad es fundamental para la democracia.",
+        "en": "I agree. Society's participation is essential to democracy.",
+        "ar": "أوافقك الرأي. مشاركة المجتمع أساسية للديمقراطية."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Ciudadanía y Participación",
+      "en": "Citizenship and Participation",
+      "ar": "المواطنة والمشاركة"
+    },
+    "text_es": "La democracia depende de la participación de todos. Los ciudadanos eligen a sus representantes por el voto. Es fundamental que cada persona conozca las propuestas de los candidatos antes de decidir. Cuando la sociedad participa, el gobierno está más atento a las necesidades del pueblo.",
+    "text_en": "Democracy depends on everyone's participation. Citizens choose their representatives through voting. It is essential that each person know the candidates' proposals before deciding. When society participates, the government becomes more attentive to the people's needs.",
+    "text_ar": "تعتمد الديمقراطية على مشاركة الجميع. يختار المواطنون ممثليهم عن طريق التصويت. من الضروري أن يتعرف كل شخص على برامج المرشحين قبل اتخاذ القرار. وعندما يشارك المجتمع، تصبح الحكومة أكثر انتباهاً لاحتياجات الشعب."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "El ___ es el derecho de elegir a los gobernantes.",
+        "en": "The ___ is the right to choose the rulers.",
+        "ar": "إن ___ هي حق اختيار الحكام."
+      },
+      "options": [
+        {
+          "es": "impuesto",
+          "en": "tax",
+          "ar": "ضريبة"
+        },
+        {
+          "es": "voto",
+          "en": "voto",
+          "ar": "voto"
+        },
+        {
+          "es": "partido",
+          "en": "partido",
+          "ar": "partido"
+        }
+      ],
+      "answer": "voto",
+      "explanation": {
+        "es": "El voto es el acto de elegir a los gobernantes en una elección.",
+        "en": "The vote is the act of choosing the rulers in an election.",
+        "ar": "التصويت هو فعل اختيار الحكام في الانتخابات."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Es fundamental que cada persona ___ las propuestas de los candidatos.",
+        "en": "It is essential that each person ___ the candidates' proposals.",
+        "ar": "من الضروري أن ___ كل شخص برامج المرشحين."
+      },
+      "options": [
+        {
+          "es": "conoce",
+          "en": "you know",
+          "ar": "تعرف"
+        },
+        {
+          "es": "conocer",
+          "en": "to know",
+          "ar": "يعرف"
+        },
+        {
+          "es": "conozca",
+          "en": "know subj",
+          "ar": "تعرف"
+        }
+      ],
+      "answer": "conozca",
+      "explanation": {
+        "es": "Después de 'es fundamental que' usamos el subjuntivo: que cada persona conozca.",
+        "en": "After 'é fundamental que' we use the subjunctive: que cada pessoa conheça.",
+        "ar": "بعد 'é fundamental que' نستخدم المضارع الشرطي: que cada pessoa conheça."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'In my opinion, taxes should be fairer.'",
+        "en": "Translate: 'In my opinion, taxes should be fairer.'",
+        "ar": "ترجم: 'In my opinion, taxes should be fairer.'"
+      },
+      "options": [],
+      "answer": "En mi opinión, los impuestos deberían ser más justos.",
+      "explanation": {
+        "es": "Opinión: 'En mi opinión' + condicional 'deberían'.",
+        "en": "Opinion: 'En mi opinión' + conditional 'deberían'.",
+        "ar": "الرأي: 'En mi opinión' + الشرطي 'deberían'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the government'?",
+        "en": "Which word means 'the government'?",
+        "ar": "أي كلمة تعني 'الحكومة'؟"
+      },
+      "options": [
+        {
+          "es": "la ley",
+          "en": "the law",
+          "ar": "القانون"
+        },
+        {
+          "es": "el gobierno",
+          "en": "the government",
+          "ar": "الحكومة"
+        },
+        {
+          "es": "la justicia",
+          "en": "the justice",
+          "ar": "العدالة"
+        }
+      ],
+      "answer": "el gobierno",
+      "explanation": {
+        "es": "'el gobierno' significa 'the government'.",
+        "en": "'el gobierno' means 'the government'.",
+        "ar": "تعني 'el gobierno' 'الحكومة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the political party'",
+        "en": "Choose the Spanish word: 'the political party'",
+        "ar": "اختر الكلمة بالإسبانية: 'الحزب السياسي'"
+      },
+      "options": [
+        {
+          "es": "el partido",
+          "en": "the political party",
+          "ar": "الحزب السياسي"
+        },
+        {
+          "es": "la elección",
+          "en": "the election",
+          "ar": "الانتخابات"
+        },
+        {
+          "es": "la libertad",
+          "en": "the freedom",
+          "ar": "الحرية"
+        },
+        {
+          "es": "el derecho",
+          "en": "the right",
+          "ar": "الحق"
+        }
+      ],
+      "answer": "el partido",
+      "explanation": {
+        "es": "'el partido' significa 'the political party'.",
+        "en": "'el partido' means 'the political party'.",
+        "ar": "تعني 'el partido' 'الحزب السياسي'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the political party' en español?",
+        "en": "How do you say 'the political party' in Spanish?",
+        "ar": "كيف تقول 'الحزب السياسي' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el gobierno",
+          "en": "the government",
+          "ar": "الحكومة"
+        },
+        {
+          "es": "el partido",
+          "en": "the political party",
+          "ar": "الحزب السياسي"
+        },
+        {
+          "es": "la libertad",
+          "en": "the freedom",
+          "ar": "الحرية"
+        }
+      ],
+      "answer": "el partido",
+      "explanation": {
+        "es": "'el partido' significa 'the political party'.",
+        "en": "'el partido' means 'the political party'.",
+        "ar": "تعني 'el partido' 'الحزب السياسي'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the congressman'?",
+        "en": "Which word means 'the congressman'?",
+        "ar": "أي كلمة تعني 'النائب'؟"
+      },
+      "options": [
+        {
+          "es": "la libertad",
+          "en": "the freedom",
+          "ar": "الحرية"
+        },
+        {
+          "es": "el diputado",
+          "en": "the congressman",
+          "ar": "النائب"
+        },
+        {
+          "es": "la justicia",
+          "en": "the justice",
+          "ar": "العدالة"
+        }
+      ],
+      "answer": "el diputado",
+      "explanation": {
+        "es": "'el diputado' significa 'the congressman'.",
+        "en": "'el diputado' means 'the congressman'.",
+        "ar": "تعني 'el diputado' 'النائب'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The candidate promised to lower taxes.\"",
+        "en": "Translate into Spanish: \"The candidate promised to lower taxes.\"",
+        "ar": "ترجم إلى الإسبانية: \"وعد المرشح بخفض الضرائب.\""
+      },
+      "options": [],
+      "answer": "El candidato prometió bajar impuestos.",
+      "explanation": {
+        "es": "Respuesta: \"El candidato prometió bajar impuestos.\".",
+        "en": "Answer: \"El candidato prometió bajar impuestos.\".",
+        "ar": "الإجابة: \"El candidato prometió bajar impuestos.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The ruling party lost support.\"",
+        "en": "Translate into Spanish: \"The ruling party lost support.\"",
+        "ar": "ترجم إلى الإسبانية: \"فقد الحزب الحاكم دعمه.\""
+      },
+      "options": [],
+      "answer": "El partido gobernante perdió apoyo.",
+      "explanation": {
+        "es": "Respuesta: \"El partido gobernante perdió apoyo.\".",
+        "en": "Answer: \"El partido gobernante perdió apoyo.\".",
+        "ar": "الإجابة: \"El partido gobernante perdió apoyo.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I agree. Society's participation is essential to democracy.\"",
+        "en": "Translate into Spanish: \"I agree. Society's participation is essential to democracy.\"",
+        "ar": "ترجم إلى الإسبانية: \"أوافقك الرأي. مشاركة المجتمع أساسية للديمقراطية.\""
+      },
+      "options": [],
+      "answer": "De acuerdo. La participación de la sociedad es fundamental para la democracia.",
+      "explanation": {
+        "es": "Respuesta: \"De acuerdo. La participación de la sociedad es fundamental para la democracia.\".",
+        "en": "Answer: \"De acuerdo. La participación de la sociedad es fundamental para la democracia.\".",
+        "ar": "الإجابة: \"De acuerdo. La participación de la sociedad es fundamental para la democracia.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"That's why we need to follow politics closely.\"",
+        "en": "Translate into Spanish: \"That's why we need to follow politics closely.\"",
+        "ar": "ترجم إلى الإسبانية: \"لذلك يجب أن نتابع السياسة عن قرب.\""
+      },
+      "options": [],
+      "answer": "Por eso es preciso que sigamos la política de cerca.",
+      "explanation": {
+        "es": "Respuesta: \"Por eso es preciso que sigamos la política de cerca.\".",
+        "en": "Answer: \"Por eso es preciso que sigamos la política de cerca.\".",
+        "ar": "الإجابة: \"Por eso es preciso que sigamos la política de cerca.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "Ciudadanía y Participación",
-   "en": "Citizenship and Participation",
-   "ar": "المواطنة والمشاركة"
-  },
-  "text_es": "La democracia depende de la participación de todos. Los ciudadanos eligen a sus representantes por el voto. Es fundamental que cada persona conozca las propuestas de los candidatos antes de decidir. Cuando la sociedad participa, el gobierno está más atento a las necesidades del pueblo.",
-  "text_en": "Democracy depends on everyone's participation. Citizens choose their representatives through voting. It is essential that each person know the candidates' proposals before deciding. When society participates, the government becomes more attentive to the people's needs.",
-  "text_ar": "تعتمد الديمقراطية على مشاركة الجميع. يختار المواطنون ممثليهم عن طريق التصويت. من الضروري أن يتعرف كل شخص على برامج المرشحين قبل اتخاذ القرار. وعندما يشارك المجتمع، تصبح الحكومة أكثر انتباهاً لاحتياجات الشعب."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "El ___ es el derecho de elegir a los gobernantes.",
-    "en": "The ___ is the right to choose the rulers.",
-    "ar": "إن ___ هي حق اختيار الحكام."
-   },
-   "options": [
-    {
-     "es": "impuesto",
-     "en": "imposto",
-     "ar": "imposto"
-    },
-    {
-     "es": "voto",
-     "en": "voto",
-     "ar": "voto"
-    },
-    {
-     "es": "partido",
-     "en": "partido",
-     "ar": "partido"
-    }
-   ],
-   "answer": "voto",
-   "explanation": {
-    "es": "El voto es el acto de elegir a los gobernantes en una elección.",
-    "en": "The vote is the act of choosing the rulers in an election.",
-    "ar": "التصويت هو فعل اختيار الحكام في الانتخابات."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Es fundamental que cada persona ___ las propuestas de los candidatos.",
-    "en": "It is essential that each person ___ the candidates' proposals.",
-    "ar": "من الضروري أن ___ كل شخص برامج المرشحين."
-   },
-   "options": [
-    {
-     "es": "conoce",
-     "en": "conhece",
-     "ar": "conhece"
-    },
-    {
-     "es": "conocer",
-     "en": "conhecer",
-     "ar": "conhecer"
-    },
-    {
-     "es": "conozca",
-     "en": "conheça",
-     "ar": "conheça"
-    }
-   ],
-   "answer": "conozca",
-   "explanation": {
-    "es": "Después de 'es fundamental que' usamos el subjuntivo: que cada persona conozca.",
-    "en": "After 'é fundamental que' we use the subjunctive: que cada pessoa conheça.",
-    "ar": "بعد 'é fundamental que' نستخدم المضارع الشرطي: que cada pessoa conheça."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'In my opinion, taxes should be fairer.'",
-    "en": "Translate: 'In my opinion, taxes should be fairer.'",
-    "ar": "ترجم: 'In my opinion, taxes should be fairer.'"
-   },
-   "options": [],
-   "answer": "En mi opinión, los impuestos deberían ser más justos.",
-   "explanation": {
-    "es": "Opinión: 'En mi opinión' + condicional 'deberían'.",
-    "en": "Opinion: 'En mi opinión' + conditional 'deberían'.",
-    "ar": "الرأي: 'En mi opinión' + الشرطي 'deberían'."
-   }
-  }
- ]
 }

@@ -1,304 +1,576 @@
 {
- "id": "A1-05",
- "level": "A1",
- "level_name": {
-  "es": "Principiante",
-  "en": "Beginner",
-  "ar": "مبتدئ"
- },
- "title": {
-  "es": "Verbos Ser y Estar",
-  "en": "Verb to Be (Ser/Estar)",
-  "ar": "فعل الكينونة (Ser/Estar)"
- },
- "objectives": [
-  {
-   "es": "Diferenciar los verbos 'ser' y 'estar'",
-   "en": "Differentiate the verbs 'ser' and 'estar'",
-   "ar": "التمييز بين الفعلين 'ser' و 'estar'"
+  "id": "A1-05",
+  "level": "A1",
+  "level_name": {
+    "es": "Principiante",
+    "en": "Beginner",
+    "ar": "مبتدئ"
   },
-  {
-   "es": "Conjugar ser y estar en presente",
-   "en": "Conjugate ser and estar in the present",
-   "ar": "تصريف ser و estar في المضارع"
-  },
-  {
-   "es": "Usar ser para características y estar para estados",
-   "en": "Use ser for characteristics and estar for states",
-   "ar": "استخدام ser للصفات الدائمة و estar للحالات المؤقتة"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "ser",
-   "ipa": "/ˈseɾ/",
-   "en": "to be (permanent)",
-   "ar": "يكون (صفة دائمة)"
-  },
-  {
-   "es": "estar",
-   "ipa": "/eˈstaɾ/",
-   "en": "to be (temporary)",
-   "ar": "يكون (حالة مؤقتة)"
-  },
-  {
-   "es": "yo soy",
-   "ipa": "/ˈʝo ˈsoʝ/",
-   "en": "I am",
-   "ar": "أنا (دائم)"
-  },
-  {
-   "es": "yo estoy",
-   "ipa": "/ˈʝo eˈstoʝ/",
-   "en": "I am (temporarily)",
-   "ar": "أنا (مؤقتًا)"
-  },
-  {
-   "es": "feliz",
-   "ipa": "/feˈlis/",
-   "en": "happy",
-   "ar": "سعيد"
-  },
-  {
-   "es": "cansado",
-   "ipa": "/kaˈnsaðo/",
-   "en": "tired",
-   "ar": "متعب"
-  },
-  {
-   "es": "español",
-   "ipa": "/espaˈɲol/",
-   "en": "Brazilian",
-   "ar": "برازيلي"
-  },
-  {
-   "es": "profesor",
-   "ipa": "/pɾofeˈsoɾ/",
-   "en": "teacher",
-   "ar": "معلم"
-  },
-  {
-   "es": "enfermo",
-   "ipa": "/eˈnfeɾmo/",
-   "en": "sick",
-   "ar": "مريض"
-  },
-  {
-   "es": "ocupado",
-   "ipa": "/okuˈpaðo/",
-   "en": "busy",
-   "ar": "مشغول"
-  },
-  {
-   "es": "alto",
-   "ipa": "/ˈalto/",
-   "en": "tall",
-   "ar": "طويل القامة"
-  },
-  {
-   "es": "inteligente",
-   "ipa": "/inteliˈxente/",
-   "en": "intelligent",
-   "ar": "ذكي"
-  },
-  {
-   "es": "hoy",
-   "ipa": "/ˈoʝ/",
-   "en": "today",
-   "ar": "اليوم"
-  },
-  {
-   "es": "ahora",
-   "ipa": "/aˈoɾa/",
-   "en": "now",
-   "ar": "الآن"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Ser vs. Estar",
-    "en": "Ser vs. Estar",
-    "ar": "Ser مقابل Estar"
-   },
-   "explanation": {
-    "es": "'Ser' se usa para características permanentes, identidad y origen: Yo soy español (I am Spanish). 'Estar' se usa para estados temporales, condiciones y ubicación: Yo estoy cansado (I am tired). Las dos palabras significan 'to be' pero se usan en contextos diferentes.",
-    "en": "'Ser' is used for permanent characteristics, identity and origin: Yo soy español (I am Spanish). 'Estar' is used for temporary states, conditions and location: Yo estoy cansado (I am tired). Both words mean 'to be' but are used in different contexts.",
-    "ar": "يُستخدم 'ser' للصفات الدائمة والهوية والأصل: yo soy español (أنا إسباني). ويُستخدم 'estar' للحالات المؤقتة والأحوال والمكان: yo estoy cansado (أنا متعب). كلتا الكلمتين تعني 'يكون' لكن تُستخدمان في سياقات مختلفة."
-   },
-   "examples": [
-    {
-     "es": "Yo soy profesor.",
-     "en": "I am a teacher. (identity)",
-     "ar": "أنا معلم. (هوية)"
-    },
-    {
-     "es": "Yo estoy cansado.",
-     "en": "I am tired. (temporary)",
-     "ar": "أنا متعب. (مؤقت)"
-    },
-    {
-     "es": "Ella es feliz.",
-     "en": "She is happy. (characteristic)",
-     "ar": "هي سعيدة. (صفة دائمة)"
-    },
-    {
-     "es": "Él está enfermo.",
-     "en": "He is sick. (temporary)",
-     "ar": "هو مريض. (حالة مؤقتة)"
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Conjugación de Ser y Estar",
-    "en": "Conjugation of Ser and Estar",
-    "ar": "تصريف Ser و Estar"
-   },
-   "explanation": {
-    "es": "Ser: yo soy, tú eres, él/ella es, nosotros somos, ustedes son, ellos/ellas son. Estar: yo estoy, tú estás, él/ella está, nosotros estamos, ustedes están, ellos/ellas están. Observe que 'usted' usa la tercera persona.",
-    "en": "Ser: yo soy, tú eres, él/ella es, nosotros somos, ustedes son, ellos/ellas son. Estar: yo estoy, tú estás, él/ella está, nosotros estamos, ustedes están, ellos/ellas están. Note that 'usted' takes third-person verb forms.",
-    "ar": "Ser: yo soy، tú eres، él/ella es، nosotros somos، ustedes son، ellos/ellas son. Estar: yo estoy، tú estás، él/ella está، nosotros estamos، ustedes están، ellos/ellas están. لاحظ أن 'usted' تستخدم صيغة الغائب."
-   },
-   "examples": [
-    {
-     "es": "Nosotros somos estudiantes.",
-     "en": "We are students.",
-     "ar": "نحن طلاب."
-    },
-    {
-     "es": "Ellos están en la escuela ahora.",
-     "en": "They are at school now.",
-     "ar": "هم في المدرسة الآن."
-    },
-    {
-     "es": "Usted es muy inteligente.",
-     "en": "You are very intelligent.",
-     "ar": "أنت ذكي جدًا."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "Presentación en el Trabajo",
-   "en": "Introduction at Work",
-   "ar": "التعريف في العمل"
+    "es": "Verbos Ser y Estar",
+    "en": "Verb to Be (Ser/Estar)",
+    "ar": "فعل الكينونة (Ser/Estar)"
   },
-  "lines": [
-   {
-    "speaker": "Juan",
-    "es": "Hola, yo soy Juan. Soy ingeniero.",
-    "en": "Hello, I'm João. I'm an engineer.",
-    "ar": "مرحبًا، أنا جواو. أنا مهندس."
-   },
-   {
-    "speaker": "María",
-    "es": "¡Mucho gusto! Estoy muy feliz de trabajar con usted.",
-    "en": "Nice to meet you! I'm very happy to work with you.",
-    "ar": "سررت بلقائك! أنا سعيدة جدًا بالعمل معك."
-   },
-   {
-    "speaker": "Juan",
-    "es": "Yo también. Estoy un poco cansado hoy.",
-    "en": "Me too. I'm a little tired today.",
-    "ar": "وأنا أيضًا. أنا متعب قليلًا اليوم."
-   },
-   {
-    "speaker": "María",
-    "es": "Descansa el fin de semana. Usted es muy dedicado.",
-    "en": "Rest on the weekend. You are very dedicated.",
-    "ar": "استرح في عطلة نهاية الأسبوع. أنت مخلص جدًا."
-   }
+  "objectives": [
+    {
+      "es": "Diferenciar los verbos 'ser' y 'estar'",
+      "en": "Differentiate the verbs 'ser' and 'estar'",
+      "ar": "التمييز بين الفعلين 'ser' و 'estar'"
+    },
+    {
+      "es": "Conjugar ser y estar en presente",
+      "en": "Conjugate ser and estar in the present",
+      "ar": "تصريف ser و estar في المضارع"
+    },
+    {
+      "es": "Usar ser para características y estar para estados",
+      "en": "Use ser for characteristics and estar for states",
+      "ar": "استخدام ser للصفات الدائمة و estar للحالات المؤقتة"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "ser",
+      "ipa": "/ˈseɾ/",
+      "en": "to be (permanent)",
+      "ar": "يكون (صفة دائمة)",
+      "example": {
+        "es": "Ella quiere ser profesora.",
+        "en": "She wants to be a teacher.",
+        "ar": "تريد أن تصبح معلمة."
+      }
+    },
+    {
+      "es": "estar",
+      "ipa": "/eˈstaɾ/",
+      "en": "to be (temporary)",
+      "ar": "يكون (حالة مؤقتة)",
+      "example": {
+        "es": "Necesito estar listo.",
+        "en": "I need to be ready.",
+        "ar": "أحتاج أن أكون جاهزًا."
+      }
+    },
+    {
+      "es": "yo soy",
+      "ipa": "/ˈʝo ˈsoʝ/",
+      "en": "I am",
+      "ar": "أنا (دائم)",
+      "example": {
+        "es": "Yo soy el hermano menor.",
+        "en": "I am the younger brother.",
+        "ar": "أنا الأخ الأصغر."
+      }
+    },
+    {
+      "es": "yo estoy",
+      "ipa": "/ˈʝo eˈstoʝ/",
+      "en": "I am (temporarily)",
+      "ar": "أنا (مؤقتًا)",
+      "example": {
+        "es": "Yo estoy en casa ahora.",
+        "en": "I am at home now.",
+        "ar": "أنا في المنزل الآن."
+      }
+    },
+    {
+      "es": "feliz",
+      "ipa": "/feˈlis/",
+      "en": "happy",
+      "ar": "سعيد",
+      "example": {
+        "es": "Estoy feliz con el resultado.",
+        "en": "I'm happy with the result.",
+        "ar": "سعيد بالنتيجة."
+      }
+    },
+    {
+      "es": "cansado",
+      "ipa": "/kaˈnsaðo/",
+      "en": "tired",
+      "ar": "متعب",
+      "example": {
+        "es": "Después del examen, estoy cansado.",
+        "en": "After the test, I'm tired.",
+        "ar": "بعد الامتحان، أنا متعب."
+      }
+    },
+    {
+      "es": "español",
+      "ipa": "/espaˈɲol/",
+      "en": "Spanish",
+      "ar": "إسباني",
+      "example": {
+        "es": "Hablo español todos los días.",
+        "en": "I speak Spanish every day.",
+        "ar": "أتحدث الإسبانية كل يوم."
+      }
+    },
+    {
+      "es": "profesor",
+      "ipa": "/pɾofeˈsoɾ/",
+      "en": "teacher",
+      "ar": "معلم",
+      "example": {
+        "es": "Él trabaja como profesor.",
+        "en": "He works as a teacher.",
+        "ar": "يعمل كمعلم."
+      }
+    },
+    {
+      "es": "enfermo",
+      "ipa": "/eˈnfeɾmo/",
+      "en": "sick",
+      "ar": "مريض",
+      "example": {
+        "es": "El gato está enfermo.",
+        "en": "The cat is sick.",
+        "ar": "القط مريض."
+      }
+    },
+    {
+      "es": "ocupado",
+      "ipa": "/okuˈpaðo/",
+      "en": "busy",
+      "ar": "مشغول",
+      "example": {
+        "es": "Estoy ocupado ahora.",
+        "en": "I'm busy now.",
+        "ar": "أنا مشغول الآن."
+      }
+    },
+    {
+      "es": "alto",
+      "ipa": "/ˈalto/",
+      "en": "tall",
+      "ar": "طويل القامة",
+      "example": {
+        "es": "El edificio es muy alto.",
+        "en": "The building is very tall.",
+        "ar": "المبنى طويل جدًا."
+      }
+    },
+    {
+      "es": "inteligente",
+      "ipa": "/inteliˈxente/",
+      "en": "intelligent",
+      "ar": "ذكي",
+      "example": {
+        "es": "La alumna es muy inteligente.",
+        "en": "The student (f) is very intelligent.",
+        "ar": "الطالبة ذكية جدًا."
+      }
+    },
+    {
+      "es": "hoy",
+      "ipa": "/ˈoʝ/",
+      "en": "today",
+      "ar": "اليوم",
+      "example": {
+        "es": "Hoy es lunes.",
+        "en": "Today is Monday.",
+        "ar": "اليوم هو الاثنين."
+      }
+    },
+    {
+      "es": "ahora",
+      "ipa": "/aˈoɾa/",
+      "en": "now",
+      "ar": "الآن",
+      "example": {
+        "es": "Ahora está todo claro.",
+        "en": "Now everything is clear.",
+        "ar": "الآن كل شيء واضح."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Ser vs. Estar",
+        "en": "Ser vs. Estar",
+        "ar": "Ser مقابل Estar"
+      },
+      "explanation": {
+        "es": "'Ser' se usa para características permanentes, identidad y origen: Yo soy español (I am Spanish). 'Estar' se usa para estados temporales, condiciones y ubicación: Yo estoy cansado (I am tired). Las dos palabras significan 'to be' pero se usan en contextos diferentes.",
+        "en": "'Ser' is used for permanent characteristics, identity and origin: Yo soy español (I am Spanish). 'Estar' is used for temporary states, conditions and location: Yo estoy cansado (I am tired). Both words mean 'to be' but are used in different contexts.",
+        "ar": "يُستخدم 'ser' للصفات الدائمة والهوية والأصل: yo soy español (أنا إسباني). ويُستخدم 'estar' للحالات المؤقتة والأحوال والمكان: yo estoy cansado (أنا متعب). كلتا الكلمتين تعني 'يكون' لكن تُستخدمان في سياقات مختلفة."
+      },
+      "examples": [
+        {
+          "es": "Yo soy profesor.",
+          "en": "I am a teacher. (identity)",
+          "ar": "أنا معلم. (هوية)"
+        },
+        {
+          "es": "Yo estoy cansado.",
+          "en": "I am tired. (temporary)",
+          "ar": "أنا متعب. (مؤقت)"
+        },
+        {
+          "es": "Ella es feliz.",
+          "en": "She is happy. (characteristic)",
+          "ar": "هي سعيدة. (صفة دائمة)"
+        },
+        {
+          "es": "Él está enfermo.",
+          "en": "He is sick. (temporary)",
+          "ar": "هو مريض. (حالة مؤقتة)"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Conjugación de Ser y Estar",
+        "en": "Conjugation of Ser and Estar",
+        "ar": "تصريف Ser و Estar"
+      },
+      "explanation": {
+        "es": "Ser: yo soy, tú eres, él/ella es, nosotros somos, ustedes son, ellos/ellas son. Estar: yo estoy, tú estás, él/ella está, nosotros estamos, ustedes están, ellos/ellas están. Observe que 'usted' usa la tercera persona.",
+        "en": "Ser: yo soy, tú eres, él/ella es, nosotros somos, ustedes son, ellos/ellas son. Estar: yo estoy, tú estás, él/ella está, nosotros estamos, ustedes están, ellos/ellas están. Note that 'usted' takes third-person verb forms.",
+        "ar": "Ser: yo soy، tú eres، él/ella es، nosotros somos، ustedes son، ellos/ellas son. Estar: yo estoy، tú estás، él/ella está، nosotros estamos، ustedes están، ellos/ellas están. لاحظ أن 'usted' تستخدم صيغة الغائب."
+      },
+      "examples": [
+        {
+          "es": "Nosotros somos estudiantes.",
+          "en": "We are students.",
+          "ar": "نحن طلاب."
+        },
+        {
+          "es": "Ellos están en la escuela ahora.",
+          "en": "They are at school now.",
+          "ar": "هم في المدرسة الآن."
+        },
+        {
+          "es": "Usted es muy inteligente.",
+          "en": "You are very intelligent.",
+          "ar": "أنت ذكي جدًا."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Presentación en el Trabajo",
+      "en": "Introduction at Work",
+      "ar": "التعريف في العمل"
+    },
+    "lines": [
+      {
+        "speaker": "Juan",
+        "es": "Hola, yo soy Juan. Soy ingeniero.",
+        "en": "Hello, I'm João. I'm an engineer.",
+        "ar": "مرحبًا، أنا جواو. أنا مهندس."
+      },
+      {
+        "speaker": "María",
+        "es": "¡Mucho gusto! Estoy muy feliz de trabajar con usted.",
+        "en": "Nice to meet you! I'm very happy to work with you.",
+        "ar": "سررت بلقائك! أنا سعيدة جدًا بالعمل معك."
+      },
+      {
+        "speaker": "Juan",
+        "es": "Yo también. Estoy un poco cansado hoy.",
+        "en": "Me too. I'm a little tired today.",
+        "ar": "وأنا أيضًا. أنا متعب قليلًا اليوم."
+      },
+      {
+        "speaker": "María",
+        "es": "Descansa el fin de semana. Usted es muy dedicado.",
+        "en": "Rest on the weekend. You are very dedicated.",
+        "ar": "استرح في عطلة نهاية الأسبوع. أنت مخلص جدًا."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "¿Quién Es Ana?",
+      "en": "Who Is Ana?",
+      "ar": "من هي آنا؟"
+    },
+    "text_es": "Ana es española. Ella es alta e inteligente. Hoy está feliz porque está de vacaciones. Su hermano, Pablo, es ingeniero. Está en Madrid ahora. Los dos están ocupados pero son muy amigos.",
+    "text_en": "Ana is Brazilian. She is tall and intelligent. Today she is happy because she is on vacation. Her brother, Paulo, is an engineer. He is in Rio de Janeiro now. They are both busy but they are good friends.",
+    "text_ar": "آنا برازيلية. إنها طويلة وذكية. اليوم هي سعيدة لأنها في إجازة. أخوها باولو مهندس. هو في ريو دي جانيرو الآن. كلاهما مشغولان لكنهما صديقان حميمان."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Yo ___ español. (característica permanente)",
+        "en": "I ___ Spanish. (permanent characteristic)",
+        "ar": "أنا إسباني. (صفة دائمة)"
+      },
+      "options": [
+        {
+          "es": "estoy",
+          "en": "I am",
+          "ar": "أنا"
+        },
+        {
+          "es": "soy",
+          "en": "I am",
+          "ar": "أنا"
+        },
+        {
+          "es": "estar",
+          "en": "estar",
+          "ar": "estar"
+        }
+      ],
+      "answer": "soy",
+      "explanation": {
+        "es": "La nacionalidad usa 'ser': yo soy.",
+        "en": "Nationality uses 'ser': yo soy.",
+        "ar": "الجنسية تستخدم 'ser': yo soy."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Él ___ enfermo hoy. (estado temporal)",
+        "en": "He ___ sick today. (temporary state)",
+        "ar": "هو مريض اليوم. (حالة مؤقتة)"
+      },
+      "options": [
+        {
+          "es": "es",
+          "en": "is",
+          "ar": "يكون"
+        },
+        {
+          "es": "está",
+          "en": "is",
+          "ar": "يوجد"
+        },
+        {
+          "es": "son",
+          "en": "are",
+          "ar": "يكونون"
+        }
+      ],
+      "answer": "está",
+      "explanation": {
+        "es": "Los estados temporales usan 'estar': él está.",
+        "en": "Temporary states use 'estar': ele está.",
+        "ar": "الحالات المؤقتة تستخدم 'estar': ele está."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'I am tired'",
+        "en": "Translate: 'I am tired'",
+        "ar": "ترجم: 'I am tired'"
+      },
+      "options": [],
+      "answer": "Yo estoy cansado",
+      "explanation": {
+        "es": "El cansancio es temporal: 'Yo estoy cansado'.",
+        "en": "Tiredness is temporary: 'Yo estoy cansado'.",
+        "ar": "التعب حالة مؤقتة: 'yo estoy cansado'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'tired'?",
+        "en": "Which word means 'tired'?",
+        "ar": "أي كلمة تعني 'متعب'؟"
+      },
+      "options": [
+        {
+          "es": "ahora",
+          "en": "now",
+          "ar": "الآن"
+        },
+        {
+          "es": "español",
+          "en": "Spanish",
+          "ar": "إسباني"
+        },
+        {
+          "es": "cansado",
+          "en": "tired",
+          "ar": "متعب"
+        },
+        {
+          "es": "yo soy",
+          "en": "I am",
+          "ar": "أنا (دائم)"
+        }
+      ],
+      "answer": "cansado",
+      "explanation": {
+        "es": "'cansado' significa 'tired'.",
+        "en": "'cansado' means 'tired'.",
+        "ar": "تعني 'cansado' 'متعب'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'teacher'",
+        "en": "Choose the Spanish word: 'teacher'",
+        "ar": "اختر الكلمة بالإسبانية: 'معلم'"
+      },
+      "options": [
+        {
+          "es": "enfermo",
+          "en": "sick",
+          "ar": "مريض"
+        },
+        {
+          "es": "yo soy",
+          "en": "I am",
+          "ar": "أنا (دائم)"
+        },
+        {
+          "es": "profesor",
+          "en": "teacher",
+          "ar": "معلم"
+        },
+        {
+          "es": "alto",
+          "en": "tall",
+          "ar": "طويل القامة"
+        }
+      ],
+      "answer": "profesor",
+      "explanation": {
+        "es": "'profesor' significa 'teacher'.",
+        "en": "'profesor' means 'teacher'.",
+        "ar": "تعني 'profesor' 'معلم'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'tall' en español?",
+        "en": "How do you say 'tall' in Spanish?",
+        "ar": "كيف تقول 'طويل القامة' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "yo estoy",
+          "en": "I am (temporarily)",
+          "ar": "أنا (مؤقتًا)"
+        },
+        {
+          "es": "yo soy",
+          "en": "I am",
+          "ar": "أنا (دائم)"
+        },
+        {
+          "es": "alto",
+          "en": "tall",
+          "ar": "طويل القامة"
+        }
+      ],
+      "answer": "alto",
+      "explanation": {
+        "es": "'alto' significa 'tall'.",
+        "en": "'alto' means 'tall'.",
+        "ar": "تعني 'alto' 'طويل القامة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'now'?",
+        "en": "Which word means 'now'?",
+        "ar": "أي كلمة تعني 'الآن'؟"
+      },
+      "options": [
+        {
+          "es": "feliz",
+          "en": "happy",
+          "ar": "سعيد"
+        },
+        {
+          "es": "alto",
+          "en": "tall",
+          "ar": "طويل القامة"
+        },
+        {
+          "es": "ahora",
+          "en": "now",
+          "ar": "الآن"
+        }
+      ],
+      "answer": "ahora",
+      "explanation": {
+        "es": "'ahora' significa 'now'.",
+        "en": "'ahora' means 'now'.",
+        "ar": "تعني 'ahora' 'الآن'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Nice to meet you! I'm very happy to work with you.\"",
+        "en": "Translate into Spanish: \"Nice to meet you! I'm very happy to work with you.\"",
+        "ar": "ترجم إلى الإسبانية: \"سررت بلقائك! أنا سعيدة جدًا بالعمل معك.\""
+      },
+      "options": [],
+      "answer": "¡Mucho gusto! Estoy muy feliz de trabajar con usted.",
+      "explanation": {
+        "es": "Respuesta: \"¡Mucho gusto! Estoy muy feliz de trabajar con usted.\".",
+        "en": "Answer: \"¡Mucho gusto! Estoy muy feliz de trabajar con usted.\".",
+        "ar": "الإجابة: \"¡Mucho gusto! Estoy muy feliz de trabajar con usted.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I need to be ready.\"",
+        "en": "Translate into Spanish: \"I need to be ready.\"",
+        "ar": "ترجم إلى الإسبانية: \"أحتاج أن أكون جاهزًا.\""
+      },
+      "options": [],
+      "answer": "Necesito estar listo.",
+      "explanation": {
+        "es": "Respuesta: \"Necesito estar listo.\".",
+        "en": "Answer: \"Necesito estar listo.\".",
+        "ar": "الإجابة: \"Necesito estar listo.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The building is very tall.\"",
+        "en": "Translate into Spanish: \"The building is very tall.\"",
+        "ar": "ترجم إلى الإسبانية: \"المبنى طويل جدًا.\""
+      },
+      "options": [],
+      "answer": "El edificio es muy alto.",
+      "explanation": {
+        "es": "Respuesta: \"El edificio es muy alto.\".",
+        "en": "Answer: \"El edificio es muy alto.\".",
+        "ar": "الإجابة: \"El edificio es muy alto.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Today is Monday.\"",
+        "en": "Translate into Spanish: \"Today is Monday.\"",
+        "ar": "ترجم إلى الإسبانية: \"اليوم هو الاثنين.\""
+      },
+      "options": [],
+      "answer": "Hoy es lunes.",
+      "explanation": {
+        "es": "Respuesta: \"Hoy es lunes.\".",
+        "en": "Answer: \"Hoy es lunes.\".",
+        "ar": "الإجابة: \"Hoy es lunes.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "¿Quién Es Ana?",
-   "en": "Who Is Ana?",
-   "ar": "من هي آنا؟"
-  },
-  "text_es": "Ana es española. Ella es alta e inteligente. Hoy está feliz porque está de vacaciones. Su hermano, Pablo, es ingeniero. Está en Madrid ahora. Los dos están ocupados pero son muy amigos.",
-  "text_en": "Ana is Brazilian. She is tall and intelligent. Today she is happy because she is on vacation. Her brother, Paulo, is an engineer. He is in Rio de Janeiro now. They are both busy but they are good friends.",
-  "text_ar": "آنا برازيلية. إنها طويلة وذكية. اليوم هي سعيدة لأنها في إجازة. أخوها باولو مهندس. هو في ريو دي جانيرو الآن. كلاهما مشغولان لكنهما صديقان حميمان."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Yo ___ español. (característica permanente)",
-    "en": "I ___ Brazilian. (permanent characteristic)",
-    "ar": "أنا برازيلي. (صفة دائمة)"
-   },
-   "options": [
-    {
-     "es": "estoy",
-     "en": "I am",
-     "ar": "أنا"
-    },
-    {
-     "es": "soy",
-     "en": "sou",
-     "ar": "sou"
-    },
-    {
-     "es": "estar",
-     "en": "estar",
-     "ar": "estar"
-    }
-   ],
-   "answer": "soy",
-   "explanation": {
-    "es": "La nacionalidad usa 'ser': yo soy.",
-    "en": "Nationality uses 'ser': yo soy.",
-    "ar": "الجنسية تستخدم 'ser': yo soy."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Él ___ enfermo hoy. (estado temporal)",
-    "en": "He ___ sick today. (temporary state)",
-    "ar": "هو مريض اليوم. (حالة مؤقتة)"
-   },
-   "options": [
-    {
-     "es": "es",
-     "en": "é",
-     "ar": "é"
-    },
-    {
-     "es": "está",
-     "en": "está",
-     "ar": "está"
-    },
-    {
-     "es": "son",
-     "en": "são",
-     "ar": "são"
-    }
-   ],
-   "answer": "está",
-   "explanation": {
-    "es": "Los estados temporales usan 'estar': él está.",
-    "en": "Temporary states use 'estar': ele está.",
-    "ar": "الحالات المؤقتة تستخدم 'estar': ele está."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'I am tired'",
-    "en": "Translate: 'I am tired'",
-    "ar": "ترجم: 'I am tired'"
-   },
-   "options": [],
-   "answer": "Yo estoy cansado",
-   "explanation": {
-    "es": "El cansancio es temporal: 'Yo estoy cansado'.",
-    "en": "Tiredness is temporary: 'Yo estoy cansado'.",
-    "ar": "التعب حالة مؤقتة: 'yo estoy cansado'."
-   }
-  }
- ]
 }

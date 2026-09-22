@@ -1,333 +1,620 @@
 {
- "id": "B2-10",
- "level": "B2",
- "level_name": {
-  "es": "Intermedio alto",
-  "en": "Upper-Intermediate",
-  "ar": "متوسط متقدم"
- },
- "title": {
-  "es": "Negocios y Economía",
-  "en": "Business and Economy",
-  "ar": "الأعمال والاقتصاد"
- },
- "objectives": [
-  {
-   "es": "Discutir economía y finanzas",
-   "en": "Discuss economy and finances",
-   "ar": "مناقشة الاقتصاد والمالية"
+  "id": "B2-10",
+  "level": "B2",
+  "level_name": {
+    "es": "Intermedio alto",
+    "en": "Upper-Intermediate",
+    "ar": "متوسط متقدم"
   },
-  {
-   "es": "Negociar y cerrar acuerdos",
-   "en": "Negotiate and close deals",
-   "ar": "التفاوض وإبرام الصفقات"
-  },
-  {
-   "es": "Hablar sobre el mercado laboral y las empresas",
-   "en": "Talk about the labor market and companies",
-   "ar": "التحدث عن سوق العمل والشركات"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "el mercado",
-   "ipa": "/ˈel meˈɾkaðo/",
-   "en": "the market",
-   "ar": "السوق"
-  },
-  {
-   "es": "la empresa",
-   "ipa": "/ˈla eˈmpɾesa/",
-   "en": "the company",
-   "ar": "الشركة"
-  },
-  {
-   "es": "la inversión",
-   "ipa": "/ˈla inbeˈɾsion/",
-   "en": "the investment",
-   "ar": "الاستثمار"
-  },
-  {
-   "es": "el beneficio",
-   "ipa": "/ˈel beneˈfisio/",
-   "en": "the profit",
-   "ar": "الربح"
-  },
-  {
-   "es": "la pérdida",
-   "ipa": "/ˈla ˈpeɾdiða/",
-   "en": "the loss",
-   "ar": "الخسارة"
-  },
-  {
-   "es": "la inflación",
-   "ipa": "/ˈla inflaˈsion/",
-   "en": "the inflation",
-   "ar": "التضخم"
-  },
-  {
-   "es": "el interés",
-   "ipa": "/ˈel inteˈɾes/",
-   "en": "the interest",
-   "ar": "الفائدة"
-  },
-  {
-   "es": "el presupuesto",
-   "ipa": "/ˈel pɾesuˈpuesto/",
-   "en": "the budget",
-   "ar": "الميزانية"
-  },
-  {
-   "es": "la negociación",
-   "ipa": "/ˈla neɣosiaˈsion/",
-   "en": "the negotiation",
-   "ar": "التفاوض"
-  },
-  {
-   "es": "el contrato",
-   "ipa": "/ˈel koˈntɾato/",
-   "en": "the contract",
-   "ar": "العقد"
-  },
-  {
-   "es": "el cliente",
-   "ipa": "/ˈel ˈkliente/",
-   "en": "the client",
-   "ar": "العميل"
-  },
-  {
-   "es": "el proveedor",
-   "ipa": "/ˈel pɾoβeeˈðoɾ/",
-   "en": "the supplier",
-   "ar": "المورد"
-  },
-  {
-   "es": "la competencia",
-   "ipa": "/ˈla kompeˈtensia/",
-   "en": "the competition",
-   "ar": "المنافسة"
-  },
-  {
-   "es": "la bolsa de valores",
-   "ipa": "/ˈla ˈbolsa ˈde baˈloɾes/",
-   "en": "the stock exchange",
-   "ar": "البورصة"
-  },
-  {
-   "es": "el crecimiento",
-   "ipa": "/ˈel kɾesiˈmiento/",
-   "en": "the growth",
-   "ar": "النمو"
-  },
-  {
-   "es": "la moneda",
-   "ipa": "/ˈla moˈneða/",
-   "en": "the currency",
-   "ar": "العملة"
-  },
-  {
-   "es": "el empleo",
-   "ipa": "/ˈel ˈempleo/",
-   "en": "the job",
-   "ar": "الوظيفة"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "El Condicional en los Negocios",
-    "en": "The Conditional in Business",
-    "ar": "الصيغة الشرطية في الأعمال"
-   },
-   "explanation": {
-    "es": "El condicional expresa peticiones educadas, sugerencias e hipótesis: sería posible, nos gustaría, podría. En las negociaciones, estas formas suavizan las propuestas y muestran cortesía.",
-    "en": "The conditional expresses polite requests, suggestions and hypotheses: seria possível, gostaríamos, poderia. In negotiations, these forms soften proposals and show courtesy.",
-    "ar": "تعبر الصيغة الشرطية عن الطلبات المهذبة والاقتراحات والفرضيات: seria possível، gostaríamos، poderia. في التفاوض تخفف هذه الصيغ المقترحات وتظهر اللباقة."
-   },
-   "examples": [
-    {
-     "es": "¿Sería posible reducir el precio en un diez por ciento?",
-     "en": "Would it be possible to reduce the price by ten percent?",
-     "ar": "هل يمكن تخفيض السعر بنسبة عشرة بالمئة؟"
-    },
-    {
-     "es": "Nos gustaría firmar el contrato esta misma semana.",
-     "en": "We would like to sign the contract this week.",
-     "ar": "نود توقيع العقد هذا الأسبوع."
-    },
-    {
-     "es": "Con más inversión, la empresa crecería más rápido.",
-     "en": "With more investment, the company would grow faster.",
-     "ar": "مع مزيد من الاستثمار، ستنمو الشركة بشكل أسرع."
-    },
-    {
-     "es": "Si la inflación subiera, los precios aumentarían.",
-     "en": "If inflation rose, prices would increase.",
-     "ar": "لو ارتفع التضخم، لارتفعت الأسعار."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Expresiones de Negociación",
-    "en": "Negotiation Expressions",
-    "ar": "عبارات التفاوض"
-   },
-   "explanation": {
-    "es": "En la negociación usamos expresiones como: cerrar un trato, llegar a un acuerdo, dar un descuento, aceptar las condiciones y trato hecho. A menudo aparece el subjuntivo: si aceptas.",
-    "en": "In negotiation we use expressions like: cerrar un trato (to close a deal), llegar a un acuerdo (to reach an agreement), dar un descuento (to give a discount), aceptar las condiciones (to accept the terms) and trato hecho (it's a deal). The subjunctive often appears: si aceptas.",
-    "ar": "في التفاوض نستخدم عبارات مثل: cerrar un trato (إتمام صفقة)، llegar a un acuerdo (الوصول إلى اتفاق)، dar un descuento (منح خصم)، aceptar las condiciones (قبول الشروط) وtrato hecho (اتفاق مبرم). وكثيرًا ما يظهر المنصوب: si aceptas."
-   },
-   "examples": [
-    {
-     "es": "Vamos a intentar cerrar el trato hoy mismo.",
-     "en": "Let's try to close the deal today.",
-     "ar": "لنحاول إبرام الصفقة اليوم."
-    },
-    {
-     "es": "Si aceptas nuestras condiciones, trato hecho.",
-     "en": "If you accept our conditions, it's a deal.",
-     "ar": "إذا قبلت شروطنا، فقد تم الاتفاق."
-    },
-    {
-     "es": "El proveedor dio un buen descuento en la última compra.",
-     "en": "The supplier gave a good discount on the last purchase.",
-     "ar": "أعطى المورد خصمًا جيدًا في آخر عملية شراء."
-    },
-    {
-     "es": "Hay que llegar a un acuerdo que beneficie a ambas partes.",
-     "en": "We must reach an agreement that benefits both sides.",
-     "ar": "يجب التوصل إلى اتفاق يفيد الطرفين."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "La Reunión de Negocios",
-   "en": "The Business Meeting",
-   "ar": "اجتماع العمل"
+    "es": "Negocios y Economía",
+    "en": "Business and Economy",
+    "ar": "الأعمال والاقتصاد"
   },
-  "lines": [
-   {
-    "speaker": "Sra. Almeida",
-    "es": "Buenas tardes. Nos gustaría discutir los términos del contrato.",
-    "en": "Good afternoon. We would like to discuss the contract terms.",
-    "ar": "مساء الخير. نود مناقشة بنود العقد."
-   },
-   {
-    "speaker": "Sr. Costa",
-    "es": "Claro. ¿Sería posible ampliar el plazo de pago?",
-    "en": "Of course. Would it be possible to extend the payment period?",
-    "ar": "بالتأكيد. هل يمكن تمديد مدة السداد؟"
-   },
-   {
-    "speaker": "Sra. Almeida",
-    "es": "Podemos considerarlo, si se mantiene el importe total.",
-    "en": "We can consider it, if the total amount stays the same.",
-    "ar": "يمكننا النظر في ذلك، إذا بقي المبلغ الإجمالي كما هو."
-   },
-   {
-    "speaker": "Sr. Costa",
-    "es": "Justo. Además, necesitamos un plazo mayor para la entrega.",
-    "en": "Fair. Besides, we need a longer delivery deadline.",
-    "ar": "عادل. بالإضافة إلى ذلك، نحتاج إلى مهلة أطول للتسليم."
-   },
-   {
-    "speaker": "Sra. Almeida",
-    "es": "De acuerdo. Si están de acuerdo con todo, cerramos el trato hoy.",
-    "en": "Agreed. If you agree to everything, we close the deal today.",
-    "ar": "متفق. إذا وافقتم على كل شيء، نُبرم الصفقة اليوم."
-   }
+  "objectives": [
+    {
+      "es": "Discutir economía y finanzas",
+      "en": "Discuss economy and finances",
+      "ar": "مناقشة الاقتصاد والمالية"
+    },
+    {
+      "es": "Negociar y cerrar acuerdos",
+      "en": "Negotiate and close deals",
+      "ar": "التفاوض وإبرام الصفقات"
+    },
+    {
+      "es": "Hablar sobre el mercado laboral y las empresas",
+      "en": "Talk about the labor market and companies",
+      "ar": "التحدث عن سوق العمل والشركات"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el mercado",
+      "ipa": "/ˈel meˈɾkaðo/",
+      "en": "the market",
+      "ar": "السوق",
+      "example": {
+        "es": "El mercado reaccionó a la noticia.",
+        "en": "The market reacted to the news.",
+        "ar": "تفاعل السوق مع الخبر."
+      }
+    },
+    {
+      "es": "la empresa",
+      "ipa": "/ˈla eˈmpɾesa/",
+      "en": "the company",
+      "ar": "الشركة",
+      "example": {
+        "es": "La empresa facturó millones el año pasado.",
+        "en": "The company made millions last year.",
+        "ar": "حققت الشركة ملايين العام الماضي."
+      }
+    },
+    {
+      "es": "la inversión",
+      "ipa": "/ˈla inbeˈɾsion/",
+      "en": "the investment",
+      "ar": "الاستثمار",
+      "example": {
+        "es": "La inversión en educación rinde frutos.",
+        "en": "Investment in education pays off.",
+        "ar": "يستثمر الاستثمار في التعليم ثماره."
+      }
+    },
+    {
+      "es": "el beneficio",
+      "ipa": "/ˈel beneˈfisio/",
+      "en": "the profit",
+      "ar": "الربح",
+      "example": {
+        "es": "El beneficio del trimestre creció.",
+        "en": "The quarterly profit grew.",
+        "ar": "نما ربح الفصل."
+      }
+    },
+    {
+      "es": "la pérdida",
+      "ipa": "/ˈla ˈpeɾdiða/",
+      "en": "the loss",
+      "ar": "الخسارة",
+      "example": {
+        "es": "La pérdida obligó a recortar costos.",
+        "en": "The loss forced cost cuts.",
+        "ar": "اضطرت الخسارة إلى تقليص التكاليف."
+      }
+    },
+    {
+      "es": "la inflación",
+      "ipa": "/ˈla inflaˈsion/",
+      "en": "the inflation",
+      "ar": "التضخم",
+      "example": {
+        "es": "La inflación superó el cinco por ciento.",
+        "en": "Inflation exceeded five percent.",
+        "ar": "تجاوز التضخم خمسة بالمئة."
+      }
+    },
+    {
+      "es": "el interés",
+      "ipa": "/ˈel inteˈɾes/",
+      "en": "the interest",
+      "ar": "الفائدة",
+      "example": {
+        "es": "El interés del préstamo es fijo.",
+        "en": "The loan interest is fixed.",
+        "ar": "فائدة القرض ثابتة."
+      }
+    },
+    {
+      "es": "el presupuesto",
+      "ipa": "/ˈel pɾesuˈpuesto/",
+      "en": "the budget",
+      "ar": "الميزانية",
+      "example": {
+        "es": "El presupuesto anual se aprobó.",
+        "en": "The annual budget was approved.",
+        "ar": "وُافقت على الميزانية السنوية."
+      }
+    },
+    {
+      "es": "la negociación",
+      "ipa": "/ˈla neɣosiaˈsion/",
+      "en": "the negotiation",
+      "ar": "التفاوض",
+      "example": {
+        "es": "La negociación duró toda la noche.",
+        "en": "The negotiation lasted all night.",
+        "ar": "استمر التفاوض طوال الليل."
+      }
+    },
+    {
+      "es": "el contrato",
+      "ipa": "/ˈel koˈntɾato/",
+      "en": "the contract",
+      "ar": "العقد",
+      "example": {
+        "es": "El contrato incluye una cláusula de salida.",
+        "en": "The contract includes an exit clause.",
+        "ar": "يتضمن العقد بندًا للخروج."
+      }
+    },
+    {
+      "es": "el cliente",
+      "ipa": "/ˈel ˈkliente/",
+      "en": "the client",
+      "ar": "العميل",
+      "example": {
+        "es": "El cliente pidió un descuento.",
+        "en": "The customer asked for a discount.",
+        "ar": "طلب العميل خصمًا."
+      }
+    },
+    {
+      "es": "el proveedor",
+      "ipa": "/ˈel pɾoβeeˈðoɾ/",
+      "en": "the supplier",
+      "ar": "المورد",
+      "example": {
+        "es": "El proveedor retrasó el envío.",
+        "en": "The supplier delayed the shipment.",
+        "ar": "أخّر المورد الشحنة."
+      }
+    },
+    {
+      "es": "la competencia",
+      "ipa": "/ˈla kompeˈtensia/",
+      "en": "the competition",
+      "ar": "المنافسة",
+      "example": {
+        "es": "La competencia es muy dura en este sector.",
+        "en": "Competition is tough in this sector.",
+        "ar": "المنافسة شديدة في هذا القطاع."
+      }
+    },
+    {
+      "es": "la bolsa de valores",
+      "ipa": "/ˈla ˈbolsa ˈde baˈloɾes/",
+      "en": "the stock exchange",
+      "ar": "البورصة",
+      "example": {
+        "es": "La bolsa de valores abrió en alza.",
+        "en": "The stock exchange opened higher.",
+        "ar": "افتتحت البورصة مرتفعة."
+      }
+    },
+    {
+      "es": "el crecimiento",
+      "ipa": "/ˈel kɾesiˈmiento/",
+      "en": "the growth",
+      "ar": "النمو",
+      "example": {
+        "es": "El crecimiento del empleo es lento.",
+        "en": "Job growth is slow.",
+        "ar": "نمو التوظيف بطيء."
+      }
+    },
+    {
+      "es": "la moneda",
+      "ipa": "/ˈla moˈneða/",
+      "en": "the currency",
+      "ar": "العملة",
+      "example": {
+        "es": "La moneda se fortaleció frente al dólar.",
+        "en": "The currency strengthened against the dollar.",
+        "ar": "قويت العملة أمام الدولار."
+      }
+    },
+    {
+      "es": "el empleo",
+      "ipa": "/ˈel ˈempleo/",
+      "en": "the job",
+      "ar": "الوظيفة",
+      "example": {
+        "es": "El empleo juvenil sigue siendo un desafío.",
+        "en": "Youth employment remains a challenge.",
+        "ar": "يظل توظيف الشباب تحديًا."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "El Condicional en los Negocios",
+        "en": "The Conditional in Business",
+        "ar": "الصيغة الشرطية في الأعمال"
+      },
+      "explanation": {
+        "es": "El condicional expresa peticiones educadas, sugerencias e hipótesis: sería posible, nos gustaría, podría. En las negociaciones, estas formas suavizan las propuestas y muestran cortesía.",
+        "en": "The conditional expresses polite requests, suggestions and hypotheses: seria possível, gostaríamos, poderia. In negotiations, these forms soften proposals and show courtesy.",
+        "ar": "تعبر الصيغة الشرطية عن الطلبات المهذبة والاقتراحات والفرضيات: seria possível، gostaríamos، poderia. في التفاوض تخفف هذه الصيغ المقترحات وتظهر اللباقة."
+      },
+      "examples": [
+        {
+          "es": "¿Sería posible reducir el precio en un diez por ciento?",
+          "en": "Would it be possible to reduce the price by ten percent?",
+          "ar": "هل يمكن تخفيض السعر بنسبة عشرة بالمئة؟"
+        },
+        {
+          "es": "Nos gustaría firmar el contrato esta misma semana.",
+          "en": "We would like to sign the contract this week.",
+          "ar": "نود توقيع العقد هذا الأسبوع."
+        },
+        {
+          "es": "Con más inversión, la empresa crecería más rápido.",
+          "en": "With more investment, the company would grow faster.",
+          "ar": "مع مزيد من الاستثمار، ستنمو الشركة بشكل أسرع."
+        },
+        {
+          "es": "Si la inflación subiera, los precios aumentarían.",
+          "en": "If inflation rose, prices would increase.",
+          "ar": "لو ارتفع التضخم، لارتفعت الأسعار."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Expresiones de Negociación",
+        "en": "Negotiation Expressions",
+        "ar": "عبارات التفاوض"
+      },
+      "explanation": {
+        "es": "En la negociación usamos expresiones como: cerrar un trato, llegar a un acuerdo, dar un descuento, aceptar las condiciones y trato hecho. A menudo aparece el subjuntivo: si aceptas.",
+        "en": "In negotiation we use expressions like: cerrar un trato (to close a deal), llegar a un acuerdo (to reach an agreement), dar un descuento (to give a discount), aceptar las condiciones (to accept the terms) and trato hecho (it's a deal). The subjunctive often appears: si aceptas.",
+        "ar": "في التفاوض نستخدم عبارات مثل: cerrar un trato (إتمام صفقة)، llegar a un acuerdo (الوصول إلى اتفاق)، dar un descuento (منح خصم)، aceptar las condiciones (قبول الشروط) وtrato hecho (اتفاق مبرم). وكثيرًا ما يظهر المنصوب: si aceptas."
+      },
+      "examples": [
+        {
+          "es": "Vamos a intentar cerrar el trato hoy mismo.",
+          "en": "Let's try to close the deal today.",
+          "ar": "لنحاول إبرام الصفقة اليوم."
+        },
+        {
+          "es": "Si aceptas nuestras condiciones, trato hecho.",
+          "en": "If you accept our conditions, it's a deal.",
+          "ar": "إذا قبلت شروطنا، فقد تم الاتفاق."
+        },
+        {
+          "es": "El proveedor dio un buen descuento en la última compra.",
+          "en": "The supplier gave a good discount on the last purchase.",
+          "ar": "أعطى المورد خصمًا جيدًا في آخر عملية شراء."
+        },
+        {
+          "es": "Hay que llegar a un acuerdo que beneficie a ambas partes.",
+          "en": "We must reach an agreement that benefits both sides.",
+          "ar": "يجب التوصل إلى اتفاق يفيد الطرفين."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "La Reunión de Negocios",
+      "en": "The Business Meeting",
+      "ar": "اجتماع العمل"
+    },
+    "lines": [
+      {
+        "speaker": "Sra. Almeida",
+        "es": "Buenas tardes. Nos gustaría discutir los términos del contrato.",
+        "en": "Good afternoon. We would like to discuss the contract terms.",
+        "ar": "مساء الخير. نود مناقشة بنود العقد."
+      },
+      {
+        "speaker": "Sr. Costa",
+        "es": "Claro. ¿Sería posible ampliar el plazo de pago?",
+        "en": "Of course. Would it be possible to extend the payment period?",
+        "ar": "بالتأكيد. هل يمكن تمديد مدة السداد؟"
+      },
+      {
+        "speaker": "Sra. Almeida",
+        "es": "Podemos considerarlo, si se mantiene el importe total.",
+        "en": "We can consider it, if the total amount stays the same.",
+        "ar": "يمكننا النظر في ذلك، إذا بقي المبلغ الإجمالي كما هو."
+      },
+      {
+        "speaker": "Sr. Costa",
+        "es": "Justo. Además, necesitamos un plazo mayor para la entrega.",
+        "en": "Fair. Besides, we need a longer delivery deadline.",
+        "ar": "عادل. بالإضافة إلى ذلك، نحتاج إلى مهلة أطول للتسليم."
+      },
+      {
+        "speaker": "Sra. Almeida",
+        "es": "De acuerdo. Si están de acuerdo con todo, cerramos el trato hoy.",
+        "en": "Agreed. If you agree to everything, we close the deal today.",
+        "ar": "متفق. إذا وافقتم على كل شيء، نُبرم الصفقة اليوم."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Pequeño Negocio",
+      "en": "The Small Business",
+      "ar": "المشروع الصغير"
+    },
+    "text_es": "Una pequeña panadería del barrio creció mucho en pocos años. Sus dueños invirtieron en calidad y en buena atención al cliente. Hoy, la empresa emplea a quince personas y planea abrir una segunda sucursal. Para seguir creciendo, los dueños saben que hay que innovar siempre.",
+    "text_en": "A small neighborhood bakery grew a lot in a few years. Its owners invested in quality and good customer service. Today, the company employs fifteen people and plans to open a second branch. To keep growing, the owners know they must always innovate.",
+    "text_ar": "نما مخبز صغير في الحي كثيرًا في غضون سنوات قليلة. استثمر أصحابه في الجودة وحسن خدمة العملاء. اليوم، توظف الشركة خمسة عشر شخصًا وتخطط لفتح فرع ثانٍ. ولكي تستمر في النمو، يعرف أصحابها أنه يجب عليهم الابتكار دائمًا."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿___ posible reducir el precio?",
+        "en": "___ it be possible to reduce the price?",
+        "ar": "___ من الممكن تخفيض السعر؟"
+      },
+      "options": [
+        {
+          "es": "Sería",
+          "en": "would be",
+          "ar": "سيكون"
+        },
+        {
+          "es": "Es ser",
+          "en": "to be",
+          "ar": "أن يكون"
+        },
+        {
+          "es": "Sea",
+          "en": "Sea",
+          "ar": "Sea"
+        }
+      ],
+      "answer": "Sería",
+      "explanation": {
+        "es": "Petición educada: condicional 'sería posible'.",
+        "en": "Polite request: conditional 'seria possível'.",
+        "ar": "طلب مهذب: الصيغة الشرطية 'seria possível'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Si tú ___ nuestras condiciones, trato hecho.",
+        "en": "If you ___ our conditions, it's a deal.",
+        "ar": "إذا ___ شروطنا، فقد تم الاتفاق."
+      },
+      "options": [
+        {
+          "es": "aceptas",
+          "en": "you accept",
+          "ar": "تقبل"
+        },
+        {
+          "es": "aceptas",
+          "en": "you accept",
+          "ar": "تقبل"
+        },
+        {
+          "es": "aceptaste",
+          "en": "you accepted",
+          "ar": "قبلت"
+        }
+      ],
+      "answer": "aceptas",
+      "explanation": {
+        "es": "Condición futura: 'si' + presente (aceptas).",
+        "en": "Future condition: 'se' + future subjunctive (aceitar).",
+        "ar": "شرط مستقبلي: 'se' + المستقبل الشرطي (aceitar)."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'We would like to sign the contract this week.'",
+        "en": "Translate: 'We would like to sign the contract this week.'",
+        "ar": "ترجم: 'We would like to sign the contract this week.'"
+      },
+      "options": [],
+      "answer": "Nos gustaría firmar el contrato esta misma semana.",
+      "explanation": {
+        "es": "Petición educada: 'nos gustaría' + infinitivo 'firmar'.",
+        "en": "Polite request: use conditional of gustar + infinitive.",
+        "ar": "طلب مهذب: استعمل شرط من gustar + المصدر."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the negotiation'?",
+        "en": "Which word means 'the negotiation'?",
+        "ar": "أي كلمة تعني 'التفاوض'؟"
+      },
+      "options": [
+        {
+          "es": "la negociación",
+          "en": "the negotiation",
+          "ar": "التفاوض"
+        },
+        {
+          "es": "el contrato",
+          "en": "the contract",
+          "ar": "العقد"
+        },
+        {
+          "es": "el beneficio",
+          "en": "the profit",
+          "ar": "الربح"
+        },
+        {
+          "es": "el mercado",
+          "en": "the market",
+          "ar": "السوق"
+        }
+      ],
+      "answer": "la negociación",
+      "explanation": {
+        "es": "'la negociación' significa 'the negotiation'.",
+        "en": "'la negociación' means 'the negotiation'.",
+        "ar": "تعني 'la negociación' 'التفاوض'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the budget'",
+        "en": "Choose the Spanish word: 'the budget'",
+        "ar": "اختر الكلمة بالإسبانية: 'الميزانية'"
+      },
+      "options": [
+        {
+          "es": "la pérdida",
+          "en": "the loss",
+          "ar": "الخسارة"
+        },
+        {
+          "es": "la empresa",
+          "en": "the company",
+          "ar": "الشركة"
+        },
+        {
+          "es": "el presupuesto",
+          "en": "the budget",
+          "ar": "الميزانية"
+        }
+      ],
+      "answer": "el presupuesto",
+      "explanation": {
+        "es": "'el presupuesto' significa 'the budget'.",
+        "en": "'el presupuesto' means 'the budget'.",
+        "ar": "تعني 'el presupuesto' 'الميزانية'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the investment' en español?",
+        "en": "How do you say 'the investment' in Spanish?",
+        "ar": "كيف تقول 'الاستثمار' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "la negociación",
+          "en": "the negotiation",
+          "ar": "التفاوض"
+        },
+        {
+          "es": "la inversión",
+          "en": "the investment",
+          "ar": "الاستثمار"
+        },
+        {
+          "es": "la empresa",
+          "en": "the company",
+          "ar": "الشركة"
+        },
+        {
+          "es": "el mercado",
+          "en": "the market",
+          "ar": "السوق"
+        }
+      ],
+      "answer": "la inversión",
+      "explanation": {
+        "es": "'la inversión' significa 'the investment'.",
+        "en": "'la inversión' means 'the investment'.",
+        "ar": "تعني 'la inversión' 'الاستثمار'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the stock exchange'?",
+        "en": "Which word means 'the stock exchange'?",
+        "ar": "أي كلمة تعني 'البورصة'؟"
+      },
+      "options": [
+        {
+          "es": "la bolsa de valores",
+          "en": "the stock exchange",
+          "ar": "البورصة"
+        },
+        {
+          "es": "la negociación",
+          "en": "the negotiation",
+          "ar": "التفاوض"
+        },
+        {
+          "es": "la pérdida",
+          "en": "the loss",
+          "ar": "الخسارة"
+        }
+      ],
+      "answer": "la bolsa de valores",
+      "explanation": {
+        "es": "'la bolsa de valores' significa 'the stock exchange'.",
+        "en": "'la bolsa de valores' means 'the stock exchange'.",
+        "ar": "تعني 'la bolsa de valores' 'البورصة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The loan interest is fixed.\"",
+        "en": "Translate into Spanish: \"The loan interest is fixed.\"",
+        "ar": "ترجم إلى الإسبانية: \"فائدة القرض ثابتة.\""
+      },
+      "options": [],
+      "answer": "El interés del préstamo es fijo.",
+      "explanation": {
+        "es": "Respuesta: \"El interés del préstamo es fijo.\".",
+        "en": "Answer: \"El interés del préstamo es fijo.\".",
+        "ar": "الإجابة: \"El interés del préstamo es fijo.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Fair. Besides, we need a longer delivery deadline.\"",
+        "en": "Translate into Spanish: \"Fair. Besides, we need a longer delivery deadline.\"",
+        "ar": "ترجم إلى الإسبانية: \"عادل. بالإضافة إلى ذلك، نحتاج إلى مهلة أطول للتسليم.\""
+      },
+      "options": [],
+      "answer": "Justo. Además, necesitamos un plazo mayor para la entrega.",
+      "explanation": {
+        "es": "Respuesta: \"Justo. Además, necesitamos un plazo mayor para la entrega.\".",
+        "en": "Answer: \"Justo. Además, necesitamos un plazo mayor para la entrega.\".",
+        "ar": "الإجابة: \"Justo. Además, necesitamos un plazo mayor para la entrega.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The company made millions last year.\"",
+        "en": "Translate into Spanish: \"The company made millions last year.\"",
+        "ar": "ترجم إلى الإسبانية: \"حققت الشركة ملايين العام الماضي.\""
+      },
+      "options": [],
+      "answer": "La empresa facturó millones el año pasado.",
+      "explanation": {
+        "es": "Respuesta: \"La empresa facturó millones el año pasado.\".",
+        "en": "Answer: \"La empresa facturó millones el año pasado.\".",
+        "ar": "الإجابة: \"La empresa facturó millones el año pasado.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Agreed. If you agree to everything, we close the deal today.\"",
+        "en": "Translate into Spanish: \"Agreed. If you agree to everything, we close the deal today.\"",
+        "ar": "ترجم إلى الإسبانية: \"متفق. إذا وافقتم على كل شيء، نُبرم الصفقة اليوم.\""
+      },
+      "options": [],
+      "answer": "De acuerdo. Si están de acuerdo con todo, cerramos el trato hoy.",
+      "explanation": {
+        "es": "Respuesta: \"De acuerdo. Si están de acuerdo con todo, cerramos el trato hoy.\".",
+        "en": "Answer: \"De acuerdo. Si están de acuerdo con todo, cerramos el trato hoy.\".",
+        "ar": "الإجابة: \"De acuerdo. Si están de acuerdo con todo, cerramos el trato hoy.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "El Pequeño Negocio",
-   "en": "The Small Business",
-   "ar": "المشروع الصغير"
-  },
-  "text_es": "Una pequeña panadería del barrio creció mucho en pocos años. Sus dueños invirtieron en calidad y en buena atención al cliente. Hoy, la empresa emplea a quince personas y planea abrir una segunda sucursal. Para seguir creciendo, los dueños saben que hay que innovar siempre.",
-  "text_en": "A small neighborhood bakery grew a lot in a few years. Its owners invested in quality and good customer service. Today, the company employs fifteen people and plans to open a second branch. To keep growing, the owners know they must always innovate.",
-  "text_ar": "نما مخبز صغير في الحي كثيرًا في غضون سنوات قليلة. استثمر أصحابه في الجودة وحسن خدمة العملاء. اليوم، توظف الشركة خمسة عشر شخصًا وتخطط لفتح فرع ثانٍ. ولكي تستمر في النمو، يعرف أصحابها أنه يجب عليهم الابتكار دائمًا."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿___ posible reducir el precio?",
-    "en": "___ it be possible to reduce the price?",
-    "ar": "___ من الممكن تخفيض السعر؟"
-   },
-   "options": [
-    {
-     "es": "Sería",
-     "en": "Seria",
-     "ar": "Seria"
-    },
-    {
-     "es": "Es ser",
-     "en": "É ser",
-     "ar": "É ser"
-    },
-    {
-     "es": "Sea",
-     "en": "Sea",
-     "ar": "Sea"
-    }
-   ],
-   "answer": "Sería",
-   "explanation": {
-    "es": "Petición educada: condicional 'sería posible'.",
-    "en": "Polite request: conditional 'seria possível'.",
-    "ar": "طلب مهذب: الصيغة الشرطية 'seria possível'."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Si tú ___ nuestras condiciones, trato hecho.",
-    "en": "If you ___ our conditions, it's a deal.",
-    "ar": "إذا ___ شروطنا، فقد تم الاتفاق."
-   },
-   "options": [
-    {
-     "es": "aceptas",
-     "en": "aceita",
-     "ar": "aceita"
-    },
-    {
-     "es": "aceptas",
-     "en": "aceitar",
-     "ar": "aceitar"
-    },
-    {
-     "es": "aceptaste",
-     "en": "aceitou",
-     "ar": "aceitou"
-    }
-   ],
-   "answer": "aceptas",
-   "explanation": {
-    "es": "Condición futura: 'si' + presente (aceptas).",
-    "en": "Future condition: 'se' + future subjunctive (aceitar).",
-    "ar": "شرط مستقبلي: 'se' + المستقبل الشرطي (aceitar)."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'We would like to sign the contract this week.'",
-    "en": "Translate: 'We would like to sign the contract this week.'",
-    "ar": "ترجم: 'We would like to sign the contract this week.'"
-   },
-   "options": [],
-   "answer": "Nos gustaría firmar el contrato esta misma semana.",
-   "explanation": {
-    "es": "Petición educada: 'nos gustaría' + infinitivo 'firmar'.",
-    "en": "Polite request: 'gostaríamos de' + infinitive 'assinar'.",
-    "ar": "طلب مهذب: 'gostaríamos de' + المصدر 'assinar'."
-   }
-  }
- ]
 }

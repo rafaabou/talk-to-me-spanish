@@ -117,6 +117,18 @@ class _LessonScreenState extends State<LessonScreen> {
     );
   }
 
+  List<MapEntry<int, Exercise>> _visibleExercises(Lesson lesson) {
+    final seen = <String>{};
+    final out = <MapEntry<int, Exercise>>[];
+    for (final entry in lesson.exercises.asMap().entries) {
+      final e = entry.value;
+      final key =
+          '${e.type}|${e.prompt.es}|${e.prompt.en}|${e.prompt.ar}|${e.answer}';
+      if (seen.add(key)) out.add(MapEntry(entry.key, e));
+    }
+    return out;
+  }
+
   void _scrollToSection(String section, int index) {
     // For now just scroll to approximate position
     // Could be enhanced with GlobalKeys per section
@@ -366,7 +378,7 @@ class _LessonScreenState extends State<LessonScreen> {
                 other: 'Exercises',
               ),
             ),
-            ...lesson.exercises.asMap().entries.map(
+            ..._visibleExercises(lesson).map(
               (e) => ExerciseTile(
                 lesson.id,
                 e.key,

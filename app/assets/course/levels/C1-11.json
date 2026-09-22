@@ -1,333 +1,610 @@
 {
- "id": "C1-11",
- "level": "C1",
- "level_name": {
-  "es": "Avanzado",
-  "en": "Advanced",
-  "ar": "متقدم"
- },
- "title": {
-  "es": "Debate y Opinión Crítica",
-  "en": "Debate and Critical Opinion",
-  "ar": "النقاش والرأي النقدي"
- },
- "objectives": [
-  {
-   "es": "Participar en debates con argumentos organizados",
-   "en": "Take part in debates with organized arguments",
-   "ar": "المشاركة في النقاشات بحجج منظمة"
+  "id": "C1-11",
+  "level": "C1",
+  "level_name": {
+    "es": "Avanzado",
+    "en": "Advanced",
+    "ar": "متقدم"
   },
-  {
-   "es": "Expresar opinión crítica y refutar ideas",
-   "en": "Express critical opinion and refute ideas",
-   "ar": "التعبير عن الرأي النقدي ودحض الأفكار"
-  },
-  {
-   "es": "Usar marcadores discursivos de argumentación",
-   "en": "Use discursive markers of argumentation",
-   "ar": "استخدام أدوات الخطاب الحجاجي"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "el debate",
-   "ipa": "/ˈel deˈβate/",
-   "en": "the debate",
-   "ar": "النقاش"
-  },
-  {
-   "es": "la opinión",
-   "ipa": "/ˈla opiˈnion/",
-   "en": "the opinion",
-   "ar": "الرأي"
-  },
-  {
-   "es": "el argumento",
-   "ipa": "/ˈel aɾguˈmento/",
-   "en": "the argument",
-   "ar": "الحجة"
-  },
-  {
-   "es": "la tesis",
-   "ipa": "/ˈla ˈtesis/",
-   "en": "the thesis",
-   "ar": "الأطروحة"
-  },
-  {
-   "es": "la réplica",
-   "ipa": "/ˈla ˈreplika/",
-   "en": "the rebuttal",
-   "ar": "الرد"
-  },
-  {
-   "es": "el contrapunto",
-   "ipa": "/ˈel kontɾaˈpunto/",
-   "en": "the counterpoint",
-   "ar": "النقطة المقابلة"
-  },
-  {
-   "es": "convencer",
-   "ipa": "/konbeˈnseɾ/",
-   "en": "to convince",
-   "ar": "يقنع"
-  },
-  {
-   "es": "persuadir",
-   "ipa": "/peɾsuaˈðiɾ/",
-   "en": "to persuade",
-   "ar": "يستمال، يقنع"
-  },
-  {
-   "es": "la evidencia",
-   "ipa": "/ˈla eβiˈðensia/",
-   "en": "the evidence",
-   "ar": "الدليل"
-  },
-  {
-   "es": "la refutación",
-   "ipa": "/ˈla refutaˈsion/",
-   "en": "the refutation",
-   "ar": "الدحض"
-  },
-  {
-   "es": "la ponderación",
-   "ipa": "/ˈla pondeɾaˈsion/",
-   "en": "the consideration",
-   "ar": "الموازنة"
-  },
-  {
-   "es": "el consenso",
-   "ipa": "/ˈel koˈnsenso/",
-   "en": "the consensus",
-   "ar": "الإجماع"
-  },
-  {
-   "es": "la divergencia",
-   "ipa": "/ˈla diβeˈɾxensia/",
-   "en": "the disagreement",
-   "ar": "الاختلاف"
-  },
-  {
-   "es": "defender",
-   "ipa": "/defeˈndeɾ/",
-   "en": "to defend",
-   "ar": "يدافع عن"
-  },
-  {
-   "es": "criticar",
-   "ipa": "/kɾitiˈkaɾ/",
-   "en": "to criticize",
-   "ar": "ينتقد"
-  },
-  {
-   "es": "cuestionar",
-   "ipa": "/kuestioˈnaɾ/",
-   "en": "to question",
-   "ar": "يشكك في، يستفهم"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Marcadores Discursivos de Argumentación",
-    "en": "Discursive Markers of Argumentation",
-    "ar": "أدوات الخطاب الحجاجي"
-   },
-   "explanation": {
-    "es": "Para estructurar un debate se usan marcadores: 'por un lado' / 'por otro lado' (contraste), 'sin embargo' y 'no obstante' (oposición), 'además' (adición), 'en suma' (conclusión). Orientan al oyente y hacen el habla cohesionada. Ej.: 'Por un lado, la medida es justa; por otro, es cara'.",
-    "en": "To structure a debate, markers are used: 'por um lado' / 'por outro lado' (on one hand / on the other hand), 'no entanto' and 'contudo' (however), 'além disso' (furthermore), 'em suma' (in short). They guide the listener and make speech cohesive. E.g., 'Por um lado, a medida é justa; por outro, é cara' (On one hand, the measure is fair; on the other, it is expensive).",
-    "ar": "لتنظيم النقاش تُستخدم أدوات: 'por um lado' / 'por outro lado' (من جهة ومن جهة أخرى)، و'no entanto' و'contudo' (ومع ذلك)، و'além disso' (علاوة على ذلك)، و'em suma' (باختصار). وهي توجه المستمع وتجعل الكلام متماسكًا. مثال: 'Por um lado, a medida é justa; por outro, é cara'."
-   },
-   "examples": [
-    {
-     "es": "Por un lado, la medida es justa; por otro, es cara.",
-     "en": "On one hand, the measure is fair; on the other, it is expensive.",
-     "ar": "من جهة، الإجراء عادل؛ ومن جهة أخرى، إنه مكلف."
-    },
-    {
-     "es": "Aunque haya críticas, el proyecto avanzó.",
-     "en": "Even though there is criticism, the project moved forward.",
-     "ar": "على الرغم من وجود انتقادات، فقد تقدم المشروع."
-    },
-    {
-     "es": "Sin embargo, no todos estuvieron de acuerdo.",
-     "en": "However, not everyone agreed.",
-     "ar": "ومع ذلك، لم يتفق الجميع."
-    },
-    {
-     "es": "En suma, la decisión fue acertada.",
-     "en": "In short, the decision was right.",
-     "ar": "باختصار، كان القرار موفقًا."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Concesión y Condición en la Argumentación",
-    "en": "Concession and Condition in Argumentation",
-    "ar": "المقابل الشرطي والشروط في الحجاج"
-   },
-   "explanation": {
-    "es": "En el discurso argumentativo, la concesión admite un punto del oponente sin renunciar a la propia tesis: 'aunque', 'por más que'. La condición delimita el alcance de la afirmación: 'si', 'en caso de que', 'siempre que', 'a menos que'. Combinados, hacen el argumento más sofisticado y equilibrado.",
-    "en": "In argumentative discourse, concession acknowledges a point of the opponent without giving up one's own thesis: 'mesmo que', 'ainda que', 'por mais que'. Condition delimits the scope of the claim: 'se', 'caso', 'desde que', 'a menos que'. Combined, they make the argument more sophisticated and balanced.",
-    "ar": "في الخطاب الحجاجي، يُقِرّ المقابل الشرطي بنقطة من نقاط الخصم دون التخلي عن الأطروحة: 'mesmo que' و'ainda que' و'por mais que'. أما الشرط فيحدد نطاق الادعاء: 'se' و'caso' و'desde que' و'a menos que'. وعند الجمع بينهما يصبح الحجاج أكثر تعقيدًا وتوازنًا."
-   },
-   "examples": [
-    {
-     "es": "Si consideramos los datos, la conclusión cambia.",
-     "en": "If we consider the data, the conclusion changes.",
-     "ar": "إذا نظرنا إلى البيانات، تتغير الخلاصة."
-    },
-    {
-     "es": "En caso de que la propuesta sea aprobada, todos ganan.",
-     "en": "Should the proposal be approved, everyone wins.",
-     "ar": "إذا اعتُمد الاقتراح، يكسب الجميع."
-    },
-    {
-     "es": "Aunque el presupuesto disminuya, vamos a invertir.",
-     "en": "Even if the budget shrinks, we will invest.",
-     "ar": "حتى لو انخفضت الميزانية، سنستثمر."
-    },
-    {
-     "es": "A menos que haya nueva información, la tesis permanece.",
-     "en": "Unless there is new information, the thesis stands.",
-     "ar": "ما لم تتوفر معلومات جديدة، تبقى الأطروحة قائمة."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "Debate Sobre el Tráfico",
-   "en": "Debate About Traffic",
-   "ar": "نقاش حول الازدحام المروري"
+    "es": "Debate y Opinión Crítica",
+    "en": "Debate and Critical Opinion",
+    "ar": "النقاش والرأي النقدي"
   },
-  "lines": [
-   {
-    "speaker": "Livia",
-    "es": "En suma, la tasa de congestión solo crece en las grandes ciudades.",
-    "en": "In short, the congestion rate only grows in big cities.",
-    "ar": "باختصار، معدل الازدحام يزداد فقط في المدن الكبرى."
-   },
-   {
-    "speaker": "Caio",
-    "es": "Sin embargo, los datos muestran que el transporte público mejoró.",
-    "en": "However, the data show that public transport improved.",
-    "ar": "ومع ذلك، تظهر البيانات أن وسائل النقل العام تحسنت."
-   },
-   {
-    "speaker": "Livia",
-    "es": "Por un lado, es verdad; por otro, los coches particulares todavía dominan.",
-    "en": "On one hand, that is true; on the other, private cars still dominate.",
-    "ar": "من جهة، هذا صحيح؛ ومن جهة أخرى، ما تزال السيارات الخاصة تهيمن."
-   },
-   {
-    "speaker": "Caio",
-    "es": "Aunque sea caro, el peaje urbano podría reducir el flujo.",
-    "en": "Even though it is expensive, urban tolls could reduce the flow.",
-    "ar": "على الرغم من كلفته، قد يقلل رسم المرور الحضري من التدفق."
-   },
-   {
-    "speaker": "Livia",
-    "es": "En caso de que el precio sea alto, la medida castiga a los más pobres.",
-    "en": "Should the price be high, the measure punishes the poorest.",
-    "ar": "إذا كان السعر مرتفعًا، فسيضر الإجراء بالفقراء."
-   },
-   {
-    "speaker": "Caio",
-    "es": "Estoy de acuerdo, siempre que el subsidio proteja a quien más lo necesita.",
-    "en": "I agree, as long as the subsidy protects those who need it most.",
-    "ar": "أوافق، بشرط أن يحمي الدعم من هم في أمس الحاجة إليه."
-   }
+  "objectives": [
+    {
+      "es": "Participar en debates con argumentos organizados",
+      "en": "Take part in debates with organized arguments",
+      "ar": "المشاركة في النقاشات بحجج منظمة"
+    },
+    {
+      "es": "Expresar opinión crítica y refutar ideas",
+      "en": "Express critical opinion and refute ideas",
+      "ar": "التعبير عن الرأي النقدي ودحض الأفكار"
+    },
+    {
+      "es": "Usar marcadores discursivos de argumentación",
+      "en": "Use discursive markers of argumentation",
+      "ar": "استخدام أدوات الخطاب الحجاجي"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el debate",
+      "ipa": "/ˈel deˈβate/",
+      "en": "the debate",
+      "ar": "النقاش",
+      "example": {
+        "es": "El debate duró dos horas.",
+        "en": "The debate lasted two hours.",
+        "ar": "استمر النقاش ساعتين."
+      }
+    },
+    {
+      "es": "la opinión",
+      "ipa": "/ˈla opiˈnion/",
+      "en": "the opinion",
+      "ar": "الرأي",
+      "example": {
+        "es": "La opinión del jurado fue unánime.",
+        "en": "Every opinion adds something new.",
+        "ar": "كل رأي يضيف شيئًا جديدًا."
+      }
+    },
+    {
+      "es": "el argumento",
+      "ipa": "/ˈel aɾguˈmento/",
+      "en": "the argument",
+      "ar": "الحجة",
+      "example": {
+        "es": "El argumento final fue sólido.",
+        "en": "Your argument lacks evidence.",
+        "ar": "حاجتك تفتقر إلى الدليل."
+      }
+    },
+    {
+      "es": "la tesis",
+      "ipa": "/ˈla ˈtesis/",
+      "en": "the thesis",
+      "ar": "الأطروحة",
+      "example": {
+        "es": "La tesis se presenta en la introducción.",
+        "en": "The thesis is presented in the introduction.",
+        "ar": "تُقدَّم الأطروحة في المقدمة."
+      }
+    },
+    {
+      "es": "la réplica",
+      "ipa": "/ˈla ˈreplika/",
+      "en": "the rebuttal",
+      "ar": "الرد",
+      "example": {
+        "es": "La réplica fue contundente.",
+        "en": "The rebuttal was forceful.",
+        "ar": "كان الرد صارمًا."
+      }
+    },
+    {
+      "es": "el contrapunto",
+      "ipa": "/ˈel kontɾaˈpunto/",
+      "en": "the counterpoint",
+      "ar": "النقطة المقابلة",
+      "example": {
+        "es": "El contrapunto enriquece la discusión.",
+        "en": "The counterpoint enriches the discussion.",
+        "ar": "يثري النقض النقاش."
+      }
+    },
+    {
+      "es": "convencer",
+      "ipa": "/konbeˈnseɾ/",
+      "en": "to convince",
+      "ar": "يقنع",
+      "example": {
+        "es": "Intentó convencer al jurado con datos.",
+        "en": "He tried to convince the jury with data.",
+        "ar": "حاول إقناع اللجنة بالبيانات."
+      }
+    },
+    {
+      "es": "persuadir",
+      "ipa": "/peɾsuaˈðiɾ/",
+      "en": "to persuade",
+      "ar": "يستمال، يقنع",
+      "example": {
+        "es": "Persuadir sin pruebas es difícil.",
+        "en": "Advertising persuades without solid arguments.",
+        "ar": "يُقنع الإعلان دون حجج متينة."
+      }
+    },
+    {
+      "es": "la evidencia",
+      "ipa": "/ˈla eβiˈðensia/",
+      "en": "the evidence",
+      "ar": "الدليل",
+      "example": {
+        "es": "La evidencia es irrefutable.",
+        "en": "The evidence is irrefutable.",
+        "ar": "الدليل لا يُدحض."
+      }
+    },
+    {
+      "es": "la refutación",
+      "ipa": "/ˈla refutaˈsion/",
+      "en": "the refutation",
+      "ar": "الدحض",
+      "example": {
+        "es": "La refutación desmontó la premisa.",
+        "en": "The refutation dismantled the premise.",
+        "ar": "فكّكت الدحض المقدمة."
+      }
+    },
+    {
+      "es": "la ponderación",
+      "ipa": "/ˈla pondeɾaˈsion/",
+      "en": "the consideration",
+      "ar": "الموازنة",
+      "example": {
+        "es": "La ponderación evita extremos.",
+        "en": "Consideration avoids extremes.",
+        "ar": "تجنّب الموازنة التطرفين."
+      }
+    },
+    {
+      "es": "el consenso",
+      "ipa": "/ˈel koˈnsenso/",
+      "en": "the consensus",
+      "ar": "الإجماع",
+      "example": {
+        "es": "El consenso requiere concesiones.",
+        "en": "Consensus requires concessions.",
+        "ar": "يتطلب الإجماع التنازلات."
+      }
+    },
+    {
+      "es": "la divergencia",
+      "ipa": "/ˈla diβeˈɾxensia/",
+      "en": "the disagreement",
+      "ar": "الاختلاف",
+      "example": {
+        "es": "La divergencia de opiniones es normal.",
+        "en": "Divergence of opinions is normal.",
+        "ar": "الاختلاف في الآراء طبيعي."
+      }
+    },
+    {
+      "es": "defender",
+      "ipa": "/defeˈndeɾ/",
+      "en": "to defend",
+      "ar": "يدافع عن",
+      "example": {
+        "es": "Defender la postura exige valor.",
+        "en": "He defended his position firmly.",
+        "ar": "دافع عن موقفه بحزم."
+      }
+    },
+    {
+      "es": "criticar",
+      "ipa": "/kɾitiˈkaɾ/",
+      "en": "to criticize",
+      "ar": "ينتقد",
+      "example": {
+        "es": "Criticar sin proponer no ayuda.",
+        "en": "Criticizing without proposing does not help.",
+        "ar": "الانتقاد دون اقتراح لا يفيد."
+      }
+    },
+    {
+      "es": "cuestionar",
+      "ipa": "/kuestioˈnaɾ/",
+      "en": "to question",
+      "ar": "يشكك في، يستفهم",
+      "example": {
+        "es": "Cuestionaron el presupuesto completo.",
+        "en": "They questioned the entire budget.",
+        "ar": "شككوا في الميزانية كاملة."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Marcadores Discursivos de Argumentación",
+        "en": "Discursive Markers of Argumentation",
+        "ar": "أدوات الخطاب الحجاجي"
+      },
+      "explanation": {
+        "es": "Para estructurar un debate se usan marcadores: 'por un lado' / 'por otro lado' (contraste), 'sin embargo' y 'no obstante' (oposición), 'además' (adición), 'en suma' (conclusión). Orientan al oyente y hacen el habla cohesionada. Ej.: 'Por un lado, la medida es justa; por otro, es cara'.",
+        "en": "To structure a debate, markers are used: 'por um lado' / 'por outro lado' (on one hand / on the other hand), 'no entanto' and 'contudo' (however), 'além disso' (furthermore), 'em suma' (in short). They guide the listener and make speech cohesive. E.g., 'Por um lado, a medida é justa; por outro, é cara' (On one hand, the measure is fair; on the other, it is expensive).",
+        "ar": "لتنظيم النقاش تُستخدم أدوات: 'por um lado' / 'por outro lado' (من جهة ومن جهة أخرى)، و'no entanto' و'contudo' (ومع ذلك)، و'além disso' (علاوة على ذلك)، و'em suma' (باختصار). وهي توجه المستمع وتجعل الكلام متماسكًا. مثال: 'Por um lado, a medida é justa; por outro, é cara'."
+      },
+      "examples": [
+        {
+          "es": "Por un lado, la medida es justa; por otro, es cara.",
+          "en": "On one hand, the measure is fair; on the other, it is expensive.",
+          "ar": "من جهة، الإجراء عادل؛ ومن جهة أخرى، إنه مكلف."
+        },
+        {
+          "es": "Aunque haya críticas, el proyecto avanzó.",
+          "en": "Even though there is criticism, the project moved forward.",
+          "ar": "على الرغم من وجود انتقادات، فقد تقدم المشروع."
+        },
+        {
+          "es": "Sin embargo, no todos estuvieron de acuerdo.",
+          "en": "However, not everyone agreed.",
+          "ar": "ومع ذلك، لم يتفق الجميع."
+        },
+        {
+          "es": "En suma, la decisión fue acertada.",
+          "en": "In short, the decision was right.",
+          "ar": "باختصار، كان القرار موفقًا."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Concesión y Condición en la Argumentación",
+        "en": "Concession and Condition in Argumentation",
+        "ar": "المقابل الشرطي والشروط في الحجاج"
+      },
+      "explanation": {
+        "es": "En el discurso argumentativo, la concesión admite un punto del oponente sin renunciar a la propia tesis: 'aunque', 'por más que'. La condición delimita el alcance de la afirmación: 'si', 'en caso de que', 'siempre que', 'a menos que'. Combinados, hacen el argumento más sofisticado y equilibrado.",
+        "en": "In argumentative discourse, concession acknowledges a point of the opponent without giving up one's own thesis: 'mesmo que', 'ainda que', 'por mais que'. Condition delimits the scope of the claim: 'se', 'caso', 'desde que', 'a menos que'. Combined, they make the argument more sophisticated and balanced.",
+        "ar": "في الخطاب الحجاجي، يُقِرّ المقابل الشرطي بنقطة من نقاط الخصم دون التخلي عن الأطروحة: 'mesmo que' و'ainda que' و'por mais que'. أما الشرط فيحدد نطاق الادعاء: 'se' و'caso' و'desde que' و'a menos que'. وعند الجمع بينهما يصبح الحجاج أكثر تعقيدًا وتوازنًا."
+      },
+      "examples": [
+        {
+          "es": "Si consideramos los datos, la conclusión cambia.",
+          "en": "If we consider the data, the conclusion changes.",
+          "ar": "إذا نظرنا إلى البيانات، تتغير الخلاصة."
+        },
+        {
+          "es": "En caso de que la propuesta sea aprobada, todos ganan.",
+          "en": "Should the proposal be approved, everyone wins.",
+          "ar": "إذا اعتُمد الاقتراح، يكسب الجميع."
+        },
+        {
+          "es": "Aunque el presupuesto disminuya, vamos a invertir.",
+          "en": "Even if the budget shrinks, we will invest.",
+          "ar": "حتى لو انخفضت الميزانية، سنستثمر."
+        },
+        {
+          "es": "A menos que haya nueva información, la tesis permanece.",
+          "en": "Unless there is new information, the thesis stands.",
+          "ar": "ما لم تتوفر معلومات جديدة، تبقى الأطروحة قائمة."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Debate Sobre el Tráfico",
+      "en": "Debate About Traffic",
+      "ar": "نقاش حول الازدحام المروري"
+    },
+    "lines": [
+      {
+        "speaker": "Livia",
+        "es": "En suma, la tasa de congestión solo crece en las grandes ciudades.",
+        "en": "In short, the congestion rate only grows in big cities.",
+        "ar": "باختصار، معدل الازدحام يزداد فقط في المدن الكبرى."
+      },
+      {
+        "speaker": "Caio",
+        "es": "Sin embargo, los datos muestran que el transporte público mejoró.",
+        "en": "However, the data show that public transport improved.",
+        "ar": "ومع ذلك، تظهر البيانات أن وسائل النقل العام تحسنت."
+      },
+      {
+        "speaker": "Livia",
+        "es": "Por un lado, es verdad; por otro, los coches particulares todavía dominan.",
+        "en": "On one hand, that is true; on the other, private cars still dominate.",
+        "ar": "من جهة، هذا صحيح؛ ومن جهة أخرى، ما تزال السيارات الخاصة تهيمن."
+      },
+      {
+        "speaker": "Caio",
+        "es": "Aunque sea caro, el peaje urbano podría reducir el flujo.",
+        "en": "Even though it is expensive, urban tolls could reduce the flow.",
+        "ar": "على الرغم من كلفته، قد يقلل رسم المرور الحضري من التدفق."
+      },
+      {
+        "speaker": "Livia",
+        "es": "En caso de que el precio sea alto, la medida castiga a los más pobres.",
+        "en": "Should the price be high, the measure punishes the poorest.",
+        "ar": "إذا كان السعر مرتفعًا، فسيضر الإجراء بالفقراء."
+      },
+      {
+        "speaker": "Caio",
+        "es": "Estoy de acuerdo, siempre que el subsidio proteja a quien más lo necesita.",
+        "en": "I agree, as long as the subsidy protects those who need it most.",
+        "ar": "أوافق، بشرط أن يحمي الدعم من هم في أمس الحاجة إليه."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Arte de Argumentar",
+      "en": "The Art of Arguing",
+      "ar": "فن الحجاج"
+    },
+    "text_es": "Un buen debate no se gana a los gritos, sino por la calidad de los argumentos. Las evidencias sustentan la tesis, y la réplica respetuosa refuta el contrapunto. Quien domina los marcadores discursivos conduce la discusión con claridad. Al final, lo que importa no es vencer, sino iluminar la cuestión.",
+    "text_en": "A good debate is not won by shouting, but by the quality of the arguments. Evidence supports the thesis, and a respectful rebuttal refutes the counterpoint. Those who master discursive markers conduct the discussion with clarity. In the end, what matters is not winning, but shedding light on the issue.",
+    "text_ar": "لا يُكسب النقاش الجيد بالصراخ، بل بجودة الحجج. الأدلة تسند الأطروحة، والرد المحترم يدحض النقطة المقابلة. ومن يتقن أدوات الخطاب الحجاجي يقود المناقشة بوضوح. وفي النهاية، المهم ليس الفوز، بل إلقاء الضوء على القضية."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué marcador expresa contraste entre dos ideas?",
+        "en": "Which marker expresses contrast between two ideas?",
+        "ar": "أي أداة تعبر عن التباين بين فكرتين؟"
+      },
+      "options": [
+        {
+          "es": "por un lado... por otro lado",
+          "en": "on one hand... on the other",
+          "ar": "من جهة... ومن أخرى"
+        },
+        {
+          "es": "además",
+          "en": "moreover",
+          "ar": "علاوة على ذلك"
+        },
+        {
+          "es": "en suma",
+          "en": "in short",
+          "ar": "باختصار"
+        }
+      ],
+      "answer": "por un lado... por otro lado",
+      "explanation": {
+        "es": "'Por un lado... por otro lado' presenta dos lados de una cuestión.",
+        "en": "'Por um lado ... por outro lado' presents two sides of an issue.",
+        "ar": "'por um lado ... por outro lado' تعرض جانبي القضية."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: '______ llueva, la caminata se hará.'",
+        "en": "Complete: '______ llueva, la caminata se hará.'",
+        "ar": "أكمل: '______ llueva, la caminata se hará.'"
+      },
+      "options": [
+        {
+          "es": "Aunque",
+          "en": "although",
+          "ar": "على الرغم من"
+        },
+        {
+          "es": "Porque",
+          "en": "Porque",
+          "ar": "Porque"
+        },
+        {
+          "es": "Luego",
+          "en": "then / later",
+          "ar": "ثم / لاحقًا"
+        }
+      ],
+      "answer": "Aunque",
+      "explanation": {
+        "es": "'Aunque' + subjuntivo 'llueva' expresa concesión.",
+        "en": "'Mesmo que' + subjunctive 'chova' expresses concession.",
+        "ar": "'mesmo que' + صيغة الشرط 'chova' تعبر عن المقابل الشرطي."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'In short, the decision was the fairest possible.'",
+        "en": "Translate: 'In short, the decision was the fairest possible.'",
+        "ar": "ترجم: 'In short, the decision was the fairest possible.'"
+      },
+      "options": [],
+      "answer": "En suma, la decisión fue lo más justa posible.",
+      "explanation": {
+        "es": "'En suma' introduce la conclusión; 'lo más justo posible' es el superlativo.",
+        "en": "'Em suma' introduces the conclusion; 'o mais justo possível' is the superlative.",
+        "ar": "'em suma' تقدم الخلاصة، و'o mais justo possível' هي صيغة التفضيل."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'to criticize'?",
+        "en": "Which word means 'to criticize'?",
+        "ar": "أي كلمة تعني 'ينتقد'؟"
+      },
+      "options": [
+        {
+          "es": "criticar",
+          "en": "to criticize",
+          "ar": "ينتقد"
+        },
+        {
+          "es": "la refutación",
+          "en": "the refutation",
+          "ar": "الدحض"
+        },
+        {
+          "es": "la evidencia",
+          "en": "the evidence",
+          "ar": "الدليل"
+        },
+        {
+          "es": "la tesis",
+          "en": "the thesis",
+          "ar": "الأطروحة"
+        }
+      ],
+      "answer": "criticar",
+      "explanation": {
+        "es": "'criticar' significa 'to criticize'.",
+        "en": "'criticar' means 'to criticize'.",
+        "ar": "تعني 'criticar' 'ينتقد'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the opinion'",
+        "en": "Choose the Spanish word: 'the opinion'",
+        "ar": "اختر الكلمة بالإسبانية: 'الرأي'"
+      },
+      "options": [
+        {
+          "es": "la opinión",
+          "en": "the opinion",
+          "ar": "الرأي"
+        },
+        {
+          "es": "el debate",
+          "en": "the debate",
+          "ar": "النقاش"
+        },
+        {
+          "es": "persuadir",
+          "en": "to persuade",
+          "ar": "يستمال، يقنع"
+        }
+      ],
+      "answer": "la opinión",
+      "explanation": {
+        "es": "'la opinión' significa 'the opinion'.",
+        "en": "'la opinión' means 'the opinion'.",
+        "ar": "تعني 'la opinión' 'الرأي'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'to defend' en español?",
+        "en": "How do you say 'to defend' in Spanish?",
+        "ar": "كيف تقول 'يدافع عن' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "la ponderación",
+          "en": "the consideration",
+          "ar": "الموازنة"
+        },
+        {
+          "es": "la refutación",
+          "en": "the refutation",
+          "ar": "الدحض"
+        },
+        {
+          "es": "defender",
+          "en": "to defend",
+          "ar": "يدافع عن"
+        }
+      ],
+      "answer": "defender",
+      "explanation": {
+        "es": "'defender' significa 'to defend'.",
+        "en": "'defender' means 'to defend'.",
+        "ar": "تعني 'defender' 'يدافع عن'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the disagreement'?",
+        "en": "Which word means 'the disagreement'?",
+        "ar": "أي كلمة تعني 'الاختلاف'؟"
+      },
+      "options": [
+        {
+          "es": "el consenso",
+          "en": "the consensus",
+          "ar": "الإجماع"
+        },
+        {
+          "es": "criticar",
+          "en": "to criticize",
+          "ar": "ينتقد"
+        },
+        {
+          "es": "la divergencia",
+          "en": "the disagreement",
+          "ar": "الاختلاف"
+        }
+      ],
+      "answer": "la divergencia",
+      "explanation": {
+        "es": "'la divergencia' significa 'the disagreement'.",
+        "en": "'la divergencia' means 'the disagreement'.",
+        "ar": "تعني 'la divergencia' 'الاختلاف'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Should the price be high, the measure punishes the poorest.\"",
+        "en": "Translate into Spanish: \"Should the price be high, the measure punishes the poorest.\"",
+        "ar": "ترجم إلى الإسبانية: \"إذا كان السعر مرتفعًا، فسيضر الإجراء بالفقراء.\""
+      },
+      "options": [],
+      "answer": "En caso de que el precio sea alto, la medida castiga a los más pobres.",
+      "explanation": {
+        "es": "Respuesta: \"En caso de que el precio sea alto, la medida castiga a los más pobres.\".",
+        "en": "Answer: \"En caso de que el precio sea alto, la medida castiga a los más pobres.\".",
+        "ar": "الإجابة: \"En caso de que el precio sea alto, la medida castiga a los más pobres.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The evidence is irrefutable.\"",
+        "en": "Translate into Spanish: \"The evidence is irrefutable.\"",
+        "ar": "ترجم إلى الإسبانية: \"الدليل لا يُدحض.\""
+      },
+      "options": [],
+      "answer": "La evidencia es irrefutable.",
+      "explanation": {
+        "es": "Respuesta: \"La evidencia es irrefutable.\".",
+        "en": "Answer: \"La evidencia es irrefutable.\".",
+        "ar": "الإجابة: \"La evidencia es irrefutable.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I agree, as long as the subsidy protects those who need it most.\"",
+        "en": "Translate into Spanish: \"I agree, as long as the subsidy protects those who need it most.\"",
+        "ar": "ترجم إلى الإسبانية: \"أوافق، بشرط أن يحمي الدعم من هم في أمس الحاجة إليه.\""
+      },
+      "options": [],
+      "answer": "Estoy de acuerdo, siempre que el subsidio proteja a quien más lo necesita.",
+      "explanation": {
+        "es": "Respuesta: \"Estoy de acuerdo, siempre que el subsidio proteja a quien más lo necesita.\".",
+        "en": "Answer: \"Estoy de acuerdo, siempre que el subsidio proteja a quien más lo necesita.\".",
+        "ar": "الإجابة: \"Estoy de acuerdo, siempre que el subsidio proteja a quien más lo necesita.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Consideration avoids extremes.\"",
+        "en": "Translate into Spanish: \"Consideration avoids extremes.\"",
+        "ar": "ترجم إلى الإسبانية: \"تجنّب الموازنة التطرفين.\""
+      },
+      "options": [],
+      "answer": "La ponderación evita extremos.",
+      "explanation": {
+        "es": "Respuesta: \"La ponderación evita extremos.\".",
+        "en": "Answer: \"La ponderación evita extremos.\".",
+        "ar": "الإجابة: \"La ponderación evita extremos.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "El Arte de Argumentar",
-   "en": "The Art of Arguing",
-   "ar": "فن الحجاج"
-  },
-  "text_es": "Un buen debate no se gana a los gritos, sino por la calidad de los argumentos. Las evidencias sustentan la tesis, y la réplica respetuosa refuta el contrapunto. Quien domina los marcadores discursivos conduce la discusión con claridad. Al final, lo que importa no es vencer, sino iluminar la cuestión.",
-  "text_en": "A good debate is not won by shouting, but by the quality of the arguments. Evidence supports the thesis, and a respectful rebuttal refutes the counterpoint. Those who master discursive markers conduct the discussion with clarity. In the end, what matters is not winning, but shedding light on the issue.",
-  "text_ar": "لا يُكسب النقاش الجيد بالصراخ، بل بجودة الحجج. الأدلة تسند الأطروحة، والرد المحترم يدحض النقطة المقابلة. ومن يتقن أدوات الخطاب الحجاجي يقود المناقشة بوضوح. وفي النهاية، المهم ليس الفوز، بل إلقاء الضوء على القضية."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Qué marcador expresa contraste entre dos ideas?",
-    "en": "Which marker expresses contrast between two ideas?",
-    "ar": "أي أداة تعبر عن التباين بين فكرتين؟"
-   },
-   "options": [
-    {
-     "es": "por un lado... por otro lado",
-     "en": "por um lado ... por outro lado",
-     "ar": "por um lado ... por outro lado"
-    },
-    {
-     "es": "además",
-     "en": "além disso",
-     "ar": "além disso"
-    },
-    {
-     "es": "en suma",
-     "en": "em suma",
-     "ar": "em suma"
-    }
-   ],
-   "answer": "por un lado... por otro lado",
-   "explanation": {
-    "es": "'Por un lado... por otro lado' presenta dos lados de una cuestión.",
-    "en": "'Por um lado ... por outro lado' presents two sides of an issue.",
-    "ar": "'por um lado ... por outro lado' تعرض جانبي القضية."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Completa: '______ llueva, la caminata se hará.'",
-    "en": "Complete: '______ llueva, la caminata se hará.'",
-    "ar": "أكمل: '______ llueva, la caminata se hará.'"
-   },
-   "options": [
-    {
-     "es": "Aunque",
-     "en": "Mesmo que",
-     "ar": "Mesmo que"
-    },
-    {
-     "es": "Porque",
-     "en": "Porque",
-     "ar": "Porque"
-    },
-    {
-     "es": "Luego",
-     "en": "Logo",
-     "ar": "Logo"
-    }
-   ],
-   "answer": "Aunque",
-   "explanation": {
-    "es": "'Aunque' + subjuntivo 'llueva' expresa concesión.",
-    "en": "'Mesmo que' + subjunctive 'chova' expresses concession.",
-    "ar": "'mesmo que' + صيغة الشرط 'chova' تعبر عن المقابل الشرطي."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'In short, the decision was the fairest possible.'",
-    "en": "Translate: 'In short, the decision was the fairest possible.'",
-    "ar": "ترجم: 'In short, the decision was the fairest possible.'"
-   },
-   "options": [],
-   "answer": "En suma, la decisión fue lo más justa posible.",
-   "explanation": {
-    "es": "'En suma' introduce la conclusión; 'lo más justo posible' es el superlativo.",
-    "en": "'Em suma' introduces the conclusion; 'o mais justo possível' is the superlative.",
-    "ar": "'em suma' تقدم الخلاصة، و'o mais justo possível' هي صيغة التفضيل."
-   }
-  }
- ]
 }

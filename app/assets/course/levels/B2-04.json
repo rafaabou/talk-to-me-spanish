@@ -33,97 +33,177 @@
       "es": "el medio ambiente",
       "ipa": "/ˈel ˈmeðio aˈmbiente/",
       "en": "the environment",
-      "ar": "البيئة"
+      "ar": "البيئة",
+      "example": {
+        "es": "Cuidar el medio ambiente es urgente.",
+        "en": "Protecting the environment is urgent.",
+        "ar": "العناية بالبيئة ملحة."
+      }
     },
     {
       "es": "la sostenibilidad",
       "ipa": "/ˈla sosteniβiliˈðað/",
       "en": "the sustainability",
-      "ar": "الاستدامة"
+      "ar": "الاستدامة",
+      "example": {
+        "es": "La sostenibilidad guía nuestro plan.",
+        "en": "Sustainability guides our plan.",
+        "ar": "التوجه نحو الاستدامة يقود خطتنا."
+      }
     },
     {
       "es": "la deforestación",
       "ipa": "/ˈla defoɾestaˈsion/",
       "en": "the deforestation",
-      "ar": "إزالة الغابات"
+      "ar": "إزالة الغابات",
+      "example": {
+        "es": "La deforestación amenaza la Amazonía.",
+        "en": "Deforestation threatens the Amazon.",
+        "ar": "إزالة الغابات تهدد الأمازون."
+      }
     },
     {
       "es": "la contaminación",
       "ipa": "/ˈla kontaminaˈsion/",
       "en": "the pollution",
-      "ar": "التلوث"
+      "ar": "التلوث",
+      "example": {
+        "es": "La contaminación del aire afecta la salud.",
+        "en": "Air pollution affects health.",
+        "ar": "تلوث الهواء يؤثر على الصحة."
+      }
     },
     {
       "es": "la basura",
       "ipa": "/ˈla baˈsuɾa/",
       "en": "the garbage",
-      "ar": "القمامة"
+      "ar": "القمامة",
+      "example": {
+        "es": "Separamos la basura en casa.",
+        "en": "We separate the garbage at home.",
+        "ar": "نفصل القمامة في المنزل."
+      }
     },
     {
       "es": "el reciclaje",
       "ipa": "/ˈel resiˈklaxe/",
       "en": "the recycling",
-      "ar": "إعادة التدوير"
+      "ar": "إعادة التدوير",
+      "example": {
+        "es": "El reciclaje reduce los residuos.",
+        "en": "Recycling reduces waste.",
+        "ar": "إعادة التدوير تقلل النفايات."
+      }
     },
     {
       "es": "el calentamiento global",
       "ipa": "/ˈel kalentaˈmiento gloˈβal/",
       "en": "the global warming",
-      "ar": "الاحتباس الحراري"
+      "ar": "الاحتباس الحراري",
+      "example": {
+        "es": "El calentamiento global acelera el deshielo.",
+        "en": "Global warming accelerates the melting.",
+        "ar": "الاحتباس الحراري يسرّع الذوبان."
+      }
     },
     {
       "es": "la energía renovable",
       "ipa": "/ˈla eneˈɾgia renoˈβaβle/",
       "en": "the renewable energy",
-      "ar": "الطاقة المتجددة"
+      "ar": "الطاقة المتجددة",
+      "example": {
+        "es": "La energía renovable es el futuro.",
+        "en": "Renewable energy is the future.",
+        "ar": "الطاقة المتجددة هي المستقبل."
+      }
     },
     {
       "es": "la preservación",
       "ipa": "/ˈla pɾeseɾbaˈsion/",
       "en": "the preservation",
-      "ar": "الحفاظ"
+      "ar": "الحفاظ",
+      "example": {
+        "es": "La preservación del bosque es prioritaria.",
+        "en": "Preserving the forest is a priority.",
+        "ar": "الحفاظ على الغابة أولوية."
+      }
     },
     {
       "es": "el ecosistema",
       "ipa": "/ˈel ekosiˈstema/",
       "en": "the ecosystem",
-      "ar": "النظام البيئي"
+      "ar": "النظام البيئي",
+      "example": {
+        "es": "El ecosistema marino es frágil.",
+        "en": "The marine ecosystem is fragile.",
+        "ar": "النظام البيئي البحري هش."
+      }
     },
     {
       "es": "la especie amenazada",
       "ipa": "/ˈla eˈspesie amenaˈsaða/",
       "en": "the endangered species",
-      "ar": "الأنواع المهددة بالانقراض"
+      "ar": "الأنواع المهددة بالانقراض",
+      "example": {
+        "es": "La especie amenazada necesita protección.",
+        "en": "The jaguar is an endangered species.",
+        "ar": "اليغور نوع مهدد بالانقراض."
+      }
     },
     {
       "es": "el recurso natural",
       "ipa": "/ˈel reˈkuɾso natuˈɾal/",
       "en": "the natural resource",
-      "ar": "المورد الطبيعي"
+      "ar": "المورد الطبيعي",
+      "example": {
+        "es": "El recurso natural más valioso es el agua.",
+        "en": "Water is a scarce natural resource.",
+        "ar": "الماء مورد طبيعي شحيح."
+      }
     },
     {
       "es": "la sequía",
       "ipa": "/ˈla seˈkia/",
       "en": "the drought",
-      "ar": "الجفاف"
+      "ar": "الجفاف",
+      "example": {
+        "es": "La sequía duró tres años.",
+        "en": "The drought lasted three years.",
+        "ar": "استمر الجفاف ثلاث سنوات."
+      }
     },
     {
       "es": "la inundación",
       "ipa": "/ˈla inundaˈsion/",
       "en": "the flood",
-      "ar": "الفيضان"
+      "ar": "الفيضان",
+      "example": {
+        "es": "La inundación dañó los cultivos.",
+        "en": "The flood damaged the crops.",
+        "ar": "أضرّ الفيضان بالمحاصيل."
+      }
     },
     {
       "es": "reducir",
       "ipa": "/reðuˈsiɾ/",
       "en": "to reduce",
-      "ar": "يقلل"
+      "ar": "يقلل",
+      "example": {
+        "es": "Debemos reducir el consumo de plástico.",
+        "en": "We must reduce plastic consumption.",
+        "ar": "يجب أن نقلل استهلاك البلاستيك."
+      }
     },
     {
       "es": "reutilizar",
       "ipa": "/reutiliˈsaɾ/",
       "en": "to reuse",
-      "ar": "يعيد الاستخدام"
+      "ar": "يعيد الاستخدام",
+      "example": {
+        "es": "Reutilizar botellas ahorra recursos.",
+        "en": "Reusing bottles saves resources.",
+        "ar": "إعادة استخدام الزجاجات توفر الموارد."
+      }
     }
   ],
   "grammar": [
@@ -256,18 +336,18 @@
       "options": [
         {
           "es": "A causa",
-          "en": "Por causa",
-          "ar": "Por causa"
+          "en": "because of",
+          "ar": "بسبب"
         },
         {
           "es": "Sin embargo",
-          "en": "Porém",
-          "ar": "Porém"
+          "en": "however",
+          "ar": "ومع ذلك"
         },
         {
           "es": "A pesar",
-          "en": "Apesar",
-          "ar": "Apesar"
+          "en": "despite",
+          "ar": "رغم"
         }
       ],
       "answer": "A causa",
@@ -287,13 +367,13 @@
       "options": [
         {
           "es": "toman",
-          "en": "tomam",
-          "ar": "tomam"
+          "en": "they take",
+          "ar": "يأخذون"
         },
         {
           "es": "tomen",
-          "en": "tomem",
-          "ar": "tomem"
+          "en": "take",
+          "ar": "خذوا"
         },
         {
           "es": "tomar",
@@ -322,6 +402,208 @@
         "en": "Cause: 'por causa de' + consequence in the preterite.",
         "ar": "السبب: 'por causa de' + النتيجة في الماضي."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the deforestation'?",
+        "en": "Which word means 'the deforestation'?",
+        "ar": "أي كلمة تعني 'إزالة الغابات'؟"
+      },
+      "options": [
+        {
+          "es": "la sostenibilidad",
+          "en": "the sustainability",
+          "ar": "الاستدامة"
+        },
+        {
+          "es": "la deforestación",
+          "en": "the deforestation",
+          "ar": "إزالة الغابات"
+        },
+        {
+          "es": "la contaminación",
+          "en": "the pollution",
+          "ar": "التلوث"
+        }
+      ],
+      "answer": "la deforestación",
+      "explanation": {
+        "es": "'la deforestación' significa 'the deforestation'.",
+        "en": "'la deforestación' means 'the deforestation'.",
+        "ar": "تعني 'la deforestación' 'إزالة الغابات'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the renewable energy'",
+        "en": "Choose the Spanish word: 'the renewable energy'",
+        "ar": "اختر الكلمة بالإسبانية: 'الطاقة المتجددة'"
+      },
+      "options": [
+        {
+          "es": "la inundación",
+          "en": "the flood",
+          "ar": "الفيضان"
+        },
+        {
+          "es": "el ecosistema",
+          "en": "the ecosystem",
+          "ar": "النظام البيئي"
+        },
+        {
+          "es": "la energía renovable",
+          "en": "the renewable energy",
+          "ar": "الطاقة المتجددة"
+        }
+      ],
+      "answer": "la energía renovable",
+      "explanation": {
+        "es": "'la energía renovable' significa 'the renewable energy'.",
+        "en": "'la energía renovable' means 'the renewable energy'.",
+        "ar": "تعني 'la energía renovable' 'الطاقة المتجددة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'to reduce' en español?",
+        "en": "How do you say 'to reduce' in Spanish?",
+        "ar": "كيف تقول 'يقلل' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "reducir",
+          "en": "to reduce",
+          "ar": "يقلل"
+        },
+        {
+          "es": "el reciclaje",
+          "en": "the recycling",
+          "ar": "إعادة التدوير"
+        },
+        {
+          "es": "la preservación",
+          "en": "the preservation",
+          "ar": "الحفاظ"
+        },
+        {
+          "es": "la especie amenazada",
+          "en": "the endangered species",
+          "ar": "الأنواع المهددة بالانقراض"
+        }
+      ],
+      "answer": "reducir",
+      "explanation": {
+        "es": "'reducir' significa 'to reduce'.",
+        "en": "'reducir' means 'to reduce'.",
+        "ar": "تعني 'reducir' 'يقلل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the environment'?",
+        "en": "Which word means 'the environment'?",
+        "ar": "أي كلمة تعني 'البيئة'؟"
+      },
+      "options": [
+        {
+          "es": "el medio ambiente",
+          "en": "the environment",
+          "ar": "البيئة"
+        },
+        {
+          "es": "la sequía",
+          "en": "the drought",
+          "ar": "الجفاف"
+        },
+        {
+          "es": "la deforestación",
+          "en": "the deforestation",
+          "ar": "إزالة الغابات"
+        },
+        {
+          "es": "el calentamiento global",
+          "en": "the global warming",
+          "ar": "الاحتباس الحراري"
+        }
+      ],
+      "answer": "el medio ambiente",
+      "explanation": {
+        "es": "'el medio ambiente' significa 'the environment'.",
+        "en": "'el medio ambiente' means 'the environment'.",
+        "ar": "تعني 'el medio ambiente' 'البيئة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Preserving the forest is a priority.\"",
+        "en": "Translate into Spanish: \"Preserving the forest is a priority.\"",
+        "ar": "ترجم إلى الإسبانية: \"الحفاظ على الغابة أولوية.\""
+      },
+      "options": [],
+      "answer": "La preservación del bosque es prioritaria.",
+      "explanation": {
+        "es": "Respuesta: \"La preservación del bosque es prioritaria.\".",
+        "en": "Answer: \"La preservación del bosque es prioritaria.\".",
+        "ar": "الإجابة: \"La preservación del bosque es prioritaria.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Protecting the environment is urgent.\"",
+        "en": "Translate into Spanish: \"Protecting the environment is urgent.\"",
+        "ar": "ترجم إلى الإسبانية: \"العناية بالبيئة ملحة.\""
+      },
+      "options": [],
+      "answer": "Cuidar el medio ambiente es urgente.",
+      "explanation": {
+        "es": "Respuesta: \"Cuidar el medio ambiente es urgente.\".",
+        "en": "Answer: \"Cuidar el medio ambiente es urgente.\".",
+        "ar": "الإجابة: \"Cuidar el medio ambiente es urgente.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Sustainability guides our plan.\"",
+        "en": "Translate into Spanish: \"Sustainability guides our plan.\"",
+        "ar": "ترجم إلى الإسبانية: \"التوجه نحو الاستدامة يقود خطتنا.\""
+      },
+      "options": [],
+      "answer": "La sostenibilidad guía nuestro plan.",
+      "explanation": {
+        "es": "Respuesta: \"La sostenibilidad guía nuestro plan.\".",
+        "en": "Answer: \"La sostenibilidad guía nuestro plan.\".",
+        "ar": "الإجابة: \"La sostenibilidad guía nuestro plan.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Renewable energy is the future.\"",
+        "en": "Translate into Spanish: \"Renewable energy is the future.\"",
+        "ar": "ترجم إلى الإسبانية: \"الطاقة المتجددة هي المستقبل.\""
+      },
+      "options": [],
+      "answer": "La energía renovable es el futuro.",
+      "explanation": {
+        "es": "Respuesta: \"La energía renovable es el futuro.\".",
+        "en": "Answer: \"La energía renovable es el futuro.\".",
+        "ar": "الإجابة: \"La energía renovable es el futuro.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

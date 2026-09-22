@@ -1,327 +1,604 @@
 {
- "id": "B2-03",
- "level": "B2",
- "level_name": {
-  "es": "Intermedio alto",
-  "en": "Upper-Intermediate",
-  "ar": "متوسط متقدم"
- },
- "title": {
-  "es": "Voz Pasiva",
-  "en": "Passive Voice",
-  "ar": "المبني للمجهول"
- },
- "objectives": [
-  {
-   "es": "Formar la voz pasiva con ser + participio",
-   "en": "Form the passive voice with ser + past participle",
-   "ar": "تكوين صيغة المبني للمجهول بـ ser + اسم المفعول"
+  "id": "B2-03",
+  "level": "B2",
+  "level_name": {
+    "es": "Intermedio alto",
+    "en": "Upper-Intermediate",
+    "ar": "متوسط متقدم"
   },
-  {
-   "es": "Usar la voz pasiva con el pronombre se",
-   "en": "Use the passive voice with the pronoun se",
-   "ar": "استخدام صيغة المبني للمجهول مع الضمير se"
-  },
-  {
-   "es": "Transformar frases activas en pasivas",
-   "en": "Transform active sentences into passive ones",
-   "ar": "تحويل الجمل من المبني للمعلوم إلى المبني للمجهول"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "la voz pasiva",
-   "ipa": "/ˈla ˈbos paˈsiβa/",
-   "en": "the passive voice",
-   "ar": "المبني للمجهول"
-  },
-  {
-   "es": "el participio",
-   "ipa": "/ˈel paɾtiˈsipio/",
-   "en": "the past participle",
-   "ar": "اسم المفعول"
-  },
-  {
-   "es": "el agente",
-   "ipa": "/ˈel aˈxente/",
-   "en": "the agent",
-   "ar": "الفاعل"
-  },
-  {
-   "es": "ser construido",
-   "ipa": "/ˈseɾ koˈnstɾuiðo/",
-   "en": "to be built",
-   "ar": "يُبنى"
-  },
-  {
-   "es": "ser publicado",
-   "ipa": "/ˈseɾ puβliˈkaðo/",
-   "en": "to be published",
-   "ar": "يُنشر"
-  },
-  {
-   "es": "ser elegido",
-   "ipa": "/ˈseɾ eleˈxiðo/",
-   "en": "to be elected",
-   "ar": "يُنتخب"
-  },
-  {
-   "es": "ser aprobado",
-   "ipa": "/ˈseɾ apɾoˈβaðo/",
-   "en": "to be approved",
-   "ar": "يُوافق عليه"
-  },
-  {
-   "es": "ser inaugurado",
-   "ipa": "/ˈseɾ inauɣuˈɾaðo/",
-   "en": "to be inaugurated",
-   "ar": "يُفتتح"
-  },
-  {
-   "es": "ser destruido",
-   "ipa": "/ˈseɾ deˈstɾuiðo/",
-   "en": "to be destroyed",
-   "ar": "يُدمَّر"
-  },
-  {
-   "es": "el premio",
-   "ipa": "/ˈel ˈpɾemio/",
-   "en": "the award",
-   "ar": "الجائزة"
-  },
-  {
-   "es": "el anuncio",
-   "ipa": "/ˈel aˈnunsio/",
-   "en": "the announcement",
-   "ar": "الإعلان"
-  },
-  {
-   "es": "el resultado",
-   "ipa": "/ˈel resuˈltaðo/",
-   "en": "the result",
-   "ar": "النتيجة"
-  },
-  {
-   "es": "el descubrimiento",
-   "ipa": "/ˈel deskuβɾiˈmiento/",
-   "en": "the discovery",
-   "ar": "الاكتشاف"
-  },
-  {
-   "es": "la decisión",
-   "ipa": "/ˈla desiˈsion/",
-   "en": "the decision",
-   "ar": "القرار"
-  },
-  {
-   "es": "se vende",
-   "ipa": "/ˈse ˈbende/",
-   "en": "it is sold",
-   "ar": "يُباع"
-  },
-  {
-   "es": "se alquila",
-   "ipa": "/ˈse aˈlkila/",
-   "en": "it is rented",
-   "ar": "يُستأجر"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "La Voz Pasiva con Ser + Participio",
-    "en": "The Passive Voice with Ser + Participle",
-    "ar": "المبني للمجهول مع Ser + اسم المفعول"
-   },
-   "explanation": {
-    "es": "En la voz pasiva, el sujeto recibe la acción: sujeto + ser (en el tiempo correcto) + participio + (por + agente). El participio concuerda en género y número con el sujeto. Ejemplo: El alcalde inauguró el puente. → El puente fue inaugurado por el alcalde.",
-    "en": "In the passive voice, the subject receives the action: subject + ser (in the right tense) + past participle + (por + agent). The participle agrees in gender and number with the subject. Example: The mayor inaugurated the bridge. → The bridge was inaugurated by the mayor.",
-    "ar": "في المبني للمجهول يتلقى المبتدأ الفعل: المبتدأ + ser (بالزمن الصحيح) + اسم المفعول + (por + الفاعل). يطابق اسم المفعول المبتدأ في التذكير والتأنيث والعدد. مثال: O prefeito inaugurou a ponte ← A ponte foi inaugurada pelo prefeito."
-   },
-   "examples": [
-    {
-     "es": "El libro fue publicado en 2020.",
-     "en": "The book was published in 2020.",
-     "ar": "نُشر الكتاب في عام 2020."
-    },
-    {
-     "es": "Las cartas fueron escritas por la autora.",
-     "en": "The letters were written by the author.",
-     "ar": "كُتبت الرسائل بواسطة المؤلفة."
-    },
-    {
-     "es": "La nueva ley será aprobada por el Congreso.",
-     "en": "The new law will be approved by Congress.",
-     "ar": "سيوافق الكونغرس على القانون الجديد."
-    },
-    {
-     "es": "Los premios se entregan todos los años.",
-     "en": "The awards are handed out every year.",
-     "ar": "تُسلَّم الجوائز كل عام."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "La Voz Pasiva con Se",
-    "en": "The Passive Voice with Se",
-    "ar": "المبني للمجهول مع Se"
-   },
-   "explanation": {
-    "es": "Con verbos transitivos, usamos el pronombre se + verbo en tercera persona para expresar la pasiva sin agente. El verbo concuerda con el sujeto: Se vende casa (singular), Se alquilan apartamentos (plural).",
-    "en": "With transitive verbs, we use the pronoun se + verb in the third person to express a passive without an agent. The verb agrees with the subject: Vende-se casa (singular), Alugam-se apartamentos (plural).",
-    "ar": "مع الأفعال المتعدية نستخدم الضمير se + الفعل في صيغة الغائب للتعبير عن المبني للمجهول دون فاعل. يطابق الفعل المبتدأ: Vende-se casa (مفرد)، Alugam-se apartamentos (جمع)."
-   },
-   "examples": [
-    {
-     "es": "Se vende casa en el centro.",
-     "en": "A house in the center is sold.",
-     "ar": "يُباع منزل في وسط المدينة."
-    },
-    {
-     "es": "Se alquilan apartamentos cerca de la playa.",
-     "en": "Apartments near the beach are rented.",
-     "ar": "تُستأجر شقق قرب الشاطئ."
-    },
-    {
-     "es": "No se aceptan cheques.",
-     "en": "Checks are not accepted.",
-     "ar": "لا تُقبل الشيكات."
-    },
-    {
-     "es": "Se habla español en España.",
-     "en": "Spanish is spoken in Spain.",
-     "ar": "يُتحدث الإسبانية في إسبانيا."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "Una Noticia Importante",
-   "en": "An Important News Story",
-   "ar": "خبر مهم"
+    "es": "Voz Pasiva",
+    "en": "Passive Voice",
+    "ar": "المبني للمجهول"
   },
-  "lines": [
-   {
-    "speaker": "Reportero",
-    "es": "La nueva biblioteca fue inaugurada ayer en la avenida central.",
-    "en": "The new library was inaugurated yesterday on the central avenue.",
-    "ar": "تم افتتاح المكتبة الجديدة أمس في الشارع الرئيسي."
-   },
-   {
-    "speaker": "Oyente",
-    "es": "¿Fue construida por el gobierno regional?",
-    "en": "Was it built by the state government?",
-    "ar": "هل بناها حكومة الولاية؟"
-   },
-   {
-    "speaker": "Reportero",
-    "es": "Sí, fue financiada con recursos públicos.",
-    "en": "Yes, it was funded with public resources.",
-    "ar": "نعم، تم تمويلها بأموال عامة."
-   },
-   {
-    "speaker": "Oyente",
-    "es": "¡Qué buena noticia! ¿Se ofrecerán cursos gratuitos allí?",
-    "en": "What great news! Will free courses be offered there?",
-    "ar": "يا لها من أخبار رائعة! هل ستُقدَّم دورات مجانية هناك؟"
-   },
-   {
-    "speaker": "Reportero",
-    "es": "Sí, se ofrecerán cursos de informática y lectura.",
-    "en": "Yes, computer and reading courses will be offered.",
-    "ar": "نعم، ستُقدَّم دورات في الحاسوب والقراءة."
-   }
+  "objectives": [
+    {
+      "es": "Formar la voz pasiva con ser + participio",
+      "en": "Form the passive voice with ser + past participle",
+      "ar": "تكوين صيغة المبني للمجهول بـ ser + اسم المفعول"
+    },
+    {
+      "es": "Usar la voz pasiva con el pronombre se",
+      "en": "Use the passive voice with the pronoun se",
+      "ar": "استخدام صيغة المبني للمجهول مع الضمير se"
+    },
+    {
+      "es": "Transformar frases activas en pasivas",
+      "en": "Transform active sentences into passive ones",
+      "ar": "تحويل الجمل من المبني للمعلوم إلى المبني للمجهول"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la voz pasiva",
+      "ipa": "/ˈla ˈbos paˈsiβa/",
+      "en": "the passive voice",
+      "ar": "المبني للمجهول",
+      "example": {
+        "es": "La voz pasiva se forma con ser y participio.",
+        "en": "The passive voice is formed with ser and a participle.",
+        "ar": "يُكوَّن المبني للمجهول بـ ser واسم المفعول."
+      }
+    },
+    {
+      "es": "el participio",
+      "ipa": "/ˈel paɾtiˈsipio/",
+      "en": "the past participle",
+      "ar": "اسم المفعول",
+      "example": {
+        "es": "El participio regular termina en ado o ido.",
+        "en": "The regular participle ends in -ado or -ido.",
+        "ar": "ينتهي اسم المفعول المنتظم بـ ado أو ido."
+      }
+    },
+    {
+      "es": "el agente",
+      "ipa": "/ˈel aˈxente/",
+      "en": "the agent",
+      "ar": "الفاعل",
+      "example": {
+        "es": "El agente de la pasiva va con por.",
+        "en": "The agent of the passive goes with by.",
+        "ar": "يأتي فاعل المبني للمجهول مع by."
+      }
+    },
+    {
+      "es": "ser construido",
+      "ipa": "/ˈseɾ koˈnstɾuiðo/",
+      "en": "to be built",
+      "ar": "يُبنى",
+      "example": {
+        "es": "La oración usa ser construido correctamente.",
+        "en": "The sentence uses ser construido correctly.",
+        "ar": "تستخدم الجملة ser construido بشكل صحيح."
+      }
+    },
+    {
+      "es": "ser publicado",
+      "ipa": "/ˈseɾ puβliˈkaðo/",
+      "en": "to be published",
+      "ar": "يُنشر",
+      "example": {
+        "es": "La forma ser publicado aparece en el texto.",
+        "en": "The form ser publicado appears in the text.",
+        "ar": "تظهر الصيغة ser publicado في النص."
+      }
+    },
+    {
+      "es": "ser elegido",
+      "ipa": "/ˈseɾ eleˈxiðo/",
+      "en": "to be elected",
+      "ar": "يُنتخب",
+      "example": {
+        "es": "La forma ser elegido es pasiva.",
+        "en": "The form ser elegido is passive.",
+        "ar": "الصيغة ser elegido صيغة مجهولة."
+      }
+    },
+    {
+      "es": "ser aprobado",
+      "ipa": "/ˈseɾ apɾoˈβaðo/",
+      "en": "to be approved",
+      "ar": "يُوافق عليه",
+      "example": {
+        "es": "La forma ser aprobado aparece en el informe.",
+        "en": "The form ser aprobado appears in the report.",
+        "ar": "تظهر الصيغة ser aprobado في التقرير."
+      }
+    },
+    {
+      "es": "ser inaugurado",
+      "ipa": "/ˈseɾ inauɣuˈɾaðo/",
+      "en": "to be inaugurated",
+      "ar": "يُفتتح",
+      "example": {
+        "es": "La forma ser inaugurado describe la apertura.",
+        "en": "The form ser inaugurado describes the opening.",
+        "ar": "تصف الصيغة ser inaugurado الافتتاح."
+      }
+    },
+    {
+      "es": "ser destruido",
+      "ipa": "/ˈseɾ deˈstɾuiðo/",
+      "en": "to be destroyed",
+      "ar": "يُدمَّر",
+      "example": {
+        "es": "La forma ser destruido indica daño.",
+        "en": "The form ser destruido indicates destruction.",
+        "ar": "تشير الصيغة ser destruido إلى الدمار."
+      }
+    },
+    {
+      "es": "el premio",
+      "ipa": "/ˈel ˈpɾemio/",
+      "en": "the award",
+      "ar": "الجائزة",
+      "example": {
+        "es": "El premio literario se entrega en octubre.",
+        "en": "The literary award is given in October.",
+        "ar": "تُمنح الجائزة الأدبية في أكتوبر."
+      }
+    },
+    {
+      "es": "el anuncio",
+      "ipa": "/ˈel aˈnunsio/",
+      "en": "the announcement",
+      "ar": "الإعلان",
+      "example": {
+        "es": "El anuncio sorprendió a los vecinos.",
+        "en": "The announcement surprised the neighbors.",
+        "ar": "فوجئ الجيران بالإعلان."
+      }
+    },
+    {
+      "es": "el resultado",
+      "ipa": "/ˈel resuˈltaðo/",
+      "en": "the result",
+      "ar": "النتيجة",
+      "example": {
+        "es": "El resultado del estudio fue publicado.",
+        "en": "The study's result was published.",
+        "ar": "نُشرت نتيجة الدراسة."
+      }
+    },
+    {
+      "es": "el descubrimiento",
+      "ipa": "/ˈel deskuβɾiˈmiento/",
+      "en": "the discovery",
+      "ar": "الاكتشاف",
+      "example": {
+        "es": "El descubrimiento cambió la medicina.",
+        "en": "The discovery changed medicine.",
+        "ar": "غيّر الاكتشاف الطب."
+      }
+    },
+    {
+      "es": "la decisión",
+      "ipa": "/ˈla desiˈsion/",
+      "en": "the decision",
+      "ar": "القرار",
+      "example": {
+        "es": "La decisión depende de ti.",
+        "en": "The decision depends on you.",
+        "ar": "القرار يعتمد عليك."
+      }
+    },
+    {
+      "es": "se vende",
+      "ipa": "/ˈse ˈbende/",
+      "en": "it is sold",
+      "ar": "يُباع",
+      "example": {
+        "es": "Casa bonita se vende rápido.",
+        "en": "Nice house sells fast.",
+        "ar": "المنزل الجميل يُباع بسرعة."
+      }
+    },
+    {
+      "es": "se alquila",
+      "ipa": "/ˈse aˈlkila/",
+      "en": "it is rented",
+      "ar": "يُستأجر",
+      "example": {
+        "es": "Piso céntrico se alquila amueblado.",
+        "en": "Central apartment is rented furnished.",
+        "ar": "الشقة الوسطية تُؤجَر مفروشة."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "La Voz Pasiva con Ser + Participio",
+        "en": "The Passive Voice with Ser + Participle",
+        "ar": "المبني للمجهول مع Ser + اسم المفعول"
+      },
+      "explanation": {
+        "es": "En la voz pasiva, el sujeto recibe la acción: sujeto + ser (en el tiempo correcto) + participio + (por + agente). El participio concuerda en género y número con el sujeto. Ejemplo: El alcalde inauguró el puente. → El puente fue inaugurado por el alcalde.",
+        "en": "In the passive voice, the subject receives the action: subject + ser (in the right tense) + past participle + (por + agent). The participle agrees in gender and number with the subject. Example: The mayor inaugurated the bridge. → The bridge was inaugurated by the mayor.",
+        "ar": "في المبني للمجهول يتلقى المبتدأ الفعل: المبتدأ + ser (بالزمن الصحيح) + اسم المفعول + (por + الفاعل). يطابق اسم المفعول المبتدأ في التذكير والتأنيث والعدد. مثال: O prefeito inaugurou a ponte ← A ponte foi inaugurada pelo prefeito."
+      },
+      "examples": [
+        {
+          "es": "El libro fue publicado en 2020.",
+          "en": "The book was published in 2020.",
+          "ar": "نُشر الكتاب في عام 2020."
+        },
+        {
+          "es": "Las cartas fueron escritas por la autora.",
+          "en": "The letters were written by the author.",
+          "ar": "كُتبت الرسائل بواسطة المؤلفة."
+        },
+        {
+          "es": "La nueva ley será aprobada por el Congreso.",
+          "en": "The new law will be approved by Congress.",
+          "ar": "سيوافق الكونغرس على القانون الجديد."
+        },
+        {
+          "es": "Los premios se entregan todos los años.",
+          "en": "The awards are handed out every year.",
+          "ar": "تُسلَّم الجوائز كل عام."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "La Voz Pasiva con Se",
+        "en": "The Passive Voice with Se",
+        "ar": "المبني للمجهول مع Se"
+      },
+      "explanation": {
+        "es": "Con verbos transitivos, usamos el pronombre se + verbo en tercera persona para expresar la pasiva sin agente. El verbo concuerda con el sujeto: Se vende casa (singular), Se alquilan apartamentos (plural).",
+        "en": "With transitive verbs, we use the pronoun se + verb in the third person to express a passive without an agent. The verb agrees with the subject: Vende-se casa (singular), Alugam-se apartamentos (plural).",
+        "ar": "مع الأفعال المتعدية نستخدم الضمير se + الفعل في صيغة الغائب للتعبير عن المبني للمجهول دون فاعل. يطابق الفعل المبتدأ: Vende-se casa (مفرد)، Alugam-se apartamentos (جمع)."
+      },
+      "examples": [
+        {
+          "es": "Se vende casa en el centro.",
+          "en": "A house in the center is sold.",
+          "ar": "يُباع منزل في وسط المدينة."
+        },
+        {
+          "es": "Se alquilan apartamentos cerca de la playa.",
+          "en": "Apartments near the beach are rented.",
+          "ar": "تُستأجر شقق قرب الشاطئ."
+        },
+        {
+          "es": "No se aceptan cheques.",
+          "en": "Checks are not accepted.",
+          "ar": "لا تُقبل الشيكات."
+        },
+        {
+          "es": "Se habla español en España.",
+          "en": "Spanish is spoken in Spain.",
+          "ar": "يُتحدث الإسبانية في إسبانيا."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Una Noticia Importante",
+      "en": "An Important News Story",
+      "ar": "خبر مهم"
+    },
+    "lines": [
+      {
+        "speaker": "Reportero",
+        "es": "La nueva biblioteca fue inaugurada ayer en la avenida central.",
+        "en": "The new library was inaugurated yesterday on the central avenue.",
+        "ar": "تم افتتاح المكتبة الجديدة أمس في الشارع الرئيسي."
+      },
+      {
+        "speaker": "Oyente",
+        "es": "¿Fue construida por el gobierno regional?",
+        "en": "Was it built by the state government?",
+        "ar": "هل بناها حكومة الولاية؟"
+      },
+      {
+        "speaker": "Reportero",
+        "es": "Sí, fue financiada con recursos públicos.",
+        "en": "Yes, it was funded with public resources.",
+        "ar": "نعم، تم تمويلها بأموال عامة."
+      },
+      {
+        "speaker": "Oyente",
+        "es": "¡Qué buena noticia! ¿Se ofrecerán cursos gratuitos allí?",
+        "en": "What great news! Will free courses be offered there?",
+        "ar": "يا لها من أخبار رائعة! هل ستُقدَّم دورات مجانية هناك؟"
+      },
+      {
+        "speaker": "Reportero",
+        "es": "Sí, se ofrecerán cursos de informática y lectura.",
+        "en": "Yes, computer and reading courses will be offered.",
+        "ar": "نعم، ستُقدَّم دورات في الحاسوب والقراءة."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "La Ciudad Renovada",
+      "en": "The Renewed City",
+      "ar": "المدينة المجددة"
+    },
+    "text_es": "Una antigua fábrica fue transformada en un centro cultural. El proyecto fue financiado por empresas locales y por el ayuntamiento. La inauguración fue celebrada con presentaciones de música y danza. Se espera que nuevos espacios como ese sean creados en otros barrios.",
+    "text_en": "An old factory was transformed into a cultural center. The project was funded by local companies and the city hall. The inauguration was celebrated with music and dance performances. It is hoped that new spaces like this will be created in other neighborhoods.",
+    "text_ar": "تم تحويل مصنع قديم إلى مركز ثقافي. وقد مول المشروع شركات محلية وبلدية المدينة. واحتُفل بافتتاحه بعروض موسيقية ورقصية. ويُؤمل أن تُنشأ مساحات جديدة مثل هذه في أحياء أخرى."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "La casa ___ construida en 1985.",
+        "en": "The house ___ built in 1985.",
+        "ar": "تم ___ المنزل في عام 1985."
+      },
+      "options": [
+        {
+          "es": "fue",
+          "en": "was",
+          "ar": "كان"
+        },
+        {
+          "es": "está",
+          "en": "is",
+          "ar": "يوجد"
+        },
+        {
+          "es": "tiene",
+          "en": "has",
+          "ar": "لديه"
+        }
+      ],
+      "answer": "fue",
+      "explanation": {
+        "es": "La voz pasiva en el pasado usa ser en el pretérito: fue construida.",
+        "en": "The passive voice in the past uses ser in the preterite: foi construída.",
+        "ar": "يستخدم المبني للمجهول في الماضي فعل ser بالماضي: foi construída."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "___ apartamentos para alquilar.",
+        "en": "Apartments ___ for rent.",
+        "ar": "شقق ___ للإيجار."
+      },
+      "options": [
+        {
+          "es": "Se alquila",
+          "en": "for rent",
+          "ar": "يُؤجَر"
+        },
+        {
+          "es": "Se alquilan",
+          "en": "for rent pl",
+          "ar": "يُؤجَر جمع"
+        },
+        {
+          "es": "Alquilándose",
+          "en": "being rented",
+          "ar": "يُؤجَر"
+        }
+      ],
+      "answer": "Se alquilan",
+      "explanation": {
+        "es": "El sujeto 'apartamentos' es plural, así que el verbo va en plural: Se alquilan.",
+        "en": "The subject 'apartamentos' is plural, so the verb is plural: Alugam-se.",
+        "ar": "المبتدأ 'apartamentos' جمع، لذا يكون الفعل في الجمع: Alugam-se."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'The letters were written by the author.'",
+        "en": "Translate: 'The letters were written by the author.'",
+        "ar": "ترجم: 'The letters were written by the author.'"
+      },
+      "options": [],
+      "answer": "Las cartas fueron escritas por la autora.",
+      "explanation": {
+        "es": "Pasiva en el pretérito: fueron escritas + agente 'por la autora'.",
+        "en": "Passive in the preterite: foram escritas + agent 'pela autora'.",
+        "ar": "مبني للمجهول في الماضي: foram escritas + الفاعل 'pela autora'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'it is sold'?",
+        "en": "Which word means 'it is sold'?",
+        "ar": "أي كلمة تعني 'يُباع'؟"
+      },
+      "options": [
+        {
+          "es": "la decisión",
+          "en": "the decision",
+          "ar": "القرار"
+        },
+        {
+          "es": "ser elegido",
+          "en": "to be elected",
+          "ar": "يُنتخب"
+        },
+        {
+          "es": "se vende",
+          "en": "it is sold",
+          "ar": "يُباع"
+        }
+      ],
+      "answer": "se vende",
+      "explanation": {
+        "es": "'se vende' significa 'it is sold'.",
+        "en": "'se vende' means 'it is sold'.",
+        "ar": "تعني 'se vende' 'يُباع'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'it is rented'",
+        "en": "Choose the Spanish word: 'it is rented'",
+        "ar": "اختر الكلمة بالإسبانية: 'يُستأجر'"
+      },
+      "options": [
+        {
+          "es": "se vende",
+          "en": "it is sold",
+          "ar": "يُباع"
+        },
+        {
+          "es": "ser destruido",
+          "en": "to be destroyed",
+          "ar": "يُدمَّر"
+        },
+        {
+          "es": "se alquila",
+          "en": "it is rented",
+          "ar": "يُستأجر"
+        }
+      ],
+      "answer": "se alquila",
+      "explanation": {
+        "es": "'se alquila' significa 'it is rented'.",
+        "en": "'se alquila' means 'it is rented'.",
+        "ar": "تعني 'se alquila' 'يُستأجر'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the announcement' en español?",
+        "en": "How do you say 'the announcement' in Spanish?",
+        "ar": "كيف تقول 'الإعلان' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el anuncio",
+          "en": "the announcement",
+          "ar": "الإعلان"
+        },
+        {
+          "es": "el participio",
+          "en": "the past participle",
+          "ar": "اسم المفعول"
+        },
+        {
+          "es": "el agente",
+          "en": "the agent",
+          "ar": "الفاعل"
+        }
+      ],
+      "answer": "el anuncio",
+      "explanation": {
+        "es": "'el anuncio' significa 'the announcement'.",
+        "en": "'el anuncio' means 'the announcement'.",
+        "ar": "تعني 'el anuncio' 'الإعلان'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'to be published'?",
+        "en": "Which word means 'to be published'?",
+        "ar": "أي كلمة تعني 'يُنشر'؟"
+      },
+      "options": [
+        {
+          "es": "ser publicado",
+          "en": "to be published",
+          "ar": "يُنشر"
+        },
+        {
+          "es": "el descubrimiento",
+          "en": "the discovery",
+          "ar": "الاكتشاف"
+        },
+        {
+          "es": "la voz pasiva",
+          "en": "the passive voice",
+          "ar": "المبني للمجهول"
+        },
+        {
+          "es": "se vende",
+          "en": "it is sold",
+          "ar": "يُباع"
+        }
+      ],
+      "answer": "ser publicado",
+      "explanation": {
+        "es": "'ser publicado' significa 'to be published'.",
+        "en": "'ser publicado' means 'to be published'.",
+        "ar": "تعني 'ser publicado' 'يُنشر'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The literary award is given in October.\"",
+        "en": "Translate into Spanish: \"The literary award is given in October.\"",
+        "ar": "ترجم إلى الإسبانية: \"تُمنح الجائزة الأدبية في أكتوبر.\""
+      },
+      "options": [],
+      "answer": "El premio literario se entrega en octubre.",
+      "explanation": {
+        "es": "Respuesta: \"El premio literario se entrega en octubre.\".",
+        "en": "Answer: \"El premio literario se entrega en octubre.\".",
+        "ar": "الإجابة: \"El premio literario se entrega en octubre.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The decision depends on you.\"",
+        "en": "Translate into Spanish: \"The decision depends on you.\"",
+        "ar": "ترجم إلى الإسبانية: \"القرار يعتمد عليك.\""
+      },
+      "options": [],
+      "answer": "La decisión depende de ti.",
+      "explanation": {
+        "es": "Respuesta: \"La decisión depende de ti.\".",
+        "en": "Answer: \"La decisión depende de ti.\".",
+        "ar": "الإجابة: \"La decisión depende de ti.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"What great news! Will free courses be offered there?\"",
+        "en": "Translate into Spanish: \"What great news! Will free courses be offered there?\"",
+        "ar": "ترجم إلى الإسبانية: \"يا لها من أخبار رائعة! هل ستُقدَّم دورات مجانية هناك؟\""
+      },
+      "options": [],
+      "answer": "¡Qué buena noticia! ¿Se ofrecerán cursos gratuitos allí?",
+      "explanation": {
+        "es": "Respuesta: \"¡Qué buena noticia! ¿Se ofrecerán cursos gratuitos allí?\".",
+        "en": "Answer: \"¡Qué buena noticia! ¿Se ofrecerán cursos gratuitos allí?\".",
+        "ar": "الإجابة: \"¡Qué buena noticia! ¿Se ofrecerán cursos gratuitos allí?\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The form ser inaugurado describes the opening.\"",
+        "en": "Translate into Spanish: \"The form ser inaugurado describes the opening.\"",
+        "ar": "ترجم إلى الإسبانية: \"تصف الصيغة ser inaugurado الافتتاح.\""
+      },
+      "options": [],
+      "answer": "La forma ser inaugurado describe la apertura.",
+      "explanation": {
+        "es": "Respuesta: \"La forma ser inaugurado describe la apertura.\".",
+        "en": "Answer: \"La forma ser inaugurado describe la apertura.\".",
+        "ar": "الإجابة: \"La forma ser inaugurado describe la apertura.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "La Ciudad Renovada",
-   "en": "The Renewed City",
-   "ar": "المدينة المجددة"
-  },
-  "text_es": "Una antigua fábrica fue transformada en un centro cultural. El proyecto fue financiado por empresas locales y por el ayuntamiento. La inauguración fue celebrada con presentaciones de música y danza. Se espera que nuevos espacios como ese sean creados en otros barrios.",
-  "text_en": "An old factory was transformed into a cultural center. The project was funded by local companies and the city hall. The inauguration was celebrated with music and dance performances. It is hoped that new spaces like this will be created in other neighborhoods.",
-  "text_ar": "تم تحويل مصنع قديم إلى مركز ثقافي. وقد مول المشروع شركات محلية وبلدية المدينة. واحتُفل بافتتاحه بعروض موسيقية ورقصية. ويُؤمل أن تُنشأ مساحات جديدة مثل هذه في أحياء أخرى."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "La casa ___ construida en 1985.",
-    "en": "The house ___ built in 1985.",
-    "ar": "تم ___ المنزل في عام 1985."
-   },
-   "options": [
-    {
-     "es": "fue",
-     "en": "foi",
-     "ar": "foi"
-    },
-    {
-     "es": "está",
-     "en": "está",
-     "ar": "está"
-    },
-    {
-     "es": "tiene",
-     "en": "tem",
-     "ar": "tem"
-    }
-   ],
-   "answer": "fue",
-   "explanation": {
-    "es": "La voz pasiva en el pasado usa ser en el pretérito: fue construida.",
-    "en": "The passive voice in the past uses ser in the preterite: foi construída.",
-    "ar": "يستخدم المبني للمجهول في الماضي فعل ser بالماضي: foi construída."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "___ apartamentos para alquilar.",
-    "en": "Apartments ___ for rent.",
-    "ar": "شقق ___ للإيجار."
-   },
-   "options": [
-    {
-     "es": "Se alquila",
-     "en": "Aluga-se",
-     "ar": "Aluga-se"
-    },
-    {
-     "es": "Se alquilan",
-     "en": "Alugam-se",
-     "ar": "Alugam-se"
-    },
-    {
-     "es": "Alquilándose",
-     "en": "Alugando-se",
-     "ar": "Alugando-se"
-    }
-   ],
-   "answer": "Se alquilan",
-   "explanation": {
-    "es": "El sujeto 'apartamentos' es plural, así que el verbo va en plural: Se alquilan.",
-    "en": "The subject 'apartamentos' is plural, so the verb is plural: Alugam-se.",
-    "ar": "المبتدأ 'apartamentos' جمع، لذا يكون الفعل في الجمع: Alugam-se."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'The letters were written by the author.'",
-    "en": "Translate: 'The letters were written by the author.'",
-    "ar": "ترجم: 'The letters were written by the author.'"
-   },
-   "options": [],
-   "answer": "Las cartas fueron escritas por la autora.",
-   "explanation": {
-    "es": "Pasiva en el pretérito: fueron escritas + agente 'por la autora'.",
-    "en": "Passive in the preterite: foram escritas + agent 'pela autora'.",
-    "ar": "مبني للمجهول في الماضي: foram escritas + الفاعل 'pela autora'."
-   }
-  }
- ]
 }

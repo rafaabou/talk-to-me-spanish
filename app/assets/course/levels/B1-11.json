@@ -1,328 +1,615 @@
 {
- "id": "B1-11",
- "level": "B1",
- "level_name": {
-  "es": "Intermedio",
-  "en": "Intermediate",
-  "ar": "متوسط"
- },
- "title": {
-  "es": "Banco, Dinero y Pagos",
-  "en": "Banking, Money and Payments",
-  "ar": "البنوك والمال والدفع"
- },
- "objectives": [
-  {
-   "es": "Usar vocabulario bancario y de pagos.",
-   "en": "Use banking and payment vocabulary.",
-   "ar": "استخدام مفردات البنوك والمدفوعات."
+  "id": "B1-11",
+  "level": "B1",
+  "level_name": {
+    "es": "Intermedio",
+    "en": "Intermediate",
+    "ar": "متوسط"
   },
-  {
-   "es": "Hablar de cantidades, precios y transacciones con claridad.",
-   "en": "Talk about amounts, prices and transactions clearly.",
-   "ar": "التحدث عن المبالغ والأسعار والمعاملات بوضوح."
-  }
- ],
- "vocabulary": [
-  {
-   "es": "el banco",
-   "ipa": "/ˈel ˈbanko/",
-   "en": "the bank",
-   "ar": "البنك"
-  },
-  {
-   "es": "la cuenta",
-   "ipa": "/ˈla ˈkuenta/",
-   "en": "the account",
-   "ar": "الحساب"
-  },
-  {
-   "es": "la tarjeta de crédito",
-   "ipa": "/ˈla taˈɾxeta ˈde ˈkɾeðito/",
-   "en": "the credit card",
-   "ar": "بطاقة الائتمان"
-  },
-  {
-   "es": "la tarjeta de débito",
-   "ipa": "/ˈla taˈɾxeta ˈde ˈdeβito/",
-   "en": "the debit card",
-   "ar": "بطاقة الخصم"
-  },
-  {
-   "es": "la transferencia inmediata",
-   "ipa": "/ˈla tɾansfeˈɾensia inmeˈðiata/",
-   "en": "the Pix (instant payment)",
-   "ar": "بيكس (دفع فوري)"
-  },
-  {
-   "es": "la transferencia",
-   "ipa": "/ˈla tɾansfeˈɾensia/",
-   "en": "the transfer",
-   "ar": "التحويل"
-  },
-  {
-   "es": "el retiro",
-   "ipa": "/ˈel reˈtiɾo/",
-   "en": "the withdrawal",
-   "ar": "السحب"
-  },
-  {
-   "es": "el depósito",
-   "ipa": "/ˈel deˈposito/",
-   "en": "the deposit",
-   "ar": "الإيداع"
-  },
-  {
-   "es": "el extracto",
-   "ipa": "/ˈel eˈkstɾakto/",
-   "en": "the bank statement",
-   "ar": "كشف الحساب"
-  },
-  {
-   "es": "el préstamo",
-   "ipa": "/ˈel ˈpɾestamo/",
-   "en": "the loan",
-   "ar": "القرض"
-  },
-  {
-   "es": "los intereses",
-   "ipa": "/ˈlos inteˈɾeses/",
-   "en": "the interest",
-   "ar": "الفائدة"
-  },
-  {
-   "es": "el pago",
-   "ipa": "/ˈel ˈpaɣo/",
-   "en": "the payment",
-   "ar": "الدفع"
-  },
-  {
-   "es": "el saldo",
-   "ipa": "/ˈel ˈsaldo/",
-   "en": "the balance",
-   "ar": "الرصيد"
-  },
-  {
-   "es": "la moneda",
-   "ipa": "/ˈla moˈneða/",
-   "en": "the currency",
-   "ar": "العملة"
-  },
-  {
-   "es": "la factura",
-   "ipa": "/ˈla faˈktuɾa/",
-   "en": "the bill / invoice",
-   "ar": "الفاتورة"
-  },
-  {
-   "es": "ahorrar",
-   "ipa": "/aoˈraɾ/",
-   "en": "to save money",
-   "ar": "يوفّر / يدّخر"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "En el banco: peticiones y necesidades",
-    "en": "At the bank: requests and needs",
-    "ar": "في البنك: الطلبات والاحتياجات"
-   },
-   "explanation": {
-    "es": "En el banco usamos estructuras educadas: 'me gustaría', 'quiero' y 'necesito' + infinitivo, además de verbos como 'abrir', 'hacer', 'consultar' y 'transferir'.",
-    "en": "At the bank we use polite structures: 'gostaria de', 'quero' and 'preciso' + infinitive, plus verbs like 'abrir', 'fazer', 'consultar' and 'transferir'.",
-    "ar": "في البنك نستخدم تراكيب مهذبة: 'gostaria de' و'quero' و'preciso' + المصدر، بالإضافة إلى أفعال مثل 'يفتح' و'يعمل' و'يستعلم' و'يحوّل'."
-   },
-   "examples": [
-    {
-     "es": "Me gustaría abrir una cuenta corriente.",
-     "en": "I would like to open a checking account.",
-     "ar": "أودّ فتح حساب جارٍ."
-    },
-    {
-     "es": "Quiero hacer un retiro de doscientos euros.",
-     "en": "I want to make a withdrawal of two hundred reais.",
-     "ar": "أريد سحب مئتي ريال."
-    },
-    {
-     "es": "Necesito consultar mi saldo.",
-     "en": "I need to check my balance.",
-     "ar": "أحتاج إلى الاستعلام عن رصيدي."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Cantidades, precios y costos",
-    "en": "Amounts, prices and costs",
-    "ar": "المبالغ والأسعار والتكاليف"
-   },
-   "explanation": {
-    "es": "Para hablar de costos usamos 'costar', 'pagar por' y 'gastar en'. Preguntas comunes: '¿cuánto cuesta?', '¿cuánto es?', '¿cuánto debo?'.",
-    "en": "To talk about costs we use 'custar', 'pagar por' and 'gastar com'. Common questions: 'quanto custa?', 'quanto é?', 'quanto devo?'.",
-    "ar": "للحديث عن التكاليف نستخدم 'custar' (يكلف) و'pagar por' (يدفع) و'gastar com' (ينفق على). ومن الأسئلة الشائعة: 'كم التكلفة؟' و'كم المبلغ؟' و'كم يجب أن أدفع؟'."
-   },
-   "examples": [
-    {
-     "es": "¿Cuánto cuesta esa camisa?",
-     "en": "How much does this shirt cost?",
-     "ar": "كم تكلفة هذا القميص؟"
-    },
-    {
-     "es": "Pagué cincuenta euros por la camisa.",
-     "en": "I paid fifty reais for the shirt.",
-     "ar": "دفعت خمسين ريالاً مقابل القميص."
-    },
-    {
-     "es": "Gasté mucho en las compras del mes.",
-     "en": "I spent a lot on this month's shopping.",
-     "ar": "أنفقت كثيراً على مشتريات الشهر."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "En el banco",
-   "en": "At the bank",
-   "ar": "في البنك"
+    "es": "Banco, Dinero y Pagos",
+    "en": "Banking, Money and Payments",
+    "ar": "البنوك والمال والدفع"
   },
-  "lines": [
-   {
-    "speaker": "Cajera",
-    "es": "¡Buenos días! ¿Cómo puedo ayudarle?",
-    "en": "Good morning! How can I help you?",
-    "ar": "صباح الخير! كيف يمكنني مساعدتك؟"
-   },
-   {
-    "speaker": "Víctor",
-    "es": "Quiero hacer una transferencia por la aplicación.",
-    "en": "I want to make a transfer using the app.",
-    "ar": "أريد إجراء تحويل عبر التطبيق."
-   },
-   {
-    "speaker": "Cajera",
-    "es": "Perfecto. ¿Cuál es el importe y la cuenta de destino?",
-    "en": "Perfect. What is the amount and the destination account?",
-    "ar": "ممتاز. ما المبلغ وحساب المستلم؟"
-   },
-   {
-    "speaker": "Víctor",
-    "es": "Quinientos euros. Y me gustaría saber el saldo de mi cuenta.",
-    "en": "Five hundred reais. And I would like to know the balance of my account.",
-    "ar": "خمسمئة ريال. وأودّ معرفة رصيد حسابي."
-   },
-   {
-    "speaker": "Cajera",
-    "es": "Su saldo es de mil trescientos euros.",
-    "en": "Your balance is one thousand three hundred reais.",
-    "ar": "رصيدك ألف وثلاثمئة ريال."
-   },
-   {
-    "speaker": "Víctor",
-    "es": "¡Gracias! ¿La transferencia se completará hoy?",
-    "en": "Thank you! Will the transfer be completed today?",
-    "ar": "شكراً! هل سيُكتمل التحويل اليوم؟"
-   }
+  "objectives": [
+    {
+      "es": "Usar vocabulario bancario y de pagos.",
+      "en": "Use banking and payment vocabulary.",
+      "ar": "استخدام مفردات البنوك والمدفوعات."
+    },
+    {
+      "es": "Hablar de cantidades, precios y transacciones con claridad.",
+      "en": "Talk about amounts, prices and transactions clearly.",
+      "ar": "التحدث عن المبالغ والأسعار والمعاملات بوضوح."
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el banco",
+      "ipa": "/ˈel ˈbanko/",
+      "en": "the bank",
+      "ar": "البنك",
+      "example": {
+        "es": "El banco cierra a las dos.",
+        "en": "The bank closes at two.",
+        "ar": "يغلق البنك في الثانية."
+      }
+    },
+    {
+      "es": "la cuenta",
+      "ipa": "/ˈla ˈkuenta/",
+      "en": "the account",
+      "ar": "الحساب",
+      "example": {
+        "es": "La cuenta está en cero hoy.",
+        "en": "The account is at zero today.",
+        "ar": "الحساب في الصفر اليوم."
+      }
+    },
+    {
+      "es": "la tarjeta de crédito",
+      "ipa": "/ˈla taˈɾxeta ˈde ˈkɾeðito/",
+      "en": "the credit card",
+      "ar": "بطاقة الائتمان",
+      "example": {
+        "es": "La tarjeta de crédito tiene un límite.",
+        "en": "The credit card has a limit.",
+        "ar": "لبطاقة الائتمان حد أقصى."
+      }
+    },
+    {
+      "es": "la tarjeta de débito",
+      "ipa": "/ˈla taˈɾxeta ˈde ˈdeβito/",
+      "en": "the debit card",
+      "ar": "بطاقة الخصم",
+      "example": {
+        "es": "Pago con la tarjeta de débito.",
+        "en": "I pay with the debit card.",
+        "ar": "أدفع ببطاقة الخصم."
+      }
+    },
+    {
+      "es": "la transferencia inmediata",
+      "ipa": "/ˈla tɾansfeˈɾensia inmeˈðiata/",
+      "en": "the Pix (instant payment)",
+      "ar": "بيكس (دفع فوري)",
+      "example": {
+        "es": "La transferencia inmediata llega al instante.",
+        "en": "The Pix transfer arrives instantly.",
+        "ar": "يصل التحويل الفوري في اللحظة."
+      }
+    },
+    {
+      "es": "la transferencia",
+      "ipa": "/ˈla tɾansfeˈɾensia/",
+      "en": "the transfer",
+      "ar": "التحويل",
+      "example": {
+        "es": "La transferencia bancaria salió mal.",
+        "en": "The bank transfer went wrong.",
+        "ar": "فشل التحويل البنكي."
+      }
+    },
+    {
+      "es": "el retiro",
+      "ipa": "/ˈel reˈtiɾo/",
+      "en": "the withdrawal",
+      "ar": "السحب",
+      "example": {
+        "es": "El retiro en cajero tiene comisión.",
+        "en": "The ATM withdrawal has a fee.",
+        "ar": "سحب من الصراف عليه عمولة."
+      }
+    },
+    {
+      "es": "el depósito",
+      "ipa": "/ˈel deˈposito/",
+      "en": "the deposit",
+      "ar": "الإيداع",
+      "example": {
+        "es": "El depósito se reflejó al instante.",
+        "en": "I made a deposit this morning.",
+        "ar": "أجريت إيداعًا صباح اليوم."
+      }
+    },
+    {
+      "es": "el extracto",
+      "ipa": "/ˈel eˈkstɾakto/",
+      "en": "the bank statement",
+      "ar": "كشف الحساب",
+      "example": {
+        "es": "Reviso el extracto cada mes.",
+        "en": "I check the statement every month.",
+        "ar": "أراجع كشف الحساب كل شهر."
+      }
+    },
+    {
+      "es": "el préstamo",
+      "ipa": "/ˈel ˈpɾestamo/",
+      "en": "the loan",
+      "ar": "القرض",
+      "example": {
+        "es": "El préstamo se aprobó ayer.",
+        "en": "The loan was approved yesterday.",
+        "ar": "وُافق على القرض أمس."
+      }
+    },
+    {
+      "es": "los intereses",
+      "ipa": "/ˈlos inteˈɾeses/",
+      "en": "the interest",
+      "ar": "الفائدة",
+      "example": {
+        "es": "Los intereses del préstamo son altos.",
+        "en": "The loan interest is high.",
+        "ar": "فائدة القرض مرتفعة."
+      }
+    },
+    {
+      "es": "el pago",
+      "ipa": "/ˈel ˈpaɣo/",
+      "en": "the payment",
+      "ar": "الدفع",
+      "example": {
+        "es": "El pago se debita automáticamente.",
+        "en": "The payment is debited automatically.",
+        "ar": "يُخصم الدفع تلقائيًا."
+      }
+    },
+    {
+      "es": "el saldo",
+      "ipa": "/ˈel ˈsaldo/",
+      "en": "the balance",
+      "ar": "الرصيد",
+      "example": {
+        "es": "El saldo insuficiente bloqueó el pago.",
+        "en": "My balance is not enough to travel.",
+        "ar": "رصيدي لا يكفي للسفر."
+      }
+    },
+    {
+      "es": "la moneda",
+      "ipa": "/ˈla moˈneða/",
+      "en": "the currency",
+      "ar": "العملة",
+      "example": {
+        "es": "La moneda nacional se devaluó.",
+        "en": "The national currency devalued.",
+        "ar": "انخفضت قيمة العملة الوطنية."
+      }
+    },
+    {
+      "es": "la factura",
+      "ipa": "/ˈla faˈktuɾa/",
+      "en": "the bill / invoice",
+      "ar": "الفاتورة",
+      "example": {
+        "es": "Guarda la factura del supermercado.",
+        "en": "Keep the supermarket receipt.",
+        "ar": "احتفظ بفاتورة السوبرماركت."
+      }
+    },
+    {
+      "es": "ahorrar",
+      "ipa": "/aoˈraɾ/",
+      "en": "to save money",
+      "ar": "يوفّر / يدّخر",
+      "example": {
+        "es": "Quiero ahorrar para un viaje largo.",
+        "en": "I want to save for a long trip.",
+        "ar": "أريد الادخار لرحلة طويلة."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "En el banco: peticiones y necesidades",
+        "en": "At the bank: requests and needs",
+        "ar": "في البنك: الطلبات والاحتياجات"
+      },
+      "explanation": {
+        "es": "En el banco usamos estructuras educadas: 'me gustaría', 'quiero' y 'necesito' + infinitivo, además de verbos como 'abrir', 'hacer', 'consultar' y 'transferir'.",
+        "en": "At the bank we use polite structures: 'gostaria de', 'quero' and 'preciso' + infinitive, plus verbs like 'abrir', 'fazer', 'consultar' and 'transferir'.",
+        "ar": "في البنك نستخدم تراكيب مهذبة: 'gostaria de' و'quero' و'preciso' + المصدر، بالإضافة إلى أفعال مثل 'يفتح' و'يعمل' و'يستعلم' و'يحوّل'."
+      },
+      "examples": [
+        {
+          "es": "Me gustaría abrir una cuenta corriente.",
+          "en": "I would like to open a checking account.",
+          "ar": "أودّ فتح حساب جارٍ."
+        },
+        {
+          "es": "Quiero hacer un retiro de doscientos euros.",
+          "en": "I want to make a withdrawal of two hundred reais.",
+          "ar": "أريد سحب مئتي ريال."
+        },
+        {
+          "es": "Necesito consultar mi saldo.",
+          "en": "I need to check my balance.",
+          "ar": "أحتاج إلى الاستعلام عن رصيدي."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Cantidades, precios y costos",
+        "en": "Amounts, prices and costs",
+        "ar": "المبالغ والأسعار والتكاليف"
+      },
+      "explanation": {
+        "es": "Para hablar de costos usamos 'costar', 'pagar por' y 'gastar en'. Preguntas comunes: '¿cuánto cuesta?', '¿cuánto es?', '¿cuánto debo?'.",
+        "en": "To talk about costs we use 'custar', 'pagar por' and 'gastar com'. Common questions: 'quanto custa?', 'quanto é?', 'quanto devo?'.",
+        "ar": "للحديث عن التكاليف نستخدم 'custar' (يكلف) و'pagar por' (يدفع) و'gastar com' (ينفق على). ومن الأسئلة الشائعة: 'كم التكلفة؟' و'كم المبلغ؟' و'كم يجب أن أدفع؟'."
+      },
+      "examples": [
+        {
+          "es": "¿Cuánto cuesta esa camisa?",
+          "en": "How much does this shirt cost?",
+          "ar": "كم تكلفة هذا القميص؟"
+        },
+        {
+          "es": "Pagué cincuenta euros por la camisa.",
+          "en": "I paid fifty reais for the shirt.",
+          "ar": "دفعت خمسين ريالاً مقابل القميص."
+        },
+        {
+          "es": "Gasté mucho en las compras del mes.",
+          "en": "I spent a lot on this month's shopping.",
+          "ar": "أنفقت كثيراً على مشتريات الشهر."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "En el banco",
+      "en": "At the bank",
+      "ar": "في البنك"
+    },
+    "lines": [
+      {
+        "speaker": "Cajera",
+        "es": "¡Buenos días! ¿Cómo puedo ayudarle?",
+        "en": "Good morning! How can I help you?",
+        "ar": "صباح الخير! كيف يمكنني مساعدتك؟"
+      },
+      {
+        "speaker": "Víctor",
+        "es": "Quiero hacer una transferencia por la aplicación.",
+        "en": "I want to make a transfer using the app.",
+        "ar": "أريد إجراء تحويل عبر التطبيق."
+      },
+      {
+        "speaker": "Cajera",
+        "es": "Perfecto. ¿Cuál es el importe y la cuenta de destino?",
+        "en": "Perfect. What is the amount and the destination account?",
+        "ar": "ممتاز. ما المبلغ وحساب المستلم؟"
+      },
+      {
+        "speaker": "Víctor",
+        "es": "Quinientos euros. Y me gustaría saber el saldo de mi cuenta.",
+        "en": "Five hundred reais. And I would like to know the balance of my account.",
+        "ar": "خمسمئة ريال. وأودّ معرفة رصيد حسابي."
+      },
+      {
+        "speaker": "Cajera",
+        "es": "Su saldo es de mil trescientos euros.",
+        "en": "Your balance is one thousand three hundred reais.",
+        "ar": "رصيدك ألف وثلاثمئة ريال."
+      },
+      {
+        "speaker": "Víctor",
+        "es": "¡Gracias! ¿La transferencia se completará hoy?",
+        "en": "Thank you! Will the transfer be completed today?",
+        "ar": "شكراً! هل سيُكتمل التحويل اليوم؟"
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "La transferencia inmediata",
+      "en": "Instant transfers",
+      "ar": "التحويل الفوري"
+    },
+    "text_es": "La transferencia inmediata es un sistema de pagos instantáneos. Con ella, las transferencias ocurren en segundos, a cualquier hora. Muchas personas ya la usan en lugar del dinero. Funciona mediante una clave asociada a la cuenta.",
+    "text_en": "Pix is an instant payment system created by the Brazilian central bank. With it, transfers happen in seconds, at any time. Many people already use Pix instead of cash. It works through a key associated with the account.",
+    "text_ar": "بيكس هو نظام مدفوعات فورية أنشأه البنك المركزي البرازيلي. به، تتم التحويلات في ثوانٍ وفي أي وقت. كثيرون يستخدمون بيكس بالفعل بدلاً من النقد. وهو يعمل عبر مفتاح مرتبط بالحساب."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: \"Quiero hacer un ___ de 100 €.\"",
+        "en": "Complete: \"I want to make a ___ of R$ 100.\"",
+        "ar": "أكمل: \"أريد ___ بمبلغ 100 ريال.\""
+      },
+      "options": [
+        {
+          "es": "retiro",
+          "en": "withdrawal",
+          "ar": "سحب"
+        },
+        {
+          "es": "saldo",
+          "en": "balance",
+          "ar": "رصيد"
+        },
+        {
+          "es": "moneda",
+          "en": "currency",
+          "ar": "عملة"
+        },
+        {
+          "es": "factura",
+          "en": "bill",
+          "ar": "فاتورة"
+        }
+      ],
+      "answer": "retiro",
+      "explanation": {
+        "es": "'Hacer un retiro' significa sacar dinero de la cuenta.",
+        "en": "'Fazer um saque' means to withdraw money from the account.",
+        "ar": "'fazer um saque' تعني سحب نقود من الحساب."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: \"¿Cuánto ___ esa camisa?\"",
+        "en": "Complete: \"How much ___ this shirt?\"",
+        "ar": "أكمل: \"كم ___ هذا القميص؟\""
+      },
+      "options": [
+        {
+          "es": "cuesta",
+          "en": "does it cost",
+          "ar": "تكلفة"
+        },
+        {
+          "es": "cuesto",
+          "en": "I cost",
+          "ar": "تكلفتي"
+        },
+        {
+          "es": "cuestan",
+          "en": "they cost",
+          "ar": "تكلفة (جمع)"
+        },
+        {
+          "es": "costar",
+          "en": "to cost",
+          "ar": "أن يكلف"
+        }
+      ],
+      "answer": "cuesta",
+      "explanation": {
+        "es": "Con sujeto singular ('la camisa'), usamos 'cuesta' en la tercera persona del singular.",
+        "en": "With a singular subject ('the shirt'), we use 'custa' in the third person singular.",
+        "ar": "مع الفاعل المفرد ('القميص')، نستخدم 'custa' بضمير الغائب المفرد."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Necesito pagar la factura de la tarjeta de crédito.\"",
+        "en": "Translate to Spanish: \"I need to pay the credit card bill.\"",
+        "ar": "ترجم إلى بالإسبانية: \"I need to pay the credit card bill.\""
+      },
+      "options": [],
+      "answer": "Necesito pagar la factura de la tarjeta de crédito.",
+      "explanation": {
+        "es": "'Factura' es la cuenta mensual de la tarjeta de crédito.",
+        "en": "'Fatura' is the monthly credit card bill.",
+        "ar": "'fatura' هي الفاتورة الشهرية لبطاقة الائتمان."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the interest'?",
+        "en": "Which word means 'the interest'?",
+        "ar": "أي كلمة تعني 'الفائدة'؟"
+      },
+      "options": [
+        {
+          "es": "los intereses",
+          "en": "the interest",
+          "ar": "الفائدة"
+        },
+        {
+          "es": "el saldo",
+          "en": "the balance",
+          "ar": "الرصيد"
+        },
+        {
+          "es": "ahorrar",
+          "en": "to save money",
+          "ar": "يوفّر / يدّخر"
+        },
+        {
+          "es": "la tarjeta de crédito",
+          "en": "the credit card",
+          "ar": "بطاقة الائتمان"
+        }
+      ],
+      "answer": "los intereses",
+      "explanation": {
+        "es": "'los intereses' significa 'the interest'.",
+        "en": "'los intereses' means 'the interest'.",
+        "ar": "تعني 'los intereses' 'الفائدة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the credit card'",
+        "en": "Choose the Spanish word: 'the credit card'",
+        "ar": "اختر الكلمة بالإسبانية: 'بطاقة الائتمان'"
+      },
+      "options": [
+        {
+          "es": "el préstamo",
+          "en": "the loan",
+          "ar": "القرض"
+        },
+        {
+          "es": "la transferencia inmediata",
+          "en": "the Pix (instant payment)",
+          "ar": "بيكس (دفع فوري)"
+        },
+        {
+          "es": "el banco",
+          "en": "the bank",
+          "ar": "البنك"
+        },
+        {
+          "es": "la tarjeta de crédito",
+          "en": "the credit card",
+          "ar": "بطاقة الائتمان"
+        }
+      ],
+      "answer": "la tarjeta de crédito",
+      "explanation": {
+        "es": "'la tarjeta de crédito' significa 'the credit card'.",
+        "en": "'la tarjeta de crédito' means 'the credit card'.",
+        "ar": "تعني 'la tarjeta de crédito' 'بطاقة الائتمان'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the interest' en español?",
+        "en": "How do you say 'the interest' in Spanish?",
+        "ar": "كيف تقول 'الفائدة' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "la moneda",
+          "en": "the currency",
+          "ar": "العملة"
+        },
+        {
+          "es": "los intereses",
+          "en": "the interest",
+          "ar": "الفائدة"
+        },
+        {
+          "es": "el préstamo",
+          "en": "the loan",
+          "ar": "القرض"
+        }
+      ],
+      "answer": "los intereses",
+      "explanation": {
+        "es": "'los intereses' significa 'the interest'.",
+        "en": "'los intereses' means 'the interest'.",
+        "ar": "تعني 'los intereses' 'الفائدة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the deposit'?",
+        "en": "Which word means 'the deposit'?",
+        "ar": "أي كلمة تعني 'الإيداع'؟"
+      },
+      "options": [
+        {
+          "es": "el depósito",
+          "en": "the deposit",
+          "ar": "الإيداع"
+        },
+        {
+          "es": "la moneda",
+          "en": "the currency",
+          "ar": "العملة"
+        },
+        {
+          "es": "la cuenta",
+          "en": "the account",
+          "ar": "الحساب"
+        },
+        {
+          "es": "el extracto",
+          "en": "the bank statement",
+          "ar": "كشف الحساب"
+        }
+      ],
+      "answer": "el depósito",
+      "explanation": {
+        "es": "'el depósito' significa 'the deposit'.",
+        "en": "'el depósito' means 'the deposit'.",
+        "ar": "تعني 'el depósito' 'الإيداع'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I check the statement every month.\"",
+        "en": "Translate into Spanish: \"I check the statement every month.\"",
+        "ar": "ترجم إلى الإسبانية: \"أراجع كشف الحساب كل شهر.\""
+      },
+      "options": [],
+      "answer": "Reviso el extracto cada mes.",
+      "explanation": {
+        "es": "Respuesta: \"Reviso el extracto cada mes.\".",
+        "en": "Answer: \"Reviso el extracto cada mes.\".",
+        "ar": "الإجابة: \"Reviso el extracto cada mes.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The account is at zero today.\"",
+        "en": "Translate into Spanish: \"The account is at zero today.\"",
+        "ar": "ترجم إلى الإسبانية: \"الحساب في الصفر اليوم.\""
+      },
+      "options": [],
+      "answer": "La cuenta está en cero hoy.",
+      "explanation": {
+        "es": "Respuesta: \"La cuenta está en cero hoy.\".",
+        "en": "Answer: \"La cuenta está en cero hoy.\".",
+        "ar": "الإجابة: \"La cuenta está en cero hoy.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Good morning! How can I help you?\"",
+        "en": "Translate into Spanish: \"Good morning! How can I help you?\"",
+        "ar": "ترجم إلى الإسبانية: \"صباح الخير! كيف يمكنني مساعدتك؟\""
+      },
+      "options": [],
+      "answer": "¡Buenos días! ¿Cómo puedo ayudarle?",
+      "explanation": {
+        "es": "Respuesta: \"¡Buenos días! ¿Cómo puedo ayudarle?\".",
+        "en": "Answer: \"¡Buenos días! ¿Cómo puedo ayudarle?\".",
+        "ar": "الإجابة: \"¡Buenos días! ¿Cómo puedo ayudarle?\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The credit card has a limit.\"",
+        "en": "Translate into Spanish: \"The credit card has a limit.\"",
+        "ar": "ترجم إلى الإسبانية: \"لبطاقة الائتمان حد أقصى.\""
+      },
+      "options": [],
+      "answer": "La tarjeta de crédito tiene un límite.",
+      "explanation": {
+        "es": "Respuesta: \"La tarjeta de crédito tiene un límite.\".",
+        "en": "Answer: \"La tarjeta de crédito tiene un límite.\".",
+        "ar": "الإجابة: \"La tarjeta de crédito tiene un límite.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "La transferencia inmediata",
-   "en": "Instant transfers",
-   "ar": "التحويل الفوري"
-  },
-  "text_es": "La transferencia inmediata es un sistema de pagos instantáneos. Con ella, las transferencias ocurren en segundos, a cualquier hora. Muchas personas ya la usan en lugar del dinero. Funciona mediante una clave asociada a la cuenta.",
-  "text_en": "Pix is an instant payment system created by the Brazilian central bank. With it, transfers happen in seconds, at any time. Many people already use Pix instead of cash. It works through a key associated with the account.",
-  "text_ar": "بيكس هو نظام مدفوعات فورية أنشأه البنك المركزي البرازيلي. به، تتم التحويلات في ثوانٍ وفي أي وقت. كثيرون يستخدمون بيكس بالفعل بدلاً من النقد. وهو يعمل عبر مفتاح مرتبط بالحساب."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Completa: \"Quiero hacer un ___ de 100 €.\"",
-    "en": "Complete: \"I want to make a ___ of R$ 100.\"",
-    "ar": "أكمل: \"أريد ___ بمبلغ 100 ريال.\""
-   },
-   "options": [
-    {
-     "es": "retiro",
-     "en": "withdrawal",
-     "ar": "سحب"
-    },
-    {
-     "es": "saldo",
-     "en": "balance",
-     "ar": "رصيد"
-    },
-    {
-     "es": "moneda",
-     "en": "currency",
-     "ar": "عملة"
-    },
-    {
-     "es": "factura",
-     "en": "bill",
-     "ar": "فاتورة"
-    }
-   ],
-   "answer": "retiro",
-   "explanation": {
-    "es": "'Hacer un retiro' significa sacar dinero de la cuenta.",
-    "en": "'Fazer um saque' means to withdraw money from the account.",
-    "ar": "'fazer um saque' تعني سحب نقود من الحساب."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Completa: \"¿Cuánto ___ esa camisa?\"",
-    "en": "Complete: \"How much ___ this shirt?\"",
-    "ar": "أكمل: \"كم ___ هذا القميص؟\""
-   },
-   "options": [
-    {
-     "es": "cuesta",
-     "en": "does it cost",
-     "ar": "تكلفة"
-    },
-    {
-     "es": "cuesto",
-     "en": "I cost",
-     "ar": "تكلفتي"
-    },
-    {
-     "es": "cuestan",
-     "en": "they cost",
-     "ar": "تكلفة (جمع)"
-    },
-    {
-     "es": "costar",
-     "en": "to cost",
-     "ar": "أن يكلف"
-    }
-   ],
-   "answer": "cuesta",
-   "explanation": {
-    "es": "Con sujeto singular ('la camisa'), usamos 'cuesta' en la tercera persona del singular.",
-    "en": "With a singular subject ('the shirt'), we use 'custa' in the third person singular.",
-    "ar": "مع الفاعل المفرد ('القميص')، نستخدم 'custa' بضمير الغائب المفرد."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce al español: \"Necesito pagar la factura de la tarjeta de crédito.\"",
-    "en": "Translate to Portuguese: \"I need to pay the credit card bill.\"",
-    "ar": "ترجم إلى البرتغالية: \"I need to pay the credit card bill.\""
-   },
-   "options": [],
-   "answer": "Necesito pagar la factura de la tarjeta de crédito.",
-   "explanation": {
-    "es": "'Factura' es la cuenta mensual de la tarjeta de crédito.",
-    "en": "'Fatura' is the monthly credit card bill.",
-    "ar": "'fatura' هي الفاتورة الشهرية لبطاقة الائتمان."
-   }
-  }
- ]
 }

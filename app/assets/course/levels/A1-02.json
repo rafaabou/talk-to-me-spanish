@@ -1,329 +1,611 @@
 {
- "id": "A1-02",
- "level": "A1",
- "level_name": {
-  "es": "Principiante",
-  "en": "Beginner",
-  "ar": "مبتدئ"
- },
- "title": {
-  "es": "Saludos y Presentaciones",
-  "en": "Greetings and Introductions",
-  "ar": "التحيات والتعارف"
- },
- "objectives": [
-  {
-   "es": "Saludar en situaciones formales e informales",
-   "en": "Greet in formal and informal situations",
-   "ar": "التحية في المواقف الرسمية وغير الرسمية"
+  "id": "A1-02",
+  "level": "A1",
+  "level_name": {
+    "es": "Principiante",
+    "en": "Beginner",
+    "ar": "مبتدئ"
   },
-  {
-   "es": "Presentarse y preguntar el nombre",
-   "en": "Introduce yourself and ask someone's name",
-   "ar": "التعريف بنفسك والسؤال عن الاسم"
-  },
-  {
-   "es": "Usar expresiones de cortesía",
-   "en": "Use courtesy expressions",
-   "ar": "استخدام عبارات المجاملة"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "hola",
-   "ipa": "/ˈola/",
-   "en": "hello",
-   "ar": "مرحبًا"
-  },
-  {
-   "es": "buenos días",
-   "ipa": "/ˈbuenos ˈdias/",
-   "en": "good morning",
-   "ar": "صباح الخير"
-  },
-  {
-   "es": "buenas tardes",
-   "ipa": "/ˈbuenas ˈtaɾdes/",
-   "en": "good afternoon",
-   "ar": "مساء الخير"
-  },
-  {
-   "es": "buenas noches",
-   "ipa": "/ˈbuenas ˈnotʃes/",
-   "en": "good night",
-   "ar": "ليلة سعيدة"
-  },
-  {
-   "es": "chao",
-   "ipa": "/ˈtʃao/",
-   "en": "bye",
-   "ar": "وداعًا"
-  },
-  {
-   "es": "hasta luego",
-   "ipa": "/ˈasta ˈlueɣo/",
-   "en": "see you later",
-   "ar": "أراك لاحقًا"
-  },
-  {
-   "es": "mucho gusto",
-   "ipa": "/ˈmutʃo ˈgusto/",
-   "en": "nice to meet you",
-   "ar": "سررت بلقائك"
-  },
-  {
-   "es": "mi nombre es",
-   "ipa": "/ˈmi ˈnombɾe ˈes/",
-   "en": "my name is",
-   "ar": "اسمي هو"
-  },
-  {
-   "es": "yo soy",
-   "ipa": "/ˈʝo ˈsoʝ/",
-   "en": "I am",
-   "ar": "أنا"
-  },
-  {
-   "es": "¿cómo estás?",
-   "ipa": "/ˈkomo eˈstas/",
-   "en": "how are you?",
-   "ar": "كيف حالك؟"
-  },
-  {
-   "es": "¿todo bien?",
-   "ipa": "/ˈtoðo ˈbien/",
-   "en": "everything ok?",
-   "ar": "كل شيء بخير؟"
-  },
-  {
-   "es": "gracias",
-   "ipa": "/ˈgɾasias/",
-   "en": "thank you (m)",
-   "ar": "شكرًا"
-  },
-  {
-   "es": "gracias",
-   "ipa": "/ˈgɾasias/",
-   "en": "thank you (f)",
-   "ar": "شكرًا"
-  },
-  {
-   "es": "de nada",
-   "ipa": "/ˈde ˈnaða/",
-   "en": "you're welcome",
-   "ar": "عفوًا"
-  },
-  {
-   "es": "por favor",
-   "ipa": "/ˈpoɾ faˈβoɾ/",
-   "en": "please",
-   "ar": "من فضلك"
-  },
-  {
-   "es": "perdón",
-   "ipa": "/peˈɾdon/",
-   "en": "sorry",
-   "ar": "آسف"
-  },
-  {
-   "es": "hasta mañana",
-   "ipa": "/ˈasta maˈɲana/",
-   "en": "see you tomorrow",
-   "ar": "أراك غدًا"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Formal e Informal",
-    "en": "Formal and Informal",
-    "ar": "رسمي وغير رسمي"
-   },
-   "explanation": {
-    "es": "En español, 'tú' es la forma común de tratamiento. En algunas regiones se usa 'vos'. El tratamiento formal usa 'usted'. Los saludos también varían: 'hola' (informal), 'buenos días' (cortés), 'qué tal' (neutro).",
-    "en": "In Spanish, 'tú' is the common form of address. In some regions 'vos' is used. Formal address uses 'usted'. Greetings also vary: 'hola' (informal), 'buenos días' (polite), 'qué tal' (neutral).",
-    "ar": "في الإسبانية، 'tú' هي صيغة الخطاب الشائعة. وفي بعض المناطق تُستخدم 'vos'. أما الخطاب الرسمي فيستخدم 'usted'. وتختلف التحيات أيضًا: 'hola' (غير رسمية)، 'buenos días' (مهذبة)، 'qué tal' (محايدة)."
-   },
-   "examples": [
-    {
-     "es": "Hola, ¿todo bien? (informal)",
-     "en": "Hi, how's it going? (informal)",
-     "ar": "مرحبًا، كيف الحال؟ (غير رسمي)"
-    },
-    {
-     "es": "Buenos días, señor Silva. (formal)",
-     "en": "Good morning, Mr. Silva. (formal)",
-     "ar": "صباح الخير، سيد سيلفا. (رسمي)"
-    },
-    {
-     "es": "Gracias, de nada. (femenino)",
-     "en": "Thank you, you're welcome. (feminine)",
-     "ar": "شكرًا، عفوًا. (مؤنث)"
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Presentándose",
-    "en": "Introducing Yourself",
-    "ar": "تقديم نفسك"
-   },
-   "explanation": {
-    "es": "Para presentarse: 'Me llamo...' o 'Mi nombre es...'. Después: 'Mucho gusto' (nice to meet you). Para preguntar: '¿Cómo te llamas?'",
-    "en": "To introduce yourself: 'Me llamo...' (My name is...) or 'Mi nombre es...'. Then: 'Mucho gusto' (Nice to meet you). To ask: '¿Cómo te llamas?'",
-    "ar": "لتقديم نفسك: 'Me llamo...' أو 'Mi nombre es...'. ثم: 'Mucho gusto' (سررت بلقائك). للسؤال: '¿Cómo te llamas؟'"
-   },
-   "examples": [
-    {
-     "es": "Mi nombre es Ana.",
-     "en": "My name is Ana.",
-     "ar": "اسمي آنا."
-    },
-    {
-     "es": "¡Mucho gusto! Me llamo Carlos.",
-     "en": "Nice to meet you! My name is Carlos.",
-     "ar": "سررت بلقائك! اسمي كارلوس."
-    },
-    {
-     "es": "¿Cuál es tu nombre?",
-     "en": "What's your name?",
-     "ar": "ما اسمك؟"
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "Conociendo a Alguien",
-   "en": "Meeting Someone",
-   "ar": "التعرف على شخص"
+    "es": "Saludos y Presentaciones",
+    "en": "Greetings and Introductions",
+    "ar": "التحيات والتعارف"
   },
-  "lines": [
-   {
-    "speaker": "Ana",
-    "es": "¡Hola! Mi nombre es Ana. ¿Y tú?",
-    "en": "Hello! My name is Ana. And you?",
-    "ar": "مرحبًا! اسمي آنا. وأنت؟"
-   },
-   {
-    "speaker": "Pedro",
-    "es": "¡Hola, Ana! Yo soy Pedro. Mucho gusto.",
-    "en": "Hi, Ana! I'm Pedro. Nice to meet you.",
-    "ar": "مرحبًا آنا! أنا بيدرو. سررت بلقائك."
-   },
-   {
-    "speaker": "Ana",
-    "es": "El gusto es mío. ¿Cómo estás?",
-    "en": "The pleasure is mine. How are you?",
-    "ar": "بسرور. كيف حالك؟"
-   },
-   {
-    "speaker": "Pedro",
-    "es": "¡Todo bien, gracias! ¿Y tú?",
-    "en": "I'm fine, thanks! And you?",
-    "ar": "أنا بخير، شكرًا! وأنت؟"
-   },
-   {
-    "speaker": "Ana",
-    "es": "¡Todo genial. Hasta luego, Pedro!",
-    "en": "Everything great. See you later, Pedro!",
-    "ar": "كل شيء رائع. أراك لاحقًا يا بيدرو!"
-   },
-   {
-    "speaker": "Pedro",
-    "es": "¡Chao, Ana! Hasta mañana.",
-    "en": "Bye, Ana! See you tomorrow.",
-    "ar": "وداعًا آنا! أراك غدًا."
-   }
+  "objectives": [
+    {
+      "es": "Saludar en situaciones formales e informales",
+      "en": "Greet in formal and informal situations",
+      "ar": "التحية في المواقف الرسمية وغير الرسمية"
+    },
+    {
+      "es": "Presentarse y preguntar el nombre",
+      "en": "Introduce yourself and ask someone's name",
+      "ar": "التعريف بنفسك والسؤال عن الاسم"
+    },
+    {
+      "es": "Usar expresiones de cortesía",
+      "en": "Use courtesy expressions",
+      "ar": "استخدام عبارات المجاملة"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "hola",
+      "ipa": "/ˈola/",
+      "en": "hello",
+      "ar": "مرحبًا",
+      "example": {
+        "es": "Hola, ¿qué tal?",
+        "en": "Hi, how's it going?",
+        "ar": "أهلًا، كيف حالك؟"
+      }
+    },
+    {
+      "es": "buenos días",
+      "ipa": "/ˈbuenos ˈdias/",
+      "en": "good morning",
+      "ar": "صباح الخير",
+      "example": {
+        "es": "¡Buenos días a todos!",
+        "en": "Good morning everyone!",
+        "ar": "صباح الخير للجميع!"
+      }
+    },
+    {
+      "es": "buenas tardes",
+      "ipa": "/ˈbuenas ˈtaɾdes/",
+      "en": "good afternoon",
+      "ar": "مساء الخير",
+      "example": {
+        "es": "Buenas tardes, profesor.",
+        "en": "Good afternoon, teacher.",
+        "ar": "مساء الخير يا أستاذ."
+      }
+    },
+    {
+      "es": "buenas noches",
+      "ipa": "/ˈbuenas ˈnotʃes/",
+      "en": "good night",
+      "ar": "ليلة سعيدة",
+      "example": {
+        "es": "Les deseo buenas noches.",
+        "en": "I wish you all a good night.",
+        "ar": "أتمنى لكم ليلة سعيدة."
+      }
+    },
+    {
+      "es": "chao",
+      "ipa": "/ˈtʃao/",
+      "en": "bye",
+      "ar": "وداعًا",
+      "example": {
+        "es": "Chao, nos vemos.",
+        "en": "Bye, see you.",
+        "ar": "وداعًا، أراك."
+      }
+    },
+    {
+      "es": "hasta luego",
+      "ipa": "/ˈasta ˈlueɣo/",
+      "en": "see you later",
+      "ar": "أراك لاحقًا",
+      "example": {
+        "es": "Hasta luego, amigos.",
+        "en": "See you later, friends.",
+        "ar": "أراك لاحقًا يا أصدقاء."
+      }
+    },
+    {
+      "es": "mucho gusto",
+      "ipa": "/ˈmutʃo ˈgusto/",
+      "en": "nice to meet you",
+      "ar": "سررت بلقائك",
+      "example": {
+        "es": "Mucho gusto en conocerle.",
+        "en": "Nice to meet you.",
+        "ar": "سررت بلقائك."
+      }
+    },
+    {
+      "es": "mi nombre es",
+      "ipa": "/ˈmi ˈnombɾe ˈes/",
+      "en": "my name is",
+      "ar": "اسمي هو",
+      "example": {
+        "es": "Mi nombre es Ana.",
+        "en": "My name is Ana.",
+        "ar": "اسمي أنا."
+      }
+    },
+    {
+      "es": "yo soy",
+      "ipa": "/ˈʝo ˈsoʝ/",
+      "en": "I am",
+      "ar": "أنا",
+      "example": {
+        "es": "Yo soy estudiante.",
+        "en": "I am a student.",
+        "ar": "أنا طالب."
+      }
+    },
+    {
+      "es": "¿cómo estás?",
+      "ipa": "/ˈkomo eˈstas/",
+      "en": "how are you?",
+      "ar": "كيف حالك؟",
+      "example": {
+        "es": "Hola, ¿cómo estás?",
+        "en": "Hello, how are you?",
+        "ar": "مرحبًا، كيف حالك؟"
+      }
+    },
+    {
+      "es": "¿todo bien?",
+      "ipa": "/ˈtoðo ˈbien/",
+      "en": "everything ok?",
+      "ar": "كل شيء بخير؟",
+      "example": {
+        "es": "¿Todo bien? Genial.",
+        "en": "Everything OK? Great.",
+        "ar": "كل شيء بخير؟ رائع."
+      }
+    },
+    {
+      "es": "gracias",
+      "ipa": "/ˈgɾasias/",
+      "en": "thank you (m)",
+      "ar": "شكرًا",
+      "example": {
+        "es": "Muchas gracias por todo.",
+        "en": "Thank you very much for everything.",
+        "ar": "شكرًا جزيلًا على كل شيء."
+      }
+    },
+    {
+      "es": "gracias",
+      "ipa": "/ˈgɾasias/",
+      "en": "thank you (f)",
+      "ar": "شكرًا",
+      "example": {
+        "es": "Gracias, fue un placer.",
+        "en": "Thank you, it was a pleasure.",
+        "ar": "شكرًا، كانت لحظة سعيدة."
+      }
+    },
+    {
+      "es": "de nada",
+      "ipa": "/ˈde ˈnaða/",
+      "en": "you're welcome",
+      "ar": "عفوًا",
+      "example": {
+        "es": "De nada, estoy aquí para eso.",
+        "en": "You're welcome, I'm here for that.",
+        "ar": "على الرحب، أنا من أجل هذا."
+      }
+    },
+    {
+      "es": "por favor",
+      "ipa": "/ˈpoɾ faˈβoɾ/",
+      "en": "please",
+      "ar": "من فضلك",
+      "example": {
+        "es": "Agua, por favor.",
+        "en": "Water, please.",
+        "ar": "ماء، من فضلك."
+      }
+    },
+    {
+      "es": "perdón",
+      "ipa": "/peˈɾdon/",
+      "en": "sorry",
+      "ar": "آسف",
+      "example": {
+        "es": "Perdón, llego tarde.",
+        "en": "Sorry, I'm arriving late.",
+        "ar": "آسف، سأصل متأخرًا."
+      }
+    },
+    {
+      "es": "hasta mañana",
+      "ipa": "/ˈasta maˈɲana/",
+      "en": "see you tomorrow",
+      "ar": "أراك غدًا",
+      "example": {
+        "es": "Entonces, hasta mañana.",
+        "en": "Then, see you tomorrow.",
+        "ar": "إذًا، أراك غدًا."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Formal e Informal",
+        "en": "Formal and Informal",
+        "ar": "رسمي وغير رسمي"
+      },
+      "explanation": {
+        "es": "En español, 'tú' es la forma común de tratamiento. En algunas regiones se usa 'vos'. El tratamiento formal usa 'usted'. Los saludos también varían: 'hola' (informal), 'buenos días' (cortés), 'qué tal' (neutro).",
+        "en": "In Spanish, 'tú' is the common form of address. In some regions 'vos' is used. Formal address uses 'usted'. Greetings also vary: 'hola' (informal), 'buenos días' (polite), 'qué tal' (neutral).",
+        "ar": "في الإسبانية، 'tú' هي صيغة الخطاب الشائعة. وفي بعض المناطق تُستخدم 'vos'. أما الخطاب الرسمي فيستخدم 'usted'. وتختلف التحيات أيضًا: 'hola' (غير رسمية)، 'buenos días' (مهذبة)، 'qué tal' (محايدة)."
+      },
+      "examples": [
+        {
+          "es": "Hola, ¿todo bien? (informal)",
+          "en": "Hi, how's it going? (informal)",
+          "ar": "مرحبًا، كيف الحال؟ (غير رسمي)"
+        },
+        {
+          "es": "Buenos días, señor Silva. (formal)",
+          "en": "Good morning, Mr. Silva. (formal)",
+          "ar": "صباح الخير، سيد سيلفا. (رسمي)"
+        },
+        {
+          "es": "Gracias, de nada. (femenino)",
+          "en": "Thank you, you're welcome. (feminine)",
+          "ar": "شكرًا، عفوًا. (مؤنث)"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Presentándose",
+        "en": "Introducing Yourself",
+        "ar": "تقديم نفسك"
+      },
+      "explanation": {
+        "es": "Para presentarse: 'Me llamo...' o 'Mi nombre es...'. Después: 'Mucho gusto' (nice to meet you). Para preguntar: '¿Cómo te llamas?'",
+        "en": "To introduce yourself: 'Me llamo...' (My name is...) or 'Mi nombre es...'. Then: 'Mucho gusto' (Nice to meet you). To ask: '¿Cómo te llamas?'",
+        "ar": "لتقديم نفسك: 'Me llamo...' أو 'Mi nombre es...'. ثم: 'Mucho gusto' (سررت بلقائك). للسؤال: '¿Cómo te llamas؟'"
+      },
+      "examples": [
+        {
+          "es": "Mi nombre es Ana.",
+          "en": "My name is Ana.",
+          "ar": "اسمي آنا."
+        },
+        {
+          "es": "¡Mucho gusto! Me llamo Carlos.",
+          "en": "Nice to meet you! My name is Carlos.",
+          "ar": "سررت بلقائك! اسمي كارلوس."
+        },
+        {
+          "es": "¿Cuál es tu nombre?",
+          "en": "What's your name?",
+          "ar": "ما اسمك؟"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Conociendo a Alguien",
+      "en": "Meeting Someone",
+      "ar": "التعرف على شخص"
+    },
+    "lines": [
+      {
+        "speaker": "Ana",
+        "es": "¡Hola! Mi nombre es Ana. ¿Y tú?",
+        "en": "Hello! My name is Ana. And you?",
+        "ar": "مرحبًا! اسمي آنا. وأنت؟"
+      },
+      {
+        "speaker": "Pedro",
+        "es": "¡Hola, Ana! Yo soy Pedro. Mucho gusto.",
+        "en": "Hi, Ana! I'm Pedro. Nice to meet you.",
+        "ar": "مرحبًا آنا! أنا بيدرو. سررت بلقائك."
+      },
+      {
+        "speaker": "Ana",
+        "es": "El gusto es mío. ¿Cómo estás?",
+        "en": "The pleasure is mine. How are you?",
+        "ar": "بسرور. كيف حالك؟"
+      },
+      {
+        "speaker": "Pedro",
+        "es": "¡Todo bien, gracias! ¿Y tú?",
+        "en": "I'm fine, thanks! And you?",
+        "ar": "أنا بخير، شكرًا! وأنت؟"
+      },
+      {
+        "speaker": "Ana",
+        "es": "¡Todo genial. Hasta luego, Pedro!",
+        "en": "Everything great. See you later, Pedro!",
+        "ar": "كل شيء رائع. أراك لاحقًا يا بيدرو!"
+      },
+      {
+        "speaker": "Pedro",
+        "es": "¡Chao, Ana! Hasta mañana.",
+        "en": "Bye, Ana! See you tomorrow.",
+        "ar": "وداعًا آنا! أراك غدًا."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Saludos en Español",
+      "en": "Greetings in Spanish",
+      "ar": "التحيات في الإسبانية"
+    },
+    "text_es": "En Latinoamérica, las personas se saludan con un beso o un apretón de manos. 'Hola' es un saludo común. Por la mañana decimos 'buenos días'. Por la tarde, 'buenas tardes'. Por la noche, 'buenas noches'. Cuando llegamos preguntamos '¿todo bien?'.",
+    "text_en": "In Latin America, people greet each other with a kiss or a handshake. 'Hola' is a common greeting. In the morning we say 'buenos días'. In the afternoon, 'buenas tardes'. At night, 'buenas noches'. When we arrive we ask '¿todo bien?'.",
+    "text_ar": "في أمريكا اللاتينية، يتحيي الناس بقبلة أو مصافحة. 'Hola' تحية شائعة. في الصباح نقول 'buenos días'. وبعد الظهر 'buenas tardes'. وفي الليل 'buenas noches'. وعند اللقاء نسأل '¿todo bien؟'."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué dices por la mañana?",
+        "en": "What do you say in the morning?",
+        "ar": "ماذا تقول في الصباح؟"
+      },
+      "options": [
+        {
+          "es": "buenos días",
+          "en": "good morning",
+          "ar": "صباح الخير"
+        },
+        {
+          "es": "buenas noches",
+          "en": "good night",
+          "ar": "مساء الخير"
+        },
+        {
+          "es": "chao",
+          "en": "bye",
+          "ar": "وداعًا"
+        }
+      ],
+      "answer": "buenos días",
+      "explanation": {
+        "es": "Por la mañana decimos 'buenos días'.",
+        "en": "In the morning we say 'buenos días'.",
+        "ar": "في الصباح نقول 'buenos días'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué expresión es formal?",
+        "en": "Which expression is formal?",
+        "ar": "أي عبارة رسمية؟"
+      },
+      "options": [
+        {
+          "es": "hola",
+          "en": "hi",
+          "ar": "مرحبًا"
+        },
+        {
+          "es": "¿y qué?",
+          "en": "and so what?",
+          "ar": "وماذا بعد؟"
+        },
+        {
+          "es": "buenos días, señor",
+          "en": "good morning, sir",
+          "ar": "صباح الخير يا سيدي"
+        }
+      ],
+      "answer": "buenos días, señor",
+      "explanation": {
+        "es": "'Buenos días, señor' es formal.",
+        "en": "'Buenos días, señor' is formal.",
+        "ar": "'buenos días, señor' عبارة رسمية."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'my name is'",
+        "en": "Translate: 'my name is'",
+        "ar": "ترجم: 'my name is'"
+      },
+      "options": [],
+      "answer": "mi nombre es",
+      "explanation": {
+        "es": "'Mi nombre es' significa 'my name is'.",
+        "en": "'Mi nombre es' means 'my name is'.",
+        "ar": "'Mi nombre es' تعني 'اسمي هو'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'good night'?",
+        "en": "Which word means 'good night'?",
+        "ar": "أي كلمة تعني 'ليلة سعيدة'؟"
+      },
+      "options": [
+        {
+          "es": "buenas noches",
+          "en": "good night",
+          "ar": "ليلة سعيدة"
+        },
+        {
+          "es": "buenas tardes",
+          "en": "good afternoon",
+          "ar": "مساء الخير"
+        },
+        {
+          "es": "gracias",
+          "en": "thank you (f)",
+          "ar": "شكرًا"
+        }
+      ],
+      "answer": "buenas noches",
+      "explanation": {
+        "es": "'buenas noches' significa 'good night'.",
+        "en": "'buenas noches' means 'good night'.",
+        "ar": "تعني 'buenas noches' 'ليلة سعيدة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'thank you (f)'",
+        "en": "Choose the Spanish word: 'thank you (f)'",
+        "ar": "اختر الكلمة بالإسبانية: 'شكرًا'"
+      },
+      "options": [
+        {
+          "es": "gracias",
+          "en": "thank you (f)",
+          "ar": "شكرًا"
+        },
+        {
+          "es": "de nada",
+          "en": "you're welcome",
+          "ar": "عفوًا"
+        },
+        {
+          "es": "hasta mañana",
+          "en": "see you tomorrow",
+          "ar": "أراك غدًا"
+        }
+      ],
+      "answer": "gracias",
+      "explanation": {
+        "es": "'gracias' significa 'thank you (f)'.",
+        "en": "'gracias' means 'thank you (f)'.",
+        "ar": "تعني 'gracias' 'شكرًا'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'my name is' en español?",
+        "en": "How do you say 'my name is' in Spanish?",
+        "ar": "كيف تقول 'اسمي هو' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "mucho gusto",
+          "en": "nice to meet you",
+          "ar": "سررت بلقائك"
+        },
+        {
+          "es": "mi nombre es",
+          "en": "my name is",
+          "ar": "اسمي هو"
+        },
+        {
+          "es": "gracias",
+          "en": "thank you (m)",
+          "ar": "شكرًا"
+        }
+      ],
+      "answer": "mi nombre es",
+      "explanation": {
+        "es": "'mi nombre es' significa 'my name is'.",
+        "en": "'mi nombre es' means 'my name is'.",
+        "ar": "تعني 'mi nombre es' 'اسمي هو'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'good morning'?",
+        "en": "Which word means 'good morning'?",
+        "ar": "أي كلمة تعني 'صباح الخير'؟"
+      },
+      "options": [
+        {
+          "es": "buenos días",
+          "en": "good morning",
+          "ar": "صباح الخير"
+        },
+        {
+          "es": "buenas tardes",
+          "en": "good afternoon",
+          "ar": "مساء الخير"
+        },
+        {
+          "es": "hola",
+          "en": "hello",
+          "ar": "مرحبًا"
+        },
+        {
+          "es": "hasta mañana",
+          "en": "see you tomorrow",
+          "ar": "أراك غدًا"
+        }
+      ],
+      "answer": "buenos días",
+      "explanation": {
+        "es": "'buenos días' significa 'good morning'.",
+        "en": "'buenos días' means 'good morning'.",
+        "ar": "تعني 'buenos días' 'صباح الخير'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I wish you all a good night.\"",
+        "en": "Translate into Spanish: \"I wish you all a good night.\"",
+        "ar": "ترجم إلى الإسبانية: \"أتمنى لكم ليلة سعيدة.\""
+      },
+      "options": [],
+      "answer": "Les deseo buenas noches.",
+      "explanation": {
+        "es": "Respuesta: \"Les deseo buenas noches.\".",
+        "en": "Answer: \"Les deseo buenas noches.\".",
+        "ar": "الإجابة: \"Les deseo buenas noches.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Thank you, it was a pleasure.\"",
+        "en": "Translate into Spanish: \"Thank you, it was a pleasure.\"",
+        "ar": "ترجم إلى الإسبانية: \"شكرًا، كانت لحظة سعيدة.\""
+      },
+      "options": [],
+      "answer": "Gracias, fue un placer.",
+      "explanation": {
+        "es": "Respuesta: \"Gracias, fue un placer.\".",
+        "en": "Answer: \"Gracias, fue un placer.\".",
+        "ar": "الإجابة: \"Gracias, fue un placer.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Hello, how are you?\"",
+        "en": "Translate into Spanish: \"Hello, how are you?\"",
+        "ar": "ترجم إلى الإسبانية: \"مرحبًا، كيف حالك؟\""
+      },
+      "options": [],
+      "answer": "Hola, ¿cómo estás?",
+      "explanation": {
+        "es": "Respuesta: \"Hola, ¿cómo estás?\".",
+        "en": "Answer: \"Hola, ¿cómo estás?\".",
+        "ar": "الإجابة: \"Hola, ¿cómo estás?\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Good afternoon, teacher.\"",
+        "en": "Translate into Spanish: \"Good afternoon, teacher.\"",
+        "ar": "ترجم إلى الإسبانية: \"مساء الخير يا أستاذ.\""
+      },
+      "options": [],
+      "answer": "Buenas tardes, profesor.",
+      "explanation": {
+        "es": "Respuesta: \"Buenas tardes, profesor.\".",
+        "en": "Answer: \"Buenas tardes, profesor.\".",
+        "ar": "الإجابة: \"Buenas tardes, profesor.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "Saludos en Español",
-   "en": "Greetings in Spanish",
-   "ar": "التحيات في الإسبانية"
-  },
-  "text_es": "En Latinoamérica, las personas se saludan con un beso o un apretón de manos. 'Hola' es un saludo común. Por la mañana decimos 'buenos días'. Por la tarde, 'buenas tardes'. Por la noche, 'buenas noches'. Cuando llegamos preguntamos '¿todo bien?'.",
-  "text_en": "In Latin America, people greet each other with a kiss or a handshake. 'Hola' is a common greeting. In the morning we say 'buenos días'. In the afternoon, 'buenas tardes'. At night, 'buenas noches'. When we arrive we ask '¿todo bien?'.",
-  "text_ar": "في أمريكا اللاتينية، يتحيي الناس بقبلة أو مصافحة. 'Hola' تحية شائعة. في الصباح نقول 'buenos días'. وبعد الظهر 'buenas tardes'. وفي الليل 'buenas noches'. وعند اللقاء نسأل '¿todo bien؟'."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Qué dices por la mañana?",
-    "en": "What do you say in the morning?",
-    "ar": "ماذا تقول في الصباح؟"
-   },
-   "options": [
-    {
-     "es": "buenos días",
-     "en": "good morning",
-     "ar": "صباح الخير"
-    },
-    {
-     "es": "buenas noches",
-     "en": "good night",
-     "ar": "مساء الخير"
-    },
-    {
-     "es": "chao",
-     "en": "bye",
-     "ar": "وداعًا"
-    }
-   ],
-   "answer": "buenos días",
-   "explanation": {
-    "es": "Por la mañana decimos 'buenos días'.",
-    "en": "In the morning we say 'buenos días'.",
-    "ar": "في الصباح نقول 'buenos días'."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Qué expresión es formal?",
-    "en": "Which expression is formal?",
-    "ar": "أي عبارة رسمية؟"
-   },
-   "options": [
-    {
-     "es": "hola",
-     "en": "hi",
-     "ar": "مرحبًا"
-    },
-    {
-     "es": "¿y qué?",
-     "en": "and so what?",
-     "ar": "وماذا بعد؟"
-    },
-    {
-     "es": "buenos días, señor",
-     "en": "good morning, sir",
-     "ar": "صباح الخير يا سيدي"
-    }
-   ],
-   "answer": "buenos días, señor",
-   "explanation": {
-    "es": "'Buenos días, señor' es formal.",
-    "en": "'Buenos días, señor' is formal.",
-    "ar": "'buenos días, señor' عبارة رسمية."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'my name is'",
-    "en": "Translate: 'my name is'",
-    "ar": "ترجم: 'my name is'"
-   },
-   "options": [],
-   "answer": "mi nombre es",
-   "explanation": {
-    "es": "'Mi nombre es' significa 'my name is'.",
-    "en": "'Mi nombre es' means 'my name is'.",
-    "ar": "'Mi nombre es' تعني 'اسمي هو'."
-   }
-  }
- ]
 }

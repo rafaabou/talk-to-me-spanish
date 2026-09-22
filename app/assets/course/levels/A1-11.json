@@ -33,97 +33,177 @@
       "es": "la hora",
       "ipa": "/ˈla ˈoɾa/",
       "en": "the hour",
-      "ar": "الساعة"
+      "ar": "الساعة",
+      "example": {
+        "es": "Es la hora de comer.",
+        "en": "It's time to eat.",
+        "ar": "حان وقت الأكل."
+      }
     },
     {
       "es": "el reloj",
       "ipa": "/ˈel reˈlox/",
       "en": "the clock",
-      "ar": "الساعة"
+      "ar": "الساعة",
+      "example": {
+        "es": "El reloj está en la pared.",
+        "en": "The clock is on the wall.",
+        "ar": "الساعة على الجدار."
+      }
     },
     {
       "es": "¿qué hora es?",
       "ipa": "/ˈke ˈoɾa ˈes/",
       "en": "what time is it?",
-      "ar": "كم الساعة؟"
+      "ar": "كم الساعة؟",
+      "example": {
+        "es": "Disculpa, ¿qué hora es?",
+        "en": "Excuse me, what time is it?",
+        "ar": "عذرًا، كم الساعة؟"
+      }
     },
     {
       "es": "es la una",
       "ipa": "/ˈes ˈla ˈuna/",
       "en": "it's one o'clock",
-      "ar": "الساعة الواحدة"
+      "ar": "الساعة الواحدة",
+      "example": {
+        "es": "Ahora es la una y media.",
+        "en": "Now it's one thirty.",
+        "ar": "الآن الساعة الواحدة والنصف."
+      }
     },
     {
       "es": "son las dos",
       "ipa": "/ˈson ˈlas ˈdos/",
       "en": "it's two o'clock",
-      "ar": "الساعة الثانية"
+      "ar": "الساعة الثانية",
+      "example": {
+        "es": "Son las dos de la tarde.",
+        "en": "It's two in the afternoon.",
+        "ar": "الثانية ظهرًا."
+      }
     },
     {
       "es": "por la mañana",
       "ipa": "/ˈpoɾ ˈla maˈɲana/",
       "en": "in the morning",
-      "ar": "في الصباح"
+      "ar": "في الصباح",
+      "example": {
+        "es": "Corro por la mañana.",
+        "en": "I run in the morning.",
+        "ar": "أركض في الصباح."
+      }
     },
     {
       "es": "por la tarde",
       "ipa": "/ˈpoɾ ˈla ˈtaɾde/",
       "en": "in the afternoon",
-      "ar": "في الظهيرة"
+      "ar": "في الظهيرة",
+      "example": {
+        "es": "Estudio por la tarde.",
+        "en": "I study in the afternoon.",
+        "ar": "أدرس في الظهيرة."
+      }
     },
     {
       "es": "por la noche",
       "ipa": "/ˈpoɾ ˈla ˈnotʃe/",
       "en": "at night",
-      "ar": "في الليل"
+      "ar": "في الليل",
+      "example": {
+        "es": "Leo por la noche.",
+        "en": "I read at night.",
+        "ar": "أقرأ في الليل."
+      }
     },
     {
       "es": "despertarse",
       "ipa": "/despeˈɾtaɾse/",
       "en": "to wake up",
-      "ar": "يستيقظ"
+      "ar": "يستيقظ",
+      "example": {
+        "es": "Es bueno despertarse temprano.",
+        "en": "It's good to wake up early.",
+        "ar": "من الجيد الاستيقاظ مبكرًا."
+      }
     },
     {
       "es": "levantarse",
       "ipa": "/leβaˈntaɾse/",
       "en": "to get up",
-      "ar": "يقوم"
+      "ar": "يقوم",
+      "example": {
+        "es": "Toca levantarse ahora.",
+        "en": "It's time to get up now.",
+        "ar": "حان وقت القيام الآن."
+      }
     },
     {
       "es": "ducharse",
       "ipa": "/duˈtʃaɾse/",
       "en": "to shower",
-      "ar": "يستحم"
+      "ar": "يستحم",
+      "example": {
+        "es": "Es momento de ducharse.",
+        "en": "It's time to take a shower.",
+        "ar": "حان وقت الاستحمام."
+      }
     },
     {
       "es": "desayunar",
       "ipa": "/desaʝuˈnaɾ/",
       "en": "to have breakfast",
-      "ar": "يتناول الفطور"
+      "ar": "يتناول الفطور",
+      "example": {
+        "es": "Vamos a desayunar ahora.",
+        "en": "Let's have breakfast now.",
+        "ar": "لنتناول الفطور الآن."
+      }
     },
     {
       "es": "salir",
       "ipa": "/saˈliɾ/",
       "en": "to leave",
-      "ar": "يخرج"
+      "ar": "يخرج",
+      "example": {
+        "es": "Necesito salir ahora.",
+        "en": "I need to leave now.",
+        "ar": "أحتاج أن أخرج الآن."
+      }
     },
     {
       "es": "llegar",
       "ipa": "/ʝeˈɣaɾ/",
       "en": "to arrive",
-      "ar": "يصل"
+      "ar": "يصل",
+      "example": {
+        "es": "Él puede llegar más tarde.",
+        "en": "He can arrive later.",
+        "ar": "يمكنه أن يصل لاحقًا."
+      }
     },
     {
       "es": "dormir",
       "ipa": "/doˈɾmiɾ/",
       "en": "to sleep",
-      "ar": "ينام"
+      "ar": "ينام",
+      "example": {
+        "es": "Necesito dormir temprano.",
+        "en": "I need to sleep early.",
+        "ar": "أحتاج أن أنام مبكرًا."
+      }
     },
     {
       "es": "la mañana",
       "ipa": "/ˈla maˈɲana/",
       "en": "the morning",
-      "ar": "الصباح"
+      "ar": "الصباح",
+      "example": {
+        "es": "La mañana está fresca.",
+        "en": "The morning is cold.",
+        "ar": "الصباح بارد."
+      }
     }
   ],
   "grammar": [
@@ -252,18 +332,18 @@
       "options": [
         {
           "es": "siete y media",
-          "en": "sete e meia",
-          "ar": "sete e meia"
+          "en": "half past seven",
+          "ar": "السابعة والنصف"
         },
         {
           "es": "siete y cuarto",
-          "en": "sete e quinze",
-          "ar": "sete e quinze"
+          "en": "quarter past seven",
+          "ar": "السابعة والربع"
         },
         {
           "es": "ocho y media",
-          "en": "oito e meia",
-          "ar": "oito e meia"
+          "en": "half past eight",
+          "ar": "الثامنة والنصف"
         }
       ],
       "answer": "siete y media",
@@ -318,6 +398,208 @@
         "en": "'Dormir' means to sleep.",
         "ar": "'dormir' تعني ينام."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'in the afternoon'?",
+        "en": "Which word means 'in the afternoon'?",
+        "ar": "أي كلمة تعني 'في الظهيرة'؟"
+      },
+      "options": [
+        {
+          "es": "ducharse",
+          "en": "to shower",
+          "ar": "يستحم"
+        },
+        {
+          "es": "son las dos",
+          "en": "it's two o'clock",
+          "ar": "الساعة الثانية"
+        },
+        {
+          "es": "por la tarde",
+          "en": "in the afternoon",
+          "ar": "في الظهيرة"
+        }
+      ],
+      "answer": "por la tarde",
+      "explanation": {
+        "es": "'por la tarde' significa 'in the afternoon'.",
+        "en": "'por la tarde' means 'in the afternoon'.",
+        "ar": "تعني 'por la tarde' 'في الظهيرة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the hour'",
+        "en": "Choose the Spanish word: 'the hour'",
+        "ar": "اختر الكلمة بالإسبانية: 'الساعة'"
+      },
+      "options": [
+        {
+          "es": "la mañana",
+          "en": "the morning",
+          "ar": "الصباح"
+        },
+        {
+          "es": "por la noche",
+          "en": "at night",
+          "ar": "في الليل"
+        },
+        {
+          "es": "salir",
+          "en": "to leave",
+          "ar": "يخرج"
+        },
+        {
+          "es": "la hora",
+          "en": "the hour",
+          "ar": "الساعة"
+        }
+      ],
+      "answer": "la hora",
+      "explanation": {
+        "es": "'la hora' significa 'the hour'.",
+        "en": "'la hora' means 'the hour'.",
+        "ar": "تعني 'la hora' 'الساعة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'to leave' en español?",
+        "en": "How do you say 'to leave' in Spanish?",
+        "ar": "كيف تقول 'يخرج' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el reloj",
+          "en": "the clock",
+          "ar": "الساعة"
+        },
+        {
+          "es": "levantarse",
+          "en": "to get up",
+          "ar": "يقوم"
+        },
+        {
+          "es": "salir",
+          "en": "to leave",
+          "ar": "يخرج"
+        }
+      ],
+      "answer": "salir",
+      "explanation": {
+        "es": "'salir' significa 'to leave'.",
+        "en": "'salir' means 'to leave'.",
+        "ar": "تعني 'salir' 'يخرج'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'it's one o'clock'?",
+        "en": "Which word means 'it's one o'clock'?",
+        "ar": "أي كلمة تعني 'الساعة الواحدة'؟"
+      },
+      "options": [
+        {
+          "es": "la mañana",
+          "en": "the morning",
+          "ar": "الصباح"
+        },
+        {
+          "es": "es la una",
+          "en": "it's one o'clock",
+          "ar": "الساعة الواحدة"
+        },
+        {
+          "es": "¿qué hora es?",
+          "en": "what time is it?",
+          "ar": "كم الساعة؟"
+        },
+        {
+          "es": "despertarse",
+          "en": "to wake up",
+          "ar": "يستيقظ"
+        }
+      ],
+      "answer": "es la una",
+      "explanation": {
+        "es": "'es la una' significa 'it's one o'clock'.",
+        "en": "'es la una' means 'it's one o'clock'.",
+        "ar": "تعني 'es la una' 'الساعة الواحدة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"It's time to get up now.\"",
+        "en": "Translate into Spanish: \"It's time to get up now.\"",
+        "ar": "ترجم إلى الإسبانية: \"حان وقت القيام الآن.\""
+      },
+      "options": [],
+      "answer": "Toca levantarse ahora.",
+      "explanation": {
+        "es": "Respuesta: \"Toca levantarse ahora.\".",
+        "en": "Answer: \"Toca levantarse ahora.\".",
+        "ar": "الإجابة: \"Toca levantarse ahora.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I need to leave now.\"",
+        "en": "Translate into Spanish: \"I need to leave now.\"",
+        "ar": "ترجم إلى الإسبانية: \"أحتاج أن أخرج الآن.\""
+      },
+      "options": [],
+      "answer": "Necesito salir ahora.",
+      "explanation": {
+        "es": "Respuesta: \"Necesito salir ahora.\".",
+        "en": "Answer: \"Necesito salir ahora.\".",
+        "ar": "الإجابة: \"Necesito salir ahora.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I wake up at six thirty in the morning.\"",
+        "en": "Translate into Spanish: \"I wake up at six thirty in the morning.\"",
+        "ar": "ترجم إلى الإسبانية: \"أستيقظ في السادسة والنصف صباحًا.\""
+      },
+      "options": [],
+      "answer": "Me despierto a las seis y media de la mañana.",
+      "explanation": {
+        "es": "Respuesta: \"Me despierto a las seis y media de la mañana.\".",
+        "en": "Answer: \"Me despierto a las seis y media de la mañana.\".",
+        "ar": "الإجابة: \"Me despierto a las seis y media de la mañana.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Let's have breakfast now.\"",
+        "en": "Translate into Spanish: \"Let's have breakfast now.\"",
+        "ar": "ترجم إلى الإسبانية: \"لنتناول الفطور الآن.\""
+      },
+      "options": [],
+      "answer": "Vamos a desayunar ahora.",
+      "explanation": {
+        "es": "Respuesta: \"Vamos a desayunar ahora.\".",
+        "en": "Answer: \"Vamos a desayunar ahora.\".",
+        "ar": "الإجابة: \"Vamos a desayunar ahora.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

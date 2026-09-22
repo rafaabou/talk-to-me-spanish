@@ -38,109 +38,199 @@
       "es": "la traducción",
       "ipa": "/ˈla tɾaðuˈksion/",
       "en": "translation",
-      "ar": "الترجمة"
+      "ar": "الترجمة",
+      "example": {
+        "es": "La traducción fiel exige decisiones difíciles.",
+        "en": "Faithful translation demands hard decisions.",
+        "ar": "تتطلب التر fidelity - \"الترجمة الأمينة قرارات صعبة.\""
+      }
     },
     {
       "es": "el traductor",
       "ipa": "/ˈel tɾaðuˈktoɾ/",
       "en": "translator",
-      "ar": "المترجم"
+      "ar": "المترجم",
+      "example": {
+        "es": "El traductor domina dos culturas.",
+        "en": "The translator masters two cultures.",
+        "ar": "يتقن المترجم ثقافتين."
+      }
     },
     {
       "es": "el sentido denotativo",
       "ipa": "/ˈel seˈntiðo denotaˈtiβo/",
       "en": "denotative meaning",
-      "ar": "المعنى اللفظي المباشر"
+      "ar": "المعنى اللفظي المباشر",
+      "example": {
+        "es": "El sentido denotativo es el diccionario.",
+        "en": "Denotative meaning is the dictionary.",
+        "ar": "المعنى اللفظي المباشر هو المعنى القاموسي."
+      }
     },
     {
       "es": "el sentido connotativo",
       "ipa": "/ˈel seˈntiðo konnotaˈtiβo/",
       "en": "connotative meaning",
-      "ar": "المعنى الدلالي المجازي"
+      "ar": "المعنى الدلالي المجازي",
+      "example": {
+        "es": "El sentido connotativo depende del contexto.",
+        "en": "Connotative meaning depends on context.",
+        "ar": "يعتمد المعنى الدلالي المجازي على السياق."
+      }
     },
     {
       "es": "el calco",
       "ipa": "/ˈel ˈkalko/",
       "en": "calque",
-      "ar": "الترجمة الحرفية التركيبية"
+      "ar": "الترجمة الحرفية التركيبية",
+      "example": {
+        "es": "El calco copia la estructura original.",
+        "en": "A calque copies the original structure.",
+        "ar": "تنسخ الترجمة الحرفية التركيبية البنية الأصلية."
+      }
     },
     {
       "es": "el préstamo",
       "ipa": "/ˈel ˈpɾestamo/",
       "en": "loanword",
-      "ar": "اللفظ المقترض"
+      "ar": "اللفظ المقترض",
+      "example": {
+        "es": "El préstamo enriquece el idioma.",
+        "en": "A loanword enriches the language.",
+        "ar": "يغني اللفظ المقترض اللغة."
+      }
     },
     {
       "es": "la equivalencia",
       "ipa": "/ˈla ekiβaˈlensia/",
       "en": "equivalence",
-      "ar": "التكافؤ"
+      "ar": "التكافؤ",
+      "example": {
+        "es": "La equivalencia exacta no siempre existe.",
+        "en": "Exact equivalence does not always exist.",
+        "ar": "لا توجد تكافؤ دقيق دائمًا."
+      }
     },
     {
       "es": "la adaptación",
       "ipa": "/ˈla aðaptaˈsion/",
       "en": "adaptation",
-      "ar": "التكييف"
+      "ar": "التكييف",
+      "example": {
+        "es": "La adaptación acerca el texto al lector.",
+        "en": "Adaptation brings the text closer to the reader.",
+        "ar": "تقرب التكييف النص إلى القارئ."
+      }
     },
     {
       "es": "la domesticación",
       "ipa": "/ˈla domestikaˈsion/",
       "en": "domestication",
-      "ar": "الترجمة المقربة من القارئ"
+      "ar": "الترجمة المقربة من القارئ",
+      "example": {
+        "es": "La domesticación favorece la fluidez.",
+        "en": "Domestication favors fluency.",
+        "ar": "ترجّح الترجمة المقربة من القارئ الطلاقة."
+      }
     },
     {
       "es": "la extranjerización",
       "ipa": "/ˈla ekstɾanxeɾisaˈsion/",
       "en": "foreignization",
-      "ar": "الترجمة المبعدة عن القارئ"
+      "ar": "الترجمة المبعدة عن القارئ",
+      "example": {
+        "es": "La extranjerización conserva lo otro.",
+        "en": "Foreignization preserves otherness.",
+        "ar": "تحافظ الترجمة المبعدة عن القارئ علىAlteridad."
+      }
     },
     {
       "es": "el falso amigo",
       "ipa": "/ˈel ˈfalso aˈmiɣo/",
       "en": "false cognate",
-      "ar": "المشترك اللفظي الخادع"
+      "ar": "المشترك اللفظي الخادع",
+      "example": {
+        "es": "El falso amigo engaña a estudiantes.",
+        "en": "A false cognate tricks students.",
+        "ar": "يخدع المشترك اللفظي الخادع الطلاب."
+      }
     },
     {
       "es": "el cognado",
       "ipa": "/ˈel koˈɣnaðo/",
       "en": "cognate",
-      "ar": "اللفظ المشترك"
+      "ar": "اللفظ المشترك",
+      "example": {
+        "es": "El cognado facilita el aprendizaje.",
+        "en": "A cognate facilitates learning.",
+        "ar": "يسهّل اللفظ المشترك التعلم."
+      }
     },
     {
       "es": "el registro",
       "ipa": "/ˈel reˈxistɾo/",
       "en": "register",
-      "ar": "المستوى اللغوي"
+      "ar": "المستوى اللغوي",
+      "example": {
+        "es": "El registro formal pide léxico preciso.",
+        "en": "The formal register demands precise vocabulary.",
+        "ar": "يتطلب المستوى اللغوي الرسمي مفردات دقيقة."
+      }
     },
     {
       "es": "la ambigüedad",
       "ipa": "/ˈla ambiɣweˈðað/",
       "en": "ambiguity",
-      "ar": "الغموض"
+      "ar": "الغموض",
+      "example": {
+        "es": "La ambigüedad puede ser intencional.",
+        "en": "Ambiguity can be intentional.",
+        "ar": "قد تكون الغموض مقصودًا."
+      }
     },
     {
       "es": "el contexto",
       "ipa": "/ˈel koˈnteksto/",
       "en": "context",
-      "ar": "السياق"
+      "ar": "السياق",
+      "example": {
+        "es": "El contexto desambigua la palabra.",
+        "en": "The context disambiguates the word.",
+        "ar": "يزيل السياق غموض الكلمة."
+      }
     },
     {
       "es": "el público objetivo",
       "ipa": "/ˈel ˈpuβliko oβxeˈtiβo/",
       "en": "target audience",
-      "ar": "الجمهور المستهدف"
+      "ar": "الجمهور المستهدف",
+      "example": {
+        "es": "El público objetivo define el estilo.",
+        "en": "The target audience defines the style.",
+        "ar": "يحدّد الجمهور المستهدف الأسلوب."
+      }
     },
     {
       "es": "la revisión",
       "ipa": "/ˈla reβiˈsion/",
       "en": "revision / proofreading",
-      "ar": "المراجعة"
+      "ar": "المراجعة",
+      "example": {
+        "es": "La revisión corrige erratas y coherencia.",
+        "en": "Revision corrects typos and coherence.",
+        "ar": "تصحّح المراجعة الأخطاء والإتساق."
+      }
     },
     {
       "es": "la nota a pie de página",
       "ipa": "/ˈla ˈnota ˈa ˈpie ˈde ˈpaxina/",
       "en": "footnote",
-      "ar": "الحاشية السفلية"
+      "ar": "الحاشية السفلية",
+      "example": {
+        "es": "La nota a pie de página añade precisiones.",
+        "en": "The footnote adds clarifications.",
+        "ar": "تضيف الحاشية السفلية توضيحات."
+      }
     }
   ],
   "grammar": [
@@ -269,8 +359,8 @@
       "options": [
         {
           "es": "librería",
-          "en": "livraria",
-          "ar": "livraria"
+          "en": "bookstore",
+          "ar": "متجر الكتب"
         },
         {
           "es": "biblioteca",
@@ -279,8 +369,8 @@
         },
         {
           "es": "libro",
-          "en": "livro",
-          "ar": "livro"
+          "en": "book",
+          "ar": "كتاب"
         }
       ],
       "answer": "biblioteca",
@@ -325,8 +415,8 @@
       "type": "translation",
       "prompt": {
         "es": "Traduce al español: 'to hit the nail on the head'",
-        "en": "Translate into Portuguese: 'to hit the nail on the head'",
-        "ar": "ترجم إلى البرتغالية: 'to hit the nail on the head'"
+        "en": "Translate into Spanish: 'to hit the nail on the head'",
+        "ar": "ترجم إلى بالإسبانية: 'to hit the nail on the head'"
       },
       "options": [],
       "answer": "dar en el clavo",
@@ -335,6 +425,208 @@
         "en": "The idiomatic equivalent is 'acertar na mosca'.",
         "ar": "المكافئ الاصطلاحي هو 'acertar na mosca'."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'domestication'?",
+        "en": "Which word means 'domestication'?",
+        "ar": "أي كلمة تعني 'الترجمة المقربة من القارئ'؟"
+      },
+      "options": [
+        {
+          "es": "la domesticación",
+          "en": "domestication",
+          "ar": "الترجمة المقربة من القارئ"
+        },
+        {
+          "es": "el público objetivo",
+          "en": "target audience",
+          "ar": "الجمهور المستهدف"
+        },
+        {
+          "es": "el calco",
+          "en": "calque",
+          "ar": "الترجمة الحرفية التركيبية"
+        }
+      ],
+      "answer": "la domesticación",
+      "explanation": {
+        "es": "'la domesticación' significa 'domestication'.",
+        "en": "'la domesticación' means 'domestication'.",
+        "ar": "تعني 'la domesticación' 'الترجمة المقربة من القارئ'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'denotative meaning'",
+        "en": "Choose the Spanish word: 'denotative meaning'",
+        "ar": "اختر الكلمة بالإسبانية: 'المعنى اللفظي المباشر'"
+      },
+      "options": [
+        {
+          "es": "la equivalencia",
+          "en": "equivalence",
+          "ar": "التكافؤ"
+        },
+        {
+          "es": "el sentido denotativo",
+          "en": "denotative meaning",
+          "ar": "المعنى اللفظي المباشر"
+        },
+        {
+          "es": "el calco",
+          "en": "calque",
+          "ar": "الترجمة الحرفية التركيبية"
+        }
+      ],
+      "answer": "el sentido denotativo",
+      "explanation": {
+        "es": "'el sentido denotativo' significa 'denotative meaning'.",
+        "en": "'el sentido denotativo' means 'denotative meaning'.",
+        "ar": "تعني 'el sentido denotativo' 'المعنى اللفظي المباشر'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'adaptation' en español?",
+        "en": "How do you say 'adaptation' in Spanish?",
+        "ar": "كيف تقول 'التكييف' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el calco",
+          "en": "calque",
+          "ar": "الترجمة الحرفية التركيبية"
+        },
+        {
+          "es": "la revisión",
+          "en": "revision / proofreading",
+          "ar": "المراجعة"
+        },
+        {
+          "es": "la adaptación",
+          "en": "adaptation",
+          "ar": "التكييف"
+        },
+        {
+          "es": "la equivalencia",
+          "en": "equivalence",
+          "ar": "التكافؤ"
+        }
+      ],
+      "answer": "la adaptación",
+      "explanation": {
+        "es": "'la adaptación' significa 'adaptation'.",
+        "en": "'la adaptación' means 'adaptation'.",
+        "ar": "تعني 'la adaptación' 'التكييف'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'context'?",
+        "en": "Which word means 'context'?",
+        "ar": "أي كلمة تعني 'السياق'؟"
+      },
+      "options": [
+        {
+          "es": "el público objetivo",
+          "en": "target audience",
+          "ar": "الجمهور المستهدف"
+        },
+        {
+          "es": "el contexto",
+          "en": "context",
+          "ar": "السياق"
+        },
+        {
+          "es": "la domesticación",
+          "en": "domestication",
+          "ar": "الترجمة المقربة من القارئ"
+        },
+        {
+          "es": "la extranjerización",
+          "en": "foreignization",
+          "ar": "الترجمة المبعدة عن القارئ"
+        }
+      ],
+      "answer": "el contexto",
+      "explanation": {
+        "es": "'el contexto' significa 'context'.",
+        "en": "'el contexto' means 'context'.",
+        "ar": "تعني 'el contexto' 'السياق'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The formal register demands precise vocabulary.\"",
+        "en": "Translate into Spanish: \"The formal register demands precise vocabulary.\"",
+        "ar": "ترجم إلى الإسبانية: \"يتطلب المستوى اللغوي الرسمي مفردات دقيقة.\""
+      },
+      "options": [],
+      "answer": "El registro formal pide léxico preciso.",
+      "explanation": {
+        "es": "Respuesta: \"El registro formal pide léxico preciso.\".",
+        "en": "Answer: \"El registro formal pide léxico preciso.\".",
+        "ar": "الإجابة: \"El registro formal pide léxico preciso.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Foreignization preserves otherness.\"",
+        "en": "Translate into Spanish: \"Foreignization preserves otherness.\"",
+        "ar": "ترجم إلى الإسبانية: \"تحافظ الترجمة المبعدة عن القارئ علىAlteridad.\""
+      },
+      "options": [],
+      "answer": "La extranjerización conserva lo otro.",
+      "explanation": {
+        "es": "Respuesta: \"La extranjerización conserva lo otro.\".",
+        "en": "Answer: \"La extranjerización conserva lo otro.\".",
+        "ar": "الإجابة: \"La extranjerización conserva lo otro.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Domestication favors fluency.\"",
+        "en": "Translate into Spanish: \"Domestication favors fluency.\"",
+        "ar": "ترجم إلى الإسبانية: \"ترجّح الترجمة المقربة من القارئ الطلاقة.\""
+      },
+      "options": [],
+      "answer": "La domesticación favorece la fluidez.",
+      "explanation": {
+        "es": "Respuesta: \"La domesticación favorece la fluidez.\".",
+        "en": "Answer: \"La domesticación favorece la fluidez.\".",
+        "ar": "الإجابة: \"La domesticación favorece la fluidez.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The context disambiguates the word.\"",
+        "en": "Translate into Spanish: \"The context disambiguates the word.\"",
+        "ar": "ترجم إلى الإسبانية: \"يزيل السياق غموض الكلمة.\""
+      },
+      "options": [],
+      "answer": "El contexto desambigua la palabra.",
+      "explanation": {
+        "es": "Respuesta: \"El contexto desambigua la palabra.\".",
+        "en": "Answer: \"El contexto desambigua la palabra.\".",
+        "ar": "الإجابة: \"El contexto desambigua la palabra.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

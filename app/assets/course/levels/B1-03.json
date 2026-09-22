@@ -28,85 +28,155 @@
       "es": "el pronombre",
       "ipa": "/ˈel pɾoˈnombɾe/",
       "en": "the pronoun",
-      "ar": "الضمير"
+      "ar": "الضمير",
+      "example": {
+        "es": "El pronombre reemplaza al sustantivo.",
+        "en": "The pronoun replaces the noun.",
+        "ar": "يحل الضمير محل الاسم."
+      }
     },
     {
       "es": "relativo",
       "ipa": "/relaˈtiβo/",
       "en": "relative",
-      "ar": "موصول"
+      "ar": "موصول",
+      "example": {
+        "es": "Usa un adverbio relativo aquí.",
+        "en": "Use a relative adverb here.",
+        "ar": "استخدم ظرفًا موصولًا هنا."
+      }
     },
     {
       "es": "que",
       "ipa": "/ˈke/",
       "en": "that / who / which",
-      "ar": "الذي / التي"
+      "ar": "الذي / التي",
+      "example": {
+        "es": "La chica que llegó es mi prima.",
+        "en": "The girl who arrived is my cousin.",
+        "ar": "الفتاة التي وصلت هي ابنة عمي."
+      }
     },
     {
       "es": "quien",
       "ipa": "/ˈkien/",
       "en": "who (with preposition)",
-      "ar": "من"
+      "ar": "من",
+      "example": {
+        "es": "El hombre con quien hablé era médico.",
+        "en": "The man with whom I spoke was a doctor.",
+        "ar": "الرجل الذي حديثت معه كان طبيبًا."
+      }
     },
     {
       "es": "donde",
       "ipa": "/ˈdonde/",
       "en": "where",
-      "ar": "حيث / أين"
+      "ar": "حيث / أين",
+      "example": {
+        "es": "La casa donde nací es pequeña.",
+        "en": "The house where I was born is small.",
+        "ar": "المنزل الذي وُلدت فيه صغير."
+      }
     },
     {
       "es": "cuyo",
       "ipa": "/ˈkuʝo/",
       "en": "whose",
-      "ar": "الذي له"
+      "ar": "الذي له",
+      "example": {
+        "es": "El autor cuyo libro leí es argentino.",
+        "en": "The author whose book I read is Argentine.",
+        "ar": "الكاتب الذي قرأت كتابه أرجنتيني."
+      }
     },
     {
       "es": "la persona",
       "ipa": "/ˈla peˈɾsona/",
       "en": "the person",
-      "ar": "الشخص"
+      "ar": "الشخص",
+      "example": {
+        "es": "La persona que me atendió fue amable.",
+        "en": "The person who served me was kind.",
+        "ar": "الشخص الذي خدمني كان لطيفًا."
+      }
     },
     {
       "es": "el lugar",
       "ipa": "/ˈel luˈɣaɾ/",
       "en": "the place",
-      "ar": "المكان"
+      "ar": "المكان",
+      "example": {
+        "es": "El lugar elegido fue acogedor.",
+        "en": "This place brings me good memories.",
+        "ar": "هذا المكان يحمل لي ذكريات جيدة."
+      }
     },
     {
       "es": "la cosa",
       "ipa": "/ˈla ˈkosa/",
       "en": "the thing",
-      "ar": "الشيء"
+      "ar": "الشيء",
+      "example": {
+        "es": "La cosa más importante es confiar.",
+        "en": "The most important thing is to trust.",
+        "ar": "أهم شيء هو الثقة."
+      }
     },
     {
       "es": "la explicación",
       "ipa": "/ˈla eksplikaˈsion/",
       "en": "the explanation",
-      "ar": "الشرح"
+      "ar": "الشرح",
+      "example": {
+        "es": "La explicación del profesor fue clara.",
+        "en": "The teacher's explanation was clear.",
+        "ar": "كان شرح المعلم واضحًا."
+      }
     },
     {
       "es": "la frase",
       "ipa": "/ˈla ˈfɾase/",
       "en": "the sentence",
-      "ar": "الجملة"
+      "ar": "الجملة",
+      "example": {
+        "es": "La frase resumió la idea.",
+        "en": "This sentence has a double meaning.",
+        "ar": "هذه الجملة لها معنى مزدوج."
+      }
     },
     {
       "es": "sustituir",
       "ipa": "/sustiˈtuiɾ/",
       "en": "to replace",
-      "ar": "يستبدل"
+      "ar": "يستبدل",
+      "example": {
+        "es": "Voy a sustituir el azúcar por miel.",
+        "en": "I am going to replace the sugar with honey.",
+        "ar": "سأستبدل السكر بالعسل."
+      }
     },
     {
       "es": "el antecedente",
       "ipa": "/ˈel anteseˈðente/",
       "en": "the antecedent",
-      "ar": "المرجع السابق"
+      "ar": "المرجع السابق",
+      "example": {
+        "es": "El antecedente de la frase es el libro.",
+        "en": "The antecedent of the sentence is the book.",
+        "ar": "مرجع الجملة هو الكتاب."
+      }
     },
     {
       "es": "la pregunta",
       "ipa": "/ˈla pɾeˈɣunta/",
       "en": "the question",
-      "ar": "السؤال"
+      "ar": "السؤال",
+      "example": {
+        "es": "La pregunta fue muy interesante.",
+        "en": "The question was very interesting.",
+        "ar": "كان السؤال مثيرًا للاهتمام."
+      }
     }
   ],
   "grammar": [
@@ -295,8 +365,8 @@
       "type": "translation",
       "prompt": {
         "es": "Traduce al inglés: \"El libro que leemos es genial.\"",
-        "en": "Translate to English: \"O livro que lemos é ótimo.\"",
-        "ar": "ترجم إلى الإنجليزية: \"O livro que lemos é ótimo.\""
+        "en": "Translate to English: \"El libro que leemos es genial.\"",
+        "ar": "ترجم إلى الإنجليزية: \"El libro que leemos es genial.\""
       },
       "options": [],
       "answer": "The book we read is great.",
@@ -305,6 +375,198 @@
         "en": "'Que' here refers back to 'the book' as the object of the verb 'read'.",
         "ar": "يعود 'que' هنا على 'الكتاب' كمفعول به لفعل 'قرأ'."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the sentence'?",
+        "en": "Which word means 'the sentence'?",
+        "ar": "أي كلمة تعني 'الجملة'؟"
+      },
+      "options": [
+        {
+          "es": "la cosa",
+          "en": "the thing",
+          "ar": "الشيء"
+        },
+        {
+          "es": "donde",
+          "en": "where",
+          "ar": "حيث / أين"
+        },
+        {
+          "es": "la frase",
+          "en": "the sentence",
+          "ar": "الجملة"
+        }
+      ],
+      "answer": "la frase",
+      "explanation": {
+        "es": "'la frase' significa 'the sentence'.",
+        "en": "'la frase' means 'the sentence'.",
+        "ar": "تعني 'la frase' 'الجملة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the place'",
+        "en": "Choose the Spanish word: 'the place'",
+        "ar": "اختر الكلمة بالإسبانية: 'المكان'"
+      },
+      "options": [
+        {
+          "es": "la explicación",
+          "en": "the explanation",
+          "ar": "الشرح"
+        },
+        {
+          "es": "el lugar",
+          "en": "the place",
+          "ar": "المكان"
+        },
+        {
+          "es": "cuyo",
+          "en": "whose",
+          "ar": "الذي له"
+        }
+      ],
+      "answer": "el lugar",
+      "explanation": {
+        "es": "'el lugar' significa 'the place'.",
+        "en": "'el lugar' means 'the place'.",
+        "ar": "تعني 'el lugar' 'المكان'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the explanation' en español?",
+        "en": "How do you say 'the explanation' in Spanish?",
+        "ar": "كيف تقول 'الشرح' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "la cosa",
+          "en": "the thing",
+          "ar": "الشيء"
+        },
+        {
+          "es": "la explicación",
+          "en": "the explanation",
+          "ar": "الشرح"
+        },
+        {
+          "es": "donde",
+          "en": "where",
+          "ar": "حيث / أين"
+        }
+      ],
+      "answer": "la explicación",
+      "explanation": {
+        "es": "'la explicación' significa 'the explanation'.",
+        "en": "'la explicación' means 'the explanation'.",
+        "ar": "تعني 'la explicación' 'الشرح'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'that / who / which'?",
+        "en": "Which word means 'that / who / which'?",
+        "ar": "أي كلمة تعني 'الذي / التي'؟"
+      },
+      "options": [
+        {
+          "es": "la frase",
+          "en": "the sentence",
+          "ar": "الجملة"
+        },
+        {
+          "es": "la persona",
+          "en": "the person",
+          "ar": "الشخص"
+        },
+        {
+          "es": "que",
+          "en": "that / who / which",
+          "ar": "الذي / التي"
+        }
+      ],
+      "answer": "que",
+      "explanation": {
+        "es": "'que' significa 'that / who / which'.",
+        "en": "'que' means 'that / who / which'.",
+        "ar": "تعني 'que' 'الذي / التي'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The house where I was born is small.\"",
+        "en": "Translate into Spanish: \"The house where I was born is small.\"",
+        "ar": "ترجم إلى الإسبانية: \"المنزل الذي وُلدت فيه صغير.\""
+      },
+      "options": [],
+      "answer": "La casa donde nací es pequeña.",
+      "explanation": {
+        "es": "Respuesta: \"La casa donde nací es pequeña.\".",
+        "en": "Answer: \"La casa donde nací es pequeña.\".",
+        "ar": "الإجابة: \"La casa donde nací es pequeña.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Do you know the girl who works at the bakery?\"",
+        "en": "Translate into Spanish: \"Do you know the girl who works at the bakery?\"",
+        "ar": "ترجم إلى الإسبانية: \"هل تعرف الفتاة التي تعمل في المخبز؟\""
+      },
+      "options": [],
+      "answer": "¿Conoces a la chica que trabaja en la panadería?",
+      "explanation": {
+        "es": "Respuesta: \"¿Conoces a la chica que trabaja en la panadería?\".",
+        "en": "Answer: \"¿Conoces a la chica que trabaja en la panadería?\".",
+        "ar": "الإجابة: \"¿Conoces a la chica que trabaja en la panadería?\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I loved it! The cake we ate was delicious.\"",
+        "en": "Translate into Spanish: \"I loved it! The cake we ate was delicious.\"",
+        "ar": "ترجم إلى الإسبانية: \"أعجبني كثيراً! الكعكة التي أكلناها كانت لذيذة.\""
+      },
+      "options": [],
+      "answer": "¡Me gustó mucho! El pastel que comimos era delicioso.",
+      "explanation": {
+        "es": "Respuesta: \"¡Me gustó mucho! El pastel que comimos era delicioso.\".",
+        "en": "Answer: \"¡Me gustó mucho! El pastel que comimos era delicioso.\".",
+        "ar": "الإجابة: \"¡Me gustó mucho! El pastel que comimos era delicioso.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The question was very interesting.\"",
+        "en": "Translate into Spanish: \"The question was very interesting.\"",
+        "ar": "ترجم إلى الإسبانية: \"كان السؤال مثيرًا للاهتمام.\""
+      },
+      "options": [],
+      "answer": "La pregunta fue muy interesante.",
+      "explanation": {
+        "es": "Respuesta: \"La pregunta fue muy interesante.\".",
+        "en": "Answer: \"La pregunta fue muy interesante.\".",
+        "ar": "الإجابة: \"La pregunta fue muy interesante.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

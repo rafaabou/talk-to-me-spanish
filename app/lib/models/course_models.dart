@@ -97,7 +97,9 @@ class Exercise {
     json['answer'] ?? '',
     (json['accepted'] as List? ?? []).cast<String>(),
     json['audio'] as String?,
-    TriText.fromJson(json['explanation']),
+    json['explanation'] is Map<String, dynamic>
+        ? TriText.fromJson(json['explanation'] as Map<String, dynamic>)
+        : TriText('', '', ''),
   );
 }
 

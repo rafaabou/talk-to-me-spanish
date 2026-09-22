@@ -1,339 +1,621 @@
 {
- "id": "B2-06",
- "level": "B2",
- "level_name": {
-  "es": "Intermedio alto",
-  "en": "Upper-Intermediate",
-  "ar": "متوسط متقدم"
- },
- "title": {
-  "es": "Literatura y Artes",
-  "en": "Literature and Arts",
-  "ar": "الأدب والفنون"
- },
- "objectives": [
-  {
-   "es": "Describir obras literarias y artísticas",
-   "en": "Describe literary and artistic works",
-   "ar": "وصف الأعمال الأدبية والفنية"
+  "id": "B2-06",
+  "level": "B2",
+  "level_name": {
+    "es": "Intermedio alto",
+    "en": "Upper-Intermediate",
+    "ar": "متوسط متقدم"
   },
-  {
-   "es": "Narrar historias usando los pretéritos",
-   "en": "Narrate stories using the past tenses",
-   "ar": "سرد القصص باستخدام أزمنة الماضي"
-  },
-  {
-   "es": "Expresar opiniones sobre arte",
-   "en": "Express opinions about art",
-   "ar": "التعبير عن الآراء حول الفن"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "la novela",
-   "ipa": "/ˈla noˈβela/",
-   "en": "the novel",
-   "ar": "الرواية"
-  },
-  {
-   "es": "el cuento",
-   "ipa": "/ˈel ˈkuento/",
-   "en": "the short story",
-   "ar": "القصة القصيرة"
-  },
-  {
-   "es": "el poema",
-   "ipa": "/ˈel ˈpoema/",
-   "en": "the poem",
-   "ar": "القصيدة"
-  },
-  {
-   "es": "el poeta",
-   "ipa": "/ˈel ˈpoeta/",
-   "en": "the poet",
-   "ar": "الشاعر"
-  },
-  {
-   "es": "el escritor",
-   "ipa": "/ˈel eskɾiˈtoɾ/",
-   "en": "the writer",
-   "ar": "الكاتب"
-  },
-  {
-   "es": "la obra",
-   "ipa": "/ˈla ˈoβɾa/",
-   "en": "the work",
-   "ar": "العمل"
-  },
-  {
-   "es": "el capítulo",
-   "ipa": "/ˈel kaˈpitulo/",
-   "en": "the chapter",
-   "ar": "الفصل"
-  },
-  {
-   "es": "el personaje",
-   "ipa": "/ˈel peɾsoˈnaxe/",
-   "en": "the character",
-   "ar": "الشخصية"
-  },
-  {
-   "es": "la trama",
-   "ipa": "/ˈla ˈtɾama/",
-   "en": "the plot",
-   "ar": "الحبكة"
-  },
-  {
-   "es": "la pintura",
-   "ipa": "/ˈla piˈntuɾa/",
-   "en": "the painting",
-   "ar": "اللوحة"
-  },
-  {
-   "es": "el cuadro",
-   "ipa": "/ˈel ˈkuaðɾo/",
-   "en": "the painting (canvas)",
-   "ar": "اللوحة"
-  },
-  {
-   "es": "el museo",
-   "ipa": "/ˈel ˈmuseo/",
-   "en": "the museum",
-   "ar": "المتحف"
-  },
-  {
-   "es": "la exposición",
-   "ipa": "/ˈla eksposiˈsion/",
-   "en": "the exhibition",
-   "ar": "المعرض"
-  },
-  {
-   "es": "el teatro",
-   "ipa": "/ˈel ˈteatɾo/",
-   "en": "the theater",
-   "ar": "المسرح"
-  },
-  {
-   "es": "la obra de teatro",
-   "ipa": "/ˈla ˈoβɾa ˈde ˈteatɾo/",
-   "en": "the play",
-   "ar": "المسرحية"
-  },
-  {
-   "es": "el lector",
-   "ipa": "/ˈel leˈktoɾ/",
-   "en": "the reader",
-   "ar": "القارئ"
-  },
-  {
-   "es": "la inspiración",
-   "ipa": "/ˈla inspiɾaˈsion/",
-   "en": "the inspiration",
-   "ar": "الإلهام"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Los Pretéritos en la Narrativa",
-    "en": "Past Tenses in Narrative",
-    "ar": "أزمنة الماضي في السرد"
-   },
-   "explanation": {
-    "es": "En español, el pretérito indefinido (llegó, miró) hace avanzar la historia, mientras el imperfecto (leía, llovía) describe escenarios y acciones habituales. Ejemplo: Mientras llovía, ella leía; después, él llegó.",
-    "en": "In Portuguese, the simple past (chegou, olhou) advances the story, while the imperfect (lia, chovia) describes scenes and habitual actions. Example: While it rained, she read; then, he arrived.",
-    "ar": "في البرتغالية، الماضي التام (chegou، olhou) يدفع القصة قدمًا، بينما الناقص (lia، chovia) يصف المشاهد والأفعال المعتادة. مثال: بينما كان المطر يهطل كانت تقرأ؛ ثم وصل."
-   },
-   "examples": [
-    {
-     "es": "Mientras llovía, ella leía una novela.",
-     "en": "While it was raining, she read a novel.",
-     "ar": "بينما كان المطر يهطل، كانت تقرأ رواية."
-    },
-    {
-     "es": "Él llegó al museo y miró los cuadros.",
-     "en": "He arrived at the museum and looked at the paintings.",
-     "ar": "وصل إلى المتحف وألقى نظرة على اللوحات."
-    },
-    {
-     "es": "El escritor escribía todos los días a las seis de la mañana.",
-     "en": "The writer used to write every day at six in the morning.",
-     "ar": "كان الكاتب يكتب كل يوم في السادسة صباحًا."
-    },
-    {
-     "es": "Al final, el personaje descubrió la verdad.",
-     "en": "In the end, the character discovered the truth.",
-     "ar": "في النهاية، اكتشفت الشخصية الحقيقة."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Opiniones sobre Arte",
-    "en": "Opinions about Art",
-    "ar": "الآراء حول الفن"
-   },
-   "explanation": {
-    "es": "Para opiniones positivas usamos 'creo que' + indicativo. Para opiniones negativas o dudas usamos 'no creo que' o 'dudo que' + subjuntivo. 'En mi opinión' introduce una opinión personal.",
-    "en": "For positive opinions we use 'creo que' + indicative. For negative opinions or doubts we use 'no creo que' or 'dudo que' + subjunctive. 'En mi opinión' introduces a personal opinion.",
-    "ar": "للآراء الإيجابية نستخدم 'creo que' + الإخباري. وللآراء السلبية أو الشكوك نستخدم 'no creo que' أو 'dudo que' + المنصوب. وتفتتح 'En mi opinión' رأيًا شخصيًا."
-   },
-   "examples": [
-    {
-     "es": "Creo que la pintura es muy expresiva.",
-     "en": "I think the painting is very expressive.",
-     "ar": "أعتقد أن اللوحة معبرة جدًا."
-    },
-    {
-     "es": "No creo que esa película sea mejor que el libro.",
-     "en": "I don't think this film is better than the book.",
-     "ar": "لا أعتقد أن هذا الفيلم أفضل من الكتاب."
-    },
-    {
-     "es": "En mi opinión, la obra fue representada de forma brillante.",
-     "en": "In my opinion, the play was brilliantly staged.",
-     "ar": "في رأيي، أُخرجت المسرحية ببراعة."
-    },
-    {
-     "es": "Dudo que haya un museo mejor en la ciudad.",
-     "en": "I doubt there's a better museum in the city.",
-     "ar": "أشك في وجود متحف أفضل في المدينة."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "En el Museo",
-   "en": "At the Museum",
-   "ar": "في المتحف"
+    "es": "Literatura y Artes",
+    "en": "Literature and Arts",
+    "ar": "الأدب والفنون"
   },
-  "lines": [
-   {
-    "speaker": "Laura",
-    "es": "¿Ya leíste 'Don Quijote', de Cervantes?",
-    "en": "Have you read 'Dom Casmurro' by Machado de Assis?",
-    "ar": "هل قرأت رواية «دوم كاسمورو» لماشادو دي أسيس؟"
-   },
-   {
-    "speaker": "Pedro",
-    "es": "Sí. Creo que es una de las mayores obras de la literatura española.",
-    "en": "I did. I think it's one of the greatest works of Brazilian literature.",
-    "ar": "نعم قرأتها. أعتقد أنها من أعظم الأعمال في الأدب البرازيلي."
-   },
-   {
-    "speaker": "Laura",
-    "es": "El personaje Don Quijote es fascinante, ¿no crees?",
-    "en": "The character Bentinho is fascinating, don't you think?",
-    "ar": "شخصية بينتينيو رائعة، أليس كذلك؟"
-   },
-   {
-    "speaker": "Pedro",
-    "es": "Claro. La trama te atrapa de principio a fin.",
-    "en": "Absolutely. The plot grabs you from start to finish.",
-    "ar": "بالتأكيد. تجذبك الحبكة من البداية إلى النهاية."
-   },
-   {
-    "speaker": "Laura",
-    "es": "¿Qué tal si visitamos el museo de literatura después?",
-    "en": "How about we visit the literature museum afterwards?",
-    "ar": "ماذا لو زرنا متحف الأدب بعد ذلك؟"
-   },
-   {
-    "speaker": "Pedro",
-    "es": "¡Gran idea! Me encanta ver las exposiciones nuevas.",
-    "en": "Great idea! I love seeing new exhibitions.",
-    "ar": "فكرة رائعة! أحب مشاهدة المعارض الجديدة."
-   }
+  "objectives": [
+    {
+      "es": "Describir obras literarias y artísticas",
+      "en": "Describe literary and artistic works",
+      "ar": "وصف الأعمال الأدبية والفنية"
+    },
+    {
+      "es": "Narrar historias usando los pretéritos",
+      "en": "Narrate stories using the past tenses",
+      "ar": "سرد القصص باستخدام أزمنة الماضي"
+    },
+    {
+      "es": "Expresar opiniones sobre arte",
+      "en": "Express opinions about art",
+      "ar": "التعبير عن الآراء حول الفن"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la novela",
+      "ipa": "/ˈla noˈβela/",
+      "en": "the novel",
+      "ar": "الرواية",
+      "example": {
+        "es": "La novela favorita es Cien años de soledad.",
+        "en": "The favorite novel is One Hundred Years of Solitude.",
+        "ar": "الرواية المفضلة هي مئة عام من العزلة."
+      }
+    },
+    {
+      "es": "el cuento",
+      "ipa": "/ˈel ˈkuento/",
+      "en": "the short story",
+      "ar": "القصة القصيرة",
+      "example": {
+        "es": "El cuento termina con una sorpresa.",
+        "en": "The short story ends with a surprise.",
+        "ar": "تنتهي القصة القصيرة بمفاجأة."
+      }
+    },
+    {
+      "es": "el poema",
+      "ipa": "/ˈel ˈpoema/",
+      "en": "the poem",
+      "ar": "القصيدة",
+      "example": {
+        "es": "El poema describe la lluvia.",
+        "en": "The poem describes the rain.",
+        "ar": "تصف القصيدة المطر."
+      }
+    },
+    {
+      "es": "el poeta",
+      "ipa": "/ˈel ˈpoeta/",
+      "en": "the poet",
+      "ar": "الشاعر",
+      "example": {
+        "es": "El poeta ganó un premio nacional.",
+        "en": "The poet won a national prize.",
+        "ar": "فاز الشاعر بجائزة وطنية."
+      }
+    },
+    {
+      "es": "el escritor",
+      "ipa": "/ˈel eskɾiˈtoɾ/",
+      "en": "the writer",
+      "ar": "الكاتب",
+      "example": {
+        "es": "El escritor firmó libros para los fans.",
+        "en": "The writer signed books for the fans.",
+        "ar": "وقّع الكاتب كتبًا للمعجبين."
+      }
+    },
+    {
+      "es": "la obra",
+      "ipa": "/ˈla ˈoβɾa/",
+      "en": "the work",
+      "ar": "العمل",
+      "example": {
+        "es": "La obra se representó en tres teatros.",
+        "en": "The work was staged in three theaters.",
+        "ar": "عُرض العمل في ثلاثة مسارح."
+      }
+    },
+    {
+      "es": "el capítulo",
+      "ipa": "/ˈel kaˈpitulo/",
+      "en": "the chapter",
+      "ar": "الفصل",
+      "example": {
+        "es": "El capítulo más corto es el primero.",
+        "en": "The first chapter is confusing.",
+        "ar": "الفصل الأول محيّر."
+      }
+    },
+    {
+      "es": "el personaje",
+      "ipa": "/ˈel peɾsoˈnaxe/",
+      "en": "the character",
+      "ar": "الشخصية",
+      "example": {
+        "es": "El personaje principal es antihéroe.",
+        "en": "The main character is an antihero.",
+        "ar": "الشخصية الرئيسية بطل مضاد."
+      }
+    },
+    {
+      "es": "la trama",
+      "ipa": "/ˈla ˈtɾama/",
+      "en": "the plot",
+      "ar": "الحبكة",
+      "example": {
+        "es": "La trama se complica en el medio.",
+        "en": "The plot gets complicated in the middle.",
+        "ar": "تتعقد الحبكة في المنتصف."
+      }
+    },
+    {
+      "es": "la pintura",
+      "ipa": "/ˈla piˈntuɾa/",
+      "en": "the painting",
+      "ar": "اللوحة",
+      "example": {
+        "es": "La pintura cuelga en la pared.",
+        "en": "The painting hangs on the wall.",
+        "ar": "اللوحة معلقة على الجدار."
+      }
+    },
+    {
+      "es": "el cuadro",
+      "ipa": "/ˈel ˈkuaðɾo/",
+      "en": "the painting (canvas)",
+      "ar": "اللوحة",
+      "example": {
+        "es": "El cuadro del salón es antiguo.",
+        "en": "The painting in the living room is old.",
+        "ar": "لوحة غرفة الجلوس قديمة."
+      }
+    },
+    {
+      "es": "el museo",
+      "ipa": "/ˈel ˈmuseo/",
+      "en": "the museum",
+      "ar": "المتحف",
+      "example": {
+        "es": "El museo abre gratis los domingos.",
+        "en": "The museum opens free on Sundays.",
+        "ar": "يفتح المتحف مجانًا أيام الأحد."
+      }
+    },
+    {
+      "es": "la exposición",
+      "ipa": "/ˈla eksposiˈsion/",
+      "en": "the exhibition",
+      "ar": "المعرض",
+      "example": {
+        "es": "La exposición de arte dura un mes.",
+        "en": "The art exhibition lasts a month.",
+        "ar": "تستمر معرض الفن شهرًا."
+      }
+    },
+    {
+      "es": "el teatro",
+      "ipa": "/ˈel ˈteatɾo/",
+      "en": "the theater",
+      "ar": "المسرح",
+      "example": {
+        "es": "El teatro está en el centro histórico.",
+        "en": "The theater is in the historic center.",
+        "ar": "المسرح في الوسط التاريخي."
+      }
+    },
+    {
+      "es": "la obra de teatro",
+      "ipa": "/ˈla ˈoβɾa ˈde ˈteatɾo/",
+      "en": "the play",
+      "ar": "المسرحية",
+      "example": {
+        "es": "La obra de teatro nos emocionó.",
+        "en": "The play moved us.",
+        "ar": "أثّرت المسرحية فينا."
+      }
+    },
+    {
+      "es": "el lector",
+      "ipa": "/ˈel leˈktoɾ/",
+      "en": "the reader",
+      "ar": "القارئ",
+      "example": {
+        "es": "El lector fiel espera el próximo libro.",
+        "en": "The loyal reader awaits the next book.",
+        "ar": "ينتظر القارئ المخلص الكتاب التالي."
+      }
+    },
+    {
+      "es": "la inspiración",
+      "ipa": "/ˈla inspiɾaˈsion/",
+      "en": "the inspiration",
+      "ar": "الإلهام",
+      "example": {
+        "es": "La inspiración llega al caminar.",
+        "en": "Inspiration comes while walking.",
+        "ar": "تأتي الإلهام أثناء المشي."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Los Pretéritos en la Narrativa",
+        "en": "Past Tenses in Narrative",
+        "ar": "أزمنة الماضي في السرد"
+      },
+      "explanation": {
+        "es": "En español, el pretérito indefinido (llegó, miró) hace avanzar la historia, mientras el imperfecto (leía, llovía) describe escenarios y acciones habituales. Ejemplo: Mientras llovía, ella leía; después, él llegó.",
+        "en": "In Portuguese, the simple past (chegou, olhou) advances the story, while the imperfect (lia, chovia) describes scenes and habitual actions. Example: While it rained, she read; then, he arrived.",
+        "ar": "في البرتغالية، الماضي التام (chegou، olhou) يدفع القصة قدمًا، بينما الناقص (lia، chovia) يصف المشاهد والأفعال المعتادة. مثال: بينما كان المطر يهطل كانت تقرأ؛ ثم وصل."
+      },
+      "examples": [
+        {
+          "es": "Mientras llovía, ella leía una novela.",
+          "en": "While it was raining, she read a novel.",
+          "ar": "بينما كان المطر يهطل، كانت تقرأ رواية."
+        },
+        {
+          "es": "Él llegó al museo y miró los cuadros.",
+          "en": "He arrived at the museum and looked at the paintings.",
+          "ar": "وصل إلى المتحف وألقى نظرة على اللوحات."
+        },
+        {
+          "es": "El escritor escribía todos los días a las seis de la mañana.",
+          "en": "The writer used to write every day at six in the morning.",
+          "ar": "كان الكاتب يكتب كل يوم في السادسة صباحًا."
+        },
+        {
+          "es": "Al final, el personaje descubrió la verdad.",
+          "en": "In the end, the character discovered the truth.",
+          "ar": "في النهاية، اكتشفت الشخصية الحقيقة."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Opiniones sobre Arte",
+        "en": "Opinions about Art",
+        "ar": "الآراء حول الفن"
+      },
+      "explanation": {
+        "es": "Para opiniones positivas usamos 'creo que' + indicativo. Para opiniones negativas o dudas usamos 'no creo que' o 'dudo que' + subjuntivo. 'En mi opinión' introduce una opinión personal.",
+        "en": "For positive opinions we use 'creo que' + indicative. For negative opinions or doubts we use 'no creo que' or 'dudo que' + subjunctive. 'En mi opinión' introduces a personal opinion.",
+        "ar": "للآراء الإيجابية نستخدم 'creo que' + الإخباري. وللآراء السلبية أو الشكوك نستخدم 'no creo que' أو 'dudo que' + المنصوب. وتفتتح 'En mi opinión' رأيًا شخصيًا."
+      },
+      "examples": [
+        {
+          "es": "Creo que la pintura es muy expresiva.",
+          "en": "I think the painting is very expressive.",
+          "ar": "أعتقد أن اللوحة معبرة جدًا."
+        },
+        {
+          "es": "No creo que esa película sea mejor que el libro.",
+          "en": "I don't think this film is better than the book.",
+          "ar": "لا أعتقد أن هذا الفيلم أفضل من الكتاب."
+        },
+        {
+          "es": "En mi opinión, la obra fue representada de forma brillante.",
+          "en": "In my opinion, the play was brilliantly staged.",
+          "ar": "في رأيي، أُخرجت المسرحية ببراعة."
+        },
+        {
+          "es": "Dudo que haya un museo mejor en la ciudad.",
+          "en": "I doubt there's a better museum in the city.",
+          "ar": "أشك في وجود متحف أفضل في المدينة."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "En el Museo",
+      "en": "At the Museum",
+      "ar": "في المتحف"
+    },
+    "lines": [
+      {
+        "speaker": "Laura",
+        "es": "¿Ya leíste 'Don Quijote', de Cervantes?",
+        "en": "Have you read 'Dom Casmurro' by Machado de Assis?",
+        "ar": "هل قرأت رواية «دوم كاسمورو» لماشادو دي أسيس؟"
+      },
+      {
+        "speaker": "Pedro",
+        "es": "Sí. Creo que es una de las mayores obras de la literatura española.",
+        "en": "I did. I think it's one of the greatest works of Brazilian literature.",
+        "ar": "نعم قرأتها. أعتقد أنها من أعظم الأعمال في الأدب البرازيلي."
+      },
+      {
+        "speaker": "Laura",
+        "es": "El personaje Don Quijote es fascinante, ¿no crees?",
+        "en": "The character Bentinho is fascinating, don't you think?",
+        "ar": "شخصية بينتينيو رائعة، أليس كذلك؟"
+      },
+      {
+        "speaker": "Pedro",
+        "es": "Claro. La trama te atrapa de principio a fin.",
+        "en": "Absolutely. The plot grabs you from start to finish.",
+        "ar": "بالتأكيد. تجذبك الحبكة من البداية إلى النهاية."
+      },
+      {
+        "speaker": "Laura",
+        "es": "¿Qué tal si visitamos el museo de literatura después?",
+        "en": "How about we visit the literature museum afterwards?",
+        "ar": "ماذا لو زرنا متحف الأدب بعد ذلك؟"
+      },
+      {
+        "speaker": "Pedro",
+        "es": "¡Gran idea! Me encanta ver las exposiciones nuevas.",
+        "en": "Great idea! I love seeing new exhibitions.",
+        "ar": "فكرة رائعة! أحب مشاهدة المعارض الجديدة."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Maestro de la Literatura Española",
+      "en": "The Master of Brazilian Literature",
+      "ar": "أستاذ الأدب البرازيلي"
+    },
+    "text_es": "Cervantes es considerado uno de los mayores escritores de España. Escribió novelas, cuentos y poesías que encantan a los lectores hasta hoy. Sus obras retratan la sociedad española del siglo XVII con humor e ironía. Quien lee 'Don Quijote' nunca olvida a sus personajes.",
+    "text_en": "Machado de Assis is considered one of Brazil's greatest writers. He wrote novels, short stories and poems that still delight readers today. His works portray 19th-century Brazilian society with humor and irony. Whoever reads 'Dom Casmurro' never forgets Bentinho's doubt.",
+    "text_ar": "يُعتبر ماشادو دي أسيس من أعظم كتاب البرازيل. كتب روايات وقصصًا قصيرة وقصائد ما زالت تسعد القراء حتى اليوم. تصوّر أعماله المجتمع البرازيلي في القرن التاسع عشر بروح الدعابة والسخرية. ومن يقرأ «دوم كاسمورو» لا ينسى أبدًا شك بينتينيو."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Él ___ al museo y miró los cuadros.",
+        "en": "He ___ at the museum and looked at the paintings.",
+        "ar": "___ إلى المتحف وألقى نظرة على اللوحات."
+      },
+      "options": [
+        {
+          "es": "llegó",
+          "en": "arrived",
+          "ar": "وصل"
+        },
+        {
+          "es": "llegaba",
+          "en": "used to arrive",
+          "ar": "كان يصل"
+        },
+        {
+          "es": "llegará",
+          "en": "will arrive",
+          "ar": "سيصل"
+        }
+      ],
+      "answer": "llegó",
+      "explanation": {
+        "es": "El pretérito indefinido hace avanzar la acción en la narrativa: llegó.",
+        "en": "The simple past advances the action in the narrative: chegou.",
+        "ar": "الماضي التام يدفع الفعل قدمًا في السرد: chegou."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "No creo que esa película ___ mejor que el libro.",
+        "en": "I don't think this film ___ better than the book.",
+        "ar": "لا أعتقد أن هذا الفيلم ___ أفضل من الكتاب."
+      },
+      "options": [
+        {
+          "es": "es",
+          "en": "is",
+          "ar": "يكون"
+        },
+        {
+          "es": "sea",
+          "en": "sea",
+          "ar": "sea"
+        },
+        {
+          "es": "ser",
+          "en": "to be",
+          "ar": "يكون"
+        }
+      ],
+      "answer": "sea",
+      "explanation": {
+        "es": "Después de 'no creo que' usamos el subjuntivo: sea.",
+        "en": "After 'no creo que' we use the subjunctive: 'sea'.",
+        "ar": "بعد 'no creo que' نستخدم المضارع المنصوب: 'sea'."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'In my opinion, the play was brilliantly staged.'",
+        "en": "Translate: 'In my opinion, the play was brilliantly staged.'",
+        "ar": "ترجم: 'In my opinion, the play was brilliantly staged.'"
+      },
+      "options": [],
+      "answer": "En mi opinión, la obra fue representada de forma brillante.",
+      "explanation": {
+        "es": "Opinión personal: 'en mi opinión' + pasiva 'fue representada'.",
+        "en": "Personal opinion: 'en mi opinión' + passive 'fue representada'.",
+        "ar": "رأي شخصي: 'en mi opinión' + المبني للمجهول 'fue representada'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the poem'?",
+        "en": "Which word means 'the poem'?",
+        "ar": "أي كلمة تعني 'القصيدة'؟"
+      },
+      "options": [
+        {
+          "es": "el personaje",
+          "en": "the character",
+          "ar": "الشخصية"
+        },
+        {
+          "es": "el poema",
+          "en": "the poem",
+          "ar": "القصيدة"
+        },
+        {
+          "es": "el poeta",
+          "en": "the poet",
+          "ar": "الشاعر"
+        },
+        {
+          "es": "el cuadro",
+          "en": "the painting (canvas)",
+          "ar": "اللوحة"
+        }
+      ],
+      "answer": "el poema",
+      "explanation": {
+        "es": "'el poema' significa 'the poem'.",
+        "en": "'el poema' means 'the poem'.",
+        "ar": "تعني 'el poema' 'القصيدة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the work'",
+        "en": "Choose the Spanish word: 'the work'",
+        "ar": "اختر الكلمة بالإسبانية: 'العمل'"
+      },
+      "options": [
+        {
+          "es": "la obra",
+          "en": "the work",
+          "ar": "العمل"
+        },
+        {
+          "es": "la exposición",
+          "en": "the exhibition",
+          "ar": "المعرض"
+        },
+        {
+          "es": "la novela",
+          "en": "the novel",
+          "ar": "الرواية"
+        }
+      ],
+      "answer": "la obra",
+      "explanation": {
+        "es": "'la obra' significa 'the work'.",
+        "en": "'la obra' means 'the work'.",
+        "ar": "تعني 'la obra' 'العمل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the poet' en español?",
+        "en": "How do you say 'the poet' in Spanish?",
+        "ar": "كيف تقول 'الشاعر' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el poeta",
+          "en": "the poet",
+          "ar": "الشاعر"
+        },
+        {
+          "es": "la pintura",
+          "en": "the painting",
+          "ar": "اللوحة"
+        },
+        {
+          "es": "la exposición",
+          "en": "the exhibition",
+          "ar": "المعرض"
+        }
+      ],
+      "answer": "el poeta",
+      "explanation": {
+        "es": "'el poeta' significa 'the poet'.",
+        "en": "'el poeta' means 'the poet'.",
+        "ar": "تعني 'el poeta' 'الشاعر'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the character'?",
+        "en": "Which word means 'the character'?",
+        "ar": "أي كلمة تعني 'الشخصية'؟"
+      },
+      "options": [
+        {
+          "es": "el teatro",
+          "en": "the theater",
+          "ar": "المسرح"
+        },
+        {
+          "es": "la exposición",
+          "en": "the exhibition",
+          "ar": "المعرض"
+        },
+        {
+          "es": "el personaje",
+          "en": "the character",
+          "ar": "الشخصية"
+        }
+      ],
+      "answer": "el personaje",
+      "explanation": {
+        "es": "'el personaje' significa 'the character'.",
+        "en": "'el personaje' means 'the character'.",
+        "ar": "تعني 'el personaje' 'الشخصية'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The play moved us.\"",
+        "en": "Translate into Spanish: \"The play moved us.\"",
+        "ar": "ترجم إلى الإسبانية: \"أثّرت المسرحية فينا.\""
+      },
+      "options": [],
+      "answer": "La obra de teatro nos emocionó.",
+      "explanation": {
+        "es": "Respuesta: \"La obra de teatro nos emocionó.\".",
+        "en": "Answer: \"La obra de teatro nos emocionó.\".",
+        "ar": "الإجابة: \"La obra de teatro nos emocionó.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The favorite novel is One Hundred Years of Solitude.\"",
+        "en": "Translate into Spanish: \"The favorite novel is One Hundred Years of Solitude.\"",
+        "ar": "ترجم إلى الإسبانية: \"الرواية المفضلة هي مئة عام من العزلة.\""
+      },
+      "options": [],
+      "answer": "La novela favorita es Cien años de soledad.",
+      "explanation": {
+        "es": "Respuesta: \"La novela favorita es Cien años de soledad.\".",
+        "en": "Answer: \"La novela favorita es Cien años de soledad.\".",
+        "ar": "الإجابة: \"La novela favorita es Cien años de soledad.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The writer signed books for the fans.\"",
+        "en": "Translate into Spanish: \"The writer signed books for the fans.\"",
+        "ar": "ترجم إلى الإسبانية: \"وقّع الكاتب كتبًا للمعجبين.\""
+      },
+      "options": [],
+      "answer": "El escritor firmó libros para los fans.",
+      "explanation": {
+        "es": "Respuesta: \"El escritor firmó libros para los fans.\".",
+        "en": "Answer: \"El escritor firmó libros para los fans.\".",
+        "ar": "الإجابة: \"El escritor firmó libros para los fans.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The character Bentinho is fascinating, don't you think?\"",
+        "en": "Translate into Spanish: \"The character Bentinho is fascinating, don't you think?\"",
+        "ar": "ترجم إلى الإسبانية: \"شخصية بينتينيو رائعة، أليس كذلك؟\""
+      },
+      "options": [],
+      "answer": "El personaje Don Quijote es fascinante, ¿no crees?",
+      "explanation": {
+        "es": "Respuesta: \"El personaje Don Quijote es fascinante, ¿no crees?\".",
+        "en": "Answer: \"El personaje Don Quijote es fascinante, ¿no crees?\".",
+        "ar": "الإجابة: \"El personaje Don Quijote es fascinante, ¿no crees?\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "El Maestro de la Literatura Española",
-   "en": "The Master of Brazilian Literature",
-   "ar": "أستاذ الأدب البرازيلي"
-  },
-  "text_es": "Cervantes es considerado uno de los mayores escritores de España. Escribió novelas, cuentos y poesías que encantan a los lectores hasta hoy. Sus obras retratan la sociedad española del siglo XVII con humor e ironía. Quien lee 'Don Quijote' nunca olvida a sus personajes.",
-  "text_en": "Machado de Assis is considered one of Brazil's greatest writers. He wrote novels, short stories and poems that still delight readers today. His works portray 19th-century Brazilian society with humor and irony. Whoever reads 'Dom Casmurro' never forgets Bentinho's doubt.",
-  "text_ar": "يُعتبر ماشادو دي أسيس من أعظم كتاب البرازيل. كتب روايات وقصصًا قصيرة وقصائد ما زالت تسعد القراء حتى اليوم. تصوّر أعماله المجتمع البرازيلي في القرن التاسع عشر بروح الدعابة والسخرية. ومن يقرأ «دوم كاسمورو» لا ينسى أبدًا شك بينتينيو."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Él ___ al museo y miró los cuadros.",
-    "en": "He ___ at the museum and looked at the paintings.",
-    "ar": "___ إلى المتحف وألقى نظرة على اللوحات."
-   },
-   "options": [
-    {
-     "es": "llegó",
-     "en": "chegou",
-     "ar": "chegou"
-    },
-    {
-     "es": "llegaba",
-     "en": "chegava",
-     "ar": "chegava"
-    },
-    {
-     "es": "llegará",
-     "en": "chegará",
-     "ar": "chegará"
-    }
-   ],
-   "answer": "llegó",
-   "explanation": {
-    "es": "El pretérito indefinido hace avanzar la acción en la narrativa: llegó.",
-    "en": "The simple past advances the action in the narrative: chegou.",
-    "ar": "الماضي التام يدفع الفعل قدمًا في السرد: chegou."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "No creo que esa película ___ mejor que el libro.",
-    "en": "I don't think this film ___ better than the book.",
-    "ar": "لا أعتقد أن هذا الفيلم ___ أفضل من الكتاب."
-   },
-   "options": [
-    {
-     "es": "es",
-     "en": "é",
-     "ar": "é"
-    },
-    {
-     "es": "sea",
-     "en": "sea",
-     "ar": "sea"
-    },
-    {
-     "es": "ser",
-     "en": "ser",
-     "ar": "ser"
-    }
-   ],
-   "answer": "sea",
-   "explanation": {
-    "es": "Después de 'no creo que' usamos el subjuntivo: sea.",
-    "en": "After 'no creo que' we use the subjunctive: 'sea'.",
-    "ar": "بعد 'no creo que' نستخدم المضارع المنصوب: 'sea'."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'In my opinion, the play was brilliantly staged.'",
-    "en": "Translate: 'In my opinion, the play was brilliantly staged.'",
-    "ar": "ترجم: 'In my opinion, the play was brilliantly staged.'"
-   },
-   "options": [],
-   "answer": "En mi opinión, la obra fue representada de forma brillante.",
-   "explanation": {
-    "es": "Opinión personal: 'en mi opinión' + pasiva 'fue representada'.",
-    "en": "Personal opinion: 'en mi opinión' + passive 'fue representada'.",
-    "ar": "رأي شخصي: 'en mi opinión' + المبني للمجهول 'fue representada'."
-   }
-  }
- ]
 }

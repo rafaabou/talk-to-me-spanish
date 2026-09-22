@@ -38,109 +38,199 @@
       "es": "el discurso",
       "ipa": "/ˈel diˈskuɾso/",
       "en": "speech",
-      "ar": "الخطاب"
+      "ar": "الخطاب",
+      "example": {
+        "es": "El discurso abre con una anécdota.",
+        "en": "The speech opens with an anecdote.",
+        "ar": "يفتح الخطاب بحكاية طريفة."
+      }
     },
     {
       "es": "el público",
       "ipa": "/ˈel ˈpuβliko/",
       "en": "audience",
-      "ar": "الجمهور"
+      "ar": "الجمهور",
+      "example": {
+        "es": "El público espera mensajes claros.",
+        "en": "The audience expects clear messages.",
+        "ar": "يتوقع الجمهور رسائل واضحة."
+      }
     },
     {
       "es": "el orador",
       "ipa": "/ˈel oɾaˈðoɾ/",
       "en": "speaker / orator",
-      "ar": "الخطيب"
+      "ar": "الخطيب",
+      "example": {
+        "es": "El orador modula el volumen.",
+        "en": "The speaker modulates volume.",
+        "ar": "يضبط الخطيب مستوى الصوت."
+      }
     },
     {
       "es": "la persuasión",
       "ipa": "/ˈla peɾsuaˈsion/",
       "en": "persuasion",
-      "ar": "الإقناع"
+      "ar": "الإقناع",
+      "example": {
+        "es": "La persuasión combina ethos, logos y pathos.",
+        "en": "Persuasion combines ethos, logos and pathos.",
+        "ar": "يجمع الإقناع ethos و logos و pathos."
+      }
     },
     {
       "es": "la retórica",
       "ipa": "/ˈla reˈtoɾika/",
       "en": "rhetoric",
-      "ar": "البلاغة"
+      "ar": "البلاغة",
+      "example": {
+        "es": "La retórica ordena la persuasión.",
+        "en": "Rhetoric orders persuasion.",
+        "ar": "ترتّب البلاغة الإقناع."
+      }
     },
     {
       "es": "el énfasis",
       "ipa": "/ˈel ˈenfasis/",
       "en": "emphasis",
-      "ar": "التوكيد"
+      "ar": "التوكيد",
+      "example": {
+        "es": "El énfasis cae en la palabra clave.",
+        "en": "Emphasis falls on the key word.",
+        "ar": "يرتكز التوكيد على الكلمة المفتاحية."
+      }
     },
     {
       "es": "la pausa",
       "ipa": "/ˈla ˈpausa/",
       "en": "pause",
-      "ar": "التوقفة"
+      "ar": "التوقفة",
+      "example": {
+        "es": "La pausa dramática llama la atención.",
+        "en": "The dramatic pause draws attention.",
+        "ar": "يجذب التوقفة الدرامية الانتباه."
+      }
     },
     {
       "es": "el gesto",
       "ipa": "/ˈel ˈxesto/",
       "en": "gesture",
-      "ar": "الإيماءة"
+      "ar": "الإيماءة",
+      "example": {
+        "es": "El gesto refuerza el mensaje.",
+        "en": "The gesture reinforces the message.",
+        "ar": "يقوّي الإيماءة الرسالة."
+      }
     },
     {
       "es": "el contacto visual",
       "ipa": "/ˈel koˈntakto biˈsual/",
       "en": "eye contact",
-      "ar": "التواصل البصري"
+      "ar": "التواصل البصري",
+      "example": {
+        "es": "El contacto visual genera confianza.",
+        "en": "Eye contact builds trust.",
+        "ar": "يبني التواصل البصري الثقة."
+      }
     },
     {
       "es": "el tono de voz",
       "ipa": "/ˈel ˈtono ˈde ˈbos/",
       "en": "tone of voice",
-      "ar": "نبرة الصوت"
+      "ar": "نبرة الصوت",
+      "example": {
+        "es": "El tono de voz cambia el sentido.",
+        "en": "Tone of voice changes meaning.",
+        "ar": "يغيّر نبرة الصوت المعنى."
+      }
     },
     {
       "es": "la apertura",
       "ipa": "/ˈla apeˈɾtuɾa/",
       "en": "opening",
-      "ar": "الافتتاحية"
+      "ar": "الافتتاحية",
+      "example": {
+        "es": "La apertura del discurso engancha.",
+        "en": "The opening of the speech hooks.",
+        "ar": "تجذب الافتتاحية الخطاب المستمع."
+      }
     },
     {
       "es": "el cierre",
       "ipa": "/ˈel ˈsiere/",
       "en": "closing",
-      "ar": "الخاتمة"
+      "ar": "الخاتمة",
+      "example": {
+        "es": "El cierre resume la tesis.",
+        "en": "The closing summarizes the thesis.",
+        "ar": "يلخّص الخاتمة الأطروحة."
+      }
     },
     {
       "es": "la pregunta retórica",
       "ipa": "/ˈla pɾeˈɣunta reˈtoɾika/",
       "en": "rhetorical question",
-      "ar": "السؤال البلاغي"
+      "ar": "السؤال البلاغي",
+      "example": {
+        "es": "La pregunta retórica no espera respuesta.",
+        "en": "A rhetorical question expects no answer.",
+        "ar": "لا تنتظر السؤال البلاغي جوابًا."
+      }
     },
     {
       "es": "la anécdota",
       "ipa": "/ˈla aˈnekdota/",
       "en": "anecdote",
-      "ar": "الحكاية الطريفة"
+      "ar": "الحكاية الطريفة",
+      "example": {
+        "es": "La anécdota personal humaniza.",
+        "en": "Personal anecdote humanizes.",
+        "ar": "توظف الحكاية الطريفة الشخصية إنسانًا."
+      }
     },
     {
       "es": "la cita",
       "ipa": "/ˈla ˈsita/",
       "en": "quotation",
-      "ar": "الاقتباس"
+      "ar": "الاقتباس",
+      "example": {
+        "es": "La cita textual necesita comillas.",
+        "en": "Direct quotation needs quotation marks.",
+        "ar": "يحتاج الاقتباس النصي إلى علامات تنصيص."
+      }
     },
     {
       "es": "el esquema",
       "ipa": "/ˈel eˈskema/",
       "en": "outline",
-      "ar": "الخطة / المخطط"
+      "ar": "الخطة / المخطط",
+      "example": {
+        "es": "El esquema ordena las ideas antes de hablar.",
+        "en": "The outline orders ideas before speaking.",
+        "ar": "يرتب المخطط الأفكار قبل الكلام."
+      }
     },
     {
       "es": "el teleprompter",
       "ipa": "/ˈel telepɾoˈmpteɾ/",
       "en": "teleprompter",
-      "ar": "شاشة النص"
+      "ar": "شاشة النص",
+      "example": {
+        "es": "El teleprompter ayuda al presentador.",
+        "en": "The teleprompter helps the presenter.",
+        "ar": "يساعد شاشة النص المقدّم."
+      }
     },
     {
       "es": "la improvisación",
       "ipa": "/ˈla impɾoβisaˈsion/",
       "en": "impromptu / improvisation",
-      "ar": "الارتجال"
+      "ar": "الارتجال",
+      "example": {
+        "es": "La improvisación exige dominar el tema.",
+        "en": "Improvisation requires mastering the topic.",
+        "ar": "تتطلب الارتجال إتقان الموضوع."
+      }
     }
   ],
   "grammar": [
@@ -269,18 +359,18 @@
       "options": [
         {
           "es": "Es la pausa lo que sostiene al público.",
-          "en": "É a pausa que sustenta a plateia.",
-          "ar": "É a pausa que sustenta a plateia."
+          "en": "It is the pause that holds the audience.",
+          "ar": "هو التوقف الذي يدعم الجمهور."
         },
         {
           "es": "Es la pausa lo que ella sostiene.",
-          "en": "É a pausa que ela sustenta.",
-          "ar": "É a pausa que ela sustenta."
+          "en": "It is the pause that she holds.",
+          "ar": "هو التوقف الذي تدعمه."
         },
         {
           "es": "El público que es la pausa sostiene. (incorrecto)",
-          "en": "A plateia que é a pausa sustenta.",
-          "ar": "A plateia que é a pausa sustenta."
+          "en": "The audience holds incorrect.",
+          "ar": "الجمهور يدعم (خطأ)."
         }
       ],
       "answer": "Es la pausa lo que sostiene al público.",
@@ -325,8 +415,8 @@
       "type": "translation",
       "prompt": {
         "es": "Traduce al español: 'rhetorical question'",
-        "en": "Translate into Portuguese: 'rhetorical question'",
-        "ar": "ترجم إلى البرتغالية: 'rhetorical question'"
+        "en": "Translate into Spanish: 'rhetorical question'",
+        "ar": "ترجم إلى بالإسبانية: 'rhetorical question'"
       },
       "options": [],
       "answer": "pregunta retórica",
@@ -335,6 +425,198 @@
         "en": "'Pergunta retórica' is the established term.",
         "ar": "المصطلح المتعارف عليه هو 'pergunta retórica'."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'opening'?",
+        "en": "Which word means 'opening'?",
+        "ar": "أي كلمة تعني 'الافتتاحية'؟"
+      },
+      "options": [
+        {
+          "es": "el público",
+          "en": "audience",
+          "ar": "الجمهور"
+        },
+        {
+          "es": "la cita",
+          "en": "quotation",
+          "ar": "الاقتباس"
+        },
+        {
+          "es": "la apertura",
+          "en": "opening",
+          "ar": "الافتتاحية"
+        }
+      ],
+      "answer": "la apertura",
+      "explanation": {
+        "es": "'la apertura' significa 'opening'.",
+        "en": "'la apertura' means 'opening'.",
+        "ar": "تعني 'la apertura' 'الافتتاحية'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'quotation'",
+        "en": "Choose the Spanish word: 'quotation'",
+        "ar": "اختر الكلمة بالإسبانية: 'الاقتباس'"
+      },
+      "options": [
+        {
+          "es": "la cita",
+          "en": "quotation",
+          "ar": "الاقتباس"
+        },
+        {
+          "es": "el público",
+          "en": "audience",
+          "ar": "الجمهور"
+        },
+        {
+          "es": "el teleprompter",
+          "en": "teleprompter",
+          "ar": "شاشة النص"
+        }
+      ],
+      "answer": "la cita",
+      "explanation": {
+        "es": "'la cita' significa 'quotation'.",
+        "en": "'la cita' means 'quotation'.",
+        "ar": "تعني 'la cita' 'الاقتباس'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'audience' en español?",
+        "en": "How do you say 'audience' in Spanish?",
+        "ar": "كيف تقول 'الجمهور' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el público",
+          "en": "audience",
+          "ar": "الجمهور"
+        },
+        {
+          "es": "el esquema",
+          "en": "outline",
+          "ar": "الخطة / المخطط"
+        },
+        {
+          "es": "el contacto visual",
+          "en": "eye contact",
+          "ar": "التواصل البصري"
+        }
+      ],
+      "answer": "el público",
+      "explanation": {
+        "es": "'el público' significa 'audience'.",
+        "en": "'el público' means 'audience'.",
+        "ar": "تعني 'el público' 'الجمهور'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'rhetoric'?",
+        "en": "Which word means 'rhetoric'?",
+        "ar": "أي كلمة تعني 'البلاغة'؟"
+      },
+      "options": [
+        {
+          "es": "la persuasión",
+          "en": "persuasion",
+          "ar": "الإقناع"
+        },
+        {
+          "es": "el teleprompter",
+          "en": "teleprompter",
+          "ar": "شاشة النص"
+        },
+        {
+          "es": "la retórica",
+          "en": "rhetoric",
+          "ar": "البلاغة"
+        }
+      ],
+      "answer": "la retórica",
+      "explanation": {
+        "es": "'la retórica' significa 'rhetoric'.",
+        "en": "'la retórica' means 'rhetoric'.",
+        "ar": "تعني 'la retórica' 'البلاغة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Improvisation requires mastering the topic.\"",
+        "en": "Translate into Spanish: \"Improvisation requires mastering the topic.\"",
+        "ar": "ترجم إلى الإسبانية: \"تتطلب الارتجال إتقان الموضوع.\""
+      },
+      "options": [],
+      "answer": "La improvisación exige dominar el tema.",
+      "explanation": {
+        "es": "Respuesta: \"La improvisación exige dominar el tema.\".",
+        "en": "Answer: \"La improvisación exige dominar el tema.\".",
+        "ar": "الإجابة: \"La improvisación exige dominar el tema.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The audience expects clear messages.\"",
+        "en": "Translate into Spanish: \"The audience expects clear messages.\"",
+        "ar": "ترجم إلى الإسبانية: \"يتوقع الجمهور رسائل واضحة.\""
+      },
+      "options": [],
+      "answer": "El público espera mensajes claros.",
+      "explanation": {
+        "es": "Respuesta: \"El público espera mensajes claros.\".",
+        "en": "Answer: \"El público espera mensajes claros.\".",
+        "ar": "الإجابة: \"El público espera mensajes claros.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"A rhetorical question expects no answer.\"",
+        "en": "Translate into Spanish: \"A rhetorical question expects no answer.\"",
+        "ar": "ترجم إلى الإسبانية: \"لا تنتظر السؤال البلاغي جوابًا.\""
+      },
+      "options": [],
+      "answer": "La pregunta retórica no espera respuesta.",
+      "explanation": {
+        "es": "Respuesta: \"La pregunta retórica no espera respuesta.\".",
+        "en": "Answer: \"La pregunta retórica no espera respuesta.\".",
+        "ar": "الإجابة: \"La pregunta retórica no espera respuesta.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The teleprompter helps the presenter.\"",
+        "en": "Translate into Spanish: \"The teleprompter helps the presenter.\"",
+        "ar": "ترجم إلى الإسبانية: \"يساعد شاشة النص المقدّم.\""
+      },
+      "options": [],
+      "answer": "El teleprompter ayuda al presentador.",
+      "explanation": {
+        "es": "Respuesta: \"El teleprompter ayuda al presentador.\".",
+        "en": "Answer: \"El teleprompter ayuda al presentador.\".",
+        "ar": "الإجابة: \"El teleprompter ayuda al presentador.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

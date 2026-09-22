@@ -1,322 +1,594 @@
 {
- "id": "B1-10",
- "level": "B1",
- "level_name": {
-  "es": "Intermedio",
-  "en": "Intermediate",
-  "ar": "متوسط"
- },
- "title": {
-  "es": "Fiestas y Celebraciones",
-  "en": "Parties and Celebrations",
-  "ar": "الحفلات والاحتفالات"
- },
- "objectives": [
-  {
-   "es": "Hablar de fiestas, celebraciones e invitaciones.",
-   "en": "Talk about parties, celebrations and invitations.",
-   "ar": "التحدث عن الحفلات والاحتفالات والدعوات."
+  "id": "B1-10",
+  "level": "B1",
+  "level_name": {
+    "es": "Intermedio",
+    "en": "Intermediate",
+    "ar": "متوسط"
   },
-  {
-   "es": "Usar el imperativo para invitar y sugerir.",
-   "en": "Use the imperative to invite and suggest.",
-   "ar": "استخدام صيغة الأمر للدعوة والاقتراح."
-  }
- ],
- "vocabulary": [
-  {
-   "es": "la fiesta",
-   "ipa": "/ˈla ˈfiesta/",
-   "en": "the party",
-   "ar": "الحفلة"
-  },
-  {
-   "es": "el cumpleaños",
-   "ipa": "/ˈel kuˈmpleaɲos/",
-   "en": "the birthday",
-   "ar": "عيد الميلاد"
-  },
-  {
-   "es": "la boda",
-   "ipa": "/ˈla ˈboða/",
-   "en": "the wedding",
-   "ar": "حفل الزفاف"
-  },
-  {
-   "es": "la celebración",
-   "ipa": "/ˈla seleβɾaˈsion/",
-   "en": "the celebration",
-   "ar": "الاحتفال"
-  },
-  {
-   "es": "el regalo",
-   "ipa": "/ˈel reˈɣalo/",
-   "en": "the gift",
-   "ar": "الهدية"
-  },
-  {
-   "es": "el invitado",
-   "ipa": "/ˈel inbiˈtaðo/",
-   "en": "the guest",
-   "ar": "المدعو / الضيف"
-  },
-  {
-   "es": "el pastel",
-   "ipa": "/ˈel paˈstel/",
-   "en": "the cake",
-   "ar": "الكعكة"
-  },
-  {
-   "es": "la vela",
-   "ipa": "/ˈla ˈbela/",
-   "en": "the candle",
-   "ar": "الشمعة"
-  },
-  {
-   "es": "el brindis",
-   "ipa": "/ˈel ˈbɾindis/",
-   "en": "the toast",
-   "ar": "النخب"
-  },
-  {
-   "es": "la barbacoa",
-   "ipa": "/ˈla baˈɾbakoa/",
-   "en": "the barbecue",
-   "ar": "الشواء"
-  },
-  {
-   "es": "bailar",
-   "ipa": "/baiˈlaɾ/",
-   "en": "to dance",
-   "ar": "يرقص"
-  },
-  {
-   "es": "cantar",
-   "ipa": "/kaˈntaɾ/",
-   "en": "to sing",
-   "ar": "يغني"
-  },
-  {
-   "es": "celebrar",
-   "ipa": "/seleˈβɾaɾ/",
-   "en": "to celebrate",
-   "ar": "يحتفل"
-  },
-  {
-   "es": "felicidades",
-   "ipa": "/felisiˈðaðes/",
-   "en": "congratulations",
-   "ar": "مبروك / تهانينا"
-  },
-  {
-   "es": "disfrutar",
-   "ipa": "/disfɾuˈtaɾ/",
-   "en": "to enjoy",
-   "ar": "يستمتع"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Imperativo para invitaciones y sugerencias",
-    "en": "Imperative for invitations and suggestions",
-    "ar": "صيغة الأمر للدعوات والاقتراحات"
-   },
-   "explanation": {
-    "es": "Para invitar y sugerir, usamos el imperativo (vamos, haz, ven, disfruta) y la forma negativa con 'no' + imperativo (no olvides, no te quedes).",
-    "en": "To invite and suggest we use the imperative (vamos, haz, ven, disfruta) and the negative form with 'no' + imperative (no olvides, no te quedes).",
-    "ar": "للدعوة والاقتراح نستخدم صيغة الأمر (vamos، haz، ven، disfruta) والصيغة المنفية بـ 'no' + الأمر (no olvides، no te quedes)."
-   },
-   "examples": [
-    {
-     "es": "¡Vamos a celebrar su cumpleaños!",
-     "en": "Let's celebrate her birthday!",
-     "ar": "هيا نحتفل بعيد ميلادها!"
-    },
-    {
-     "es": "¡Haz un brindis por la pareja!",
-     "en": "Make a toast to the couple!",
-     "ar": "ارفع نخباً للعروسين!"
-    },
-    {
-     "es": "No olvides traer los regalos.",
-     "en": "Don't forget to bring the gifts.",
-     "ar": "لا تنسَ إحضار الهدايا."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Hora y fecha de eventos",
-    "en": "Time and date of events",
-    "ar": "وقت الأحداث وتاريخها"
-   },
-   "explanation": {
-    "es": "Para marcar eventos usamos preposiciones de tiempo: 'el sábado', 'el 15 de mayo', 'a las ocho', 'por la mañana', 'por la noche'.",
-    "en": "To schedule events we use time prepositions: 'no sábado', 'dia 15 de maio', 'às oito horas', 'de manhã', 'à noite'.",
-    "ar": "لتحديد مواعيد الأحداث نستخدم حروف الجر الزمنية: 'يوم السبت' و'في 15 مايو' و'في الساعة الثامنة' و'صباحاً' و'مساءً'."
-   },
-   "examples": [
-    {
-     "es": "La fiesta será el sábado a las ocho de la noche.",
-     "en": "The party will be on Saturday at eight in the evening.",
-     "ar": "ستكون الحفلة يوم السبت في الساعة الثامنة مساءً."
-    },
-    {
-     "es": "Su cumpleaños es el 15 de mayo.",
-     "en": "Her birthday is on May 15th.",
-     "ar": "عيد ميلادها في 15 مايو."
-    },
-    {
-     "es": "La barbacoa empieza por la mañana.",
-     "en": "The barbecue starts in the morning.",
-     "ar": "يبدأ الشواء صباحاً."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "Invitación a la fiesta",
-   "en": "Invitation to the party",
-   "ar": "دعوة إلى الحفلة"
+    "es": "Fiestas y Celebraciones",
+    "en": "Parties and Celebrations",
+    "ar": "الحفلات والاحتفالات"
   },
-  "lines": [
-   {
-    "speaker": "Marta",
-    "es": "¡Vamos a celebrar mi cumpleaños el viernes!",
-    "en": "Let's celebrate my birthday on Friday!",
-    "ar": "هيا نحتفل بعيد ميلادي يوم الجمعة!"
-   },
-   {
-    "speaker": "Hugo",
-    "es": "¡Qué genial! ¿La fiesta será el sábado?",
-    "en": "How great! Will the party be on Saturday?",
-    "ar": "رائع! هل ستكون الحفلة يوم السبت؟"
-   },
-   {
-    "speaker": "Marta",
-    "es": "Sí, empieza a las ocho de la noche en mi casa.",
-    "en": "Yes, it starts at eight in the evening at my house.",
-    "ar": "نعم، تبدأ الساعة الثامنة مساءً في منزلي."
-   },
-   {
-    "speaker": "Hugo",
-    "es": "Voy a preparar un brindis especial. ¿Puedo traer un pastel?",
-    "en": "I will prepare a special toast. Can I bring a cake?",
-    "ar": "سأحضّر نخباً خاصاً. هل يمكنني إحضار كعكة؟"
-   },
-   {
-    "speaker": "Marta",
-    "es": "¡Claro! No olvides invitar a Ana.",
-    "en": "Of course! Don't forget to invite Ana.",
-    "ar": "بالطبع! لا تنسَ دعوة آنا."
-   },
-   {
-    "speaker": "Hugo",
-    "es": "¡De acuerdo. Vamos a disfrutar la noche!",
-    "en": "Deal. Let's enjoy the night!",
-    "ar": "اتفقنا. هيا نستمتع بالمساء!"
-   }
+  "objectives": [
+    {
+      "es": "Hablar de fiestas, celebraciones e invitaciones.",
+      "en": "Talk about parties, celebrations and invitations.",
+      "ar": "التحدث عن الحفلات والاحتفالات والدعوات."
+    },
+    {
+      "es": "Usar el imperativo para invitar y sugerir.",
+      "en": "Use the imperative to invite and suggest.",
+      "ar": "استخدام صيغة الأمر للدعوة والاقتراح."
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la fiesta",
+      "ipa": "/ˈla ˈfiesta/",
+      "en": "the party",
+      "ar": "الحفلة",
+      "example": {
+        "es": "La fiesta de graduación fue elegante.",
+        "en": "The graduation party was elegant.",
+        "ar": "كانت حفلة التخرج أنيقة."
+      }
+    },
+    {
+      "es": "el cumpleaños",
+      "ipa": "/ˈel kuˈmpleaɲos/",
+      "en": "the birthday",
+      "ar": "عيد الميلاد",
+      "example": {
+        "es": "El cumpleaños de mi hija es en mayo.",
+        "en": "My daughter's birthday is in May.",
+        "ar": "عيد ميلاد ابنتي في مايو."
+      }
+    },
+    {
+      "es": "la boda",
+      "ipa": "/ˈla ˈboða/",
+      "en": "the wedding",
+      "ar": "حفل الزفاف",
+      "example": {
+        "es": "La boda será en primavera.",
+        "en": "The wedding will be in spring.",
+        "ar": "سيكون الزفاف في الربيع."
+      }
+    },
+    {
+      "es": "la celebración",
+      "ipa": "/ˈla seleβɾaˈsion/",
+      "en": "the celebration",
+      "ar": "الاحتفال",
+      "example": {
+        "es": "La celebración duró hasta la madrugada.",
+        "en": "The celebration lasted until dawn.",
+        "ar": "استمر الاحتفال حتى الفجر."
+      }
+    },
+    {
+      "es": "el regalo",
+      "ipa": "/ˈel reˈɣalo/",
+      "en": "the gift",
+      "ar": "الهدية",
+      "example": {
+        "es": "Envuelve el regalo con papel rojo.",
+        "en": "Wrap the gift in red paper.",
+        "ar": "لفّ الهدية بورقة حمراء."
+      }
+    },
+    {
+      "es": "el invitado",
+      "ipa": "/ˈel inbiˈtaðo/",
+      "en": "the guest",
+      "ar": "المدعو / الضيف",
+      "example": {
+        "es": "El invitado llegó con un regalo.",
+        "en": "Each guest received a souvenir.",
+        "ar": "حصل كل مدعو على تذكار."
+      }
+    },
+    {
+      "es": "el pastel",
+      "ipa": "/ˈel paˈstel/",
+      "en": "the cake",
+      "ar": "الكعكة",
+      "example": {
+        "es": "El pastel de chocolate es mi favorito.",
+        "en": "The chocolate cake is my favorite.",
+        "ar": "الكعكة الشوكولاتية المفضلة لدي."
+      }
+    },
+    {
+      "es": "la vela",
+      "ipa": "/ˈla ˈbela/",
+      "en": "the candle",
+      "ar": "الشمعة",
+      "example": {
+        "es": "La vela azul arde suavemente.",
+        "en": "Blow out the candles and make a wish.",
+        "ar": "أطفئ الشمع واطلب أمنية."
+      }
+    },
+    {
+      "es": "el brindis",
+      "ipa": "/ˈel ˈbɾindis/",
+      "en": "the toast",
+      "ar": "النخب",
+      "example": {
+        "es": "El brindis por los novios emocionó a todos.",
+        "en": "The toast to the newlyweds moved everyone.",
+        "ar": "أثّر نخب العروسين في الجميع."
+      }
+    },
+    {
+      "es": "la barbacoa",
+      "ipa": "/ˈla baˈɾbakoa/",
+      "en": "the barbecue",
+      "ar": "الشواء",
+      "example": {
+        "es": "La barbacoa del sábado fue genial.",
+        "en": "We organized a barbecue in the garden.",
+        "ar": "نظمنا شواء في الحديقة."
+      }
+    },
+    {
+      "es": "bailar",
+      "ipa": "/baiˈlaɾ/",
+      "en": "to dance",
+      "ar": "يرقص",
+      "example": {
+        "es": "A mi hermana le encanta bailar.",
+        "en": "My sister loves to dance.",
+        "ar": "تحب أختي الرقص."
+      }
+    },
+    {
+      "es": "cantar",
+      "ipa": "/kaˈntaɾ/",
+      "en": "to sing",
+      "ar": "يغني",
+      "example": {
+        "es": "Cantar canciones viejas une al grupo.",
+        "en": "We sang all the songs together.",
+        "ar": "غنّينا كل الأغاني معًا."
+      }
+    },
+    {
+      "es": "celebrar",
+      "ipa": "/seleˈβɾaɾ/",
+      "en": "to celebrate",
+      "ar": "يحتفل",
+      "example": {
+        "es": "Vamos a celebrar el resultado.",
+        "en": "We are going to celebrate the result.",
+        "ar": "سنتجذف النتيجة."
+      }
+    },
+    {
+      "es": "felicidades",
+      "ipa": "/felisiˈðaðes/",
+      "en": "congratulations",
+      "ar": "مبروك / تهانينا",
+      "example": {
+        "es": "Felicidades por tu nuevo trabajo.",
+        "en": "Congratulations on your new job.",
+        "ar": "مبروك على عملك الجديد."
+      }
+    },
+    {
+      "es": "disfrutar",
+      "ipa": "/disfɾuˈtaɾ/",
+      "en": "to enjoy",
+      "ar": "يستمتع",
+      "example": {
+        "es": "Disfrutar la fiesta es lo importante.",
+        "en": "Enjoy every moment of the parties.",
+        "ar": "استمتع بكل لحظة من الاحتفالات."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Imperativo para invitaciones y sugerencias",
+        "en": "Imperative for invitations and suggestions",
+        "ar": "صيغة الأمر للدعوات والاقتراحات"
+      },
+      "explanation": {
+        "es": "Para invitar y sugerir, usamos el imperativo (vamos, haz, ven, disfruta) y la forma negativa con 'no' + imperativo (no olvides, no te quedes).",
+        "en": "To invite and suggest we use the imperative (vamos, haz, ven, disfruta) and the negative form with 'no' + imperative (no olvides, no te quedes).",
+        "ar": "للدعوة والاقتراح نستخدم صيغة الأمر (vamos، haz، ven، disfruta) والصيغة المنفية بـ 'no' + الأمر (no olvides، no te quedes)."
+      },
+      "examples": [
+        {
+          "es": "¡Vamos a celebrar su cumpleaños!",
+          "en": "Let's celebrate her birthday!",
+          "ar": "هيا نحتفل بعيد ميلادها!"
+        },
+        {
+          "es": "¡Haz un brindis por la pareja!",
+          "en": "Make a toast to the couple!",
+          "ar": "ارفع نخباً للعروسين!"
+        },
+        {
+          "es": "No olvides traer los regalos.",
+          "en": "Don't forget to bring the gifts.",
+          "ar": "لا تنسَ إحضار الهدايا."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Hora y fecha de eventos",
+        "en": "Time and date of events",
+        "ar": "وقت الأحداث وتاريخها"
+      },
+      "explanation": {
+        "es": "Para marcar eventos usamos preposiciones de tiempo: 'el sábado', 'el 15 de mayo', 'a las ocho', 'por la mañana', 'por la noche'.",
+        "en": "To schedule events we use time prepositions: 'no sábado', 'dia 15 de maio', 'às oito horas', 'de manhã', 'à noite'.",
+        "ar": "لتحديد مواعيد الأحداث نستخدم حروف الجر الزمنية: 'يوم السبت' و'في 15 مايو' و'في الساعة الثامنة' و'صباحاً' و'مساءً'."
+      },
+      "examples": [
+        {
+          "es": "La fiesta será el sábado a las ocho de la noche.",
+          "en": "The party will be on Saturday at eight in the evening.",
+          "ar": "ستكون الحفلة يوم السبت في الساعة الثامنة مساءً."
+        },
+        {
+          "es": "Su cumpleaños es el 15 de mayo.",
+          "en": "Her birthday is on May 15th.",
+          "ar": "عيد ميلادها في 15 مايو."
+        },
+        {
+          "es": "La barbacoa empieza por la mañana.",
+          "en": "The barbecue starts in the morning.",
+          "ar": "يبدأ الشواء صباحاً."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Invitación a la fiesta",
+      "en": "Invitation to the party",
+      "ar": "دعوة إلى الحفلة"
+    },
+    "lines": [
+      {
+        "speaker": "Marta",
+        "es": "¡Vamos a celebrar mi cumpleaños el viernes!",
+        "en": "Let's celebrate my birthday on Friday!",
+        "ar": "هيا نحتفل بعيد ميلادي يوم الجمعة!"
+      },
+      {
+        "speaker": "Hugo",
+        "es": "¡Qué genial! ¿La fiesta será el sábado?",
+        "en": "How great! Will the party be on Saturday?",
+        "ar": "رائع! هل ستكون الحفلة يوم السبت؟"
+      },
+      {
+        "speaker": "Marta",
+        "es": "Sí, empieza a las ocho de la noche en mi casa.",
+        "en": "Yes, it starts at eight in the evening at my house.",
+        "ar": "نعم، تبدأ الساعة الثامنة مساءً في منزلي."
+      },
+      {
+        "speaker": "Hugo",
+        "es": "Voy a preparar un brindis especial. ¿Puedo traer un pastel?",
+        "en": "I will prepare a special toast. Can I bring a cake?",
+        "ar": "سأحضّر نخباً خاصاً. هل يمكنني إحضار كعكة؟"
+      },
+      {
+        "speaker": "Marta",
+        "es": "¡Claro! No olvides invitar a Ana.",
+        "en": "Of course! Don't forget to invite Ana.",
+        "ar": "بالطبع! لا تنسَ دعوة آنا."
+      },
+      {
+        "speaker": "Hugo",
+        "es": "¡De acuerdo. Vamos a disfrutar la noche!",
+        "en": "Deal. Let's enjoy the night!",
+        "ar": "اتفقنا. هيا نستمتع بالمساء!"
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "La fiesta de San Juan",
+      "en": "The June festival",
+      "ar": "مهرجان يونيو"
+    },
+    "text_es": "Las fiestas de San Juan se celebran en junio en toda España. Las personas se visten con ropa tradicional y bailan. Comemos comidas típicas, como maíz y buñuelos. Es una celebración muy animada y alegre.",
+    "text_en": "June festivals happen in June all over Brazil. People dress in country clothes and dance the quadrilha. We eat typical foods, such as corn and canjica. It is a very lively and cheerful celebration.",
+    "text_ar": "تقام مهرجانات يونيو في كل أنحاء البرازيل. يرتدي الناس الملابس الريفية ويرقصون رقصة الكوادريلا. نأكل أطباقاً تقليدية مثل الذرة والكانجيكا. إنه احتفال مفعم بالحيوية والبهجة."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa: \"La fiesta ___ el sábado a las ocho.\"",
+        "en": "Complete: \"The party ___ on Saturday at eight.\"",
+        "ar": "أكمل: \"الحفلة ___ يوم السبت في الثامنة.\""
+      },
+      "options": [
+        {
+          "es": "será",
+          "en": "will be",
+          "ar": "ستكون"
+        },
+        {
+          "es": "fue",
+          "en": "was",
+          "ar": "كانت"
+        },
+        {
+          "es": "es",
+          "en": "is",
+          "ar": "تكون"
+        },
+        {
+          "es": "está",
+          "en": "is (progressive)",
+          "ar": "هي"
+        }
+      ],
+      "answer": "será",
+      "explanation": {
+        "es": "La fecha está en el futuro, así que usamos el futuro simple: 'será'.",
+        "en": "The date is in the future, so we use the simple future: 'será'.",
+        "ar": "الموعد في المستقبل، لذا نستخدم المستقبل البسيط: 'ستكون'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa con el imperativo: \"___ un brindis por la pareja!\"",
+        "en": "Complete with the imperative: \"___ a toast to the couple!\"",
+        "ar": "أكمل بصيغة الأمر: \"___ نخباً للعروسين!\""
+      },
+      "options": [
+        {
+          "es": "Haz",
+          "en": "Make",
+          "ar": "ارفع"
+        },
+        {
+          "es": "Haz",
+          "en": "Make (informal)",
+          "ar": "تفعل"
+        },
+        {
+          "es": "Haciendo",
+          "en": "Making",
+          "ar": "ترفع"
+        },
+        {
+          "es": "Hecho",
+          "en": "Done",
+          "ar": "رفعت"
+        }
+      ],
+      "answer": "Haz",
+      "explanation": {
+        "es": "Con 'tú', el imperativo afirmativo es 'haz'.",
+        "en": "With 'tú', the affirmative imperative is 'haz'.",
+        "ar": "مع الضمير 'tú' تكون صيغة الأمر المثبتة 'haz'."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"¡Vamos a celebrar su cumpleaños!\"",
+        "en": "Translate to Spanish: \"Let's celebrate her birthday!\"",
+        "ar": "ترجم إلى بالإسبانية: \"Let's celebrate her birthday!\""
+      },
+      "options": [],
+      "answer": "¡Vamos a celebrar su cumpleaños!",
+      "explanation": {
+        "es": "'Vamos a + infinitivo' expresa sugerencia o invitación: 'let's ...'.",
+        "en": "'Vamos + infinitive' expresses a suggestion or invitation: 'let's ...'.",
+        "ar": "يعبّر 'vamos + المصدر' عن اقتراح أو دعوة أي 'هيا بنا'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the gift'?",
+        "en": "Which word means 'the gift'?",
+        "ar": "أي كلمة تعني 'الهدية'؟"
+      },
+      "options": [
+        {
+          "es": "cantar",
+          "en": "to sing",
+          "ar": "يغني"
+        },
+        {
+          "es": "disfrutar",
+          "en": "to enjoy",
+          "ar": "يستمتع"
+        },
+        {
+          "es": "el regalo",
+          "en": "the gift",
+          "ar": "الهدية"
+        }
+      ],
+      "answer": "el regalo",
+      "explanation": {
+        "es": "'el regalo' significa 'the gift'.",
+        "en": "'el regalo' means 'the gift'.",
+        "ar": "تعني 'el regalo' 'الهدية'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the wedding'",
+        "en": "Choose the Spanish word: 'the wedding'",
+        "ar": "اختر الكلمة بالإسبانية: 'حفل الزفاف'"
+      },
+      "options": [
+        {
+          "es": "disfrutar",
+          "en": "to enjoy",
+          "ar": "يستمتع"
+        },
+        {
+          "es": "el brindis",
+          "en": "the toast",
+          "ar": "النخب"
+        },
+        {
+          "es": "la boda",
+          "en": "the wedding",
+          "ar": "حفل الزفاف"
+        }
+      ],
+      "answer": "la boda",
+      "explanation": {
+        "es": "'la boda' significa 'the wedding'.",
+        "en": "'la boda' means 'the wedding'.",
+        "ar": "تعني 'la boda' 'حفل الزفاف'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the barbecue' en español?",
+        "en": "How do you say 'the barbecue' in Spanish?",
+        "ar": "كيف تقول 'الشواء' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "la barbacoa",
+          "en": "the barbecue",
+          "ar": "الشواء"
+        },
+        {
+          "es": "felicidades",
+          "en": "congratulations",
+          "ar": "مبروك / تهانينا"
+        },
+        {
+          "es": "la vela",
+          "en": "the candle",
+          "ar": "الشمعة"
+        },
+        {
+          "es": "el brindis",
+          "en": "the toast",
+          "ar": "النخب"
+        }
+      ],
+      "answer": "la barbacoa",
+      "explanation": {
+        "es": "'la barbacoa' significa 'the barbecue'.",
+        "en": "'la barbacoa' means 'the barbecue'.",
+        "ar": "تعني 'la barbacoa' 'الشواء'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the wedding'?",
+        "en": "Which word means 'the wedding'?",
+        "ar": "أي كلمة تعني 'حفل الزفاف'؟"
+      },
+      "options": [
+        {
+          "es": "la celebración",
+          "en": "the celebration",
+          "ar": "الاحتفال"
+        },
+        {
+          "es": "la barbacoa",
+          "en": "the barbecue",
+          "ar": "الشواء"
+        },
+        {
+          "es": "la boda",
+          "en": "the wedding",
+          "ar": "حفل الزفاف"
+        }
+      ],
+      "answer": "la boda",
+      "explanation": {
+        "es": "'la boda' significa 'the wedding'.",
+        "en": "'la boda' means 'the wedding'.",
+        "ar": "تعني 'la boda' 'حفل الزفاف'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"My daughter's birthday is in May.\"",
+        "en": "Translate into Spanish: \"My daughter's birthday is in May.\"",
+        "ar": "ترجم إلى الإسبانية: \"عيد ميلاد ابنتي في مايو.\""
+      },
+      "options": [],
+      "answer": "El cumpleaños de mi hija es en mayo.",
+      "explanation": {
+        "es": "Respuesta: \"El cumpleaños de mi hija es en mayo.\".",
+        "en": "Answer: \"El cumpleaños de mi hija es en mayo.\".",
+        "ar": "الإجابة: \"El cumpleaños de mi hija es en mayo.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"How great! Will the party be on Saturday?\"",
+        "en": "Translate into Spanish: \"How great! Will the party be on Saturday?\"",
+        "ar": "ترجم إلى الإسبانية: \"رائع! هل ستكون الحفلة يوم السبت؟\""
+      },
+      "options": [],
+      "answer": "¡Qué genial! ¿La fiesta será el sábado?",
+      "explanation": {
+        "es": "Respuesta: \"¡Qué genial! ¿La fiesta será el sábado?\".",
+        "en": "Answer: \"¡Qué genial! ¿La fiesta será el sábado?\".",
+        "ar": "الإجابة: \"¡Qué genial! ¿La fiesta será el sábado?\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Of course! Don't forget to invite Ana.\"",
+        "en": "Translate into Spanish: \"Of course! Don't forget to invite Ana.\"",
+        "ar": "ترجم إلى الإسبانية: \"بالطبع! لا تنسَ دعوة آنا.\""
+      },
+      "options": [],
+      "answer": "¡Claro! No olvides invitar a Ana.",
+      "explanation": {
+        "es": "Respuesta: \"¡Claro! No olvides invitar a Ana.\".",
+        "en": "Answer: \"¡Claro! No olvides invitar a Ana.\".",
+        "ar": "الإجابة: \"¡Claro! No olvides invitar a Ana.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The chocolate cake is my favorite.\"",
+        "en": "Translate into Spanish: \"The chocolate cake is my favorite.\"",
+        "ar": "ترجم إلى الإسبانية: \"الكعكة الشوكولاتية المفضلة لدي.\""
+      },
+      "options": [],
+      "answer": "El pastel de chocolate es mi favorito.",
+      "explanation": {
+        "es": "Respuesta: \"El pastel de chocolate es mi favorito.\".",
+        "en": "Answer: \"El pastel de chocolate es mi favorito.\".",
+        "ar": "الإجابة: \"El pastel de chocolate es mi favorito.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "La fiesta de San Juan",
-   "en": "The June festival",
-   "ar": "مهرجان يونيو"
-  },
-  "text_es": "Las fiestas de San Juan se celebran en junio en toda España. Las personas se visten con ropa tradicional y bailan. Comemos comidas típicas, como maíz y buñuelos. Es una celebración muy animada y alegre.",
-  "text_en": "June festivals happen in June all over Brazil. People dress in country clothes and dance the quadrilha. We eat typical foods, such as corn and canjica. It is a very lively and cheerful celebration.",
-  "text_ar": "تقام مهرجانات يونيو في كل أنحاء البرازيل. يرتدي الناس الملابس الريفية ويرقصون رقصة الكوادريلا. نأكل أطباقاً تقليدية مثل الذرة والكانجيكا. إنه احتفال مفعم بالحيوية والبهجة."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Completa: \"La fiesta ___ el sábado a las ocho.\"",
-    "en": "Complete: \"The party ___ on Saturday at eight.\"",
-    "ar": "أكمل: \"الحفلة ___ يوم السبت في الثامنة.\""
-   },
-   "options": [
-    {
-     "es": "será",
-     "en": "will be",
-     "ar": "ستكون"
-    },
-    {
-     "es": "fue",
-     "en": "was",
-     "ar": "كانت"
-    },
-    {
-     "es": "es",
-     "en": "is",
-     "ar": "تكون"
-    },
-    {
-     "es": "está",
-     "en": "is (progressive)",
-     "ar": "هي"
-    }
-   ],
-   "answer": "será",
-   "explanation": {
-    "es": "La fecha está en el futuro, así que usamos el futuro simple: 'será'.",
-    "en": "The date is in the future, so we use the simple future: 'será'.",
-    "ar": "الموعد في المستقبل، لذا نستخدم المستقبل البسيط: 'ستكون'."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Completa con el imperativo: \"___ un brindis por la pareja!\"",
-    "en": "Complete with the imperative: \"___ a toast to the couple!\"",
-    "ar": "أكمل بصيغة الأمر: \"___ نخباً للعروسين!\""
-   },
-   "options": [
-    {
-     "es": "Haz",
-     "en": "Make",
-     "ar": "ارفع"
-    },
-    {
-     "es": "Haz",
-     "en": "Make (informal)",
-     "ar": "تفعل"
-    },
-    {
-     "es": "Haciendo",
-     "en": "Making",
-     "ar": "ترفع"
-    },
-    {
-     "es": "Hecho",
-     "en": "Done",
-     "ar": "رفعت"
-    }
-   ],
-   "answer": "Haz",
-   "explanation": {
-    "es": "Con 'tú', el imperativo afirmativo es 'haz'.",
-    "en": "With 'tú', the affirmative imperative is 'haz'.",
-    "ar": "مع الضمير 'tú' تكون صيغة الأمر المثبتة 'haz'."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce al español: \"¡Vamos a celebrar su cumpleaños!\"",
-    "en": "Translate to Portuguese: \"Let's celebrate her birthday!\"",
-    "ar": "ترجم إلى البرتغالية: \"Let's celebrate her birthday!\""
-   },
-   "options": [],
-   "answer": "¡Vamos a celebrar su cumpleaños!",
-   "explanation": {
-    "es": "'Vamos a + infinitivo' expresa sugerencia o invitación: 'let's ...'.",
-    "en": "'Vamos + infinitive' expresses a suggestion or invitation: 'let's ...'.",
-    "ar": "يعبّر 'vamos + المصدر' عن اقتراح أو دعوة أي 'هيا بنا'."
-   }
-  }
- ]
 }

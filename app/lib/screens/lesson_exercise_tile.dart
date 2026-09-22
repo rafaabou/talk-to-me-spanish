@@ -5,9 +5,10 @@ import '../widgets/tri_block.dart';
 import '../services/ui_text.dart';
 
 class _ReorderItem {
+  final int id;
   final String text;
   bool dragging = false;
-  _ReorderItem({required this.text});
+  _ReorderItem({required this.id, required this.text});
 }
 
 class ExerciseTile extends StatefulWidget {
@@ -75,7 +76,11 @@ class _ExerciseTileState extends State<ExerciseTile> {
 
   void _initReorder() {
     if (!_isReorder) return;
-    _reorderState = _reorderWords.map((w) => _ReorderItem(text: w)).toList();
+    final words = _reorderWords;
+    _reorderState = [
+      for (var i = 0; i < words.length; i++)
+        _ReorderItem(id: i, text: words[i]),
+    ];
   }
 
   void _initMatchPairs() {
@@ -399,10 +404,9 @@ class _ExerciseTileState extends State<ExerciseTile> {
       physics: const NeverScrollableScrollPhysics(),
       onReorder: _onReorder,
       children:
-          _reorderState.asMap().entries.map((entry) {
-            final item = entry.value;
+          _reorderState.map((item) {
             return Card(
-              key: ValueKey(item.text),
+              key: ValueKey('reorder_${item.id}'),
               child: ListTile(
                 leading: const Icon(Icons.drag_handle),
                 title: Text(
@@ -417,6 +421,13 @@ class _ExerciseTileState extends State<ExerciseTile> {
               ),
             );
           }).toList(),
+        ),
+        const SizedBox(height: 8),
+        FilledButton.tonal(
+          onPressed: () => _submitAnswer(''),
+          child: Text(
+            uiText(lang, ar: 'تحقق', es: 'Comprobar', other: 'Check'),
+          ),
         ),
       ],
     );

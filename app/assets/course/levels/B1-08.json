@@ -28,91 +28,166 @@
       "es": "el alquiler",
       "ipa": "/ˈel alkiˈleɾ/",
       "en": "the rent",
-      "ar": "الإيجار"
+      "ar": "الإيجار",
+      "example": {
+        "es": "El alquiler subió otra vez.",
+        "en": "The rent went up again.",
+        "ar": "ارتفع الإيجار مرة أخرى."
+      }
     },
     {
       "es": "vivir",
       "ipa": "/biˈβiɾ/",
       "en": "to live",
-      "ar": "يسكن"
+      "ar": "يسكن",
+      "example": {
+        "es": "Vivir cerca del trabajo ahorra tiempo.",
+        "en": "Living near work saves time.",
+        "ar": "العيش قرب العمل يوفر الوقت."
+      }
     },
     {
       "es": "el apartamento",
       "ipa": "/ˈel apaɾtaˈmento/",
       "en": "the apartment",
-      "ar": "الشقة"
+      "ar": "الشقة",
+      "example": {
+        "es": "El apartamento tiene dos balcones.",
+        "en": "The apartment has two balconies.",
+        "ar": "الشقة لها شرفتان."
+      }
     },
     {
       "es": "la casa",
       "ipa": "/ˈla ˈkasa/",
       "en": "the house",
-      "ar": "المنزل"
+      "ar": "المنزل",
+      "example": {
+        "es": "La casa necesita una pintura nueva.",
+        "en": "The house needs a new coat of paint.",
+        "ar": "يحتاج المنزل إلى طلاء جديد."
+      }
     },
     {
       "es": "el dormitorio",
       "ipa": "/ˈel doɾmiˈtoɾio/",
       "en": "the bedroom",
-      "ar": "غرفة النوم"
+      "ar": "غرفة النوم",
+      "example": {
+        "es": "El dormitorio da al jardín.",
+        "en": "The bedroom faces the garden.",
+        "ar": "تطل غرفة النوم على الحديقة."
+      }
     },
     {
       "es": "la sala de estar",
       "ipa": "/ˈla ˈsala ˈde eˈstaɾ/",
       "en": "the living room",
-      "ar": "غرفة المعيشة"
+      "ar": "غرفة المعيشة",
+      "example": {
+        "es": "La sala de estar es muy luminosa.",
+        "en": "The living room is very bright.",
+        "ar": "غرفة المعيشة مضيئة جدًا."
+      }
     },
     {
       "es": "la cocina",
       "ipa": "/ˈla koˈsina/",
       "en": "the kitchen",
-      "ar": "المطبخ"
+      "ar": "المطبخ",
+      "example": {
+        "es": "La cocina está equipada por completo.",
+        "en": "The kitchen is fully equipped.",
+        "ar": "المطبخ مجهز بالكامل."
+      }
     },
     {
       "es": "el baño",
       "ipa": "/ˈel ˈbaɲo/",
       "en": "the bathroom",
-      "ar": "الحمّام"
+      "ar": "الحمّام",
+      "example": {
+        "es": "El baño está en el pasillo.",
+        "en": "The bathroom is in the hallway.",
+        "ar": "الحمّام في الممر."
+      }
     },
     {
       "es": "el condominio",
       "ipa": "/ˈel kondoˈminio/",
       "en": "the condominium",
-      "ar": "العمارة السكنية"
+      "ar": "العمارة السكنية",
+      "example": {
+        "es": "El condominio tiene seguridad veinticuatro horas.",
+        "en": "The condominium has twenty-four-hour security.",
+        "ar": "العمارة السكنية فيها حراسة أربعًا وعشرين ساعة."
+      }
     },
     {
       "es": "el propietario",
       "ipa": "/ˈel pɾopieˈtaɾio/",
       "en": "the owner / landlord",
-      "ar": "المالك"
+      "ar": "المالك",
+      "example": {
+        "es": "El propietario arregló la fuga.",
+        "en": "The landlord fixed the leak.",
+        "ar": "أصلح المالك التسريب."
+      }
     },
     {
       "es": "el inquilino",
       "ipa": "/ˈel inkiˈlino/",
       "en": "the tenant",
-      "ar": "المستأجر"
+      "ar": "المستأجر",
+      "example": {
+        "es": "El inquilino paga puntualmente.",
+        "en": "The tenant pays on time.",
+        "ar": "يدفع المستأجر في وقته."
+      }
     },
     {
       "es": "el contrato de arrendamiento",
       "ipa": "/ˈel koˈntɾato ˈde arendaˈmiento/",
       "en": "the lease agreement",
-      "ar": "عقد الإيجار"
+      "ar": "عقد الإيجار",
+      "example": {
+        "es": "El contrato de arrendamiento vence en junio.",
+        "en": "The lease agreement expires in June.",
+        "ar": "ينتهي عقد الإيجار في يونيو."
+      }
     },
     {
       "es": "el fiador",
       "ipa": "/ˈel fiaˈðoɾ/",
       "en": "the guarantor",
-      "ar": "الكفيل"
+      "ar": "الكفيل",
+      "example": {
+        "es": "El fiador firmó el contrato ayer.",
+        "en": "We need a guarantor for the rent.",
+        "ar": "نحتاج كفيلًا للإيجار."
+      }
     },
     {
       "es": "el depósito",
       "ipa": "/ˈel deˈposito/",
       "en": "the deposit",
-      "ar": "الضمانة"
+      "ar": "الضمانة",
+      "example": {
+        "es": "El depósito se devuelve al mudarse.",
+        "en": "The deposit is returned when moving out.",
+        "ar": "يُعاد الضمان عند الانتقال."
+      }
     },
     {
       "es": "la inmobiliaria",
       "ipa": "/ˈla inmoβiˈliaɾia/",
       "en": "the real estate agency",
-      "ar": "الوكالة العقارية"
+      "ar": "الوكالة العقارية",
+      "example": {
+        "es": "La inmobiliaria mostró tres pisos.",
+        "en": "The real estate agency showed three apartments.",
+        "ar": "عرضت الوكالة العقارية ثلاث شقق."
+      }
     }
   ],
   "grammar": [
@@ -317,6 +392,213 @@
         "en": "'Luz' in the context of bills means electricity.",
         "ar": "كلمة 'luz' في سياق الفواتير تعني الكهرباء."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the kitchen'?",
+        "en": "Which word means 'the kitchen'?",
+        "ar": "أي كلمة تعني 'المطبخ'؟"
+      },
+      "options": [
+        {
+          "es": "la cocina",
+          "en": "the kitchen",
+          "ar": "المطبخ"
+        },
+        {
+          "es": "el apartamento",
+          "en": "the apartment",
+          "ar": "الشقة"
+        },
+        {
+          "es": "la inmobiliaria",
+          "en": "the real estate agency",
+          "ar": "الوكالة العقارية"
+        }
+      ],
+      "answer": "la cocina",
+      "explanation": {
+        "es": "'la cocina' significa 'the kitchen'.",
+        "en": "'la cocina' means 'the kitchen'.",
+        "ar": "تعني 'la cocina' 'المطبخ'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the guarantor'",
+        "en": "Choose the Spanish word: 'the guarantor'",
+        "ar": "اختر الكلمة بالإسبانية: 'الكفيل'"
+      },
+      "options": [
+        {
+          "es": "el fiador",
+          "en": "the guarantor",
+          "ar": "الكفيل"
+        },
+        {
+          "es": "el inquilino",
+          "en": "the tenant",
+          "ar": "المستأجر"
+        },
+        {
+          "es": "el dormitorio",
+          "en": "the bedroom",
+          "ar": "غرفة النوم"
+        },
+        {
+          "es": "la cocina",
+          "en": "the kitchen",
+          "ar": "المطبخ"
+        }
+      ],
+      "answer": "el fiador",
+      "explanation": {
+        "es": "'el fiador' significa 'the guarantor'.",
+        "en": "'el fiador' means 'the guarantor'.",
+        "ar": "تعني 'el fiador' 'الكفيل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the rent' en español?",
+        "en": "How do you say 'the rent' in Spanish?",
+        "ar": "كيف تقول 'الإيجار' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el fiador",
+          "en": "the guarantor",
+          "ar": "الكفيل"
+        },
+        {
+          "es": "la cocina",
+          "en": "the kitchen",
+          "ar": "المطبخ"
+        },
+        {
+          "es": "la inmobiliaria",
+          "en": "the real estate agency",
+          "ar": "الوكالة العقارية"
+        },
+        {
+          "es": "el alquiler",
+          "en": "the rent",
+          "ar": "الإيجار"
+        }
+      ],
+      "answer": "el alquiler",
+      "explanation": {
+        "es": "'el alquiler' significa 'the rent'.",
+        "en": "'el alquiler' means 'the rent'.",
+        "ar": "تعني 'el alquiler' 'الإيجار'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the deposit'?",
+        "en": "Which word means 'the deposit'?",
+        "ar": "أي كلمة تعني 'الضمانة'؟"
+      },
+      "options": [
+        {
+          "es": "el depósito",
+          "en": "the deposit",
+          "ar": "الضمانة"
+        },
+        {
+          "es": "el dormitorio",
+          "en": "the bedroom",
+          "ar": "غرفة النوم"
+        },
+        {
+          "es": "la casa",
+          "en": "the house",
+          "ar": "المنزل"
+        },
+        {
+          "es": "el baño",
+          "en": "the bathroom",
+          "ar": "الحمّام"
+        }
+      ],
+      "answer": "el depósito",
+      "explanation": {
+        "es": "'el depósito' significa 'the deposit'.",
+        "en": "'el depósito' means 'the deposit'.",
+        "ar": "تعني 'el depósito' 'الضمانة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The kitchen is fully equipped.\"",
+        "en": "Translate into Spanish: \"The kitchen is fully equipped.\"",
+        "ar": "ترجم إلى الإسبانية: \"المطبخ مجهز بالكامل.\""
+      },
+      "options": [],
+      "answer": "La cocina está equipada por completo.",
+      "explanation": {
+        "es": "Respuesta: \"La cocina está equipada por completo.\".",
+        "en": "Answer: \"La cocina está equipada por completo.\".",
+        "ar": "الإجابة: \"La cocina está equipada por completo.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The condominium has twenty-four-hour security.\"",
+        "en": "Translate into Spanish: \"The condominium has twenty-four-hour security.\"",
+        "ar": "ترجم إلى الإسبانية: \"العمارة السكنية فيها حراسة أربعًا وعشرين ساعة.\""
+      },
+      "options": [],
+      "answer": "El condominio tiene seguridad veinticuatro horas.",
+      "explanation": {
+        "es": "Respuesta: \"El condominio tiene seguridad veinticuatro horas.\".",
+        "en": "Answer: \"El condominio tiene seguridad veinticuatro horas.\".",
+        "ar": "الإجابة: \"El condominio tiene seguridad veinticuatro horas.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"This apartment has two bedrooms and a spacious kitchen.\"",
+        "en": "Translate into Spanish: \"This apartment has two bedrooms and a spacious kitchen.\"",
+        "ar": "ترجم إلى الإسبانية: \"هذه الشقة تحتوي على غرفتي نوم ومطبخ واسع.\""
+      },
+      "options": [],
+      "answer": "Este apartamento tiene dos dormitorios y una cocina amplia.",
+      "explanation": {
+        "es": "Respuesta: \"Este apartamento tiene dos dormitorios y una cocina amplia.\".",
+        "en": "Answer: \"Este apartamento tiene dos dormitorios y una cocina amplia.\".",
+        "ar": "الإجابة: \"Este apartamento tiene dos dormitorios y una cocina amplia.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The apartment has two balconies.\"",
+        "en": "Translate into Spanish: \"The apartment has two balconies.\"",
+        "ar": "ترجم إلى الإسبانية: \"الشقة لها شرفتان.\""
+      },
+      "options": [],
+      "answer": "El apartamento tiene dos balcones.",
+      "explanation": {
+        "es": "Respuesta: \"El apartamento tiene dos balcones.\".",
+        "en": "Answer: \"El apartamento tiene dos balcones.\".",
+        "ar": "الإجابة: \"El apartamento tiene dos balcones.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

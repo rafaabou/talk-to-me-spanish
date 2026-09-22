@@ -1,335 +1,622 @@
 {
- "id": "A2-02",
- "level": "A2",
- "level_name": {
-  "es": "Básico",
-  "en": "Elementary",
-  "ar": "أساسي"
- },
- "title": {
-  "es": "De Compras",
-  "en": "Going Shopping",
-  "ar": "التسوق"
- },
- "objectives": [
-  {
-   "es": "Preguntar precios y hacer compras en español",
-   "en": "Ask prices and go shopping in Portuguese",
-   "ar": "السؤال عن الأسعار والتسوق بالبرتغالية"
+  "id": "A2-02",
+  "level": "A2",
+  "level_name": {
+    "es": "Básico",
+    "en": "Elementary",
+    "ar": "أساسي"
   },
-  {
-   "es": "Usar palabras y expresiones de pago",
-   "en": "Use payment words and expressions",
-   "ar": "استخدام كلمات وتعبيرات الدفع"
-  },
-  {
-   "es": "Conversar con vendedores en una tienda",
-   "en": "Talk with salespeople in a store",
-   "ar": "التحدث مع البائعين في المتجر"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "el dinero",
-   "ipa": "/ˈel diˈneɾo/",
-   "en": "the money",
-   "ar": "المال"
-  },
-  {
-   "es": "el precio",
-   "ipa": "/ˈel ˈpɾesio/",
-   "en": "the price",
-   "ar": "السعر"
-  },
-  {
-   "es": "barato",
-   "ipa": "/baˈɾato/",
-   "en": "cheap",
-   "ar": "رخيص"
-  },
-  {
-   "es": "caro",
-   "ipa": "/ˈkaɾo/",
-   "en": "expensive",
-   "ar": "غالٍ"
-  },
-  {
-   "es": "la tienda",
-   "ipa": "/ˈla ˈtienda/",
-   "en": "the store",
-   "ar": "المتجر"
-  },
-  {
-   "es": "el mercado",
-   "ipa": "/ˈel meˈɾkaðo/",
-   "en": "the market",
-   "ar": "السوق"
-  },
-  {
-   "es": "el supermercado",
-   "ipa": "/ˈel supeɾmeˈɾkaðo/",
-   "en": "the supermarket",
-   "ar": "السوبرماركت"
-  },
-  {
-   "es": "la oferta",
-   "ipa": "/ˈla oˈfeɾta/",
-   "en": "the sale",
-   "ar": "التخفيض"
-  },
-  {
-   "es": "pagar",
-   "ipa": "/paˈɣaɾ/",
-   "en": "to pay",
-   "ar": "يدفع"
-  },
-  {
-   "es": "costar",
-   "ipa": "/koˈstaɾ/",
-   "en": "to cost",
-   "ar": "يكلف"
-  },
-  {
-   "es": "el cambio",
-   "ipa": "/ˈel ˈkambio/",
-   "en": "the change",
-   "ar": "الباقي (الفكة)"
-  },
-  {
-   "es": "el descuento",
-   "ipa": "/ˈel deˈskuento/",
-   "en": "the discount",
-   "ar": "الخصم"
-  },
-  {
-   "es": "al contado",
-   "ipa": "/ˈal koˈntaðo/",
-   "en": "in cash / one payment",
-   "ar": "نقدًا"
-  },
-  {
-   "es": "a plazos",
-   "ipa": "/ˈa ˈplasos/",
-   "en": "in installments",
-   "ar": "بالتقسيط"
-  },
-  {
-   "es": "la tarjeta",
-   "ipa": "/ˈla taˈɾxeta/",
-   "en": "the card",
-   "ar": "البطاقة"
-  },
-  {
-   "es": "la bolsa",
-   "ipa": "/ˈla ˈbolsa/",
-   "en": "the shopping bag",
-   "ar": "حقيبة التسوق"
-  },
-  {
-   "es": "probarse",
-   "ipa": "/pɾoˈβaɾse/",
-   "en": "to try on",
-   "ar": "يجرب"
-  },
-  {
-   "es": "el vendedor",
-   "ipa": "/ˈel bendeˈðoɾ/",
-   "en": "the salesperson",
-   "ar": "البائع"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Preguntando Precios",
-    "en": "Asking Prices",
-    "ar": "السؤال عن الأسعار"
-   },
-   "explanation": {
-    "es": "Para preguntar el precio: '¿Cuánto cuesta?' (How much does it cost?), '¿Cuánto es?' (How much is it?) o '¿Cuál es el precio?' Respuestas: 'Cuesta veinte euros.', 'Es muy caro.', 'Es barato.'",
-    "en": "To ask the price: 'Quanto custa?' (How much does it cost?), 'Quanto é?' (How much is it?) or 'Qual é o preço?' (What is the price?) Answers: 'Custa vinte reais.' (It costs twenty reais), 'É muito caro.' (It is very expensive), 'É barato.' (It is cheap).",
-    "ar": "للسؤال عن السعر: 'Quanto custa?' (كم يكلف؟)، 'Quanto é?' (كم ثمنه؟) أو 'Qual é o preço?' (ما السعر؟) الإجابات: 'Custa vinte reais.' (يكلف عشرين ريالًا)، 'É muito caro.' (إنه غالٍ جدًا)، 'É barato.' (إنه رخيص)."
-   },
-   "examples": [
-    {
-     "es": "¿Cuánto cuesta esta camisa?",
-     "en": "How much does this shirt cost?",
-     "ar": "كم يكلف هذا القميص؟"
-    },
-    {
-     "es": "Cuesta cincuenta euros.",
-     "en": "It costs fifty reais.",
-     "ar": "يكلف خمسين ريالًا."
-    },
-    {
-     "es": "¡El precio es bueno!",
-     "en": "The price is good!",
-     "ar": "السعر جيد!"
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Pagando en la Tienda",
-    "en": "Paying at the Store",
-    "ar": "الدفع في المتجر"
-   },
-   "explanation": {
-    "es": "Para pagar: '¿Acepta tarjeta?' (Do you accept card?), '¿Puedo pagar en efectivo?' (Can I pay in cash?), '¿Al contado o a plazos?' (Cash or in installments?) '¿Tiene cambio?' (Do you have change?)",
-    "en": "To pay: '¿Acepta tarjeta?' (Do you accept card?), '¿Puedo pagar en efectivo?' (Can I pay in cash?), '¿Al contado o a plazos?' (Cash or installments?) '¿Tiene cambio?' (Do you have change?)",
-    "ar": "للدفع: '¿Acepta tarjeta؟' (هل تقبلون البطاقة؟)، '¿Puedo pagar en efectivo؟' (هل يمكنني الدفع نقدًا؟)، '¿Al contado o a plazos؟' (نقدًا أم بالتقسيط؟) '¿Tiene cambio؟' (هل لديك فكة؟)"
-   },
-   "examples": [
-    {
-     "es": "¿Puedo pagar con tarjeta de crédito?",
-     "en": "Can I pay with a credit card?",
-     "ar": "هل يمكنني الدفع ببطاقة الائتمان؟"
-    },
-    {
-     "es": "Aceptamos efectivo y tarjeta.",
-     "en": "We accept cash and card.",
-     "ar": "نقبل النقد والبطاقة."
-    },
-    {
-     "es": "El vendedor dio el cambio.",
-     "en": "The salesperson gave the change.",
-     "ar": "أعطى البائع الباقي."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "En la Tienda de Ropa",
-   "en": "At the Clothing Store",
-   "ar": "في متجر الملابس"
+    "es": "De Compras",
+    "en": "Going Shopping",
+    "ar": "التسوق"
   },
-  "lines": [
-   {
-    "speaker": "Vendedor",
-    "es": "¡Buenos días! ¿Quiere probarse esta camisa?",
-    "en": "Good morning! Would you like to try on this shirt?",
-    "ar": "صباح الخير! هل تريد تجربة هذا القميص؟"
-   },
-   {
-    "speaker": "Cliente",
-    "es": "Sí. ¿Cuánto cuesta?",
-    "en": "Yes. How much does it cost?",
-    "ar": "نعم. كم سعره؟"
-   },
-   {
-    "speaker": "Vendedor",
-    "es": "Cuesta ochenta euros, pero está en oferta: sesenta.",
-    "en": "It costs eighty reais, but it is on sale: sixty.",
-    "ar": "سعره ثمانون ريالًا، لكنه في تخفيض: ستون."
-   },
-   {
-    "speaker": "Cliente",
-    "es": "¡Qué bien! ¿Cuál es el descuento?",
-    "en": "Great! What is the discount?",
-    "ar": "رائع! ما الخصم؟"
-   },
-   {
-    "speaker": "Vendedor",
-    "es": "Veinte por ciento. ¿Acepta tarjeta?",
-    "en": "Twenty percent. Do you accept card?",
-    "ar": "عشرون بالمئة. هل تقبل البطاقة؟"
-   },
-   {
-    "speaker": "Cliente",
-    "es": "Sí, acepto. ¡Gracias!",
-    "en": "Yes, I do. Thank you!",
-    "ar": "نعم، أقبل. شكرًا!"
-   }
+  "objectives": [
+    {
+      "es": "Preguntar precios y hacer compras en español",
+      "en": "Ask prices and go shopping in Portuguese",
+      "ar": "السؤال عن الأسعار والتسوق بالبرتغالية"
+    },
+    {
+      "es": "Usar palabras y expresiones de pago",
+      "en": "Use payment words and expressions",
+      "ar": "استخدام كلمات وتعبيرات الدفع"
+    },
+    {
+      "es": "Conversar con vendedores en una tienda",
+      "en": "Talk with salespeople in a store",
+      "ar": "التحدث مع البائعين في المتجر"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el dinero",
+      "ipa": "/ˈel diˈneɾo/",
+      "en": "the money",
+      "ar": "المال",
+      "example": {
+        "es": "El dinero no compra la felicidad.",
+        "en": "Money does not buy happiness.",
+        "ar": "المال لا يشتري السعادة."
+      }
+    },
+    {
+      "es": "el precio",
+      "ipa": "/ˈel ˈpɾesio/",
+      "en": "the price",
+      "ar": "السعر",
+      "example": {
+        "es": "El precio es demasiado alto.",
+        "en": "The price is too high.",
+        "ar": "السعر مرتفع جدًا."
+      }
+    },
+    {
+      "es": "barato",
+      "ipa": "/baˈɾato/",
+      "en": "cheap",
+      "ar": "رخيص",
+      "example": {
+        "es": "Este libro es muy barato.",
+        "en": "This book is very cheap.",
+        "ar": "هذا الكتاب رخيص جدًا."
+      }
+    },
+    {
+      "es": "caro",
+      "ipa": "/ˈkaɾo/",
+      "en": "expensive",
+      "ar": "غالٍ",
+      "example": {
+        "es": "El restaurante es caro pero bueno.",
+        "en": "The restaurant is expensive but good.",
+        "ar": "المطعم غالٍ لكنه جيد."
+      }
+    },
+    {
+      "es": "la tienda",
+      "ipa": "/ˈla ˈtienda/",
+      "en": "the store",
+      "ar": "المتجر",
+      "example": {
+        "es": "La tienda cierra a las nueve.",
+        "en": "The store closes at nine.",
+        "ar": "يغلق المتجر في التاسعة."
+      }
+    },
+    {
+      "es": "el mercado",
+      "ipa": "/ˈel meˈɾkaðo/",
+      "en": "the market",
+      "ar": "السوق",
+      "example": {
+        "es": "Compro verduras en el mercado.",
+        "en": "I buy vegetables at the market.",
+        "ar": "أشتري الخضروات من السوق."
+      }
+    },
+    {
+      "es": "el supermercado",
+      "ipa": "/ˈel supeɾmeˈɾkaðo/",
+      "en": "the supermarket",
+      "ar": "السوبرماركت",
+      "example": {
+        "es": "El supermercado está cerca de aquí.",
+        "en": "The supermarket is near here.",
+        "ar": "السوبرماركت قريب من هنا."
+      }
+    },
+    {
+      "es": "la oferta",
+      "ipa": "/ˈla oˈfeɾta/",
+      "en": "the sale",
+      "ar": "التخفيض",
+      "example": {
+        "es": "La oferta termina el viernes.",
+        "en": "The sale ends on Friday.",
+        "ar": "ينتهي التخفيض يوم الجمعة."
+      }
+    },
+    {
+      "es": "pagar",
+      "ipa": "/paˈɣaɾ/",
+      "en": "to pay",
+      "ar": "يدفع",
+      "example": {
+        "es": "Voy a pagar con tarjeta.",
+        "en": "I am going to pay by card.",
+        "ar": "سأدفع بالبطاقة."
+      }
+    },
+    {
+      "es": "costar",
+      "ipa": "/koˈstaɾ/",
+      "en": "to cost",
+      "ar": "يكلف",
+      "example": {
+        "es": "¿Cuánto costaría este vestido?",
+        "en": "How much does this dress cost?",
+        "ar": "كم يكلف هذا الفستان؟"
+      }
+    },
+    {
+      "es": "el cambio",
+      "ipa": "/ˈel ˈkambio/",
+      "en": "the change",
+      "ar": "الباقي (الفكة)",
+      "example": {
+        "es": "El cambio son dos euros.",
+        "en": "The change is two euros.",
+        "ar": "الباقي يوروان."
+      }
+    },
+    {
+      "es": "el descuento",
+      "ipa": "/ˈel deˈskuento/",
+      "en": "the discount",
+      "ar": "الخصم",
+      "example": {
+        "es": "El descuento es del veinte por ciento.",
+        "en": "The discount is twenty percent.",
+        "ar": "الخصم عشرون بالمئة."
+      }
+    },
+    {
+      "es": "al contado",
+      "ipa": "/ˈal koˈntaðo/",
+      "en": "in cash / one payment",
+      "ar": "نقدًا",
+      "example": {
+        "es": "Pague al contado y ahorre.",
+        "en": "Pay in cash and save.",
+        "ar": "ادفع نقدًا ووفّر."
+      }
+    },
+    {
+      "es": "a plazos",
+      "ipa": "/ˈa ˈplasos/",
+      "en": "in installments",
+      "ar": "بالتقسيط",
+      "example": {
+        "es": "Puedes pagar a plazos.",
+        "en": "You can pay in installments.",
+        "ar": "يمكنك الدفع بالتقسيط."
+      }
+    },
+    {
+      "es": "la tarjeta",
+      "ipa": "/ˈla taˈɾxeta/",
+      "en": "the card",
+      "ar": "البطاقة",
+      "example": {
+        "es": "La tarjeta está en la cartera.",
+        "en": "The card is in the wallet.",
+        "ar": "البطاقة في المحفظة."
+      }
+    },
+    {
+      "es": "la bolsa",
+      "ipa": "/ˈla ˈbolsa/",
+      "en": "the shopping bag",
+      "ar": "حقيبة التسوق",
+      "example": {
+        "es": "La bolsa de compra es pesada.",
+        "en": "The shopping bag is heavy.",
+        "ar": "حقيبة التسوق ثقيلة."
+      }
+    },
+    {
+      "es": "probarse",
+      "ipa": "/pɾoˈβaɾse/",
+      "en": "to try on",
+      "ar": "يجرب",
+      "example": {
+        "es": "Quiero probarse estos zapatos hoy.",
+        "en": "I want to try on these shoes.",
+        "ar": "أريد تجربة هذا الحذاء."
+      }
+    },
+    {
+      "es": "el vendedor",
+      "ipa": "/ˈel bendeˈðoɾ/",
+      "en": "the salesperson",
+      "ar": "البائع",
+      "example": {
+        "es": "El vendedor me ayudó amablemente.",
+        "en": "The salesperson helped me kindly.",
+        "ar": "ساعدني البائع بلطف."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Preguntando Precios",
+        "en": "Asking Prices",
+        "ar": "السؤال عن الأسعار"
+      },
+      "explanation": {
+        "es": "Para preguntar el precio: '¿Cuánto cuesta?' (How much does it cost?), '¿Cuánto es?' (How much is it?) o '¿Cuál es el precio?' Respuestas: 'Cuesta veinte euros.', 'Es muy caro.', 'Es barato.'",
+        "en": "To ask the price: 'Quanto custa?' (How much does it cost?), 'Quanto é?' (How much is it?) or 'Qual é o preço?' (What is the price?) Answers: 'Custa vinte reais.' (It costs twenty reais), 'É muito caro.' (It is very expensive), 'É barato.' (It is cheap).",
+        "ar": "للسؤال عن السعر: 'Quanto custa?' (كم يكلف؟)، 'Quanto é?' (كم ثمنه؟) أو 'Qual é o preço?' (ما السعر؟) الإجابات: 'Custa vinte reais.' (يكلف عشرين ريالًا)، 'É muito caro.' (إنه غالٍ جدًا)، 'É barato.' (إنه رخيص)."
+      },
+      "examples": [
+        {
+          "es": "¿Cuánto cuesta esta camisa?",
+          "en": "How much does this shirt cost?",
+          "ar": "كم يكلف هذا القميص؟"
+        },
+        {
+          "es": "Cuesta cincuenta euros.",
+          "en": "It costs fifty reais.",
+          "ar": "يكلف خمسين ريالًا."
+        },
+        {
+          "es": "¡El precio es bueno!",
+          "en": "The price is good!",
+          "ar": "السعر جيد!"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Pagando en la Tienda",
+        "en": "Paying at the Store",
+        "ar": "الدفع في المتجر"
+      },
+      "explanation": {
+        "es": "Para pagar: '¿Acepta tarjeta?' (Do you accept card?), '¿Puedo pagar en efectivo?' (Can I pay in cash?), '¿Al contado o a plazos?' (Cash or in installments?) '¿Tiene cambio?' (Do you have change?)",
+        "en": "To pay: '¿Acepta tarjeta?' (Do you accept card?), '¿Puedo pagar en efectivo?' (Can I pay in cash?), '¿Al contado o a plazos?' (Cash or installments?) '¿Tiene cambio?' (Do you have change?)",
+        "ar": "للدفع: '¿Acepta tarjeta؟' (هل تقبلون البطاقة؟)، '¿Puedo pagar en efectivo؟' (هل يمكنني الدفع نقدًا؟)، '¿Al contado o a plazos؟' (نقدًا أم بالتقسيط؟) '¿Tiene cambio؟' (هل لديك فكة؟)"
+      },
+      "examples": [
+        {
+          "es": "¿Puedo pagar con tarjeta de crédito?",
+          "en": "Can I pay with a credit card?",
+          "ar": "هل يمكنني الدفع ببطاقة الائتمان؟"
+        },
+        {
+          "es": "Aceptamos efectivo y tarjeta.",
+          "en": "We accept cash and card.",
+          "ar": "نقبل النقد والبطاقة."
+        },
+        {
+          "es": "El vendedor dio el cambio.",
+          "en": "The salesperson gave the change.",
+          "ar": "أعطى البائع الباقي."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "En la Tienda de Ropa",
+      "en": "At the Clothing Store",
+      "ar": "في متجر الملابس"
+    },
+    "lines": [
+      {
+        "speaker": "Vendedor",
+        "es": "¡Buenos días! ¿Quiere probarse esta camisa?",
+        "en": "Good morning! Would you like to try on this shirt?",
+        "ar": "صباح الخير! هل تريد تجربة هذا القميص؟"
+      },
+      {
+        "speaker": "Cliente",
+        "es": "Sí. ¿Cuánto cuesta?",
+        "en": "Yes. How much does it cost?",
+        "ar": "نعم. كم سعره؟"
+      },
+      {
+        "speaker": "Vendedor",
+        "es": "Cuesta ochenta euros, pero está en oferta: sesenta.",
+        "en": "It costs eighty reais, but it is on sale: sixty.",
+        "ar": "سعره ثمانون ريالًا، لكنه في تخفيض: ستون."
+      },
+      {
+        "speaker": "Cliente",
+        "es": "¡Qué bien! ¿Cuál es el descuento?",
+        "en": "Great! What is the discount?",
+        "ar": "رائع! ما الخصم؟"
+      },
+      {
+        "speaker": "Vendedor",
+        "es": "Veinte por ciento. ¿Acepta tarjeta?",
+        "en": "Twenty percent. Do you accept card?",
+        "ar": "عشرون بالمئة. هل تقبل البطاقة؟"
+      },
+      {
+        "speaker": "Cliente",
+        "es": "Sí, acepto. ¡Gracias!",
+        "en": "Yes, I do. Thank you!",
+        "ar": "نعم، أقبل. شكرًا!"
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Compras en el Supermercado",
+      "en": "Shopping at the Supermarket",
+      "ar": "التسوق في السوبرماركت"
+    },
+    "text_es": "El sábado, Marina fue al supermercado a hacer compras. Compró frutas, pan y leche. Había una oferta de café, así que compró dos paquetes. En la caja, pagó con tarjeta y recibió el cambio en la aplicación.",
+    "text_en": "On Saturday, Marina went to the supermarket to go shopping. She bought fruits, bread and milk. There was a sale on coffee, so she bought two packages. At the checkout, she paid with her card and got the change in the app.",
+    "text_ar": "يوم السبت، ذهبت مارينا إلى السوبرماركت للتسوق. اشترت فواكه وخبزًا وحليبًا. كان هناك تخفيض على القهوة، فاشترت علبتين. عند الصندوق، دفعت بالبطاقة واستلمت الباقي عبر التطبيق."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cuánto ___ esta blusa? (costar)",
+        "en": "How much ___ this blouse? (custar)",
+        "ar": "كم ___ هذه البلوزة؟ (custar)"
+      },
+      "options": [
+        {
+          "es": "cuesta",
+          "en": "costs",
+          "ar": "يكلف"
+        },
+        {
+          "es": "cuesto",
+          "en": "I cost",
+          "ar": "تكلف"
+        },
+        {
+          "es": "cuestan",
+          "en": "cost",
+          "ar": "يكلفون"
+        }
+      ],
+      "answer": "cuesta",
+      "explanation": {
+        "es": "'¿Cuánto cuesta?' = How much does it cost? Con 'esta blusa' (singular): cuesta.",
+        "en": "'Quanto custa?' = How much does it cost? With 'esta blusa' (singular): custa.",
+        "ar": "'Quanto custa?' = كم يكلف؟ مع 'esta blusa' (مفرد): custa."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "La blusa cuesta cien euros y tiene veinte por ciento de ___.",
+        "en": "The blouse costs one hundred reais and has a twenty percent ___.",
+        "ar": "البلوزة تكلف مئة ريال ولها خصم عشرون بالمئة."
+      },
+      "options": [
+        {
+          "es": "descuento",
+          "en": "discount",
+          "ar": "خصم"
+        },
+        {
+          "es": "precio",
+          "en": "price",
+          "ar": "سعر"
+        },
+        {
+          "es": "cambio",
+          "en": "change",
+          "ar": "تغيير"
+        }
+      ],
+      "answer": "descuento",
+      "explanation": {
+        "es": "Descuento = discount. Veinte por ciento es el descuento.",
+        "en": "Desconto = discount. Twenty percent is the discount.",
+        "ar": "desconto = خصم. عشرون بالمئة هي الخصم."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'to pay'",
+        "en": "Translate: 'to pay'",
+        "ar": "ترجم: 'to pay'"
+      },
+      "options": [],
+      "answer": "pagar",
+      "explanation": {
+        "es": "'Pagar' = to pay.",
+        "en": "'Pagar' = to pay.",
+        "ar": "'pagar' تعني يدفع."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the shopping bag'?",
+        "en": "Which word means 'the shopping bag'?",
+        "ar": "أي كلمة تعني 'حقيبة التسوق'؟"
+      },
+      "options": [
+        {
+          "es": "el dinero",
+          "en": "the money",
+          "ar": "المال"
+        },
+        {
+          "es": "la bolsa",
+          "en": "the shopping bag",
+          "ar": "حقيبة التسوق"
+        },
+        {
+          "es": "al contado",
+          "en": "in cash / one payment",
+          "ar": "نقدًا"
+        }
+      ],
+      "answer": "la bolsa",
+      "explanation": {
+        "es": "'la bolsa' significa 'the shopping bag'.",
+        "en": "'la bolsa' means 'the shopping bag'.",
+        "ar": "تعني 'la bolsa' 'حقيبة التسوق'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the sale'",
+        "en": "Choose the Spanish word: 'the sale'",
+        "ar": "اختر الكلمة بالإسبانية: 'التخفيض'"
+      },
+      "options": [
+        {
+          "es": "el descuento",
+          "en": "the discount",
+          "ar": "الخصم"
+        },
+        {
+          "es": "la oferta",
+          "en": "the sale",
+          "ar": "التخفيض"
+        },
+        {
+          "es": "caro",
+          "en": "expensive",
+          "ar": "غالٍ"
+        }
+      ],
+      "answer": "la oferta",
+      "explanation": {
+        "es": "'la oferta' significa 'the sale'.",
+        "en": "'la oferta' means 'the sale'.",
+        "ar": "تعني 'la oferta' 'التخفيض'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'in installments' en español?",
+        "en": "How do you say 'in installments' in Spanish?",
+        "ar": "كيف تقول 'بالتقسيط' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "probarse",
+          "en": "to try on",
+          "ar": "يجرب"
+        },
+        {
+          "es": "pagar",
+          "en": "to pay",
+          "ar": "يدفع"
+        },
+        {
+          "es": "a plazos",
+          "en": "in installments",
+          "ar": "بالتقسيط"
+        }
+      ],
+      "answer": "a plazos",
+      "explanation": {
+        "es": "'a plazos' significa 'in installments'.",
+        "en": "'a plazos' means 'in installments'.",
+        "ar": "تعني 'a plazos' 'بالتقسيط'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'in installments'?",
+        "en": "Which word means 'in installments'?",
+        "ar": "أي كلمة تعني 'بالتقسيط'؟"
+      },
+      "options": [
+        {
+          "es": "a plazos",
+          "en": "in installments",
+          "ar": "بالتقسيط"
+        },
+        {
+          "es": "probarse",
+          "en": "to try on",
+          "ar": "يجرب"
+        },
+        {
+          "es": "el descuento",
+          "en": "the discount",
+          "ar": "الخصم"
+        },
+        {
+          "es": "barato",
+          "en": "cheap",
+          "ar": "رخيص"
+        }
+      ],
+      "answer": "a plazos",
+      "explanation": {
+        "es": "'a plazos' significa 'in installments'.",
+        "en": "'a plazos' means 'in installments'.",
+        "ar": "تعني 'a plazos' 'بالتقسيط'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The price is too high.\"",
+        "en": "Translate into Spanish: \"The price is too high.\"",
+        "ar": "ترجم إلى الإسبانية: \"السعر مرتفع جدًا.\""
+      },
+      "options": [],
+      "answer": "El precio es demasiado alto.",
+      "explanation": {
+        "es": "Respuesta: \"El precio es demasiado alto.\".",
+        "en": "Answer: \"El precio es demasiado alto.\".",
+        "ar": "الإجابة: \"El precio es demasiado alto.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Twenty percent. Do you accept card?\"",
+        "en": "Translate into Spanish: \"Twenty percent. Do you accept card?\"",
+        "ar": "ترجم إلى الإسبانية: \"عشرون بالمئة. هل تقبل البطاقة؟\""
+      },
+      "options": [],
+      "answer": "Veinte por ciento. ¿Acepta tarjeta?",
+      "explanation": {
+        "es": "Respuesta: \"Veinte por ciento. ¿Acepta tarjeta?\".",
+        "en": "Answer: \"Veinte por ciento. ¿Acepta tarjeta?\".",
+        "ar": "الإجابة: \"Veinte por ciento. ¿Acepta tarjeta?\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Good morning! Would you like to try on this shirt?\"",
+        "en": "Translate into Spanish: \"Good morning! Would you like to try on this shirt?\"",
+        "ar": "ترجم إلى الإسبانية: \"صباح الخير! هل تريد تجربة هذا القميص؟\""
+      },
+      "options": [],
+      "answer": "¡Buenos días! ¿Quiere probarse esta camisa?",
+      "explanation": {
+        "es": "Respuesta: \"¡Buenos días! ¿Quiere probarse esta camisa?\".",
+        "en": "Answer: \"¡Buenos días! ¿Quiere probarse esta camisa?\".",
+        "ar": "الإجابة: \"¡Buenos días! ¿Quiere probarse esta camisa?\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The sale ends on Friday.\"",
+        "en": "Translate into Spanish: \"The sale ends on Friday.\"",
+        "ar": "ترجم إلى الإسبانية: \"ينتهي التخفيض يوم الجمعة.\""
+      },
+      "options": [],
+      "answer": "La oferta termina el viernes.",
+      "explanation": {
+        "es": "Respuesta: \"La oferta termina el viernes.\".",
+        "en": "Answer: \"La oferta termina el viernes.\".",
+        "ar": "الإجابة: \"La oferta termina el viernes.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "Compras en el Supermercado",
-   "en": "Shopping at the Supermarket",
-   "ar": "التسوق في السوبرماركت"
-  },
-  "text_es": "El sábado, Marina fue al supermercado a hacer compras. Compró frutas, pan y leche. Había una oferta de café, así que compró dos paquetes. En la caja, pagó con tarjeta y recibió el cambio en la aplicación.",
-  "text_en": "On Saturday, Marina went to the supermarket to go shopping. She bought fruits, bread and milk. There was a sale on coffee, so she bought two packages. At the checkout, she paid with her card and got the change in the app.",
-  "text_ar": "يوم السبت، ذهبت مارينا إلى السوبرماركت للتسوق. اشترت فواكه وخبزًا وحليبًا. كان هناك تخفيض على القهوة، فاشترت علبتين. عند الصندوق، دفعت بالبطاقة واستلمت الباقي عبر التطبيق."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Cuánto ___ esta blusa? (costar)",
-    "en": "How much ___ this blouse? (custar)",
-    "ar": "كم ___ هذه البلوزة؟ (custar)"
-   },
-   "options": [
-    {
-     "es": "cuesta",
-     "en": "custa",
-     "ar": "custa"
-    },
-    {
-     "es": "cuesto",
-     "en": "custo",
-     "ar": "custo"
-    },
-    {
-     "es": "cuestan",
-     "en": "custam",
-     "ar": "custam"
-    }
-   ],
-   "answer": "cuesta",
-   "explanation": {
-    "es": "'¿Cuánto cuesta?' = How much does it cost? Con 'esta blusa' (singular): cuesta.",
-    "en": "'Quanto custa?' = How much does it cost? With 'esta blusa' (singular): custa.",
-    "ar": "'Quanto custa?' = كم يكلف؟ مع 'esta blusa' (مفرد): custa."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "La blusa cuesta cien euros y tiene veinte por ciento de ___.",
-    "en": "The blouse costs one hundred reais and has a twenty percent ___.",
-    "ar": "البلوزة تكلف مئة ريال ولها خصم عشرون بالمئة."
-   },
-   "options": [
-    {
-     "es": "descuento",
-     "en": "desconto",
-     "ar": "desconto"
-    },
-    {
-     "es": "precio",
-     "en": "preço",
-     "ar": "preço"
-    },
-    {
-     "es": "cambio",
-     "en": "troco",
-     "ar": "troco"
-    }
-   ],
-   "answer": "descuento",
-   "explanation": {
-    "es": "Descuento = discount. Veinte por ciento es el descuento.",
-    "en": "Desconto = discount. Twenty percent is the discount.",
-    "ar": "desconto = خصم. عشرون بالمئة هي الخصم."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'to pay'",
-    "en": "Translate: 'to pay'",
-    "ar": "ترجم: 'to pay'"
-   },
-   "options": [],
-   "answer": "pagar",
-   "explanation": {
-    "es": "'Pagar' = to pay.",
-    "en": "'Pagar' = to pay.",
-    "ar": "'pagar' تعني يدفع."
-   }
-  }
- ]
 }

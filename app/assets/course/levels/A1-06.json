@@ -1,305 +1,572 @@
 {
- "id": "A1-06",
- "level": "A1",
- "level_name": {
-  "es": "Principiante",
-  "en": "Beginner",
-  "ar": "مبتدئ"
- },
- "title": {
-  "es": "Presente de Indicativo",
-  "en": "Simple Present",
-  "ar": "المضارع البسيط"
- },
- "objectives": [
-  {
-   "es": "Conjugar verbos regulares en presente",
-   "en": "Conjugate regular verbs in the present",
-   "ar": "تصريف الأفعال المنتظمة في المضارع"
+  "id": "A1-06",
+  "level": "A1",
+  "level_name": {
+    "es": "Principiante",
+    "en": "Beginner",
+    "ar": "مبتدئ"
   },
-  {
-   "es": "Usar verbos en -ar, -er, -ir",
-   "en": "Use -ar, -er, -ir verbs",
-   "ar": "استخدام الأفعال المنتهية بـ -ar، -er، -ir"
-  },
-  {
-   "es": "Hablar sobre rutinas y hábitos",
-   "en": "Talk about routines and habits",
-   "ar": "التحدث عن الروتين والعادات"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "hablar",
-   "ipa": "/aˈβlaɾ/",
-   "en": "to speak",
-   "ar": "يتكلم"
-  },
-  {
-   "es": "comer",
-   "ipa": "/koˈmeɾ/",
-   "en": "to eat",
-   "ar": "يأكل"
-  },
-  {
-   "es": "beber",
-   "ipa": "/beˈβeɾ/",
-   "en": "to drink",
-   "ar": "يشرب"
-  },
-  {
-   "es": "vivir",
-   "ipa": "/biˈβiɾ/",
-   "en": "to live",
-   "ar": "يعيش"
-  },
-  {
-   "es": "abrir",
-   "ipa": "/aˈβɾiɾ/",
-   "en": "to open",
-   "ar": "يفتح"
-  },
-  {
-   "es": "trabajar",
-   "ipa": "/tɾaβaˈxaɾ/",
-   "en": "to work",
-   "ar": "يعمل"
-  },
-  {
-   "es": "estudiar",
-   "ipa": "/estuˈðiaɾ/",
-   "en": "to study",
-   "ar": "يدرس"
-  },
-  {
-   "es": "vivir (residir)",
-   "ipa": "/biˈβiɾ resiˈðiɾ/",
-   "en": "to live (in a place)",
-   "ar": "يسكن"
-  },
-  {
-   "es": "aprender",
-   "ipa": "/apɾeˈndeɾ/",
-   "en": "to learn",
-   "ar": "يتعلم"
-  },
-  {
-   "es": "entender",
-   "ipa": "/enteˈndeɾ/",
-   "en": "to understand",
-   "ar": "يفهم"
-  },
-  {
-   "es": "escribir",
-   "ipa": "/eskɾiˈβiɾ/",
-   "en": "to write",
-   "ar": "يكتب"
-  },
-  {
-   "es": "ver",
-   "ipa": "/ˈbeɾ/",
-   "en": "to watch",
-   "ar": "يشاهد"
-  },
-  {
-   "es": "viajar",
-   "ipa": "/biaˈxaɾ/",
-   "en": "to travel",
-   "ar": "يسافر"
-  },
-  {
-   "es": "todos los días",
-   "ipa": "/ˈtoðos ˈlos ˈdias/",
-   "en": "every day",
-   "ar": "كل يوم"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Verbos en -AR",
-    "en": "-AR Verbs",
-    "ar": "الأفعال المنتهية بـ -AR"
-   },
-   "explanation": {
-    "es": "Verbos en -ar (hablar): yo hablo, tú hablas, él/ella habla, nosotros hablamos, ustedes hablan, ellos/ellas hablan. La terminación cambia: -o, -as, -a, -amos, -áis, -an.",
-    "en": "-ar verbs (hablar - to speak): yo hablo (I speak), tú hablas (you speak), él/ella habla (he/she speaks), nosotros hablamos (we speak), ustedes hablan (you pl. speak), ellos/ellas hablan (they speak). The ending changes: -o, -as, -a, -amos, -áis, -an.",
-    "ar": "الأفعال المنتهية بـ -ar (hablar - يتكلم): yo hablo (أتحدث)، tú hablas (تتحدث)، él/ella habla (يتحدث)، nosotros hablamos (نتحدث)، ustedes hablan (تتحدثون)، ellos/ellas hablan (يتحدثون). تتغير النهاية: -o، -as، -a، -amos، -áis، -an."
-   },
-   "examples": [
-    {
-     "es": "Yo hablo español.",
-     "en": "I speak Portuguese.",
-     "ar": "أتحدث البرتغالية."
-    },
-    {
-     "es": "Nosotros trabajamos mucho.",
-     "en": "We work a lot.",
-     "ar": "نحن نعمل كثيرًا."
-    },
-    {
-     "es": "Usted estudia todos los días.",
-     "en": "You study every day.",
-     "ar": "أنت تدرس كل يوم."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Verbos en -ER e -IR",
-    "en": "-ER and -IR Verbs",
-    "ar": "الأفعال المنتهية بـ -ER و -IR"
-   },
-   "explanation": {
-    "es": "-er (comer): yo como, tú comes, él come, nosotros comemos, ustedes comen. -ir (abrir): yo abro, tú abres, él abre, nosotros abrimos, ustedes abren. Excepciones comunes: 'tener' y 'venir'.",
-    "en": "-er (comer): yo como, tú comes, él come, nosotros comemos, ustedes comen. -ir (abrir): yo abro, tú abres, él abre, nosotros abrimos, ustedes abren. Common exceptions: 'tener' and 'venir'.",
-    "ar": "-er (comer - يأكل): yo como، tú comes، él come، nosotros comemos، ustedes comen. -ir (abrir - يفتح): yo abro، tú abres، él abre، nosotros abrimos، ustedes abren. استثناءات شائعة: 'tener' و 'venir'."
-   },
-   "examples": [
-    {
-     "es": "Yo como arroz y frijoles.",
-     "en": "I eat rice and beans.",
-     "ar": "آكل الأرز والفاصوليا."
-    },
-    {
-     "es": "Ella aprende español rápido.",
-     "en": "She learns Portuguese fast.",
-     "ar": "تتعلم البرتغالية بسرعة."
-    },
-    {
-     "es": "Nosotros vemos la tele por la noche.",
-     "en": "We watch TV at night.",
-     "ar": "نشاهد التلفاز في الليل."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "La Rutina de Carla",
-   "en": "Carla's Routine",
-   "ar": "روتين كارلا"
+    "es": "Presente de Indicativo",
+    "en": "Simple Present",
+    "ar": "المضارع البسيط"
   },
-  "lines": [
-   {
-    "speaker": "Carla",
-    "es": "Yo trabajo en Madrid y vivo en el centro.",
-    "en": "I work in São Paulo and live downtown.",
-    "ar": "أعمل في ساو باولو وأسكن في المركز."
-   },
-   {
-    "speaker": "Amiga",
-    "es": "¿Usted también estudia?",
-    "en": "Do you also study?",
-    "ar": "هل تدرسين أيضًا؟"
-   },
-   {
-    "speaker": "Carla",
-    "es": "Sí, aprendo inglés por la noche.",
-    "en": "Yes, I learn Spanish at night.",
-    "ar": "نعم، أتعلم الإسبانية في الليل."
-   },
-   {
-    "speaker": "Amiga",
-    "es": "¿Y qué come usted en el trabajo?",
-    "en": "And what do you eat at work?",
-    "ar": "وماذا تأكلين في العمل؟"
-   },
-   {
-    "speaker": "Carla",
-    "es": "Como un sándwich y bebo café. Es rápido.",
-    "en": "I eat a sandwich and drink coffee. It's fast.",
-    "ar": "آكل شطيرة وأشرب القهوة. إنه سريع."
-   }
+  "objectives": [
+    {
+      "es": "Conjugar verbos regulares en presente",
+      "en": "Conjugate regular verbs in the present",
+      "ar": "تصريف الأفعال المنتظمة في المضارع"
+    },
+    {
+      "es": "Usar verbos en -ar, -er, -ir",
+      "en": "Use -ar, -er, -ir verbs",
+      "ar": "استخدام الأفعال المنتهية بـ -ar، -er، -ir"
+    },
+    {
+      "es": "Hablar sobre rutinas y hábitos",
+      "en": "Talk about routines and habits",
+      "ar": "التحدث عن الروتين والعادات"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "hablar",
+      "ipa": "/aˈβlaɾ/",
+      "en": "to speak",
+      "ar": "يتكلم",
+      "example": {
+        "es": "Vamos a hablar en español.",
+        "en": "Let's speak in Spanish.",
+        "ar": "دعونا نتحدث بالإسبانية."
+      }
+    },
+    {
+      "es": "comer",
+      "ipa": "/koˈmeɾ/",
+      "en": "to eat",
+      "ar": "يأكل",
+      "example": {
+        "es": "Vamos a comer a las siete.",
+        "en": "Let's eat at seven.",
+        "ar": "لنتناول الطعام في السابعة."
+      }
+    },
+    {
+      "es": "beber",
+      "ipa": "/beˈβeɾ/",
+      "en": "to drink",
+      "ar": "يشرب",
+      "example": {
+        "es": "Me gusta beber zumo.",
+        "en": "I like drinking juice.",
+        "ar": "أحب شرب العصير."
+      }
+    },
+    {
+      "es": "vivir",
+      "ipa": "/biˈβiɾ/",
+      "en": "to live",
+      "ar": "يعيش",
+      "example": {
+        "es": "Quiero vivir cerca del mar.",
+        "en": "I want to live near the sea.",
+        "ar": "أريد أن أسكن قرب البحر."
+      }
+    },
+    {
+      "es": "abrir",
+      "ipa": "/aˈβɾiɾ/",
+      "en": "to open",
+      "ar": "يفتح",
+      "example": {
+        "es": "¿Puedes abrir la puerta?",
+        "en": "Can you open the door?",
+        "ar": "هل يمكنك فتح الباب؟"
+      }
+    },
+    {
+      "es": "trabajar",
+      "ipa": "/tɾaβaˈxaɾ/",
+      "en": "to work",
+      "ar": "يعمل",
+      "example": {
+        "es": "Ella puede trabajar desde casa.",
+        "en": "She can work from home.",
+        "ar": "يمكنها العمل من المنزل."
+      }
+    },
+    {
+      "es": "estudiar",
+      "ipa": "/estuˈðiaɾ/",
+      "en": "to study",
+      "ar": "يدرس",
+      "example": {
+        "es": "Necesito estudiar hoy.",
+        "en": "I need to study today.",
+        "ar": "أحتاج أندرس اليوم."
+      }
+    },
+    {
+      "es": "vivir (residir)",
+      "ipa": "/biˈβiɾ resiˈðiɾ/",
+      "en": "to live (in a place)",
+      "ar": "يسكن",
+      "example": {
+        "es": "Vamos a vivir en el centro.",
+        "en": "We're going to live downtown.",
+        "ar": "سنسكن في وسط المدينة."
+      }
+    },
+    {
+      "es": "aprender",
+      "ipa": "/apɾeˈndeɾ/",
+      "en": "to learn",
+      "ar": "يتعلم",
+      "example": {
+        "es": "Vamos a aprender juntos.",
+        "en": "Let's learn together.",
+        "ar": "دعونا نتعلم معًا."
+      }
+    },
+    {
+      "es": "entender",
+      "ipa": "/enteˈndeɾ/",
+      "en": "to understand",
+      "ar": "يفهم",
+      "example": {
+        "es": "Necesito entender la pregunta.",
+        "en": "I don't understand the question.",
+        "ar": "لا أفهم السؤال."
+      }
+    },
+    {
+      "es": "escribir",
+      "ipa": "/eskɾiˈβiɾ/",
+      "en": "to write",
+      "ar": "يكتب",
+      "example": {
+        "es": "Voy a escribir en el diario.",
+        "en": "I'm going to write in the diary.",
+        "ar": "سأكتب في اليومية."
+      }
+    },
+    {
+      "es": "ver",
+      "ipa": "/ˈbeɾ/",
+      "en": "to watch",
+      "ar": "يشاهد",
+      "example": {
+        "es": "Vamos a ver una película.",
+        "en": "Let's watch a movie.",
+        "ar": "دعونا نشاهد فيلمًا."
+      }
+    },
+    {
+      "es": "viajar",
+      "ipa": "/biaˈxaɾ/",
+      "en": "to travel",
+      "ar": "يسافر",
+      "example": {
+        "es": "Quiero viajar por el mundo.",
+        "en": "I want to travel around the world.",
+        "ar": "أريد أن أسافر حول العالم."
+      }
+    },
+    {
+      "es": "todos los días",
+      "ipa": "/ˈtoðos ˈlos ˈdias/",
+      "en": "every day",
+      "ar": "كل يوم",
+      "example": {
+        "es": "Corro todos los días.",
+        "en": "I run every day.",
+        "ar": "أركض كل يوم."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Verbos en -AR",
+        "en": "-AR Verbs",
+        "ar": "الأفعال المنتهية بـ -AR"
+      },
+      "explanation": {
+        "es": "Verbos en -ar (hablar): yo hablo, tú hablas, él/ella habla, nosotros hablamos, ustedes hablan, ellos/ellas hablan. La terminación cambia: -o, -as, -a, -amos, -áis, -an.",
+        "en": "-ar verbs (hablar - to speak): yo hablo (I speak), tú hablas (you speak), él/ella habla (he/she speaks), nosotros hablamos (we speak), ustedes hablan (you pl. speak), ellos/ellas hablan (they speak). The ending changes: -o, -as, -a, -amos, -áis, -an.",
+        "ar": "الأفعال المنتهية بـ -ar (hablar - يتكلم): yo hablo (أتحدث)، tú hablas (تتحدث)، él/ella habla (يتحدث)، nosotros hablamos (نتحدث)، ustedes hablan (تتحدثون)، ellos/ellas hablan (يتحدثون). تتغير النهاية: -o، -as، -a، -amos، -áis، -an."
+      },
+      "examples": [
+        {
+          "es": "Yo hablo español.",
+          "en": "I speak Portuguese.",
+          "ar": "أتحدث البرتغالية."
+        },
+        {
+          "es": "Nosotros trabajamos mucho.",
+          "en": "We work a lot.",
+          "ar": "نحن نعمل كثيرًا."
+        },
+        {
+          "es": "Usted estudia todos los días.",
+          "en": "You study every day.",
+          "ar": "أنت تدرس كل يوم."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Verbos en -ER e -IR",
+        "en": "-ER and -IR Verbs",
+        "ar": "الأفعال المنتهية بـ -ER و -IR"
+      },
+      "explanation": {
+        "es": "-er (comer): yo como, tú comes, él come, nosotros comemos, ustedes comen. -ir (abrir): yo abro, tú abres, él abre, nosotros abrimos, ustedes abren. Excepciones comunes: 'tener' y 'venir'.",
+        "en": "-er (comer): yo como, tú comes, él come, nosotros comemos, ustedes comen. -ir (abrir): yo abro, tú abres, él abre, nosotros abrimos, ustedes abren. Common exceptions: 'tener' and 'venir'.",
+        "ar": "-er (comer - يأكل): yo como، tú comes، él come، nosotros comemos، ustedes comen. -ir (abrir - يفتح): yo abro، tú abres، él abre، nosotros abrimos، ustedes abren. استثناءات شائعة: 'tener' و 'venir'."
+      },
+      "examples": [
+        {
+          "es": "Yo como arroz y frijoles.",
+          "en": "I eat rice and beans.",
+          "ar": "آكل الأرز والفاصوليا."
+        },
+        {
+          "es": "Ella aprende español rápido.",
+          "en": "She learns Portuguese fast.",
+          "ar": "تتعلم البرتغالية بسرعة."
+        },
+        {
+          "es": "Nosotros vemos la tele por la noche.",
+          "en": "We watch TV at night.",
+          "ar": "نشاهد التلفاز في الليل."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "La Rutina de Carla",
+      "en": "Carla's Routine",
+      "ar": "روتين كارلا"
+    },
+    "lines": [
+      {
+        "speaker": "Carla",
+        "es": "Yo trabajo en Madrid y vivo en el centro.",
+        "en": "I work in São Paulo and live downtown.",
+        "ar": "أعمل في ساو باولو وأسكن في المركز."
+      },
+      {
+        "speaker": "Amiga",
+        "es": "¿Usted también estudia?",
+        "en": "Do you also study?",
+        "ar": "هل تدرسين أيضًا؟"
+      },
+      {
+        "speaker": "Carla",
+        "es": "Sí, aprendo inglés por la noche.",
+        "en": "Yes, I learn Spanish at night.",
+        "ar": "نعم، أتعلم الإسبانية في الليل."
+      },
+      {
+        "speaker": "Amiga",
+        "es": "¿Y qué come usted en el trabajo?",
+        "en": "And what do you eat at work?",
+        "ar": "وماذا تأكلين في العمل؟"
+      },
+      {
+        "speaker": "Carla",
+        "es": "Como un sándwich y bebo café. Es rápido.",
+        "en": "I eat a sandwich and drink coffee. It's fast.",
+        "ar": "آكل شطيرة وأشرب القهوة. إنه سريع."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Día de Pedro",
+      "en": "Pedro's Day",
+      "ar": "يوم بيدرو"
+    },
+    "text_es": "Pedro vive en España. Trabaja en una empresa y viaja mucho. Todos los días abre el ordenador a las ocho. Escribe correos y habla con los clientes. Por la noche cena con la familia y ve la tele.",
+    "text_en": "Pedro lives in Spain. He works at a company and travels a lot. Every day he turns on his computer at eight o'clock. He writes emails and talks with clients. At night, he has dinner with his family and watches TV.",
+    "text_ar": "يعيش بيدرو في إسبانيا. يعمل في شركة ويسافر كثيرًا. كل يوم يشغل حاسوبه في الساعة الثامنة. يكتب الرسائل الإلكترونية ويتحدث مع العملاء. في المساء يعشّاء مع عائلته ويشاهد التلفاز."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Yo ___ español todos los días. (estudiar)",
+        "en": "I ___ Spanish every day. (estudar)",
+        "ar": "أنا أدرس بالإسبانية كل يوم. (estudar)"
+      },
+      "options": [
+        {
+          "es": "estudio",
+          "en": "I study",
+          "ar": "أدرس"
+        },
+        {
+          "es": "estudia",
+          "en": "studies",
+          "ar": "يدرس"
+        },
+        {
+          "es": "estudiamos",
+          "en": "we study",
+          "ar": "ندرس"
+        }
+      ],
+      "answer": "estudio",
+      "explanation": {
+        "es": "Con 'yo' usamos '-o': yo estudio.",
+        "en": "With 'eu' we use '-o': eu estudo.",
+        "ar": "مع 'eu' نستخدم '-o': eu estudo."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Nosotros ___ arroz y frijoles. (comer)",
+        "en": "We ___ rice and beans. (comer)",
+        "ar": "نحن نأكل الأرز والفاصوليا. (comer)"
+      },
+      "options": [
+        {
+          "es": "como",
+          "en": "como",
+          "ar": "como"
+        },
+        {
+          "es": "come",
+          "en": "come",
+          "ar": "come"
+        },
+        {
+          "es": "comemos",
+          "en": "comemos",
+          "ar": "comemos"
+        }
+      ],
+      "answer": "comemos",
+      "explanation": {
+        "es": "Con 'nosotros' usamos '-emos': nosotros comemos.",
+        "en": "With 'nosotros' we use '-emos': nosotros comemos.",
+        "ar": "مع 'nosotros' نستخدم '-emos': nosotros comemos."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'to live'",
+        "en": "Translate: 'to live'",
+        "ar": "ترجم: 'to live'"
+      },
+      "options": [],
+      "answer": "vivir / residir",
+      "explanation": {
+        "es": "'Vivir' (to live) y 'vivir en' (to reside).",
+        "en": "'Viver' (to live) and 'morar' (to reside).",
+        "ar": "'Viver' (يعيش) و 'morar' (يسكن)."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'to eat'?",
+        "en": "Which word means 'to eat'?",
+        "ar": "أي كلمة تعني 'يأكل'؟"
+      },
+      "options": [
+        {
+          "es": "estudiar",
+          "en": "to study",
+          "ar": "يدرس"
+        },
+        {
+          "es": "comer",
+          "en": "to eat",
+          "ar": "يأكل"
+        },
+        {
+          "es": "vivir (residir)",
+          "en": "to live (in a place)",
+          "ar": "يسكن"
+        }
+      ],
+      "answer": "comer",
+      "explanation": {
+        "es": "'comer' significa 'to eat'.",
+        "en": "'comer' means 'to eat'.",
+        "ar": "تعني 'comer' 'يأكل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'to eat'",
+        "en": "Choose the Spanish word: 'to eat'",
+        "ar": "اختر الكلمة بالإسبانية: 'يأكل'"
+      },
+      "options": [
+        {
+          "es": "comer",
+          "en": "to eat",
+          "ar": "يأكل"
+        },
+        {
+          "es": "vivir (residir)",
+          "en": "to live (in a place)",
+          "ar": "يسكن"
+        },
+        {
+          "es": "abrir",
+          "en": "to open",
+          "ar": "يفتح"
+        }
+      ],
+      "answer": "comer",
+      "explanation": {
+        "es": "'comer' significa 'to eat'.",
+        "en": "'comer' means 'to eat'.",
+        "ar": "تعني 'comer' 'يأكل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'to travel' en español?",
+        "en": "How do you say 'to travel' in Spanish?",
+        "ar": "كيف تقول 'يسافر' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "trabajar",
+          "en": "to work",
+          "ar": "يعمل"
+        },
+        {
+          "es": "beber",
+          "en": "to drink",
+          "ar": "يشرب"
+        },
+        {
+          "es": "vivir",
+          "en": "to live",
+          "ar": "يعيش"
+        },
+        {
+          "es": "viajar",
+          "en": "to travel",
+          "ar": "يسافر"
+        }
+      ],
+      "answer": "viajar",
+      "explanation": {
+        "es": "'viajar' significa 'to travel'.",
+        "en": "'viajar' means 'to travel'.",
+        "ar": "تعني 'viajar' 'يسافر'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'to watch'?",
+        "en": "Which word means 'to watch'?",
+        "ar": "أي كلمة تعني 'يشاهد'؟"
+      },
+      "options": [
+        {
+          "es": "trabajar",
+          "en": "to work",
+          "ar": "يعمل"
+        },
+        {
+          "es": "hablar",
+          "en": "to speak",
+          "ar": "يتكلم"
+        },
+        {
+          "es": "ver",
+          "en": "to watch",
+          "ar": "يشاهد"
+        }
+      ],
+      "answer": "ver",
+      "explanation": {
+        "es": "'ver' significa 'to watch'.",
+        "en": "'ver' means 'to watch'.",
+        "ar": "تعني 'ver' 'يشاهد'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Can you open the door?\"",
+        "en": "Translate into Spanish: \"Can you open the door?\"",
+        "ar": "ترجم إلى الإسبانية: \"هل يمكنك فتح الباب؟\""
+      },
+      "options": [],
+      "answer": "¿Puedes abrir la puerta?",
+      "explanation": {
+        "es": "Respuesta: \"¿Puedes abrir la puerta?\".",
+        "en": "Answer: \"¿Puedes abrir la puerta?\".",
+        "ar": "الإجابة: \"¿Puedes abrir la puerta?\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"She can work from home.\"",
+        "en": "Translate into Spanish: \"She can work from home.\"",
+        "ar": "ترجم إلى الإسبانية: \"يمكنها العمل من المنزل.\""
+      },
+      "options": [],
+      "answer": "Ella puede trabajar desde casa.",
+      "explanation": {
+        "es": "Respuesta: \"Ella puede trabajar desde casa.\".",
+        "en": "Answer: \"Ella puede trabajar desde casa.\".",
+        "ar": "الإجابة: \"Ella puede trabajar desde casa.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I need to study today.\"",
+        "en": "Translate into Spanish: \"I need to study today.\"",
+        "ar": "ترجم إلى الإسبانية: \"أحتاج أندرس اليوم.\""
+      },
+      "options": [],
+      "answer": "Necesito estudiar hoy.",
+      "explanation": {
+        "es": "Respuesta: \"Necesito estudiar hoy.\".",
+        "en": "Answer: \"Necesito estudiar hoy.\".",
+        "ar": "الإجابة: \"Necesito estudiar hoy.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I want to live near the sea.\"",
+        "en": "Translate into Spanish: \"I want to live near the sea.\"",
+        "ar": "ترجم إلى الإسبانية: \"أريد أن أسكن قرب البحر.\""
+      },
+      "options": [],
+      "answer": "Quiero vivir cerca del mar.",
+      "explanation": {
+        "es": "Respuesta: \"Quiero vivir cerca del mar.\".",
+        "en": "Answer: \"Quiero vivir cerca del mar.\".",
+        "ar": "الإجابة: \"Quiero vivir cerca del mar.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "El Día de Pedro",
-   "en": "Pedro's Day",
-   "ar": "يوم بيدرو"
-  },
-  "text_es": "Pedro vive en España. Trabaja en una empresa y viaja mucho. Todos los días abre el ordenador a las ocho. Escribe correos y habla con los clientes. Por la noche cena con la familia y ve la tele.",
-  "text_en": "Pedro lives in Spain. He works at a company and travels a lot. Every day he turns on his computer at eight o'clock. He writes emails and talks with clients. At night, he has dinner with his family and watches TV.",
-  "text_ar": "يعيش بيدرو في إسبانيا. يعمل في شركة ويسافر كثيرًا. كل يوم يشغل حاسوبه في الساعة الثامنة. يكتب الرسائل الإلكترونية ويتحدث مع العملاء. في المساء يعشّاء مع عائلته ويشاهد التلفاز."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Yo ___ español todos los días. (estudiar)",
-    "en": "I ___ Portuguese every day. (estudar)",
-    "ar": "أنا أدرس البرتغالية كل يوم. (estudar)"
-   },
-   "options": [
-    {
-     "es": "estudio",
-     "en": "estudo",
-     "ar": "estudo"
-    },
-    {
-     "es": "estudia",
-     "en": "estuda",
-     "ar": "estuda"
-    },
-    {
-     "es": "estudiamos",
-     "en": "estudamos",
-     "ar": "estudamos"
-    }
-   ],
-   "answer": "estudio",
-   "explanation": {
-    "es": "Con 'yo' usamos '-o': yo estudio.",
-    "en": "With 'eu' we use '-o': eu estudo.",
-    "ar": "مع 'eu' نستخدم '-o': eu estudo."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Nosotros ___ arroz y frijoles. (comer)",
-    "en": "We ___ rice and beans. (comer)",
-    "ar": "نحن نأكل الأرز والفاصوليا. (comer)"
-   },
-   "options": [
-    {
-     "es": "como",
-     "en": "como",
-     "ar": "como"
-    },
-    {
-     "es": "come",
-     "en": "come",
-     "ar": "come"
-    },
-    {
-     "es": "comemos",
-     "en": "comemos",
-     "ar": "comemos"
-    }
-   ],
-   "answer": "comemos",
-   "explanation": {
-    "es": "Con 'nosotros' usamos '-emos': nosotros comemos.",
-    "en": "With 'nosotros' we use '-emos': nosotros comemos.",
-    "ar": "مع 'nosotros' نستخدم '-emos': nosotros comemos."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'to live'",
-    "en": "Translate: 'to live'",
-    "ar": "ترجم: 'to live'"
-   },
-   "options": [],
-   "answer": "vivir / residir",
-   "explanation": {
-    "es": "'Vivir' (to live) y 'vivir en' (to reside).",
-    "en": "'Viver' (to live) and 'morar' (to reside).",
-    "ar": "'Viver' (يعيش) و 'morar' (يسكن)."
-   }
-  }
- ]
 }

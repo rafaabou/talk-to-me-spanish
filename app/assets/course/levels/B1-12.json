@@ -28,91 +28,166 @@
       "es": "la revisión",
       "ipa": "/ˈla reβiˈsion/",
       "en": "the review",
-      "ar": "المراجعة"
+      "ar": "المراجعة",
+      "example": {
+        "es": "La revisión del texto tomó una houra.",
+        "en": "The text revision took an hour.",
+        "ar": "استغرقت مراجعة النص ساعة."
+      }
     },
     {
       "es": "la gramática",
       "ipa": "/ˈla gɾaˈmatika/",
       "en": "the grammar",
-      "ar": "القواعد"
+      "ar": "القواعد",
+      "example": {
+        "es": "La gramática española tiene muchos detalles.",
+        "en": "Spanish grammar has many details.",
+        "ar": "قواعد الإسبانية فيها تفاصيل كثيرة."
+      }
     },
     {
       "es": "el contenido",
       "ipa": "/ˈel konteˈniðo/",
       "en": "the content",
-      "ar": "المحتوى"
+      "ar": "المحتوى",
+      "example": {
+        "es": "El contenido del libro es denso.",
+        "en": "The book's content is dense.",
+        "ar": "محتوى الكتاب كثيف."
+      }
     },
     {
       "es": "dominar",
       "ipa": "/domiˈnaɾ/",
       "en": "to master",
-      "ar": "يتقن"
+      "ar": "يتقن",
+      "example": {
+        "es": "Dominar un idioma lleva años.",
+        "en": "Mastering a language takes years.",
+        "ar": "إتقان لغة يستغرق سنوات."
+      }
     },
     {
       "es": "practicar",
       "ipa": "/pɾaktiˈkaɾ/",
       "en": "to practice",
-      "ar": "يمارس"
+      "ar": "يمارس",
+      "example": {
+        "es": "Practicar todos los días da resultados.",
+        "en": "Practicing every day gives results.",
+        "ar": "الممارسة كل يوم تُثمر."
+      }
     },
     {
       "es": "revisar",
       "ipa": "/reβiˈsaɾ/",
       "en": "to review",
-      "ar": "يراجع"
+      "ar": "يراجع",
+      "example": {
+        "es": "Revisar las respuestas evita errores.",
+        "en": "Check your answers before submitting.",
+        "ar": "راجع إجاباتك قبل التسليم."
+      }
     },
     {
       "es": "concluir",
       "ipa": "/koˈnkluiɾ/",
       "en": "to finish",
-      "ar": "يُنهي"
+      "ar": "يُنهي",
+      "example": {
+        "es": "Voy a concluir el resumen mañana.",
+        "en": "I am going to conclude the summary tomorrow.",
+        "ar": "سأستنتج الملخص غدًا."
+      }
     },
     {
       "es": "la duda",
       "ipa": "/ˈla ˈduða/",
       "en": "the doubt",
-      "ar": "الشك / السؤال"
+      "ar": "الشك / السؤال",
+      "example": {
+        "es": "La duda desapareció con la explicación.",
+        "en": "The doubt disappeared with the explanation.",
+        "ar": "زول الشك مع الشرح."
+      }
     },
     {
       "es": "el capítulo",
       "ipa": "/ˈel kaˈpitulo/",
       "en": "the chapter",
-      "ar": "الفصل"
+      "ar": "الفصل",
+      "example": {
+        "es": "El capítulo termina en la página diez.",
+        "en": "This chapter is the shortest.",
+        "ar": "هذا الفصل هو الأقصر."
+      }
     },
     {
       "es": "la meta",
       "ipa": "/ˈla ˈmeta/",
       "en": "the goal",
-      "ar": "الهدف"
+      "ar": "الهدف",
+      "example": {
+        "es": "La meta de este curso es hablar fluido.",
+        "en": "The goal of this course is to speak fluently.",
+        "ar": "هدف هذه الدورة هو التحدث بطلاقة."
+      }
     },
     {
       "es": "el progreso",
       "ipa": "/ˈel pɾoˈɣɾeso/",
       "en": "the progress",
-      "ar": "التقدم"
+      "ar": "التقدم",
+      "example": {
+        "es": "El progreso del grupo es notable.",
+        "en": "Your progress is notable.",
+        "ar": "تقدمك ملحوظ."
+      }
     },
     {
       "es": "la fluidez",
       "ipa": "/ˈla fluiˈðes/",
       "en": "the fluency",
-      "ar": "الطلاقة"
+      "ar": "الطلاقة",
+      "example": {
+        "es": "La fluidez llega con la práctica.",
+        "en": "Fluency comes with practice.",
+        "ar": "الطلاقة تأتي بالممارسة."
+      }
     },
     {
       "es": "la dificultad",
       "ipa": "/ˈla difikuˈltað/",
       "en": "the difficulty",
-      "ar": "الصعوبة"
+      "ar": "الصعوبة",
+      "example": {
+        "es": "La dificultad principal es la gramática.",
+        "en": "The main difficulty is grammar.",
+        "ar": "الصعوبة الرئيسية هي القواعد."
+      }
     },
     {
       "es": "el resumen",
       "ipa": "/ˈel reˈsumen/",
       "en": "the summary",
-      "ar": "الملخص"
+      "ar": "الملخص",
+      "example": {
+        "es": "El resumen ocupa media página.",
+        "en": "Write a summary of the article.",
+        "ar": "اكتب ملخصًا للمقال."
+      }
     },
     {
       "es": "preparar",
       "ipa": "/pɾepaˈɾaɾ/",
       "en": "to prepare",
-      "ar": "يحضّر"
+      "ar": "يحضّر",
+      "example": {
+        "es": "Prepararé la cena para los invitados.",
+        "en": "I will prepare dinner for the guests.",
+        "ar": "سأجهز العشاء للضيوف."
+      }
     }
   ],
   "grammar": [
@@ -235,8 +310,8 @@
       "type": "multiple_choice",
       "prompt": {
         "es": "Completa: \"Si tuviera tiempo, ___ español todos los días.\"",
-        "en": "Complete: \"If I had time, I ___ Portuguese every day.\"",
-        "ar": "أكمل: \"لو كان لدي وقت، ___ البرتغالية كل يوم.\""
+        "en": "Complete: \"If I had time, I ___ Spanish every day.\"",
+        "ar": "أكمل: \"لو كان لدي وقت، ___ بالإسبانية كل يوم.\""
       },
       "options": [
         {
@@ -271,8 +346,8 @@
       "type": "multiple_choice",
       "prompt": {
         "es": "Completa: \"La amiga ___ me ayudó es española.\"",
-        "en": "Complete: \"The friend ___ helped me is Brazilian.\"",
-        "ar": "أكمل: \"الصديقة ___ ساعدتني برازيلية.\""
+        "en": "Complete: \"The friend ___ helped me is Spanish.\"",
+        "ar": "أكمل: \"الصديقة ___ ساعدتني إسبانية.\""
       },
       "options": [
         {
@@ -307,16 +382,223 @@
       "type": "translation",
       "prompt": {
         "es": "Traduce al inglés: \"Él está practicando español todos los días.\"",
-        "en": "Translate to English: \"Ele está praticando português todos os dias.\"",
-        "ar": "ترجم إلى الإنجليزية: \"Ele está praticando português todos os dias.\""
+        "en": "Translate to English: \"Él está practicando español todos los días.\"",
+        "ar": "ترجم إلى الإنجليزية: \"Él está practicando español todos los días.\""
       },
       "options": [],
-      "answer": "He is practicing Portuguese every day.",
+      "answer": "He is practicing Spanish every day.",
       "explanation": {
         "es": "'Está practicando' usa estar + gerundio para una acción en curso.",
-        "en": "'Está praticando' uses estar + gerund for an ongoing action.",
-        "ar": "يستخدم 'está praticando' فعل estar مع اسم الفاعل لفعل جارٍ."
+        "en": "'Está practicando' uses estar + gerund for an ongoing action.",
+        "ar": "'Está practicando' تستخدم estar + اسم الفاعل لفعل مستمر."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'to practice'?",
+        "en": "Which word means 'to practice'?",
+        "ar": "أي كلمة تعني 'يمارس'؟"
+      },
+      "options": [
+        {
+          "es": "el contenido",
+          "en": "the content",
+          "ar": "المحتوى"
+        },
+        {
+          "es": "practicar",
+          "en": "to practice",
+          "ar": "يمارس"
+        },
+        {
+          "es": "la gramática",
+          "en": "the grammar",
+          "ar": "القواعد"
+        },
+        {
+          "es": "la duda",
+          "en": "the doubt",
+          "ar": "الشك / السؤال"
+        }
+      ],
+      "answer": "practicar",
+      "explanation": {
+        "es": "'practicar' significa 'to practice'.",
+        "en": "'practicar' means 'to practice'.",
+        "ar": "تعني 'practicar' 'يمارس'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the goal'",
+        "en": "Choose the Spanish word: 'the goal'",
+        "ar": "اختر الكلمة بالإسبانية: 'الهدف'"
+      },
+      "options": [
+        {
+          "es": "la fluidez",
+          "en": "the fluency",
+          "ar": "الطلاقة"
+        },
+        {
+          "es": "la meta",
+          "en": "the goal",
+          "ar": "الهدف"
+        },
+        {
+          "es": "el contenido",
+          "en": "the content",
+          "ar": "المحتوى"
+        }
+      ],
+      "answer": "la meta",
+      "explanation": {
+        "es": "'la meta' significa 'the goal'.",
+        "en": "'la meta' means 'the goal'.",
+        "ar": "تعني 'la meta' 'الهدف'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the content' en español?",
+        "en": "How do you say 'the content' in Spanish?",
+        "ar": "كيف تقول 'المحتوى' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el contenido",
+          "en": "the content",
+          "ar": "المحتوى"
+        },
+        {
+          "es": "la duda",
+          "en": "the doubt",
+          "ar": "الشك / السؤال"
+        },
+        {
+          "es": "la fluidez",
+          "en": "the fluency",
+          "ar": "الطلاقة"
+        },
+        {
+          "es": "el resumen",
+          "en": "the summary",
+          "ar": "الملخص"
+        }
+      ],
+      "answer": "el contenido",
+      "explanation": {
+        "es": "'el contenido' significa 'the content'.",
+        "en": "'el contenido' means 'the content'.",
+        "ar": "تعني 'el contenido' 'المحتوى'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the doubt'?",
+        "en": "Which word means 'the doubt'?",
+        "ar": "أي كلمة تعني 'الشك / السؤال'؟"
+      },
+      "options": [
+        {
+          "es": "el capítulo",
+          "en": "the chapter",
+          "ar": "الفصل"
+        },
+        {
+          "es": "la dificultad",
+          "en": "the difficulty",
+          "ar": "الصعوبة"
+        },
+        {
+          "es": "practicar",
+          "en": "to practice",
+          "ar": "يمارس"
+        },
+        {
+          "es": "la duda",
+          "en": "the doubt",
+          "ar": "الشك / السؤال"
+        }
+      ],
+      "answer": "la duda",
+      "explanation": {
+        "es": "'la duda' significa 'the doubt'.",
+        "en": "'la duda' means 'the doubt'.",
+        "ar": "تعني 'la duda' 'الشك / السؤال'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Yes, but I still have doubts about the conditional.\"",
+        "en": "Translate into Spanish: \"Yes, but I still have doubts about the conditional.\"",
+        "ar": "ترجم إلى الإسبانية: \"نعم، لكن ما زال لديّ شكوك حول الماضي المستقبلي.\""
+      },
+      "options": [],
+      "answer": "Sí, pero todavía tengo dudas sobre el condicional.",
+      "explanation": {
+        "es": "Respuesta: \"Sí, pero todavía tengo dudas sobre el condicional.\".",
+        "en": "Answer: \"Sí, pero todavía tengo dudas sobre el condicional.\".",
+        "ar": "الإجابة: \"Sí, pero todavía tengo dudas sobre el condicional.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The goal of this course is to speak fluently.\"",
+        "en": "Translate into Spanish: \"The goal of this course is to speak fluently.\"",
+        "ar": "ترجم إلى الإسبانية: \"هدف هذه الدورة هو التحدث بطلاقة.\""
+      },
+      "options": [],
+      "answer": "La meta de este curso es hablar fluido.",
+      "explanation": {
+        "es": "Respuesta: \"La meta de este curso es hablar fluido.\".",
+        "en": "Answer: \"La meta de este curso es hablar fluido.\".",
+        "ar": "الإجابة: \"La meta de este curso es hablar fluido.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I am going to conclude the summary tomorrow.\"",
+        "en": "Translate into Spanish: \"I am going to conclude the summary tomorrow.\"",
+        "ar": "ترجم إلى الإسبانية: \"سأستنتج الملخص غدًا.\""
+      },
+      "options": [],
+      "answer": "Voy a concluir el resumen mañana.",
+      "explanation": {
+        "es": "Respuesta: \"Voy a concluir el resumen mañana.\".",
+        "en": "Answer: \"Voy a concluir el resumen mañana.\".",
+        "ar": "الإجابة: \"Voy a concluir el resumen mañana.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I will prepare dinner for the guests.\"",
+        "en": "Translate into Spanish: \"I will prepare dinner for the guests.\"",
+        "ar": "ترجم إلى الإسبانية: \"سأجهز العشاء للضيوف.\""
+      },
+      "options": [],
+      "answer": "Prepararé la cena para los invitados.",
+      "explanation": {
+        "es": "Respuesta: \"Prepararé la cena para los invitados.\".",
+        "en": "Answer: \"Prepararé la cena para los invitados.\".",
+        "ar": "الإجابة: \"Prepararé la cena para los invitados.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

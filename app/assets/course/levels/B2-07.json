@@ -33,97 +33,177 @@
       "es": "por lo tanto",
       "ipa": "/ˈpoɾ ˈlo ˈtanto/",
       "en": "therefore",
-      "ar": "لذلك"
+      "ar": "لذلك",
+      "example": {
+        "es": "No hay billetes; por lo tanto, esperamos.",
+        "en": "There are no tickets; therefore, we wait.",
+        "ar": "لا توجد تذاكر؛ لذلك ننتظر."
+      }
     },
     {
       "es": "pero",
       "ipa": "/ˈpeɾo/",
       "en": "however",
-      "ar": "لكن"
+      "ar": "لكن",
+      "example": {
+        "es": "Es caro pero de calidad.",
+        "en": "It is expensive but good quality.",
+        "ar": "إنه غالٍ لكنه عالي الجودة."
+      }
     },
     {
       "es": "sin embargo",
       "ipa": "/ˈsin eˈmbaɾgo/",
       "en": "however",
-      "ar": "ومع ذلك"
+      "ar": "ومع ذلك",
+      "example": {
+        "es": "Estaba cansado; sin embargo, siguió trabajando.",
+        "en": "He was tired; however, he kept working.",
+        "ar": "كان متعبًا؛ لكنه واصل العمل."
+      }
     },
     {
       "es": "sin embargo",
       "ipa": "/ˈsin eˈmbaɾgo/",
       "en": "meanwhile / however",
-      "ar": "وفي الوقت نفسه"
+      "ar": "وفي الوقت نفسه",
+      "example": {
+        "es": "Llovía; sin embargo, salimos a correr.",
+        "en": "It was raining; meanwhile, we went out running.",
+        "ar": "كان تمطر؛ وفي الوقت نفسه خرجنا للجري."
+      }
     },
     {
       "es": "sin embargo",
       "ipa": "/ˈsin eˈmbaɾgo/",
       "en": "however",
-      "ar": "مع ذلك"
+      "ar": "مع ذلك",
+      "example": {
+        "es": "La idea es buena; sin embargo, es costosa.",
+        "en": "The idea is good; however, it is costly.",
+        "ar": "الفكرة جيدة؛ غير أنها مكلفة."
+      }
     },
     {
       "es": "además",
       "ipa": "/aðeˈmas/",
       "en": "moreover",
-      "ar": "علاوة على ذلك"
+      "ar": "علاوة على ذلك",
+      "example": {
+        "es": "Es tarde, además estamos cansados.",
+        "en": "It is late, moreover we are tired.",
+        "ar": "الأمر متأخر، علاوة على ذلك نحن متعبون."
+      }
     },
     {
       "es": "es decir",
       "ipa": "/ˈes deˈsiɾ/",
       "en": "that is",
-      "ar": "أي بمعنى آخر"
+      "ar": "أي بمعنى آخر",
+      "example": {
+        "es": "Vendré pronto, es decir, a las ocho.",
+        "en": "I will come soon, that is, at eight.",
+        "ar": "سآتي قريبًا، أي في الثامنة."
+      }
     },
     {
       "es": "por eso",
       "ipa": "/ˈpoɾ ˈeso/",
       "en": "that's why",
-      "ar": "لهذا السبب"
+      "ar": "لهذا السبب",
+      "example": {
+        "es": "No avisó, por eso nos preocupamos.",
+        "en": "He did not warn us, that is why we worried.",
+        "ar": "لم يُخطرنا، لهذا القلقنا."
+      }
     },
     {
       "es": "aunque",
       "ipa": "/ˈaunke/",
       "en": "although",
-      "ar": "على الرغم من أن"
+      "ar": "على الرغم من أن",
+      "example": {
+        "es": "Aunque tengas razón, espera tu turno.",
+        "en": "Even if you are right, wait your turn.",
+        "ar": "حتى لو كنت محقًا، انتظر دورك."
+      }
     },
     {
       "es": "a pesar de",
       "ipa": "/ˈa peˈsaɾ ˈde/",
       "en": "despite",
-      "ar": "رغم"
+      "ar": "رغم",
+      "example": {
+        "es": "A pesar del frío, nadamos en el mar.",
+        "en": "Despite the cold, we swam in the sea.",
+        "ar": "رغم البرد، سبحنا في البحر."
+      }
     },
     {
       "es": "mientras",
       "ipa": "/ˈmientɾas/",
       "en": "while",
-      "ar": "بينما"
+      "ar": "بينما",
+      "example": {
+        "es": "Escucho radio mientras cocino.",
+        "en": "I listen to the radio while I cook.",
+        "ar": "أستمع إلى الراديو بينما أطبخ."
+      }
     },
     {
       "es": "en cuanto",
       "ipa": "/ˈen ˈkuanto/",
       "en": "as soon as",
-      "ar": "بمجرد أن"
+      "ar": "بمجرد أن",
+      "example": {
+        "es": "En cuanto llegue, te llamo.",
+        "en": "As soon as I arrive, I will call you.",
+        "ar": "بمجرد أن أصل، سأتصل بك."
+      }
     },
     {
       "es": "con el fin de",
       "ipa": "/ˈkon ˈel ˈfin ˈde/",
       "en": "in order to",
-      "ar": "لكي"
+      "ar": "لكي",
+      "example": {
+        "es": "Estudio con el fin de aprobar.",
+        "en": "I study in order to pass.",
+        "ar": "أدرس لكي أنجح."
+      }
     },
     {
       "es": "al contrario",
       "ipa": "/ˈal koˈntɾaɾio/",
       "en": "on the contrary",
-      "ar": "على العكس"
+      "ar": "على العكس",
+      "example": {
+        "es": "No mejoró; al contrario, empeoró.",
+        "en": "It did not improve; on the contrary, it got worse.",
+        "ar": "لم يتحسن؛ على العكس، تفاقم."
+      }
     },
     {
       "es": "en resumen",
       "ipa": "/ˈen reˈsumen/",
       "en": "in short",
-      "ar": "باختصار"
+      "ar": "باختصار",
+      "example": {
+        "es": "En resumen, todo salió bien.",
+        "en": "In short, everything went well.",
+        "ar": "باختصار، سار كل شيء على ما يرام."
+      }
     },
     {
       "es": "en primer lugar",
       "ipa": "/ˈen pɾiˈmeɾ luˈɣaɾ/",
       "en": "firstly",
-      "ar": "أولًا"
+      "ar": "أولًا",
+      "example": {
+        "es": "En primer lugar, leamos las instrucciones.",
+        "en": "Firstly, let us read the instructions.",
+        "ar": "أولًا، لنقرأ التعليمات."
+      }
     }
   ],
   "grammar": [
@@ -261,13 +341,13 @@
         },
         {
           "es": "aunque",
-          "en": "embora",
-          "ar": "embora"
+          "en": "although",
+          "ar": "على الرغم من"
         },
         {
           "es": "a pesar",
-          "en": "apesar",
-          "ar": "apesar"
+          "en": "despite",
+          "ar": "رغم"
         }
       ],
       "answer": "por lo tanto",
@@ -287,18 +367,18 @@
       "options": [
         {
           "es": "Por lo tanto",
-          "en": "Portanto",
-          "ar": "Portanto"
+          "en": "therefore",
+          "ar": "لذلك"
         },
         {
           "es": "Aunque",
-          "en": "Embora",
-          "ar": "Embora"
+          "en": "although",
+          "ar": "على الرغم من"
         },
         {
           "es": "Además",
-          "en": "Além disso",
-          "ar": "Além disso"
+          "en": "moreover",
+          "ar": "علاوة على ذلك"
         }
       ],
       "answer": "Aunque",
@@ -322,6 +402,208 @@
         "en": "Concessive 'embora' + subjunctive 'pareça'.",
         "ar": "أداة التنازل 'embora' + الشرط 'pareça'."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'that's why'?",
+        "en": "Which word means 'that's why'?",
+        "ar": "أي كلمة تعني 'لهذا السبب'؟"
+      },
+      "options": [
+        {
+          "es": "aunque",
+          "en": "although",
+          "ar": "على الرغم من أن"
+        },
+        {
+          "es": "en resumen",
+          "en": "in short",
+          "ar": "باختصار"
+        },
+        {
+          "es": "sin embargo",
+          "en": "however",
+          "ar": "ومع ذلك"
+        },
+        {
+          "es": "por eso",
+          "en": "that's why",
+          "ar": "لهذا السبب"
+        }
+      ],
+      "answer": "por eso",
+      "explanation": {
+        "es": "'por eso' significa 'that's why'.",
+        "en": "'por eso' means 'that's why'.",
+        "ar": "تعني 'por eso' 'لهذا السبب'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'on the contrary'",
+        "en": "Choose the Spanish word: 'on the contrary'",
+        "ar": "اختر الكلمة بالإسبانية: 'على العكس'"
+      },
+      "options": [
+        {
+          "es": "sin embargo",
+          "en": "however",
+          "ar": "ومع ذلك"
+        },
+        {
+          "es": "por eso",
+          "en": "that's why",
+          "ar": "لهذا السبب"
+        },
+        {
+          "es": "en resumen",
+          "en": "in short",
+          "ar": "باختصار"
+        },
+        {
+          "es": "al contrario",
+          "en": "on the contrary",
+          "ar": "على العكس"
+        }
+      ],
+      "answer": "al contrario",
+      "explanation": {
+        "es": "'al contrario' significa 'on the contrary'.",
+        "en": "'al contrario' means 'on the contrary'.",
+        "ar": "تعني 'al contrario' 'على العكس'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'therefore' en español?",
+        "en": "How do you say 'therefore' in Spanish?",
+        "ar": "كيف تقول 'لذلك' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "al contrario",
+          "en": "on the contrary",
+          "ar": "على العكس"
+        },
+        {
+          "es": "sin embargo",
+          "en": "meanwhile / however",
+          "ar": "وفي الوقت نفسه"
+        },
+        {
+          "es": "por lo tanto",
+          "en": "therefore",
+          "ar": "لذلك"
+        }
+      ],
+      "answer": "por lo tanto",
+      "explanation": {
+        "es": "'por lo tanto' significa 'therefore'.",
+        "en": "'por lo tanto' means 'therefore'.",
+        "ar": "تعني 'por lo tanto' 'لذلك'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'on the contrary'?",
+        "en": "Which word means 'on the contrary'?",
+        "ar": "أي كلمة تعني 'على العكس'؟"
+      },
+      "options": [
+        {
+          "es": "al contrario",
+          "en": "on the contrary",
+          "ar": "على العكس"
+        },
+        {
+          "es": "por lo tanto",
+          "en": "therefore",
+          "ar": "لذلك"
+        },
+        {
+          "es": "en primer lugar",
+          "en": "firstly",
+          "ar": "أولًا"
+        }
+      ],
+      "answer": "al contrario",
+      "explanation": {
+        "es": "'al contrario' significa 'on the contrary'.",
+        "en": "'al contrario' means 'on the contrary'.",
+        "ar": "تعني 'al contrario' 'على العكس'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Firstly, let us read the instructions.\"",
+        "en": "Translate into Spanish: \"Firstly, let us read the instructions.\"",
+        "ar": "ترجم إلى الإسبانية: \"أولًا، لنقرأ التعليمات.\""
+      },
+      "options": [],
+      "answer": "En primer lugar, leamos las instrucciones.",
+      "explanation": {
+        "es": "Respuesta: \"En primer lugar, leamos las instrucciones.\".",
+        "en": "Answer: \"En primer lugar, leamos las instrucciones.\".",
+        "ar": "الإجابة: \"En primer lugar, leamos las instrucciones.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"In short, everything went well.\"",
+        "en": "Translate into Spanish: \"In short, everything went well.\"",
+        "ar": "ترجم إلى الإسبانية: \"باختصار، سار كل شيء على ما يرام.\""
+      },
+      "options": [],
+      "answer": "En resumen, todo salió bien.",
+      "explanation": {
+        "es": "Respuesta: \"En resumen, todo salió bien.\".",
+        "en": "Answer: \"En resumen, todo salió bien.\".",
+        "ar": "الإجابة: \"En resumen, todo salió bien.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"We can talk about technology; besides, we want to cite everyday examples.\"",
+        "en": "Translate into Spanish: \"We can talk about technology; besides, we want to cite everyday examples.\"",
+        "ar": "ترجم إلى الإسبانية: \"يمكننا التحدث عن التكنولوجيا؛ وعلاوة على ذلك، نريد أن نذكر أمثلة من الحياة اليومية.\""
+      },
+      "options": [],
+      "answer": "Podemos hablar sobre tecnología; además, queremos citar ejemplos cotidianos.",
+      "explanation": {
+        "es": "Respuesta: \"Podemos hablar sobre tecnología; además, queremos citar ejemplos cotidianos.\".",
+        "en": "Answer: \"Podemos hablar sobre tecnología; además, queremos citar ejemplos cotidianos.\".",
+        "ar": "الإجابة: \"Podemos hablar sobre tecnología; además, queremos citar ejemplos cotidianos.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"As soon as I arrive, I will call you.\"",
+        "en": "Translate into Spanish: \"As soon as I arrive, I will call you.\"",
+        "ar": "ترجم إلى الإسبانية: \"بمجرد أن أصل، سأتصل بك.\""
+      },
+      "options": [],
+      "answer": "En cuanto llegue, te llamo.",
+      "explanation": {
+        "es": "Respuesta: \"En cuanto llegue, te llamo.\".",
+        "en": "Answer: \"En cuanto llegue, te llamo.\".",
+        "ar": "الإجابة: \"En cuanto llegue, te llamo.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

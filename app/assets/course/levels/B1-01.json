@@ -28,85 +28,155 @@
       "es": "viajar",
       "ipa": "/biaˈxaɾ/",
       "en": "to travel",
-      "ar": "يسافر"
+      "ar": "يسافر",
+      "example": {
+        "es": "Viajar solo abre la mente.",
+        "en": "Traveling alone opens the mind.",
+        "ar": "السفر وحيدًا يوسّع الأفق."
+      }
     },
     {
       "es": "posible",
       "ipa": "/poˈsiβle/",
       "en": "possible",
-      "ar": "ممكن"
+      "ar": "ممكن",
+      "example": {
+        "es": "Es posible cambiar de opinión.",
+        "en": "It is possible to change your mind.",
+        "ar": "من الممكن تغيير الرأي."
+      }
     },
     {
       "es": "la invitación",
       "ipa": "/ˈla inbitaˈsion/",
       "en": "the invitation",
-      "ar": "الدعوة"
+      "ar": "الدعوة",
+      "example": {
+        "es": "La invitación a la boda llegó ayer.",
+        "en": "I received an invitation to the wedding.",
+        "ar": "تلقيت دعوة إلى حفل الزفاف."
+      }
     },
     {
       "es": "me gustaría",
       "ipa": "/ˈme gustaˈɾia/",
       "en": "would like",
-      "ar": "أودّ / يودّ"
+      "ar": "أودّ / يودّ",
+      "example": {
+        "es": "Me gustaría aprender japonés.",
+        "en": "I would like to learn Japanese.",
+        "ar": "أود تعلم اليابانية."
+      }
     },
     {
       "es": "el dinero",
       "ipa": "/ˈel diˈneɾo/",
       "en": "the money",
-      "ar": "المال"
+      "ar": "المال",
+      "example": {
+        "es": "El dinero del presupuesto es limitado.",
+        "en": "The budget money is limited.",
+        "ar": "مال الميزانية محدود."
+      }
     },
     {
       "es": "las vacaciones",
       "ipa": "/ˈlas bakaˈsiones/",
       "en": "the vacation",
-      "ar": "العطلة"
+      "ar": "العطلة",
+      "example": {
+        "es": "Las vacaciones empiezan en julio.",
+        "en": "The vacation starts in July.",
+        "ar": "تبدأ العطلة في يوليو."
+      }
     },
     {
       "es": "caro",
       "ipa": "/ˈkaɾo/",
       "en": "expensive",
-      "ar": "غالٍ"
+      "ar": "غالٍ",
+      "example": {
+        "es": "El alquiler aquí es muy caro.",
+        "en": "The rent here is very expensive.",
+        "ar": "الإيجار هنا غالٍ جدًا."
+      }
     },
     {
       "es": "barato",
       "ipa": "/baˈɾato/",
       "en": "cheap",
-      "ar": "رخيص"
+      "ar": "رخيص",
+      "example": {
+        "es": "Conseguí un vuelo barato a Lisboa.",
+        "en": "I got a cheap flight to Lisbon.",
+        "ar": "حصلت على رحلة رخيصة إلى لشبونة."
+      }
     },
     {
       "es": "prestar",
       "ipa": "/pɾeˈstaɾ/",
       "en": "to lend",
-      "ar": "يُعير"
+      "ar": "يُعير",
+      "example": {
+        "es": "Voy a prestar mis apuntes a Clara.",
+        "en": "I am going to lend my notes to Clara.",
+        "ar": "سأعير ملاحظاتي إلى كلارا."
+      }
     },
     {
       "es": "la oportunidad",
       "ipa": "/ˈla opoɾtuniˈðað/",
       "en": "the opportunity",
-      "ar": "الفرصة"
+      "ar": "الفرصة",
+      "example": {
+        "es": "La oportunidad fue única.",
+        "en": "This is a unique opportunity.",
+        "ar": "هذه فرصة فريدة."
+      }
     },
     {
       "es": "el futuro",
       "ipa": "/ˈel fuˈtuɾo/",
       "en": "the future",
-      "ar": "المستقبل"
+      "ar": "المستقبل",
+      "example": {
+        "es": "El futuro te espera con sorpresas.",
+        "en": "The future awaits you with surprises.",
+        "ar": "المستقبلك يحفّتك بالمفاجآت."
+      }
     },
     {
       "es": "el sueño",
       "ipa": "/ˈel ˈsueɲo/",
       "en": "the dream",
-      "ar": "الحلم"
+      "ar": "الحلم",
+      "example": {
+        "es": "El sueño se hizo realidad.",
+        "en": "The dream came true.",
+        "ar": "تحقق الحلم."
+      }
     },
     {
       "es": "el deseo",
       "ipa": "/ˈel ˈdeseo/",
       "en": "the wish",
-      "ar": "الرغبة"
+      "ar": "الرغبة",
+      "example": {
+        "es": "El deseo de aprender nunca muere.",
+        "en": "The desire to learn never dies.",
+        "ar": "الرغبة في التعلم لا تموت."
+      }
     },
     {
       "es": "la condición",
       "ipa": "/ˈla kondiˈsion/",
       "en": "the condition",
-      "ar": "الشرط"
+      "ar": "الشرط",
+      "example": {
+        "es": "La condición es sencilla: estudia.",
+        "en": "The condition is simple: study.",
+        "ar": "الشرط بسيط: ادرس."
+      }
     }
   ],
   "grammar": [
@@ -301,16 +371,218 @@
       "type": "translation",
       "prompt": {
         "es": "Traduce al inglés: \"Me gustaría viajar a España.\"",
-        "en": "Translate to English: \"Eu gostaria de viajar para o Brasil.\"",
-        "ar": "ترجم إلى الإنجليزية: \"Eu gostaria de viajar para o Brasil.\""
+        "en": "Translate to English: \"Me gustaría viajar a España.\"",
+        "ar": "ترجم إلى الإنجليزية: \"Me gustaría viajar a España.\""
       },
       "options": [],
-      "answer": "I would like to travel to Brazil.",
+      "answer": "I would like to travel to Spain.",
       "explanation": {
         "es": "'Me gustaría' es el condicional de 'gustar' y equivale a 'would like'.",
-        "en": "'Gostaria' is the conditional of 'gostar' and means 'would like'.",
-        "ar": "'gostaria' هي صيغة الماضي المستقبلي من 'gostar' وتعادل 'would like' أي أودّ."
+        "en": "'Me gustaría' is the conditional of 'gustar' and means 'would like'.",
+        "ar": "'Me gustaría' هي صيغة الشرط من 'gustar' وتعني 'would like'."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the dream'?",
+        "en": "Which word means 'the dream'?",
+        "ar": "أي كلمة تعني 'الحلم'؟"
+      },
+      "options": [
+        {
+          "es": "el deseo",
+          "en": "the wish",
+          "ar": "الرغبة"
+        },
+        {
+          "es": "prestar",
+          "en": "to lend",
+          "ar": "يُعير"
+        },
+        {
+          "es": "la condición",
+          "en": "the condition",
+          "ar": "الشرط"
+        },
+        {
+          "es": "el sueño",
+          "en": "the dream",
+          "ar": "الحلم"
+        }
+      ],
+      "answer": "el sueño",
+      "explanation": {
+        "es": "'el sueño' significa 'the dream'.",
+        "en": "'el sueño' means 'the dream'.",
+        "ar": "تعني 'el sueño' 'الحلم'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the vacation'",
+        "en": "Choose the Spanish word: 'the vacation'",
+        "ar": "اختر الكلمة بالإسبانية: 'العطلة'"
+      },
+      "options": [
+        {
+          "es": "el deseo",
+          "en": "the wish",
+          "ar": "الرغبة"
+        },
+        {
+          "es": "el futuro",
+          "en": "the future",
+          "ar": "المستقبل"
+        },
+        {
+          "es": "las vacaciones",
+          "en": "the vacation",
+          "ar": "العطلة"
+        }
+      ],
+      "answer": "las vacaciones",
+      "explanation": {
+        "es": "'las vacaciones' significa 'the vacation'.",
+        "en": "'las vacaciones' means 'the vacation'.",
+        "ar": "تعني 'las vacaciones' 'العطلة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'possible' en español?",
+        "en": "How do you say 'possible' in Spanish?",
+        "ar": "كيف تقول 'ممكن' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el deseo",
+          "en": "the wish",
+          "ar": "الرغبة"
+        },
+        {
+          "es": "posible",
+          "en": "possible",
+          "ar": "ممكن"
+        },
+        {
+          "es": "barato",
+          "en": "cheap",
+          "ar": "رخيص"
+        }
+      ],
+      "answer": "posible",
+      "explanation": {
+        "es": "'posible' significa 'possible'.",
+        "en": "'posible' means 'possible'.",
+        "ar": "تعني 'posible' 'ممكن'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the wish'?",
+        "en": "Which word means 'the wish'?",
+        "ar": "أي كلمة تعني 'الرغبة'؟"
+      },
+      "options": [
+        {
+          "es": "prestar",
+          "en": "to lend",
+          "ar": "يُعير"
+        },
+        {
+          "es": "el deseo",
+          "en": "the wish",
+          "ar": "الرغبة"
+        },
+        {
+          "es": "la oportunidad",
+          "en": "the opportunity",
+          "ar": "الفرصة"
+        },
+        {
+          "es": "el futuro",
+          "en": "the future",
+          "ar": "المستقبل"
+        }
+      ],
+      "answer": "el deseo",
+      "explanation": {
+        "es": "'el deseo' significa 'the wish'.",
+        "en": "'el deseo' means 'the wish'.",
+        "ar": "تعني 'el deseo' 'الرغبة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"It is possible to change your mind.\"",
+        "en": "Translate into Spanish: \"It is possible to change your mind.\"",
+        "ar": "ترجم إلى الإسبانية: \"من الممكن تغيير الرأي.\""
+      },
+      "options": [],
+      "answer": "Es posible cambiar de opinión.",
+      "explanation": {
+        "es": "Respuesta: \"Es posible cambiar de opinión.\".",
+        "en": "Answer: \"Es posible cambiar de opinión.\".",
+        "ar": "الإجابة: \"Es posible cambiar de opinión.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The budget money is limited.\"",
+        "en": "Translate into Spanish: \"The budget money is limited.\"",
+        "ar": "ترجم إلى الإسبانية: \"مال الميزانية محدود.\""
+      },
+      "options": [],
+      "answer": "El dinero del presupuesto es limitado.",
+      "explanation": {
+        "es": "Respuesta: \"El dinero del presupuesto es limitado.\".",
+        "en": "Answer: \"El dinero del presupuesto es limitado.\".",
+        "ar": "الإجابة: \"El dinero del presupuesto es limitado.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The vacation starts in July.\"",
+        "en": "Translate into Spanish: \"The vacation starts in July.\"",
+        "ar": "ترجم إلى الإسبانية: \"تبدأ العطلة في يوليو.\""
+      },
+      "options": [],
+      "answer": "Las vacaciones empiezan en julio.",
+      "explanation": {
+        "es": "Respuesta: \"Las vacaciones empiezan en julio.\".",
+        "en": "Answer: \"Las vacaciones empiezan en julio.\".",
+        "ar": "الإجابة: \"Las vacaciones empiezan en julio.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I received an invitation to the wedding.\"",
+        "en": "Translate into Spanish: \"I received an invitation to the wedding.\"",
+        "ar": "ترجم إلى الإسبانية: \"تلقيت دعوة إلى حفل الزفاف.\""
+      },
+      "options": [],
+      "answer": "La invitación a la boda llegó ayer.",
+      "explanation": {
+        "es": "Respuesta: \"La invitación a la boda llegó ayer.\".",
+        "en": "Answer: \"La invitación a la boda llegó ayer.\".",
+        "ar": "الإجابة: \"La invitación a la boda llegó ayer.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

@@ -1,340 +1,632 @@
 {
- "id": "C2-03",
- "level": "C2",
- "level_name": {
-  "es": "Proficiencia",
-  "en": "Proficiency",
-  "ar": "إتقان"
- },
- "title": {
-  "es": "Estructuras Sintácticas Complejas",
-  "en": "Complex Syntactic Structures",
-  "ar": "التراكيب النحوية المعقدة"
- },
- "objectives": [
-  {
-   "es": "Dominar el infinitivo personal y sus reglas",
-   "en": "Master the personal infinitive and its rules",
-   "ar": "إتقان صيغة المصدر الشخصية وقواعدها"
+  "id": "C2-03",
+  "level": "C2",
+  "level_name": {
+    "es": "Proficiencia",
+    "en": "Proficiency",
+    "ar": "إتقان"
   },
-  {
-   "es": "Reducir oraciones desarrolladas en gerundio y participio",
-   "en": "Reduce developed clauses into gerund and participle forms",
-   "ar": "تحويل الجمل الموصولة إلى صيغ المصدر المستمر واسم المفعول"
-  },
-  {
-   "es": "Comprender la cohesión y la elipsis en períodos complejos",
-   "en": "Understand cohesion and ellipsis in complex periods",
-   "ar": "فهم التماسك اللغوي والحذف في الجمل المركبة"
-  },
-  {
-   "es": "Producir períodos largos con coordinación y subordinación",
-   "en": "Produce long sentences with coordination and subordination",
-   "ar": "إنتاج جمل طويلة بالعطف والتبعية"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "la oración subordinada",
-   "ipa": "/ˈla oɾaˈsion suβoɾdiˈnaða/",
-   "en": "subordinate clause",
-   "ar": "الجملة التابعة"
-  },
-  {
-   "es": "la oración principal",
-   "ipa": "/ˈla oɾaˈsion pɾinsiˈpal/",
-   "en": "main clause",
-   "ar": "الجملة الرئيسية"
-  },
-  {
-   "es": "la conjunción",
-   "ipa": "/ˈla konxuˈnsion/",
-   "en": "conjunction",
-   "ar": "حرف العطف / الرابط"
-  },
-  {
-   "es": "el pronombre relativo",
-   "ipa": "/ˈel pɾoˈnombɾe relaˈtiβo/",
-   "en": "relative pronoun",
-   "ar": "الضمير الموصول"
-  },
-  {
-   "es": "la elipsis",
-   "ipa": "/ˈla eˈlipsis/",
-   "en": "ellipsis",
-   "ar": "الحذف"
-  },
-  {
-   "es": "la anáfora",
-   "ipa": "/ˈla aˈnafoɾa/",
-   "en": "anaphora",
-   "ar": "الإحالة المرجعية"
-  },
-  {
-   "es": "la cohesión",
-   "ipa": "/ˈla koeˈsion/",
-   "en": "cohesion",
-   "ar": "التماسك"
-  },
-  {
-   "es": "el gerundio",
-   "ipa": "/ˈel xeˈɾundio/",
-   "en": "gerund",
-   "ar": "اسم الفاعل المستمر"
-  },
-  {
-   "es": "el infinitivo personal",
-   "ipa": "/ˈel infiniˈtiβo peɾsoˈnal/",
-   "en": "personal infinitive",
-   "ar": "المصدر المُصرَّف"
-  },
-  {
-   "es": "el participio",
-   "ipa": "/ˈel paɾtiˈsipio/",
-   "en": "participle",
-   "ar": "اسم المفعول"
-  },
-  {
-   "es": "la voz pasiva",
-   "ipa": "/ˈla ˈbos paˈsiβa/",
-   "en": "passive voice",
-   "ar": "المبني للمجهول"
-  },
-  {
-   "es": "la pasiva refleja",
-   "ipa": "/ˈla paˈsiβa reˈflexa/",
-   "en": "the passive particle 'se'",
-   "ar": "أداة 'se' للمجهول"
-  },
-  {
-   "es": "el índice de indeterminación",
-   "ipa": "/ˈel ˈindise ˈde indeteɾminaˈsion/",
-   "en": "index of indeterminacy of the subject",
-   "ar": "أداة إبهام الفاعل"
-  },
-  {
-   "es": "el período compuesto",
-   "ipa": "/ˈel peˈɾioðo koˈmpuesto/",
-   "en": "compound sentence",
-   "ar": "الجملة المركبة"
-  },
-  {
-   "es": "la coordinación",
-   "ipa": "/ˈla kooɾdinaˈsion/",
-   "en": "coordination",
-   "ar": "العطف"
-  },
-  {
-   "es": "la subordinación",
-   "ipa": "/ˈla suβoɾdinaˈsion/",
-   "en": "subordination",
-   "ar": "التبعية"
-  },
-  {
-   "es": "la oración reducida",
-   "ipa": "/ˈla oɾaˈsion reðuˈsiða/",
-   "en": "reduced clause",
-   "ar": "الجملة المختزلة"
-  },
-  {
-   "es": "la oración desarrollada",
-   "ipa": "/ˈla oɾaˈsion desaroˈʝaða/",
-   "en": "developed clause",
-   "ar": "الجملة المطوّرة"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "El Infinitivo Personal",
-    "en": "The Personal Infinitive",
-    "ar": "المصدر المُصرَّف"
-   },
-   "explanation": {
-    "es": "El infinitivo personal tiene sujeto propio y varía en persona. A diferencia del infinitivo impersonal, admite desinencias. No se flexiona cuando equivale a un impersonal o tras verbos como 'dejar', 'mandar', 'ver' en ciertas construcciones: 'Déjalos entrar' (y no 'entraren').",
-    "en": "The personal (inflected) infinitive has its own subject and varies by person: 'Para eles chegarem cedo, tudo foi preparado' (For them to arrive early, everything was prepared). Unlike the impersonal infinitive, it takes endings: 'chegar', 'chegares', 'chegarmos'. It does not inflect when it functions as an impersonal or after verbs like 'deixar', 'mandar', 'ver' in certain constructions: 'Deixe-os entrar' (not 'entrarem').",
-    "ar": "للمصدر المُصرَّف فاعل خاص به ويتغير حسب الشخص: 'Para eles chegarem cedo, tudo foi preparado' (لكي يصلوا مبكرًا، أُعدّ كل شيء). على عكس المصدر غير المُصرَّف، يقبل لواحق التعريف: 'chegar، chegares، chegarmos'. ولا يُصرَّف عندما يكون بمعنى غير شخصي أو بعد أفعال مثل 'deixar' و'mandar' و'ver' في تراكيب معينة: 'Deixe-os entrar' (دعهم يدخلون) وليس 'entrarem'."
-   },
-   "examples": [
-    {
-     "es": "Es necesario que hablemos con el director antes de la reunión.",
-     "en": "We need to speak with the director before the meeting.",
-     "ar": "لا بد من أن نكلم المدير قبل الاجتماع."
-    },
-    {
-     "es": "Al entrar en la sala, apaga el móvil.",
-     "en": "When you (sg.) enter the room, turn off your phone.",
-     "ar": "عند دخولك إلى القاعة، أغلق هاتفك."
-    },
-    {
-     "es": "La madre dejó a los niños jugar en el patio.",
-     "en": "The mother let the children play in the yard.",
-     "ar": "تركت الأم أطفالها يلعبون في الفناء."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Oraciones Reducidas de Gerundio y Participio",
-    "en": "Reduced Clauses with Gerund and Participle",
-    "ar": "الجمل المختزلة بصفة الفاعل المستمر واسم المفعول"
-   },
-   "explanation": {
-    "es": "Una oración desarrollada 'Cuando llegó a la puerta, ella dudó' puede reducirse con gerundio: 'Llegando a la puerta, ella dudó'; con participio, 'Terminada la reunión, todos salieron' corresponde a 'Después de que la reunión terminó'. La reducción compacta el período y es marca de escritura madura, pero exige que el sujeto sea claro para evitar ambigüedad.",
-    "en": "A developed clause 'Quando chegou à porta, ela hesitou' (When she reached the door, she hesitated) can be reduced with a gerund: 'Chegando à porta, ela hesitou'; with a participle, 'Terminada a reunião, todos saíram' (The meeting finished, everyone left) corresponds to 'Depois que a reunião foi terminada'. Reduction compacts the sentence and marks mature writing, but requires a clear subject to avoid ambiguity.",
-    "ar": "الجملة المطوّرة 'Quando chegou à porta, ela hesitou' (عندما وصلت إلى الباب، ترددت) يمكن اختزالها باسم الفاعل المستمر: 'Chegando à porta, ela hesitou'؛ وباسم المفعول: 'Terminada a reunião, todos saíram' (بعد انتهاء الاجتماع، خرج الجميع) مقابل 'Depois que a reunião foi terminada'. الاختزال يضغط الجملة ويعدّ علامة على الكتابة الناضجة، لكنه يتطلب وضوح الفاعل لتجنب الغموض."
-   },
-   "examples": [
-    {
-     "es": "Llegando tarde, se perdió el comienzo de la charla.",
-     "en": "Arriving late, he missed the beginning of the lecture.",
-     "ar": "بوصوله متأخرًا، فاته بداية المحاضرة."
-    },
-    {
-     "es": "Terminada la prueba, los alumnos entregaron las hojas.",
-     "en": "With the test finished, the students handed in their papers.",
-     "ar": "بعد انتهاء الامتحان، سلّم الطلاب أوراقهم."
-    },
-    {
-     "es": "Siendo el presupuesto limitado, recortamos los gastos extras.",
-     "en": "The budget being limited, we cut the extra expenses.",
-     "ar": "ونظرًا لكون الميزانية محدودة، قطعنا النفقات الإضافية."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "Revisando Sintaxis",
-   "en": "Reviewing Syntax",
-   "ar": "مراجعة النحو"
+    "es": "Estructuras Sintácticas Complejas",
+    "en": "Complex Syntactic Structures",
+    "ar": "التراكيب النحوية المعقدة"
   },
-  "lines": [
-   {
-    "speaker": "Profesor",
-    "es": "Reescribe la oración desarrollada como una reducida de participio.",
-    "en": "Rewrite the developed clause as a reduced participle clause.",
-    "ar": "أعد كتابة الجملة المطوّرة إلى جملة مختزلة باسم المفعول."
-   },
-   {
-    "speaker": "Bianca",
-    "es": "Después de que el informe fue concluido, enviamos el correo.",
-    "en": "After the report was finished, we sent the email.",
-    "ar": "بعد أن أُنجز التقرير، أرسلنا البريد الإلكتروني."
-   },
-   {
-    "speaker": "Profesor",
-    "es": "Ahora redúcela con el participio.",
-    "en": "Now reduce it with the participle.",
-    "ar": "الآن اختصرها باسم المفعول."
-   },
-   {
-    "speaker": "Bianca",
-    "es": "Concluido el informe, enviamos el correo.",
-    "en": "The report finished, we sent the email.",
-    "ar": "بعد إنجاز التقرير، أرسلنا البريد الإلكتروني."
-   },
-   {
-    "speaker": "Profesor",
-    "es": "Perfecto. ¿Y por qué no usamos 'concluidos'?",
-    "en": "Perfect. And why do we not use 'concluídos'?",
-    "ar": "ممتاز. ولماذا لا نستخدم 'concluídos'؟"
-   },
-   {
-    "speaker": "Bianca",
-    "es": "Porque 'informe' está en singular; el participio concuerda con él.",
-    "en": "Because 'relatório' is singular; the participle agrees with it.",
-    "ar": "لأن 'relatório' مفرد؛ فيطابقه اسم المفعول في العدد والجنس."
-   }
+  "objectives": [
+    {
+      "es": "Dominar el infinitivo personal y sus reglas",
+      "en": "Master the personal infinitive and its rules",
+      "ar": "إتقان صيغة المصدر الشخصية وقواعدها"
+    },
+    {
+      "es": "Reducir oraciones desarrolladas en gerundio y participio",
+      "en": "Reduce developed clauses into gerund and participle forms",
+      "ar": "تحويل الجمل الموصولة إلى صيغ المصدر المستمر واسم المفعول"
+    },
+    {
+      "es": "Comprender la cohesión y la elipsis en períodos complejos",
+      "en": "Understand cohesion and ellipsis in complex periods",
+      "ar": "فهم التماسك اللغوي والحذف في الجمل المركبة"
+    },
+    {
+      "es": "Producir períodos largos con coordinación y subordinación",
+      "en": "Produce long sentences with coordination and subordination",
+      "ar": "إنتاج جمل طويلة بالعطف والتبعية"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la oración subordinada",
+      "ipa": "/ˈla oɾaˈsion suβoɾdiˈnaða/",
+      "en": "subordinate clause",
+      "ar": "الجملة التابعة",
+      "example": {
+        "es": "La oración subordinada no puede existir sola.",
+        "en": "The subordinate clause cannot stand alone.",
+        "ar": "لا تستطيع الجملة التابعة أن تقف وحدها."
+      }
+    },
+    {
+      "es": "la oración principal",
+      "ipa": "/ˈla oɾaˈsion pɾinsiˈpal/",
+      "en": "main clause",
+      "ar": "الجملة الرئيسية",
+      "example": {
+        "es": "La oración principal lleva el verbo conjugado.",
+        "en": "The main clause carries the conjugated verb.",
+        "ar": "تحمل الجملة الرئيسية الفعل المضارع المصرف."
+      }
+    },
+    {
+      "es": "la conjunción",
+      "ipa": "/ˈla konxuˈnsion/",
+      "en": "conjunction",
+      "ar": "حرف العطف / الرابط",
+      "example": {
+        "es": "La conjunción une dos proposiciones.",
+        "en": "Conjunction joins two propositions.",
+        "ar": "تربط حرف العطف بين قضيتين."
+      }
+    },
+    {
+      "es": "el pronombre relativo",
+      "ipa": "/ˈel pɾoˈnombɾe relaˈtiβo/",
+      "en": "relative pronoun",
+      "ar": "الضمير الموصول",
+      "example": {
+        "es": "El pronombre relativo retoma un antecedente.",
+        "en": "The relative pronoun picks up an antecedent.",
+        "ar": "يستأنف الضمير الموصول مرجعًا سابقًا."
+      }
+    },
+    {
+      "es": "la elipsis",
+      "ipa": "/ˈla eˈlipsis/",
+      "en": "ellipsis",
+      "ar": "الحذف",
+      "example": {
+        "es": "La elipsis omite elementos sobrentendidos.",
+        "en": "Ellipsis omits understood elements.",
+        "ar": "يحذف الحذف عناصر مفهومة ضمنيًا."
+      }
+    },
+    {
+      "es": "la anáfora",
+      "ipa": "/ˈla aˈnafoɾa/",
+      "en": "anaphora",
+      "ar": "الإحالة المرجعية",
+      "example": {
+        "es": "La anáfora retoma lo dicho antes.",
+        "en": "Anaphora refers back to what was said before.",
+        "ar": "تشير الإحالة المرجعية إلى ما قيل سابقًا."
+      }
+    },
+    {
+      "es": "la cohesión",
+      "ipa": "/ˈla koeˈsion/",
+      "en": "cohesion",
+      "ar": "التماسك",
+      "example": {
+        "es": "La cohesión enlaza las oraciones del texto.",
+        "en": "Cohesion links the sentences of the text.",
+        "ar": "تربط التاسك جمل النص."
+      }
+    },
+    {
+      "es": "el gerundio",
+      "ipa": "/ˈel xeˈɾundio/",
+      "en": "gerund",
+      "ar": "اسم الفاعل المستمر",
+      "example": {
+        "es": "El gerundio expresa acción en curso.",
+        "en": "The gerund expresses action in progress.",
+        "ar": "يعبر اسم الفاعل المستمر عن فعل جارٍ."
+      }
+    },
+    {
+      "es": "el infinitivo personal",
+      "ipa": "/ˈel infiniˈtiβo peɾsoˈnal/",
+      "en": "personal infinitive",
+      "ar": "المصدر المُصرَّف",
+      "example": {
+        "es": "El infinitivo personal concuerda con el sujeto.",
+        "en": "The personal infinitive agrees with the subject.",
+        "ar": "يتوافق المصدر المُصرَّف مع الفاعل."
+      }
+    },
+    {
+      "es": "el participio",
+      "ipa": "/ˈel paɾtiˈsipio/",
+      "en": "participle",
+      "ar": "اسم المفعول",
+      "example": {
+        "es": "El participio forma tiempos compuestos.",
+        "en": "The participle forms compound tenses.",
+        "ar": "يشكل اسم المفعول الأزمنة المركبة."
+      }
+    },
+    {
+      "es": "la voz pasiva",
+      "ipa": "/ˈla ˈbos paˈsiβa/",
+      "en": "passive voice",
+      "ar": "المبني للمجهول",
+      "example": {
+        "es": "La voz pasiva pone foco en el paciente.",
+        "en": "The passive voice focuses on the patient.",
+        "ar": "يركّز المبني للمجهول على المنفعل."
+      }
+    },
+    {
+      "es": "la pasiva refleja",
+      "ipa": "/ˈla paˈsiβa reˈflexa/",
+      "en": "the passive particle 'se'",
+      "ar": "أداة 'se' للمجهول",
+      "example": {
+        "es": "La pasiva refleja usa se con valor pasivo.",
+        "en": "The passive particle se uses se with passive value.",
+        "ar": "تستخدم أداة se للمجهول بقيمة مجهولة."
+      }
+    },
+    {
+      "es": "el índice de indeterminación",
+      "ipa": "/ˈel ˈindise ˈde indeteɾminaˈsion/",
+      "en": "index of indeterminacy of the subject",
+      "ar": "أداة إبهام الفاعل",
+      "example": {
+        "es": "El índice de indeterminación deja abierto el sujeto.",
+        "en": "The index of indeterminacy leaves the subject open.",
+        "ar": "يترك أداة إبهام الفاعل مفتوحًا."
+      }
+    },
+    {
+      "es": "el período compuesto",
+      "ipa": "/ˈel peˈɾioðo koˈmpuesto/",
+      "en": "compound sentence",
+      "ar": "الجملة المركبة",
+      "example": {
+        "es": "El período compuesto agrupa varias ideas.",
+        "en": "Compound sentence groups several ideas.",
+        "ar": "تجمّع الجملة المركبة عدة أفكار."
+      }
+    },
+    {
+      "es": "la coordinación",
+      "ipa": "/ˈla kooɾdinaˈsion/",
+      "en": "coordination",
+      "ar": "العطف",
+      "example": {
+        "es": "La coordinación enlaza ideas del mismo rango.",
+        "en": "Coordination links ideas of equal rank.",
+        "ar": "يربط العطف أفكارًا من مرتبة واحدة."
+      }
+    },
+    {
+      "es": "la subordinación",
+      "ipa": "/ˈla suβoɾdinaˈsion/",
+      "en": "subordination",
+      "ar": "التبعية",
+      "example": {
+        "es": "La subordinación jerarquiza las ideas.",
+        "en": "Subordination hierarchizes ideas.",
+        "ar": "يرتّب التبعية الأفكار تراتبيًا."
+      }
+    },
+    {
+      "es": "la oración reducida",
+      "ipa": "/ˈla oɾaˈsion reðuˈsiða/",
+      "en": "reduced clause",
+      "ar": "الجملة المختزلة",
+      "example": {
+        "es": "La oración reducida omite el verbo.",
+        "en": "Reduced clause omits the verb.",
+        "ar": "تحذف الجملة المختزلة الفعل."
+      }
+    },
+    {
+      "es": "la oración desarrollada",
+      "ipa": "/ˈla oɾaˈsion desaroˈʝaða/",
+      "en": "developed clause",
+      "ar": "الجملة المطوّرة",
+      "example": {
+        "es": "La oración desarrollada expande cada elemento.",
+        "en": "Developed clause expands each element.",
+        "ar": "توسّع الجملة المطوّرة كل عنصر."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "El Infinitivo Personal",
+        "en": "The Personal Infinitive",
+        "ar": "المصدر المُصرَّف"
+      },
+      "explanation": {
+        "es": "El infinitivo personal tiene sujeto propio y varía en persona. A diferencia del infinitivo impersonal, admite desinencias. No se flexiona cuando equivale a un impersonal o tras verbos como 'dejar', 'mandar', 'ver' en ciertas construcciones: 'Déjalos entrar' (y no 'entraren').",
+        "en": "The personal (inflected) infinitive has its own subject and varies by person: 'Para eles chegarem cedo, tudo foi preparado' (For them to arrive early, everything was prepared). Unlike the impersonal infinitive, it takes endings: 'chegar', 'chegares', 'chegarmos'. It does not inflect when it functions as an impersonal or after verbs like 'deixar', 'mandar', 'ver' in certain constructions: 'Deixe-os entrar' (not 'entrarem').",
+        "ar": "للمصدر المُصرَّف فاعل خاص به ويتغير حسب الشخص: 'Para eles chegarem cedo, tudo foi preparado' (لكي يصلوا مبكرًا، أُعدّ كل شيء). على عكس المصدر غير المُصرَّف، يقبل لواحق التعريف: 'chegar، chegares، chegarmos'. ولا يُصرَّف عندما يكون بمعنى غير شخصي أو بعد أفعال مثل 'deixar' و'mandar' و'ver' في تراكيب معينة: 'Deixe-os entrar' (دعهم يدخلون) وليس 'entrarem'."
+      },
+      "examples": [
+        {
+          "es": "Es necesario que hablemos con el director antes de la reunión.",
+          "en": "We need to speak with the director before the meeting.",
+          "ar": "لا بد من أن نكلم المدير قبل الاجتماع."
+        },
+        {
+          "es": "Al entrar en la sala, apaga el móvil.",
+          "en": "When you (sg.) enter the room, turn off your phone.",
+          "ar": "عند دخولك إلى القاعة، أغلق هاتفك."
+        },
+        {
+          "es": "La madre dejó a los niños jugar en el patio.",
+          "en": "The mother let the children play in the yard.",
+          "ar": "تركت الأم أطفالها يلعبون في الفناء."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Oraciones Reducidas de Gerundio y Participio",
+        "en": "Reduced Clauses with Gerund and Participle",
+        "ar": "الجمل المختزلة بصفة الفاعل المستمر واسم المفعول"
+      },
+      "explanation": {
+        "es": "Una oración desarrollada 'Cuando llegó a la puerta, ella dudó' puede reducirse con gerundio: 'Llegando a la puerta, ella dudó'; con participio, 'Terminada la reunión, todos salieron' corresponde a 'Después de que la reunión terminó'. La reducción compacta el período y es marca de escritura madura, pero exige que el sujeto sea claro para evitar ambigüedad.",
+        "en": "A developed clause 'Quando chegou à porta, ela hesitou' (When she reached the door, she hesitated) can be reduced with a gerund: 'Chegando à porta, ela hesitou'; with a participle, 'Terminada a reunião, todos saíram' (The meeting finished, everyone left) corresponds to 'Depois que a reunião foi terminada'. Reduction compacts the sentence and marks mature writing, but requires a clear subject to avoid ambiguity.",
+        "ar": "الجملة المطوّرة 'Quando chegou à porta, ela hesitou' (عندما وصلت إلى الباب، ترددت) يمكن اختزالها باسم الفاعل المستمر: 'Chegando à porta, ela hesitou'؛ وباسم المفعول: 'Terminada a reunião, todos saíram' (بعد انتهاء الاجتماع، خرج الجميع) مقابل 'Depois que a reunião foi terminada'. الاختزال يضغط الجملة ويعدّ علامة على الكتابة الناضجة، لكنه يتطلب وضوح الفاعل لتجنب الغموض."
+      },
+      "examples": [
+        {
+          "es": "Llegando tarde, se perdió el comienzo de la charla.",
+          "en": "Arriving late, he missed the beginning of the lecture.",
+          "ar": "بوصوله متأخرًا، فاته بداية المحاضرة."
+        },
+        {
+          "es": "Terminada la prueba, los alumnos entregaron las hojas.",
+          "en": "With the test finished, the students handed in their papers.",
+          "ar": "بعد انتهاء الامتحان، سلّم الطلاب أوراقهم."
+        },
+        {
+          "es": "Siendo el presupuesto limitado, recortamos los gastos extras.",
+          "en": "The budget being limited, we cut the extra expenses.",
+          "ar": "ونظرًا لكون الميزانية محدودة، قطعنا النفقات الإضافية."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Revisando Sintaxis",
+      "en": "Reviewing Syntax",
+      "ar": "مراجعة النحو"
+    },
+    "lines": [
+      {
+        "speaker": "Profesor",
+        "es": "Reescribe la oración desarrollada como una reducida de participio.",
+        "en": "Rewrite the developed clause as a reduced participle clause.",
+        "ar": "أعد كتابة الجملة المطوّرة إلى جملة مختزلة باسم المفعول."
+      },
+      {
+        "speaker": "Bianca",
+        "es": "Después de que el informe fue concluido, enviamos el correo.",
+        "en": "After the report was finished, we sent the email.",
+        "ar": "بعد أن أُنجز التقرير، أرسلنا البريد الإلكتروني."
+      },
+      {
+        "speaker": "Profesor",
+        "es": "Ahora redúcela con el participio.",
+        "en": "Now reduce it with the participle.",
+        "ar": "الآن اختصرها باسم المفعول."
+      },
+      {
+        "speaker": "Bianca",
+        "es": "Concluido el informe, enviamos el correo.",
+        "en": "The report finished, we sent the email.",
+        "ar": "بعد إنجاز التقرير، أرسلنا البريد الإلكتروني."
+      },
+      {
+        "speaker": "Profesor",
+        "es": "Perfecto. ¿Y por qué no usamos 'concluidos'?",
+        "en": "Perfect. And why do we not use 'concluídos'?",
+        "ar": "ممتاز. ولماذا لا نستخدم 'concluídos'؟"
+      },
+      {
+        "speaker": "Bianca",
+        "es": "Porque 'informe' está en singular; el participio concuerda con él.",
+        "en": "Because 'relatório' is singular; the participle agrees with it.",
+        "ar": "لأن 'relatório' مفرد؛ فيطابقه اسم المفعول في العدد والجنس."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "La Sintaxis de la Escritura Formal",
+      "en": "The Syntax of Formal Writing",
+      "ar": "نحو الكتابة الرسمية"
+    },
+    "text_es": "Redactado el dictamen, la comisión lo sometió a aprobación. Al examinar el documento, los miembros notaron dos cláusulas ambiguas. Para evitar trabajo extra, decidieron reformular los párrafos finales antes de divulgar el texto. Concluida la revisión, nadie dudó de la claridad del resultado final.",
+    "text_en": "Once the opinion was written, the committee submitted it for approval. Examining the document, the members noticed two ambiguous clauses. To avoid rework, they decided to rewrite the final paragraphs before publishing the text. Once the review was completed, no one doubted the clarity of the final result.",
+    "text_ar": "بعد صياغة الرأي، قدّمته اللجنة للموافقة. وعند فحصهم الوثيقة، لاحظ الأعضاء بندين غامضين. ولتجنّب إعادة العمل، قرروا إعادة صياغة الفقرات الأخيرة قبل نشر النص. وبعد اكتمال المراجعة، لم يشك أحد في وضوح النتيجة النهائية."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa con el infinitivo personal: 'Para nosotros ___ temprano, tenemos que levantarnos a las cinco.'",
+        "en": "Complete: 'Para nosotros ___ temprano, tenemos que levantarnos a las cinco.'",
+        "ar": "أكمل: 'Para nosotros ___ temprano, tenemos que levantarnos a las cinco.'"
+      },
+      "options": [
+        {
+          "es": "llegar",
+          "en": "to arrive",
+          "ar": "يصل"
+        },
+        {
+          "es": "llegar (nosotros)",
+          "en": "we arrive",
+          "ar": "نصل"
+        },
+        {
+          "es": "llegar (ellos)",
+          "en": "they arrive",
+          "ar": "يصلون"
+        }
+      ],
+      "answer": "llegar (nosotros)",
+      "explanation": {
+        "es": "Con sujeto 'nosotros', el infinitivo personal se conjuga: 'para llegar nosotros'.",
+        "en": "With the subject 'nós' (we), the personal infinitive is 'chegarmos'.",
+        "ar": "مع الفاعل 'nós' (نحن) يكون المصدر المُصرَّف 'chegarmos'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué frase usa correctamente una reducida de participio?",
+        "en": "Which sentence correctly uses a reduced participle clause?",
+        "ar": "أي جملة تستخدم صيغة مختزلة باسم المفعول بشكل صحيح؟"
+      },
+      "options": [
+        {
+          "es": "Llegando a casa, me llamó.",
+          "en": "Arriving home, he called me.",
+          "ar": "عند الوصول اتصل بي."
+        },
+        {
+          "es": "Concluido el proyecto, presentamos los resultados.",
+          "en": "The project concluded, we present results.",
+          "ar": "بانتهاء المشروع نقدّم النتائج."
+        },
+        {
+          "es": "Salir temprano, fue al banco.",
+          "en": "Leaving early, he went to the bank.",
+          "ar": "مغادرًا مبكرًا إلى البنك."
+        }
+      ],
+      "answer": "Concluido el proyecto, presentamos los resultados.",
+      "explanation": {
+        "es": "Solo la segunda usa participio ('Concluido') en una reducción correcta.",
+        "en": "Only the second uses a participle ('Concluído') in a correct reduction.",
+        "ar": "الثانية فقط تستخدم اسم المفعول ('Concluído') في اختزال صحيح."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: 'for them to arrive'",
+        "en": "Translate into Spanish: 'for them to arrive'",
+        "ar": "ترجم إلى بالإسبانية: 'for them to arrive'"
+      },
+      "options": [],
+      "answer": "para que lleguen",
+      "explanation": {
+        "es": "'Para que lleguen' usa el subjuntivo en español.",
+        "en": "'Para eles chegarem' uses the inflected personal infinitive.",
+        "ar": "'para eles chegarem' يستخدم المصدر المُصرَّف."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'participle'?",
+        "en": "Which word means 'participle'?",
+        "ar": "أي كلمة تعني 'اسم المفعول'؟"
+      },
+      "options": [
+        {
+          "es": "el participio",
+          "en": "participle",
+          "ar": "اسم المفعول"
+        },
+        {
+          "es": "el pronombre relativo",
+          "en": "relative pronoun",
+          "ar": "الضمير الموصول"
+        },
+        {
+          "es": "la oración principal",
+          "en": "main clause",
+          "ar": "الجملة الرئيسية"
+        },
+        {
+          "es": "la oración subordinada",
+          "en": "subordinate clause",
+          "ar": "الجملة التابعة"
+        }
+      ],
+      "answer": "el participio",
+      "explanation": {
+        "es": "'el participio' significa 'participle'.",
+        "en": "'el participio' means 'participle'.",
+        "ar": "تعني 'el participio' 'اسم المفعول'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'index of indeterminacy of the subject'",
+        "en": "Choose the Spanish word: 'index of indeterminacy of the subject'",
+        "ar": "اختر الكلمة بالإسبانية: 'أداة إبهام الفاعل'"
+      },
+      "options": [
+        {
+          "es": "el participio",
+          "en": "participle",
+          "ar": "اسم المفعول"
+        },
+        {
+          "es": "la conjunción",
+          "en": "conjunction",
+          "ar": "حرف العطف / الرابط"
+        },
+        {
+          "es": "el índice de indeterminación",
+          "en": "index of indeterminacy of the subject",
+          "ar": "أداة إبهام الفاعل"
+        },
+        {
+          "es": "el infinitivo personal",
+          "en": "personal infinitive",
+          "ar": "المصدر المُصرَّف"
+        }
+      ],
+      "answer": "el índice de indeterminación",
+      "explanation": {
+        "es": "'el índice de indeterminación' significa 'index of indeterminacy of the subject'.",
+        "en": "'el índice de indeterminación' means 'index of indeterminacy of the subject'.",
+        "ar": "تعني 'el índice de indeterminación' 'أداة إبهام الفاعل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'main clause' en español?",
+        "en": "How do you say 'main clause' in Spanish?",
+        "ar": "كيف تقول 'الجملة الرئيسية' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el índice de indeterminación",
+          "en": "index of indeterminacy of the subject",
+          "ar": "أداة إبهام الفاعل"
+        },
+        {
+          "es": "la anáfora",
+          "en": "anaphora",
+          "ar": "الإحالة المرجعية"
+        },
+        {
+          "es": "la oración principal",
+          "en": "main clause",
+          "ar": "الجملة الرئيسية"
+        }
+      ],
+      "answer": "la oración principal",
+      "explanation": {
+        "es": "'la oración principal' significa 'main clause'.",
+        "en": "'la oración principal' means 'main clause'.",
+        "ar": "تعني 'la oración principal' 'الجملة الرئيسية'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'cohesion'?",
+        "en": "Which word means 'cohesion'?",
+        "ar": "أي كلمة تعني 'التماسك'؟"
+      },
+      "options": [
+        {
+          "es": "el infinitivo personal",
+          "en": "personal infinitive",
+          "ar": "المصدر المُصرَّف"
+        },
+        {
+          "es": "la cohesión",
+          "en": "cohesion",
+          "ar": "التماسك"
+        },
+        {
+          "es": "el gerundio",
+          "en": "gerund",
+          "ar": "اسم الفاعل المستمر"
+        }
+      ],
+      "answer": "la cohesión",
+      "explanation": {
+        "es": "'la cohesión' significa 'cohesion'.",
+        "en": "'la cohesión' means 'cohesion'.",
+        "ar": "تعني 'la cohesión' 'التماسك'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The relative pronoun picks up an antecedent.\"",
+        "en": "Translate into Spanish: \"The relative pronoun picks up an antecedent.\"",
+        "ar": "ترجم إلى الإسبانية: \"يستأنف الضمير الموصول مرجعًا سابقًا.\""
+      },
+      "options": [],
+      "answer": "El pronombre relativo retoma un antecedente.",
+      "explanation": {
+        "es": "Respuesta: \"El pronombre relativo retoma un antecedente.\".",
+        "en": "Answer: \"El pronombre relativo retoma un antecedente.\".",
+        "ar": "الإجابة: \"El pronombre relativo retoma un antecedente.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Because 'relatório' is singular; the participle agrees with it.\"",
+        "en": "Translate into Spanish: \"Because 'relatório' is singular; the participle agrees with it.\"",
+        "ar": "ترجم إلى الإسبانية: \"لأن 'relatório' مفرد؛ فيطابقه اسم المفعول في العدد والجنس.\""
+      },
+      "options": [],
+      "answer": "Porque 'informe' está en singular; el participio concuerda con él.",
+      "explanation": {
+        "es": "Respuesta: \"Porque 'informe' está en singular; el participio concuerda con él.\".",
+        "en": "Answer: \"Porque 'informe' está en singular; el participio concuerda con él.\".",
+        "ar": "الإجابة: \"Porque 'informe' está en singular; el participio concuerda con él.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Rewrite the developed clause as a reduced participle clause.\"",
+        "en": "Translate into Spanish: \"Rewrite the developed clause as a reduced participle clause.\"",
+        "ar": "ترجم إلى الإسبانية: \"أعد كتابة الجملة المطوّرة إلى جملة مختزلة باسم المفعول.\""
+      },
+      "options": [],
+      "answer": "Reescribe la oración desarrollada como una reducida de participio.",
+      "explanation": {
+        "es": "Respuesta: \"Reescribe la oración desarrollada como una reducida de participio.\".",
+        "en": "Answer: \"Reescribe la oración desarrollada como una reducida de participio.\".",
+        "ar": "الإجابة: \"Reescribe la oración desarrollada como una reducida de participio.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Anaphora refers back to what was said before.\"",
+        "en": "Translate into Spanish: \"Anaphora refers back to what was said before.\"",
+        "ar": "ترجم إلى الإسبانية: \"تشير الإحالة المرجعية إلى ما قيل سابقًا.\""
+      },
+      "options": [],
+      "answer": "La anáfora retoma lo dicho antes.",
+      "explanation": {
+        "es": "Respuesta: \"La anáfora retoma lo dicho antes.\".",
+        "en": "Answer: \"La anáfora retoma lo dicho antes.\".",
+        "ar": "الإجابة: \"La anáfora retoma lo dicho antes.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "La Sintaxis de la Escritura Formal",
-   "en": "The Syntax of Formal Writing",
-   "ar": "نحو الكتابة الرسمية"
-  },
-  "text_es": "Redactado el dictamen, la comisión lo sometió a aprobación. Al examinar el documento, los miembros notaron dos cláusulas ambiguas. Para evitar trabajo extra, decidieron reformular los párrafos finales antes de divulgar el texto. Concluida la revisión, nadie dudó de la claridad del resultado final.",
-  "text_en": "Once the opinion was written, the committee submitted it for approval. Examining the document, the members noticed two ambiguous clauses. To avoid rework, they decided to rewrite the final paragraphs before publishing the text. Once the review was completed, no one doubted the clarity of the final result.",
-  "text_ar": "بعد صياغة الرأي، قدّمته اللجنة للموافقة. وعند فحصهم الوثيقة، لاحظ الأعضاء بندين غامضين. ولتجنّب إعادة العمل، قرروا إعادة صياغة الفقرات الأخيرة قبل نشر النص. وبعد اكتمال المراجعة، لم يشك أحد في وضوح النتيجة النهائية."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Completa con el infinitivo personal: 'Para nosotros ___ temprano, tenemos que levantarnos a las cinco.'",
-    "en": "Complete: 'Para nosotros ___ temprano, tenemos que levantarnos a las cinco.'",
-    "ar": "أكمل: 'Para nosotros ___ temprano, tenemos que levantarnos a las cinco.'"
-   },
-   "options": [
-    {
-     "es": "llegar",
-     "en": "chegar",
-     "ar": "chegar"
-    },
-    {
-     "es": "llegar (nosotros)",
-     "en": "chegarmos",
-     "ar": "chegarmos"
-    },
-    {
-     "es": "llegar (ellos)",
-     "en": "chegarem",
-     "ar": "chegarem"
-    }
-   ],
-   "answer": "llegar (nosotros)",
-   "explanation": {
-    "es": "Con sujeto 'nosotros', el infinitivo personal se conjuga: 'para llegar nosotros'.",
-    "en": "With the subject 'nós' (we), the personal infinitive is 'chegarmos'.",
-    "ar": "مع الفاعل 'nós' (نحن) يكون المصدر المُصرَّف 'chegarmos'."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Qué frase usa correctamente una reducida de participio?",
-    "en": "Which sentence correctly uses a reduced participle clause?",
-    "ar": "أي جملة تستخدم صيغة مختزلة باسم المفعول بشكل صحيح؟"
-   },
-   "options": [
-    {
-     "es": "Llegando a casa, me llamó.",
-     "en": "Chegando em casa, ligou para mim.",
-     "ar": "Chegando em casa, ligou para mim."
-    },
-    {
-     "es": "Concluido el proyecto, presentamos los resultados.",
-     "en": "Concluído o projeto, apresentamos os resultados.",
-     "ar": "Concluído o projeto, apresentamos os resultados."
-    },
-    {
-     "es": "Salir temprano, fue al banco.",
-     "en": "Sair cedo, ele foi ao banco.",
-     "ar": "Sair cedo, ele foi ao banco."
-    }
-   ],
-   "answer": "Concluido el proyecto, presentamos los resultados.",
-   "explanation": {
-    "es": "Solo la segunda usa participio ('Concluido') en una reducción correcta.",
-    "en": "Only the second uses a participle ('Concluído') in a correct reduction.",
-    "ar": "الثانية فقط تستخدم اسم المفعول ('Concluído') في اختزال صحيح."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce al español: 'for them to arrive'",
-    "en": "Translate into Portuguese: 'for them to arrive'",
-    "ar": "ترجم إلى البرتغالية: 'for them to arrive'"
-   },
-   "options": [],
-   "answer": "para que lleguen",
-   "explanation": {
-    "es": "'Para que lleguen' usa el subjuntivo en español.",
-    "en": "'Para eles chegarem' uses the inflected personal infinitive.",
-    "ar": "'para eles chegarem' يستخدم المصدر المُصرَّف."
-   }
-  }
- ]
 }

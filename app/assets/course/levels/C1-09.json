@@ -33,97 +33,177 @@
       "es": "la colonización",
       "ipa": "/ˈla kolonisaˈsion/",
       "en": "the colonization",
-      "ar": "الاستعمار"
+      "ar": "الاستعمار",
+      "example": {
+        "es": "La colonización dejó huellas profundas.",
+        "en": "Colonization left deep marks.",
+        "ar": "ترك الاستعمار آثارًا عميقة."
+      }
     },
     {
       "es": "el descubrimiento",
       "ipa": "/ˈel deskuβɾiˈmiento/",
       "en": "the discovery",
-      "ar": "الاكتشاف"
+      "ar": "الاكتشاف",
+      "example": {
+        "es": "El descubrimiento de América transformó el mundo.",
+        "en": "The discovery of America transformed the world.",
+        "ar": "غيّر اكتشاف العالم الجديد العالم."
+      }
     },
     {
       "es": "el indígena",
       "ipa": "/ˈel iˈndixena/",
       "en": "the indigenous person",
-      "ar": "السكان الأصليون"
+      "ar": "السكان الأصليون",
+      "example": {
+        "es": "El indígena resistió la invasión.",
+        "en": "The indigenous person resisted the invasion.",
+        "ar": "قاوم السكان الأصليون الغزو."
+      }
     },
     {
       "es": "el esclavo",
       "ipa": "/ˈel eˈsklaβo/",
       "en": "the slave",
-      "ar": "العبد"
+      "ar": "العبد",
+      "example": {
+        "es": "El esclavo soñaba con la libertad.",
+        "en": "The slave dreamed of freedom.",
+        "ar": "حلم العبد بالحرية."
+      }
     },
     {
       "es": "la esclavitud",
       "ipa": "/ˈla esklaβiˈtuð/",
       "en": "slavery",
-      "ar": "العبودية"
+      "ar": "العبودية",
+      "example": {
+        "es": "La esclavitud fue abolida en el siglo diecinueve.",
+        "en": "Slavery was abolished in the nineteenth century.",
+        "ar": "أُلغيت العبودية في القرن التاسع عشر."
+      }
     },
     {
       "es": "la independencia",
       "ipa": "/ˈla indepeˈndensia/",
       "en": "independence",
-      "ar": "الاستقلال"
+      "ar": "الاستقلال",
+      "example": {
+        "es": "La independencia se declaró en mil ochocientos veintidós.",
+        "en": "Independence was declared in eighteen twenty-two.",
+        "ar": "أُعلنت الاستقلال في عام ألف وثمانمائة اثنين وعشرين."
+      }
     },
     {
       "es": "el imperio",
       "ipa": "/ˈel iˈmpeɾio/",
       "en": "the empire",
-      "ar": "الإمبراطورية"
+      "ar": "الإمبراطورية",
+      "example": {
+        "es": "El imperio cayó por conflictos internos.",
+        "en": "The empire fell due to internal conflicts.",
+        "ar": "سقطت الإمبراطورية بسبب صراعات داخلية."
+      }
     },
     {
       "es": "la república",
       "ipa": "/ˈla reˈpuβlika/",
       "en": "the republic",
-      "ar": "الجمهورية"
+      "ar": "الجمهورية",
+      "example": {
+        "es": "La república se instauró tras la guerra.",
+        "en": "The republic was established after the war.",
+        "ar": "تأسست الجمهورية بعد الحرب."
+      }
     },
     {
       "es": "el golpe de estado",
       "ipa": "/ˈel ˈgolpe ˈde eˈstaðo/",
       "en": "the coup",
-      "ar": "الانقلاب"
+      "ar": "الانقلاب",
+      "example": {
+        "es": "El golpe de estado tomó el palacio.",
+        "en": "The coup took the palace.",
+        "ar": "استولى الانقلاب على القصر."
+      }
     },
     {
       "es": "la dictadura",
       "ipa": "/ˈla diktaˈðuɾa/",
       "en": "the dictatorship",
-      "ar": "الديكتاتورية"
+      "ar": "الديكتاتورية",
+      "example": {
+        "es": "La dictadura duró veintiún años.",
+        "en": "The dictatorship lasted twenty-one years.",
+        "ar": "استمرت الديكتاتورية إحدى وعشرين سنة."
+      }
     },
     {
       "es": "la democracia",
       "ipa": "/ˈla demoˈkɾasia/",
       "en": "democracy",
-      "ar": "الديمقراطية"
+      "ar": "الديمقراطية",
+      "example": {
+        "es": "La democracia exige elecciones libres.",
+        "en": "Democracy requires free elections.",
+        "ar": "تتطلب الديمقراطية انتخابات حرة."
+      }
     },
     {
       "es": "la constitución",
       "ipa": "/ˈla konstituˈsion/",
       "en": "the constitution",
-      "ar": "الدستور"
+      "ar": "الدستور",
+      "example": {
+        "es": "La constitución garantiza derechos básicos.",
+        "en": "The constitution guarantees basic rights.",
+        "ar": "يضمن الدستور حقوقًا أساسية."
+      }
     },
     {
       "es": "la abolición",
       "ipa": "/ˈla aβoliˈsion/",
       "en": "the abolition",
-      "ar": "الإلغاء"
+      "ar": "الإلغاء",
+      "example": {
+        "es": "La abolición de la esclavitud fue gradual.",
+        "en": "The abolition of slavery was gradual.",
+        "ar": "كان إلغاء العبودية تدريجيًا."
+      }
     },
     {
       "es": "el inmigrante",
       "ipa": "/ˈel inmiˈɣɾante/",
       "en": "the immigrant",
-      "ar": "المهاجر"
+      "ar": "المهاجر",
+      "example": {
+        "es": "El inmigrante busca mejores oportunidades.",
+        "en": "The immigrant seeks better opportunities.",
+        "ar": "يبحث المهاجر عن فرص أفضل."
+      }
     },
     {
       "es": "la economía",
       "ipa": "/ˈla ekonoˈmia/",
       "en": "the economy",
-      "ar": "الاقتصاد"
+      "ar": "الاقتصاد",
+      "example": {
+        "es": "La economía del país creció un tres por ciento.",
+        "en": "The country's economy grew three percent.",
+        "ar": "نمت اقتصاديات البلاد ثلاثة بالمئة."
+      }
     },
     {
       "es": "la guerra",
       "ipa": "/ˈla ˈgera/",
       "en": "the war",
-      "ar": "الحرب"
+      "ar": "الحرب",
+      "example": {
+        "es": "La guerra cambió fronteras enteras.",
+        "en": "The war changed entire borders.",
+        "ar": "غيّرت الحرب حدودًا بأكملها."
+      }
     }
   ],
   "grammar": [
@@ -256,13 +336,13 @@
       "options": [
         {
           "es": "fue proclamada",
-          "en": "foi proclamada",
-          "ar": "foi proclamada"
+          "en": "was proclaimed",
+          "ar": "أُعلنت"
         },
         {
           "es": "proclamó",
-          "en": "proclamou",
-          "ar": "proclamou"
+          "en": "proclaimed",
+          "ar": "أعلن"
         },
         {
           "es": "será proclamada",
@@ -322,6 +402,203 @@
         "en": "Passive voice: 'foi abolida'; 'a escravidão' is slavery.",
         "ar": "المبني للمجهول: 'foi abolida'، و'a escravidão' هي العبودية."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the coup'?",
+        "en": "Which word means 'the coup'?",
+        "ar": "أي كلمة تعني 'الانقلاب'؟"
+      },
+      "options": [
+        {
+          "es": "la colonización",
+          "en": "the colonization",
+          "ar": "الاستعمار"
+        },
+        {
+          "es": "el golpe de estado",
+          "en": "the coup",
+          "ar": "الانقلاب"
+        },
+        {
+          "es": "la constitución",
+          "en": "the constitution",
+          "ar": "الدستور"
+        }
+      ],
+      "answer": "el golpe de estado",
+      "explanation": {
+        "es": "'el golpe de estado' significa 'the coup'.",
+        "en": "'el golpe de estado' means 'the coup'.",
+        "ar": "تعني 'el golpe de estado' 'الانقلاب'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the empire'",
+        "en": "Choose the Spanish word: 'the empire'",
+        "ar": "اختر الكلمة بالإسبانية: 'الإمبراطورية'"
+      },
+      "options": [
+        {
+          "es": "el inmigrante",
+          "en": "the immigrant",
+          "ar": "المهاجر"
+        },
+        {
+          "es": "el imperio",
+          "en": "the empire",
+          "ar": "الإمبراطورية"
+        },
+        {
+          "es": "la democracia",
+          "en": "democracy",
+          "ar": "الديمقراطية"
+        },
+        {
+          "es": "el esclavo",
+          "en": "the slave",
+          "ar": "العبد"
+        }
+      ],
+      "answer": "el imperio",
+      "explanation": {
+        "es": "'el imperio' significa 'the empire'.",
+        "en": "'el imperio' means 'the empire'.",
+        "ar": "تعني 'el imperio' 'الإمبراطورية'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the indigenous person' en español?",
+        "en": "How do you say 'the indigenous person' in Spanish?",
+        "ar": "كيف تقول 'السكان الأصليون' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el indígena",
+          "en": "the indigenous person",
+          "ar": "السكان الأصليون"
+        },
+        {
+          "es": "el imperio",
+          "en": "the empire",
+          "ar": "الإمبراطورية"
+        },
+        {
+          "es": "la constitución",
+          "en": "the constitution",
+          "ar": "الدستور"
+        }
+      ],
+      "answer": "el indígena",
+      "explanation": {
+        "es": "'el indígena' significa 'the indigenous person'.",
+        "en": "'el indígena' means 'the indigenous person'.",
+        "ar": "تعني 'el indígena' 'السكان الأصليون'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the indigenous person'?",
+        "en": "Which word means 'the indigenous person'?",
+        "ar": "أي كلمة تعني 'السكان الأصليون'؟"
+      },
+      "options": [
+        {
+          "es": "la constitución",
+          "en": "the constitution",
+          "ar": "الدستور"
+        },
+        {
+          "es": "la esclavitud",
+          "en": "slavery",
+          "ar": "العبودية"
+        },
+        {
+          "es": "el indígena",
+          "en": "the indigenous person",
+          "ar": "السكان الأصليون"
+        }
+      ],
+      "answer": "el indígena",
+      "explanation": {
+        "es": "'el indígena' significa 'the indigenous person'.",
+        "en": "'el indígena' means 'the indigenous person'.",
+        "ar": "تعني 'el indígena' 'السكان الأصليون'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The indigenous person resisted the invasion.\"",
+        "en": "Translate into Spanish: \"The indigenous person resisted the invasion.\"",
+        "ar": "ترجم إلى الإسبانية: \"قاوم السكان الأصليون الغزو.\""
+      },
+      "options": [],
+      "answer": "El indígena resistió la invasión.",
+      "explanation": {
+        "es": "Respuesta: \"El indígena resistió la invasión.\".",
+        "en": "Answer: \"El indígena resistió la invasión.\".",
+        "ar": "الإجابة: \"El indígena resistió la invasión.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The slave dreamed of freedom.\"",
+        "en": "Translate into Spanish: \"The slave dreamed of freedom.\"",
+        "ar": "ترجم إلى الإسبانية: \"حلم العبد بالحرية.\""
+      },
+      "options": [],
+      "answer": "El esclavo soñaba con la libertad.",
+      "explanation": {
+        "es": "Respuesta: \"El esclavo soñaba con la libertad.\".",
+        "en": "Answer: \"El esclavo soñaba con la libertad.\".",
+        "ar": "الإجابة: \"El esclavo soñaba con la libertad.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"History is complex, but understanding the past helps explain the present.\"",
+        "en": "Translate into Spanish: \"History is complex, but understanding the past helps explain the present.\"",
+        "ar": "ترجم إلى الإسبانية: \"التاريخ معقد، لكن فهم الماضي يساعد في تفسير الحاضر.\""
+      },
+      "options": [],
+      "answer": "La historia es compleja, pero entender el pasado ayuda a explicar el presente.",
+      "explanation": {
+        "es": "Respuesta: \"La historia es compleja, pero entender el pasado ayuda a explicar el presente.\".",
+        "en": "Answer: \"La historia es compleja, pero entender el pasado ayuda a explicar el presente.\".",
+        "ar": "الإجابة: \"La historia es compleja, pero entender el pasado ayuda a explicar el presente.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The discovery of America transformed the world.\"",
+        "en": "Translate into Spanish: \"The discovery of America transformed the world.\"",
+        "ar": "ترجم إلى الإسبانية: \"غيّر اكتشاف العالم الجديد العالم.\""
+      },
+      "options": [],
+      "answer": "El descubrimiento de América transformó el mundo.",
+      "explanation": {
+        "es": "Respuesta: \"El descubrimiento de América transformó el mundo.\".",
+        "en": "Answer: \"El descubrimiento de América transformó el mundo.\".",
+        "ar": "الإجابة: \"El descubrimiento de América transformó el mundo.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

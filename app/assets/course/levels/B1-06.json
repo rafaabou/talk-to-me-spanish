@@ -28,97 +28,177 @@
       "es": "el fútbol",
       "ipa": "/ˈel ˈfutbol/",
       "en": "the soccer",
-      "ar": "كرة القدم"
+      "ar": "كرة القدم",
+      "example": {
+        "es": "El fútbol es el deporte más popular.",
+        "en": "Soccer is the most popular sport.",
+        "ar": "كرة القدم هي الرياضة الأكثر شعبية."
+      }
     },
     {
       "es": "el equipo",
       "ipa": "/ˈel eˈkipo/",
       "en": "the team",
-      "ar": "الفريق"
+      "ar": "الفريق",
+      "example": {
+        "es": "El equipo entrenó toda la semana.",
+        "en": "The team trained all week.",
+        "ar": "تدرّب الفريق طوال الأسبوع."
+      }
     },
     {
       "es": "el jugador",
       "ipa": "/ˈel xuɣaˈðoɾ/",
       "en": "the player",
-      "ar": "اللاعب"
+      "ar": "اللاعب",
+      "example": {
+        "es": "El jugador marcó dos goles.",
+        "en": "The player scored two goals.",
+        "ar": "سجل اللاعب هدفين."
+      }
     },
     {
       "es": "el partido",
       "ipa": "/ˈel paˈɾtiðo/",
       "en": "the match",
-      "ar": "المباراة"
+      "ar": "المباراة",
+      "example": {
+        "es": "El partido terminó en empate.",
+        "en": "The match ended in a draw.",
+        "ar": "انتهت المباراة بالتعادل."
+      }
     },
     {
       "es": "el gol",
       "ipa": "/ˈel ˈgol/",
       "en": "the goal",
-      "ar": "الهدف"
+      "ar": "الهدف",
+      "example": {
+        "es": "El gol llegó en el minuto noventa.",
+        "en": "The goal came in the ninetieth minute.",
+        "ar": "جاء الهدف في الدقيقة التسعين."
+      }
     },
     {
       "es": "la afición",
       "ipa": "/ˈla afiˈsion/",
       "en": "the fans",
-      "ar": "جمهور المشجعين"
+      "ar": "جمهور المشجعين",
+      "example": {
+        "es": "La afición cantó todo el partido.",
+        "en": "The fans sang the whole match.",
+        "ar": "غنى جمهور المشجعين طوال المباراة."
+      }
     },
     {
       "es": "el estadio",
       "ipa": "/ˈel eˈstaðio/",
       "en": "the stadium",
-      "ar": "الملعب"
+      "ar": "الملعب",
+      "example": {
+        "es": "El estadio se llenó temprano.",
+        "en": "The stadium filled up early.",
+        "ar": "امتلأ الملعب مبكرًا."
+      }
     },
     {
       "es": "el campeonato",
       "ipa": "/ˈel kampeoˈnato/",
       "en": "the championship",
-      "ar": "البطولة"
+      "ar": "البطولة",
+      "example": {
+        "es": "El campeonato empieza el mes que viene.",
+        "en": "The championship starts next month.",
+        "ar": "تبدأ البطولة الشهر القادم."
+      }
     },
     {
       "es": "el entrenador",
       "ipa": "/ˈel entɾenaˈðoɾ/",
       "en": "the coach",
-      "ar": "المدرب"
+      "ar": "المدرب",
+      "example": {
+        "es": "El entrenador cambió la táctica.",
+        "en": "The coach changed the tactic.",
+        "ar": "غيّر المدرب التكتيك."
+      }
     },
     {
       "es": "el árbitro",
       "ipa": "/ˈel ˈaɾbitɾo/",
       "en": "the referee",
-      "ar": "الحكم"
+      "ar": "الحكم",
+      "example": {
+        "es": "El árbitro pitó un penalti.",
+        "en": "The referee blew for a penalty.",
+        "ar": "أشّر الحكم إلى ركلة جزاء."
+      }
     },
     {
       "es": "la tarjeta",
       "ipa": "/ˈla taˈɾxeta/",
       "en": "the card",
-      "ar": "البطاقة"
+      "ar": "البطاقة",
+      "example": {
+        "es": "La tarjeta amarilla sorprendió al equipo.",
+        "en": "The player received a yellow card.",
+        "ar": "تلّك اللاعب بطاقة صفراء."
+      }
     },
     {
       "es": "el penalti",
       "ipa": "/ˈel peˈnalti/",
       "en": "the penalty",
-      "ar": "ركلة الجزاء"
+      "ar": "ركلة الجزاء",
+      "example": {
+        "es": "El penalti se cobró en el minuto final.",
+        "en": "The penalty was taken in the final minute.",
+        "ar": "سُدّت ركلة الجزاء في الدقيقة الأخيرة."
+      }
     },
     {
       "es": "el campeón",
       "ipa": "/ˈel kaˈmpeon/",
       "en": "the champion",
-      "ar": "البطل"
+      "ar": "البطل",
+      "example": {
+        "es": "El campeón levantó el trofeo.",
+        "en": "The champion lifted the trophy.",
+        "ar": "رفع البطل الكأس."
+      }
     },
     {
       "es": "la derrota",
       "ipa": "/ˈla deˈrota/",
       "en": "the defeat",
-      "ar": "الهزيمة"
+      "ar": "الهزيمة",
+      "example": {
+        "es": "La derrota dolió mucho al equipo.",
+        "en": "The defeat hurt the team a lot.",
+        "ar": "جرحت الهزيمة الفريق كثيرًا."
+      }
     },
     {
       "es": "la victoria",
       "ipa": "/ˈla biˈktoɾia/",
       "en": "the victory",
-      "ar": "الانتصار"
+      "ar": "الانتصار",
+      "example": {
+        "es": "La victoria fue merecida.",
+        "en": "The victory was well deserved.",
+        "ar": "كانت النتيجة مستحقة."
+      }
     },
     {
       "es": "el ejercicio",
       "ipa": "/ˈel exeˈɾsisio/",
       "en": "the exercise",
-      "ar": "التمرين"
+      "ar": "التمرين",
+      "example": {
+        "es": "Haz el ejercicio al final del capítulo.",
+        "en": "Do the exercise at the end of the chapter.",
+        "ar": "حل التمرين في نهاية الفصل."
+      }
     }
   ],
   "grammar": [
@@ -313,8 +393,8 @@
       "type": "translation",
       "prompt": {
         "es": "Traduce al español: \"La afición celebró la victoria en el estadio.\"",
-        "en": "Translate to Portuguese: \"The fans celebrated the victory in the stadium.\"",
-        "ar": "ترجم إلى البرتغالية: \"The fans celebrated the victory in the stadium.\""
+        "en": "Translate to Spanish: \"The fans celebrated the victory in the stadium.\"",
+        "ar": "ترجم إلى بالإسبانية: \"The fans celebrated the victory in the stadium.\""
       },
       "options": [],
       "answer": "La afición celebró la victoria en el estadio.",
@@ -323,6 +403,203 @@
         "en": "'Torcida' is the group of fans, and 'comemorar' means to celebrate.",
         "ar": "'torcida' تعني جمهور المشجعين، و'comemorar' تعني يحتفل."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the penalty'?",
+        "en": "Which word means 'the penalty'?",
+        "ar": "أي كلمة تعني 'ركلة الجزاء'؟"
+      },
+      "options": [
+        {
+          "es": "el estadio",
+          "en": "the stadium",
+          "ar": "الملعب"
+        },
+        {
+          "es": "el gol",
+          "en": "the goal",
+          "ar": "الهدف"
+        },
+        {
+          "es": "el penalti",
+          "en": "the penalty",
+          "ar": "ركلة الجزاء"
+        }
+      ],
+      "answer": "el penalti",
+      "explanation": {
+        "es": "'el penalti' significa 'the penalty'.",
+        "en": "'el penalti' means 'the penalty'.",
+        "ar": "تعني 'el penalti' 'ركلة الجزاء'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the champion'",
+        "en": "Choose the Spanish word: 'the champion'",
+        "ar": "اختر الكلمة بالإسبانية: 'البطل'"
+      },
+      "options": [
+        {
+          "es": "la tarjeta",
+          "en": "the card",
+          "ar": "البطاقة"
+        },
+        {
+          "es": "el estadio",
+          "en": "the stadium",
+          "ar": "الملعب"
+        },
+        {
+          "es": "el campeón",
+          "en": "the champion",
+          "ar": "البطل"
+        },
+        {
+          "es": "la derrota",
+          "en": "the defeat",
+          "ar": "الهزيمة"
+        }
+      ],
+      "answer": "el campeón",
+      "explanation": {
+        "es": "'el campeón' significa 'the champion'.",
+        "en": "'el campeón' means 'the champion'.",
+        "ar": "تعني 'el campeón' 'البطل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the match' en español?",
+        "en": "How do you say 'the match' in Spanish?",
+        "ar": "كيف تقول 'المباراة' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "la afición",
+          "en": "the fans",
+          "ar": "جمهور المشجعين"
+        },
+        {
+          "es": "el partido",
+          "en": "the match",
+          "ar": "المباراة"
+        },
+        {
+          "es": "el penalti",
+          "en": "the penalty",
+          "ar": "ركلة الجزاء"
+        }
+      ],
+      "answer": "el partido",
+      "explanation": {
+        "es": "'el partido' significa 'the match'.",
+        "en": "'el partido' means 'the match'.",
+        "ar": "تعني 'el partido' 'المباراة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the stadium'?",
+        "en": "Which word means 'the stadium'?",
+        "ar": "أي كلمة تعني 'الملعب'؟"
+      },
+      "options": [
+        {
+          "es": "el estadio",
+          "en": "the stadium",
+          "ar": "الملعب"
+        },
+        {
+          "es": "la derrota",
+          "en": "the defeat",
+          "ar": "الهزيمة"
+        },
+        {
+          "es": "el campeonato",
+          "en": "the championship",
+          "ar": "البطولة"
+        }
+      ],
+      "answer": "el estadio",
+      "explanation": {
+        "es": "'el estadio' significa 'the stadium'.",
+        "en": "'el estadio' means 'the stadium'.",
+        "ar": "تعني 'el estadio' 'الملعب'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The championship starts next month.\"",
+        "en": "Translate into Spanish: \"The championship starts next month.\"",
+        "ar": "ترجم إلى الإسبانية: \"تبدأ البطولة الشهر القادم.\""
+      },
+      "options": [],
+      "answer": "El campeonato empieza el mes que viene.",
+      "explanation": {
+        "es": "Respuesta: \"El campeonato empieza el mes que viene.\".",
+        "en": "Answer: \"El campeonato empieza el mes que viene.\".",
+        "ar": "الإجابة: \"El campeonato empieza el mes que viene.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Soccer is the most popular sport.\"",
+        "en": "Translate into Spanish: \"Soccer is the most popular sport.\"",
+        "ar": "ترجم إلى الإسبانية: \"كرة القدم هي الرياضة الأكثر شعبية.\""
+      },
+      "options": [],
+      "answer": "El fútbol es el deporte más popular.",
+      "explanation": {
+        "es": "Respuesta: \"El fútbol es el deporte más popular.\".",
+        "en": "Answer: \"El fútbol es el deporte más popular.\".",
+        "ar": "الإجابة: \"El fútbol es el deporte más popular.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Are you going to the stadium today?\"",
+        "en": "Translate into Spanish: \"Are you going to the stadium today?\"",
+        "ar": "ترجم إلى الإسبانية: \"هل ستذهب إلى الملعب اليوم؟\""
+      },
+      "options": [],
+      "answer": "¿Vas al estadio hoy?",
+      "explanation": {
+        "es": "Respuesta: \"¿Vas al estadio hoy?\".",
+        "en": "Answer: \"¿Vas al estadio hoy?\".",
+        "ar": "الإجابة: \"¿Vas al estadio hoy?\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Yes, I am. The fans are excited!\"",
+        "en": "Translate into Spanish: \"Yes, I am. The fans are excited!\"",
+        "ar": "ترجم إلى الإسبانية: \"نعم سأذهب. الجمهور متحمّس!\""
+      },
+      "options": [],
+      "answer": "¡Sí voy. La afición está animada!",
+      "explanation": {
+        "es": "Respuesta: \"¡Sí voy. La afición está animada!\".",
+        "en": "Answer: \"¡Sí voy. La afición está animada!\".",
+        "ar": "الإجابة: \"¡Sí voy. La afición está animada!\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

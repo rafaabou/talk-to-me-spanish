@@ -38,109 +38,199 @@
       "es": "la ironía",
       "ipa": "/ˈla iɾoˈnia/",
       "en": "irony",
-      "ar": "السخرية"
+      "ar": "السخرية",
+      "example": {
+        "es": "La ironía escribe el sentido al revés.",
+        "en": "Irony writes meaning backwards.",
+        "ar": "تكتب السخرية المعنى بالمقلوب."
+      }
     },
     {
       "es": "el sarcasmo",
       "ipa": "/ˈel saˈɾkasmo/",
       "en": "sarcasm",
-      "ar": "التهكم"
+      "ar": "التهكم",
+      "example": {
+        "es": "El sarcasmo ataca con crueldad.",
+        "en": "Sarcasm attacks with cruelty.",
+        "ar": "يهاجم التهكم بقسوة."
+      }
     },
     {
       "es": "el chiste",
       "ipa": "/ˈel ˈtʃiste/",
       "en": "joke",
-      "ar": "النكتة"
+      "ar": "النكتة",
+      "example": {
+        "es": "El chiste depende del momento exacto.",
+        "en": "The joke depends on the exact moment.",
+        "ar": "تعتمد النكتة على اللحظة الدقيقة."
+      }
     },
     {
       "es": "el juego de palabras",
       "ipa": "/ˈel ˈxueɣo ˈde paˈlaβɾas/",
       "en": "pun",
-      "ar": "التلاعب اللفظي"
+      "ar": "التلاعب اللفظي",
+      "example": {
+        "es": "El juego de palabras une dos sentidos.",
+        "en": "A pun joins two meanings.",
+        "ar": "يجمع التلاعب اللفظي معنيين."
+      }
     },
     {
       "es": "el doble sentido",
       "ipa": "/ˈel ˈdoβle seˈntiðo/",
       "en": "double meaning",
-      "ar": "المعنى المزدوج"
+      "ar": "المعنى المزدوج",
+      "example": {
+        "es": "El doble sentido oculta una burla.",
+        "en": "Double meaning hides a mockery.",
+        "ar": "يخفي المعنى المزدوج استهزاءً."
+      }
     },
     {
       "es": "la parodia",
       "ipa": "/ˈla paˈɾoðia/",
       "en": "parody",
-      "ar": "المحاكاة الساخرة"
+      "ar": "المحاكاة الساخرة",
+      "example": {
+        "es": "La parodia imita un estilo para reírse.",
+        "en": "Parody imitates a style to laugh at it.",
+        "ar": "تحاكي المحاكاة الساخرة أسلوبًا للسخرية."
+      }
     },
     {
       "es": "la burla",
       "ipa": "/ˈla ˈbuɾla/",
       "en": "mockery",
-      "ar": "الاستهزاء"
+      "ar": "الاستهزاء",
+      "example": {
+        "es": "La burla rompe la confianza.",
+        "en": "Mockery breaks trust.",
+        "ar": "يكسر الاستهزاء الثقة."
+      }
     },
     {
       "es": "la mofa",
       "ipa": "/ˈla ˈmofa/",
       "en": "jeering, mockery",
-      "ar": "السخرية والاستهزاء"
+      "ar": "السخرية والاستهزاء",
+      "example": {
+        "es": "La mofa en público hiere sensibilidades.",
+        "en": "Public jeering hurts feelings.",
+        "ar": "تجرح السخرية العلنية المشاعر."
+      }
     },
     {
       "es": "la caricatura",
       "ipa": "/ˈla kaɾikaˈtuɾa/",
       "en": "caricature",
-      "ar": "الرسم الكاريكاتوري"
+      "ar": "الرسم الكاريكاتوري",
+      "example": {
+        "es": "La caricatura exagera rasgos físicos.",
+        "en": "Caricature exaggerates physical features.",
+        "ar": "تبالغ الرسم الكاريكاتوري السمات الجسدية."
+      }
     },
     {
       "es": "el humor negro",
       "ipa": "/ˈel uˈmoɾ ˈneɣɾo/",
       "en": "dark humor",
-      "ar": "الفكاهة السوداء"
+      "ar": "الفكاهة السوداء",
+      "example": {
+        "es": "El humor negro ríe de lo oscuro.",
+        "en": "Dark humor laughs at the dark.",
+        "ar": "يضحك الفكاهة السوداء على المظلم."
+      }
     },
     {
       "es": "la ruptura de la expectativa",
       "ipa": "/ˈla ruˈptuɾa ˈde ˈla ekspektaˈtiβa/",
       "en": "expectation subversion",
-      "ar": "كسر التوقع"
+      "ar": "كسر التوقع",
+      "example": {
+        "es": "La ruptura de la expectativa sorprende.",
+        "en": "Expectation subversion surprises.",
+        "ar": "تفاجئ كسر التوقع المتلقي."
+      }
     },
     {
       "es": "la exageración",
       "ipa": "/ˈla eksaxeɾaˈsion/",
       "en": "exaggeration",
-      "ar": "المبالغة"
+      "ar": "المبالغة",
+      "example": {
+        "es": "La exageración refuerza el efecto cómico.",
+        "en": "Exaggeration reinforces the comic effect.",
+        "ar": "يقوّي المبالغة الأثر الكوميدي."
+      }
     },
     {
       "es": "la ironía dramática",
       "ipa": "/ˈla iɾoˈnia dɾaˈmatika/",
       "en": "dramatic irony",
-      "ar": "السخرية الدرامية"
+      "ar": "السخرية الدرامية",
+      "example": {
+        "es": "La ironía dramática informa antes al público.",
+        "en": "Dramatic irony informs the audience first.",
+        "ar": "تُعلم السخرية الدرامية الجمهور أولًا."
+      }
     },
     {
       "es": "el non sequitur",
       "ipa": "/ˈel ˈnon sekiˈtuɾ/",
       "en": "non sequitur",
-      "ar": "خروج غير منطقي عن السياق"
+      "ar": "خروج غير منطقي عن السياق",
+      "example": {
+        "es": "El non sequitur rompe la lógica.",
+        "en": "Non sequitur breaks the logic.",
+        "ar": "يكسر خروج غير منطقي المنطق."
+      }
     },
     {
       "es": "el doble sentido ambiguo",
       "ipa": "/ˈel ˈdoβle seˈntiðo aˈmbiɣuo/",
       "en": "ambiguous double meaning",
-      "ar": "المعنى المزدوج الغامض"
+      "ar": "المعنى المزدوج الغامض",
+      "example": {
+        "es": "El doble sentido ambiguo genera malentendidos.",
+        "en": "Ambiguous double meaning creates misunderstandings.",
+        "ar": "يولّد المعنى المزدوج الغامض سوء الفهم."
+      }
     },
     {
       "es": "el chiste interno",
       "ipa": "/ˈel ˈtʃiste iˈnteɾno/",
       "en": "inside joke",
-      "ar": "النكتة الخاصة بين الأصدقاء"
+      "ar": "النكتة الخاصة بين الأصدقاء",
+      "example": {
+        "es": "El chiste interno solo entienden los amigos.",
+        "en": "Only friends understand the inside joke.",
+        "ar": "لا يفهم النكتة الخاصة بين الأصدقاء إلا الأصدقاء."
+      }
     },
     {
       "es": "burlarse",
       "ipa": "/buˈɾlaɾse/",
       "en": "to mock, to make fun",
-      "ar": "يسخر من"
+      "ar": "يسخر من",
+      "example": {
+        "es": "Burlarse de otros hiere.",
+        "en": "Do not make fun of your classmate.",
+        "ar": "لا تسخر من زميلك."
+      }
     },
     {
       "es": "reír por fuera",
       "ipa": "/ˈreiɾ ˈpoɾ ˈfueɾa/",
       "en": "to laugh on the outside",
-      "ar": "يضحك ظاهريًا"
+      "ar": "يضحك ظاهريًا",
+      "example": {
+        "es": "Reír por fuera oculta tristeza.",
+        "en": "Laugh on the outside even if you are sad inside.",
+        "ar": "اضحك ظاهريًا وإن كنت حزينًا داخليًا."
+      }
     }
   ],
   "grammar": [
@@ -325,8 +415,8 @@
       "type": "translation",
       "prompt": {
         "es": "Traduce al español: 'to make fun of someone'",
-        "en": "Translate into Portuguese: 'to make fun of someone'",
-        "ar": "ترجم إلى البرتغالية: 'to make fun of someone'"
+        "en": "Translate into Spanish: 'to make fun of someone'",
+        "ar": "ترجم إلى بالإسبانية: 'to make fun of someone'"
       },
       "options": [],
       "answer": "burlarse de alguien",
@@ -335,6 +425,198 @@
         "en": "'Fazer troça de alguém' is the equivalent of 'make fun of someone'.",
         "ar": "التعبير 'fazer troça de alguém' يعادل 'make fun of someone'."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'irony'?",
+        "en": "Which word means 'irony'?",
+        "ar": "أي كلمة تعني 'السخرية'؟"
+      },
+      "options": [
+        {
+          "es": "el doble sentido",
+          "en": "double meaning",
+          "ar": "المعنى المزدوج"
+        },
+        {
+          "es": "burlarse",
+          "en": "to mock, to make fun",
+          "ar": "يسخر من"
+        },
+        {
+          "es": "la ironía",
+          "en": "irony",
+          "ar": "السخرية"
+        }
+      ],
+      "answer": "la ironía",
+      "explanation": {
+        "es": "'la ironía' significa 'irony'.",
+        "en": "'la ironía' means 'irony'.",
+        "ar": "تعني 'la ironía' 'السخرية'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'joke'",
+        "en": "Choose the Spanish word: 'joke'",
+        "ar": "اختر الكلمة بالإسبانية: 'النكتة'"
+      },
+      "options": [
+        {
+          "es": "el chiste interno",
+          "en": "inside joke",
+          "ar": "النكتة الخاصة بين الأصدقاء"
+        },
+        {
+          "es": "el humor negro",
+          "en": "dark humor",
+          "ar": "الفكاهة السوداء"
+        },
+        {
+          "es": "el chiste",
+          "en": "joke",
+          "ar": "النكتة"
+        }
+      ],
+      "answer": "el chiste",
+      "explanation": {
+        "es": "'el chiste' significa 'joke'.",
+        "en": "'el chiste' means 'joke'.",
+        "ar": "تعني 'el chiste' 'النكتة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'irony' en español?",
+        "en": "How do you say 'irony' in Spanish?",
+        "ar": "كيف تقول 'السخرية' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "la ruptura de la expectativa",
+          "en": "expectation subversion",
+          "ar": "كسر التوقع"
+        },
+        {
+          "es": "la ironía",
+          "en": "irony",
+          "ar": "السخرية"
+        },
+        {
+          "es": "la exageración",
+          "en": "exaggeration",
+          "ar": "المبالغة"
+        }
+      ],
+      "answer": "la ironía",
+      "explanation": {
+        "es": "'la ironía' significa 'irony'.",
+        "en": "'la ironía' means 'irony'.",
+        "ar": "تعني 'la ironía' 'السخرية'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'joke'?",
+        "en": "Which word means 'joke'?",
+        "ar": "أي كلمة تعني 'النكتة'؟"
+      },
+      "options": [
+        {
+          "es": "el chiste",
+          "en": "joke",
+          "ar": "النكتة"
+        },
+        {
+          "es": "el humor negro",
+          "en": "dark humor",
+          "ar": "الفكاهة السوداء"
+        },
+        {
+          "es": "la caricatura",
+          "en": "caricature",
+          "ar": "الرسم الكاريكاتوري"
+        }
+      ],
+      "answer": "el chiste",
+      "explanation": {
+        "es": "'el chiste' significa 'joke'.",
+        "en": "'el chiste' means 'joke'.",
+        "ar": "تعني 'el chiste' 'النكتة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Sarcasm at seven in the morning? You are really inspired today.\"",
+        "en": "Translate into Spanish: \"Sarcasm at seven in the morning? You are really inspired today.\"",
+        "ar": "ترجم إلى الإسبانية: \"تهكم في السابعة صباحًا؟ أنت ملهم فعلًا اليوم.\""
+      },
+      "options": [],
+      "answer": "¿Sarcasmo a las siete de la mañana? Hoy estás realmente inspirado.",
+      "explanation": {
+        "es": "Respuesta: \"¿Sarcasmo a las siete de la mañana? Hoy estás realmente inspirado.\".",
+        "en": "Answer: \"¿Sarcasmo a las siete de la mañana? Hoy estás realmente inspirado.\".",
+        "ar": "الإجابة: \"¿Sarcasmo a las siete de la mañana? Hoy estás realmente inspirado.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Sarcasm attacks with cruelty.\"",
+        "en": "Translate into Spanish: \"Sarcasm attacks with cruelty.\"",
+        "ar": "ترجم إلى الإسبانية: \"يهاجم التهكم بقسوة.\""
+      },
+      "options": [],
+      "answer": "El sarcasmo ataca con crueldad.",
+      "explanation": {
+        "es": "Respuesta: \"El sarcasmo ataca con crueldad.\".",
+        "en": "Answer: \"El sarcasmo ataca con crueldad.\".",
+        "ar": "الإجابة: \"El sarcasmo ataca con crueldad.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Public jeering hurts feelings.\"",
+        "en": "Translate into Spanish: \"Public jeering hurts feelings.\"",
+        "ar": "ترجم إلى الإسبانية: \"تجرح السخرية العلنية المشاعر.\""
+      },
+      "options": [],
+      "answer": "La mofa en público hiere sensibilidades.",
+      "explanation": {
+        "es": "Respuesta: \"La mofa en público hiere sensibilidades.\".",
+        "en": "Answer: \"La mofa en público hiere sensibilidades.\".",
+        "ar": "الإجابة: \"La mofa en público hiere sensibilidades.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Non sequitur breaks the logic.\"",
+        "en": "Translate into Spanish: \"Non sequitur breaks the logic.\"",
+        "ar": "ترجم إلى الإسبانية: \"يكسر خروج غير منطقي المنطق.\""
+      },
+      "options": [],
+      "answer": "El non sequitur rompe la lógica.",
+      "explanation": {
+        "es": "Respuesta: \"El non sequitur rompe la lógica.\".",
+        "en": "Answer: \"El non sequitur rompe la lógica.\".",
+        "ar": "الإجابة: \"El non sequitur rompe la lógica.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

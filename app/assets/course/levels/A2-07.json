@@ -1,335 +1,622 @@
 {
- "id": "A2-07",
- "level": "A2",
- "level_name": {
-  "es": "Básico",
-  "en": "Elementary",
-  "ar": "أساسي"
- },
- "title": {
-  "es": "Futuro Inmediato y Futuro Simple",
-  "en": "Immediate and Simple Future",
-  "ar": "المستقبل القريب والبسيط"
- },
- "objectives": [
-  {
-   "es": "Formar el futuro próximo con ir a + infinitivo",
-   "en": "Form the immediate future with ir + infinitive",
-   "ar": "تكوين المستقبل القريب باستخدام ir + صيغة المصدر"
+  "id": "A2-07",
+  "level": "A2",
+  "level_name": {
+    "es": "Básico",
+    "en": "Elementary",
+    "ar": "أساسي"
   },
-  {
-   "es": "Usar el futuro simple formal",
-   "en": "Use the formal simple future",
-   "ar": "استخدام المستقبل البسيط الرسمي"
-  },
-  {
-   "es": "Hablar sobre planes e intenciones",
-   "en": "Talk about plans and intentions",
-   "ar": "التحدث عن الخطط والنوايا"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "mañana",
-   "ipa": "/maˈɲana/",
-   "en": "tomorrow",
-   "ar": "غدًا"
-  },
-  {
-   "es": "después",
-   "ipa": "/deˈspues/",
-   "en": "later / after",
-   "ar": "بعد ذلك"
-  },
-  {
-   "es": "la próxima semana",
-   "ipa": "/ˈla ˈpɾoksima seˈmana/",
-   "en": "next week",
-   "ar": "الأسبوع القادم"
-  },
-  {
-   "es": "el año que viene",
-   "ipa": "/ˈel ˈaɲo ˈke ˈbiene/",
-   "en": "next year",
-   "ar": "السنة القادمة"
-  },
-  {
-   "es": "ir",
-   "ipa": "/ˈiɾ/",
-   "en": "to go",
-   "ar": "يذهب"
-  },
-  {
-   "es": "ver",
-   "ipa": "/ˈbeɾ/",
-   "en": "to see",
-   "ar": "يرى"
-  },
-  {
-   "es": "cenar",
-   "ipa": "/seˈnaɾ/",
-   "en": "to have dinner",
-   "ar": "يتعشى"
-  },
-  {
-   "es": "comprar",
-   "ipa": "/koˈmpɾaɾ/",
-   "en": "to buy",
-   "ar": "يشتري"
-  },
-  {
-   "es": "encontrar",
-   "ipa": "/enkoˈntɾaɾ/",
-   "en": "to meet",
-   "ar": "يلتقي"
-  },
-  {
-   "es": "terminar",
-   "ipa": "/teɾmiˈnaɾ/",
-   "en": "to finish",
-   "ar": "ينهي"
-  },
-  {
-   "es": "empezar",
-   "ipa": "/empeˈsaɾ/",
-   "en": "to begin",
-   "ar": "يبدأ"
-  },
-  {
-   "es": "volver",
-   "ipa": "/boˈlbeɾ/",
-   "en": "to return",
-   "ar": "يعود"
-  },
-  {
-   "es": "decidir",
-   "ipa": "/desiˈðiɾ/",
-   "en": "to decide",
-   "ar": "يقرر"
-  },
-  {
-   "es": "el plan",
-   "ipa": "/ˈel ˈplan/",
-   "en": "the plan",
-   "ar": "الخطة"
-  },
-  {
-   "es": "probablemente",
-   "ipa": "/pɾoβaβleˈmente/",
-   "en": "probably",
-   "ar": "على الأرجح"
-  },
-  {
-   "es": "pasado mañana",
-   "ipa": "/paˈsaðo maˈɲana/",
-   "en": "the day after tomorrow",
-   "ar": "بعد غد"
-  },
-  {
-   "es": "la fiesta",
-   "ipa": "/ˈla ˈfiesta/",
-   "en": "the party",
-   "ar": "الحفلة"
-  },
-  {
-   "es": "ver",
-   "ipa": "/ˈbeɾ/",
-   "en": "to watch",
-   "ar": "يشاهد"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Futuro Próximo (ir a + infinitivo)",
-    "en": "Immediate Future (ir + infinitive)",
-    "ar": "المستقبل القريب (ir + صيغة المصدر)"
-   },
-   "explanation": {
-    "es": "El futuro próximo usa ir a + infinitivo: yo voy a hablar, tú vas a comer, nosotros vamos a viajar, ellos van a llegar. Es el futuro más usado en la conversación. Ejemplo: 'Voy a ver una película hoy.'",
-    "en": "The near future uses ir a + infinitive: yo voy a hablar, tú vas a comer, nosotros vamos a viajar, ellos van a llegar. It is the most common future in conversation. Example: 'Voy a ver una película hoy.' (I am going to watch a movie today.)",
-    "ar": "المستقبل القريب يستخدم ir a + المصدر: yo voy a hablar، tú vas a comer، nosotros vamos a viajar، ellos van a llegar. وهو المستقبل الأكثر استخدامًا في المحادثة. مثال: 'Voy a ver una película hoy.' (سأشاهد فيلمًا اليوم.)"
-   },
-   "examples": [
-    {
-     "es": "Voy a viajar al sur de España.",
-     "en": "I am going to travel to the Northeast.",
-     "ar": "سأسافر إلى الشمال الشرقي."
-    },
-    {
-     "es": "Vamos a cenar fuera hoy.",
-     "en": "We are going to have dinner out tonight.",
-     "ar": "سنتعشى خارج المنزل الليلة."
-    },
-    {
-     "es": "¿Qué vas a hacer mañana?",
-     "en": "What are you going to do tomorrow?",
-     "ar": "ماذا ستفعل غدًا؟"
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Futuro Simple",
-    "en": "Simple Future",
-    "ar": "المستقبل البسيط"
-   },
-   "explanation": {
-    "es": "El futuro simple es más formal: hablaré, hablará, hablaremos, hablarán (verbos en -ar); comeré, comerá, comeremos (en -er); abriré, abrirá (en -ir). Irregulares: seré (ser), estaré (estar), tendré (tener), haré (hacer). En la conversación se prefiere 'voy a + infinitivo'.",
-    "en": "The simple future is more formal: falarei, falará, falaremos, falarão (-ar verbs); comerei, comerá, comeremos (-er verbs); abrirei, abrirá (-ir verbs). Irregulars: serei (ser), estarei (estar), terei (ter), farei (fazer). In conversation, 'vou + infinitive' is preferred.",
-    "ar": "المستقبل البسيط أكثر رسمية: falarei، falará، falaremos، falarão (الأفعال المنتهية بـ -ar)؛ comerei، comerá، comeremos (المنتهية بـ -er)؛ abrirei، abrirá (المنتهية بـ -ir). الأفعال الشاذة: serei (سأكون)، estarei (سأبقى)، terei (سأملك)، farei (سأفعل). في المحادثة يفضَّل 'vou + صيغة المصدر'."
-   },
-   "examples": [
-    {
-     "es": "Te llamaré mañana.",
-     "en": "I will call you tomorrow.",
-     "ar": "سأتصل بك غدًا."
-    },
-    {
-     "es": "Hablaremos con el gerente.",
-     "en": "We will speak with the manager.",
-     "ar": "سنتحدث مع المدير."
-    },
-    {
-     "es": "¿Dónde estará Juan el sábado?",
-     "en": "Where will João be on Saturday?",
-     "ar": "أين سيكون جواو يوم السبت؟"
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "Los Planes del Fin de Semana",
-   "en": "Weekend Plans",
-   "ar": "خطط عطلة نهاية الأسبوع"
+    "es": "Futuro Inmediato y Futuro Simple",
+    "en": "Immediate and Simple Future",
+    "ar": "المستقبل القريب والبسيط"
   },
-  "lines": [
-   {
-    "speaker": "Rafa",
-    "es": "¿Qué vas a hacer el fin de semana?",
-    "en": "What are you going to do on the weekend?",
-    "ar": "ماذا ستفعل في عطلة نهاية الأسبوع؟"
-   },
-   {
-    "speaker": "Sofía",
-    "es": "Voy a viajar a Barcelona.",
-    "en": "I am going to travel to Rio de Janeiro.",
-    "ar": "سأسافر إلى ريو دي جانيرو."
-   },
-   {
-    "speaker": "Rafa",
-    "es": "¿Con quién vas?",
-    "en": "Who are you going with?",
-    "ar": "مع من ستسافرين؟"
-   },
-   {
-    "speaker": "Sofía",
-    "es": "Voy con mi hermana. Vamos a ver a los amigos.",
-    "en": "With my sister. We are going to see friends.",
-    "ar": "مع أختي. سنزور الأصدقاء."
-   },
-   {
-    "speaker": "Rafa",
-    "es": "¿Y cuándo volvéis?",
-    "en": "And when do you come back?",
-    "ar": "ومتى تعودان؟"
-   },
-   {
-    "speaker": "Sofía",
-    "es": "Volvemos el domingo por la noche. ¡Después te cuento todo!",
-    "en": "We come back Sunday night. Then I will tell you everything!",
-    "ar": "نعود ليلة الأحد. ثم سأحكي لك كل شيء!"
-   }
+  "objectives": [
+    {
+      "es": "Formar el futuro próximo con ir a + infinitivo",
+      "en": "Form the immediate future with ir + infinitive",
+      "ar": "تكوين المستقبل القريب باستخدام ir + صيغة المصدر"
+    },
+    {
+      "es": "Usar el futuro simple formal",
+      "en": "Use the formal simple future",
+      "ar": "استخدام المستقبل البسيط الرسمي"
+    },
+    {
+      "es": "Hablar sobre planes e intenciones",
+      "en": "Talk about plans and intentions",
+      "ar": "التحدث عن الخطط والنوايا"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "mañana",
+      "ipa": "/maˈɲana/",
+      "en": "tomorrow",
+      "ar": "غدًا",
+      "example": {
+        "es": "Mañana tengo una reunión.",
+        "en": "Tomorrow I have a meeting.",
+        "ar": "غدًا لدي اجتماع."
+      }
+    },
+    {
+      "es": "después",
+      "ipa": "/deˈspues/",
+      "en": "later / after",
+      "ar": "بعد ذلك",
+      "example": {
+        "es": "Iremos al cine después de cenar.",
+        "en": "We will go to the cinema after dinner.",
+        "ar": "سنذهب إلى السينما بعد العشاء."
+      }
+    },
+    {
+      "es": "la próxima semana",
+      "ipa": "/ˈla ˈpɾoksima seˈmana/",
+      "en": "next week",
+      "ar": "الأسبوع القادم",
+      "example": {
+        "es": "La próxima semana viajo a Bogotá.",
+        "en": "Next week I travel to Bogotá.",
+        "ar": "الأسبوع القادم أسافر إلى بوغوتا."
+      }
+    },
+    {
+      "es": "el año que viene",
+      "ipa": "/ˈel ˈaɲo ˈke ˈbiene/",
+      "en": "next year",
+      "ar": "السنة القادمة",
+      "example": {
+        "es": "El año que viene estudiaré medicina.",
+        "en": "Next year I will study medicine.",
+        "ar": "السنة القادمة سأدرس الطب."
+      }
+    },
+    {
+      "es": "ir",
+      "ipa": "/ˈiɾ/",
+      "en": "to go",
+      "ar": "يذهب",
+      "example": {
+        "es": "Voy a ir al mercado por la mañana.",
+        "en": "I am going to go to the market in the morning.",
+        "ar": "سأذهب إلى السوق صباحًا."
+      }
+    },
+    {
+      "es": "ver",
+      "ipa": "/ˈbeɾ/",
+      "en": "to see",
+      "ar": "يرى",
+      "example": {
+        "es": "Vamos a ver una película nueva.",
+        "en": "We are going to see a new movie.",
+        "ar": "سنشاهد فيلمًا جديدًا."
+      }
+    },
+    {
+      "es": "cenar",
+      "ipa": "/seˈnaɾ/",
+      "en": "to have dinner",
+      "ar": "يتعشى",
+      "example": {
+        "es": "¿Dónde les gusta cenar esta noche?",
+        "en": "Where are we having dinner tonight?",
+        "ar": "أين نتعشى الليلة؟"
+      }
+    },
+    {
+      "es": "comprar",
+      "ipa": "/koˈmpɾaɾ/",
+      "en": "to buy",
+      "ar": "يشتري",
+      "example": {
+        "es": "Compraré un regalo para mi hermana.",
+        "en": "I will buy a gift for my sister.",
+        "ar": "سأشتري هدية لأختي."
+      }
+    },
+    {
+      "es": "encontrar",
+      "ipa": "/enkoˈntɾaɾ/",
+      "en": "to meet",
+      "ar": "يلتقي",
+      "example": {
+        "es": "Espero encontrar trabajo pronto.",
+        "en": "I hope to find a job soon.",
+        "ar": "أتمنى إيجاد عمل قريبًا."
+      }
+    },
+    {
+      "es": "terminar",
+      "ipa": "/teɾmiˈnaɾ/",
+      "en": "to finish",
+      "ar": "ينهي",
+      "example": {
+        "es": "Terminaré el informe el lunes.",
+        "en": "I will finish the report on Monday.",
+        "ar": "سأنهي التقرير يوم الاثنين."
+      }
+    },
+    {
+      "es": "empezar",
+      "ipa": "/empeˈsaɾ/",
+      "en": "to begin",
+      "ar": "يبدأ",
+      "example": {
+        "es": "Empezar la clase a las nueve es temprano.",
+        "en": "The class starts at nine.",
+        "ar": "يبدأ الصف في التاسعة."
+      }
+    },
+    {
+      "es": "volver",
+      "ipa": "/boˈlbeɾ/",
+      "en": "to return",
+      "ar": "يعود",
+      "example": {
+        "es": "Volveré de viaje el domingo.",
+        "en": "I will return from the trip on Sunday.",
+        "ar": "سأعود من الرحلة يوم الأحد."
+      }
+    },
+    {
+      "es": "decidir",
+      "ipa": "/desiˈðiɾ/",
+      "en": "to decide",
+      "ar": "يقرر",
+      "example": {
+        "es": "Decidiré mañana con calma.",
+        "en": "I will decide tomorrow calmly.",
+        "ar": "سأقرر غدًا بهدوء."
+      }
+    },
+    {
+      "es": "el plan",
+      "ipa": "/ˈel ˈplan/",
+      "en": "the plan",
+      "ar": "الخطة",
+      "example": {
+        "es": "El plan cambió por la lluvia.",
+        "en": "The plan changed because of the rain.",
+        "ar": "تغيرت الخطة بسبب المطر."
+      }
+    },
+    {
+      "es": "probablemente",
+      "ipa": "/pɾoβaβleˈmente/",
+      "en": "probably",
+      "ar": "على الأرجح",
+      "example": {
+        "es": "Probablemente llegaremos tarde.",
+        "en": "We will probably arrive late.",
+        "ar": "سنصل على الأرجح متأخرين."
+      }
+    },
+    {
+      "es": "pasado mañana",
+      "ipa": "/paˈsaðo maˈɲana/",
+      "en": "the day after tomorrow",
+      "ar": "بعد غد",
+      "example": {
+        "es": "Pasado mañana empiezo el curso.",
+        "en": "The day after tomorrow I start the course.",
+        "ar": "بعد غد أبدأ الدورة."
+      }
+    },
+    {
+      "es": "la fiesta",
+      "ipa": "/ˈla ˈfiesta/",
+      "en": "the party",
+      "ar": "الحفلة",
+      "example": {
+        "es": "La fiesta terminará tarde.",
+        "en": "The party will end late.",
+        "ar": "ستنتهي الحفلة متأخرة."
+      }
+    },
+    {
+      "es": "ver",
+      "ipa": "/ˈbeɾ/",
+      "en": "to watch",
+      "ar": "يشاهد",
+      "example": {
+        "es": "Ver el partido por televisión es fácil.",
+        "en": "I watch the match on television.",
+        "ar": "أشاهد المباراة على التلفاز."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Futuro Próximo (ir a + infinitivo)",
+        "en": "Immediate Future (ir + infinitive)",
+        "ar": "المستقبل القريب (ir + صيغة المصدر)"
+      },
+      "explanation": {
+        "es": "El futuro próximo usa ir a + infinitivo: yo voy a hablar, tú vas a comer, nosotros vamos a viajar, ellos van a llegar. Es el futuro más usado en la conversación. Ejemplo: 'Voy a ver una película hoy.'",
+        "en": "The near future uses ir a + infinitive: yo voy a hablar, tú vas a comer, nosotros vamos a viajar, ellos van a llegar. It is the most common future in conversation. Example: 'Voy a ver una película hoy.' (I am going to watch a movie today.)",
+        "ar": "المستقبل القريب يستخدم ir a + المصدر: yo voy a hablar، tú vas a comer، nosotros vamos a viajar، ellos van a llegar. وهو المستقبل الأكثر استخدامًا في المحادثة. مثال: 'Voy a ver una película hoy.' (سأشاهد فيلمًا اليوم.)"
+      },
+      "examples": [
+        {
+          "es": "Voy a viajar al sur de España.",
+          "en": "I am going to travel to the Northeast.",
+          "ar": "سأسافر إلى الشمال الشرقي."
+        },
+        {
+          "es": "Vamos a cenar fuera hoy.",
+          "en": "We are going to have dinner out tonight.",
+          "ar": "سنتعشى خارج المنزل الليلة."
+        },
+        {
+          "es": "¿Qué vas a hacer mañana?",
+          "en": "What are you going to do tomorrow?",
+          "ar": "ماذا ستفعل غدًا؟"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Futuro Simple",
+        "en": "Simple Future",
+        "ar": "المستقبل البسيط"
+      },
+      "explanation": {
+        "es": "El futuro simple es más formal: hablaré, hablará, hablaremos, hablarán (verbos en -ar); comeré, comerá, comeremos (en -er); abriré, abrirá (en -ir). Irregulares: seré (ser), estaré (estar), tendré (tener), haré (hacer). En la conversación se prefiere 'voy a + infinitivo'.",
+        "en": "The simple future is more formal: falarei, falará, falaremos, falarão (-ar verbs); comerei, comerá, comeremos (-er verbs); abrirei, abrirá (-ir verbs). Irregulars: serei (ser), estarei (estar), terei (ter), farei (fazer). In conversation, 'vou + infinitive' is preferred.",
+        "ar": "المستقبل البسيط أكثر رسمية: falarei، falará، falaremos، falarão (الأفعال المنتهية بـ -ar)؛ comerei، comerá، comeremos (المنتهية بـ -er)؛ abrirei، abrirá (المنتهية بـ -ir). الأفعال الشاذة: serei (سأكون)، estarei (سأبقى)، terei (سأملك)، farei (سأفعل). في المحادثة يفضَّل 'vou + صيغة المصدر'."
+      },
+      "examples": [
+        {
+          "es": "Te llamaré mañana.",
+          "en": "I will call you tomorrow.",
+          "ar": "سأتصل بك غدًا."
+        },
+        {
+          "es": "Hablaremos con el gerente.",
+          "en": "We will speak with the manager.",
+          "ar": "سنتحدث مع المدير."
+        },
+        {
+          "es": "¿Dónde estará Juan el sábado?",
+          "en": "Where will João be on Saturday?",
+          "ar": "أين سيكون جواو يوم السبت؟"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Los Planes del Fin de Semana",
+      "en": "Weekend Plans",
+      "ar": "خطط عطلة نهاية الأسبوع"
+    },
+    "lines": [
+      {
+        "speaker": "Rafa",
+        "es": "¿Qué vas a hacer el fin de semana?",
+        "en": "What are you going to do on the weekend?",
+        "ar": "ماذا ستفعل في عطلة نهاية الأسبوع؟"
+      },
+      {
+        "speaker": "Sofía",
+        "es": "Voy a viajar a Barcelona.",
+        "en": "I am going to travel to Rio de Janeiro.",
+        "ar": "سأسافر إلى ريو دي جانيرو."
+      },
+      {
+        "speaker": "Rafa",
+        "es": "¿Con quién vas?",
+        "en": "Who are you going with?",
+        "ar": "مع من ستسافرين؟"
+      },
+      {
+        "speaker": "Sofía",
+        "es": "Voy con mi hermana. Vamos a ver a los amigos.",
+        "en": "With my sister. We are going to see friends.",
+        "ar": "مع أختي. سنزور الأصدقاء."
+      },
+      {
+        "speaker": "Rafa",
+        "es": "¿Y cuándo volvéis?",
+        "en": "And when do you come back?",
+        "ar": "ومتى تعودان؟"
+      },
+      {
+        "speaker": "Sofía",
+        "es": "Volvemos el domingo por la noche. ¡Después te cuento todo!",
+        "en": "We come back Sunday night. Then I will tell you everything!",
+        "ar": "نعود ليلة الأحد. ثم سأحكي لك كل شيء!"
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Plan de Raquel",
+      "en": "Raquel's Plan",
+      "ar": "خطة راكيل"
+    },
+    "text_es": "Mañana es sábado y el plan de Raquel está listo. Va a despertarse temprano, va a caminar en el parque y va a tomar café con los amigos. Por la tarde, va a visitar el museo y, por la noche, va a cenar con la familia. Pasado mañana, va a descansar todo el día.",
+    "text_en": "Tomorrow is Saturday and Raquel's plan is ready. She is going to wake up early, walk in the park and have coffee with friends. In the afternoon, she is going to visit the museum and, at night, she is going to have dinner with her family. The day after tomorrow, she is going to rest all day.",
+    "text_ar": "غدًا هو يوم السبت وخطة راكيل جاهزة. ستستيقظ مبكرًا وستمشي في الحديقة وتتناول القهوة مع الأصدقاء. في الظهيرة، ستزور المتحف، وفي الليل ستتناول العشاء مع عائلتها. بعد غد، سترتاح طوال اليوم."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Nosotros ___ viajar el sábado.",
+        "en": "We ___ travel on Saturday.",
+        "ar": "نحن ___ نسافر يوم السبت."
+      },
+      "options": [
+        {
+          "es": "vamos a",
+          "en": "we will",
+          "ar": "سـ"
+        },
+        {
+          "es": "va a",
+          "en": "will",
+          "ar": "سي"
+        },
+        {
+          "es": "van a",
+          "en": "they will",
+          "ar": "سـ"
+        }
+      ],
+      "answer": "vamos a",
+      "explanation": {
+        "es": "Futuro próximo: ir a + infinitivo. Nosotros vamos a viajar.",
+        "en": "Near future: ir a + infinitive. Nosotros vamos a viajar.",
+        "ar": "المستقبل القريب: ir a + المصدر. Nosotros vamos a viajar."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Yo ___ comprar un regalo.",
+        "en": "I ___ buy a gift.",
+        "ar": "أنا ___ أشتري هدية."
+      },
+      "options": [
+        {
+          "es": "voy",
+          "en": "I go",
+          "ar": "أذهب"
+        },
+        {
+          "es": "va a",
+          "en": "will",
+          "ar": "سي"
+        },
+        {
+          "es": "ir",
+          "en": "ir",
+          "ar": "ir"
+        }
+      ],
+      "answer": "voy",
+      "explanation": {
+        "es": "Yo voy a + infinitivo: voy a comprar.",
+        "en": "Eu vou + infinitive: vou comprar.",
+        "ar": "Eu vou + صيغة المصدر: vou comprar."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'tomorrow'",
+        "en": "Translate: 'tomorrow'",
+        "ar": "ترجم: 'tomorrow'"
+      },
+      "options": [],
+      "answer": "mañana",
+      "explanation": {
+        "es": "'Mañana' = tomorrow.",
+        "en": "'Amanhã' = tomorrow.",
+        "ar": "'amanhã' = غدًا."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'probably'?",
+        "en": "Which word means 'probably'?",
+        "ar": "أي كلمة تعني 'على الأرجح'؟"
+      },
+      "options": [
+        {
+          "es": "probablemente",
+          "en": "probably",
+          "ar": "على الأرجح"
+        },
+        {
+          "es": "empezar",
+          "en": "to begin",
+          "ar": "يبدأ"
+        },
+        {
+          "es": "volver",
+          "en": "to return",
+          "ar": "يعود"
+        }
+      ],
+      "answer": "probablemente",
+      "explanation": {
+        "es": "'probablemente' significa 'probably'.",
+        "en": "'probablemente' means 'probably'.",
+        "ar": "تعني 'probablemente' 'على الأرجح'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the plan'",
+        "en": "Choose the Spanish word: 'the plan'",
+        "ar": "اختر الكلمة بالإسبانية: 'الخطة'"
+      },
+      "options": [
+        {
+          "es": "el año que viene",
+          "en": "next year",
+          "ar": "السنة القادمة"
+        },
+        {
+          "es": "el plan",
+          "en": "the plan",
+          "ar": "الخطة"
+        },
+        {
+          "es": "volver",
+          "en": "to return",
+          "ar": "يعود"
+        }
+      ],
+      "answer": "el plan",
+      "explanation": {
+        "es": "'el plan' significa 'the plan'.",
+        "en": "'el plan' means 'the plan'.",
+        "ar": "تعني 'el plan' 'الخطة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'to begin' en español?",
+        "en": "How do you say 'to begin' in Spanish?",
+        "ar": "كيف تقول 'يبدأ' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "pasado mañana",
+          "en": "the day after tomorrow",
+          "ar": "بعد غد"
+        },
+        {
+          "es": "empezar",
+          "en": "to begin",
+          "ar": "يبدأ"
+        },
+        {
+          "es": "ir",
+          "en": "to go",
+          "ar": "يذهب"
+        },
+        {
+          "es": "después",
+          "en": "later / after",
+          "ar": "بعد ذلك"
+        }
+      ],
+      "answer": "empezar",
+      "explanation": {
+        "es": "'empezar' significa 'to begin'.",
+        "en": "'empezar' means 'to begin'.",
+        "ar": "تعني 'empezar' 'يبدأ'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'to decide'?",
+        "en": "Which word means 'to decide'?",
+        "ar": "أي كلمة تعني 'يقرر'؟"
+      },
+      "options": [
+        {
+          "es": "terminar",
+          "en": "to finish",
+          "ar": "ينهي"
+        },
+        {
+          "es": "decidir",
+          "en": "to decide",
+          "ar": "يقرر"
+        },
+        {
+          "es": "mañana",
+          "en": "tomorrow",
+          "ar": "غدًا"
+        }
+      ],
+      "answer": "decidir",
+      "explanation": {
+        "es": "'decidir' significa 'to decide'.",
+        "en": "'decidir' means 'to decide'.",
+        "ar": "تعني 'decidir' 'يقرر'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"We come back Sunday night. Then I will tell you everything!\"",
+        "en": "Translate into Spanish: \"We come back Sunday night. Then I will tell you everything!\"",
+        "ar": "ترجم إلى الإسبانية: \"نعود ليلة الأحد. ثم سأحكي لك كل شيء!\""
+      },
+      "options": [],
+      "answer": "Volvemos el domingo por la noche. ¡Después te cuento todo!",
+      "explanation": {
+        "es": "Respuesta: \"Volvemos el domingo por la noche. ¡Después te cuento todo!\".",
+        "en": "Answer: \"Volvemos el domingo por la noche. ¡Después te cuento todo!\".",
+        "ar": "الإجابة: \"Volvemos el domingo por la noche. ¡Después te cuento todo!\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The party will end late.\"",
+        "en": "Translate into Spanish: \"The party will end late.\"",
+        "ar": "ترجم إلى الإسبانية: \"ستنتهي الحفلة متأخرة.\""
+      },
+      "options": [],
+      "answer": "La fiesta terminará tarde.",
+      "explanation": {
+        "es": "Respuesta: \"La fiesta terminará tarde.\".",
+        "en": "Answer: \"La fiesta terminará tarde.\".",
+        "ar": "الإجابة: \"La fiesta terminará tarde.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Where are we having dinner tonight?\"",
+        "en": "Translate into Spanish: \"Where are we having dinner tonight?\"",
+        "ar": "ترجم إلى الإسبانية: \"أين نتعشى الليلة؟\""
+      },
+      "options": [],
+      "answer": "¿Dónde les gusta cenar esta noche?",
+      "explanation": {
+        "es": "Respuesta: \"¿Dónde les gusta cenar esta noche?\".",
+        "en": "Answer: \"¿Dónde les gusta cenar esta noche?\".",
+        "ar": "الإجابة: \"¿Dónde les gusta cenar esta noche?\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I will buy a gift for my sister.\"",
+        "en": "Translate into Spanish: \"I will buy a gift for my sister.\"",
+        "ar": "ترجم إلى الإسبانية: \"سأشتري هدية لأختي.\""
+      },
+      "options": [],
+      "answer": "Compraré un regalo para mi hermana.",
+      "explanation": {
+        "es": "Respuesta: \"Compraré un regalo para mi hermana.\".",
+        "en": "Answer: \"Compraré un regalo para mi hermana.\".",
+        "ar": "الإجابة: \"Compraré un regalo para mi hermana.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "El Plan de Raquel",
-   "en": "Raquel's Plan",
-   "ar": "خطة راكيل"
-  },
-  "text_es": "Mañana es sábado y el plan de Raquel está listo. Va a despertarse temprano, va a caminar en el parque y va a tomar café con los amigos. Por la tarde, va a visitar el museo y, por la noche, va a cenar con la familia. Pasado mañana, va a descansar todo el día.",
-  "text_en": "Tomorrow is Saturday and Raquel's plan is ready. She is going to wake up early, walk in the park and have coffee with friends. In the afternoon, she is going to visit the museum and, at night, she is going to have dinner with her family. The day after tomorrow, she is going to rest all day.",
-  "text_ar": "غدًا هو يوم السبت وخطة راكيل جاهزة. ستستيقظ مبكرًا وستمشي في الحديقة وتتناول القهوة مع الأصدقاء. في الظهيرة، ستزور المتحف، وفي الليل ستتناول العشاء مع عائلتها. بعد غد، سترتاح طوال اليوم."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Nosotros ___ viajar el sábado.",
-    "en": "We ___ travel on Saturday.",
-    "ar": "نحن ___ نسافر يوم السبت."
-   },
-   "options": [
-    {
-     "es": "vamos a",
-     "en": "vamos",
-     "ar": "vamos"
-    },
-    {
-     "es": "va a",
-     "en": "vai",
-     "ar": "vai"
-    },
-    {
-     "es": "van a",
-     "en": "vão",
-     "ar": "vão"
-    }
-   ],
-   "answer": "vamos a",
-   "explanation": {
-    "es": "Futuro próximo: ir a + infinitivo. Nosotros vamos a viajar.",
-    "en": "Near future: ir a + infinitive. Nosotros vamos a viajar.",
-    "ar": "المستقبل القريب: ir a + المصدر. Nosotros vamos a viajar."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Yo ___ comprar un regalo.",
-    "en": "I ___ buy a gift.",
-    "ar": "أنا ___ أشتري هدية."
-   },
-   "options": [
-    {
-     "es": "voy",
-     "en": "vou",
-     "ar": "vou"
-    },
-    {
-     "es": "va a",
-     "en": "vai",
-     "ar": "vai"
-    },
-    {
-     "es": "ir",
-     "en": "ir",
-     "ar": "ir"
-    }
-   ],
-   "answer": "voy",
-   "explanation": {
-    "es": "Yo voy a + infinitivo: voy a comprar.",
-    "en": "Eu vou + infinitive: vou comprar.",
-    "ar": "Eu vou + صيغة المصدر: vou comprar."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'tomorrow'",
-    "en": "Translate: 'tomorrow'",
-    "ar": "ترجم: 'tomorrow'"
-   },
-   "options": [],
-   "answer": "mañana",
-   "explanation": {
-    "es": "'Mañana' = tomorrow.",
-    "en": "'Amanhã' = tomorrow.",
-    "ar": "'amanhã' = غدًا."
-   }
-  }
- ]
 }

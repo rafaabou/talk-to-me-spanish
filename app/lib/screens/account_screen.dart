@@ -257,7 +257,7 @@ class _AccountScreenState extends State<AccountScreen> {
             _buildInfoRow('App', 'Talk To Me'),
             _buildInfoRow(
               uiText(lang, ar: 'الإصدار', es: 'Versión', other: 'Version'),
-              '1.7.0',
+              '1.8.0',
             ),
             _buildInfoRow(
               uiText(lang, ar: 'المؤلف', es: 'Autor', other: 'Author'),

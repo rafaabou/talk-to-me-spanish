@@ -72,11 +72,19 @@ class VocabTile extends StatelessWidget {
             ),
             if (v.example != null) ...[
               const SizedBox(height: 2),
-              Text(
-                v.example!.es,
-                style: Theme.of(
-                  context,
-                ).textTheme.bodySmall?.copyWith(fontStyle: FontStyle.italic),
+              Row(
+                children: [
+                  Expanded(
+                    child: Text(
+                      v.example!.es,
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        fontStyle: FontStyle.italic,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 4),
+                  AudioButton(text: v.example!.es, lang: 'es', compact: true),
+                ],
               ),
               Text(
                 uiText(lang, ar: v.example!.ar, other: v.example!.en),

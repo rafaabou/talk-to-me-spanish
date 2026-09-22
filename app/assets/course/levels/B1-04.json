@@ -28,91 +28,166 @@
       "es": "la noticia",
       "ipa": "/ˈla noˈtisia/",
       "en": "the news item",
-      "ar": "الخبر"
+      "ar": "الخبر",
+      "example": {
+        "es": "La noticia salió en todas partes.",
+        "en": "The news was everywhere.",
+        "ar": "انتشر الخبر في كل مكان."
+      }
     },
     {
       "es": "el periódico",
       "ipa": "/ˈel peˈɾioðiko/",
       "en": "the newspaper",
-      "ar": "الجريدة"
+      "ar": "الجريدة",
+      "example": {
+        "es": "Leo el periódico en el autobús.",
+        "en": "I read the newspaper on the bus.",
+        "ar": "أقرأ الجريدة في الحافلة."
+      }
     },
     {
       "es": "la revista",
       "ipa": "/ˈla reˈβista/",
       "en": "the magazine",
-      "ar": "المجلة"
+      "ar": "المجلة",
+      "example": {
+        "es": "La revista de viajes sale cada mes.",
+        "en": "This magazine publishes travel articles.",
+        "ar": "تنشر هذه المجلة مقالات عن السفر."
+      }
     },
     {
       "es": "el reportero",
       "ipa": "/ˈel repoˈɾteɾo/",
       "en": "the reporter",
-      "ar": "المراسل"
+      "ar": "المراسل",
+      "example": {
+        "es": "El reportero entrevistó al alcalde.",
+        "en": "The reporter interviewed the mayor.",
+        "ar": "قابل المراسل العمدة."
+      }
     },
     {
       "es": "el titular",
       "ipa": "/ˈel tituˈlaɾ/",
       "en": "the headline",
-      "ar": "العنوان الرئيسي"
+      "ar": "العنوان الرئيسي",
+      "example": {
+        "es": "El titular llamó la atención de todos.",
+        "en": "The headline caught everyone's attention.",
+        "ar": "لفت العنوان انتباه الجميع."
+      }
     },
     {
       "es": "el reportaje",
       "ipa": "/ˈel repoˈɾtaxe/",
       "en": "the news report",
-      "ar": "التقرير"
+      "ar": "التقرير",
+      "example": {
+        "es": "El reportaje duró treinta minutos.",
+        "en": "The news report lasted thirty minutes.",
+        "ar": "استمر التقرير ثلاثين دقيقة."
+      }
     },
     {
       "es": "la televisión",
       "ipa": "/ˈla teleβiˈsion/",
       "en": "the television",
-      "ar": "التلفزيون"
+      "ar": "التلفزيون",
+      "example": {
+        "es": "Dejo la televisión de fondo.",
+        "en": "I leave the television on in the background.",
+        "ar": "أترك التلفزيون يعمل في الخلفية."
+      }
     },
     {
       "es": "la radio",
       "ipa": "/ˈla ˈraðio/",
       "en": "the radio",
-      "ar": "الراديو / الإذاعة"
+      "ar": "الراديو / الإذاعة",
+      "example": {
+        "es": "Escucho la radio mientras conduzco.",
+        "en": "I listen to the radio while driving.",
+        "ar": "أستمع إلى الراديو أثناء القيادة."
+      }
     },
     {
       "es": "el periodista",
       "ipa": "/ˈel peɾioˈðista/",
       "en": "the journalist",
-      "ar": "الصحفي"
+      "ar": "الصحفي",
+      "example": {
+        "es": "El periodista publicó una investigación.",
+        "en": "The journalist published an investigation.",
+        "ar": "نشر الصحفي تحقيقًا."
+      }
     },
     {
       "es": "el noticiero",
       "ipa": "/ˈel notiˈsieɾo/",
       "en": "the newscast",
-      "ar": "نشرة الأخبار"
+      "ar": "نشرة الأخبار",
+      "example": {
+        "es": "El noticiero empieza a las ocho.",
+        "en": "The newscast starts at eight.",
+        "ar": "تبدأ نشرة الأخبار في الثامنة."
+      }
     },
     {
       "es": "el chisme",
       "ipa": "/ˈel ˈtʃisme/",
       "en": "the gossip",
-      "ar": "النميمة"
+      "ar": "النميمة",
+      "example": {
+        "es": "El chisme de pasillo molesta a todos.",
+        "en": "I do not like office gossip.",
+        "ar": "لا أحب نميمة المكتب."
+      }
     },
     {
       "es": "verídico",
       "ipa": "/beˈɾiðiko/",
       "en": "truthful",
-      "ar": "حقيقي / موثوق"
+      "ar": "حقيقي / موثوق",
+      "example": {
+        "es": "El testimonio verídico confirmó todo.",
+        "en": "The source is truthful and reliable.",
+        "ar": "المصدر صحيح وموثوق."
+      }
     },
     {
       "es": "el rumor",
       "ipa": "/ˈel ruˈmoɾ/",
       "en": "the rumor",
-      "ar": "الشائعة"
+      "ar": "الشائعة",
+      "example": {
+        "es": "El rumor resultó ser falso.",
+        "en": "The rumor turned out to be false.",
+        "ar": "تبيّن أن الشائعة كاذبة."
+      }
     },
     {
       "es": "la audiencia",
       "ipa": "/ˈla auˈðiensia/",
       "en": "the audience / ratings",
-      "ar": "الجمهور / المتابَعة"
+      "ar": "الجمهور / المتابَعة",
+      "example": {
+        "es": "La audiencia del programa subió.",
+        "en": "The show's audience went up.",
+        "ar": "ارتفعت متابعة البرنامج."
+      }
     },
     {
       "es": "en vivo",
       "ipa": "/ˈen ˈbiβo/",
       "en": "live",
-      "ar": "مباشر"
+      "ar": "مباشر",
+      "example": {
+        "es": "El concierto se transmite en vivo.",
+        "en": "The concert is broadcast live.",
+        "ar": "يُبث الحفل مباشرة."
+      }
     }
   ],
   "grammar": [
@@ -317,6 +392,198 @@
         "en": "'Afirmou que' corresponds to 'stated that' in English.",
         "ar": "تكافئ 'afirmou que' عبارة 'stated that' في الإنجليزية أي أكّد أن."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the rumor'?",
+        "en": "Which word means 'the rumor'?",
+        "ar": "أي كلمة تعني 'الشائعة'؟"
+      },
+      "options": [
+        {
+          "es": "el periódico",
+          "en": "the newspaper",
+          "ar": "الجريدة"
+        },
+        {
+          "es": "la audiencia",
+          "en": "the audience / ratings",
+          "ar": "الجمهور / المتابَعة"
+        },
+        {
+          "es": "el rumor",
+          "en": "the rumor",
+          "ar": "الشائعة"
+        }
+      ],
+      "answer": "el rumor",
+      "explanation": {
+        "es": "'el rumor' significa 'the rumor'.",
+        "en": "'el rumor' means 'the rumor'.",
+        "ar": "تعني 'el rumor' 'الشائعة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the magazine'",
+        "en": "Choose the Spanish word: 'the magazine'",
+        "ar": "اختر الكلمة بالإسبانية: 'المجلة'"
+      },
+      "options": [
+        {
+          "es": "la revista",
+          "en": "the magazine",
+          "ar": "المجلة"
+        },
+        {
+          "es": "la televisión",
+          "en": "the television",
+          "ar": "التلفزيون"
+        },
+        {
+          "es": "verídico",
+          "en": "truthful",
+          "ar": "حقيقي / موثوق"
+        }
+      ],
+      "answer": "la revista",
+      "explanation": {
+        "es": "'la revista' significa 'the magazine'.",
+        "en": "'la revista' means 'the magazine'.",
+        "ar": "تعني 'la revista' 'المجلة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the audience / ratings' en español?",
+        "en": "How do you say 'the audience / ratings' in Spanish?",
+        "ar": "كيف تقول 'الجمهور / المتابَعة' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el periódico",
+          "en": "the newspaper",
+          "ar": "الجريدة"
+        },
+        {
+          "es": "la audiencia",
+          "en": "the audience / ratings",
+          "ar": "الجمهور / المتابَعة"
+        },
+        {
+          "es": "verídico",
+          "en": "truthful",
+          "ar": "حقيقي / موثوق"
+        }
+      ],
+      "answer": "la audiencia",
+      "explanation": {
+        "es": "'la audiencia' significa 'the audience / ratings'.",
+        "en": "'la audiencia' means 'the audience / ratings'.",
+        "ar": "تعني 'la audiencia' 'الجمهور / المتابَعة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the headline'?",
+        "en": "Which word means 'the headline'?",
+        "ar": "أي كلمة تعني 'العنوان الرئيسي'؟"
+      },
+      "options": [
+        {
+          "es": "el titular",
+          "en": "the headline",
+          "ar": "العنوان الرئيسي"
+        },
+        {
+          "es": "la audiencia",
+          "en": "the audience / ratings",
+          "ar": "الجمهور / المتابَعة"
+        },
+        {
+          "es": "el reportero",
+          "en": "the reporter",
+          "ar": "المراسل"
+        }
+      ],
+      "answer": "el titular",
+      "explanation": {
+        "es": "'el titular' significa 'the headline'.",
+        "en": "'el titular' means 'the headline'.",
+        "ar": "تعني 'el titular' 'العنوان الرئيسي'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The news was everywhere.\"",
+        "en": "Translate into Spanish: \"The news was everywhere.\"",
+        "ar": "ترجم إلى الإسبانية: \"انتشر الخبر في كل مكان.\""
+      },
+      "options": [],
+      "answer": "La noticia salió en todas partes.",
+      "explanation": {
+        "es": "Respuesta: \"La noticia salió en todas partes.\".",
+        "en": "Answer: \"La noticia salió en todas partes.\".",
+        "ar": "الإجابة: \"La noticia salió en todas partes.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The show's audience went up.\"",
+        "en": "Translate into Spanish: \"The show's audience went up.\"",
+        "ar": "ترجم إلى الإسبانية: \"ارتفعت متابعة البرنامج.\""
+      },
+      "options": [],
+      "answer": "La audiencia del programa subió.",
+      "explanation": {
+        "es": "Respuesta: \"La audiencia del programa subió.\".",
+        "en": "Answer: \"La audiencia del programa subió.\".",
+        "ar": "الإجابة: \"La audiencia del programa subió.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The rumor turned out to be false.\"",
+        "en": "Translate into Spanish: \"The rumor turned out to be false.\"",
+        "ar": "ترجم إلى الإسبانية: \"تبيّن أن الشائعة كاذبة.\""
+      },
+      "options": [],
+      "answer": "El rumor resultó ser falso.",
+      "explanation": {
+        "es": "Respuesta: \"El rumor resultó ser falso.\".",
+        "en": "Answer: \"El rumor resultó ser falso.\".",
+        "ar": "الإجابة: \"El rumor resultó ser falso.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"There was a big accident on the highway.\"",
+        "en": "Translate into Spanish: \"There was a big accident on the highway.\"",
+        "ar": "ترجم إلى الإسبانية: \"وقع حادث كبير على الطريق السريع.\""
+      },
+      "options": [],
+      "answer": "Hubo un gran accidente en la carretera.",
+      "explanation": {
+        "es": "Respuesta: \"Hubo un gran accidente en la carretera.\".",
+        "en": "Answer: \"Hubo un gran accidente en la carretera.\".",
+        "ar": "الإجابة: \"Hubo un gran accidente en la carretera.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

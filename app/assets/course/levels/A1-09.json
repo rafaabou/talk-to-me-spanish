@@ -1,335 +1,627 @@
 {
- "id": "A1-09",
- "level": "A1",
- "level_name": {
-  "es": "Principiante",
-  "en": "Beginner",
-  "ar": "مبتدئ"
- },
- "title": {
-  "es": "En el Restaurante",
-  "en": "At the Restaurant",
-  "ar": "في المطعم"
- },
- "objectives": [
-  {
-   "es": "Pedir comida en un restaurante",
-   "en": "Order food at a restaurant",
-   "ar": "طلب الطعام في مطعم"
+  "id": "A1-09",
+  "level": "A1",
+  "level_name": {
+    "es": "Principiante",
+    "en": "Beginner",
+    "ar": "مبتدئ"
   },
-  {
-   "es": "Leer y entender un menú",
-   "en": "Read and understand a menu",
-   "ar": "قراءة وفهم قائمة الطعام"
-  },
-  {
-   "es": "Pedir la cuenta y pagar",
-   "en": "Ask for the bill and pay",
-   "ar": "طلب الحساب والدفع"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "el restaurante",
-   "ipa": "/ˈel restauˈɾante/",
-   "en": "the restaurant",
-   "ar": "المطعم"
-  },
-  {
-   "es": "el camarero",
-   "ipa": "/ˈel kamaˈɾeɾo/",
-   "en": "the waiter",
-   "ar": "النادل"
-  },
-  {
-   "es": "el menú",
-   "ipa": "/ˈel meˈnu/",
-   "en": "the menu",
-   "ar": "قائمة الطعام"
-  },
-  {
-   "es": "el plato",
-   "ipa": "/ˈel ˈplato/",
-   "en": "the dish",
-   "ar": "الطبق"
-  },
-  {
-   "es": "la bebida",
-   "ipa": "/ˈla beˈβiða/",
-   "en": "the drink",
-   "ar": "المشروب"
-  },
-  {
-   "es": "el agua",
-   "ipa": "/ˈel ˈaɣua/",
-   "en": "the water",
-   "ar": "الماء"
-  },
-  {
-   "es": "el zumo",
-   "ipa": "/ˈel ˈsumo/",
-   "en": "the juice",
-   "ar": "العصير"
-  },
-  {
-   "es": "el café",
-   "ipa": "/ˈel kaˈfe/",
-   "en": "the coffee",
-   "ar": "القهوة"
-  },
-  {
-   "es": "la carne",
-   "ipa": "/ˈla ˈkaɾne/",
-   "en": "the meat",
-   "ar": "اللحم"
-  },
-  {
-   "es": "el pollo",
-   "ipa": "/ˈel ˈpoʝo/",
-   "en": "the chicken",
-   "ar": "الدجاج"
-  },
-  {
-   "es": "el pescado",
-   "ipa": "/ˈel peˈskaðo/",
-   "en": "the fish",
-   "ar": "السمك"
-  },
-  {
-   "es": "el arroz",
-   "ipa": "/ˈel aˈros/",
-   "en": "the rice",
-   "ar": "الأرز"
-  },
-  {
-   "es": "los frijoles",
-   "ipa": "/ˈlos fɾiˈxoles/",
-   "en": "the beans",
-   "ar": "الفاصوليا"
-  },
-  {
-   "es": "la ensalada",
-   "ipa": "/ˈla ensaˈlaða/",
-   "en": "the salad",
-   "ar": "السلطة"
-  },
-  {
-   "es": "la cuenta",
-   "ipa": "/ˈla ˈkuenta/",
-   "en": "the bill",
-   "ar": "الحساب"
-  },
-  {
-   "es": "delicioso",
-   "ipa": "/deliˈsioso/",
-   "en": "delicious",
-   "ar": "لذيذ"
-  },
-  {
-   "es": "quiero",
-   "ipa": "/ˈkieɾo/",
-   "en": "I want",
-   "ar": "أريد"
-  },
-  {
-   "es": "me gustaría",
-   "ipa": "/ˈme gustaˈɾia/",
-   "en": "I would like",
-   "ar": "أود"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Pidiendo en el Restaurante",
-    "en": "Ordering at a Restaurant",
-    "ar": "الطلب في المطعم"
-   },
-   "explanation": {
-    "es": "Para pedir, usamos 'quiero' (I want) o, más educado, 'me gustaría' (I would like). Ejemplo: 'Me gustaría un zumo de naranja, por favor.' El camarero pregunta: '¿Qué va a tomar?' (What will you have?)",
-    "en": "To order, we use 'quiero' (I want) or, more polite, 'me gustaría' (I would like). Example: 'Me gustaría un zumo de naranja, por favor.' The waiter asks: '¿Qué va a tomar?'",
-    "ar": "للطلب نستخدم 'quiero' (أريد) أو بصيغة أكثر تهذيبًا 'me gustaría' (أود). مثال: 'Me gustaría un zumo de naranja, por favor.' يسأل النادل: '¿Qué va a tomar؟'"
-   },
-   "examples": [
-    {
-     "es": "Quiero un plato de feijoada.",
-     "en": "I want a feijoada dish.",
-     "ar": "أريد طبقًا من فيجوعادا."
-    },
-    {
-     "es": "Me gustaría una ensalada, por favor.",
-     "en": "I would like a salad, please.",
-     "ar": "أود سلطة، من فضلك."
-    },
-    {
-     "es": "¿Qué va a tomar?",
-     "en": "What will you have?",
-     "ar": "ماذا ستطلب؟"
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "La Cuenta",
-    "en": "The Bill",
-    "ar": "الحساب"
-   },
-   "explanation": {
-    "es": "Para pedir la cuenta: '¡La cuenta, por favor!' o '¿Puede traer la cuenta?'. El pago: '¿Acepta tarjeta?' (Do you accept card?). Respuesta: 'Sí, aceptamos.' La propina (tip) es opcional y generalmente el 10%.",
-    "en": "To ask for the bill: '¡La cuenta, por favor!' or '¿Puede traer la cuenta?'. Payment: '¿Acepta tarjeta?' (Do you accept card?). Answer: 'Sí, aceptamos.' Tipping is optional and usually 10%.",
-    "ar": "لطلب الحساب: '¡La cuenta, por favor!' أو '¿Puede traer la cuenta؟'. الدفع: '¿Acepta tarjeta؟' (هل تقبلون البطاقة؟). الجواب: 'Sí, aceptamos.' الإكرامية اختيارية وعادةً 10%."
-   },
-   "examples": [
-    {
-     "es": "¡La cuenta, por favor!",
-     "en": "The bill, please!",
-     "ar": "الحساب من فضلك!"
-    },
-    {
-     "es": "¿Acepta tarjeta?",
-     "en": "Do you accept card?",
-     "ar": "هل تقبل البطاقة؟"
-    },
-    {
-     "es": "¿Está incluida la propina?",
-     "en": "Is the tip included?",
-     "ar": "هل الإكرامية مشمولة؟"
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "En el Restaurante",
-   "en": "At the Restaurant",
-   "ar": "في المطعم"
+    "es": "En el Restaurante",
+    "en": "At the Restaurant",
+    "ar": "في المطعم"
   },
-  "lines": [
-   {
-    "speaker": "Camarero",
-    "es": "¡Buenas noches! Aquí está el menú.",
-    "en": "Good evening! Here is the menu.",
-    "ar": "مساء الخير! هذه قائمة الطعام."
-   },
-   {
-    "speaker": "Cliente",
-    "es": "Gracias. ¿Qué recomienda?",
-    "en": "Thank you. What do you recommend?",
-    "ar": "شكرًا. ماذا تنصح؟"
-   },
-   {
-    "speaker": "Camarero",
-    "es": "El pescado con arroz es delicioso.",
-    "en": "The fish with rice is delicious.",
-    "ar": "السمك مع الأرز لذيذ."
-   },
-   {
-    "speaker": "Cliente",
-    "es": "Entonces me gustaría el pescado y un agua, por favor.",
-    "en": "Then I'd like the fish and a water, please.",
-    "ar": "إذن أود السمك والماء، من فضلك."
-   },
-   {
-    "speaker": "Camarero",
-    "es": "¡Muy bien! ¿Algún postre?",
-    "en": "Very well! Any dessert?",
-    "ar": "ممتاز! أي حلوى؟"
-   },
-   {
-    "speaker": "Cliente",
-    "es": "Un café y la cuenta, por favor.",
-    "en": "A coffee and the bill, please.",
-    "ar": "قهوة والحساب، من فضلك."
-   }
+  "objectives": [
+    {
+      "es": "Pedir comida en un restaurante",
+      "en": "Order food at a restaurant",
+      "ar": "طلب الطعام في مطعم"
+    },
+    {
+      "es": "Leer y entender un menú",
+      "en": "Read and understand a menu",
+      "ar": "قراءة وفهم قائمة الطعام"
+    },
+    {
+      "es": "Pedir la cuenta y pagar",
+      "en": "Ask for the bill and pay",
+      "ar": "طلب الحساب والدفع"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "el restaurante",
+      "ipa": "/ˈel restauˈɾante/",
+      "en": "the restaurant",
+      "ar": "المطعم",
+      "example": {
+        "es": "El restaurante abre a las diez.",
+        "en": "The restaurant opens at ten.",
+        "ar": "يفتح المطعم في العاشرة."
+      }
+    },
+    {
+      "es": "el camarero",
+      "ipa": "/ˈel kamaˈɾeɾo/",
+      "en": "the waiter",
+      "ar": "النادل",
+      "example": {
+        "es": "El camarero trajo el menú.",
+        "en": "The waiter brought the menu.",
+        "ar": "أحضر النادل قائمة الطعام."
+      }
+    },
+    {
+      "es": "el menú",
+      "ipa": "/ˈel meˈnu/",
+      "en": "the menu",
+      "ar": "قائمة الطعام",
+      "example": {
+        "es": "El menú tiene muchas opciones.",
+        "en": "The menu has many options.",
+        "ar": "قائمة الطعام فيها خيارات كثيرة."
+      }
+    },
+    {
+      "es": "el plato",
+      "ipa": "/ˈel ˈplato/",
+      "en": "the dish",
+      "ar": "الطبق",
+      "example": {
+        "es": "El plato está caliente.",
+        "en": "The dish is hot.",
+        "ar": "الطبق ساخن."
+      }
+    },
+    {
+      "es": "la bebida",
+      "ipa": "/ˈla beˈβiða/",
+      "en": "the drink",
+      "ar": "المشروب",
+      "example": {
+        "es": "La bebida llegó fría.",
+        "en": "The drink arrived cold.",
+        "ar": "وصلت المشروب باردًا."
+      }
+    },
+    {
+      "es": "el agua",
+      "ipa": "/ˈel ˈaɣua/",
+      "en": "the water",
+      "ar": "الماء",
+      "example": {
+        "es": "El agua está fría.",
+        "en": "The water is cold.",
+        "ar": "الماء بارد."
+      }
+    },
+    {
+      "es": "el zumo",
+      "ipa": "/ˈel ˈsumo/",
+      "en": "the juice",
+      "ar": "العصير",
+      "example": {
+        "es": "El zumo de naranja es bueno.",
+        "en": "Orange juice is good.",
+        "ar": "عصير البرتقال جيد."
+      }
+    },
+    {
+      "es": "el café",
+      "ipa": "/ˈel kaˈfe/",
+      "en": "the coffee",
+      "ar": "القهوة",
+      "example": {
+        "es": "El café está caliente todos los días.",
+        "en": "I drink coffee every morning.",
+        "ar": "أشرب القهوة كل صباح."
+      }
+    },
+    {
+      "es": "la carne",
+      "ipa": "/ˈla ˈkaɾne/",
+      "en": "the meat",
+      "ar": "اللحم",
+      "example": {
+        "es": "La carne está asada.",
+        "en": "The meat is roasted.",
+        "ar": "اللحم مشوي."
+      }
+    },
+    {
+      "es": "el pollo",
+      "ipa": "/ˈel ˈpoʝo/",
+      "en": "the chicken",
+      "ar": "الدجاج",
+      "example": {
+        "es": "El pollo con arroz es genial.",
+        "en": "Chicken with rice is great.",
+        "ar": "الدجاج مع الأرز رائع."
+      }
+    },
+    {
+      "es": "el pescado",
+      "ipa": "/ˈel peˈskaðo/",
+      "en": "the fish",
+      "ar": "السمك",
+      "example": {
+        "es": "El pescado viene del mar.",
+        "en": "The fish comes from the sea.",
+        "ar": "السمك يأتي من البحر."
+      }
+    },
+    {
+      "es": "el arroz",
+      "ipa": "/ˈel aˈros/",
+      "en": "the rice",
+      "ar": "الأرز",
+      "example": {
+        "es": "El arroz está listo.",
+        "en": "The rice is ready.",
+        "ar": "الأرز جاهز."
+      }
+    },
+    {
+      "es": "los frijoles",
+      "ipa": "/ˈlos fɾiˈxoles/",
+      "en": "the beans",
+      "ar": "الفاصوليا",
+      "example": {
+        "es": "Los frijoles son típicos en México.",
+        "en": "Beans are typical in Mexico.",
+        "ar": "الفاصوليا نوعية في المكسيك."
+      }
+    },
+    {
+      "es": "la ensalada",
+      "ipa": "/ˈla ensaˈlaða/",
+      "en": "the salad",
+      "ar": "السلطة",
+      "example": {
+        "es": "La ensalada es fresca.",
+        "en": "The salad is fresh.",
+        "ar": "السلطة منعشة."
+      }
+    },
+    {
+      "es": "la cuenta",
+      "ipa": "/ˈla ˈkuenta/",
+      "en": "the bill",
+      "ar": "الحساب",
+      "example": {
+        "es": "La cuenta, por favor.",
+        "en": "The bill, please.",
+        "ar": "الحساب، من فضلك."
+      }
+    },
+    {
+      "es": "delicioso",
+      "ipa": "/deliˈsioso/",
+      "en": "delicious",
+      "ar": "لذيذ",
+      "example": {
+        "es": "El pastel es delicioso.",
+        "en": "The cake is delicious.",
+        "ar": "الكيك لذيذ."
+      }
+    },
+    {
+      "es": "quiero",
+      "ipa": "/ˈkieɾo/",
+      "en": "I want",
+      "ar": "أريد",
+      "example": {
+        "es": "Quiero reservar una mesa.",
+        "en": "I want to reserve a table.",
+        "ar": "أريد حجز طاولة."
+      }
+    },
+    {
+      "es": "me gustaría",
+      "ipa": "/ˈme gustaˈɾia/",
+      "en": "I would like",
+      "ar": "أود",
+      "example": {
+        "es": "Me gustaría reservar una habitación.",
+        "en": "I would like to reserve a room.",
+        "ar": "أود حجز غرفة."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Pidiendo en el Restaurante",
+        "en": "Ordering at a Restaurant",
+        "ar": "الطلب في المطعم"
+      },
+      "explanation": {
+        "es": "Para pedir, usamos 'quiero' (I want) o, más educado, 'me gustaría' (I would like). Ejemplo: 'Me gustaría un zumo de naranja, por favor.' El camarero pregunta: '¿Qué va a tomar?' (What will you have?)",
+        "en": "To order, we use 'quiero' (I want) or, more polite, 'me gustaría' (I would like). Example: 'Me gustaría un zumo de naranja, por favor.' The waiter asks: '¿Qué va a tomar?'",
+        "ar": "للطلب نستخدم 'quiero' (أريد) أو بصيغة أكثر تهذيبًا 'me gustaría' (أود). مثال: 'Me gustaría un zumo de naranja, por favor.' يسأل النادل: '¿Qué va a tomar؟'"
+      },
+      "examples": [
+        {
+          "es": "Quiero un plato de feijoada.",
+          "en": "I want a feijoada dish.",
+          "ar": "أريد طبقًا من فيجوعادا."
+        },
+        {
+          "es": "Me gustaría una ensalada, por favor.",
+          "en": "I would like a salad, please.",
+          "ar": "أود سلطة، من فضلك."
+        },
+        {
+          "es": "¿Qué va a tomar?",
+          "en": "What will you have?",
+          "ar": "ماذا ستطلب؟"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "La Cuenta",
+        "en": "The Bill",
+        "ar": "الحساب"
+      },
+      "explanation": {
+        "es": "Para pedir la cuenta: '¡La cuenta, por favor!' o '¿Puede traer la cuenta?'. El pago: '¿Acepta tarjeta?' (Do you accept card?). Respuesta: 'Sí, aceptamos.' La propina (tip) es opcional y generalmente el 10%.",
+        "en": "To ask for the bill: '¡La cuenta, por favor!' or '¿Puede traer la cuenta?'. Payment: '¿Acepta tarjeta?' (Do you accept card?). Answer: 'Sí, aceptamos.' Tipping is optional and usually 10%.",
+        "ar": "لطلب الحساب: '¡La cuenta, por favor!' أو '¿Puede traer la cuenta؟'. الدفع: '¿Acepta tarjeta؟' (هل تقبلون البطاقة؟). الجواب: 'Sí, aceptamos.' الإكرامية اختيارية وعادةً 10%."
+      },
+      "examples": [
+        {
+          "es": "¡La cuenta, por favor!",
+          "en": "The bill, please!",
+          "ar": "الحساب من فضلك!"
+        },
+        {
+          "es": "¿Acepta tarjeta?",
+          "en": "Do you accept card?",
+          "ar": "هل تقبل البطاقة؟"
+        },
+        {
+          "es": "¿Está incluida la propina?",
+          "en": "Is the tip included?",
+          "ar": "هل الإكرامية مشمولة؟"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "En el Restaurante",
+      "en": "At the Restaurant",
+      "ar": "في المطعم"
+    },
+    "lines": [
+      {
+        "speaker": "Camarero",
+        "es": "¡Buenas noches! Aquí está el menú.",
+        "en": "Good evening! Here is the menu.",
+        "ar": "مساء الخير! هذه قائمة الطعام."
+      },
+      {
+        "speaker": "Cliente",
+        "es": "Gracias. ¿Qué recomienda?",
+        "en": "Thank you. What do you recommend?",
+        "ar": "شكرًا. ماذا تنصح؟"
+      },
+      {
+        "speaker": "Camarero",
+        "es": "El pescado con arroz es delicioso.",
+        "en": "The fish with rice is delicious.",
+        "ar": "السمك مع الأرز لذيذ."
+      },
+      {
+        "speaker": "Cliente",
+        "es": "Entonces me gustaría el pescado y un agua, por favor.",
+        "en": "Then I'd like the fish and a water, please.",
+        "ar": "إذن أود السمك والماء، من فضلك."
+      },
+      {
+        "speaker": "Camarero",
+        "es": "¡Muy bien! ¿Algún postre?",
+        "en": "Very well! Any dessert?",
+        "ar": "ممتاز! أي حلوى؟"
+      },
+      {
+        "speaker": "Cliente",
+        "es": "Un café y la cuenta, por favor.",
+        "en": "A coffee and the bill, please.",
+        "ar": "قهوة والحساب، من فضلك."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Un Almuerzo Hispano",
+      "en": "A Brazilian Lunch",
+      "ar": "غداء برازيلي"
+    },
+    "text_es": "En España, el almuerzo es una comida importante. Muchas personas comen arroz, frijoles, carne o pollo y ensalada. El zumo de naranja es muy popular. Al final, un cafecito. La propina en el restaurante es opcional.",
+    "text_en": "In Spain, lunch is an important meal. Many people eat rice, beans, meat or chicken and salad. Orange juice is very popular. At the end, a small coffee. Restaurant tipping is optional.",
+    "text_ar": "في إسبانيا، الغداء وجبة مهمة. يأكل كثيرون الأرز والفاصوليا واللحم أو الدجاج والسلطة. عصير البرتقال شائع جدًا. وفي النهاية قهوة صغيرة. والإكرامية في المطعم اختيارية."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo pedir la cuenta educadamente?",
+        "en": "How to ask for the bill politely?",
+        "ar": "كيف تطلب الحساب بأدب؟"
+      },
+      "options": [
+        {
+          "es": "¡Quiero comida!",
+          "en": "I want food!",
+          "ar": "أريد طعامًا!"
+        },
+        {
+          "es": "¡La cuenta, por favor!",
+          "en": "The bill, please!",
+          "ar": "الحساب من فضلك!"
+        },
+        {
+          "es": "¡Me voy!",
+          "en": "I am leaving!",
+          "ar": "أنا مغادر!"
+        }
+      ],
+      "answer": "¡La cuenta, por favor!",
+      "explanation": {
+        "es": "'La cuenta, por favor' es la forma educada.",
+        "en": "'A conta, por favor' is the polite way.",
+        "ar": "'A conta, por favor' هي الطريقة المهذبة."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué es 'frijoles'?",
+        "en": "What is 'feijão'?",
+        "ar": "ما هو 'feijão'؟"
+      },
+      "options": [
+        {
+          "es": "rice",
+          "en": "rice",
+          "ar": "rice"
+        },
+        {
+          "es": "beans",
+          "en": "beans",
+          "ar": "beans"
+        },
+        {
+          "es": "fish",
+          "en": "fish",
+          "ar": "fish"
+        }
+      ],
+      "answer": "beans",
+      "explanation": {
+        "es": "'Frijoles' son beans.",
+        "en": "'Feijão' is beans.",
+        "ar": "'feijão' تعني الفاصوليا."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'the waiter'",
+        "en": "Translate: 'the waiter'",
+        "ar": "ترجم: 'the waiter'"
+      },
+      "options": [],
+      "answer": "el camarero",
+      "explanation": {
+        "es": "'El camarero' es el waiter.",
+        "en": "'O garçom' is the waiter.",
+        "ar": "'o garçom' هو النادل."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the water'?",
+        "en": "Which word means 'the water'?",
+        "ar": "أي كلمة تعني 'الماء'؟"
+      },
+      "options": [
+        {
+          "es": "el agua",
+          "en": "the water",
+          "ar": "الماء"
+        },
+        {
+          "es": "el plato",
+          "en": "the dish",
+          "ar": "الطبق"
+        },
+        {
+          "es": "el zumo",
+          "en": "the juice",
+          "ar": "العصير"
+        }
+      ],
+      "answer": "el agua",
+      "explanation": {
+        "es": "'el agua' significa 'the water'.",
+        "en": "'el agua' means 'the water'.",
+        "ar": "تعني 'el agua' 'الماء'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'I would like'",
+        "en": "Choose the Spanish word: 'I would like'",
+        "ar": "اختر الكلمة بالإسبانية: 'أود'"
+      },
+      "options": [
+        {
+          "es": "me gustaría",
+          "en": "I would like",
+          "ar": "أود"
+        },
+        {
+          "es": "el menú",
+          "en": "the menu",
+          "ar": "قائمة الطعام"
+        },
+        {
+          "es": "la bebida",
+          "en": "the drink",
+          "ar": "المشروب"
+        },
+        {
+          "es": "el pollo",
+          "en": "the chicken",
+          "ar": "الدجاج"
+        }
+      ],
+      "answer": "me gustaría",
+      "explanation": {
+        "es": "'me gustaría' significa 'I would like'.",
+        "en": "'me gustaría' means 'I would like'.",
+        "ar": "تعني 'me gustaría' 'أود'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the coffee' en español?",
+        "en": "How do you say 'the coffee' in Spanish?",
+        "ar": "كيف تقول 'القهوة' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el pollo",
+          "en": "the chicken",
+          "ar": "الدجاج"
+        },
+        {
+          "es": "el café",
+          "en": "the coffee",
+          "ar": "القهوة"
+        },
+        {
+          "es": "la carne",
+          "en": "the meat",
+          "ar": "اللحم"
+        }
+      ],
+      "answer": "el café",
+      "explanation": {
+        "es": "'el café' significa 'the coffee'.",
+        "en": "'el café' means 'the coffee'.",
+        "ar": "تعني 'el café' 'القهوة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the beans'?",
+        "en": "Which word means 'the beans'?",
+        "ar": "أي كلمة تعني 'الفاصوليا'؟"
+      },
+      "options": [
+        {
+          "es": "el pollo",
+          "en": "the chicken",
+          "ar": "الدجاج"
+        },
+        {
+          "es": "el arroz",
+          "en": "the rice",
+          "ar": "الأرز"
+        },
+        {
+          "es": "el restaurante",
+          "en": "the restaurant",
+          "ar": "المطعم"
+        },
+        {
+          "es": "los frijoles",
+          "en": "the beans",
+          "ar": "الفاصوليا"
+        }
+      ],
+      "answer": "los frijoles",
+      "explanation": {
+        "es": "'los frijoles' significa 'the beans'.",
+        "en": "'los frijoles' means 'the beans'.",
+        "ar": "تعني 'los frijoles' 'الفاصوليا'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Orange juice is good.\"",
+        "en": "Translate into Spanish: \"Orange juice is good.\"",
+        "ar": "ترجم إلى الإسبانية: \"عصير البرتقال جيد.\""
+      },
+      "options": [],
+      "answer": "El zumo de naranja es bueno.",
+      "explanation": {
+        "es": "Respuesta: \"El zumo de naranja es bueno.\".",
+        "en": "Answer: \"El zumo de naranja es bueno.\".",
+        "ar": "الإجابة: \"El zumo de naranja es bueno.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The fish comes from the sea.\"",
+        "en": "Translate into Spanish: \"The fish comes from the sea.\"",
+        "ar": "ترجم إلى الإسبانية: \"السمك يأتي من البحر.\""
+      },
+      "options": [],
+      "answer": "El pescado viene del mar.",
+      "explanation": {
+        "es": "Respuesta: \"El pescado viene del mar.\".",
+        "en": "Answer: \"El pescado viene del mar.\".",
+        "ar": "الإجابة: \"El pescado viene del mar.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The salad is fresh.\"",
+        "en": "Translate into Spanish: \"The salad is fresh.\"",
+        "ar": "ترجم إلى الإسبانية: \"السلطة منعشة.\""
+      },
+      "options": [],
+      "answer": "La ensalada es fresca.",
+      "explanation": {
+        "es": "Respuesta: \"La ensalada es fresca.\".",
+        "en": "Answer: \"La ensalada es fresca.\".",
+        "ar": "الإجابة: \"La ensalada es fresca.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Very well! Any dessert?\"",
+        "en": "Translate into Spanish: \"Very well! Any dessert?\"",
+        "ar": "ترجم إلى الإسبانية: \"ممتاز! أي حلوى؟\""
+      },
+      "options": [],
+      "answer": "¡Muy bien! ¿Algún postre?",
+      "explanation": {
+        "es": "Respuesta: \"¡Muy bien! ¿Algún postre?\".",
+        "en": "Answer: \"¡Muy bien! ¿Algún postre?\".",
+        "ar": "الإجابة: \"¡Muy bien! ¿Algún postre?\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "Un Almuerzo Hispano",
-   "en": "A Brazilian Lunch",
-   "ar": "غداء برازيلي"
-  },
-  "text_es": "En España, el almuerzo es una comida importante. Muchas personas comen arroz, frijoles, carne o pollo y ensalada. El zumo de naranja es muy popular. Al final, un cafecito. La propina en el restaurante es opcional.",
-  "text_en": "In Spain, lunch is an important meal. Many people eat rice, beans, meat or chicken and salad. Orange juice is very popular. At the end, a small coffee. Restaurant tipping is optional.",
-  "text_ar": "في إسبانيا، الغداء وجبة مهمة. يأكل كثيرون الأرز والفاصوليا واللحم أو الدجاج والسلطة. عصير البرتقال شائع جدًا. وفي النهاية قهوة صغيرة. والإكرامية في المطعم اختيارية."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Cómo pedir la cuenta educadamente?",
-    "en": "How to ask for the bill politely?",
-    "ar": "كيف تطلب الحساب بأدب؟"
-   },
-   "options": [
-    {
-     "es": "¡Quiero comida!",
-     "en": "I want food!",
-     "ar": "أريد طعامًا!"
-    },
-    {
-     "es": "¡La cuenta, por favor!",
-     "en": "A conta, por favor!",
-     "ar": "A conta, por favor!"
-    },
-    {
-     "es": "¡Me voy!",
-     "en": "Vou embora!",
-     "ar": "Vou embora!"
-    }
-   ],
-   "answer": "¡La cuenta, por favor!",
-   "explanation": {
-    "es": "'La cuenta, por favor' es la forma educada.",
-    "en": "'A conta, por favor' is the polite way.",
-    "ar": "'A conta, por favor' هي الطريقة المهذبة."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Qué es 'frijoles'?",
-    "en": "What is 'feijão'?",
-    "ar": "ما هو 'feijão'؟"
-   },
-   "options": [
-    {
-     "es": "rice",
-     "en": "rice",
-     "ar": "rice"
-    },
-    {
-     "es": "beans",
-     "en": "beans",
-     "ar": "beans"
-    },
-    {
-     "es": "fish",
-     "en": "fish",
-     "ar": "fish"
-    }
-   ],
-   "answer": "beans",
-   "explanation": {
-    "es": "'Frijoles' son beans.",
-    "en": "'Feijão' is beans.",
-    "ar": "'feijão' تعني الفاصوليا."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'the waiter'",
-    "en": "Translate: 'the waiter'",
-    "ar": "ترجم: 'the waiter'"
-   },
-   "options": [],
-   "answer": "el camarero",
-   "explanation": {
-    "es": "'El camarero' es el waiter.",
-    "en": "'O garçom' is the waiter.",
-    "ar": "'o garçom' هو النادل."
-   }
-  }
- ]
 }

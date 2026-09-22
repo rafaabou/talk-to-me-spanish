@@ -38,109 +38,199 @@
       "es": "el certificado",
       "ipa": "/ˈel seɾtifiˈkaðo/",
       "en": "certificate",
-      "ar": "الشهادة"
+      "ar": "الشهادة",
+      "example": {
+        "es": "El certificado llega por correo digital.",
+        "en": "The certificate arrives by digital mail.",
+        "ar": "تأتي الشهادة عبر البريد الرقمي."
+      }
     },
     {
       "es": "la carrera",
       "ipa": "/ˈla kaˈreɾa/",
       "en": "career",
-      "ar": "المسيرة المهنية"
+      "ar": "المسيرة المهنية",
+      "example": {
+        "es": "La carrera continúa con posgrados.",
+        "en": "The career continues with postgraduate study.",
+        "ar": "تستمر المسيرة المهنية بالدراسات العليا."
+      }
     },
     {
       "es": "el idioma",
       "ipa": "/ˈel iˈðioma/",
       "en": "language",
-      "ar": "اللغة"
+      "ar": "اللغة",
+      "example": {
+        "es": "El idioma abre puertas profesionales.",
+        "en": "The language opens professional doors.",
+        "ar": "تفتح اللغة أبوابًا مهنية."
+      }
     },
     {
       "es": "el avance",
       "ipa": "/ˈel aˈβanse/",
       "en": "advance / progress",
-      "ar": "التقدم"
+      "ar": "التقدم",
+      "example": {
+        "es": "El avance se mide con hitos claros.",
+        "en": "Progress is measured with clear milestones.",
+        "ar": "يُقاس التقدم بمحطات واضحة."
+      }
     },
     {
       "es": "el aprendizaje continuo",
       "ipa": "/ˈel apɾendiˈsaxe koˈntinuo/",
       "en": "continuous learning",
-      "ar": "التعلم المستمر"
+      "ar": "التعلم المستمر",
+      "example": {
+        "es": "El aprendizaje continuo evita el estancamiento.",
+        "en": "Continuous learning avoids stagnation.",
+        "ar": "يتجنّب التعلم المستمر الركود."
+      }
     },
     {
       "es": "la inmersión",
       "ipa": "/ˈla inmeˈɾsion/",
       "en": "immersion",
-      "ar": "الانغماس"
+      "ar": "الانغماس",
+      "example": {
+        "es": "La inmersión total acelera el dominio.",
+        "en": "Total immersion accelerates mastery.",
+        "ar": "يعجّل الانغماس الكامل الإتقان."
+      }
     },
     {
       "es": "el intercambio",
       "ipa": "/ˈel inteˈɾkambio/",
       "en": "exchange program",
-      "ar": "التبادل الدراسي"
+      "ar": "التبادل الدراسي",
+      "example": {
+        "es": "El intercambio cultural enseña empatía.",
+        "en": "Cultural exchange teaches empathy.",
+        "ar": "يعلّم التبادل الثقافي التعاطف."
+      }
     },
     {
       "es": "el networking",
       "ipa": "/ˈel netwoˈɾking/",
       "en": "networking",
-      "ar": "التواصل المهني"
+      "ar": "التواصل المهني",
+      "example": {
+        "es": "El networking abre oportunidades.",
+        "en": "Networking opens opportunities.",
+        "ar": "يفتح التواصل المهني فرصًا."
+      }
     },
     {
       "es": "el curso avanzado",
       "ipa": "/ˈel ˈkuɾso aβaˈnsaðo/",
       "en": "advanced course",
-      "ar": "الدورة المتقدمة"
+      "ar": "الدورة المتقدمة",
+      "example": {
+        "es": "El curso avanzado exige base sólida.",
+        "en": "The advanced course requires a solid base.",
+        "ar": "تتطلب الدورة المتقدمة أساسًا متينًا."
+      }
     },
     {
       "es": "la lectura fluida",
       "ipa": "/ˈla leˈktuɾa ˈfluiða/",
       "en": "fluent reading",
-      "ar": "القراءة الطليقة"
+      "ar": "القراءة الطليقة",
+      "example": {
+        "es": "La lectura fluida reduce saltos visuales.",
+        "en": "Fluent reading reduces visual jumps.",
+        "ar": "تقلّل القراءة الطليقة القفزات البصرية."
+      }
     },
     {
       "es": "el hablante nativo",
       "ipa": "/ˈel aˈβlante naˈtiβo/",
       "en": "native speaker",
-      "ar": "المتحدث الأصلي"
+      "ar": "المتحدث الأصلي",
+      "example": {
+        "es": "El hablante nativo corrige matices.",
+        "en": "The native speaker corrects nuances.",
+        "ar": "يصحّح المتحدث الأصلي الفروق الدقيقة."
+      }
     },
     {
       "es": "el mantenimiento",
       "ipa": "/ˈel manteniˈmiento/",
       "en": "maintenance",
-      "ar": "الصيانة / الاستمرار"
+      "ar": "الصيانة / الاستمرار",
+      "example": {
+        "es": "El mantenimiento semanal evita olvidos.",
+        "en": "Weekly maintenance prevents forgetting.",
+        "ar": "يمنع الاستمرار الأسبوعي النسيان."
+      }
     },
     {
       "es": "el vocabulario pasivo",
       "ipa": "/ˈel bokaβuˈlaɾio paˈsiβo/",
       "en": "passive vocabulary",
-      "ar": "المفردات السلبية"
+      "ar": "المفردات السلبية",
+      "example": {
+        "es": "El vocabulario pasivo se activa leyendo.",
+        "en": "Passive vocabulary activates through reading.",
+        "ar": "تفعّل المفردات السلبية بالقراءة."
+      }
     },
     {
       "es": "el vocabulario activo",
       "ipa": "/ˈel bokaβuˈlaɾio aˈktiβo/",
       "en": "active vocabulary",
-      "ar": "المفردات الفاعلة"
+      "ar": "المفردات الفاعلة",
+      "example": {
+        "es": "El vocabulario activo se usa al hablar.",
+        "en": "Active vocabulary is used when speaking.",
+        "ar": "تُستعمل المفردات الفاعلة في الكلام."
+      }
     },
     {
       "es": "el acento",
       "ipa": "/ˈel aˈsento/",
       "en": "accent",
-      "ar": "اللهجة / النبر"
+      "ar": "اللهجة / النبر",
+      "example": {
+        "es": "El acento mejora con imitación consciente.",
+        "en": "Accent improves with conscious imitation.",
+        "ar": "يتحسن اللهجة بمحاكاة واعية."
+      }
     },
     {
       "es": "la fluidez",
       "ipa": "/ˈla fluiˈðes/",
       "en": "fluency",
-      "ar": "الطلاقة"
+      "ar": "الطلاقة",
+      "example": {
+        "es": "La fluidez combina velocidad y precisión.",
+        "en": "Fluency combines speed and precision.",
+        "ar": "تجمع الطلاقة السرعة والدقة."
+      }
     },
     {
       "es": "el objetivo",
       "ipa": "/ˈel oβxeˈtiβo/",
       "en": "goal",
-      "ar": "الهدف"
+      "ar": "الهدف",
+      "example": {
+        "es": "El objetivo SMART motiva el estudio.",
+        "en": "The SMART goal motivates study.",
+        "ar": "يحفّز الهدف SMART الدراسة."
+      }
     },
     {
       "es": "la evaluación",
       "ipa": "/ˈla eβaluaˈsion/",
       "en": "assessment",
-      "ar": "التقييم"
+      "ar": "التقييم",
+      "example": {
+        "es": "La evaluación formativa orienta mejor.",
+        "en": "Formative assessment guides better.",
+        "ar": "يوجّه التقييم التكويني بشكل أفضل."
+      }
     }
   ],
   "grammar": [
@@ -269,8 +359,8 @@
       "options": [
         {
           "es": "con vistas a",
-          "en": "com vistas a",
-          "ar": "com vistas a"
+          "en": "in view of",
+          "ar": "في ضوء"
         },
         {
           "es": "a pesar de",
@@ -279,8 +369,8 @@
         },
         {
           "es": "aunque",
-          "en": "embora",
-          "ar": "embora"
+          "en": "although",
+          "ar": "على الرغم من"
         }
       ],
       "answer": "con vistas a",
@@ -325,8 +415,8 @@
       "type": "translation",
       "prompt": {
         "es": "Traduce al español: 'continuous learning'",
-        "en": "Translate into Portuguese: 'continuous learning'",
-        "ar": "ترجم إلى البرتغالية: 'continuous learning'"
+        "en": "Translate into Spanish: 'continuous learning'",
+        "ar": "ترجم إلى بالإسبانية: 'continuous learning'"
       },
       "options": [],
       "answer": "aprendizaje continuo",
@@ -335,6 +425,198 @@
         "en": "'Aprendizado contínuo' is the established expression.",
         "ar": "التعبير المتعارف عليه هو 'aprendizado contínuo'."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'goal'?",
+        "en": "Which word means 'goal'?",
+        "ar": "أي كلمة تعني 'الهدف'؟"
+      },
+      "options": [
+        {
+          "es": "el vocabulario activo",
+          "en": "active vocabulary",
+          "ar": "المفردات الفاعلة"
+        },
+        {
+          "es": "el objetivo",
+          "en": "goal",
+          "ar": "الهدف"
+        },
+        {
+          "es": "la lectura fluida",
+          "en": "fluent reading",
+          "ar": "القراءة الطليقة"
+        }
+      ],
+      "answer": "el objetivo",
+      "explanation": {
+        "es": "'el objetivo' significa 'goal'.",
+        "en": "'el objetivo' means 'goal'.",
+        "ar": "تعني 'el objetivo' 'الهدف'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'goal'",
+        "en": "Choose the Spanish word: 'goal'",
+        "ar": "اختر الكلمة بالإسبانية: 'الهدف'"
+      },
+      "options": [
+        {
+          "es": "el intercambio",
+          "en": "exchange program",
+          "ar": "التبادل الدراسي"
+        },
+        {
+          "es": "el acento",
+          "en": "accent",
+          "ar": "اللهجة / النبر"
+        },
+        {
+          "es": "el objetivo",
+          "en": "goal",
+          "ar": "الهدف"
+        }
+      ],
+      "answer": "el objetivo",
+      "explanation": {
+        "es": "'el objetivo' significa 'goal'.",
+        "en": "'el objetivo' means 'goal'.",
+        "ar": "تعني 'el objetivo' 'الهدف'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'fluent reading' en español?",
+        "en": "How do you say 'fluent reading' in Spanish?",
+        "ar": "كيف تقول 'القراءة الطليقة' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el vocabulario pasivo",
+          "en": "passive vocabulary",
+          "ar": "المفردات السلبية"
+        },
+        {
+          "es": "la lectura fluida",
+          "en": "fluent reading",
+          "ar": "القراءة الطليقة"
+        },
+        {
+          "es": "el aprendizaje continuo",
+          "en": "continuous learning",
+          "ar": "التعلم المستمر"
+        }
+      ],
+      "answer": "la lectura fluida",
+      "explanation": {
+        "es": "'la lectura fluida' significa 'fluent reading'.",
+        "en": "'la lectura fluida' means 'fluent reading'.",
+        "ar": "تعني 'la lectura fluida' 'القراءة الطليقة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'networking'?",
+        "en": "Which word means 'networking'?",
+        "ar": "أي كلمة تعني 'التواصل المهني'؟"
+      },
+      "options": [
+        {
+          "es": "el idioma",
+          "en": "language",
+          "ar": "اللغة"
+        },
+        {
+          "es": "el networking",
+          "en": "networking",
+          "ar": "التواصل المهني"
+        },
+        {
+          "es": "el vocabulario pasivo",
+          "en": "passive vocabulary",
+          "ar": "المفردات السلبية"
+        }
+      ],
+      "answer": "el networking",
+      "explanation": {
+        "es": "'el networking' significa 'networking'.",
+        "en": "'el networking' means 'networking'.",
+        "ar": "تعني 'el networking' 'التواصل المهني'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Thank you very much. It was a long journey, but immensely rewarding.\"",
+        "en": "Translate into Spanish: \"Thank you very much. It was a long journey, but immensely rewarding.\"",
+        "ar": "ترجم إلى الإسبانية: \"شكرًا جزيلًا. كانت رحلة طويلة، لكنها مجزية للغاية.\""
+      },
+      "options": [],
+      "answer": "Muchas gracias. Fue una trayectoria larga, pero inmensamente gratificante.",
+      "explanation": {
+        "es": "Respuesta: \"Muchas gracias. Fue una trayectoria larga, pero inmensamente gratificante.\".",
+        "en": "Answer: \"Muchas gracias. Fue una trayectoria larga, pero inmensamente gratificante.\".",
+        "ar": "الإجابة: \"Muchas gracias. Fue una trayectoria larga, pero inmensamente gratificante.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Networking opens opportunities.\"",
+        "en": "Translate into Spanish: \"Networking opens opportunities.\"",
+        "ar": "ترجم إلى الإسبانية: \"يفتح التواصل المهني فرصًا.\""
+      },
+      "options": [],
+      "answer": "El networking abre oportunidades.",
+      "explanation": {
+        "es": "Respuesta: \"El networking abre oportunidades.\".",
+        "en": "Answer: \"El networking abre oportunidades.\".",
+        "ar": "الإجابة: \"El networking abre oportunidades.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Fluent reading reduces visual jumps.\"",
+        "en": "Translate into Spanish: \"Fluent reading reduces visual jumps.\"",
+        "ar": "ترجم إلى الإسبانية: \"تقلّل القراءة الطليقة القفزات البصرية.\""
+      },
+      "options": [],
+      "answer": "La lectura fluida reduce saltos visuales.",
+      "explanation": {
+        "es": "Respuesta: \"La lectura fluida reduce saltos visuales.\".",
+        "en": "Answer: \"La lectura fluida reduce saltos visuales.\".",
+        "ar": "الإجابة: \"La lectura fluida reduce saltos visuales.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I plan an exchange program with a view to activating the vocabulary in daily life.\"",
+        "en": "Translate into Spanish: \"I plan an exchange program with a view to activating the vocabulary in daily life.\"",
+        "ar": "ترجم إلى الإسبانية: \"أخطط لتبادل دراسي بهدف تفعيل المفردات في الحياة اليومية.\""
+      },
+      "options": [],
+      "answer": "Planeo un intercambio con vistas a activar el vocabulario en el día a día.",
+      "explanation": {
+        "es": "Respuesta: \"Planeo un intercambio con vistas a activar el vocabulario en el día a día.\".",
+        "en": "Answer: \"Planeo un intercambio con vistas a activar el vocabulario en el día a día.\".",
+        "ar": "الإجابة: \"Planeo un intercambio con vistas a activar el vocabulario en el día a día.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

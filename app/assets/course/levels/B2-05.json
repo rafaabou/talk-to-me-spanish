@@ -1,333 +1,625 @@
 {
- "id": "B2-05",
- "level": "B2",
- "level_name": {
-  "es": "Intermedio alto",
-  "en": "Upper-Intermediate",
-  "ar": "متوسط متقدم"
- },
- "title": {
-  "es": "Subjuntivo II (Imperfecto)",
-  "en": "Subjunctive II (Imperfect)",
-  "ar": "صيغة الماضي الشرطي"
- },
- "objectives": [
-  {
-   "es": "Formar el imperfecto de subjuntivo",
-   "en": "Form the imperfect subjunctive",
-   "ar": "تكوين صيغة الماضي الناقص من الشرط"
+  "id": "B2-05",
+  "level": "B2",
+  "level_name": {
+    "es": "Intermedio alto",
+    "en": "Upper-Intermediate",
+    "ar": "متوسط متقدم"
   },
-  {
-   "es": "Usarlo en condiciones hipotéticas con 'si'",
-   "en": "Use it in hypothetical conditions with 'se'",
-   "ar": "استخدامه في الشروط الافتراضية مع 'se'"
-  },
-  {
-   "es": "Emplearlo con 'como si', 'quizás' y deseos",
-   "en": "Use it with 'como se', 'talvez' and wishes",
-   "ar": "استخدامه مع 'como se' و'talvez' والتمنيات"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "si yo pudiera",
-   "ipa": "/ˈsi ˈʝo puˈðieɾa/",
-   "en": "if I could",
-   "ar": "لو استطعت"
-  },
-  {
-   "es": "si yo tuviera",
-   "ipa": "/ˈsi ˈʝo tuˈβieɾa/",
-   "en": "if I had",
-   "ar": "لو كان لدي"
-  },
-  {
-   "es": "si yo fuera",
-   "ipa": "/ˈsi ˈʝo ˈfueɾa/",
-   "en": "if I were",
-   "ar": "لو كنت"
-  },
-  {
-   "es": "hablara",
-   "ipa": "/aˈβlaɾa/",
-   "en": "(that I) spoke",
-   "ar": "(أن) أتكلم"
-  },
-  {
-   "es": "supiera",
-   "ipa": "/suˈpieɾa/",
-   "en": "(that I) knew",
-   "ar": "(أن) أعرف"
-  },
-  {
-   "es": "quisiera",
-   "ipa": "/kiˈsieɾa/",
-   "en": "(that I) wanted",
-   "ar": "(أن) أريد"
-  },
-  {
-   "es": "pudiera",
-   "ipa": "/puˈðieɾa/",
-   "en": "(that I) could",
-   "ar": "(أن) أستطيع"
-  },
-  {
-   "es": "tuviera tiempo",
-   "ipa": "/tuˈβieɾa ˈtiempo/",
-   "en": "had time",
-   "ar": "كان لديه وقت"
-  },
-  {
-   "es": "prefiriera",
-   "ipa": "/pɾefiˈɾieɾa/",
-   "en": "(that I) preferred",
-   "ar": "(أن) أفضل"
-  },
-  {
-   "es": "hiciera",
-   "ipa": "/iˈsieɾa/",
-   "en": "(that I) did",
-   "ar": "(أن) أفعل"
-  },
-  {
-   "es": "me gustaría",
-   "ipa": "/ˈme gustaˈɾia/",
-   "en": "would like",
-   "ar": "كنت أرغب"
-  },
-  {
-   "es": "haría",
-   "ipa": "/aˈɾia/",
-   "en": "would do",
-   "ar": "كنت أفعل"
-  },
-  {
-   "es": "como si",
-   "ipa": "/ˈkomo ˈsi/",
-   "en": "as if",
-   "ar": "كما لو"
-  },
-  {
-   "es": "aunque",
-   "ipa": "/ˈaunke/",
-   "en": "although",
-   "ar": "على الرغم من أن"
-  },
-  {
-   "es": "quizás fuera",
-   "ipa": "/kiˈsas ˈfueɾa/",
-   "en": "maybe it were",
-   "ar": "ربما كان"
-  },
-  {
-   "es": "si yo fuera tú",
-   "ipa": "/ˈsi ˈʝo ˈfueɾa ˈtu/",
-   "en": "if I were you",
-   "ar": "لو كنت مكانك"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Formación del Imperfecto de Subjuntivo",
-    "en": "Forming the Imperfect Subjunctive",
-    "ar": "تكوين الماضي الناقص الشرطي"
-   },
-   "explanation": {
-    "es": "Toma la tercera persona del plural del pretérito indefinido (ellos hablaron), quita -ron y añade: -ra, -ras, -ra, -ramos, -rais, -ran. Ejemplos: hablaron → hablara; comieron → comiera; partieron → partiera; tuvieron → tuviera.",
-    "en": "Take the third person plural of the simple past (eles falaram), drop -am and add: -sse, -sses, -sse, -ssemos, -sseis, -ssem. Examples: falaram → falasse; comeram → comesse; partiram → partisse; tiveram → tivesse.",
-    "ar": "خذ صيغة الجمع الثالثة من الماضي التام (eles falaram)، واحذف -am وأضف: -sse، -sses، -sse، -ssemos، -sseis، -ssem. أمثلة: falaram ← falasse؛ comeram ← comesse؛ partiram ← partisse؛ tiveram ← tivesse."
-   },
-   "examples": [
-    {
-     "es": "hablaron → (que yo) hablara",
-     "en": "they spoke → that I spoke",
-     "ar": "تحدثوا ← أن أتكلم"
-    },
-    {
-     "es": "comieron → (que yo) comiera",
-     "en": "they ate → that I ate",
-     "ar": "أكلوا ← أن آكل"
-    },
-    {
-     "es": "partieron → (que yo) partiera",
-     "en": "they left → that I left",
-     "ar": "غادروا ← أن أغادر"
-    },
-    {
-     "es": "tuvieron → (que yo) tuviera",
-     "en": "they had → that I had",
-     "ar": "كان لديهم ← أن يكون لدي"
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Usos del Imperfecto de Subjuntivo",
-    "en": "Uses of the Imperfect Subjunctive",
-    "ar": "استخدامات الماضي الناقص الشرطي"
-   },
-   "explanation": {
-    "es": "Usamos el imperfecto de subjuntivo en condiciones hipotéticas (si + imperfecto de subjuntivo + condicional), después de 'como si', después de 'quizás' en contextos pasados y tras verbos en pasado que exigen subjuntivo.",
-    "en": "We use the imperfect subjunctive in hypothetical conditions (se + imperfect subjunctive + conditional), after 'como se', after 'talvez' in past contexts and after past-tense verbs that require the subjunctive.",
-    "ar": "نستخدم الماضي الناقص الشرطي في الشروط الافتراضية (se + الماضي الناقص الشرطي + الشرطية)، وبعد 'como se'، وبعد 'talvez' في سياقات الماضي، وبعد الأفعال الماضية التي تتطلب صيغة الشرط."
-   },
-   "examples": [
-    {
-     "es": "Si yo tuviera más dinero, viajaría por el mundo.",
-     "en": "If I had more money, I would travel the world.",
-     "ar": "لو كان لدي مال أكثر، لسافرت حول العالم."
-    },
-    {
-     "es": "Me gustaría que hablaras con él.",
-     "en": "I would like you to speak with him.",
-     "ar": "كنت أود أن تتحدث معه."
-    },
-    {
-     "es": "Él actúa como si lo supiera todo.",
-     "en": "He acts as if he knew everything.",
-     "ar": "يتصرف كما لو كان يعرف كل شيء."
-    },
-    {
-     "es": "Quizás fuera mejor esperar.",
-     "en": "Maybe it would be better to wait.",
-     "ar": "ربما كان من الأفضل الانتظار."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "Si Yo Pudiera...",
-   "en": "If I Could...",
-   "ar": "لو استطعت..."
+    "es": "Subjuntivo II (Imperfecto)",
+    "en": "Subjunctive II (Imperfect)",
+    "ar": "صيغة الماضي الشرطي"
   },
-  "lines": [
-   {
-    "speaker": "Ana",
-    "es": "Si pudieras vivir en cualquier lugar del mundo, ¿dónde vivirías?",
-    "en": "If you could live anywhere in the world, where would you live?",
-    "ar": "لو استطعت العيش في أي مكان في العالم، أين كنت ستعيش؟"
-   },
-   {
-    "speaker": "Bruno",
-    "es": "Elegiría Barcelona, si tuviera la oportunidad.",
-    "en": "I would choose Rio de Janeiro, if I had the chance.",
-    "ar": "سأختار ريو دي جانيرو، لو سنحت لي الفرصة."
-   },
-   {
-    "speaker": "Ana",
-    "es": "A mí también me gustaría vivir cerca del mar.",
-    "en": "I would also like to live near the sea.",
-    "ar": "أود أيضًا أن أسكن قرب البحر."
-   },
-   {
-    "speaker": "Bruno",
-    "es": "Si habláramos español, podríamos vivir en Argentina también.",
-    "en": "If we spoke Spanish, we could also live in Argentina.",
-    "ar": "لو كنا نتحدث الإسبانية، لأمكننا العيش في الأرجنتين أيضًا."
-   },
-   {
-    "speaker": "Ana",
-    "es": "Quizás fuera mejor quedarse en España.",
-    "en": "Perhaps it would be better to stay in Spain after all.",
-    "ar": "ربما كان من الأفضل البقاء في إسبانيا بعد كل شيء."
-   },
-   {
-    "speaker": "Bruno",
-    "es": "Es verdad. No cambiaría España por nada.",
-    "en": "True. I wouldn't trade Brazil for anything.",
-    "ar": "صحيح. لن أستبدل البرازيل بأي شيء."
-   }
+  "objectives": [
+    {
+      "es": "Formar el imperfecto de subjuntivo",
+      "en": "Form the imperfect subjunctive",
+      "ar": "تكوين صيغة الماضي الناقص من الشرط"
+    },
+    {
+      "es": "Usarlo en condiciones hipotéticas con 'si'",
+      "en": "Use it in hypothetical conditions with 'se'",
+      "ar": "استخدامه في الشروط الافتراضية مع 'se'"
+    },
+    {
+      "es": "Emplearlo con 'como si', 'quizás' y deseos",
+      "en": "Use it with 'como se', 'talvez' and wishes",
+      "ar": "استخدامه مع 'como se' و'talvez' والتمنيات"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "si yo pudiera",
+      "ipa": "/ˈsi ˈʝo puˈðieɾa/",
+      "en": "if I could",
+      "ar": "لو استطعت",
+      "example": {
+        "es": "Si yo pudiera, viajaría por el mundo.",
+        "en": "If I could, I would travel the world.",
+        "ar": "لو استطعت، لسافرت حول العالم."
+      }
+    },
+    {
+      "es": "si yo tuviera",
+      "ipa": "/ˈsi ˈʝo tuˈβieɾa/",
+      "en": "if I had",
+      "ar": "لو كان لدي",
+      "example": {
+        "es": "Si yo tuviera tiempo, aprendería griego.",
+        "en": "If I had time, I would learn Greek.",
+        "ar": "لو كان لدي وقت، لتعلمت اليونانية."
+      }
+    },
+    {
+      "es": "si yo fuera",
+      "ipa": "/ˈsi ˈʝo ˈfueɾa/",
+      "en": "if I were",
+      "ar": "لو كنت",
+      "example": {
+        "es": "Si yo fuera tú, aceptaría la oferta.",
+        "en": "If I were you, I would accept the offer.",
+        "ar": "لو كنت مكانك، لقبلت العرض."
+      }
+    },
+    {
+      "es": "hablara",
+      "ipa": "/aˈβlaɾa/",
+      "en": "(that I) spoke",
+      "ar": "(أن) أتكلم",
+      "example": {
+        "es": "Ojalá hablara más idiomas.",
+        "en": "I wish he spoke more languages.",
+        "ar": "ليته كان يتحدث لغات أكثر."
+      }
+    },
+    {
+      "es": "supiera",
+      "ipa": "/suˈpieɾa/",
+      "en": "(that I) knew",
+      "ar": "(أن) أعرف",
+      "example": {
+        "es": "Si supiera la respuesta, te la diría.",
+        "en": "If I knew the answer, I would tell you.",
+        "ar": "لو كنت أعرف الإجابة، لقلتها لك."
+      }
+    },
+    {
+      "es": "quisiera",
+      "ipa": "/kiˈsieɾa/",
+      "en": "(that I) wanted",
+      "ar": "(أن) أريد",
+      "example": {
+        "es": "Quisiera que todo fuera más fácil.",
+        "en": "I wish everything were easier.",
+        "ar": "ليت كل شيء أسهل."
+      }
+    },
+    {
+      "es": "pudiera",
+      "ipa": "/puˈðieɾa/",
+      "en": "(that I) could",
+      "ar": "(أن) أستطيع",
+      "example": {
+        "es": "Espero que pudiera venir a tu fiesta.",
+        "en": "I hope he could come to your party.",
+        "ar": "آمل أن يتمكن من حضور حفلتك."
+      }
+    },
+    {
+      "es": "tuviera tiempo",
+      "ipa": "/tuˈβieɾa ˈtiempo/",
+      "en": "had time",
+      "ar": "كان لديه وقت",
+      "example": {
+        "es": "Si tuviera tiempo, viajaría más.",
+        "en": "If I had time, I would travel more.",
+        "ar": "لو كان لدي وقت، لسافرت أكثر."
+      }
+    },
+    {
+      "es": "prefiriera",
+      "ipa": "/pɾefiˈɾieɾa/",
+      "en": "(that I) preferred",
+      "ar": "(أن) أفضل",
+      "example": {
+        "es": "Prefiriera esperar hasta mañana.",
+        "en": "I would prefer to wait until tomorrow.",
+        "ar": "أفضل الانتظار حتى غدًا."
+      }
+    },
+    {
+      "es": "hiciera",
+      "ipa": "/iˈsieɾa/",
+      "en": "(that I) did",
+      "ar": "(أن) أفعل",
+      "example": {
+        "es": "Si hiciera frío, me quedaría en casa.",
+        "en": "If it were cold, I would stay home.",
+        "ar": "لو كان الجو باردًا، لبقيت في المنزل."
+      }
+    },
+    {
+      "es": "me gustaría",
+      "ipa": "/ˈme gustaˈɾia/",
+      "en": "would like",
+      "ar": "كنت أرغب",
+      "example": {
+        "es": "Me gustaría que vinieras conmigo.",
+        "en": "I would like you to come with me.",
+        "ar": "أود أن تأتي معي."
+      }
+    },
+    {
+      "es": "haría",
+      "ipa": "/aˈɾia/",
+      "en": "would do",
+      "ar": "كنت أفعل",
+      "example": {
+        "es": "Si pudiera, haría el viaje mañana.",
+        "en": "If I could, I would do the trip tomorrow.",
+        "ar": "لو استطعت، لنفذت الرحلة غدًا."
+      }
+    },
+    {
+      "es": "como si",
+      "ipa": "/ˈkomo ˈsi/",
+      "en": "as if",
+      "ar": "كما لو",
+      "example": {
+        "es": "Habla como si lo supiera todo.",
+        "en": "He talks as if he knew everything.",
+        "ar": "يتحدث كأنه يعلم كل شيء."
+      }
+    },
+    {
+      "es": "aunque",
+      "ipa": "/ˈaunke/",
+      "en": "although",
+      "ar": "على الرغم من أن",
+      "example": {
+        "es": "Aunque llueva, saldremos.",
+        "en": "Even if it rains, we will go out.",
+        "ar": "حتى لو أمطرت، سنخرج."
+      }
+    },
+    {
+      "es": "quizás fuera",
+      "ipa": "/kiˈsas ˈfueɾa/",
+      "en": "maybe it were",
+      "ar": "ربما كان",
+      "example": {
+        "es": "Quizás fuera más fácil decirlo.",
+        "en": "Maybe it would be easier to say it.",
+        "ar": "ربما كان أسهل قوله."
+      }
+    },
+    {
+      "es": "si yo fuera tú",
+      "ipa": "/ˈsi ˈʝo ˈfueɾa ˈtu/",
+      "en": "if I were you",
+      "ar": "لو كنت مكانك",
+      "example": {
+        "es": "Si yo fuera tú, estudiaría más.",
+        "en": "If I were you, I would study more.",
+        "ar": "لو كنت مكانك، لدرست أكثر."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Formación del Imperfecto de Subjuntivo",
+        "en": "Forming the Imperfect Subjunctive",
+        "ar": "تكوين الماضي الناقص الشرطي"
+      },
+      "explanation": {
+        "es": "Toma la tercera persona del plural del pretérito indefinido (ellos hablaron), quita -ron y añade: -ra, -ras, -ra, -ramos, -rais, -ran. Ejemplos: hablaron → hablara; comieron → comiera; partieron → partiera; tuvieron → tuviera.",
+        "en": "Take the third person plural of the simple past (eles falaram), drop -am and add: -sse, -sses, -sse, -ssemos, -sseis, -ssem. Examples: falaram → falasse; comeram → comesse; partiram → partisse; tiveram → tivesse.",
+        "ar": "خذ صيغة الجمع الثالثة من الماضي التام (eles falaram)، واحذف -am وأضف: -sse، -sses، -sse، -ssemos، -sseis، -ssem. أمثلة: falaram ← falasse؛ comeram ← comesse؛ partiram ← partisse؛ tiveram ← tivesse."
+      },
+      "examples": [
+        {
+          "es": "hablaron → (que yo) hablara",
+          "en": "they spoke → that I spoke",
+          "ar": "تحدثوا ← أن أتكلم"
+        },
+        {
+          "es": "comieron → (que yo) comiera",
+          "en": "they ate → that I ate",
+          "ar": "أكلوا ← أن آكل"
+        },
+        {
+          "es": "partieron → (que yo) partiera",
+          "en": "they left → that I left",
+          "ar": "غادروا ← أن أغادر"
+        },
+        {
+          "es": "tuvieron → (que yo) tuviera",
+          "en": "they had → that I had",
+          "ar": "كان لديهم ← أن يكون لدي"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Usos del Imperfecto de Subjuntivo",
+        "en": "Uses of the Imperfect Subjunctive",
+        "ar": "استخدامات الماضي الناقص الشرطي"
+      },
+      "explanation": {
+        "es": "Usamos el imperfecto de subjuntivo en condiciones hipotéticas (si + imperfecto de subjuntivo + condicional), después de 'como si', después de 'quizás' en contextos pasados y tras verbos en pasado que exigen subjuntivo.",
+        "en": "We use the imperfect subjunctive in hypothetical conditions (se + imperfect subjunctive + conditional), after 'como se', after 'talvez' in past contexts and after past-tense verbs that require the subjunctive.",
+        "ar": "نستخدم الماضي الناقص الشرطي في الشروط الافتراضية (se + الماضي الناقص الشرطي + الشرطية)، وبعد 'como se'، وبعد 'talvez' في سياقات الماضي، وبعد الأفعال الماضية التي تتطلب صيغة الشرط."
+      },
+      "examples": [
+        {
+          "es": "Si yo tuviera más dinero, viajaría por el mundo.",
+          "en": "If I had more money, I would travel the world.",
+          "ar": "لو كان لدي مال أكثر، لسافرت حول العالم."
+        },
+        {
+          "es": "Me gustaría que hablaras con él.",
+          "en": "I would like you to speak with him.",
+          "ar": "كنت أود أن تتحدث معه."
+        },
+        {
+          "es": "Él actúa como si lo supiera todo.",
+          "en": "He acts as if he knew everything.",
+          "ar": "يتصرف كما لو كان يعرف كل شيء."
+        },
+        {
+          "es": "Quizás fuera mejor esperar.",
+          "en": "Maybe it would be better to wait.",
+          "ar": "ربما كان من الأفضل الانتظار."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Si Yo Pudiera...",
+      "en": "If I Could...",
+      "ar": "لو استطعت..."
+    },
+    "lines": [
+      {
+        "speaker": "Ana",
+        "es": "Si pudieras vivir en cualquier lugar del mundo, ¿dónde vivirías?",
+        "en": "If you could live anywhere in the world, where would you live?",
+        "ar": "لو استطعت العيش في أي مكان في العالم، أين كنت ستعيش؟"
+      },
+      {
+        "speaker": "Bruno",
+        "es": "Elegiría Barcelona, si tuviera la oportunidad.",
+        "en": "I would choose Rio de Janeiro, if I had the chance.",
+        "ar": "سأختار ريو دي جانيرو، لو سنحت لي الفرصة."
+      },
+      {
+        "speaker": "Ana",
+        "es": "A mí también me gustaría vivir cerca del mar.",
+        "en": "I would also like to live near the sea.",
+        "ar": "أود أيضًا أن أسكن قرب البحر."
+      },
+      {
+        "speaker": "Bruno",
+        "es": "Si habláramos español, podríamos vivir en Argentina también.",
+        "en": "If we spoke Spanish, we could also live in Argentina.",
+        "ar": "لو كنا نتحدث الإسبانية، لأمكننا العيش في الأرجنتين أيضًا."
+      },
+      {
+        "speaker": "Ana",
+        "es": "Quizás fuera mejor quedarse en España.",
+        "en": "Perhaps it would be better to stay in Spain after all.",
+        "ar": "ربما كان من الأفضل البقاء في إسبانيا بعد كل شيء."
+      },
+      {
+        "speaker": "Bruno",
+        "es": "Es verdad. No cambiaría España por nada.",
+        "en": "True. I wouldn't trade Brazil for anything.",
+        "ar": "صحيح. لن أستبدل البرازيل بأي شيء."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Viaje que Nunca Ocurrió",
+      "en": "The Trip that Never Happened",
+      "ar": "الرحلة التي لم تحدث أبدًا"
+    },
+    "text_es": "Pablo siempre soñó con Europa. Si hubiera ahorrado más dinero, habría viajado el año pasado. Recuerda como si fuera ayer el día en que pensó en comprar los billetes. Quizás fuera mejor empezar a ahorrar ahora para el año que viene.",
+    "text_en": "Paulo always dreamed about Europe. If he had saved more money, he would have traveled last year. He remembers the day he thought about buying the tickets as if it were yesterday. Maybe it would be better to start saving now for next year.",
+    "text_ar": "كان باولو يحلم دائمًا بأوروبا. لو كان ادخر المزيد من المال، لكان سافر في العام الماضي. يتذكر اليوم الذي فكر فيه في شراء التذاكر كما لو كان بالأمس. ربما كان من الأفضل أن يبدأ في الادخار الآن للعام القادم."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Si yo ___ tiempo, iría al cine.",
+        "en": "If I ___ time, I would go to the movies.",
+        "ar": "لو ___ لدي وقت، لذهبت إلى السينما."
+      },
+      "options": [
+        {
+          "es": "tener",
+          "en": "to have",
+          "ar": "يملك"
+        },
+        {
+          "es": "tuviera",
+          "en": "had",
+          "ar": "كان"
+        },
+        {
+          "es": "tengo",
+          "en": "I have",
+          "ar": "لديّ"
+        }
+      ],
+      "answer": "tuviera",
+      "explanation": {
+        "es": "Condición hipotética: si + imperfecto de subjuntivo (tuviera) + condicional (iría).",
+        "en": "Hypothetical condition: se + imperfect subjunctive (tivesse) + conditional (iria).",
+        "ar": "شرط افتراضي: se + الماضي الناقص الشرطي (tivesse) + الشرطية (iria)."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Me gustaría que ___ más despacio.",
+        "en": "I would like you to ___ more slowly.",
+        "ar": "أود أن ___ ببطء أكبر."
+      },
+      "options": [
+        {
+          "es": "hables",
+          "en": "you speak",
+          "ar": "تتحدث"
+        },
+        {
+          "es": "hablara",
+          "en": "spoke",
+          "ar": "تحدث"
+        },
+        {
+          "es": "hablarías",
+          "en": "you would speak",
+          "ar": "ستتحدث"
+        }
+      ],
+      "answer": "hablara",
+      "explanation": {
+        "es": "Después de 'me gustaría que' usamos el imperfecto de subjuntivo: hablaras.",
+        "en": "After 'me gustaría que' we use the imperfect subjunctive: hablara.",
+        "ar": "بعد 'me gustaría que' نستخدم الماضي الناقص الشرطي: hablara."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce: 'If I were you, I would talk to her.'",
+        "en": "Translate: 'If I were you, I would talk to her.'",
+        "ar": "ترجم: 'If I were you, I would talk to her.'"
+      },
+      "options": [],
+      "answer": "Si yo fuera tú, hablaría con ella.",
+      "explanation": {
+        "es": "Condición irreal: 'si yo fuera tú' + condicional 'hablaría'.",
+        "en": "Unreal condition: 'si yo fuera tú' + conditional 'hablaría'.",
+        "ar": "شرط غير واقعي: 'si yo fuera tú' + الشرطي 'hablaría'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa '(that I) knew'?",
+        "en": "Which word means '(that I) knew'?",
+        "ar": "أي كلمة تعني '(أن) أعرف'؟"
+      },
+      "options": [
+        {
+          "es": "supiera",
+          "en": "(that I) knew",
+          "ar": "(أن) أعرف"
+        },
+        {
+          "es": "haría",
+          "en": "would do",
+          "ar": "كنت أفعل"
+        },
+        {
+          "es": "hablara",
+          "en": "(that I) spoke",
+          "ar": "(أن) أتكلم"
+        },
+        {
+          "es": "prefiriera",
+          "en": "(that I) preferred",
+          "ar": "(أن) أفضل"
+        }
+      ],
+      "answer": "supiera",
+      "explanation": {
+        "es": "'supiera' significa '(that I) knew'.",
+        "en": "'supiera' means '(that I) knew'.",
+        "ar": "تعني 'supiera' '(أن) أعرف'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'would like'",
+        "en": "Choose the Spanish word: 'would like'",
+        "ar": "اختر الكلمة بالإسبانية: 'كنت أرغب'"
+      },
+      "options": [
+        {
+          "es": "supiera",
+          "en": "(that I) knew",
+          "ar": "(أن) أعرف"
+        },
+        {
+          "es": "si yo tuviera",
+          "en": "if I had",
+          "ar": "لو كان لدي"
+        },
+        {
+          "es": "tuviera tiempo",
+          "en": "had time",
+          "ar": "كان لديه وقت"
+        },
+        {
+          "es": "me gustaría",
+          "en": "would like",
+          "ar": "كنت أرغب"
+        }
+      ],
+      "answer": "me gustaría",
+      "explanation": {
+        "es": "'me gustaría' significa 'would like'.",
+        "en": "'me gustaría' means 'would like'.",
+        "ar": "تعني 'me gustaría' 'كنت أرغب'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice '(that I) did' en español?",
+        "en": "How do you say '(that I) did' in Spanish?",
+        "ar": "كيف تقول '(أن) أفعل' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "pudiera",
+          "en": "(that I) could",
+          "ar": "(أن) أستطيع"
+        },
+        {
+          "es": "hiciera",
+          "en": "(that I) did",
+          "ar": "(أن) أفعل"
+        },
+        {
+          "es": "si yo fuera",
+          "en": "if I were",
+          "ar": "لو كنت"
+        },
+        {
+          "es": "me gustaría",
+          "en": "would like",
+          "ar": "كنت أرغب"
+        }
+      ],
+      "answer": "hiciera",
+      "explanation": {
+        "es": "'hiciera' significa '(that I) did'.",
+        "en": "'hiciera' means '(that I) did'.",
+        "ar": "تعني 'hiciera' '(أن) أفعل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa '(that I) did'?",
+        "en": "Which word means '(that I) did'?",
+        "ar": "أي كلمة تعني '(أن) أفعل'؟"
+      },
+      "options": [
+        {
+          "es": "hiciera",
+          "en": "(that I) did",
+          "ar": "(أن) أفعل"
+        },
+        {
+          "es": "aunque",
+          "en": "although",
+          "ar": "على الرغم من أن"
+        },
+        {
+          "es": "como si",
+          "en": "as if",
+          "ar": "كما لو"
+        },
+        {
+          "es": "prefiriera",
+          "en": "(that I) preferred",
+          "ar": "(أن) أفضل"
+        }
+      ],
+      "answer": "hiciera",
+      "explanation": {
+        "es": "'hiciera' significa '(that I) did'.",
+        "en": "'hiciera' means '(that I) did'.",
+        "ar": "تعني 'hiciera' '(أن) أفعل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"He talks as if he knew everything.\"",
+        "en": "Translate into Spanish: \"He talks as if he knew everything.\"",
+        "ar": "ترجم إلى الإسبانية: \"يتحدث كأنه يعلم كل شيء.\""
+      },
+      "options": [],
+      "answer": "Habla como si lo supiera todo.",
+      "explanation": {
+        "es": "Respuesta: \"Habla como si lo supiera todo.\".",
+        "en": "Answer: \"Habla como si lo supiera todo.\".",
+        "ar": "الإجابة: \"Habla como si lo supiera todo.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"If I had time, I would learn Greek.\"",
+        "en": "Translate into Spanish: \"If I had time, I would learn Greek.\"",
+        "ar": "ترجم إلى الإسبانية: \"لو كان لدي وقت، لتعلمت اليونانية.\""
+      },
+      "options": [],
+      "answer": "Si yo tuviera tiempo, aprendería griego.",
+      "explanation": {
+        "es": "Respuesta: \"Si yo tuviera tiempo, aprendería griego.\".",
+        "en": "Answer: \"Si yo tuviera tiempo, aprendería griego.\".",
+        "ar": "الإجابة: \"Si yo tuviera tiempo, aprendería griego.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I would also like to live near the sea.\"",
+        "en": "Translate into Spanish: \"I would also like to live near the sea.\"",
+        "ar": "ترجم إلى الإسبانية: \"أود أيضًا أن أسكن قرب البحر.\""
+      },
+      "options": [],
+      "answer": "A mí también me gustaría vivir cerca del mar.",
+      "explanation": {
+        "es": "Respuesta: \"A mí también me gustaría vivir cerca del mar.\".",
+        "en": "Answer: \"A mí también me gustaría vivir cerca del mar.\".",
+        "ar": "الإجابة: \"A mí también me gustaría vivir cerca del mar.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"If it were cold, I would stay home.\"",
+        "en": "Translate into Spanish: \"If it were cold, I would stay home.\"",
+        "ar": "ترجم إلى الإسبانية: \"لو كان الجو باردًا، لبقيت في المنزل.\""
+      },
+      "options": [],
+      "answer": "Si hiciera frío, me quedaría en casa.",
+      "explanation": {
+        "es": "Respuesta: \"Si hiciera frío, me quedaría en casa.\".",
+        "en": "Answer: \"Si hiciera frío, me quedaría en casa.\".",
+        "ar": "الإجابة: \"Si hiciera frío, me quedaría en casa.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "El Viaje que Nunca Ocurrió",
-   "en": "The Trip that Never Happened",
-   "ar": "الرحلة التي لم تحدث أبدًا"
-  },
-  "text_es": "Pablo siempre soñó con Europa. Si hubiera ahorrado más dinero, habría viajado el año pasado. Recuerda como si fuera ayer el día en que pensó en comprar los billetes. Quizás fuera mejor empezar a ahorrar ahora para el año que viene.",
-  "text_en": "Paulo always dreamed about Europe. If he had saved more money, he would have traveled last year. He remembers the day he thought about buying the tickets as if it were yesterday. Maybe it would be better to start saving now for next year.",
-  "text_ar": "كان باولو يحلم دائمًا بأوروبا. لو كان ادخر المزيد من المال، لكان سافر في العام الماضي. يتذكر اليوم الذي فكر فيه في شراء التذاكر كما لو كان بالأمس. ربما كان من الأفضل أن يبدأ في الادخار الآن للعام القادم."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Si yo ___ tiempo, iría al cine.",
-    "en": "If I ___ time, I would go to the movies.",
-    "ar": "لو ___ لدي وقت، لذهبت إلى السينما."
-   },
-   "options": [
-    {
-     "es": "tener",
-     "en": "ter",
-     "ar": "ter"
-    },
-    {
-     "es": "tuviera",
-     "en": "tivesse",
-     "ar": "tivesse"
-    },
-    {
-     "es": "tengo",
-     "en": "I have",
-     "ar": "لديّ"
-    }
-   ],
-   "answer": "tuviera",
-   "explanation": {
-    "es": "Condición hipotética: si + imperfecto de subjuntivo (tuviera) + condicional (iría).",
-    "en": "Hypothetical condition: se + imperfect subjunctive (tivesse) + conditional (iria).",
-    "ar": "شرط افتراضي: se + الماضي الناقص الشرطي (tivesse) + الشرطية (iria)."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Me gustaría que ___ más despacio.",
-    "en": "I would like you to ___ more slowly.",
-    "ar": "أود أن ___ ببطء أكبر."
-   },
-   "options": [
-    {
-     "es": "hables",
-     "en": "fala",
-     "ar": "fala"
-    },
-    {
-     "es": "hablara",
-     "en": "falasse",
-     "ar": "falasse"
-    },
-    {
-     "es": "hablarías",
-     "en": "falaria",
-     "ar": "falaria"
-    }
-   ],
-   "answer": "hablara",
-   "explanation": {
-    "es": "Después de 'me gustaría que' usamos el imperfecto de subjuntivo: hablaras.",
-    "en": "After 'gostaria que' we use the imperfect subjunctive: falasse.",
-    "ar": "بعد 'gostaria que' نستخدم الماضي الناقص الشرطي: falasse."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce: 'If I were you, I would talk to her.'",
-    "en": "Translate: 'If I were you, I would talk to her.'",
-    "ar": "ترجم: 'If I were you, I would talk to her.'"
-   },
-   "options": [],
-   "answer": "Si yo fuera tú, hablaría con ella.",
-   "explanation": {
-    "es": "Condición irreal: 'si yo fuera tú' + condicional 'hablaría'.",
-    "en": "Unreal condition: 'si yo fuera tú' + conditional 'hablaría'.",
-    "ar": "شرط غير واقعي: 'si yo fuera tú' + الشرطي 'hablaría'."
-   }
-  }
- ]
 }

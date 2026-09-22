@@ -33,97 +33,177 @@
       "es": "la investigación",
       "ipa": "/ˈla inbestiɣaˈsion/",
       "en": "the research",
-      "ar": "البحث"
+      "ar": "البحث",
+      "example": {
+        "es": "La investigación duró dos años.",
+        "en": "The research lasted two years.",
+        "ar": "استمر البحث سنتين."
+      }
     },
     {
       "es": "el científico",
       "ipa": "/ˈel sieˈntifiko/",
       "en": "the scientist",
-      "ar": "العالم"
+      "ar": "العالم",
+      "example": {
+        "es": "El científico publicó sus hallazgos.",
+        "en": "The scientist published his findings.",
+        "ar": "نشر العلماء نتائجه."
+      }
     },
     {
       "es": "el descubrimiento",
       "ipa": "/ˈel deskuβɾiˈmiento/",
       "en": "the discovery",
-      "ar": "الاكتشاف"
+      "ar": "الاكتشاف",
+      "example": {
+        "es": "El descubrimiento fue accidental.",
+        "en": "The discovery was accidental.",
+        "ar": "كان الاكتشاف عرضيًا."
+      }
     },
     {
       "es": "el experimento",
       "ipa": "/ˈel ekspeɾiˈmento/",
       "en": "the experiment",
-      "ar": "التجربة"
+      "ar": "التجربة",
+      "example": {
+        "es": "El experimento falló la primera vez.",
+        "en": "The experiment failed the first time.",
+        "ar": "فشل التجربة في المرة الأولى."
+      }
     },
     {
       "es": "el laboratorio",
       "ipa": "/ˈel laβoɾaˈtoɾio/",
       "en": "the laboratory",
-      "ar": "المختبر"
+      "ar": "المختبر",
+      "example": {
+        "es": "El laboratorio está en el sótano.",
+        "en": "The laboratory is in the basement.",
+        "ar": "المختبر في القبو."
+      }
     },
     {
       "es": "la inteligencia artificial",
       "ipa": "/ˈla inteliˈxensia aɾtifiˈsial/",
       "en": "artificial intelligence",
-      "ar": "الذكاء الاصطناعي"
+      "ar": "الذكاء الاصطناعي",
+      "example": {
+        "es": "La inteligencia artificial transforma industrias.",
+        "en": "Artificial intelligence transforms industries.",
+        "ar": "يحوّل الذكاء الاصطناعي الصناعات."
+      }
     },
     {
       "es": "el dato",
       "ipa": "/ˈel ˈdato/",
       "en": "the data",
-      "ar": "البيانات"
+      "ar": "البيانات",
+      "example": {
+        "es": "El dato clave aparece en la página tres.",
+        "en": "The key data point appears on page three.",
+        "ar": "يظهر المعطى الأساسي في الصفحة الثالثة."
+      }
     },
     {
       "es": "la innovación",
       "ipa": "/ˈla innoβaˈsion/",
       "en": "the innovation",
-      "ar": "الابتكار"
+      "ar": "الابتكار",
+      "example": {
+        "es": "La innovación impulsa el crecimiento.",
+        "en": "Innovation drives growth.",
+        "ar": "تدفع الابتكار النمو."
+      }
     },
     {
       "es": "el avance",
       "ipa": "/ˈel aˈβanse/",
       "en": "the advance",
-      "ar": "التقدم"
+      "ar": "التقدم",
+      "example": {
+        "es": "El avance tecnológico es constante.",
+        "en": "Technological progress is constant.",
+        "ar": "التقدم التكنولوجي مستمر."
+      }
     },
     {
       "es": "el dispositivo",
       "ipa": "/ˈel disposiˈtiβo/",
       "en": "the device",
-      "ar": "الجهاز"
+      "ar": "الجهاز",
+      "example": {
+        "es": "El dispositivo nuevo es muy ligero.",
+        "en": "This device lasts two days on battery.",
+        "ar": "يدوم هذا الجهاز يومين بالبطارية."
+      }
     },
     {
       "es": "la aplicación",
       "ipa": "/ˈla aplikaˈsion/",
       "en": "the app",
-      "ar": "التطبيق"
+      "ar": "التطبيق",
+      "example": {
+        "es": "La aplicación funciona sin conexión.",
+        "en": "The app works offline.",
+        "ar": "يعمل التطبيق دون اتصال."
+      }
     },
     {
       "es": "la red social",
       "ipa": "/ˈla ˈreð soˈsial/",
       "en": "the social network",
-      "ar": "شبكة التواصل الاجتماعي"
+      "ar": "شبكة التواصل الاجتماعي",
+      "example": {
+        "es": "La red social cambió la comunicación.",
+        "en": "The social network changed communication.",
+        "ar": "غيّرت شبكة التواصل التواصل."
+      }
     },
     {
       "es": "la seguridad cibernética",
       "ipa": "/ˈla seɣuɾiˈðað siβeˈɾnetika/",
       "en": "cybersecurity",
-      "ar": "الأمن السيبراني"
+      "ar": "الأمن السيبراني",
+      "example": {
+        "es": "La seguridad cibernética es prioritaria.",
+        "en": "Cybersecurity is a priority.",
+        "ar": "الأمن السيبراني أولوية."
+      }
     },
     {
       "es": "la base de datos",
       "ipa": "/ˈla ˈbase ˈde ˈdatos/",
       "en": "the database",
-      "ar": "قاعدة البيانات"
+      "ar": "قاعدة البيانات",
+      "example": {
+        "es": "La base de datos contiene millones de registros.",
+        "en": "The database contains millions of records.",
+        "ar": "تحتوي قاعدة البيانات على ملايين السجلات."
+      }
     },
     {
       "es": "el algoritmo",
       "ipa": "/ˈel algoˈɾitmo/",
       "en": "the algorithm",
-      "ar": "الخوارزمية"
+      "ar": "الخوارزمية",
+      "example": {
+        "es": "El algoritmo ordena los resultados.",
+        "en": "The algorithm sorts the results.",
+        "ar": "يرتب الخوارزمية النتائج."
+      }
     },
     {
       "es": "desarrollar",
       "ipa": "/desaroˈʝaɾ/",
       "en": "to develop",
-      "ar": "يطور"
+      "ar": "يطور",
+      "example": {
+        "es": "Vamos a desarrollar una nueva versión.",
+        "en": "We are going to develop a new version.",
+        "ar": "سنطور إصدارًا جديدًا."
+      }
     }
   ],
   "grammar": [
@@ -250,14 +330,14 @@
       "type": "multiple_choice",
       "prompt": {
         "es": "El investigador ___ artículo ganó el premio es español.",
-        "en": "The researcher ___ article won the award is Brazilian.",
-        "ar": "الباحث ___ مقالته فازت بالجائزة برازيلي."
+        "en": "The researcher ___ article won the award is Spanish.",
+        "ar": "الباحث ___ مقالته فازت بالجائزة إسباني."
       },
       "options": [
         {
           "es": "cuyo",
-          "en": "cujo",
-          "ar": "cujo"
+          "en": "whose",
+          "ar": "الذي له"
         },
         {
           "es": "que",
@@ -266,8 +346,8 @@
         },
         {
           "es": "el cual",
-          "en": "o qual",
-          "ar": "o qual"
+          "en": "which",
+          "ar": "الذي"
         }
       ],
       "answer": "cuyo",
@@ -287,18 +367,18 @@
       "options": [
         {
           "es": "son",
-          "en": "são",
-          "ar": "são"
+          "en": "are",
+          "ar": "يكونون"
         },
         {
           "es": "eran",
-          "en": "eram",
-          "ar": "eram"
+          "en": "they were",
+          "ar": "كانوا"
         },
         {
           "es": "ser",
-          "en": "serem",
-          "ar": "serem"
+          "en": "to be",
+          "ar": "يكون"
         }
       ],
       "answer": "eran",
@@ -322,6 +402,208 @@
         "en": "Reported speech: 'disse que' + reported clause.",
         "ar": "الكلام المنقول: 'disse que' + الجملة المنقولة."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'artificial intelligence'?",
+        "en": "Which word means 'artificial intelligence'?",
+        "ar": "أي كلمة تعني 'الذكاء الاصطناعي'؟"
+      },
+      "options": [
+        {
+          "es": "el avance",
+          "en": "the advance",
+          "ar": "التقدم"
+        },
+        {
+          "es": "la inteligencia artificial",
+          "en": "artificial intelligence",
+          "ar": "الذكاء الاصطناعي"
+        },
+        {
+          "es": "la innovación",
+          "en": "the innovation",
+          "ar": "الابتكار"
+        }
+      ],
+      "answer": "la inteligencia artificial",
+      "explanation": {
+        "es": "'la inteligencia artificial' significa 'artificial intelligence'.",
+        "en": "'la inteligencia artificial' means 'artificial intelligence'.",
+        "ar": "تعني 'la inteligencia artificial' 'الذكاء الاصطناعي'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the laboratory'",
+        "en": "Choose the Spanish word: 'the laboratory'",
+        "ar": "اختر الكلمة بالإسبانية: 'المختبر'"
+      },
+      "options": [
+        {
+          "es": "el dispositivo",
+          "en": "the device",
+          "ar": "الجهاز"
+        },
+        {
+          "es": "el laboratorio",
+          "en": "the laboratory",
+          "ar": "المختبر"
+        },
+        {
+          "es": "la innovación",
+          "en": "the innovation",
+          "ar": "الابتكار"
+        }
+      ],
+      "answer": "el laboratorio",
+      "explanation": {
+        "es": "'el laboratorio' significa 'the laboratory'.",
+        "en": "'el laboratorio' means 'the laboratory'.",
+        "ar": "تعني 'el laboratorio' 'المختبر'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the algorithm' en español?",
+        "en": "How do you say 'the algorithm' in Spanish?",
+        "ar": "كيف تقول 'الخوارزمية' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "la seguridad cibernética",
+          "en": "cybersecurity",
+          "ar": "الأمن السيبراني"
+        },
+        {
+          "es": "la red social",
+          "en": "the social network",
+          "ar": "شبكة التواصل الاجتماعي"
+        },
+        {
+          "es": "el algoritmo",
+          "en": "the algorithm",
+          "ar": "الخوارزمية"
+        },
+        {
+          "es": "el experimento",
+          "en": "the experiment",
+          "ar": "التجربة"
+        }
+      ],
+      "answer": "el algoritmo",
+      "explanation": {
+        "es": "'el algoritmo' significa 'the algorithm'.",
+        "en": "'el algoritmo' means 'the algorithm'.",
+        "ar": "تعني 'el algoritmo' 'الخوارزمية'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the experiment'?",
+        "en": "Which word means 'the experiment'?",
+        "ar": "أي كلمة تعني 'التجربة'؟"
+      },
+      "options": [
+        {
+          "es": "la seguridad cibernética",
+          "en": "cybersecurity",
+          "ar": "الأمن السيبراني"
+        },
+        {
+          "es": "la aplicación",
+          "en": "the app",
+          "ar": "التطبيق"
+        },
+        {
+          "es": "el experimento",
+          "en": "the experiment",
+          "ar": "التجربة"
+        },
+        {
+          "es": "el descubrimiento",
+          "en": "the discovery",
+          "ar": "الاكتشاف"
+        }
+      ],
+      "answer": "el experimento",
+      "explanation": {
+        "es": "'el experimento' significa 'the experiment'.",
+        "en": "'el experimento' means 'the experiment'.",
+        "ar": "تعني 'el experimento' 'التجربة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"We are going to develop a new version.\"",
+        "en": "Translate into Spanish: \"We are going to develop a new version.\"",
+        "ar": "ترجم إلى الإسبانية: \"سنطور إصدارًا جديدًا.\""
+      },
+      "options": [],
+      "answer": "Vamos a desarrollar una nueva versión.",
+      "explanation": {
+        "es": "Respuesta: \"Vamos a desarrollar una nueva versión.\".",
+        "en": "Answer: \"Vamos a desarrollar una nueva versión.\".",
+        "ar": "الإجابة: \"Vamos a desarrollar una nueva versión.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"It's amazing, but we also need to discuss the risks.\"",
+        "en": "Translate into Spanish: \"It's amazing, but we also need to discuss the risks.\"",
+        "ar": "ترجم إلى الإسبانية: \"إنه لأمر مذهل، لكن يجب أيضًا مناقشة المخاطر.\""
+      },
+      "options": [],
+      "answer": "Es increíble, pero también hay que discutir los riesgos.",
+      "explanation": {
+        "es": "Respuesta: \"Es increíble, pero también hay que discutir los riesgos.\".",
+        "en": "Answer: \"Es increíble, pero también hay que discutir los riesgos.\".",
+        "ar": "الإجابة: \"Es increíble, pero también hay que discutir los riesgos.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Exactly. The challenge is to use technology for everyone's good.\"",
+        "en": "Translate into Spanish: \"Exactly. The challenge is to use technology for everyone's good.\"",
+        "ar": "ترجم إلى الإسبانية: \"صحيح تمامًا. التحدي هو استخدام التكنولوجيا لخير الجميع.\""
+      },
+      "options": [],
+      "answer": "Exacto. El desafío es usar la tecnología para el bien de todos.",
+      "explanation": {
+        "es": "Respuesta: \"Exacto. El desafío es usar la tecnología para el bien de todos.\".",
+        "en": "Answer: \"Exacto. El desafío es usar la tecnología para el bien de todos.\".",
+        "ar": "الإجابة: \"Exacto. El desafío es usar la tecnología para el bien de todos.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Cybersecurity is a priority.\"",
+        "en": "Translate into Spanish: \"Cybersecurity is a priority.\"",
+        "ar": "ترجم إلى الإسبانية: \"الأمن السيبراني أولوية.\""
+      },
+      "options": [],
+      "answer": "La seguridad cibernética es prioritaria.",
+      "explanation": {
+        "es": "Respuesta: \"La seguridad cibernética es prioritaria.\".",
+        "en": "Answer: \"La seguridad cibernética es prioritaria.\".",
+        "ar": "الإجابة: \"La seguridad cibernética es prioritaria.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

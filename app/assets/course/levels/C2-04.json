@@ -38,109 +38,199 @@
       "es": "el contrato",
       "ipa": "/ˈel koˈntɾato/",
       "en": "contract",
-      "ar": "العقد"
+      "ar": "العقد",
+      "example": {
+        "es": "El contrato firma los derechos de las partes.",
+        "en": "The contract seals the rights of the parties.",
+        "ar": "يوقّع العقد حقوق الطرفين."
+      }
     },
     {
       "es": "la cláusula",
       "ipa": "/ˈla ˈklausula/",
       "en": "clause",
-      "ar": "البند"
+      "ar": "البند",
+      "example": {
+        "es": "La cláusula detalla una obligación concreta.",
+        "en": "The clause details a specific obligation.",
+        "ar": "يفصل البند التزامًا محددًا."
+      }
     },
     {
       "es": "el término",
       "ipa": "/ˈel ˈteɾmino/",
       "en": "term / instrument",
-      "ar": "المصطلح / الوثيقة"
+      "ar": "المصطلح / الوثيقة",
+      "example": {
+        "es": "El término legal define el alcance exacto.",
+        "en": "The legal term defines the exact scope.",
+        "ar": "يحدد المصطلح القانوني النطاق الدقيق."
+      }
     },
     {
       "es": "el acusado",
       "ipa": "/ˈel akuˈsaðo/",
       "en": "defendant",
-      "ar": "المدعى عليه"
+      "ar": "المدعى عليه",
+      "example": {
+        "es": "El acusado declaró inocente ante el juez.",
+        "en": "The defendant pleaded innocent before the judge.",
+        "ar": "أنكر المدعى عليه التهمة أمام القاضي."
+      }
     },
     {
       "es": "el juez",
       "ipa": "/ˈel ˈxues/",
       "en": "judge",
-      "ar": "القاضي"
+      "ar": "القاضي",
+      "example": {
+        "es": "El juez dictó sentencia tras la audiencia.",
+        "en": "The judge issued a ruling after the hearing.",
+        "ar": "أصدر القاضي الحكم بعد الجلسة."
+      }
     },
     {
       "es": "la sentencia",
       "ipa": "/ˈla seˈntensia/",
       "en": "sentence / judgment",
-      "ar": "الحكم"
+      "ar": "الحكم",
+      "example": {
+        "es": "La sentencia condena al acusado a tres años.",
+        "en": "The sentence convicts the defendant for three years.",
+        "ar": "تحكم الجملة المدعى عليه بثلاث سنوات."
+      }
     },
     {
       "es": "el recurso",
       "ipa": "/ˈel reˈkuɾso/",
       "en": "appeal",
-      "ar": "الاستئناف / الطعن"
+      "ar": "الاستئناف / الطعن",
+      "example": {
+        "es": "El recurso de apelación se presentó a tiempo.",
+        "en": "The appeal was filed on time.",
+        "ar": "قدّم الاستئناف في وقته."
+      }
     },
     {
       "es": "la audiencia",
       "ipa": "/ˈla auˈðiensia/",
       "en": "hearing",
-      "ar": "الجلسة"
+      "ar": "الجلسة",
+      "example": {
+        "es": "La audiencia pública se celebró el lunes.",
+        "en": "The public hearing took place on Monday.",
+        "ar": "انعقدت الجلسة العامة يوم الاثنين."
+      }
     },
     {
       "es": "la defensa",
       "ipa": "/ˈla deˈfensa/",
       "en": "defense",
-      "ar": "الدفاع"
+      "ar": "الدفاع",
+      "example": {
+        "es": "La defensa presentó nuevas pruebas.",
+        "en": "The defense presented new evidence.",
+        "ar": "قدّمت الدفاع أدلة جديدة."
+      }
     },
     {
       "es": "el testigo",
       "ipa": "/ˈel teˈstiɣo/",
       "en": "witness",
-      "ar": "الشاهد"
+      "ar": "الشاهد",
+      "example": {
+        "es": "El testigo cambió su declaración.",
+        "en": "The witness changed his statement.",
+        "ar": "غيّر الشاهد إفادته."
+      }
     },
     {
       "es": "el informe pericial",
       "ipa": "/ˈel iˈnfoɾme peɾiˈsial/",
       "en": "expert report",
-      "ar": "تقرير الخبير"
+      "ar": "تقرير الخبير",
+      "example": {
+        "es": "El informe pericial confirmó los daños.",
+        "en": "The expert report confirmed the damages.",
+        "ar": "أكّد تقرير الخبير الأضرار."
+      }
     },
     {
       "es": "la jurisprudencia",
       "ipa": "/ˈla xuɾispɾuˈðensia/",
       "en": "case law",
-      "ar": "الفقه القضائي / السوابق"
+      "ar": "الفقه القضائي / السوابق",
+      "example": {
+        "es": "La jurisprudencia fija criterios estables.",
+        "en": "Case law sets stable criteria.",
+        "ar": "تثبّت الفقه القضائي معايير ثابتة."
+      }
     },
     {
       "es": "el artículo",
       "ipa": "/ˈel aˈɾtikulo/",
       "en": "provision / operative part",
-      "ar": "النص الحكمي"
+      "ar": "النص الحكمي",
+      "example": {
+        "es": "El artículo del contrato define plazos.",
+        "en": "The provision of the contract sets deadlines.",
+        "ar": "يحدد النص الحكمي المواعيد."
+      }
     },
     {
       "es": "el dictamen",
       "ipa": "/ˈel diˈktamen/",
       "en": "legal opinion",
-      "ar": "رأي قانوني / تقرير"
+      "ar": "رأي قانوني / تقرير",
+      "example": {
+        "es": "El dictamen del asesor fue favorable.",
+        "en": "The legal opinion of the advisor was favorable.",
+        "ar": "كان رأي المستشار القانوني مؤيدًا."
+      }
     },
     {
       "es": "la sumilla",
       "ipa": "/ˈla suˈmiʝa/",
       "en": "headnote / abstract",
-      "ar": "الملخص / التذييل"
+      "ar": "الملخص / التذييل",
+      "example": {
+        "es": "La sumilla resume el fallo completo.",
+        "en": "The headnote summarizes the full ruling.",
+        "ar": "يلخّص الملخص الحكم الكامل."
+      }
     },
     {
       "es": "la homologación",
       "ipa": "/ˈla omoloɣaˈsion/",
       "en": "ratification",
-      "ar": "التصديق"
+      "ar": "التصديق",
+      "example": {
+        "es": "La homologación del acuerdo llegó tarde.",
+        "en": "The ratification of the agreement arrived late.",
+        "ar": "تأخر التصديق على الاتفاق."
+      }
     },
     {
       "es": "el anexo",
       "ipa": "/ˈel aˈnekso/",
       "en": "addendum / amendment",
-      "ar": "الملحق التعديلي"
+      "ar": "الملحق التعديلي",
+      "example": {
+        "es": "El anexo modifica tres cláusulas.",
+        "en": "The addendum modifies three clauses.",
+        "ar": "يعدّل الملحق التعديلي ثلاثة بنود."
+      }
     },
     {
       "es": "el poder notarial",
       "ipa": "/ˈel poˈðeɾ notaˈɾial/",
       "en": "power of attorney",
-      "ar": "التوكيل"
+      "ar": "التوكيل",
+      "example": {
+        "es": "El poder notarial autoriza a un representante.",
+        "en": "The power of attorney authorizes a representative.",
+        "ar": "يخوّل التوكيل ممثلًا."
+      }
     }
   ],
   "grammar": [
@@ -269,18 +359,18 @@
       "options": [
         {
           "es": "Se firmó el acuerdo entre las partes.",
-          "en": "Firmou-se o acordo entre as partes.",
-          "ar": "Firmou-se o acordo entre as partes."
+          "en": "The agreement was signed between parties.",
+          "ar": "وُقّع الاتفاق بين الطرفين."
         },
         {
           "es": "Se vende apartamentos en plano. (incorrecto)",
-          "en": "Vende-se apartamentos na planta.",
-          "ar": "Vende-se apartamentos na planta."
+          "en": "Apartments sold off-plan incorrect.",
+          "ar": "شقق تُباع على المخطط (خطأ)."
         },
         {
           "es": "Se necesitan abogados expertos.",
-          "en": "Precisa-se de advogados experientes.",
-          "ar": "Precisa-se de advogados experientes."
+          "en": "Expert lawyers are needed.",
+          "ar": "يُحتاج إلى محامين خبراء."
         }
       ],
       "answer": "Se firmó el acuerdo entre las partes.",
@@ -325,8 +415,8 @@
       "type": "translation",
       "prompt": {
         "es": "Traduce al español: 'the appeal was partially prejudiced'",
-        "en": "Translate into Portuguese: 'the appeal was partially prejudiced'",
-        "ar": "ترجم إلى البرتغالية: 'the appeal was partially prejudiced'"
+        "en": "Translate into Spanish: 'the appeal was partially prejudiced'",
+        "ar": "ترجم إلى بالإسبانية: 'the appeal was partially prejudiced'"
       },
       "options": [],
       "answer": "el recurso fue parcialmente desestimado",
@@ -335,6 +425,198 @@
         "en": "The answer uses the analytic passive, typical of the legal register.",
         "ar": "الجواب يستخدم المبني للمجهول التحليلي، وهو سمة المستوى القانوني."
       }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'headnote / abstract'?",
+        "en": "Which word means 'headnote / abstract'?",
+        "ar": "أي كلمة تعني 'الملخص / التذييل'؟"
+      },
+      "options": [
+        {
+          "es": "la sumilla",
+          "en": "headnote / abstract",
+          "ar": "الملخص / التذييل"
+        },
+        {
+          "es": "la defensa",
+          "en": "defense",
+          "ar": "الدفاع"
+        },
+        {
+          "es": "el contrato",
+          "en": "contract",
+          "ar": "العقد"
+        }
+      ],
+      "answer": "la sumilla",
+      "explanation": {
+        "es": "'la sumilla' significa 'headnote / abstract'.",
+        "en": "'la sumilla' means 'headnote / abstract'.",
+        "ar": "تعني 'la sumilla' 'الملخص / التذييل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'power of attorney'",
+        "en": "Choose the Spanish word: 'power of attorney'",
+        "ar": "اختر الكلمة بالإسبانية: 'التوكيل'"
+      },
+      "options": [
+        {
+          "es": "la defensa",
+          "en": "defense",
+          "ar": "الدفاع"
+        },
+        {
+          "es": "el anexo",
+          "en": "addendum / amendment",
+          "ar": "الملحق التعديلي"
+        },
+        {
+          "es": "el poder notarial",
+          "en": "power of attorney",
+          "ar": "التوكيل"
+        }
+      ],
+      "answer": "el poder notarial",
+      "explanation": {
+        "es": "'el poder notarial' significa 'power of attorney'.",
+        "en": "'el poder notarial' means 'power of attorney'.",
+        "ar": "تعني 'el poder notarial' 'التوكيل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'expert report' en español?",
+        "en": "How do you say 'expert report' in Spanish?",
+        "ar": "كيف تقول 'تقرير الخبير' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el informe pericial",
+          "en": "expert report",
+          "ar": "تقرير الخبير"
+        },
+        {
+          "es": "el término",
+          "en": "term / instrument",
+          "ar": "المصطلح / الوثيقة"
+        },
+        {
+          "es": "el dictamen",
+          "en": "legal opinion",
+          "ar": "رأي قانوني / تقرير"
+        }
+      ],
+      "answer": "el informe pericial",
+      "explanation": {
+        "es": "'el informe pericial' significa 'expert report'.",
+        "en": "'el informe pericial' means 'expert report'.",
+        "ar": "تعني 'el informe pericial' 'تقرير الخبير'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'addendum / amendment'?",
+        "en": "Which word means 'addendum / amendment'?",
+        "ar": "أي كلمة تعني 'الملحق التعديلي'؟"
+      },
+      "options": [
+        {
+          "es": "el anexo",
+          "en": "addendum / amendment",
+          "ar": "الملحق التعديلي"
+        },
+        {
+          "es": "el artículo",
+          "en": "provision / operative part",
+          "ar": "النص الحكمي"
+        },
+        {
+          "es": "la homologación",
+          "en": "ratification",
+          "ar": "التصديق"
+        }
+      ],
+      "answer": "el anexo",
+      "explanation": {
+        "es": "'el anexo' significa 'addendum / amendment'.",
+        "en": "'el anexo' means 'addendum / amendment'.",
+        "ar": "تعني 'el anexo' 'الملحق التعديلي'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Case law sets stable criteria.\"",
+        "en": "Translate into Spanish: \"Case law sets stable criteria.\"",
+        "ar": "ترجم إلى الإسبانية: \"تثبّت الفقه القضائي معايير ثابتة.\""
+      },
+      "options": [],
+      "answer": "La jurisprudencia fija criterios estables.",
+      "explanation": {
+        "es": "Respuesta: \"La jurisprudencia fija criterios estables.\".",
+        "en": "Answer: \"La jurisprudencia fija criterios estables.\".",
+        "ar": "الإجابة: \"La jurisprudencia fija criterios estables.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The expert report has been ratified, and the judgment will be published on Friday.\"",
+        "en": "Translate into Spanish: \"The expert report has been ratified, and the judgment will be published on Friday.\"",
+        "ar": "ترجم إلى الإسبانية: \"تم التصديق على تقرير الخبير، وسيُنشر الحكم يوم الجمعة.\""
+      },
+      "options": [],
+      "answer": "El informe pericial fue homologado y la sentencia se publicará el viernes.",
+      "explanation": {
+        "es": "Respuesta: \"El informe pericial fue homologado y la sentencia se publicará el viernes.\".",
+        "en": "Answer: \"El informe pericial fue homologado y la sentencia se publicará el viernes.\".",
+        "ar": "الإجابة: \"El informe pericial fue homologado y la sentencia se publicará el viernes.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The witness changed his statement.\"",
+        "en": "Translate into Spanish: \"The witness changed his statement.\"",
+        "ar": "ترجم إلى الإسبانية: \"غيّر الشاهد إفادته.\""
+      },
+      "options": [],
+      "answer": "El testigo cambió su declaración.",
+      "explanation": {
+        "es": "Respuesta: \"El testigo cambió su declaración.\".",
+        "en": "Answer: \"El testigo cambió su declaración.\".",
+        "ar": "الإجابة: \"El testigo cambió su declaración.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The judge issued a ruling after the hearing.\"",
+        "en": "Translate into Spanish: \"The judge issued a ruling after the hearing.\"",
+        "ar": "ترجم إلى الإسبانية: \"أصدر القاضي الحكم بعد الجلسة.\""
+      },
+      "options": [],
+      "answer": "El juez dictó sentencia tras la audiencia.",
+      "explanation": {
+        "es": "Respuesta: \"El juez dictó sentencia tras la audiencia.\".",
+        "en": "Answer: \"El juez dictó sentencia tras la audiencia.\".",
+        "ar": "الإجابة: \"El juez dictó sentencia tras la audiencia.\"."
+      },
+      "gen": "v1.8"
     }
   ]
 }

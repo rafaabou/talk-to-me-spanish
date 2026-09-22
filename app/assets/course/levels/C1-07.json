@@ -1,327 +1,609 @@
 {
- "id": "C1-07",
- "level": "C1",
- "level_name": {
-  "es": "Avanzado",
-  "en": "Advanced",
-  "ar": "متقدم"
- },
- "title": {
-  "es": "Redacción Formal: Cartas y Correos",
-  "en": "Formal Writing: Letters and Emails",
-  "ar": "الكتابة الرسمية: الرسائل والبريد"
- },
- "objectives": [
-  {
-   "es": "Escribir cartas y correos formales en español",
-   "en": "Write formal letters and emails in Portuguese",
-   "ar": "كتابة رسائل رسمية وبريد إلكتروني بالبرتغالية"
+  "id": "C1-07",
+  "level": "C1",
+  "level_name": {
+    "es": "Avanzado",
+    "en": "Advanced",
+    "ar": "متقدم"
   },
-  {
-   "es": "Usar fórmulas de cortesía y tratamiento adecuadas",
-   "en": "Use appropriate courtesy and address formulas",
-   "ar": "استخدام عبارات المجاملة والخطاب المناسبة"
-  },
-  {
-   "es": "Adecuar el registro a la situación comunicativa",
-   "en": "Adjust the register to the communicative situation",
-   "ar": "تكييف المستوى اللغوي مع موقف التواصل"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "la carta formal",
-   "ipa": "/ˈla ˈkaɾta foˈɾmal/",
-   "en": "the formal letter",
-   "ar": "الرسالة الرسمية"
-  },
-  {
-   "es": "el correo electrónico",
-   "ipa": "/ˈel ˈkoreo eleˈktɾoniko/",
-   "en": "the email",
-   "ar": "البريد الإلكتروني"
-  },
-  {
-   "es": "el destinatario",
-   "ipa": "/ˈel destinaˈtaɾio/",
-   "en": "the recipient",
-   "ar": "المرسل إليه"
-  },
-  {
-   "es": "el remitente",
-   "ipa": "/ˈel remiˈtente/",
-   "en": "the sender",
-   "ar": "المرسل"
-  },
-  {
-   "es": "el asunto",
-   "ipa": "/ˈel aˈsunto/",
-   "en": "the subject",
-   "ar": "الموضوع"
-  },
-  {
-   "es": "el adjunto",
-   "ipa": "/ˈel aˈðxunto/",
-   "en": "the attachment",
-   "ar": "المرفق"
-  },
-  {
-   "es": "el saludo",
-   "ipa": "/ˈel saˈluðo/",
-   "en": "the greeting",
-   "ar": "التحية"
-  },
-  {
-   "es": "la despedida",
-   "ipa": "/ˈla despeˈðiða/",
-   "en": "the salutation",
-   "ar": "التحية، السلام"
-  },
-  {
-   "es": "el cierre",
-   "ipa": "/ˈel ˈsiere/",
-   "en": "the closing",
-   "ar": "الخاتمة، التوديع"
-  },
-  {
-   "es": "cordialmente",
-   "ipa": "/koɾdiaˈlmente/",
-   "en": "cordially",
-   "ar": "باحترام، بتحية طيبة"
-  },
-  {
-   "es": "atentamente",
-   "ipa": "/atentaˈmente/",
-   "en": "sincerely",
-   "ar": "مع خالص التحية"
-  },
-  {
-   "es": "la solicitud",
-   "ipa": "/ˈla solisiˈtuð/",
-   "en": "the request",
-   "ar": "الطلب"
-  },
-  {
-   "es": "la aclaración",
-   "ipa": "/ˈla aklaɾaˈsion/",
-   "en": "the clarification",
-   "ar": "التوضيح"
-  },
-  {
-   "es": "agradecer",
-   "ipa": "/aɣɾaðeˈseɾ/",
-   "en": "to thank",
-   "ar": "يشكر"
-  },
-  {
-   "es": "enviar",
-   "ipa": "/eˈnbiaɾ/",
-   "en": "to forward",
-   "ar": "يحيل، يوجّه"
-  },
-  {
-   "es": "adjuntar",
-   "ipa": "/aðxuˈntaɾ/",
-   "en": "to attach",
-   "ar": "يرفق"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Fórmulas de Cortesía y Tratamiento",
-    "en": "Courtesy and Address Formulas",
-    "ar": "عبارات المجاملة والخطاب"
-   },
-   "explanation": {
-    "es": "La correspondencia formal comienza con 'Estimado(a) Sr.(a)' o 'Apreciado(a) Sr.(a)' y termina con 'Atentamente' o 'Cordialmente'. Verbos como 'solicitar', 'enviar' y 'agradecer' aparecen en estructuras fijas: 'Me dirijo a usted para solicitar...', 'Quedo a su disposición para aclaraciones'. El tratamiento usa 'usted' según el grado de formalidad.",
-    "en": "Formal correspondence begins with 'Estimado(a) Sr.(a)' (Dear Sir/Madam) or 'Apreciado(a)' and ends with 'Atentamente' (Sincerely) or 'Cordialmente' (Cordially). Verbs like 'solicitar' (to request), 'enviar' (to send) and 'agradecer' (to thank) appear in fixed structures: 'Me dirijo a usted para solicitar...', 'Quedo a su disposición para aclaraciones'. Address uses 'usted' depending on the degree of formality.",
-    "ar": "يبدأ البريد الرسمي بعبارة 'Estimado(a) Sr.(a)' (السيد الفاضل/السيدة الفاضلة) أو 'Apreciado(a)' وينتهي بـ 'Atentamente' (بإخلاص) أو 'Cordialmente' (بكل تقدير). وتظهر أفعال مثل 'solicitar' (يطلب) و'enviar' (يرسل) و'agradecer' (يشكر) في تراكيب ثابتة: 'Me dirijo a usted para solicitar...' (أكتب إليكم لأطلب...)، 'Quedo a su disposición para aclaraciones' (وأبقى تحت تصرفكم للتوضيحات). ويُستخدم 'usted' بحسب درجة الرسمية."
-   },
-   "examples": [
-    {
-     "es": "Estimado señor, agradecemos su contacto.",
-     "en": "Dear Sir, we thank you for your contact.",
-     "ar": "عزيزي السيد، نشكركم على تواصلكم."
-    },
-    {
-     "es": "Me dirijo a usted para solicitar una aclaración.",
-     "en": "I am writing to request a clarification.",
-     "ar": "أكتب إليكم من خلال هذه الرسالة لأطلب توضيحًا."
-    },
-    {
-     "es": "Quedo a su disposición para cualquier aclaración adicional.",
-     "en": "I remain at your disposal for any further clarification.",
-     "ar": "أبقى تحت تصرفكم لأي توضيح إضافي."
-    },
-    {
-     "es": "Atentamente, María Silva.",
-     "en": "Sincerely, Maria Silva.",
-     "ar": "مع خالص التحية، ماريا سيلفا."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Del Registro Informal al Formal",
-    "en": "From Informal to Formal Register",
-    "ar": "من المستوى غير الرسمي إلى الرسمي"
-   },
-   "explanation": {
-    "es": "En el registro formal se evita la jerga y las reducciones: 'quiero' se vuelve 'quisiera solicitar'; 'manda' se vuelve 'envía'. La estructura de la frase es más completa y el vocabulario más preciso. Frases como 'Necesito el documento' se vuelven 'Quisiera solicitar el documento referido'.",
-    "en": "In the formal register, slang and reductions are avoided: 'quiero' becomes 'quisiera solicitar'; 'manda' becomes 'envía'. Sentence structure is more complete and vocabulary more precise. Phrases like 'Necesito el documento' become 'Quisiera solicitar el documento referido'.",
-    "ar": "في المستوى الرسمي تُتجنب العامية والاختصارات: 'quiero' تصبح 'quisiera solicitar'، و'manda' تصبح 'envía'. تصبح بنية الجملة أكثر اكتمالًا والمفردات أدق. فعبارة 'Necesito el documento' تصبح 'Quisiera solicitar el documento referido'."
-   },
-   "examples": [
-    {
-     "es": "Quisiera solicitar la renovación del contrato.",
-     "en": "I would like to request the contract renewal.",
-     "ar": "أود طلب تجديد العقد."
-    },
-    {
-     "es": "Envío adjunto el documento solicitado.",
-     "en": "I am forwarding the requested document as an attachment.",
-     "ar": "أرفق لكم الوثيقة المطلوبة."
-    },
-    {
-     "es": "Le agradezco de antemano la atención prestada.",
-     "en": "I thank you in advance for your attention.",
-     "ar": "أشكركم مقدمًا على حسن الاهتمام."
-    },
-    {
-     "es": "Espero su respuesta a lo largo de la próxima semana.",
-     "en": "I await your reply during the coming week.",
-     "ar": "أنتظر ردكم خلال الأسبوع القادم."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "Confirmando una Reunión",
-   "en": "Confirming a Meeting",
-   "ar": "تأكيد اجتماع"
+    "es": "Redacción Formal: Cartas y Correos",
+    "en": "Formal Writing: Letters and Emails",
+    "ar": "الكتابة الرسمية: الرسائل والبريد"
   },
-  "lines": [
-   {
-    "speaker": "Cliente",
-    "es": "Estimado Dr. Martins, le escribo para confirmar la reunión del viernes.",
-    "en": "Dear Dr. Martins, I am writing to confirm Friday's meeting.",
-    "ar": "عزيزي الدكتور مارتنز، أكتب إليكم لتأكيد اجتماع يوم الجمعة."
-   },
-   {
-    "speaker": "Dr. Martins",
-    "es": "Estimado Sr. Lopes, agradezco su contacto y confirmo el horario de las diez.",
-    "en": "Dear Mr. Lopes, I thank you for your contact and confirm the ten o'clock slot.",
-    "ar": "عزيزي السيد لوبيز، أشكركم على تواصلكم وأؤكد موعد الساعة العاشرة."
-   },
-   {
-    "speaker": "Cliente",
-    "es": "Envío adjunto el orden del día de la reunión para su análisis.",
-    "en": "I am forwarding the meeting agenda as an attachment for your review.",
-    "ar": "أرفق لكم جدول أعمال الاجتماع لاطلاعكم عليه."
-   },
-   {
-    "speaker": "Dr. Martins",
-    "es": "Recibido. Si necesita aclaraciones, estoy a su disposición.",
-    "en": "Received. Should you need clarifications, I am at your disposal.",
-    "ar": "تم الاستلام. إذا احتجتم أي توضيحات، فأنا تحت تصرفكم."
-   },
-   {
-    "speaker": "Cliente",
-    "es": "Quedo a su disposición también. Atentamente, Antonio Lopes.",
-    "en": "I am at your disposal as well. Sincerely, Antônio Lopes.",
-    "ar": "وأنا أيضًا تحت تصرفكم. مع خالص التحية، أنطونيو لوبيز."
-   }
+  "objectives": [
+    {
+      "es": "Escribir cartas y correos formales en español",
+      "en": "Write formal letters and emails in Portuguese",
+      "ar": "كتابة رسائل رسمية وبريد إلكتروني بالبرتغالية"
+    },
+    {
+      "es": "Usar fórmulas de cortesía y tratamiento adecuadas",
+      "en": "Use appropriate courtesy and address formulas",
+      "ar": "استخدام عبارات المجاملة والخطاب المناسبة"
+    },
+    {
+      "es": "Adecuar el registro a la situación comunicativa",
+      "en": "Adjust the register to the communicative situation",
+      "ar": "تكييف المستوى اللغوي مع موقف التواصل"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la carta formal",
+      "ipa": "/ˈla ˈkaɾta foˈɾmal/",
+      "en": "the formal letter",
+      "ar": "الرسالة الرسمية",
+      "example": {
+        "es": "En la carta formal no se usan contracciones.",
+        "en": "In a formal letter contractions are not used.",
+        "ar": "لا تُستخدم الصفائح في الرسالة الرسمية."
+      }
+    },
+    {
+      "es": "el correo electrónico",
+      "ipa": "/ˈel ˈkoreo eleˈktɾoniko/",
+      "en": "the email",
+      "ar": "البريد الإلكتروني",
+      "example": {
+        "es": "El correo electrónico requiere asunto claro.",
+        "en": "The email requires a clear subject line.",
+        "ar": "يتطلب البريد الإلكتروني موضوعًا واضحًا."
+      }
+    },
+    {
+      "es": "el destinatario",
+      "ipa": "/ˈel destinaˈtaɾio/",
+      "en": "the recipient",
+      "ar": "المرسل إليه",
+      "example": {
+        "es": "El destinatario recibió la respuesta pronto.",
+        "en": "The recipient received the reply soon.",
+        "ar": "تلقى المرسل إليه الرد سريعًا."
+      }
+    },
+    {
+      "es": "el remitente",
+      "ipa": "/ˈel remiˈtente/",
+      "en": "the sender",
+      "ar": "المرسل",
+      "example": {
+        "es": "El remitente olvidó la firma.",
+        "en": "The sender forgot the signature.",
+        "ar": "نسي المرسل التوقيع."
+      }
+    },
+    {
+      "es": "el asunto",
+      "ipa": "/ˈel aˈsunto/",
+      "en": "the subject",
+      "ar": "الموضوع",
+      "example": {
+        "es": "El asunto debe ser breve y preciso.",
+        "en": "The subject must be brief and precise.",
+        "ar": "يجب أن يكون الموضوع موجزًا دقيقًا."
+      }
+    },
+    {
+      "es": "el adjunto",
+      "ipa": "/ˈel aˈðxunto/",
+      "en": "the attachment",
+      "ar": "المرفق",
+      "example": {
+        "es": "El adjunto contiene los gráficos.",
+        "en": "The attachment contains the charts.",
+        "ar": "يحتوي المرفق على الرسوم البيانية."
+      }
+    },
+    {
+      "es": "el saludo",
+      "ipa": "/ˈel saˈluðo/",
+      "en": "the greeting",
+      "ar": "التحية",
+      "example": {
+        "es": "El saludo inicial da la bienvenida.",
+        "en": "The opening greeting welcomes.",
+        "ar": "تحية الافتتاح ترحب."
+      }
+    },
+    {
+      "es": "la despedida",
+      "ipa": "/ˈla despeˈðiða/",
+      "en": "the salutation",
+      "ar": "التحية، السلام",
+      "example": {
+        "es": "La despedida es cordial pero breve.",
+        "en": "The closing is cordial but brief.",
+        "ar": "الختام ودّي لكنه موجز."
+      }
+    },
+    {
+      "es": "el cierre",
+      "ipa": "/ˈel ˈsiere/",
+      "en": "the closing",
+      "ar": "الخاتمة، التوديع",
+      "example": {
+        "es": "El cierre repite el motivo del correo.",
+        "en": "The closing restates the email's purpose.",
+        "ar": "يعيد الخاتمة غرض البريد."
+      }
+    },
+    {
+      "es": "cordialmente",
+      "ipa": "/koɾdiaˈlmente/",
+      "en": "cordially",
+      "ar": "باحترام، بتحية طيبة",
+      "example": {
+        "es": "Firmé cordialmente al final.",
+        "en": "I signed cordially at the end.",
+        "ar": "وقعت باحترام في النهاية."
+      }
+    },
+    {
+      "es": "atentamente",
+      "ipa": "/atentaˈmente/",
+      "en": "sincerely",
+      "ar": "مع خالص التحية",
+      "example": {
+        "es": "La fórmula atentamente es formal.",
+        "en": "The formula atentamente is formal.",
+        "ar": "عبارة atentamente رسمية."
+      }
+    },
+    {
+      "es": "la solicitud",
+      "ipa": "/ˈla solisiˈtuð/",
+      "en": "the request",
+      "ar": "الطلب",
+      "example": {
+        "es": "La solicitud de visa requiere fotos.",
+        "en": "The visa request requires photos.",
+        "ar": "يتطلب طلب التأشيرة صورًا."
+      }
+    },
+    {
+      "es": "la aclaración",
+      "ipa": "/ˈla aklaɾaˈsion/",
+      "en": "the clarification",
+      "ar": "التوضيح",
+      "example": {
+        "es": "La aclaración llegó anoche.",
+        "en": "I asked for a clarification by email.",
+        "ar": "طلبت توضيحًا عبر البريد."
+      }
+    },
+    {
+      "es": "agradecer",
+      "ipa": "/aɣɾaðeˈseɾ/",
+      "en": "to thank",
+      "ar": "يشكر",
+      "example": {
+        "es": "Quiero agradecer tu pronta respuesta.",
+        "en": "I want to thank you for your quick reply.",
+        "ar": "أريد شكرك على ردك السريع."
+      }
+    },
+    {
+      "es": "enviar",
+      "ipa": "/eˈnbiaɾ/",
+      "en": "to forward",
+      "ar": "يحيل، يوجّه",
+      "example": {
+        "es": "Enviaré el documento firmado mañana.",
+        "en": "I will send the signed document tomorrow.",
+        "ar": "سأرسل المستند الموقع غدًا."
+      }
+    },
+    {
+      "es": "adjuntar",
+      "ipa": "/aðxuˈntaɾ/",
+      "en": "to attach",
+      "ar": "يرفق",
+      "example": {
+        "es": "No olvides adjuntar la factura.",
+        "en": "Do not forget to attach the invoice.",
+        "ar": "لا تنس إرفاق الفاتورة."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Fórmulas de Cortesía y Tratamiento",
+        "en": "Courtesy and Address Formulas",
+        "ar": "عبارات المجاملة والخطاب"
+      },
+      "explanation": {
+        "es": "La correspondencia formal comienza con 'Estimado(a) Sr.(a)' o 'Apreciado(a) Sr.(a)' y termina con 'Atentamente' o 'Cordialmente'. Verbos como 'solicitar', 'enviar' y 'agradecer' aparecen en estructuras fijas: 'Me dirijo a usted para solicitar...', 'Quedo a su disposición para aclaraciones'. El tratamiento usa 'usted' según el grado de formalidad.",
+        "en": "Formal correspondence begins with 'Estimado(a) Sr.(a)' (Dear Sir/Madam) or 'Apreciado(a)' and ends with 'Atentamente' (Sincerely) or 'Cordialmente' (Cordially). Verbs like 'solicitar' (to request), 'enviar' (to send) and 'agradecer' (to thank) appear in fixed structures: 'Me dirijo a usted para solicitar...', 'Quedo a su disposición para aclaraciones'. Address uses 'usted' depending on the degree of formality.",
+        "ar": "يبدأ البريد الرسمي بعبارة 'Estimado(a) Sr.(a)' (السيد الفاضل/السيدة الفاضلة) أو 'Apreciado(a)' وينتهي بـ 'Atentamente' (بإخلاص) أو 'Cordialmente' (بكل تقدير). وتظهر أفعال مثل 'solicitar' (يطلب) و'enviar' (يرسل) و'agradecer' (يشكر) في تراكيب ثابتة: 'Me dirijo a usted para solicitar...' (أكتب إليكم لأطلب...)، 'Quedo a su disposición para aclaraciones' (وأبقى تحت تصرفكم للتوضيحات). ويُستخدم 'usted' بحسب درجة الرسمية."
+      },
+      "examples": [
+        {
+          "es": "Estimado señor, agradecemos su contacto.",
+          "en": "Dear Sir, we thank you for your contact.",
+          "ar": "عزيزي السيد، نشكركم على تواصلكم."
+        },
+        {
+          "es": "Me dirijo a usted para solicitar una aclaración.",
+          "en": "I am writing to request a clarification.",
+          "ar": "أكتب إليكم من خلال هذه الرسالة لأطلب توضيحًا."
+        },
+        {
+          "es": "Quedo a su disposición para cualquier aclaración adicional.",
+          "en": "I remain at your disposal for any further clarification.",
+          "ar": "أبقى تحت تصرفكم لأي توضيح إضافي."
+        },
+        {
+          "es": "Atentamente, María Silva.",
+          "en": "Sincerely, Maria Silva.",
+          "ar": "مع خالص التحية، ماريا سيلفا."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Del Registro Informal al Formal",
+        "en": "From Informal to Formal Register",
+        "ar": "من المستوى غير الرسمي إلى الرسمي"
+      },
+      "explanation": {
+        "es": "En el registro formal se evita la jerga y las reducciones: 'quiero' se vuelve 'quisiera solicitar'; 'manda' se vuelve 'envía'. La estructura de la frase es más completa y el vocabulario más preciso. Frases como 'Necesito el documento' se vuelven 'Quisiera solicitar el documento referido'.",
+        "en": "In the formal register, slang and reductions are avoided: 'quiero' becomes 'quisiera solicitar'; 'manda' becomes 'envía'. Sentence structure is more complete and vocabulary more precise. Phrases like 'Necesito el documento' become 'Quisiera solicitar el documento referido'.",
+        "ar": "في المستوى الرسمي تُتجنب العامية والاختصارات: 'quiero' تصبح 'quisiera solicitar'، و'manda' تصبح 'envía'. تصبح بنية الجملة أكثر اكتمالًا والمفردات أدق. فعبارة 'Necesito el documento' تصبح 'Quisiera solicitar el documento referido'."
+      },
+      "examples": [
+        {
+          "es": "Quisiera solicitar la renovación del contrato.",
+          "en": "I would like to request the contract renewal.",
+          "ar": "أود طلب تجديد العقد."
+        },
+        {
+          "es": "Envío adjunto el documento solicitado.",
+          "en": "I am forwarding the requested document as an attachment.",
+          "ar": "أرفق لكم الوثيقة المطلوبة."
+        },
+        {
+          "es": "Le agradezco de antemano la atención prestada.",
+          "en": "I thank you in advance for your attention.",
+          "ar": "أشكركم مقدمًا على حسن الاهتمام."
+        },
+        {
+          "es": "Espero su respuesta a lo largo de la próxima semana.",
+          "en": "I await your reply during the coming week.",
+          "ar": "أنتظر ردكم خلال الأسبوع القادم."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "Confirmando una Reunión",
+      "en": "Confirming a Meeting",
+      "ar": "تأكيد اجتماع"
+    },
+    "lines": [
+      {
+        "speaker": "Cliente",
+        "es": "Estimado Dr. Martins, le escribo para confirmar la reunión del viernes.",
+        "en": "Dear Dr. Martins, I am writing to confirm Friday's meeting.",
+        "ar": "عزيزي الدكتور مارتنز، أكتب إليكم لتأكيد اجتماع يوم الجمعة."
+      },
+      {
+        "speaker": "Dr. Martins",
+        "es": "Estimado Sr. Lopes, agradezco su contacto y confirmo el horario de las diez.",
+        "en": "Dear Mr. Lopes, I thank you for your contact and confirm the ten o'clock slot.",
+        "ar": "عزيزي السيد لوبيز، أشكركم على تواصلكم وأؤكد موعد الساعة العاشرة."
+      },
+      {
+        "speaker": "Cliente",
+        "es": "Envío adjunto el orden del día de la reunión para su análisis.",
+        "en": "I am forwarding the meeting agenda as an attachment for your review.",
+        "ar": "أرفق لكم جدول أعمال الاجتماع لاطلاعكم عليه."
+      },
+      {
+        "speaker": "Dr. Martins",
+        "es": "Recibido. Si necesita aclaraciones, estoy a su disposición.",
+        "en": "Received. Should you need clarifications, I am at your disposal.",
+        "ar": "تم الاستلام. إذا احتجتم أي توضيحات، فأنا تحت تصرفكم."
+      },
+      {
+        "speaker": "Cliente",
+        "es": "Quedo a su disposición también. Atentamente, Antonio Lopes.",
+        "en": "I am at your disposal as well. Sincerely, Antônio Lopes.",
+        "ar": "وأنا أيضًا تحت تصرفكم. مع خالص التحية، أنطونيو لوبيز."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "El Correo Corporativo",
+      "en": "The Corporate Email",
+      "ar": "البريد الإلكتروني المؤسسي"
+    },
+    "text_es": "Un buen correo formal comienza con un asunto claro y un saludo adecuado. El texto se organiza en párrafos cortos: presenta el motivo, explica la petición y propone un plazo. Al final, el remitente agradece y se pone a disposición. Esta estructura transmite profesionalismo y respeto al destinatario.",
+    "text_en": "A good formal email starts with a clear subject and an appropriate salutation. The text is organized into short paragraphs: it presents the reason, explains the request and proposes a deadline. At the end, the sender thanks and offers their availability. This structure conveys professionalism and respect for the recipient.",
+    "text_ar": "يبدأ البريد الرسمي الجيد بموضوع واضح وتحية مناسبة. وينظم النص في فقرات قصيرة: يقدم السبب، ويشرح الطلب، ويقترح موعدًا. وفي النهاية يشكر المرسل ويعرض نفسه تحت تصرف المرسل إليه. ينقل هذا الهيكل الاحترافية والاحترام للمتلقي."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué fórmula es adecuada para iniciar una carta formal?",
+        "en": "Which formula is appropriate to start a formal letter?",
+        "ar": "أي عبارة مناسبة لبدء رسالة رسمية؟"
+      },
+      "options": [
+        {
+          "es": "Estimado señor,",
+          "en": "Dear Sir,",
+          "ar": "عزيزي السيد،"
+        },
+        {
+          "es": "¿Qué tal, tío?,",
+          "en": "What's up, man,",
+          "ar": "ما أخبارك يا صديقي،"
+        },
+        {
+          "es": "Hola, ¿todo bien?",
+          "en": "Hi, all good?",
+          "ar": "مرحبًا، كل شيء بخير؟"
+        }
+      ],
+      "answer": "Estimado señor,",
+      "explanation": {
+        "es": "'Estimado señor' es el saludo formal; las demás son informales.",
+        "en": "'Prezado Senhor' is the formal salutation; the others are informal.",
+        "ar": "'Prezado Senhor' هي التحية الرسمية، أما البقية فغير رسمية."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Completa con el registro formal: '______ adjunto el informe.'",
+        "en": "Complete in the formal register: '______ em anexo o relatório.'",
+        "ar": "أكمل بالمستوى الرسمي: '______ em anexo o relatório.'"
+      },
+      "options": [
+        {
+          "es": "Mando",
+          "en": "Mando",
+          "ar": "Mando"
+        },
+        {
+          "es": "Envío",
+          "en": "I send",
+          "ar": "أرسل"
+        },
+        {
+          "es": "Tiro",
+          "en": "I throw",
+          "ar": "أرمي"
+        }
+      ],
+      "answer": "Envío",
+      "explanation": {
+        "es": "'Envío adjunto' es la forma formal y estándar.",
+        "en": "'Encaminho em anexo' is the formal, standard form.",
+        "ar": "'Encaminho em anexo' هي الصيغة الرسمية المعيارية."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español formal: 'I would like to request the attached document.'",
+        "en": "Translate into formal Spanish: 'I would like to request the attached document.'",
+        "ar": "ترجم إلى بالإسبانية الرسمية: 'I would like to request the attached document.'"
+      },
+      "options": [],
+      "answer": "Quisiera solicitar el documento adjunto.",
+      "explanation": {
+        "es": "'Quisiera solicitar' es el correspondiente formal de 'I would like to request'.",
+        "en": "'Me gustaría solicitar' is the formal equivalent of 'I would like to request'.",
+        "ar": "'Me gustaría solicitar' هي المقابل الرسمي لعبارة 'I would like to request'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'to thank'?",
+        "en": "Which word means 'to thank'?",
+        "ar": "أي كلمة تعني 'يشكر'؟"
+      },
+      "options": [
+        {
+          "es": "agradecer",
+          "en": "to thank",
+          "ar": "يشكر"
+        },
+        {
+          "es": "enviar",
+          "en": "to forward",
+          "ar": "يحيل، يوجّه"
+        },
+        {
+          "es": "el destinatario",
+          "en": "the recipient",
+          "ar": "المرسل إليه"
+        },
+        {
+          "es": "la solicitud",
+          "en": "the request",
+          "ar": "الطلب"
+        }
+      ],
+      "answer": "agradecer",
+      "explanation": {
+        "es": "'agradecer' significa 'to thank'.",
+        "en": "'agradecer' means 'to thank'.",
+        "ar": "تعني 'agradecer' 'يشكر'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'the subject'",
+        "en": "Choose the Spanish word: 'the subject'",
+        "ar": "اختر الكلمة بالإسبانية: 'الموضوع'"
+      },
+      "options": [
+        {
+          "es": "la despedida",
+          "en": "the salutation",
+          "ar": "التحية، السلام"
+        },
+        {
+          "es": "atentamente",
+          "en": "sincerely",
+          "ar": "مع خالص التحية"
+        },
+        {
+          "es": "el asunto",
+          "en": "the subject",
+          "ar": "الموضوع"
+        },
+        {
+          "es": "el adjunto",
+          "en": "the attachment",
+          "ar": "المرفق"
+        }
+      ],
+      "answer": "el asunto",
+      "explanation": {
+        "es": "'el asunto' significa 'the subject'.",
+        "en": "'el asunto' means 'the subject'.",
+        "ar": "تعني 'el asunto' 'الموضوع'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'the clarification' en español?",
+        "en": "How do you say 'the clarification' in Spanish?",
+        "ar": "كيف تقول 'التوضيح' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "la aclaración",
+          "en": "the clarification",
+          "ar": "التوضيح"
+        },
+        {
+          "es": "agradecer",
+          "en": "to thank",
+          "ar": "يشكر"
+        },
+        {
+          "es": "el remitente",
+          "en": "the sender",
+          "ar": "المرسل"
+        }
+      ],
+      "answer": "la aclaración",
+      "explanation": {
+        "es": "'la aclaración' significa 'the clarification'.",
+        "en": "'la aclaración' means 'the clarification'.",
+        "ar": "تعني 'la aclaración' 'التوضيح'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the sender'?",
+        "en": "Which word means 'the sender'?",
+        "ar": "أي كلمة تعني 'المرسل'؟"
+      },
+      "options": [
+        {
+          "es": "atentamente",
+          "en": "sincerely",
+          "ar": "مع خالص التحية"
+        },
+        {
+          "es": "el remitente",
+          "en": "the sender",
+          "ar": "المرسل"
+        },
+        {
+          "es": "la despedida",
+          "en": "the salutation",
+          "ar": "التحية، السلام"
+        }
+      ],
+      "answer": "el remitente",
+      "explanation": {
+        "es": "'el remitente' significa 'the sender'.",
+        "en": "'el remitente' means 'the sender'.",
+        "ar": "تعني 'el remitente' 'المرسل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"In a formal letter contractions are not used.\"",
+        "en": "Translate into Spanish: \"In a formal letter contractions are not used.\"",
+        "ar": "ترجم إلى الإسبانية: \"لا تُستخدم الصفائح في الرسالة الرسمية.\""
+      },
+      "options": [],
+      "answer": "En la carta formal no se usan contracciones.",
+      "explanation": {
+        "es": "Respuesta: \"En la carta formal no se usan contracciones.\".",
+        "en": "Answer: \"En la carta formal no se usan contracciones.\".",
+        "ar": "الإجابة: \"En la carta formal no se usan contracciones.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The sender forgot the signature.\"",
+        "en": "Translate into Spanish: \"The sender forgot the signature.\"",
+        "ar": "ترجم إلى الإسبانية: \"نسي المرسل التوقيع.\""
+      },
+      "options": [],
+      "answer": "El remitente olvidó la firma.",
+      "explanation": {
+        "es": "Respuesta: \"El remitente olvidó la firma.\".",
+        "en": "Answer: \"El remitente olvidó la firma.\".",
+        "ar": "الإجابة: \"El remitente olvidó la firma.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I signed cordially at the end.\"",
+        "en": "Translate into Spanish: \"I signed cordially at the end.\"",
+        "ar": "ترجم إلى الإسبانية: \"وقعت باحترام في النهاية.\""
+      },
+      "options": [],
+      "answer": "Firmé cordialmente al final.",
+      "explanation": {
+        "es": "Respuesta: \"Firmé cordialmente al final.\".",
+        "en": "Answer: \"Firmé cordialmente al final.\".",
+        "ar": "الإجابة: \"Firmé cordialmente al final.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Received. Should you need clarifications, I am at your disposal.\"",
+        "en": "Translate into Spanish: \"Received. Should you need clarifications, I am at your disposal.\"",
+        "ar": "ترجم إلى الإسبانية: \"تم الاستلام. إذا احتجتم أي توضيحات، فأنا تحت تصرفكم.\""
+      },
+      "options": [],
+      "answer": "Recibido. Si necesita aclaraciones, estoy a su disposición.",
+      "explanation": {
+        "es": "Respuesta: \"Recibido. Si necesita aclaraciones, estoy a su disposición.\".",
+        "en": "Answer: \"Recibido. Si necesita aclaraciones, estoy a su disposición.\".",
+        "ar": "الإجابة: \"Recibido. Si necesita aclaraciones, estoy a su disposición.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "El Correo Corporativo",
-   "en": "The Corporate Email",
-   "ar": "البريد الإلكتروني المؤسسي"
-  },
-  "text_es": "Un buen correo formal comienza con un asunto claro y un saludo adecuado. El texto se organiza en párrafos cortos: presenta el motivo, explica la petición y propone un plazo. Al final, el remitente agradece y se pone a disposición. Esta estructura transmite profesionalismo y respeto al destinatario.",
-  "text_en": "A good formal email starts with a clear subject and an appropriate salutation. The text is organized into short paragraphs: it presents the reason, explains the request and proposes a deadline. At the end, the sender thanks and offers their availability. This structure conveys professionalism and respect for the recipient.",
-  "text_ar": "يبدأ البريد الرسمي الجيد بموضوع واضح وتحية مناسبة. وينظم النص في فقرات قصيرة: يقدم السبب، ويشرح الطلب، ويقترح موعدًا. وفي النهاية يشكر المرسل ويعرض نفسه تحت تصرف المرسل إليه. ينقل هذا الهيكل الاحترافية والاحترام للمتلقي."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Qué fórmula es adecuada para iniciar una carta formal?",
-    "en": "Which formula is appropriate to start a formal letter?",
-    "ar": "أي عبارة مناسبة لبدء رسالة رسمية؟"
-   },
-   "options": [
-    {
-     "es": "Estimado señor,",
-     "en": "Prezado Senhor,",
-     "ar": "Prezado Senhor,"
-    },
-    {
-     "es": "¿Qué tal, tío?,",
-     "en": "What's up, man,",
-     "ar": "ما أخبارك يا صديقي،"
-    },
-    {
-     "es": "Hola, ¿todo bien?",
-     "en": "Oi, tudo bom?",
-     "ar": "Oi, tudo bom?"
-    }
-   ],
-   "answer": "Estimado señor,",
-   "explanation": {
-    "es": "'Estimado señor' es el saludo formal; las demás son informales.",
-    "en": "'Prezado Senhor' is the formal salutation; the others are informal.",
-    "ar": "'Prezado Senhor' هي التحية الرسمية، أما البقية فغير رسمية."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Completa con el registro formal: '______ adjunto el informe.'",
-    "en": "Complete in the formal register: '______ em anexo o relatório.'",
-    "ar": "أكمل بالمستوى الرسمي: '______ em anexo o relatório.'"
-   },
-   "options": [
-    {
-     "es": "Mando",
-     "en": "Mando",
-     "ar": "Mando"
-    },
-    {
-     "es": "Envío",
-     "en": "Encaminho",
-     "ar": "Encaminho"
-    },
-    {
-     "es": "Tiro",
-     "en": "Jogo",
-     "ar": "Jogo"
-    }
-   ],
-   "answer": "Envío",
-   "explanation": {
-    "es": "'Envío adjunto' es la forma formal y estándar.",
-    "en": "'Encaminho em anexo' is the formal, standard form.",
-    "ar": "'Encaminho em anexo' هي الصيغة الرسمية المعيارية."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce al español formal: 'I would like to request the attached document.'",
-    "en": "Translate into formal Portuguese: 'I would like to request the attached document.'",
-    "ar": "ترجم إلى البرتغالية الرسمية: 'I would like to request the attached document.'"
-   },
-   "options": [],
-   "answer": "Quisiera solicitar el documento adjunto.",
-   "explanation": {
-    "es": "'Quisiera solicitar' es el correspondiente formal de 'I would like to request'.",
-    "en": "'Gostaria de solicitar' is the formal equivalent of 'I would like to request'.",
-    "ar": "'Gostaria de solicitar' هي المقابل الرسمي لعبارة 'I would like to request'."
-   }
-  }
- ]
 }

@@ -1,340 +1,637 @@
 {
- "id": "C2-11",
- "level": "C2",
- "level_name": {
-  "es": "Proficiencia",
-  "en": "Proficiency",
-  "ar": "إتقان"
- },
- "title": {
-  "es": "Examen Final: Proficiencia",
-  "en": "Final Test: Proficiency",
-  "ar": "الاختبار النهائي: الإتقان"
- },
- "objectives": [
-  {
-   "es": "Revisar la concordancia, la rección y la colocación pronominal",
-   "en": "Review agreement, verbal/nominal government and pronoun placement",
-   "ar": "مراجعة المطابقة وعملية الربط ومواضع الضمائر"
+  "id": "C2-11",
+  "level": "C2",
+  "level_name": {
+    "es": "Proficiencia",
+    "en": "Proficiency",
+    "ar": "إتقان"
   },
-  {
-   "es": "Consolidar tiempos compuestos y voces verbales",
-   "en": "Consolidate compound tenses and verb voices",
-   "ar": "ترسيخ الأزمنة المركبة وصيغ الفعل"
-  },
-  {
-   "es": "Demostrar dominio pleno de las cuatro competencias",
-   "en": "Demonstrate full mastery of the four skills",
-   "ar": "إظهار إتقان تام للمهارات الأربع"
-  },
-  {
-   "es": "Autoevaluar el desempeño según los criterios del nivel C2",
-   "en": "Self-assess performance according to C2-level criteria",
-   "ar": "تقييم الأداء ذاتيًا وفق معايير المستوى C2"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "la prueba",
-   "ipa": "/ˈla ˈpɾueβa/",
-   "en": "test / exam",
-   "ar": "الامتحان"
-  },
-  {
-   "es": "el examen",
-   "ipa": "/ˈel eˈksamen/",
-   "en": "examination",
-   "ar": "الاختبار"
-  },
-  {
-   "es": "la competencia lingüística",
-   "ipa": "/ˈla kompeˈtensia liˈngwistika/",
-   "en": "proficiency",
-   "ar": "الكفاءة / الإجادة"
-  },
-  {
-   "es": "la redacción",
-   "ipa": "/ˈla reðaˈksion/",
-   "en": "essay / written composition",
-   "ar": "الإنشاء"
-  },
-  {
-   "es": "la comprensión auditiva",
-   "ipa": "/ˈla kompɾeˈnsion auðiˈtiβa/",
-   "en": "listening comprehension",
-   "ar": "الفهم السمعي"
-  },
-  {
-   "es": "la comprensión lectora",
-   "ipa": "/ˈla kompɾeˈnsion leˈktoɾa/",
-   "en": "reading comprehension",
-   "ar": "الفهم القرائي"
-  },
-  {
-   "es": "la expresión oral",
-   "ipa": "/ˈla ekspɾeˈsion oˈɾal/",
-   "en": "oral expression",
-   "ar": "التعبير الشفهي"
-  },
-  {
-   "es": "la nota",
-   "ipa": "/ˈla ˈnota/",
-   "en": "grade / mark",
-   "ar": "الدرجة"
-  },
-  {
-   "es": "el criterio de evaluación",
-   "ipa": "/ˈel kɾiˈteɾio ˈde eβaluaˈsion/",
-   "en": "assessment criterion",
-   "ar": "معيار التقييم"
-  },
-  {
-   "es": "el nivel",
-   "ipa": "/ˈel niˈβel/",
-   "en": "level",
-   "ar": "المستوى"
-  },
-  {
-   "es": "el certificado",
-   "ipa": "/ˈel seɾtifiˈkaðo/",
-   "en": "certificate",
-   "ar": "الشهادة"
-  },
-  {
-   "es": "el desempeño",
-   "ipa": "/ˈel deseˈmpeɲo/",
-   "en": "performance",
-   "ar": "الأداء"
-  },
-  {
-   "es": "la escala",
-   "ipa": "/ˈla eˈskala/",
-   "en": "scale",
-   "ar": "السلم / المقياس"
-  },
-  {
-   "es": "el examinador",
-   "ipa": "/ˈel eksaminaˈðoɾ/",
-   "en": "examiner",
-   "ar": "الممتحن"
-  },
-  {
-   "es": "el candidato",
-   "ipa": "/ˈel kandiˈðato/",
-   "en": "candidate",
-   "ar": "المرشح"
-  },
-  {
-   "es": "el dominio",
-   "ipa": "/ˈel doˈminio/",
-   "en": "mastery",
-   "ar": "الإتقان"
-  },
-  {
-   "es": "el tribunal",
-   "ipa": "/ˈel tɾiβuˈnal/",
-   "en": "examining board",
-   "ar": "لجنة الامتحان"
-  },
-  {
-   "es": "la puntuación",
-   "ipa": "/ˈla puntuaˈsion/",
-   "en": "scoring",
-   "ar": "الترقيم / التنقيط"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Revisión: Concordancia, Rección y Colocación",
-    "en": "Review: Agreement, Government and Pronoun Placement",
-    "ar": "مراجعة: المطابقة والربط ومواضع الضمائر"
-   },
-   "explanation": {
-    "es": "En el nivel C2, la norma culta debe ser automática. Concordancia: 'Había muchos obstáculos' (haber impersonal). Rección: 'asistir a' (presenciar). Colocación pronominal: en español el pronombre precede al verbo: 'Me entregó el documento'.",
-    "en": "At the C2 level, the educated norm must be automatic. Agreement: 'Había muchos obstáculos' (impersonal haber). Government: 'asistir a' (to attend/watch). Pronoun placement: in Spanish the unstressed pronoun precedes the verb: 'Me entregó el documento'.",
-    "ar": "في المستوى C2 يجب أن تكون القاعدة الفصيحة تلقائية. المطابقة: 'Había muchos obstáculos' (haber بلا فاعل). الربط: 'asistir a' (بحضور/مشاهدة). موضع الضمائر: في الإسبانية يسبق الضمير غير المنبور الفعل: 'Me entregó el documento'."
-   },
-   "examples": [
-    {
-     "es": "Había dudas sobre la validez de la prueba. (impersonal)",
-     "en": "There were doubts as to the validity of the test. (impersonal)",
-     "ar": "كانت هناك شكوك حول صلاحية الامتحان. (غير شخصي)"
-    },
-    {
-     "es": "El tribunal asistió al examen oral con atención. (presenciar)",
-     "en": "The board watched the oral exam attentively. (to witness)",
-     "ar": "شاهدت اللجنة الامتحان الشفهي باهتمام. (يشاهد)"
-    },
-    {
-     "es": "No se debe menospreciar la comprensión auditiva.",
-     "en": "One should not underestimate listening comprehension.",
-     "ar": "لا ينبغي الاستهانة بالفهم السمعي."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Revisión: Tiempos Compuestos y Voces Verbales",
-    "en": "Review: Compound Tenses and Verb Voices",
-    "ar": "مراجعة: الأزمنة المركبة وصيغ الفعل"
-   },
-   "explanation": {
-    "es": "Los tiempos compuestos combinan 'haber' con el participio: 'había terminado' (pluscuamperfecto), 'habrá sido evaluado' (futuro compuesto de la pasiva). La voz pasiva puede ser analítica ('fue corregido') o refleja ('se corrigió'). La elección entre ellas afecta el foco y el estilo del texto de evaluación.",
-    "en": "Compound tenses combine 'ter' or 'haver' with the participle: 'tinha terminado' (pluperfect compound), 'terá sido avaliado' (future perfect of the passive). The passive voice can be analytic ('foi corrigido'), pronominal ('corrigiu-se') or with auxiliary verb + participle ('está sendo corrigido'). The choice between them affects the focus and style of the assessment text.",
-    "ar": "تدمج الأزمنة المركبة 'ter' أو 'haver' مع اسم المفعول: 'tinha terminado' (الماضي الأسبق المركب)، 'terá sido avaliado' (المستقبل التام للمجهول). ويمكن أن يكون المبني للمجهول تحليليًا ('foi corrigido') أو ضميريًا ('corrigiu-se') أو بفعل مساعد + اسم مفعول ('está sendo corrigido'). ويؤثر الاختيار بين هذه الصيغ في مركز الاهتمام وأسلوب نص التقييم."
-   },
-   "examples": [
-    {
-     "es": "Cuando el tiempo terminó, ella ya había terminado la redacción.",
-     "en": "When the time ran out, she had already finished the essay.",
-     "ar": "عندما انتهى الوقت، كانت قد أنهت الإنشاء بالفعل."
-    },
-    {
-     "es": "La prueba será corregida por el tribunal antes del viernes.",
-     "en": "The test will be graded by the board by Friday.",
-     "ar": "سيُصحّح الامتحان من اللجنة حتى الجمعة."
-    },
-    {
-     "es": "Está siendo evaluado el dominio de la expresión oral.",
-     "en": "Mastery of oral expression is being assessed.",
-     "ar": "يجري الآن تقييم إتقان التعبير الشفهي."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "El Día del Examen",
-   "en": "On Exam Day",
-   "ar": "يوم الامتحان"
+    "es": "Examen Final: Proficiencia",
+    "en": "Final Test: Proficiency",
+    "ar": "الاختبار النهائي: الإتقان"
   },
-  "lines": [
-   {
-    "speaker": "Examinador",
-    "es": "Tendrás noventa minutos para la redacción y la comprensión lectora.",
-    "en": "You will have ninety minutes for the essay and reading comprehension.",
-    "ar": "سيتوفر لديك تسعون دقيقة للإنشاء والفهم القرائي."
-   },
-   {
-    "speaker": "Nadia",
-    "es": "Entiendo. ¿Y la expresión oral será evaluada a continuación por el tribunal?",
-    "en": "I understand. And will the oral expression be assessed next by the board?",
-    "ar": "فهمت. وهل سيقيّم التعبير الشفهي بعد ذلك من اللجنة؟"
-   },
-   {
-    "speaker": "Examinador",
-    "es": "Sí, en una entrevista individual de quince minutos.",
-    "en": "Yes, in a fifteen-minute individual interview.",
-    "ar": "نعم، في مقابلة فردية مدتها خمس عشرة دقيقة."
-   },
-   {
-    "speaker": "Nadia",
-    "es": "No me preocupa la nota, pero el criterio de evaluación debe estar claro.",
-    "en": "The grade does not worry me, but the assessment criterion must be clear.",
-    "ar": "لا تقلقني الدرجة، لكن يجب أن يكون معيار التقييم واضحًا."
-   },
-   {
-    "speaker": "Examinador",
-    "es": "La escala sigue los descriptores del nivel C2 del marco europeo.",
-    "en": "The scale follows the C2 level descriptors of the European framework.",
-    "ar": "يتبع السلم واصفات المستوى C2 في الإطار الأوروبي."
-   },
-   {
-    "speaker": "Nadia",
-    "es": "Perfecto. Si hay alguna duda, preguntaré antes de empezar.",
-    "en": "Perfect. Should there be any doubt, I will ask before starting.",
-    "ar": "ممتاز. إن وُجد أي لبس، سأسأل قبل البدء."
-   }
+  "objectives": [
+    {
+      "es": "Revisar la concordancia, la rección y la colocación pronominal",
+      "en": "Review agreement, verbal/nominal government and pronoun placement",
+      "ar": "مراجعة المطابقة وعملية الربط ومواضع الضمائر"
+    },
+    {
+      "es": "Consolidar tiempos compuestos y voces verbales",
+      "en": "Consolidate compound tenses and verb voices",
+      "ar": "ترسيخ الأزمنة المركبة وصيغ الفعل"
+    },
+    {
+      "es": "Demostrar dominio pleno de las cuatro competencias",
+      "en": "Demonstrate full mastery of the four skills",
+      "ar": "إظهار إتقان تام للمهارات الأربع"
+    },
+    {
+      "es": "Autoevaluar el desempeño según los criterios del nivel C2",
+      "en": "Self-assess performance according to C2-level criteria",
+      "ar": "تقييم الأداء ذاتيًا وفق معايير المستوى C2"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la prueba",
+      "ipa": "/ˈla ˈpɾueβa/",
+      "en": "test / exam",
+      "ar": "الامتحان",
+      "example": {
+        "es": "La prueba de aptitud dura cuatro horas.",
+        "en": "The proficiency test lasts four hours.",
+        "ar": "يستغرق الامتحان أربع ساعات."
+      }
+    },
+    {
+      "es": "el examen",
+      "ipa": "/ˈel eˈksamen/",
+      "en": "examination",
+      "ar": "الاختبار",
+      "example": {
+        "es": "El examen incluye cuatro destrezas.",
+        "en": "The exam includes four skills.",
+        "ar": "يتضمن الاختبار أربع مهارات."
+      }
+    },
+    {
+      "es": "la competencia lingüística",
+      "ipa": "/ˈla kompeˈtensia liˈngwistika/",
+      "en": "proficiency",
+      "ar": "الكفاءة / الإجادة",
+      "example": {
+        "es": "La competencia lingüística mide el dominio.",
+        "en": "Proficiency measures mastery.",
+        "ar": "تقيس الكفاءة الإتقان."
+      }
+    },
+    {
+      "es": "la redacción",
+      "ipa": "/ˈla reðaˈksion/",
+      "en": "essay / written composition",
+      "ar": "الإنشاء",
+      "example": {
+        "es": "La redacción puntúa coherencia y cohesión.",
+        "en": "The essay scores coherence and cohesion.",
+        "ar": "تُقيّم الإنشاء الإتساق والتاسك."
+      }
+    },
+    {
+      "es": "la comprensión auditiva",
+      "ipa": "/ˈla kompɾeˈnsion auðiˈtiβa/",
+      "en": "listening comprehension",
+      "ar": "الفهم السمعي",
+      "example": {
+        "es": "La comprensión auditiva exige concentración.",
+        "en": "Listening comprehension requires concentration.",
+        "ar": "يتطلب الفهم السمعي التركيز."
+      }
+    },
+    {
+      "es": "la comprensión lectora",
+      "ipa": "/ˈla kompɾeˈnsion leˈktoɾa/",
+      "en": "reading comprehension",
+      "ar": "الفهم القرائي",
+      "example": {
+        "es": "La comprensión lectora mejora con hábito.",
+        "en": "Reading comprehension improves with habit.",
+        "ar": "يتحسن الفهم القرائي بالعادة."
+      }
+    },
+    {
+      "es": "la expresión oral",
+      "ipa": "/ˈla ekspɾeˈsion oˈɾal/",
+      "en": "oral expression",
+      "ar": "التعبير الشفهي",
+      "example": {
+        "es": "La expresión oral valora la fluidez.",
+        "en": "Oral expression values fluency.",
+        "ar": "تُقيّم التعبير الشفهي الطلاقة."
+      }
+    },
+    {
+      "es": "la nota",
+      "ipa": "/ˈla ˈnota/",
+      "en": "grade / mark",
+      "ar": "الدرجة",
+      "example": {
+        "es": "La nota final promedia las tres pruebas.",
+        "en": "The final grade averages the three tests.",
+        "ar": "تتوسّط الدرجة النهائية الاختبارات الثلاثة."
+      }
+    },
+    {
+      "es": "el criterio de evaluación",
+      "ipa": "/ˈel kɾiˈteɾio ˈde eβaluaˈsion/",
+      "en": "assessment criterion",
+      "ar": "معيار التقييم",
+      "example": {
+        "es": "El criterio de evaluación se publica antes.",
+        "en": "The assessment criterion is published beforehand.",
+        "ar": "يُنشر معيار التقييم مسبقًا."
+      }
+    },
+    {
+      "es": "el nivel",
+      "ipa": "/ˈel niˈβel/",
+      "en": "level",
+      "ar": "المستوى",
+      "example": {
+        "es": "El nivel B2 certifica uso independiente.",
+        "en": "Level B2 certifies independent use.",
+        "ar": "يشهد المستوى B2 الاستخدام المستقل."
+      }
+    },
+    {
+      "es": "el certificado",
+      "ipa": "/ˈel seɾtifiˈkaðo/",
+      "en": "certificate",
+      "ar": "الشهادة",
+      "example": {
+        "es": "El certificado tiene validez oficial.",
+        "en": "The certificate has official validity.",
+        "ar": "للشهادة اعتماد رسمي."
+      }
+    },
+    {
+      "es": "el desempeño",
+      "ipa": "/ˈel deseˈmpeɲo/",
+      "en": "performance",
+      "ar": "الأداء",
+      "example": {
+        "es": "El desempeño mejora con la práctica regular.",
+        "en": "Performance improves with regular practice.",
+        "ar": "يتحسن الأداء بالممارسة المنتظمة."
+      }
+    },
+    {
+      "es": "la escala",
+      "ipa": "/ˈla eˈskala/",
+      "en": "scale",
+      "ar": "السلم / المقياس",
+      "example": {
+        "es": "La escala de puntuación va de cero a cien.",
+        "en": "The scoring scale goes from zero to hundred.",
+        "ar": "يتراوح السلم من صفر إلى مئة."
+      }
+    },
+    {
+      "es": "el examinador",
+      "ipa": "/ˈel eksaminaˈðoɾ/",
+      "en": "examiner",
+      "ar": "الممتحن",
+      "example": {
+        "es": "El examinador anota observaciones.",
+        "en": "The examiner notes observations.",
+        "ar": "يدوّن الممتحن ملاحظات."
+      }
+    },
+    {
+      "es": "el candidato",
+      "ipa": "/ˈel kandiˈðato/",
+      "en": "candidate",
+      "ar": "المرشح",
+      "example": {
+        "es": "El candidato presenta identificación oficial.",
+        "en": "The candidate presents official ID.",
+        "ar": "يقدّم المرشح هوية رسمية."
+      }
+    },
+    {
+      "es": "el dominio",
+      "ipa": "/ˈel doˈminio/",
+      "en": "mastery",
+      "ar": "الإتقان",
+      "example": {
+        "es": "El dominio total es meta a largo plazo.",
+        "en": "Total mastery is a long-term goal.",
+        "ar": "الإتقان الكامل هدف بعيد المدى."
+      }
+    },
+    {
+      "es": "el tribunal",
+      "ipa": "/ˈel tɾiβuˈnal/",
+      "en": "examining board",
+      "ar": "لجنة الامتحان",
+      "example": {
+        "es": "El tribunal resuelve empates técnicos.",
+        "en": "The examining board resolves technical ties.",
+        "ar": "تحسم لجنة الامتحان التعادلات التقنية."
+      }
+    },
+    {
+      "es": "la puntuación",
+      "ipa": "/ˈla puntuaˈsion/",
+      "en": "scoring",
+      "ar": "الترقيم / التنقيط",
+      "example": {
+        "es": "La puntuación se publica a los quince días.",
+        "en": "Scoring is published after fifteen days.",
+        "ar": "تُنشر النتيجة بعد خمسة عشر يومًا."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Revisión: Concordancia, Rección y Colocación",
+        "en": "Review: Agreement, Government and Pronoun Placement",
+        "ar": "مراجعة: المطابقة والربط ومواضع الضمائر"
+      },
+      "explanation": {
+        "es": "En el nivel C2, la norma culta debe ser automática. Concordancia: 'Había muchos obstáculos' (haber impersonal). Rección: 'asistir a' (presenciar). Colocación pronominal: en español el pronombre precede al verbo: 'Me entregó el documento'.",
+        "en": "At the C2 level, the educated norm must be automatic. Agreement: 'Había muchos obstáculos' (impersonal haber). Government: 'asistir a' (to attend/watch). Pronoun placement: in Spanish the unstressed pronoun precedes the verb: 'Me entregó el documento'.",
+        "ar": "في المستوى C2 يجب أن تكون القاعدة الفصيحة تلقائية. المطابقة: 'Había muchos obstáculos' (haber بلا فاعل). الربط: 'asistir a' (بحضور/مشاهدة). موضع الضمائر: في الإسبانية يسبق الضمير غير المنبور الفعل: 'Me entregó el documento'."
+      },
+      "examples": [
+        {
+          "es": "Había dudas sobre la validez de la prueba. (impersonal)",
+          "en": "There were doubts as to the validity of the test. (impersonal)",
+          "ar": "كانت هناك شكوك حول صلاحية الامتحان. (غير شخصي)"
+        },
+        {
+          "es": "El tribunal asistió al examen oral con atención. (presenciar)",
+          "en": "The board watched the oral exam attentively. (to witness)",
+          "ar": "شاهدت اللجنة الامتحان الشفهي باهتمام. (يشاهد)"
+        },
+        {
+          "es": "No se debe menospreciar la comprensión auditiva.",
+          "en": "One should not underestimate listening comprehension.",
+          "ar": "لا ينبغي الاستهانة بالفهم السمعي."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Revisión: Tiempos Compuestos y Voces Verbales",
+        "en": "Review: Compound Tenses and Verb Voices",
+        "ar": "مراجعة: الأزمنة المركبة وصيغ الفعل"
+      },
+      "explanation": {
+        "es": "Los tiempos compuestos combinan 'haber' con el participio: 'había terminado' (pluscuamperfecto), 'habrá sido evaluado' (futuro compuesto de la pasiva). La voz pasiva puede ser analítica ('fue corregido') o refleja ('se corrigió'). La elección entre ellas afecta el foco y el estilo del texto de evaluación.",
+        "en": "Compound tenses combine 'ter' or 'haver' with the participle: 'tinha terminado' (pluperfect compound), 'terá sido avaliado' (future perfect of the passive). The passive voice can be analytic ('foi corrigido'), pronominal ('corrigiu-se') or with auxiliary verb + participle ('está sendo corrigido'). The choice between them affects the focus and style of the assessment text.",
+        "ar": "تدمج الأزمنة المركبة 'ter' أو 'haver' مع اسم المفعول: 'tinha terminado' (الماضي الأسبق المركب)، 'terá sido avaliado' (المستقبل التام للمجهول). ويمكن أن يكون المبني للمجهول تحليليًا ('foi corrigido') أو ضميريًا ('corrigiu-se') أو بفعل مساعد + اسم مفعول ('está sendo corrigido'). ويؤثر الاختيار بين هذه الصيغ في مركز الاهتمام وأسلوب نص التقييم."
+      },
+      "examples": [
+        {
+          "es": "Cuando el tiempo terminó, ella ya había terminado la redacción.",
+          "en": "When the time ran out, she had already finished the essay.",
+          "ar": "عندما انتهى الوقت، كانت قد أنهت الإنشاء بالفعل."
+        },
+        {
+          "es": "La prueba será corregida por el tribunal antes del viernes.",
+          "en": "The test will be graded by the board by Friday.",
+          "ar": "سيُصحّح الامتحان من اللجنة حتى الجمعة."
+        },
+        {
+          "es": "Está siendo evaluado el dominio de la expresión oral.",
+          "en": "Mastery of oral expression is being assessed.",
+          "ar": "يجري الآن تقييم إتقان التعبير الشفهي."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "El Día del Examen",
+      "en": "On Exam Day",
+      "ar": "يوم الامتحان"
+    },
+    "lines": [
+      {
+        "speaker": "Examinador",
+        "es": "Tendrás noventa minutos para la redacción y la comprensión lectora.",
+        "en": "You will have ninety minutes for the essay and reading comprehension.",
+        "ar": "سيتوفر لديك تسعون دقيقة للإنشاء والفهم القرائي."
+      },
+      {
+        "speaker": "Nadia",
+        "es": "Entiendo. ¿Y la expresión oral será evaluada a continuación por el tribunal?",
+        "en": "I understand. And will the oral expression be assessed next by the board?",
+        "ar": "فهمت. وهل سيقيّم التعبير الشفهي بعد ذلك من اللجنة؟"
+      },
+      {
+        "speaker": "Examinador",
+        "es": "Sí, en una entrevista individual de quince minutos.",
+        "en": "Yes, in a fifteen-minute individual interview.",
+        "ar": "نعم، في مقابلة فردية مدتها خمس عشرة دقيقة."
+      },
+      {
+        "speaker": "Nadia",
+        "es": "No me preocupa la nota, pero el criterio de evaluación debe estar claro.",
+        "en": "The grade does not worry me, but the assessment criterion must be clear.",
+        "ar": "لا تقلقني الدرجة، لكن يجب أن يكون معيار التقييم واضحًا."
+      },
+      {
+        "speaker": "Examinador",
+        "es": "La escala sigue los descriptores del nivel C2 del marco europeo.",
+        "en": "The scale follows the C2 level descriptors of the European framework.",
+        "ar": "يتبع السلم واصفات المستوى C2 في الإطار الأوروبي."
+      },
+      {
+        "speaker": "Nadia",
+        "es": "Perfecto. Si hay alguna duda, preguntaré antes de empezar.",
+        "en": "Perfect. Should there be any doubt, I will ask before starting.",
+        "ar": "ممتاز. إن وُجد أي لبس، سأسأل قبل البدء."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Criterios de Evaluación del C2",
+      "en": "C2 Assessment Criteria",
+      "ar": "معايير تقييم المستوى C2"
+    },
+    "text_es": "El candidato debe demostrar comprensión plena de textos complejos y capacidad de síntesis. La redacción será evaluada en cuanto a coherencia, cohesión, precisión léxica y adecuación del registro. En la entrevista se considerarán la fluidez, la pronunciación y el dominio de estructuras sofisticadas. Concluida la corrección, el tribunal emitirá el certificado con el desempeño detallado.",
+    "text_en": "The candidate must demonstrate full understanding of complex texts and the ability to synthesize. The essay will be assessed for coherence, cohesion, lexical precision and register adequacy. In the interview, fluency, pronunciation and mastery of sophisticated structures will be considered. Once the grading is completed, the board will issue the certificate with detailed performance.",
+    "text_ar": "يجب أن يُظهر المرشح فهمًا تامًا للنصوص المعقدة وقدرة على التلخيص. وسيُقيَّم الإنشاء من حيث التماسك والترابط ودقة المعجم وملاءمة المستوى. وفي المقابلة، ستُؤخذ في الاعتبار الطلاقة والنطق وإتقان التراكيب المتقدمة. وبعد اكتمال التصحيح، ستصدر اللجنة الشهادة مع تفاصيل الأداء."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Señala la frase correcta en cuanto a la concordancia.",
+        "en": "Choose the sentence that is correct with regard to agreement.",
+        "ar": "اختر الجملة الصحيحة من حيث المطابقة."
+      },
+      "options": [
+        {
+          "es": "Habían muchas dudas sobre la prueba. (incorrecto)",
+          "en": "There were many doubts incorrect.",
+          "ar": "كان هناك شكوك (خطأ)."
+        },
+        {
+          "es": "Había muchas dudas sobre la prueba.",
+          "en": "There were many doubts about the test.",
+          "ar": "كان هناك شكوك كثيرة."
+        },
+        {
+          "es": "Hubieron muchas dudas sobre la prueba. (incorrecto)",
+          "en": "There were many doubts incorrect.",
+          "ar": "كان هناك شكوك (خطأ)."
+        }
+      ],
+      "answer": "Había muchas dudas sobre la prueba.",
+      "explanation": {
+        "es": "'Había' impersonal va en singular: 'Había muchas dudas'.",
+        "en": "Impersonal 'haver' stays singular: 'Havia muitas dúvidas'.",
+        "ar": "يبقى الفعل 'haver' غير الشخصي مفردًا: 'Havia muitas dúvidas'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿En qué frase la colocación pronominal es correcta?",
+        "en": "In which sentence is the pronoun placement correct?",
+        "ar": "في أي جملة يكون وضع الضمير صحيحًا؟"
+      },
+      "options": [
+        {
+          "es": "Me entregó el documento ayer.",
+          "en": "He handed me the document yesterday.",
+          "ar": "سلّمْني المستند أمس."
+        },
+        {
+          "es": "Entregóme el documento ayer. (incorrecto)",
+          "en": "He handed me the document incorrect.",
+          "ar": "سلّمْني المستند (خطأ)."
+        },
+        {
+          "es": "Entregó me el documento ayer. (incorrecto)",
+          "en": "He handed me the document incorrect.",
+          "ar": "سلّمْني المستند (خطأ)."
+        }
+      ],
+      "answer": "Entregóme el documento ayer. (incorrecto)",
+      "explanation": {
+        "es": "En español, el pronombre precede al verbo: 'Me entregó el documento'.",
+        "en": "After a verb at the start of a sentence, enclisis is used: 'Entregou-me'.",
+        "ar": "بعد فعل في بداية الجملة، يستخدم الإلحاق: 'Entregou-me'."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: 'listening comprehension'",
+        "en": "Translate into Spanish: 'listening comprehension'",
+        "ar": "ترجم إلى بالإسبانية: 'listening comprehension'"
+      },
+      "options": [],
+      "answer": "comprensión auditiva",
+      "explanation": {
+        "es": "'Comprensión auditiva' es el término de los exámenes de competencia.",
+        "en": "'Compreensão auditiva' is the term used in proficiency exams.",
+        "ar": "مصطلح 'compreensão auditiva' هو المستخدم في امتحانات الكفاءة."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'assessment criterion'?",
+        "en": "Which word means 'assessment criterion'?",
+        "ar": "أي كلمة تعني 'معيار التقييم'؟"
+      },
+      "options": [
+        {
+          "es": "la nota",
+          "en": "grade / mark",
+          "ar": "الدرجة"
+        },
+        {
+          "es": "la escala",
+          "en": "scale",
+          "ar": "السلم / المقياس"
+        },
+        {
+          "es": "el examen",
+          "en": "examination",
+          "ar": "الاختبار"
+        },
+        {
+          "es": "el criterio de evaluación",
+          "en": "assessment criterion",
+          "ar": "معيار التقييم"
+        }
+      ],
+      "answer": "el criterio de evaluación",
+      "explanation": {
+        "es": "'el criterio de evaluación' significa 'assessment criterion'.",
+        "en": "'el criterio de evaluación' means 'assessment criterion'.",
+        "ar": "تعني 'el criterio de evaluación' 'معيار التقييم'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'examination'",
+        "en": "Choose the Spanish word: 'examination'",
+        "ar": "اختر الكلمة بالإسبانية: 'الاختبار'"
+      },
+      "options": [
+        {
+          "es": "el examen",
+          "en": "examination",
+          "ar": "الاختبار"
+        },
+        {
+          "es": "la escala",
+          "en": "scale",
+          "ar": "السلم / المقياس"
+        },
+        {
+          "es": "la nota",
+          "en": "grade / mark",
+          "ar": "الدرجة"
+        }
+      ],
+      "answer": "el examen",
+      "explanation": {
+        "es": "'el examen' significa 'examination'.",
+        "en": "'el examen' means 'examination'.",
+        "ar": "تعني 'el examen' 'الاختبار'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'grade / mark' en español?",
+        "en": "How do you say 'grade / mark' in Spanish?",
+        "ar": "كيف تقول 'الدرجة' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "la comprensión auditiva",
+          "en": "listening comprehension",
+          "ar": "الفهم السمعي"
+        },
+        {
+          "es": "la competencia lingüística",
+          "en": "proficiency",
+          "ar": "الكفاءة / الإجادة"
+        },
+        {
+          "es": "el nivel",
+          "en": "level",
+          "ar": "المستوى"
+        },
+        {
+          "es": "la nota",
+          "en": "grade / mark",
+          "ar": "الدرجة"
+        }
+      ],
+      "answer": "la nota",
+      "explanation": {
+        "es": "'la nota' significa 'grade / mark'.",
+        "en": "'la nota' means 'grade / mark'.",
+        "ar": "تعني 'la nota' 'الدرجة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'essay / written composition'?",
+        "en": "Which word means 'essay / written composition'?",
+        "ar": "أي كلمة تعني 'الإنشاء'؟"
+      },
+      "options": [
+        {
+          "es": "la redacción",
+          "en": "essay / written composition",
+          "ar": "الإنشاء"
+        },
+        {
+          "es": "el tribunal",
+          "en": "examining board",
+          "ar": "لجنة الامتحان"
+        },
+        {
+          "es": "la comprensión lectora",
+          "en": "reading comprehension",
+          "ar": "الفهم القرائي"
+        },
+        {
+          "es": "el criterio de evaluación",
+          "en": "assessment criterion",
+          "ar": "معيار التقييم"
+        }
+      ],
+      "answer": "la redacción",
+      "explanation": {
+        "es": "'la redacción' significa 'essay / written composition'.",
+        "en": "'la redacción' means 'essay / written composition'.",
+        "ar": "تعني 'la redacción' 'الإنشاء'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The candidate presents official ID.\"",
+        "en": "Translate into Spanish: \"The candidate presents official ID.\"",
+        "ar": "ترجم إلى الإسبانية: \"يقدّم المرشح هوية رسمية.\""
+      },
+      "options": [],
+      "answer": "El candidato presenta identificación oficial.",
+      "explanation": {
+        "es": "Respuesta: \"El candidato presenta identificación oficial.\".",
+        "en": "Answer: \"El candidato presenta identificación oficial.\".",
+        "ar": "الإجابة: \"El candidato presenta identificación oficial.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The final grade averages the three tests.\"",
+        "en": "Translate into Spanish: \"The final grade averages the three tests.\"",
+        "ar": "ترجم إلى الإسبانية: \"تتوسّط الدرجة النهائية الاختبارات الثلاثة.\""
+      },
+      "options": [],
+      "answer": "La nota final promedia las tres pruebas.",
+      "explanation": {
+        "es": "Respuesta: \"La nota final promedia las tres pruebas.\".",
+        "en": "Answer: \"La nota final promedia las tres pruebas.\".",
+        "ar": "الإجابة: \"La nota final promedia las tres pruebas.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The certificate has official validity.\"",
+        "en": "Translate into Spanish: \"The certificate has official validity.\"",
+        "ar": "ترجم إلى الإسبانية: \"للشهادة اعتماد رسمي.\""
+      },
+      "options": [],
+      "answer": "El certificado tiene validez oficial.",
+      "explanation": {
+        "es": "Respuesta: \"El certificado tiene validez oficial.\".",
+        "en": "Answer: \"El certificado tiene validez oficial.\".",
+        "ar": "الإجابة: \"El certificado tiene validez oficial.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The proficiency test lasts four hours.\"",
+        "en": "Translate into Spanish: \"The proficiency test lasts four hours.\"",
+        "ar": "ترجم إلى الإسبانية: \"يستغرق الامتحان أربع ساعات.\""
+      },
+      "options": [],
+      "answer": "La prueba de aptitud dura cuatro horas.",
+      "explanation": {
+        "es": "Respuesta: \"La prueba de aptitud dura cuatro horas.\".",
+        "en": "Answer: \"La prueba de aptitud dura cuatro horas.\".",
+        "ar": "الإجابة: \"La prueba de aptitud dura cuatro horas.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "Criterios de Evaluación del C2",
-   "en": "C2 Assessment Criteria",
-   "ar": "معايير تقييم المستوى C2"
-  },
-  "text_es": "El candidato debe demostrar comprensión plena de textos complejos y capacidad de síntesis. La redacción será evaluada en cuanto a coherencia, cohesión, precisión léxica y adecuación del registro. En la entrevista se considerarán la fluidez, la pronunciación y el dominio de estructuras sofisticadas. Concluida la corrección, el tribunal emitirá el certificado con el desempeño detallado.",
-  "text_en": "The candidate must demonstrate full understanding of complex texts and the ability to synthesize. The essay will be assessed for coherence, cohesion, lexical precision and register adequacy. In the interview, fluency, pronunciation and mastery of sophisticated structures will be considered. Once the grading is completed, the board will issue the certificate with detailed performance.",
-  "text_ar": "يجب أن يُظهر المرشح فهمًا تامًا للنصوص المعقدة وقدرة على التلخيص. وسيُقيَّم الإنشاء من حيث التماسك والترابط ودقة المعجم وملاءمة المستوى. وفي المقابلة، ستُؤخذ في الاعتبار الطلاقة والنطق وإتقان التراكيب المتقدمة. وبعد اكتمال التصحيح، ستصدر اللجنة الشهادة مع تفاصيل الأداء."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "Señala la frase correcta en cuanto a la concordancia.",
-    "en": "Choose the sentence that is correct with regard to agreement.",
-    "ar": "اختر الجملة الصحيحة من حيث المطابقة."
-   },
-   "options": [
-    {
-     "es": "Habían muchas dudas sobre la prueba. (incorrecto)",
-     "en": "Haviam muitas dúvidas sobre a prova.",
-     "ar": "Haviam muitas dúvidas sobre a prova."
-    },
-    {
-     "es": "Había muchas dudas sobre la prueba.",
-     "en": "Havia muitas dúvidas sobre a prova.",
-     "ar": "Havia muitas dúvidas sobre a prova."
-    },
-    {
-     "es": "Hubieron muchas dudas sobre la prueba. (incorrecto)",
-     "en": "Houveram muitas dúvidas sobre a prova.",
-     "ar": "Houveram muitas dúvidas sobre a prova."
-    }
-   ],
-   "answer": "Había muchas dudas sobre la prueba.",
-   "explanation": {
-    "es": "'Había' impersonal va en singular: 'Había muchas dudas'.",
-    "en": "Impersonal 'haver' stays singular: 'Havia muitas dúvidas'.",
-    "ar": "يبقى الفعل 'haver' غير الشخصي مفردًا: 'Havia muitas dúvidas'."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿En qué frase la colocación pronominal es correcta?",
-    "en": "In which sentence is the pronoun placement correct?",
-    "ar": "في أي جملة يكون وضع الضمير صحيحًا؟"
-   },
-   "options": [
-    {
-     "es": "Me entregó el documento ayer.",
-     "en": "Me entregou o documento ontem.",
-     "ar": "Me entregou o documento ontem."
-    },
-    {
-     "es": "Entregóme el documento ayer. (incorrecto)",
-     "en": "Entregou-me o documento ontem.",
-     "ar": "Entregou-me o documento ontem."
-    },
-    {
-     "es": "Entregó me el documento ayer. (incorrecto)",
-     "en": "Entregou me o documento ontem.",
-     "ar": "Entregou me o documento ontem."
-    }
-   ],
-   "answer": "Entregóme el documento ayer. (incorrecto)",
-   "explanation": {
-    "es": "En español, el pronombre precede al verbo: 'Me entregó el documento'.",
-    "en": "After a verb at the start of a sentence, enclisis is used: 'Entregou-me'.",
-    "ar": "بعد فعل في بداية الجملة، يستخدم الإلحاق: 'Entregou-me'."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce al español: 'listening comprehension'",
-    "en": "Translate into Portuguese: 'listening comprehension'",
-    "ar": "ترجم إلى البرتغالية: 'listening comprehension'"
-   },
-   "options": [],
-   "answer": "comprensión auditiva",
-   "explanation": {
-    "es": "'Comprensión auditiva' es el término de los exámenes de competencia.",
-    "en": "'Compreensão auditiva' is the term used in proficiency exams.",
-    "ar": "مصطلح 'compreensão auditiva' هو المستخدم في امتحانات الكفاءة."
-   }
-  }
- ]
 }

@@ -1,340 +1,627 @@
 {
- "id": "C2-02",
- "level": "C2",
- "level_name": {
-  "es": "Proficiencia",
-  "en": "Proficiency",
-  "ar": "إتقان"
- },
- "title": {
-  "es": "Análisis de Textos Literarios",
-  "en": "Literary Text Analysis",
-  "ar": "تحليل النصوص الأدبية"
- },
- "objectives": [
-  {
-   "es": "Identificar figuras retóricas en textos literarios",
-   "en": "Identify figures of speech in literary texts",
-   "ar": "تحديد المجازات اللغوية في النصوص الأدبية"
+  "id": "C2-02",
+  "level": "C2",
+  "level_name": {
+    "es": "Proficiencia",
+    "en": "Proficiency",
+    "ar": "إتقان"
   },
-  {
-   "es": "Analizar el narrador y los tiempos narrativos",
-   "en": "Analyze the narrator and narrative tenses",
-   "ar": "تحليل الراوي والأزمنة السردية"
-  },
-  {
-   "es": "Comprender el discurso directo, indirecto e indirecto libre",
-   "en": "Understand direct, indirect and free indirect speech",
-   "ar": "فهم الخطاب المباشر وغير المباشر وغير المباشر الحر"
-  },
-  {
-   "es": "Redactar un análisis crítico estructurado",
-   "en": "Write a structured critical analysis",
-   "ar": "كتابة تحليل نقدي منظم"
-  }
- ],
- "vocabulary": [
-  {
-   "es": "la metáfora",
-   "ipa": "/ˈla meˈtafoɾa/",
-   "en": "metaphor",
-   "ar": "الاستعارة"
-  },
-  {
-   "es": "la metonimia",
-   "ipa": "/ˈla metoˈnimia/",
-   "en": "metonymy",
-   "ar": "المجاز المرسل"
-  },
-  {
-   "es": "la alegoría",
-   "ipa": "/ˈla aleɣoˈɾia/",
-   "en": "allegory",
-   "ar": "الرمزية"
-  },
-  {
-   "es": "el narrador",
-   "ipa": "/ˈel naraˈðoɾ/",
-   "en": "the narrator",
-   "ar": "الراوي"
-  },
-  {
-   "es": "omnisciente",
-   "ipa": "/omniˈssiente/",
-   "en": "omniscient",
-   "ar": "عليم بكل شيء"
-  },
-  {
-   "es": "el eufemismo",
-   "ipa": "/ˈel eufeˈmismo/",
-   "en": "euphemism",
-   "ar": "التلطيف / اللفظ الموازي"
-  },
-  {
-   "es": "la hipérbole",
-   "ipa": "/ˈla iˈpeɾbole/",
-   "en": "hyperbole",
-   "ar": "المبالغة"
-  },
-  {
-   "es": "la ironía",
-   "ipa": "/ˈla iɾoˈnia/",
-   "en": "irony",
-   "ar": "السخرية"
-  },
-  {
-   "es": "el personaje",
-   "ipa": "/ˈel peɾsoˈnaxe/",
-   "en": "the character",
-   "ar": "الشخصية"
-  },
-  {
-   "es": "la trama",
-   "ipa": "/ˈla ˈtɾama/",
-   "en": "the plot",
-   "ar": "الحبكة"
-  },
-  {
-   "es": "el desenlace",
-   "ipa": "/ˈel deseˈnlase/",
-   "en": "the ending / resolution",
-   "ar": "الخاتمة / الحل"
-  },
-  {
-   "es": "el clímax",
-   "ipa": "/ˈel ˈklimaks/",
-   "en": "the climax",
-   "ar": "الذروة"
-  },
-  {
-   "es": "la antítesis",
-   "ipa": "/ˈla aˈntitesis/",
-   "en": "antithesis",
-   "ar": "الطباق / التقابل"
-  },
-  {
-   "es": "la paradoja",
-   "ipa": "/ˈla paɾaˈðoxa/",
-   "en": "paradox",
-   "ar": "المفارقة"
-  },
-  {
-   "es": "la intertextualidad",
-   "ipa": "/ˈla inteɾtekstualiˈðað/",
-   "en": "intertextuality",
-   "ar": "التناص"
-  },
-  {
-   "es": "la catarsis",
-   "ipa": "/ˈla kaˈtaɾsis/",
-   "en": "catharsis",
-   "ar": "التطهير النفسي"
-  },
-  {
-   "es": "la prolepsis",
-   "ipa": "/ˈla pɾoˈlepsis/",
-   "en": "flash-forward",
-   "ar": "الاستباق"
-  },
-  {
-   "es": "la analepsis",
-   "ipa": "/ˈla anaˈlepsis/",
-   "en": "flashback",
-   "ar": "الاسترجاع"
-  }
- ],
- "grammar": [
-  {
-   "title": {
-    "es": "Tiempos Narrativos",
-    "en": "Narrative Tenses",
-    "ar": "أزمنة السرد"
-   },
-   "explanation": {
-    "es": "En la narrativa literaria, el pretérito indefinido avanza la acción, el pretérito imperfecto pinta el escenario y el hábito, y el pluscuamperfecto localiza un hecho anterior a otro ya pasado. En 'Él entró en el salón; la orquesta tocaba bajito y ella ya había salido', tenemos los tres valores: acción puntual, ambientación y anterioridad.",
-    "en": "In literary narrative, the simple past (pretérito perfeito) advances the action, the imperfect (pretérito imperfeito) paints the scene and habits, and the pluperfect (mais-que-perfeito) places an event before another past event. In 'Ele entrou no salão; a orquestra tocava baixinho e ela já saíra', we have the three values: punctual action, setting and anteriority.",
-    "ar": "في السرد الأدبي، يقدّم الماضي البسيط الحدث، ويصوّر الماضي الناقص المشهد والعادات، ويحدد الماضي الأسبق حدثًا وقع قبل حدث ماضٍ آخر. في جملة 'Ele entrou no salão; a orquestra tocava baixinho e ela já saíra' (دخل القاعة؛ كانت الفرقة تعزف بهدوء وكانت قد غادرت بالفعل) نجد القيم الثلاث: الحدث اللحظي، والتصوير، والأسبقية."
-   },
-   "examples": [
-    {
-     "es": "Ella llegó a la playa y sintió la brisa. (indefinido + imperfecto)",
-     "en": "She arrived at the beach and felt the breeze. (perfect + imperfect)",
-     "ar": "وصلت إلى الشاطئ وشعرت بالنسمات."
-    },
-    {
-     "es": "Todos los domingos, la familia se reunía en la terraza. (imperfecto de hábito)",
-     "en": "Every Sunday the family used to gather on the porch. (habitual imperfect)",
-     "ar": "كانت العائلة تجتمع على الشرفة كل يوم أحد."
-    },
-    {
-     "es": "Cuando llegué, ella ya había partido sin dejar recado. (pluscuamperfecto)",
-     "en": "When I arrived, she had already left without leaving a message. (pluperfect)",
-     "ar": "عندما وصلت، كانت قد رحلت دون أن تترك رسالة."
-    }
-   ]
-  },
-  {
-   "title": {
-    "es": "Discurso Directo, Indirecto e Indirecto Libre",
-    "en": "Direct, Indirect and Free Indirect Speech",
-    "ar": "الخطاب المباشر وغير المباشر وغير المباشر الحر"
-   },
-   "explanation": {
-    "es": "En el discurso directo, reproducimos el habla con verbos declarativos y guion o comillas. En el indirecto, lo transponemos a la tercera persona con 'que': 'Ella dijo que estaba cansada'. En el indirecto libre se funden narrador y personaje sin verbo declarativo: 'Qué cansancio... Aquella sala no tenía fin' — la emoción es del personaje, la sintaxis, del narrador.",
-    "en": "In direct speech we reproduce utterances with declarative verbs and dashes or quotation marks. In indirect speech we transpose them to the third person with 'que': 'Ella dijo que estaba cansada' (She said she was tired). In free indirect speech narrator and character merge without a declarative verb: 'Qué cansancio... Aquella sala no tenía fin' — the emotion belongs to the character, the syntax to the narrator.",
-    "ar": "في الخطاب المباشر نعيد إنتاج الكلام بأفعال قول وشرطات أو علامات اقتباس. وفي غير المباشر ننقله إلى الغائب بـ 'que': 'Ella dijo que estaba cansada' (قالت إنها كانت متعبة). وفي غير المباشر الحر يندمج الراوي بالشخصية دون فعل قول: 'Qué cansancio... Aquella sala no tenía fin' — فالعاطفة للشخصية والتركيب للراوي."
-   },
-   "examples": [
-    {
-     "es": "Directo: Ella preguntó: '¿Te vas a quedar?'",
-     "en": "Direct: She asked: 'Are you staying?'",
-     "ar": "مباشر: سألت: 'هل ستبقى؟'"
-    },
-    {
-     "es": "Indirecto: Ella preguntó si yo me iba a quedar.",
-     "en": "Indirect: She asked whether I was staying.",
-     "ar": "غير مباشر: سألت ما إذا كنت سأبقى."
-    },
-    {
-     "es": "Indirecto libre: ¿Se iba a quedar? ¿Y por qué no? Toda la ciudad dormía bajo la lluvia.",
-     "en": "Free indirect: Was he staying? And why not? The whole city slept under the rain.",
-     "ar": "غير مباشر حر: هل سيبقى؟ ولم لا؟ كانت المدينة كلها نائمة تحت المطر."
-    }
-   ]
-  }
- ],
- "dialogue": {
   "title": {
-   "es": "En la Clase de Literatura",
-   "en": "In the Literature Class",
-   "ar": "في حصة الأدب"
+    "es": "Análisis de Textos Literarios",
+    "en": "Literary Text Analysis",
+    "ar": "تحليل النصوص الأدبية"
   },
-  "lines": [
-   {
-    "speaker": "Profesora",
-    "es": "¿Cómo construye el narrador la atmósfera en este fragmento?",
-    "en": "How does the narrator build the atmosphere in this passage?",
-    "ar": "كيف يبني الراوي الأجواء في هذا المقطع؟"
-   },
-   {
-    "speaker": "Luisa",
-    "es": "Con el imperfecto, profesora: 'caía la tarde', 'las sombras se alargaban' crean la ambientación.",
-    "en": "Through the imperfect, professor: 'the afternoon was falling', 'the shadows lengthened' create the setting.",
-    "ar": "من خلال الماضي الناقص، أستاذة: 'كانت تُسدل الغروب' و'كانت الظلال تمدد' يخلقان الجو."
-   },
-   {
-    "speaker": "Profesora",
-    "es": "Exacto. ¿Y qué figura retórica marca la descripción del protagonista?",
-    "en": "Exactly. And what figure of speech marks the description of the protagonist?",
-    "ar": "تمامًا. وما المجاز الذي يميز وصف الشخصية الرئيسية؟"
-   },
-   {
-    "speaker": "Luisa",
-    "es": "La hipérbole: 'un corazón del tamaño del mar'. También hay una paradoja en el desenlace.",
-    "en": "Hyperbole: 'a heart the size of the sea'. There is also a paradox in the ending.",
-    "ar": "المبالغة: 'قلب بحجم البحر'. وهناك أيضًا مفارقة في الخاتمة."
-   },
-   {
-    "speaker": "Profesora",
-    "es": "Muy bien. Observa que el narrador es omnisciente y usa el discurso indirecto libre en las reflexiones del personaje.",
-    "en": "Very good. Note that the narrator is omniscient and uses free indirect speech in the character's reflections.",
-    "ar": "أحسنتِ. لاحظي أن الراوي عليم بكل شيء ويستخدم الخطاب غير المباشر الحر في تأملات الشخصية."
-   },
-   {
-    "speaker": "Luisa",
-    "es": "Entiendo. Y el pluscuamperfecto en 'había visto' marca la analepsis de su infancia.",
-    "en": "I see. And the pluperfect in 'vira' marks the flashback to her childhood.",
-    "ar": "فهمت. والماضي الأسبق في 'vira' يشير إلى استرجاع طفولتها."
-   }
+  "objectives": [
+    {
+      "es": "Identificar figuras retóricas en textos literarios",
+      "en": "Identify figures of speech in literary texts",
+      "ar": "تحديد المجازات اللغوية في النصوص الأدبية"
+    },
+    {
+      "es": "Analizar el narrador y los tiempos narrativos",
+      "en": "Analyze the narrator and narrative tenses",
+      "ar": "تحليل الراوي والأزمنة السردية"
+    },
+    {
+      "es": "Comprender el discurso directo, indirecto e indirecto libre",
+      "en": "Understand direct, indirect and free indirect speech",
+      "ar": "فهم الخطاب المباشر وغير المباشر وغير المباشر الحر"
+    },
+    {
+      "es": "Redactar un análisis crítico estructurado",
+      "en": "Write a structured critical analysis",
+      "ar": "كتابة تحليل نقدي منظم"
+    }
+  ],
+  "vocabulary": [
+    {
+      "es": "la metáfora",
+      "ipa": "/ˈla meˈtafoɾa/",
+      "en": "metaphor",
+      "ar": "الاستعارة",
+      "example": {
+        "es": "La metáfora compara dos campos semánticos.",
+        "en": "Metaphor compares two semantic fields.",
+        "ar": "تستعمل الاستعارة بين حقلين دلاليين."
+      }
+    },
+    {
+      "es": "la metonimia",
+      "ipa": "/ˈla metoˈnimia/",
+      "en": "metonymy",
+      "ar": "المجاز المرسل",
+      "example": {
+        "es": "La metonimia sustituye el referente.",
+        "en": "Metonymy substitutes the referent.",
+        "ar": "يستبدل المجاز المرسل المرجع."
+      }
+    },
+    {
+      "es": "la alegoría",
+      "ipa": "/ˈla aleɣoˈɾia/",
+      "en": "allegory",
+      "ar": "الرمزية",
+      "example": {
+        "es": "La alegoría extiende una imagen simbólica.",
+        "en": "Allegory extends a symbolic image.",
+        "ar": "تمدد الرمزية صورة رمزية."
+      }
+    },
+    {
+      "es": "el narrador",
+      "ipa": "/ˈel naraˈðoɾ/",
+      "en": "the narrator",
+      "ar": "الراوي",
+      "example": {
+        "es": "El narrador conoce los pensamientos de todos.",
+        "en": "The narrator knows everyone's thoughts.",
+        "ar": "يعرف الراوي أفكار الجميع."
+      }
+    },
+    {
+      "es": "omnisciente",
+      "ipa": "/omniˈssiente/",
+      "en": "omniscient",
+      "ar": "عليم بكل شيء",
+      "example": {
+        "es": "El punto de vista omnisciente lo ve todo.",
+        "en": "The omniscient point of view sees everything.",
+        "ar": "المنظور العليم بكل شيء يرى كل شيء."
+      }
+    },
+    {
+      "es": "el eufemismo",
+      "ipa": "/ˈel eufeˈmismo/",
+      "en": "euphemism",
+      "ar": "التلطيف / اللفظ الموازي",
+      "example": {
+        "es": "El eufemismo suaviza una realidad dura.",
+        "en": "A euphemism softens a hard reality.",
+        "ar": "يلطّف اللفظ الموازي واقعًا قاسيًا."
+      }
+    },
+    {
+      "es": "la hipérbole",
+      "ipa": "/ˈla iˈpeɾbole/",
+      "en": "hyperbole",
+      "ar": "المبالغة",
+      "example": {
+        "es": "La hipérbole exagera para impresionar.",
+        "en": "Hyperbole exaggerates to impress.",
+        "ar": "تبالغ المبالغة لإثارة الانبهار."
+      }
+    },
+    {
+      "es": "la ironía",
+      "ipa": "/ˈla iɾoˈnia/",
+      "en": "irony",
+      "ar": "السخرية",
+      "example": {
+        "es": "La ironía dice lo contrario de lo que piensa.",
+        "en": "Irony says the opposite of what is meant.",
+        "ar": "تقول السخرية عكس المقصود."
+      }
+    },
+    {
+      "es": "el personaje",
+      "ipa": "/ˈel peɾsoˈnaxe/",
+      "en": "the character",
+      "ar": "الشخصية",
+      "example": {
+        "es": "El personaje evoluciona capítulo a capítulo.",
+        "en": "The character evolves chapter by chapter.",
+        "ar": "تطور الشخصية فصلًا بعد فصل."
+      }
+    },
+    {
+      "es": "la trama",
+      "ipa": "/ˈla ˈtɾama/",
+      "en": "the plot",
+      "ar": "الحبكة",
+      "example": {
+        "es": "La trama avanza con giros inesperados.",
+        "en": "The plot advances with unexpected twists.",
+        "ar": "تتقدم الحبكة بمنعطفات غير متوقعة."
+      }
+    },
+    {
+      "es": "el desenlace",
+      "ipa": "/ˈel deseˈnlase/",
+      "en": "the ending / resolution",
+      "ar": "الخاتمة / الحل",
+      "example": {
+        "es": "El desenlace resuelve todos los hilos.",
+        "en": "The ending resolves all threads.",
+        "ar": "تحل الخاتمة كل الخيوط."
+      }
+    },
+    {
+      "es": "el clímax",
+      "ipa": "/ˈel ˈklimaks/",
+      "en": "the climax",
+      "ar": "الذروة",
+      "example": {
+        "es": "El clímax concentra la tensión máxima.",
+        "en": "The climax concentrates the maximum tension.",
+        "ar": "تركز الذروة التوتر الأقصى."
+      }
+    },
+    {
+      "es": "la antítesis",
+      "ipa": "/ˈla aˈntitesis/",
+      "en": "antithesis",
+      "ar": "الطباق / التقابل",
+      "example": {
+        "es": "La antítesis opone dos ideas contrastadas.",
+        "en": "Antithesis opposes two contrasting ideas.",
+        "ar": "تضع الطباق فكرتين متعاكستين."
+      }
+    },
+    {
+      "es": "la paradoja",
+      "ipa": "/ˈla paɾaˈðoxa/",
+      "en": "paradox",
+      "ar": "المفارقة",
+      "example": {
+        "es": "La paradoja une ideas que se excluyen.",
+        "en": "Paradox joins ideas that exclude each other.",
+        "ar": "توحّد المفارقة أفكارًا متنافية."
+      }
+    },
+    {
+      "es": "la intertextualidad",
+      "ipa": "/ˈla inteɾtekstualiˈðað/",
+      "en": "intertextuality",
+      "ar": "التناص",
+      "example": {
+        "es": "La intertextualidad dialoga con otros textos.",
+        "en": "Intertextuality dialogues with other texts.",
+        "ar": "يحاور التناص نصوصًا أخرى."
+      }
+    },
+    {
+      "es": "la catarsis",
+      "ipa": "/ˈla kaˈtaɾsis/",
+      "en": "catharsis",
+      "ar": "التطهير النفسي",
+      "example": {
+        "es": "La catarsis libera emociones en el lector.",
+        "en": "Catharsis releases emotions in the reader.",
+        "ar": "تحرّر المشاعر في القارئ عبر التطهير النفسي."
+      }
+    },
+    {
+      "es": "la prolepsis",
+      "ipa": "/ˈla pɾoˈlepsis/",
+      "en": "flash-forward",
+      "ar": "الاستباق",
+      "example": {
+        "es": "La prolepsis anticipa un hecho futuro.",
+        "en": "Flash-forward anticipates a future event.",
+        "ar": "يستبق الاستباق حدثًا مستقبليًا."
+      }
+    },
+    {
+      "es": "la analepsis",
+      "ipa": "/ˈla anaˈlepsis/",
+      "en": "flashback",
+      "ar": "الاسترجاع",
+      "example": {
+        "es": "La analepsis regresa a un momento anterior.",
+        "en": "Flashback returns to a prior moment.",
+        "ar": "يعود الاسترجاع إلى لحظة سابقة."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": {
+        "es": "Tiempos Narrativos",
+        "en": "Narrative Tenses",
+        "ar": "أزمنة السرد"
+      },
+      "explanation": {
+        "es": "En la narrativa literaria, el pretérito indefinido avanza la acción, el pretérito imperfecto pinta el escenario y el hábito, y el pluscuamperfecto localiza un hecho anterior a otro ya pasado. En 'Él entró en el salón; la orquesta tocaba bajito y ella ya había salido', tenemos los tres valores: acción puntual, ambientación y anterioridad.",
+        "en": "In literary narrative, the simple past (pretérito perfeito) advances the action, the imperfect (pretérito imperfeito) paints the scene and habits, and the pluperfect (mais-que-perfeito) places an event before another past event. In 'Ele entrou no salão; a orquestra tocava baixinho e ela já saíra', we have the three values: punctual action, setting and anteriority.",
+        "ar": "في السرد الأدبي، يقدّم الماضي البسيط الحدث، ويصوّر الماضي الناقص المشهد والعادات، ويحدد الماضي الأسبق حدثًا وقع قبل حدث ماضٍ آخر. في جملة 'Ele entrou no salão; a orquestra tocava baixinho e ela já saíra' (دخل القاعة؛ كانت الفرقة تعزف بهدوء وكانت قد غادرت بالفعل) نجد القيم الثلاث: الحدث اللحظي، والتصوير، والأسبقية."
+      },
+      "examples": [
+        {
+          "es": "Ella llegó a la playa y sintió la brisa. (indefinido + imperfecto)",
+          "en": "She arrived at the beach and felt the breeze. (perfect + imperfect)",
+          "ar": "وصلت إلى الشاطئ وشعرت بالنسمات."
+        },
+        {
+          "es": "Todos los domingos, la familia se reunía en la terraza. (imperfecto de hábito)",
+          "en": "Every Sunday the family used to gather on the porch. (habitual imperfect)",
+          "ar": "كانت العائلة تجتمع على الشرفة كل يوم أحد."
+        },
+        {
+          "es": "Cuando llegué, ella ya había partido sin dejar recado. (pluscuamperfecto)",
+          "en": "When I arrived, she had already left without leaving a message. (pluperfect)",
+          "ar": "عندما وصلت، كانت قد رحلت دون أن تترك رسالة."
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Discurso Directo, Indirecto e Indirecto Libre",
+        "en": "Direct, Indirect and Free Indirect Speech",
+        "ar": "الخطاب المباشر وغير المباشر وغير المباشر الحر"
+      },
+      "explanation": {
+        "es": "En el discurso directo, reproducimos el habla con verbos declarativos y guion o comillas. En el indirecto, lo transponemos a la tercera persona con 'que': 'Ella dijo que estaba cansada'. En el indirecto libre se funden narrador y personaje sin verbo declarativo: 'Qué cansancio... Aquella sala no tenía fin' — la emoción es del personaje, la sintaxis, del narrador.",
+        "en": "In direct speech we reproduce utterances with declarative verbs and dashes or quotation marks. In indirect speech we transpose them to the third person with 'que': 'Ella dijo que estaba cansada' (She said she was tired). In free indirect speech narrator and character merge without a declarative verb: 'Qué cansancio... Aquella sala no tenía fin' — the emotion belongs to the character, the syntax to the narrator.",
+        "ar": "في الخطاب المباشر نعيد إنتاج الكلام بأفعال قول وشرطات أو علامات اقتباس. وفي غير المباشر ننقله إلى الغائب بـ 'que': 'Ella dijo que estaba cansada' (قالت إنها كانت متعبة). وفي غير المباشر الحر يندمج الراوي بالشخصية دون فعل قول: 'Qué cansancio... Aquella sala no tenía fin' — فالعاطفة للشخصية والتركيب للراوي."
+      },
+      "examples": [
+        {
+          "es": "Directo: Ella preguntó: '¿Te vas a quedar?'",
+          "en": "Direct: She asked: 'Are you staying?'",
+          "ar": "مباشر: سألت: 'هل ستبقى؟'"
+        },
+        {
+          "es": "Indirecto: Ella preguntó si yo me iba a quedar.",
+          "en": "Indirect: She asked whether I was staying.",
+          "ar": "غير مباشر: سألت ما إذا كنت سأبقى."
+        },
+        {
+          "es": "Indirecto libre: ¿Se iba a quedar? ¿Y por qué no? Toda la ciudad dormía bajo la lluvia.",
+          "en": "Free indirect: Was he staying? And why not? The whole city slept under the rain.",
+          "ar": "غير مباشر حر: هل سيبقى؟ ولم لا؟ كانت المدينة كلها نائمة تحت المطر."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "es": "En la Clase de Literatura",
+      "en": "In the Literature Class",
+      "ar": "في حصة الأدب"
+    },
+    "lines": [
+      {
+        "speaker": "Profesora",
+        "es": "¿Cómo construye el narrador la atmósfera en este fragmento?",
+        "en": "How does the narrator build the atmosphere in this passage?",
+        "ar": "كيف يبني الراوي الأجواء في هذا المقطع؟"
+      },
+      {
+        "speaker": "Luisa",
+        "es": "Con el imperfecto, profesora: 'caía la tarde', 'las sombras se alargaban' crean la ambientación.",
+        "en": "Through the imperfect, professor: 'the afternoon was falling', 'the shadows lengthened' create the setting.",
+        "ar": "من خلال الماضي الناقص، أستاذة: 'كانت تُسدل الغروب' و'كانت الظلال تمدد' يخلقان الجو."
+      },
+      {
+        "speaker": "Profesora",
+        "es": "Exacto. ¿Y qué figura retórica marca la descripción del protagonista?",
+        "en": "Exactly. And what figure of speech marks the description of the protagonist?",
+        "ar": "تمامًا. وما المجاز الذي يميز وصف الشخصية الرئيسية؟"
+      },
+      {
+        "speaker": "Luisa",
+        "es": "La hipérbole: 'un corazón del tamaño del mar'. También hay una paradoja en el desenlace.",
+        "en": "Hyperbole: 'a heart the size of the sea'. There is also a paradox in the ending.",
+        "ar": "المبالغة: 'قلب بحجم البحر'. وهناك أيضًا مفارقة في الخاتمة."
+      },
+      {
+        "speaker": "Profesora",
+        "es": "Muy bien. Observa que el narrador es omnisciente y usa el discurso indirecto libre en las reflexiones del personaje.",
+        "en": "Very good. Note that the narrator is omniscient and uses free indirect speech in the character's reflections.",
+        "ar": "أحسنتِ. لاحظي أن الراوي عليم بكل شيء ويستخدم الخطاب غير المباشر الحر في تأملات الشخصية."
+      },
+      {
+        "speaker": "Luisa",
+        "es": "Entiendo. Y el pluscuamperfecto en 'había visto' marca la analepsis de su infancia.",
+        "en": "I see. And the pluperfect in 'vira' marks the flashback to her childhood.",
+        "ar": "فهمت. والماضي الأسبق في 'vira' يشير إلى استرجاع طفولتها."
+      }
+    ]
+  },
+  "reading": {
+    "title": {
+      "es": "Un Desenlace Literario",
+      "en": "A Literary Ending",
+      "ar": "خاتمة أدبية"
+    },
+    "text_es": "El novelista cierra la obra con una antítesis: la ciudad crecía y él disminuía. La metáfora del tren que parte sin pasajero prolonga el desenlace abierto. En el capítulo final, el narrador abandona la omnisciencia y pasa al discurso indirecto libre, acercándose a la angustia del protagonista. La lectura exige que el lector reconozca las voces y llene los silencios.",
+    "text_en": "The novelist ends the work with an antithesis: the city grew and he shrank. The metaphor of the train leaving without a passenger extends the open ending. In the final chapter, the narrator abandons omniscience and shifts to free indirect speech, drawing closer to the protagonist's anguish. Reading requires the reader to recognize the voices and fill in the silences.",
+    "text_ar": "يُنهي الروائي عمله بطباق: كانت المدينة تكبر بينما كان هو يصغر. استعارة القطار الذي ينطلق دون راكب تطيل الخاتمة المفتوحة. في الفصل الأخير، يترك الراوي علمه المطلق ويلجأ إلى الخطاب غير المباشر الحر، مقتربًا من قلق بطل الرواية. تقتضي القراءة أن يميز القارئ الأصوات وأن يملأ الفراغات."
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "En 'Cuando llegué, ella ya había salido', el verbo está en...",
+        "en": "In 'Quando cheguei, ela já saíra', the verb 'saíra' is in the...",
+        "ar": "في جملة 'Quando cheguei, ela já saíra'، يكون الفعل 'saíra' في زمن..."
+      },
+      "options": [
+        {
+          "es": "pretérito indefinido",
+          "en": "pretérito perfeito (simple past)",
+          "ar": "الماضي البسيط"
+        },
+        {
+          "es": "pretérito pluscuamperfecto",
+          "en": "pretérito mais-que-perfeito (pluperfect)",
+          "ar": "الماضي الأسبق"
+        },
+        {
+          "es": "condicional simple",
+          "en": "futuro do pretérito (conditional)",
+          "ar": "المستقبل الشرطي"
+        }
+      ],
+      "answer": "pretérito pluscuamperfecto",
+      "explanation": {
+        "es": "'Había salido' es el pluscuamperfecto, que indica anterioridad.",
+        "en": "'Saíra' is the synthetic pluperfect, indicating anteriority.",
+        "ar": "'saíra' هي الصيغة المختزلة للماضي الأسبق، وتدل على الأسبقية."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué figura retórica aparece en 'la ciudad crecía y él disminuía'?",
+        "en": "Which figure of speech appears in 'a cidade crescia e ele diminuía'?",
+        "ar": "ما المجاز الذي يظهر في 'a cidade crescia e ele diminuía'؟"
+      },
+      "options": [
+        {
+          "es": "la antítesis",
+          "en": "antithesis",
+          "ar": "الطباق / التقابل"
+        },
+        {
+          "es": "el eufemismo",
+          "en": "euphemism",
+          "ar": "التلطيف / اللفظ الموازي"
+        },
+        {
+          "es": "la metonimia",
+          "en": "metonymy",
+          "ar": "المجاز المرسل"
+        }
+      ],
+      "answer": "la antítesis",
+      "explanation": {
+        "es": "Hay oposición entre 'crecía' y 'disminuía': antítesis.",
+        "en": "There is opposition between 'crescia' (grew) and 'diminuía' (shrank): antithesis.",
+        "ar": "هناك تقابل بين 'crescia' (تكبر) و 'diminuía' (يصغر): طباق."
+      }
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: 'free indirect speech'",
+        "en": "Translate into Spanish: 'free indirect speech'",
+        "ar": "ترجم إلى بالإسبانية: 'free indirect speech'"
+      },
+      "options": [],
+      "answer": "estilo indirecto libre",
+      "explanation": {
+        "es": "'Estilo indirecto libre' es el término técnico.",
+        "en": "'Discurso indirecto libre' is the technical term.",
+        "ar": "المصطلح التقني هو 'discurso indirecto libre'."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'metonymy'?",
+        "en": "Which word means 'metonymy'?",
+        "ar": "أي كلمة تعني 'المجاز المرسل'؟"
+      },
+      "options": [
+        {
+          "es": "el clímax",
+          "en": "the climax",
+          "ar": "الذروة"
+        },
+        {
+          "es": "el personaje",
+          "en": "the character",
+          "ar": "الشخصية"
+        },
+        {
+          "es": "la metonimia",
+          "en": "metonymy",
+          "ar": "المجاز المرسل"
+        },
+        {
+          "es": "la catarsis",
+          "en": "catharsis",
+          "ar": "التطهير النفسي"
+        }
+      ],
+      "answer": "la metonimia",
+      "explanation": {
+        "es": "'la metonimia' significa 'metonymy'.",
+        "en": "'la metonimia' means 'metonymy'.",
+        "ar": "تعني 'la metonimia' 'المجاز المرسل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "Elige la palabra en español: 'metonymy'",
+        "en": "Choose the Spanish word: 'metonymy'",
+        "ar": "اختر الكلمة بالإسبانية: 'المجاز المرسل'"
+      },
+      "options": [
+        {
+          "es": "la metonimia",
+          "en": "metonymy",
+          "ar": "المجاز المرسل"
+        },
+        {
+          "es": "el desenlace",
+          "en": "the ending / resolution",
+          "ar": "الخاتمة / الحل"
+        },
+        {
+          "es": "la alegoría",
+          "en": "allegory",
+          "ar": "الرمزية"
+        }
+      ],
+      "answer": "la metonimia",
+      "explanation": {
+        "es": "'la metonimia' significa 'metonymy'.",
+        "en": "'la metonimia' means 'metonymy'.",
+        "ar": "تعني 'la metonimia' 'المجاز المرسل'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Cómo se dice 'intertextuality' en español?",
+        "en": "How do you say 'intertextuality' in Spanish?",
+        "ar": "كيف تقول 'التناص' بالإسبانية؟"
+      },
+      "options": [
+        {
+          "es": "el desenlace",
+          "en": "the ending / resolution",
+          "ar": "الخاتمة / الحل"
+        },
+        {
+          "es": "la intertextualidad",
+          "en": "intertextuality",
+          "ar": "التناص"
+        },
+        {
+          "es": "la metáfora",
+          "en": "metaphor",
+          "ar": "الاستعارة"
+        }
+      ],
+      "answer": "la intertextualidad",
+      "explanation": {
+        "es": "'la intertextualidad' significa 'intertextuality'.",
+        "en": "'la intertextualidad' means 'intertextuality'.",
+        "ar": "تعني 'la intertextualidad' 'التناص'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "es": "¿Qué palabra significa 'the climax'?",
+        "en": "Which word means 'the climax'?",
+        "ar": "أي كلمة تعني 'الذروة'؟"
+      },
+      "options": [
+        {
+          "es": "el eufemismo",
+          "en": "euphemism",
+          "ar": "التلطيف / اللفظ الموازي"
+        },
+        {
+          "es": "la paradoja",
+          "en": "paradox",
+          "ar": "المفارقة"
+        },
+        {
+          "es": "el clímax",
+          "en": "the climax",
+          "ar": "الذروة"
+        }
+      ],
+      "answer": "el clímax",
+      "explanation": {
+        "es": "'el clímax' significa 'the climax'.",
+        "en": "'el clímax' means 'the climax'.",
+        "ar": "تعني 'el clímax' 'الذروة'."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"The ending resolves all threads.\"",
+        "en": "Translate into Spanish: \"The ending resolves all threads.\"",
+        "ar": "ترجم إلى الإسبانية: \"تحل الخاتمة كل الخيوط.\""
+      },
+      "options": [],
+      "answer": "El desenlace resuelve todos los hilos.",
+      "explanation": {
+        "es": "Respuesta: \"El desenlace resuelve todos los hilos.\".",
+        "en": "Answer: \"El desenlace resuelve todos los hilos.\".",
+        "ar": "الإجابة: \"El desenlace resuelve todos los hilos.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"I see. And the pluperfect in 'vira' marks the flashback to her childhood.\"",
+        "en": "Translate into Spanish: \"I see. And the pluperfect in 'vira' marks the flashback to her childhood.\"",
+        "ar": "ترجم إلى الإسبانية: \"فهمت. والماضي الأسبق في 'vira' يشير إلى استرجاع طفولتها.\""
+      },
+      "options": [],
+      "answer": "Entiendo. Y el pluscuamperfecto en 'había visto' marca la analepsis de su infancia.",
+      "explanation": {
+        "es": "Respuesta: \"Entiendo. Y el pluscuamperfecto en 'había visto' marca la analepsis de su infancia.\".",
+        "en": "Answer: \"Entiendo. Y el pluscuamperfecto en 'había visto' marca la analepsis de su infancia.\".",
+        "ar": "الإجابة: \"Entiendo. Y el pluscuamperfecto en 'había visto' marca la analepsis de su infancia.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Flash-forward anticipates a future event.\"",
+        "en": "Translate into Spanish: \"Flash-forward anticipates a future event.\"",
+        "ar": "ترجم إلى الإسبانية: \"يستبق الاستباق حدثًا مستقبليًا.\""
+      },
+      "options": [],
+      "answer": "La prolepsis anticipa un hecho futuro.",
+      "explanation": {
+        "es": "Respuesta: \"La prolepsis anticipa un hecho futuro.\".",
+        "en": "Answer: \"La prolepsis anticipa un hecho futuro.\".",
+        "ar": "الإجابة: \"La prolepsis anticipa un hecho futuro.\"."
+      },
+      "gen": "v1.8"
+    },
+    {
+      "type": "translation",
+      "prompt": {
+        "es": "Traduce al español: \"Through the imperfect, professor: 'the afternoon was falling', 'the shadows lengthened' create the setting.\"",
+        "en": "Translate into Spanish: \"Through the imperfect, professor: 'the afternoon was falling', 'the shadows lengthened' create the setting.\"",
+        "ar": "ترجم إلى الإسبانية: \"من خلال الماضي الناقص، أستاذة: 'كانت تُسدل الغروب' و'كانت الظلال تمدد' يخلقان الجو.\""
+      },
+      "options": [],
+      "answer": "Con el imperfecto, profesora: 'caía la tarde', 'las sombras se alargaban' crean la ambientación.",
+      "explanation": {
+        "es": "Respuesta: \"Con el imperfecto, profesora: 'caía la tarde', 'las sombras se alargaban' crean la ambientación.\".",
+        "en": "Answer: \"Con el imperfecto, profesora: 'caía la tarde', 'las sombras se alargaban' crean la ambientación.\".",
+        "ar": "الإجابة: \"Con el imperfecto, profesora: 'caía la tarde', 'las sombras se alargaban' crean la ambientación.\"."
+      },
+      "gen": "v1.8"
+    }
   ]
- },
- "reading": {
-  "title": {
-   "es": "Un Desenlace Literario",
-   "en": "A Literary Ending",
-   "ar": "خاتمة أدبية"
-  },
-  "text_es": "El novelista cierra la obra con una antítesis: la ciudad crecía y él disminuía. La metáfora del tren que parte sin pasajero prolonga el desenlace abierto. En el capítulo final, el narrador abandona la omnisciencia y pasa al discurso indirecto libre, acercándose a la angustia del protagonista. La lectura exige que el lector reconozca las voces y llene los silencios.",
-  "text_en": "The novelist ends the work with an antithesis: the city grew and he shrank. The metaphor of the train leaving without a passenger extends the open ending. In the final chapter, the narrator abandons omniscience and shifts to free indirect speech, drawing closer to the protagonist's anguish. Reading requires the reader to recognize the voices and fill in the silences.",
-  "text_ar": "يُنهي الروائي عمله بطباق: كانت المدينة تكبر بينما كان هو يصغر. استعارة القطار الذي ينطلق دون راكب تطيل الخاتمة المفتوحة. في الفصل الأخير، يترك الراوي علمه المطلق ويلجأ إلى الخطاب غير المباشر الحر، مقتربًا من قلق بطل الرواية. تقتضي القراءة أن يميز القارئ الأصوات وأن يملأ الفراغات."
- },
- "exercises": [
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "En 'Cuando llegué, ella ya había salido', el verbo está en...",
-    "en": "In 'Quando cheguei, ela já saíra', the verb 'saíra' is in the...",
-    "ar": "في جملة 'Quando cheguei, ela já saíra'، يكون الفعل 'saíra' في زمن..."
-   },
-   "options": [
-    {
-     "es": "pretérito indefinido",
-     "en": "pretérito perfeito (simple past)",
-     "ar": "الماضي البسيط"
-    },
-    {
-     "es": "pretérito pluscuamperfecto",
-     "en": "pretérito mais-que-perfeito (pluperfect)",
-     "ar": "الماضي الأسبق"
-    },
-    {
-     "es": "condicional simple",
-     "en": "futuro do pretérito (conditional)",
-     "ar": "المستقبل الشرطي"
-    }
-   ],
-   "answer": "pretérito pluscuamperfecto",
-   "explanation": {
-    "es": "'Había salido' es el pluscuamperfecto, que indica anterioridad.",
-    "en": "'Saíra' is the synthetic pluperfect, indicating anteriority.",
-    "ar": "'saíra' هي الصيغة المختزلة للماضي الأسبق، وتدل على الأسبقية."
-   }
-  },
-  {
-   "type": "multiple_choice",
-   "prompt": {
-    "es": "¿Qué figura retórica aparece en 'la ciudad crecía y él disminuía'?",
-    "en": "Which figure of speech appears in 'a cidade crescia e ele diminuía'?",
-    "ar": "ما المجاز الذي يظهر في 'a cidade crescia e ele diminuía'؟"
-   },
-   "options": [
-    {
-     "es": "la antítesis",
-     "en": "antithesis",
-     "ar": "الطباق / التقابل"
-    },
-    {
-     "es": "el eufemismo",
-     "en": "euphemism",
-     "ar": "التلطيف / اللفظ الموازي"
-    },
-    {
-     "es": "la metonimia",
-     "en": "metonymy",
-     "ar": "المجاز المرسل"
-    }
-   ],
-   "answer": "la antítesis",
-   "explanation": {
-    "es": "Hay oposición entre 'crecía' y 'disminuía': antítesis.",
-    "en": "There is opposition between 'crescia' (grew) and 'diminuía' (shrank): antithesis.",
-    "ar": "هناك تقابل بين 'crescia' (تكبر) و 'diminuía' (يصغر): طباق."
-   }
-  },
-  {
-   "type": "translation",
-   "prompt": {
-    "es": "Traduce al español: 'free indirect speech'",
-    "en": "Translate into Portuguese: 'free indirect speech'",
-    "ar": "ترجم إلى البرتغالية: 'free indirect speech'"
-   },
-   "options": [],
-   "answer": "estilo indirecto libre",
-   "explanation": {
-    "es": "'Estilo indirecto libre' es el término técnico.",
-    "en": "'Discurso indireto livre' is the technical term.",
-    "ar": "المصطلح التقني هو 'discurso indireto livre'."
-   }
-  }
- ]
 }
