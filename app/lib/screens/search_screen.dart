@@ -31,7 +31,7 @@ class _SearchScreenState extends State<SearchScreen> {
   List<SearchResult>? _index;
   List<SearchResult> _results = [];
   List<VerbInfo>? _verbs;
-  bool _verbsLoaded = false;
+  bool _searchingVerbs = false;
   bool _loading = true;
   bool _failed = false;
 
@@ -115,42 +115,44 @@ class _SearchScreenState extends State<SearchScreen> {
     }
     final index = _index;
     if (index == null) return;
-    // The verb list lives in its own multi-megabyte file, so it is only
-    // loaded the first time the reader actually searches.
-    if (!_verbsLoaded) {
-      _loadVerbs();
-      return;
-    }
-    final verbResults =
-        (_verbs ?? const <VerbInfo>[])
-            .where(
-              (v) =>
-                  v.inf.toLowerCase().contains(query) ||
-                  v.en.toLowerCase().contains(query) ||
-                  v.ar.contains(query),
-            )
-            .map(
-              (v) => SearchResult(
-                'verbs',
-                'verbs',
-                'verb',
-                TriText(v.inf, v.en, v.ar),
-              ),
-            )
-            .take(20)
+    // Show course matches immediately. The verb list is a multi-megabyte file,
+    // so it is loaded in the background on the first search and the verb hits
+    // are appended when it lands, rather than freezing the field until then.
+    final courseResults =
+        index
+            .where((r) {
+              return r.text.es.toLowerCase().contains(query) ||
+                  r.text.en.toLowerCase().contains(query) ||
+                  r.text.ar.toLowerCase().contains(query);
+            })
+            .take(50)
             .toList();
+    final verbsReady = _verbs != null;
+    final verbResults =
+        verbsReady
+            ? (_verbs!
+                .where(
+                  (v) =>
+                      v.inf.toLowerCase().contains(query) ||
+                      v.en.toLowerCase().contains(query) ||
+                      v.ar.contains(query),
+                )
+                .map(
+                  (v) => SearchResult(
+                    'verbs',
+                    'verbs',
+                    'verb',
+                    TriText(v.inf, v.en, v.ar),
+                  ),
+                )
+                .take(20)
+                .toList())
+            : const <SearchResult>[];
     setState(() {
-      _results =
-          index
-              .where((r) {
-                return r.text.es.toLowerCase().contains(query) ||
-                    r.text.en.toLowerCase().contains(query) ||
-                    r.text.ar.toLowerCase().contains(query);
-              })
-              .take(50)
-              .toList()
-            ..addAll(verbResults);
+      _results = [...courseResults, ...verbResults];
+      _searchingVerbs = !verbsReady;
     });
+    if (!verbsReady) _loadVerbs();
   }
 
   Future<void> _loadVerbs() async {
@@ -158,7 +160,7 @@ class _SearchScreenState extends State<SearchScreen> {
     if (!mounted) return;
     setState(() {
       _verbs = verbs.verbs;
-      _verbsLoaded = true;
+      _searchingVerbs = false;
     });
     final text = _controller.text.trim();
     if (text.isNotEmpty) _search(text);
@@ -237,15 +239,18 @@ class _SearchScreenState extends State<SearchScreen> {
                       )
                       : _results.isEmpty
                       ? Center(
-                        child: Text(
-                          uiText(
-                            lang,
-                            ar: 'لا توجد نتائج',
-                            es: 'Sin resultados',
-                            other: 'No results',
-                          ),
-                          style: Theme.of(context).textTheme.bodyLarge,
-                        ),
+                        child:
+                            _searchingVerbs
+                                ? const CircularProgressIndicator()
+                                : Text(
+                                  uiText(
+                                    lang,
+                                    ar: 'لا توجد نتائج',
+                                    es: 'Sin resultados',
+                                    other: 'No results',
+                                  ),
+                                  style: Theme.of(context).textTheme.bodyLarge,
+                                ),
                       )
                       : ListView.builder(
                         itemCount: _results.length + 1,

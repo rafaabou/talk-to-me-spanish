@@ -18,23 +18,42 @@ class MainShell extends StatefulWidget {
 class _MainShellState extends State<MainShell> {
   int _currentIndex = 0;
 
-  final _screens = const [
-    HomeScreen(),
-    FlashcardScreen(),
-    VerbScreen(),
-    StatsScreen(),
-    AccountScreen(),
-  ];
+  /// Tabs are built on first visit, then kept alive.
+  ///
+  /// An `IndexedStack` builds every child, so eagerly constructing all five
+  /// made a cold start load every repository and render every verb row before
+  /// the first frame was usable.
+  final Set<int> _visited = {0};
+  final Map<int, Widget> _built = {};
+
+  Widget _screenFor(int index) =>
+      _built[index] ??= switch (index) {
+        0 => const HomeScreen(),
+        1 => const FlashcardScreen(),
+        2 => const VerbScreen(),
+        3 => const StatsScreen(),
+        _ => const AccountScreen(),
+      };
 
   @override
   Widget build(BuildContext context) {
     final lang = context.watch<AppState>().lang;
 
     return Scaffold(
-      body: IndexedStack(index: _currentIndex, children: _screens),
+      body: IndexedStack(
+        index: _currentIndex,
+        children: List.generate(
+          5,
+          (i) => _visited.contains(i) ? _screenFor(i) : const SizedBox.shrink(),
+        ),
+      ),
       bottomNavigationBar: NavigationBar(
         selectedIndex: _currentIndex,
-        onDestinationSelected: (i) => setState(() => _currentIndex = i),
+        onDestinationSelected:
+            (i) => setState(() {
+              _currentIndex = i;
+              _visited.add(i);
+            }),
         destinations: [
           NavigationDestination(
             icon: const Icon(Icons.home_outlined),

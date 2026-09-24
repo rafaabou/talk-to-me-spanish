@@ -12,6 +12,7 @@ class ProgressService {
   static const _key = 'completed_lessons';
   static const _exercisesKey = 'completed_exercises';
   static const _favoritesKey = 'favorite_words';
+  static const _bgSyncKey = 'bg_sync_signature';
   static const _streakKey = 'streak';
   static const _lastStudyKey = 'last_study';
   static const _studyDaysKey = 'study_days';
@@ -196,6 +197,18 @@ class ProgressService {
       list.add(exerciseKey);
     }
     await prefs.setStringList(_exercisesKey, list);
+  }
+
+  /// Last home-widget/notification sync signature, so reopening the app with
+  /// unchanged progress does not repeat five platform-channel round trips.
+  Future<String?> getBackgroundSyncSignature() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getString(_bgSyncKey);
+  }
+
+  Future<void> setBackgroundSyncSignature(String value) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_bgSyncKey, value);
   }
 
   Future<Set<String>> getFavorites() async {

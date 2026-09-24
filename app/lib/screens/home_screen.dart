@@ -68,7 +68,10 @@ class _HomeScreenState extends State<HomeScreen> {
       });
       return;
     }
-    // Update home widget
+    // Home widget and notifications go through platform channels and alarm
+    // scheduling, which are several IPC round trips. They are deferred past
+    // the first frame and skipped when nothing changed, so opening the app (or
+    // coming back from a lesson) does not wait on them.
     final totalCompleted =
         _completed
             .where(
@@ -78,6 +81,16 @@ class _HomeScreenState extends State<HomeScreen> {
                   id.startsWith('C'),
             )
             .length;
+    final signature = '$_dueCount|$_streak|$totalCompleted';
+    final lastSignature =
+        await ProgressService.instance.getBackgroundSyncSignature();
+    final changed = lastSignature != signature;
+    if (!changed && _backgroundSynced) return;
+    _backgroundSynced = true;
+    await ProgressService.instance.setBackgroundSyncSignature(signature);
+    if (!changed) return;
+    await Future<void>.delayed(const Duration(milliseconds: 400));
+    if (!mounted) return;
     try {
       await HomeWidgetService.updateWidget(
         dueCount: _dueCount,
@@ -93,6 +106,8 @@ class _HomeScreenState extends State<HomeScreen> {
       debugPrint('Notification scheduling failed: $e');
     }
   }
+
+  static bool _backgroundSynced = false;
 
   int _dueCount = 0;
 
