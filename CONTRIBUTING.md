@@ -61,7 +61,7 @@ dart format --set-exit-if-changed --output=none .
 # Static analysis
 flutter analyze --fatal-infos
 
-# Run tests (79 tests)
+# Run tests (87 tests)
 flutter test
 
 # Build release APK
@@ -178,16 +178,19 @@ refactor(models): extract course models to separate file
 | Widget | `test/` | `flutter test` |
 | Integration | `integration_test/` | `flutter test integration_test` |
 
-### Test Files (79 tests)
+### Test Files (87 tests)
 
 | File | Covers |
 |------|--------|
+| `conversation_turn_test.dart` | Conversation turn building, free-answer enrichment, scoring |
 | `course_repository_test.dart` | Level/lesson loading, caching |
+| `exercise_dedup_test.dart` | Duplicate-exercise de-duplication keys |
 | `fsrs_test.dart` | FSRS algorithm, card lifecycle |
 | `pinch_test.dart` | Pinch-to-zoom gesture handling |
 | `progress_service_test.dart` | Persistence, streaks, favorites, SRS |
 | `quiz_screen_test.dart` | Quiz logic, scoring |
 | `ui_text_test.dart` | Localization helper |
+| `voice_compare_test.dart` | Pronunciation scoring, thresholds, containment floor |
 | `widget_test.dart` | Widget rendering |
 
 ### Test Guidelines

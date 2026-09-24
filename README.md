@@ -79,7 +79,7 @@ It serves the prebuilt web app (`app/build/web`) and opens your browser automati
 - Data export/import (JSON backup)
 - Web support — run in browser
 - `build-all.sh` — one command builds APK + web
-- 79/79 tests passing, 0 analyze issues
+- 87/87 tests passing, 0 analyze issues
 
 ---
 
@@ -92,7 +92,7 @@ espanol-zero-to-hero/
 │   │   ├── main.dart           # Entry point
 │   │   ├── models/             # Data models (TriText, Lesson, VerbInfo, etc.)
 │   │   ├── screens/            # 17 screens (Home, Lesson, Flashcard, Quiz, Verb, etc.)
-│   │   ├── services/           # 13 services (Audio, Progress, FSRS, etc.)
+│   │   ├── services/           # 31 services (Audio, Progress, FSRS, exercise dedup, web helpers, etc.)
 │   │   └── widgets/            # 6 reusable widgets (AudioButton, TriBlock, etc.)
 │   ├── assets/
 │   │   ├── course/             # JSON lesson data + verbs.json
@@ -169,7 +169,7 @@ git clone https://github.com/rafaabou/espanol-zero-to-hero.git
 cd espanol-zero-to-hero/app
 flutter pub get
 flutter analyze              # Must be 0 issues
-flutter test                 # Must pass 79 tests
+flutter test                 # Must pass 87 tests
 
 # 5. Build release APK
 JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 \
@@ -187,7 +187,7 @@ cd app
 flutter pub get              # Install dependencies
 flutter run                  # Run on device/emulator
 flutter analyze              # Static analysis (must be 0 issues)
-flutter test                 # Run 79 tests
+flutter test                 # Run 87 tests
 dart format --set-exit-if-changed --output=none .  # Format check
 ```
 
@@ -445,7 +445,7 @@ The main Flutter project containing all source code, assets, and Android configu
 |-----------|-------|---------|
 | `lib/` | 1 | `main.dart` — entry point, theme, Provider setup |
 | `lib/models/` | 2 | Data models: `course_models.dart` (TriText, Lesson, etc.), `verb_models.dart` (VerbInfo, VerbData) |
-| `lib/services/` | 13 | Business logic: AppState, AudioService, ProgressService, FSRS, etc. |
+| `lib/services/` | 31 | Business logic: AppState, AudioService, ProgressService, FSRS, etc. |
 | `lib/screens/` | 17 | UI screens: Home, Lesson, Flashcard, Quiz, Verb, Grammar, Search, Stats, etc. |
 | `lib/widgets/` | 6 | Reusable widgets: AudioButton, WordTapText, TriBlock, TrText, etc. |
 
@@ -563,7 +563,7 @@ See `SECURITY.md` for the full security policy and vulnerability reporting proce
 ```bash
 cd app
 flutter analyze              # Must be 0 issues
-flutter test                 # Must pass 79 tests
+flutter test                 # Must pass 87 tests
 git status                   # Nothing unintended staged
 dart format --set-exit-if-changed --output=none .  # Format check
 gitleaks detect --no-git -c .gitleaks.toml         # Optional local secret scan
@@ -587,6 +587,9 @@ Apache-2.0 — see `LICENSE` and `NOTICE`.
 - STT init no longer permanently fails after one error; model audio stops before listening
 - Temp voice-recording cleanup; macOS mic/speech usage strings; `app_settings` dep
 - README: offline STT pack setup, conversation docs, security note for RECORD_AUDIO
+- **Web parity**: bundled Noto Naskh Arabic (web Arabic was invisible — CanvasKit was fetching Noto from a CDN), removed the `dart:io` import that made `flutter build web` fail, full RTL layout flip, viewport meta, immutable caching + gzip + Range in `serve_web.py`, and a `web` CI job so it can't rot again
+- **Web speech**: Firefox has no SpeechRecognition, so the browser build now detects it and offers record + replay + self-check instead of a dead mic button; insecure-context and browser-network errors get accurate messages
+- **Spanish UI fixed**: the conversation screen was a Portuguese copy — ~50 strings were falling back to English; exercise de-duplication applied app-wide (ES already had 0 repeats)
 
 ### v1.8.0 (2026-09-12)
 - Unique example phrases for all 1,190 vocab words (ES/EN/AR) with per-word audio buttons

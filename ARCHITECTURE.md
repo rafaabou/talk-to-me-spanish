@@ -54,7 +54,7 @@ espanol-zero-to-hero/
 │   │   │   ├── search_screen.dart  # Global search
 │   │   │   ├── favorites_screen.dart # Bookmarked words
 │   │   │   └── stats_screen.dart   # Statistics + charts
-│   │   ├── services/               # 13 services
+│   │   ├── services/               # 31 services
 │   │   │   ├── app_state.dart      # Global state (lang, theme, zoom, etc.)
 │   │   │   ├── progress_service.dart # All progress tracking
 │   │   │   ├── course_repository.dart # Level/lesson JSON loader

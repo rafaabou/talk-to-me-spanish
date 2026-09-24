@@ -83,7 +83,9 @@ The app uses **no third-party services**:
 
 ## Web Version
 
-The web version runs entirely in your browser. No data is sent to any server. Progress is stored in browser local storage.
+The web version runs entirely in your browser. No data is sent to any server by the app. Progress is stored in browser local storage.
+
+**One browser exception:** if you use the microphone in Chrome or Edge, the *browser's* built-in speech recognition (the Web Speech API) may process the audio on the browser vendor's servers — that is a browser feature the app does not control, and it is why the app also offers record-and-self-check without speech recognition. The app itself never uploads audio, and the Android app has no `INTERNET` permission at all, so on-device speech recognition stays on the phone. Firefox has no speech recognition support; the app detects this and switches to record, replay and self-check.
 
 ---
 

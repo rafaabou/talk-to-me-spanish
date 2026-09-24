@@ -32,6 +32,17 @@ You can also run the app in your browser:
 2. Run `./start-server.sh`
 3. Open `http://localhost:8002` in your browser
 
+**Microphone in the browser**
+
+- Chrome / Edge: speech scoring works, but recognition runs on the browser vendor's servers, so it needs an internet connection. If you are offline, the app tells you and you can record + self-check instead.
+- Firefox: there is no speech recognition at all. The app detects this and gives you **record → replay → self-check**, which works fully offline.
+- Microphone access only works on `https://` or `localhost`. Opening the app from a phone or another machine over a plain `http://192.168.x.x` address blocks the microphone.
+- Installing the Android offline speech pack has no effect in the browser.
+
+**Exercises**
+
+The app never shows the same exercise twice in a lesson: exercises that repeat work already done (same drill, same sentence, same options, or the same audio clip) are hidden, and the counters match what is actually listed.
+
 ---
 
 ## Home Screen
