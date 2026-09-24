@@ -1,3 +1,5 @@
+import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/foundation.dart' show visibleForTesting;
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
 import '../models/course_models.dart';
@@ -10,6 +12,28 @@ class PdfExportService {
   static final PdfExportService instance = PdfExportService._();
   PdfExportService._();
 
+  /// The `pdf` package defaults to Helvetica, which has no IPA glyphs, so
+  /// lesson exports silently dropped characters like ˈ ɾ ʃ. These subsets of
+  /// Noto Sans (built by app/tools/build_pdf_font_subset.py) cover Latin and
+  /// the IPA block. Arabic is left out on purpose: the package performs no
+  /// complex-script shaping, so Arabic would be disconnected either way.
+  static pw.Font? _font;
+  static pw.Font? _fontBold;
+
+  static Future<pw.ThemeData> _loadTheme() async {
+    _font ??= pw.Font.ttf(
+      await rootBundle.load('assets/fonts/NotoSansPdf-Regular.ttf'),
+    );
+    _fontBold ??= pw.Font.ttf(
+      await rootBundle.load('assets/fonts/NotoSansPdf-Bold.ttf'),
+    );
+    return pw.ThemeData.withFont(base: _font, bold: _fontBold);
+  }
+
+  /// Exposed so tests can verify the export font is bundled and embedded.
+  @visibleForTesting
+  static Future<pw.ThemeData> loadThemeForTest() => _loadTheme();
+
   Future<String> exportLessonToPdf({
     required String lessonId,
     required AppState appState,
@@ -18,7 +42,7 @@ class PdfExportService {
     if (lesson == null) throw Exception('Lesson not found: $lessonId');
     final lang = appState.lang;
 
-    final pdf = pw.Document();
+    final pdf = pw.Document(theme: await _loadTheme());
     final t = _Translations(lang);
 
     // Cover page

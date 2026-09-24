@@ -27,38 +27,68 @@ class EszeroApp extends StatelessWidget {
       seedColor: seed,
       brightness: brightness,
     );
-    final base = Typography.material2021(
-      platform: TargetPlatform.android,
-    ).white.apply(bodyColor: scheme.onSurface, displayColor: scheme.onSurface);
+    final base = Typography.material2021(platform: TargetPlatform.android).white
+        .apply(bodyColor: scheme.onSurface, displayColor: scheme.onSurface)
+        // A caller-supplied textTheme replaces the typography defaults instead
+        // of inheriting ThemeData.fontFamily, so the family has to be baked
+        // into every style; otherwise IPA falls back to the platform font and
+        // renders as empty boxes.
+        .apply(
+          fontFamily: 'NotoSans',
+          fontFamilyFallback: const ['NotoSansArabic'],
+        );
     return ThemeData(
       colorScheme: scheme,
       useMaterial3: true,
-      fontFamilyFallback: const ['NotoNaskhArabic'],
+      // Noto Sans covers Latin and the full IPA Extensions block, which the
+      // previous default font left as empty boxes; Noto Sans Arabic has much
+      // firmer strokes than the Naskh face it replaces.
+      fontFamily: 'NotoSans',
+      fontFamilyFallback: const ['NotoSansArabic'],
       textTheme: base.copyWith(
         labelSmall: base.labelSmall?.copyWith(
           fontSize: 12.5,
           height: 1.3,
+          fontWeight: FontWeight.w500,
           color: scheme.onSurfaceVariant,
         ),
-        labelMedium: base.labelMedium?.copyWith(fontSize: 13, height: 1.3),
-        labelLarge: base.labelLarge?.copyWith(fontSize: 15, height: 1.3),
+        labelMedium: base.labelMedium?.copyWith(
+          fontSize: 13,
+          height: 1.3,
+          fontWeight: FontWeight.w500,
+        ),
+        labelLarge: base.labelLarge?.copyWith(
+          fontSize: 15,
+          height: 1.3,
+          fontWeight: FontWeight.w600,
+        ),
         bodySmall: base.bodySmall?.copyWith(
           fontSize: 13.5,
           height: 1.4,
+          fontWeight: FontWeight.w500,
           color: scheme.onSurfaceVariant,
         ),
         bodyMedium: base.bodyMedium?.copyWith(
           fontSize: 15.5,
           height: 1.4,
+          fontWeight: FontWeight.w500,
           color: scheme.onSurface,
         ),
-        bodyLarge: base.bodyLarge?.copyWith(fontSize: 18, height: 1.35),
+        bodyLarge: base.bodyLarge?.copyWith(
+          fontSize: 18,
+          height: 1.35,
+          fontWeight: FontWeight.w600,
+        ),
         titleMedium: base.titleMedium?.copyWith(
           fontSize: 20,
           height: 1.3,
           fontWeight: FontWeight.w700,
         ),
-        titleLarge: base.titleLarge?.copyWith(fontSize: 22, height: 1.3),
+        titleLarge: base.titleLarge?.copyWith(
+          fontSize: 22,
+          height: 1.3,
+          fontWeight: FontWeight.w700,
+        ),
       ),
     );
   }
