@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/course_models.dart';
+import '../services/exercise_dedup.dart';
 import '../services/app_state.dart';
 import '../services/course_repository.dart';
 import '../services/pdf_export_service.dart';
@@ -119,17 +120,8 @@ class _LessonScreenState extends State<LessonScreen> {
     );
   }
 
-  List<MapEntry<int, Exercise>> _visibleExercises(Lesson lesson) {
-    final seen = <String>{};
-    final out = <MapEntry<int, Exercise>>[];
-    for (final entry in lesson.exercises.asMap().entries) {
-      final e = entry.value;
-      final key =
-          '${e.type}|${e.prompt.es}|${e.prompt.en}|${e.prompt.ar}|${e.answer}';
-      if (seen.add(key)) out.add(MapEntry(entry.key, e));
-    }
-    return out;
-  }
+  List<MapEntry<int, Exercise>> _visibleExercises(Lesson lesson) =>
+      dedupeExercises(lesson.exercises, 'es');
 
   void _scrollToSection(String section, int index) {
     // For now just scroll to approximate position

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import '../services/exercise_dedup.dart';
 import '../services/app_state.dart';
 import '../services/course_repository.dart';
 import '../services/progress_service.dart';
@@ -47,11 +48,10 @@ class _LessonListScreenState extends State<LessonListScreen> {
       final lesson = await CourseRepository.instance.tryLoadLesson(id);
       if (lesson != null) {
         titles[id] = lesson.title;
-        exTotal[id] = lesson.exercises.length;
+        final visible = dedupeExercises(lesson.exercises, 'es');
+        exTotal[id] = visible.length;
         exDone[id] =
-            lesson.exercises
-                .asMap()
-                .entries
+            visible
                 .where((e) => doneExercises.contains('$id::${e.key}'))
                 .length;
       }

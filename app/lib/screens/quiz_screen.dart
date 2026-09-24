@@ -2,6 +2,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/course_models.dart';
+import '../services/exercise_dedup.dart';
 import '../services/app_state.dart';
 import '../services/course_repository.dart';
 import '../services/progress_service.dart';
@@ -42,7 +43,8 @@ class _QuizScreenState extends State<QuizScreen> {
     final levels = await CourseRepository.instance.loadLevels();
     final level = levels[widget.levelId];
     final questions = <Exercise>[];
-    final seen = <String>{};
+    final seenWork = <String>{};
+    final seenChoice = <String>{};
     if (level != null) {
       for (final lessonMeta in level.lessons) {
         final id = lessonMeta['id'] as String;
@@ -57,9 +59,10 @@ class _QuizScreenState extends State<QuizScreen> {
           ].contains(e.type)) {
             continue;
           }
-          final key =
-              '${e.type}|${e.prompt.es}|${e.prompt.en}|${e.prompt.ar}|${e.answer}';
-          if (seen.add(key)) questions.add(e);
+          if (!seenWork.add(exerciseWorkKey(e, 'es'))) continue;
+          final choice = exerciseChoiceKey(e, 'es');
+          if (choice.isNotEmpty && !seenChoice.add(choice)) continue;
+          questions.add(e);
         }
       }
     }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/course_models.dart';
+import '../services/exercise_dedup.dart';
 import '../services/ui_text.dart';
 
 class LessonSearchSheet extends StatefulWidget {
@@ -119,8 +120,11 @@ class _LessonSearchSheetState extends State<LessonSearchSheet> {
     }
 
     // Search exercises
-    for (int i = 0; i < lesson.exercises.length; i++) {
-      final e = lesson.exercises[i];
+    // Search exercises (deduplicated, but keeping the original index so the
+    // jump-to-exercise offset still lines up)
+    for (final entry in dedupeExercises(lesson.exercises, 'es')) {
+      final i = entry.key;
+      final e = entry.value;
       if (e.prompt.es.toLowerCase().contains(query) ||
           e.prompt.en.toLowerCase().contains(query) ||
           e.prompt.ar.toLowerCase().contains(query) ||

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:fl_chart/fl_chart.dart';
+import '../services/exercise_dedup.dart';
 import '../services/app_state.dart';
 import '../services/course_repository.dart';
 import '../services/progress_service.dart';
@@ -55,7 +56,9 @@ class _StatsScreenState extends State<StatsScreen> {
       for (final lessonMeta in level.lessons) {
         final id = lessonMeta['id'] as String;
         final lesson = await CourseRepository.instance.tryLoadLesson(id);
-        if (lesson != null) totalExercises += lesson.exercises.length;
+        if (lesson != null) {
+          totalExercises += dedupedExerciseCount(lesson.exercises, 'es');
+        }
       }
     }
 

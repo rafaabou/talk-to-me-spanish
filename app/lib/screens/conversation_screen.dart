@@ -12,6 +12,7 @@ import '../services/speech_service.dart';
 import '../services/temp_recording_helper.dart';
 import '../services/ui_text.dart';
 import '../services/voice_compare_service.dart';
+import '../services/web_speech_support.dart';
 
 enum _Phase { idle, listening, result }
 
@@ -46,6 +47,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
   final Set<int> _passed = {};
   bool _fallback = false;
   bool _sttChecked = false;
+  bool _speechUnsupported = false;
   bool _rationaleShown = false;
   bool _busy = false;
   final List<_ChatEntry> _history = [];
@@ -71,6 +73,16 @@ class _ConversationScreenState extends State<ConversationScreen> {
   }
 
   Future<void> _initSpeechQuietly() async {
+    if (kIsWeb && !browserSupportsSpeechRecognition) {
+      if (mounted) {
+        setState(() {
+          _fallback = true;
+          _speechUnsupported = true;
+          _sttChecked = true;
+        });
+      }
+      return;
+    }
     final ok = await SpeechService.instance.ensureInitialized();
     if (!ok && mounted) {
       setState(() {
@@ -253,6 +265,15 @@ class _ConversationScreenState extends State<ConversationScreen> {
     if (turn == null || turn.role != TurnRole.learner) return;
 
     if (!_sttChecked || !SpeechService.instance.available) {
+      if (kIsWeb && !browserSupportsSpeechRecognition) {
+        setState(() {
+          _fallback = true;
+          _speechUnsupported = true;
+          _sttChecked = true;
+        });
+        _msg(_unsupportedSpeechText());
+        return;
+      }
       final ok = await SpeechService.instance.ensureInitialized();
       if (!mounted) return;
       if (!ok) {
@@ -325,6 +346,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
             other: 'Could not use the microphone — use manual mode',
           ),
         );
+        _scrollToBottom();
       } else {
         _msg(_errorText(outcome.error));
       }
@@ -347,7 +369,17 @@ class _ConversationScreenState extends State<ConversationScreen> {
     setState(() {
       _fallback = false;
       _sttChecked = false;
+      _speechUnsupported = false;
     });
+    if (kIsWeb && !browserSupportsSpeechRecognition) {
+      setState(() {
+        _fallback = true;
+        _speechUnsupported = true;
+        _sttChecked = true;
+      });
+      _msg(_unsupportedSpeechText());
+      return;
+    }
     final ok = await SpeechService.instance.ensureInitialized();
     if (!mounted) return;
     setState(() => _sttChecked = true);
@@ -390,6 +422,16 @@ class _ConversationScreenState extends State<ConversationScreen> {
     }
   }
 
+  String _unsupportedSpeechText() => uiText(
+    widget.lang,
+    ar:
+        'هذا المتصفح لا يدعم التعرف على الصوت (Firefox). سجّل صوتك واستمع ثم تحقّق بنفسك',
+    es:
+        'Este navegador no tiene reconocimiento de voz (Firefox). Graba, escucha y comprueba tú mismo',
+    other:
+        'This browser has no speech recognition (Firefox). Record, replay and self-check instead.',
+  );
+
   String _errorText(String? code) {
     switch (code) {
       case 'no_match':
@@ -407,6 +449,17 @@ class _ConversationScreenState extends State<ConversationScreen> {
       case 'error_server':
       case 'error_language_not_supported':
       case 'error_language_unavailable':
+        if (kIsWeb) {
+          return uiText(
+            widget.lang,
+            ar:
+                'التعرف على الصوت في المتصفح يحتاج اتصالاً بالإنترنت. يمكنك التسجيل والتحقق بنفسك',
+            es:
+                'El reconocimiento de voz del navegador necesita internet. Puedes grabar y comprobarte tú mismo',
+            other:
+                'Browser speech recognition needs internet. You can record and self-check instead.',
+          );
+        }
         return uiText(
           widget.lang,
           ar:
@@ -427,6 +480,17 @@ class _ConversationScreenState extends State<ConversationScreen> {
   }
 
   Future<void> _toggleRecord() async {
+    if (kIsWeb && !browserIsSecureContext) {
+      _msg(
+        uiText(
+          widget.lang,
+          ar: 'الميكروفون يحتاج https أو localhost',
+          es: 'El micrófono necesita https o localhost',
+          other: 'Microphone needs https or localhost',
+        ),
+      );
+      return;
+    }
     try {
       if (_recording) {
         _recSafety?.cancel();
@@ -959,14 +1023,29 @@ class _ConversationScreenState extends State<ConversationScreen> {
             if (_fallback && _phase != _Phase.listening) ...[
               const SizedBox(height: 8),
               Text(
-                uiText(
-                  lang,
-                  ar: 'وضع يدوي: استمع ثم قل الجملة ثم تحقق بنفسك',
-                  es: 'Modo manual: escucha, di la frase y comprueba tú mismo',
-                  other: 'Manual mode: listen, say the phrase, and self-check',
-                ),
+                _speechUnsupported
+                    ? uiText(
+                      lang,
+                      ar: 'سجّل صوتك ثم استمع إليه — يعمل بالكامل دون إنترنت',
+                      es:
+                          'Graba tu voz y luego escúchala: funciona totalmente sin conexión',
+                      other:
+                          'Record your voice, then replay it — works fully offline',
+                    )
+                    : uiText(
+                      lang,
+                      ar: 'وضع يدوي: استمع ثم قل الجملة ثم تحقق بنفسك',
+                      es:
+                          'Modo manual: escucha, di la frase y comprueba tú mismo',
+                      other:
+                          'Manual mode: listen, say the phrase, and self-check',
+                    ),
                 style: style.bodySmall?.copyWith(fontStyle: FontStyle.italic),
               ),
+              if (_speechUnsupported) ...[
+                const SizedBox(height: 8),
+                _buildRecordRow(context),
+              ],
               const SizedBox(height: 8),
               Row(
                 children: [
@@ -982,19 +1061,21 @@ class _ConversationScreenState extends State<ConversationScreen> {
                       ),
                     ),
                   ),
-                  const SizedBox(width: 8),
-                  OutlinedButton.icon(
-                    onPressed: _openSettings,
-                    icon: const Icon(Icons.settings, size: 18),
-                    label: Text(
-                      uiText(
-                        lang,
-                        ar: 'الإعدادات',
-                        es: 'Ajustes',
-                        other: 'Settings',
+                  if (!kIsWeb) ...[
+                    const SizedBox(width: 8),
+                    OutlinedButton.icon(
+                      onPressed: _openSettings,
+                      icon: const Icon(Icons.settings, size: 18),
+                      label: Text(
+                        uiText(
+                          lang,
+                          ar: 'الإعدادات',
+                          es: 'Ajustes',
+                          other: 'Settings',
+                        ),
                       ),
                     ),
-                  ),
+                  ],
                 ],
               ),
             ],
@@ -1004,7 +1085,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
               const SizedBox(height: 8),
               _buildResultActions(context, turn),
             ],
-            if (_phase == _Phase.result) ...[
+            if (_phase == _Phase.result || kIsWeb) ...[
               const SizedBox(height: 8),
               _buildRecordRow(context),
             ],
