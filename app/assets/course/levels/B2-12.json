@@ -604,6 +604,197 @@
         "ar": "الإجابة: \"La voz pasiva enfatiza la acción.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Llegaron al final del nivel B2. ¿Cómo se sienten?",
+      "accepted": [],
+      "audio": "Llegaron al final del nivel B2. ¿Cómo se sienten?",
+      "explanation": {
+        "es": "La frase correcta: 'Llegaron al final del nivel B2. ¿Cómo se sienten?'",
+        "en": "The correct sentence: 'Llegaron al final del nivel B2. ¿Cómo se sienten?'",
+        "ar": "الجملة الصحيحة: 'Llegaron al final del nivel B2. ¿Cómo se sienten?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¡Muy bien! Ahora puedo discutir temas complejos en español.",
+      "accepted": [],
+      "audio": "¡Muy bien! Ahora puedo discutir temas complejos en español.",
+      "explanation": {
+        "es": "La frase correcta: '¡Muy bien! Ahora puedo discutir temas complejos en español.'",
+        "en": "The correct sentence: '¡Muy bien! Ahora puedo discutir temas complejos en español.'",
+        "ar": "الجملة الصحيحة: '¡Muy bien! Ahora puedo discutir temas complejos en español.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Bien. Cuando se sientan seguros, pasen al nivel C1.",
+          "en": "Bien. Cuando se sientan seguros, pasen al nivel C1.",
+          "ar": "Bien. Cuando se sientan seguros, pasen al nivel C1."
+        },
+        {
+          "es": "Excelente. Recuerden que el subjuntivo necesita práctica diaria.",
+          "en": "Excelente. Recuerden que el subjuntivo necesita práctica diaria.",
+          "ar": "Excelente. Recuerden que el subjuntivo necesita práctica diaria."
+        },
+        {
+          "es": "Sí. Si practico todos los días, voy a mejorar cada vez más.",
+          "en": "Sí. Si practico todos los días, voy a mejorar cada vez más.",
+          "ar": "Sí. Si practico todos los días, voy a mejorar cada vez más."
+        },
+        {
+          "es": "El subjuntivo expresa deseo o duda.",
+          "en": "El subjuntivo expresa deseo o duda.",
+          "ar": "El subjuntivo expresa deseo o duda."
+        }
+      ],
+      "answer": "Excelente. Recuerden que el subjuntivo necesita práctica diaria.",
+      "accepted": [],
+      "audio": "Excelente. Recuerden que el subjuntivo necesita práctica diaria.",
+      "explanation": {
+        "es": "Escuchaste: 'Excelente. Recuerden que el subjuntivo necesita práctica diaria.'",
+        "en": "You heard: 'Excelente. Recuerden que el subjuntivo necesita práctica diaria.'",
+        "ar": "سمعت: 'Excelente. Recuerden que el subjuntivo necesita práctica diaria.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "voy",
+          "en": "voy",
+          "ar": "voy"
+        },
+        {
+          "es": "los",
+          "en": "los",
+          "ar": "los"
+        },
+        {
+          "es": "a",
+          "en": "a",
+          "ar": "a"
+        },
+        {
+          "es": "cada",
+          "en": "cada",
+          "ar": "cada"
+        },
+        {
+          "es": "días,",
+          "en": "días,",
+          "ar": "días,"
+        },
+        {
+          "es": "mejorar",
+          "en": "mejorar",
+          "ar": "mejorar"
+        },
+        {
+          "es": "Sí.",
+          "en": "Sí.",
+          "ar": "Sí."
+        },
+        {
+          "es": "más.",
+          "en": "más.",
+          "ar": "más."
+        },
+        {
+          "es": "practico",
+          "en": "practico",
+          "ar": "practico"
+        },
+        {
+          "es": "Si",
+          "en": "Si",
+          "ar": "Si"
+        },
+        {
+          "es": "vez",
+          "en": "vez",
+          "ar": "vez"
+        },
+        {
+          "es": "todos",
+          "en": "todos",
+          "ar": "todos"
+        }
+      ],
+      "answer": "Sí. Si practico todos los días, voy a mejorar cada vez más.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Sí. Si practico todos los días, voy a mejorar cada vez más.'",
+        "en": "The correct sentence: 'Sí. Si practico todos los días, voy a mejorar cada vez más.'",
+        "ar": "الجملة الصحيحة: 'Sí. Si practico todos los días, voy a mejorar cada vez más.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Bien.   Cuando   se   sientan   seguros,   ___   al   nivel   C1.",
+        "en": "Bien.   Cuando   se   sientan   seguros,   ___   al   nivel   C1.",
+        "ar": "Bien.   Cuando   se   sientan   seguros,   ___   al   nivel   C1."
+      },
+      "options": [
+        {
+          "es": "'el conector'",
+          "en": "'el conector'",
+          "ar": "'el conector'"
+        },
+        {
+          "es": "'pasen'",
+          "en": "'pasen'",
+          "ar": "'pasen'"
+        },
+        {
+          "es": "'el subjuntivo'",
+          "en": "'el subjuntivo'",
+          "ar": "'el subjuntivo'"
+        },
+        {
+          "es": "'el vocabulario'",
+          "en": "'el vocabulario'",
+          "ar": "'el vocabulario'"
+        }
+      ],
+      "answer": "'pasen'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'pasen'",
+        "en": "The complete word: 'pasen'",
+        "ar": "الكلمة الكاملة: 'pasen'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

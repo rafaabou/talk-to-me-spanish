@@ -622,6 +622,174 @@
         "ar": "الإجابة: \"Claro que lo vi. Se fue por las nubes cuando intentó elogiar la charla.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Viste a Pedro haciéndole la pelota al director toda la noche?",
+      "accepted": [],
+      "audio": "¿Viste a Pedro haciéndole la pelota al director toda la noche?",
+      "explanation": {
+        "es": "La frase correcta: '¿Viste a Pedro haciéndole la pelota al director toda la noche?'",
+        "en": "The correct sentence: '¿Viste a Pedro haciéndole la pelota al director toda la noche?'",
+        "ar": "الجملة الصحيحة: '¿Viste a Pedro haciéndole la pelota al director toda la noche?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¿Y Mariana? Volvió a bajar la guardia y no llevó el informe.",
+      "accepted": [],
+      "audio": "¿Y Mariana? Volvió a bajar la guardia y no llevó el informe.",
+      "explanation": {
+        "es": "La frase correcta: '¿Y Mariana? Volvió a bajar la guardia y no llevó el informe.'",
+        "en": "The correct sentence: '¿Y Mariana? Volvió a bajar la guardia y no llevó el informe.'",
+        "ar": "الجملة الصحيحة: '¿Y Mariana? Volvió a bajar la guardia y no llevó el informe.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "No te comas las palabras después, ¿eh? Ya me están entrando dudas con esa gente.",
+          "en": "No te comas las palabras después, ¿eh? Ya me están entrando dudas con esa gente.",
+          "ar": "No te comas las palabras después, ¿eh? Ya me están entrando dudas con esa gente."
+        },
+        {
+          "es": "De acuerdo. Antes dejo a nadie en la estacada que dar largas hasta la madrugada.",
+          "en": "De acuerdo. Antes dejo a nadie en la estacada que dar largas hasta la madrugada.",
+          "ar": "De acuerdo. Antes dejo a nadie en la estacada que dar largas hasta la madrugada."
+        },
+        {
+          "es": "Quedarse esperando en vano frustra.",
+          "en": "Quedarse esperando en vano frustra.",
+          "ar": "Quedarse esperando en vano frustra."
+        },
+        {
+          "es": "Hacer el ridículo en público avergüenza.",
+          "en": "Hacer el ridículo en público avergüenza.",
+          "ar": "Hacer el ridículo en público avergüenza."
+        }
+      ],
+      "answer": "No te comas las palabras después, ¿eh? Ya me están entrando dudas con esa gente.",
+      "accepted": [],
+      "audio": "No te comas las palabras después, ¿eh? Ya me están entrando dudas con esa gente.",
+      "explanation": {
+        "es": "Escuchaste: 'No te comas las palabras después, ¿eh? Ya me están entrando dudas con esa gente.'",
+        "en": "You heard: 'No te comas las palabras después, ¿eh? Ya me están entrando dudas con esa gente.'",
+        "ar": "سمعت: 'No te comas las palabras después, ¿eh? Ya me están entrando dudas con esa gente.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "en",
+          "en": "en",
+          "ar": "en"
+        },
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "nadie",
+          "en": "nadie",
+          "ar": "nadie"
+        },
+        {
+          "es": "dar",
+          "en": "dar",
+          "ar": "dar"
+        },
+        {
+          "es": "acuerdo.",
+          "en": "acuerdo.",
+          "ar": "acuerdo."
+        },
+        {
+          "es": "madrugada.",
+          "en": "madrugada.",
+          "ar": "madrugada."
+        },
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "dejo",
+          "en": "dejo",
+          "ar": "dejo"
+        },
+        {
+          "es": "hasta",
+          "en": "hasta",
+          "ar": "hasta"
+        },
+        {
+          "es": "a",
+          "en": "a",
+          "ar": "a"
+        },
+        {
+          "es": "Antes",
+          "en": "Antes",
+          "ar": "Antes"
+        },
+        {
+          "es": "estacada",
+          "en": "estacada",
+          "ar": "estacada"
+        },
+        {
+          "es": "que",
+          "en": "que",
+          "ar": "que"
+        },
+        {
+          "es": "largas",
+          "en": "largas",
+          "ar": "largas"
+        },
+        {
+          "es": "De",
+          "en": "De",
+          "ar": "De"
+        }
+      ],
+      "answer": "De acuerdo. Antes dejo a nadie en la estacada que dar largas hasta la madrugada.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'De acuerdo. Antes dejo a nadie en la estacada que dar largas hasta la madrugada.'",
+        "en": "The correct sentence: 'De acuerdo. Antes dejo a nadie en la estacada que dar largas hasta la madrugada.'",
+        "ar": "الجملة الصحيحة: 'De acuerdo. Antes dejo a nadie en la estacada que dar largas hasta la madrugada.'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

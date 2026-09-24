@@ -605,6 +605,187 @@
         "ar": "الإجابة: \"La ponderación evita extremos.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "En suma, la tasa de congestión solo crece en las grandes ciudades.",
+      "accepted": [],
+      "audio": "En suma, la tasa de congestión solo crece en las grandes ciudades.",
+      "explanation": {
+        "es": "La frase correcta: 'En suma, la tasa de congestión solo crece en las grandes ciudades.'",
+        "en": "The correct sentence: 'En suma, la tasa de congestión solo crece en las grandes ciudades.'",
+        "ar": "الجملة الصحيحة: 'En suma, la tasa de congestión solo crece en las grandes ciudades.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Sin embargo, los datos muestran que el transporte público mejoró.",
+      "accepted": [],
+      "audio": "Sin embargo, los datos muestran que el transporte público mejoró.",
+      "explanation": {
+        "es": "La frase correcta: 'Sin embargo, los datos muestran que el transporte público mejoró.'",
+        "en": "The correct sentence: 'Sin embargo, los datos muestran que el transporte público mejoró.'",
+        "ar": "الجملة الصحيحة: 'Sin embargo, los datos muestran que el transporte público mejoró.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Aunque sea caro, el peaje urbano podría reducir el flujo.",
+          "en": "Aunque sea caro, el peaje urbano podría reducir el flujo.",
+          "ar": "Aunque sea caro, el peaje urbano podría reducir el flujo."
+        },
+        {
+          "es": "Por un lado, es verdad; por otro, los coches particulares todavía dominan.",
+          "en": "Por un lado, es verdad; por otro, los coches particulares todavía dominan.",
+          "ar": "Por un lado, es verdad; por otro, los coches particulares todavía dominan."
+        },
+        {
+          "es": "El debate duró dos horas.",
+          "en": "El debate duró dos horas.",
+          "ar": "El debate duró dos horas."
+        },
+        {
+          "es": "La opinión del jurado fue unánime.",
+          "en": "La opinión del jurado fue unánime.",
+          "ar": "La opinión del jurado fue unánime."
+        }
+      ],
+      "answer": "Por un lado, es verdad; por otro, los coches particulares todavía dominan.",
+      "accepted": [],
+      "audio": "Por un lado, es verdad; por otro, los coches particulares todavía dominan.",
+      "explanation": {
+        "es": "Escuchaste: 'Por un lado, es verdad; por otro, los coches particulares todavía dominan.'",
+        "en": "You heard: 'Por un lado, es verdad; por otro, los coches particulares todavía dominan.'",
+        "ar": "سمعت: 'Por un lado, es verdad; por otro, los coches particulares todavía dominan.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "urbano",
+          "en": "urbano",
+          "ar": "urbano"
+        },
+        {
+          "es": "reducir",
+          "en": "reducir",
+          "ar": "reducir"
+        },
+        {
+          "es": "sea",
+          "en": "sea",
+          "ar": "sea"
+        },
+        {
+          "es": "caro,",
+          "en": "caro,",
+          "ar": "caro,"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "podría",
+          "en": "podría",
+          "ar": "podría"
+        },
+        {
+          "es": "peaje",
+          "en": "peaje",
+          "ar": "peaje"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "flujo.",
+          "en": "flujo.",
+          "ar": "flujo."
+        },
+        {
+          "es": "Aunque",
+          "en": "Aunque",
+          "ar": "Aunque"
+        }
+      ],
+      "answer": "Aunque sea caro, el peaje urbano podría reducir el flujo.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Aunque sea caro, el peaje urbano podría reducir el flujo.'",
+        "en": "The correct sentence: 'Aunque sea caro, el peaje urbano podría reducir el flujo.'",
+        "ar": "الجملة الصحيحة: 'Aunque sea caro, el peaje urbano podría reducir el flujo.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "El   ___   duró   dos   horas.",
+        "en": "El   ___   duró   dos   horas.",
+        "ar": "El   ___   duró   dos   horas."
+      },
+      "options": [
+        {
+          "es": "'la opinión'",
+          "en": "'la opinión'",
+          "ar": "'la opinión'"
+        },
+        {
+          "es": "'debate'",
+          "en": "'debate'",
+          "ar": "'debate'"
+        },
+        {
+          "es": "'el debate'",
+          "en": "'el debate'",
+          "ar": "'el debate'"
+        },
+        {
+          "es": "'el argumento'",
+          "en": "'el argumento'",
+          "ar": "'el argumento'"
+        }
+      ],
+      "answer": "'debate'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'debate'",
+        "en": "The complete word: 'debate'",
+        "ar": "الكلمة الكاملة: 'debate'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

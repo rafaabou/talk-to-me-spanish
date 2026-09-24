@@ -622,6 +622,192 @@
         "ar": "الإجابة: \"El invierno aquí es muy frío.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¡Qué calor hoy! Hace treinta y cinco grados.",
+      "accepted": [],
+      "audio": "¡Qué calor hoy! Hace treinta y cinco grados.",
+      "explanation": {
+        "es": "La frase correcta: '¡Qué calor hoy! Hace treinta y cinco grados.'",
+        "en": "The correct sentence: '¡Qué calor hoy! Hace treinta y cinco grados.'",
+        "ar": "الجملة الصحيحة: '¡Qué calor hoy! Hace treinta y cinco grados.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Sí, pero por la noche va a llover.",
+      "accepted": [],
+      "audio": "Sí, pero por la noche va a llover.",
+      "explanation": {
+        "es": "La frase correcta: 'Sí, pero por la noche va a llover.'",
+        "en": "The correct sentence: 'Sí, pero por la noche va a llover.'",
+        "ar": "الجملة الصحيحة: 'Sí, pero por la noche va a llover.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "¿Cómo lo sabes?",
+          "en": "¿Cómo lo sabes?",
+          "ar": "¿Cómo lo sabes?"
+        },
+        {
+          "es": "El cielo está lleno de nubes y el viento es fuerte.",
+          "en": "El cielo está lleno de nubes y el viento es fuerte.",
+          "ar": "El cielo está lleno de nubes y el viento es fuerte."
+        },
+        {
+          "es": "El clima de la región es seco.",
+          "en": "El clima de la región es seco.",
+          "ar": "El clima de la región es seco."
+        },
+        {
+          "es": "¡Buena idea! En verano llueve mucho aquí.",
+          "en": "¡Buena idea! En verano llueve mucho aquí.",
+          "ar": "¡Buena idea! En verano llueve mucho aquí."
+        }
+      ],
+      "answer": "¿Cómo lo sabes?",
+      "accepted": [],
+      "audio": "¿Cómo lo sabes?",
+      "explanation": {
+        "es": "Escuchaste: '¿Cómo lo sabes?'",
+        "en": "You heard: '¿Cómo lo sabes?'",
+        "ar": "سمعت: '¿Cómo lo sabes?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "y",
+          "en": "y",
+          "ar": "y"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "está",
+          "en": "está",
+          "ar": "está"
+        },
+        {
+          "es": "nubes",
+          "en": "nubes",
+          "ar": "nubes"
+        },
+        {
+          "es": "viento",
+          "en": "viento",
+          "ar": "viento"
+        },
+        {
+          "es": "El",
+          "en": "El",
+          "ar": "El"
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "cielo",
+          "en": "cielo",
+          "ar": "cielo"
+        },
+        {
+          "es": "es",
+          "en": "es",
+          "ar": "es"
+        },
+        {
+          "es": "fuerte.",
+          "en": "fuerte.",
+          "ar": "fuerte."
+        },
+        {
+          "es": "lleno",
+          "en": "lleno",
+          "ar": "lleno"
+        }
+      ],
+      "answer": "El cielo está lleno de nubes y el viento es fuerte.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'El cielo está lleno de nubes y el viento es fuerte.'",
+        "en": "The correct sentence: 'El cielo está lleno de nubes y el viento es fuerte.'",
+        "ar": "الجملة الصحيحة: 'El cielo está lleno de nubes y el viento es fuerte.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "¡Buena   idea!   En   verano   ___   mucho   aquí.",
+        "en": "¡Buena   idea!   En   verano   ___   mucho   aquí.",
+        "ar": "¡Buena   idea!   En   verano   ___   mucho   aquí."
+      },
+      "options": [
+        {
+          "es": "'el clima'",
+          "en": "'el clima'",
+          "ar": "'el clima'"
+        },
+        {
+          "es": "'el tiempo'",
+          "en": "'el tiempo'",
+          "ar": "'el tiempo'"
+        },
+        {
+          "es": "'llueve'",
+          "en": "'llueve'",
+          "ar": "'llueve'"
+        },
+        {
+          "es": "'la lluvia'",
+          "en": "'la lluvia'",
+          "ar": "'la lluvia'"
+        }
+      ],
+      "answer": "'llueve'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'llueve'",
+        "en": "The complete word: 'llueve'",
+        "ar": "الكلمة الكاملة: 'llueve'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

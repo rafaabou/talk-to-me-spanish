@@ -609,6 +609,187 @@
         "ar": "الإجابة: \"Estar de acuerdo con la propuesta ayuda.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "El gerente insistió en revisar el informe antes del envío.",
+      "accepted": [],
+      "audio": "El gerente insistió en revisar el informe antes del envío.",
+      "explanation": {
+        "es": "La frase correcta: 'El gerente insistió en revisar el informe antes del envío.'",
+        "en": "The correct sentence: 'El gerente insistió en revisar el informe antes del envío.'",
+        "ar": "الجملة الصحيحة: 'El gerente insistió en revisar el informe antes del envío.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Ya respondí todos los correos y agradecí la participación de cada uno.",
+      "accepted": [],
+      "audio": "Ya respondí todos los correos y agradecí la participación de cada uno.",
+      "explanation": {
+        "es": "La frase correcta: 'Ya respondí todos los correos y agradecí la participación de cada uno.'",
+        "en": "The correct sentence: 'Ya respondí todos los correos y agradecí la participación de cada uno.'",
+        "ar": "الجملة الصحيحة: 'Ya respondí todos los correos y agradecí la participación de cada uno.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Depender de otros cansa con el tiempo.",
+          "en": "Depender de otros cansa con el tiempo.",
+          "ar": "Depender de otros cansa con el tiempo."
+        },
+        {
+          "es": "Claro. El resultado final dependerá de la aprobación de todos.",
+          "en": "Claro. El resultado final dependerá de la aprobación de todos.",
+          "ar": "Claro. El resultado final dependerá de la aprobación de todos."
+        },
+        {
+          "es": "Recuerda adjuntar el documento al que me referí ayer.",
+          "en": "Recuerda adjuntar el documento al que me referí ayer.",
+          "ar": "Recuerda adjuntar el documento al que me referí ayer."
+        },
+        {
+          "es": "La preposición de indica posesión.",
+          "en": "La preposición de indica posesión.",
+          "ar": "La preposición de indica posesión."
+        }
+      ],
+      "answer": "Recuerda adjuntar el documento al que me referí ayer.",
+      "accepted": [],
+      "audio": "Recuerda adjuntar el documento al que me referí ayer.",
+      "explanation": {
+        "es": "Escuchaste: 'Recuerda adjuntar el documento al que me referí ayer.'",
+        "en": "You heard: 'Recuerda adjuntar el documento al que me referí ayer.'",
+        "ar": "سمعت: 'Recuerda adjuntar el documento al que me referí ayer.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "El",
+          "en": "El",
+          "ar": "El"
+        },
+        {
+          "es": "Claro.",
+          "en": "Claro.",
+          "ar": "Claro."
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "final",
+          "en": "final",
+          "ar": "final"
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "aprobación",
+          "en": "aprobación",
+          "ar": "aprobación"
+        },
+        {
+          "es": "todos.",
+          "en": "todos.",
+          "ar": "todos."
+        },
+        {
+          "es": "resultado",
+          "en": "resultado",
+          "ar": "resultado"
+        },
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "dependerá",
+          "en": "dependerá",
+          "ar": "dependerá"
+        }
+      ],
+      "answer": "Claro. El resultado final dependerá de la aprobación de todos.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Claro. El resultado final dependerá de la aprobación de todos.'",
+        "en": "The correct sentence: 'Claro. El resultado final dependerá de la aprobación de todos.'",
+        "ar": "الجملة الصحيحة: 'Claro. El resultado final dependerá de la aprobación de todos.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "La   preposición   de   ___   posesión.",
+        "en": "La   preposición   de   ___   posesión.",
+        "ar": "La   preposición   de   ___   posesión."
+      },
+      "options": [
+        {
+          "es": "'necesitar'",
+          "en": "'necesitar'",
+          "ar": "'necesitar'"
+        },
+        {
+          "es": "'depender de'",
+          "en": "'depender de'",
+          "ar": "'depender de'"
+        },
+        {
+          "es": "'indica'",
+          "en": "'indica'",
+          "ar": "'indica'"
+        },
+        {
+          "es": "'la preposición'",
+          "en": "'la preposición'",
+          "ar": "'la preposición'"
+        }
+      ],
+      "answer": "'indica'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'indica'",
+        "en": "The complete word: 'indica'",
+        "ar": "الكلمة الكاملة: 'indica'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

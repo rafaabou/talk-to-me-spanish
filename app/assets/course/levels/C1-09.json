@@ -599,6 +599,217 @@
         "ar": "الإجابة: \"El descubrimiento de América transformó el mundo.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Sabías que la independencia de Brasil fue proclamada en 1822 por Don Pedro I?",
+      "accepted": [],
+      "audio": "¿Sabías que la independencia de Brasil fue proclamada en 1822 por Don Pedro I?",
+      "explanation": {
+        "es": "La frase correcta: '¿Sabías que la independencia de Brasil fue proclamada en 1822 por Don Pedro I?'",
+        "en": "The correct sentence: '¿Sabías que la independencia de Brasil fue proclamada en 1822 por Don Pedro I?'",
+        "ar": "الجملة الصحيحة: '¿Sabías que la independencia de Brasil fue proclamada en 1822 por Don Pedro I?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Sí, y antes de eso el país vivió siglos de colonización y esclavitud.",
+      "accepted": [],
+      "audio": "Sí, y antes de eso el país vivió siglos de colonización y esclavitud.",
+      "explanation": {
+        "es": "La frase correcta: 'Sí, y antes de eso el país vivió siglos de colonización y esclavitud.'",
+        "en": "The correct sentence: 'Sí, y antes de eso el país vivió siglos de colonización y esclavitud.'",
+        "ar": "الجملة الصحيحة: 'Sí, y antes de eso el país vivió siglos de colonización y esclavitud.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "La esclavitud fue abolida en el siglo diecinueve.",
+          "en": "La esclavitud fue abolida en el siglo diecinueve.",
+          "ar": "La esclavitud fue abolida en el siglo diecinueve."
+        },
+        {
+          "es": "Y la democracia fue restaurada después de la dictadura de 1964, con la Constitución de 1988.",
+          "en": "Y la democracia fue restaurada después de la dictadura de 1964, con la Constitución de 1988.",
+          "ar": "Y la democracia fue restaurada después de la dictadura de 1964, con la Constitución de 1988."
+        },
+        {
+          "es": "La colonización dejó huellas profundas.",
+          "en": "La colonización dejó huellas profundas.",
+          "ar": "La colonización dejó huellas profundas."
+        },
+        {
+          "es": "La esclavitud fue abolida en 1888, la última gran abolición de las Américas.",
+          "en": "La esclavitud fue abolida en 1888, la última gran abolición de las Américas.",
+          "ar": "La esclavitud fue abolida en 1888, la última gran abolición de las Américas."
+        }
+      ],
+      "answer": "La esclavitud fue abolida en 1888, la última gran abolición de las Américas.",
+      "accepted": [],
+      "audio": "La esclavitud fue abolida en 1888, la última gran abolición de las Américas.",
+      "explanation": {
+        "es": "Escuchaste: 'La esclavitud fue abolida en 1888, la última gran abolición de las Américas.'",
+        "en": "You heard: 'La esclavitud fue abolida en 1888, la última gran abolición de las Américas.'",
+        "ar": "سمعت: 'La esclavitud fue abolida en 1888, la última gran abolición de las Américas.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "después",
+          "en": "después",
+          "ar": "después"
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "dictadura",
+          "en": "dictadura",
+          "ar": "dictadura"
+        },
+        {
+          "es": "con",
+          "en": "con",
+          "ar": "con"
+        },
+        {
+          "es": "fue",
+          "en": "fue",
+          "ar": "fue"
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "democracia",
+          "en": "democracia",
+          "ar": "democracia"
+        },
+        {
+          "es": "restaurada",
+          "en": "restaurada",
+          "ar": "restaurada"
+        },
+        {
+          "es": "1988.",
+          "en": "1988.",
+          "ar": "1988."
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "Y",
+          "en": "Y",
+          "ar": "Y"
+        },
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "1964,",
+          "en": "1964,",
+          "ar": "1964,"
+        },
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "Constitución",
+          "en": "Constitución",
+          "ar": "Constitución"
+        }
+      ],
+      "answer": "Y la democracia fue restaurada después de la dictadura de 1964, con la Constitución de 1988.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Y la democracia fue restaurada después de la dictadura de 1964, con la Constitución de 1988.'",
+        "en": "The correct sentence: 'Y la democracia fue restaurada después de la dictadura de 1964, con la Constitución de 1988.'",
+        "ar": "الجملة الصحيحة: 'Y la democracia fue restaurada después de la dictadura de 1964, con la Constitución de 1988.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "La   colonización   dejó   ___   profundas.",
+        "en": "La   colonización   dejó   ___   profundas.",
+        "ar": "La   colonización   dejó   ___   profundas."
+      },
+      "options": [
+        {
+          "es": "'huellas'",
+          "en": "'huellas'",
+          "ar": "'huellas'"
+        },
+        {
+          "es": "'la colonización'",
+          "en": "'la colonización'",
+          "ar": "'la colonización'"
+        },
+        {
+          "es": "'el descubrimiento'",
+          "en": "'el descubrimiento'",
+          "ar": "'el descubrimiento'"
+        },
+        {
+          "es": "'el indígena'",
+          "en": "'el indígena'",
+          "ar": "'el indígena'"
+        }
+      ],
+      "answer": "'huellas'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'huellas'",
+        "en": "The complete word: 'huellas'",
+        "ar": "الكلمة الكاملة: 'huellas'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

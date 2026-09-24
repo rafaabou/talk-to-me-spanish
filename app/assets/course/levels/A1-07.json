@@ -616,6 +616,152 @@
         "ar": "الإجابة: \"Sí, tengo una hermana menor. Tiene quince años.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Lucas, cuéntame sobre tu familia.",
+      "accepted": [],
+      "audio": "Lucas, cuéntame sobre tu familia.",
+      "explanation": {
+        "es": "La frase correcta: 'Lucas, cuéntame sobre tu familia.'",
+        "en": "The correct sentence: 'Lucas, cuéntame sobre tu familia.'",
+        "ar": "الجملة الصحيحة: 'Lucas, cuéntame sobre tu familia.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Mi padre es ingeniero y mi madre es profesora.",
+      "accepted": [],
+      "audio": "Mi padre es ingeniero y mi madre es profesora.",
+      "explanation": {
+        "es": "La frase correcta: 'Mi padre es ingeniero y mi madre es profesora.'",
+        "en": "The correct sentence: 'Mi padre es ingeniero y mi madre es profesora.'",
+        "ar": "الجملة الصحيحة: 'Mi padre es ingeniero y mi madre es profesora.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "¿Tienes hermanos?",
+          "en": "¿Tienes hermanos?",
+          "ar": "¿Tienes hermanos?"
+        },
+        {
+          "es": "Mis abuelos viven con nosotros. Son muy queridos.",
+          "en": "Mis abuelos viven con nosotros. Son muy queridos.",
+          "ar": "Mis abuelos viven con nosotros. Son muy queridos."
+        },
+        {
+          "es": "El padre es médico.",
+          "en": "El padre es médico.",
+          "ar": "El padre es médico."
+        },
+        {
+          "es": "¿Y tus abuelos?",
+          "en": "¿Y tus abuelos?",
+          "ar": "¿Y tus abuelos?"
+        }
+      ],
+      "answer": "¿Tienes hermanos?",
+      "accepted": [],
+      "audio": "¿Tienes hermanos?",
+      "explanation": {
+        "es": "Escuchaste: '¿Tienes hermanos?'",
+        "en": "You heard: '¿Tienes hermanos?'",
+        "ar": "سمعت: '¿Tienes hermanos?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "tus",
+          "en": "tus",
+          "ar": "tus"
+        },
+        {
+          "es": "¿Y",
+          "en": "¿Y",
+          "ar": "¿Y"
+        },
+        {
+          "es": "abuelos?",
+          "en": "abuelos?",
+          "ar": "abuelos?"
+        }
+      ],
+      "answer": "¿Y tus abuelos?",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: '¿Y tus abuelos?'",
+        "en": "The correct sentence: '¿Y tus abuelos?'",
+        "ar": "الجملة الصحيحة: '¿Y tus abuelos?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Mis   abuelos   ___   con   nosotros.   Son   muy   queridos.",
+        "en": "Mis   abuelos   ___   con   nosotros.   Son   muy   queridos.",
+        "ar": "Mis   abuelos   ___   con   nosotros.   Son   muy   queridos."
+      },
+      "options": [
+        {
+          "es": "'el padre'",
+          "en": "'el padre'",
+          "ar": "'el padre'"
+        },
+        {
+          "es": "'viven'",
+          "en": "'viven'",
+          "ar": "'viven'"
+        },
+        {
+          "es": "'la madre'",
+          "en": "'la madre'",
+          "ar": "'la madre'"
+        },
+        {
+          "es": "'la familia'",
+          "en": "'la familia'",
+          "ar": "'la familia'"
+        }
+      ],
+      "answer": "'viven'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'viven'",
+        "en": "The complete word: 'viven'",
+        "ar": "الكلمة الكاملة: 'viven'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

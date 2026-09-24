@@ -622,6 +622,187 @@
         "ar": "الإجابة: \"¡Muy bien! ¿Algún postre?\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¡Buenas noches! Aquí está el menú.",
+      "accepted": [],
+      "audio": "¡Buenas noches! Aquí está el menú.",
+      "explanation": {
+        "es": "La frase correcta: '¡Buenas noches! Aquí está el menú.'",
+        "en": "The correct sentence: '¡Buenas noches! Aquí está el menú.'",
+        "ar": "الجملة الصحيحة: '¡Buenas noches! Aquí está el menú.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Gracias. ¿Qué recomienda?",
+      "accepted": [],
+      "audio": "Gracias. ¿Qué recomienda?",
+      "explanation": {
+        "es": "La frase correcta: 'Gracias. ¿Qué recomienda?'",
+        "en": "The correct sentence: 'Gracias. ¿Qué recomienda?'",
+        "ar": "الجملة الصحيحة: 'Gracias. ¿Qué recomienda?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "El pescado con arroz es delicioso.",
+          "en": "El pescado con arroz es delicioso.",
+          "ar": "El pescado con arroz es delicioso."
+        },
+        {
+          "es": "Un café y la cuenta, por favor.",
+          "en": "Un café y la cuenta, por favor.",
+          "ar": "Un café y la cuenta, por favor."
+        },
+        {
+          "es": "Entonces me gustaría el pescado y un agua, por favor.",
+          "en": "Entonces me gustaría el pescado y un agua, por favor.",
+          "ar": "Entonces me gustaría el pescado y un agua, por favor."
+        },
+        {
+          "es": "El restaurante abre a las diez.",
+          "en": "El restaurante abre a las diez.",
+          "ar": "El restaurante abre a las diez."
+        }
+      ],
+      "answer": "El pescado con arroz es delicioso.",
+      "accepted": [],
+      "audio": "El pescado con arroz es delicioso.",
+      "explanation": {
+        "es": "Escuchaste: 'El pescado con arroz es delicioso.'",
+        "en": "You heard: 'El pescado con arroz es delicioso.'",
+        "ar": "سمعت: 'El pescado con arroz es delicioso.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "un",
+          "en": "un",
+          "ar": "un"
+        },
+        {
+          "es": "favor.",
+          "en": "favor.",
+          "ar": "favor."
+        },
+        {
+          "es": "pescado",
+          "en": "pescado",
+          "ar": "pescado"
+        },
+        {
+          "es": "agua,",
+          "en": "agua,",
+          "ar": "agua,"
+        },
+        {
+          "es": "gustaría",
+          "en": "gustaría",
+          "ar": "gustaría"
+        },
+        {
+          "es": "me",
+          "en": "me",
+          "ar": "me"
+        },
+        {
+          "es": "Entonces",
+          "en": "Entonces",
+          "ar": "Entonces"
+        },
+        {
+          "es": "por",
+          "en": "por",
+          "ar": "por"
+        },
+        {
+          "es": "y",
+          "en": "y",
+          "ar": "y"
+        }
+      ],
+      "answer": "Entonces me gustaría el pescado y un agua, por favor.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Entonces me gustaría el pescado y un agua, por favor.'",
+        "en": "The correct sentence: 'Entonces me gustaría el pescado y un agua, por favor.'",
+        "ar": "الجملة الصحيحة: 'Entonces me gustaría el pescado y un agua, por favor.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "El   ___   abre   a   las   diez.",
+        "en": "El   ___   abre   a   las   diez.",
+        "ar": "El   ___   abre   a   las   diez."
+      },
+      "options": [
+        {
+          "es": "'el menú'",
+          "en": "'el menú'",
+          "ar": "'el menú'"
+        },
+        {
+          "es": "'restaurante'",
+          "en": "'restaurante'",
+          "ar": "'restaurante'"
+        },
+        {
+          "es": "'el camarero'",
+          "en": "'el camarero'",
+          "ar": "'el camarero'"
+        },
+        {
+          "es": "'el restaurante'",
+          "en": "'el restaurante'",
+          "ar": "'el restaurante'"
+        }
+      ],
+      "answer": "'restaurante'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'restaurante'",
+        "en": "The complete word: 'restaurante'",
+        "ar": "الكلمة الكاملة: 'restaurante'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

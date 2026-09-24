@@ -617,6 +617,182 @@
         "ar": "الإجابة: \"El juez dictó sentencia tras la audiencia.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Entiendo. ¿Cabría el recurso todavía dentro del plazo legal?",
+      "accepted": [],
+      "audio": "Entiendo. ¿Cabría el recurso todavía dentro del plazo legal?",
+      "explanation": {
+        "es": "La frase correcta: 'Entiendo. ¿Cabría el recurso todavía dentro del plazo legal?'",
+        "en": "The correct sentence: 'Entiendo. ¿Cabría el recurso todavía dentro del plazo legal?'",
+        "ar": "الجملة الصحيحة: 'Entiendo. ¿Cabría el recurso todavía dentro del plazo legal?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Sí, pero sería prudente esperar la publicación de la sumilla.",
+      "accepted": [],
+      "audio": "Sí, pero sería prudente esperar la publicación de la sumilla.",
+      "explanation": {
+        "es": "La frase correcta: 'Sí, pero sería prudente esperar la publicación de la sumilla.'",
+        "en": "The correct sentence: 'Sí, pero sería prudente esperar la publicación de la sumilla.'",
+        "ar": "الجملة الصحيحة: 'Sí, pero sería prudente esperar la publicación de la sumilla.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "También nos gustaría adjuntar el anexo al contrato original.",
+          "en": "También nos gustaría adjuntar el anexo al contrato original.",
+          "ar": "También nos gustaría adjuntar el anexo al contrato original."
+        },
+        {
+          "es": "Perfecto. Homologado el anexo, lo presento todo antes del miércoles.",
+          "en": "Perfecto. Homologado el anexo, lo presento todo antes del miércoles.",
+          "ar": "Perfecto. Homologado el anexo, lo presento todo antes del miércoles."
+        },
+        {
+          "es": "El contrato firma los derechos de las partes.",
+          "en": "El contrato firma los derechos de las partes.",
+          "ar": "El contrato firma los derechos de las partes."
+        },
+        {
+          "es": "Entonces preparo el borrador del recurso, citando la jurisprudencia pertinente.",
+          "en": "Entonces preparo el borrador del recurso, citando la jurisprudencia pertinente.",
+          "ar": "Entonces preparo el borrador del recurso, citando la jurisprudencia pertinente."
+        }
+      ],
+      "answer": "Entonces preparo el borrador del recurso, citando la jurisprudencia pertinente.",
+      "accepted": [],
+      "audio": "Entonces preparo el borrador del recurso, citando la jurisprudencia pertinente.",
+      "explanation": {
+        "es": "Escuchaste: 'Entonces preparo el borrador del recurso, citando la jurisprudencia pertinente.'",
+        "en": "You heard: 'Entonces preparo el borrador del recurso, citando la jurisprudencia pertinente.'",
+        "ar": "سمعت: 'Entonces preparo el borrador del recurso, citando la jurisprudencia pertinente.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "gustaría",
+          "en": "gustaría",
+          "ar": "gustaría"
+        },
+        {
+          "es": "original.",
+          "en": "original.",
+          "ar": "original."
+        },
+        {
+          "es": "contrato",
+          "en": "contrato",
+          "ar": "contrato"
+        },
+        {
+          "es": "También",
+          "en": "También",
+          "ar": "También"
+        },
+        {
+          "es": "anexo",
+          "en": "anexo",
+          "ar": "anexo"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "nos",
+          "en": "nos",
+          "ar": "nos"
+        },
+        {
+          "es": "al",
+          "en": "al",
+          "ar": "al"
+        },
+        {
+          "es": "adjuntar",
+          "en": "adjuntar",
+          "ar": "adjuntar"
+        }
+      ],
+      "answer": "También nos gustaría adjuntar el anexo al contrato original.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'También nos gustaría adjuntar el anexo al contrato original.'",
+        "en": "The correct sentence: 'También nos gustaría adjuntar el anexo al contrato original.'",
+        "ar": "الجملة الصحيحة: 'También nos gustaría adjuntar el anexo al contrato original.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Perfecto.   Homologado   el   anexo,   lo   ___   todo   antes   del   miércoles.",
+        "en": "Perfecto.   Homologado   el   anexo,   lo   ___   todo   antes   del   miércoles.",
+        "ar": "Perfecto.   Homologado   el   anexo,   lo   ___   todo   antes   del   miércoles."
+      },
+      "options": [
+        {
+          "es": "'la cláusula'",
+          "en": "'la cláusula'",
+          "ar": "'la cláusula'"
+        },
+        {
+          "es": "'el contrato'",
+          "en": "'el contrato'",
+          "ar": "'el contrato'"
+        },
+        {
+          "es": "'presento'",
+          "en": "'presento'",
+          "ar": "'presento'"
+        },
+        {
+          "es": "'el término'",
+          "en": "'el término'",
+          "ar": "'el término'"
+        }
+      ],
+      "answer": "'presento'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'presento'",
+        "en": "The complete word: 'presento'",
+        "ar": "الكلمة الكاملة: 'presento'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

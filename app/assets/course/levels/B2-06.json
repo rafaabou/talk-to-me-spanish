@@ -616,6 +616,182 @@
         "ar": "الإجابة: \"El personaje Don Quijote es fascinante, ¿no crees?\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Ya leíste 'Don Quijote', de Cervantes?",
+      "accepted": [],
+      "audio": "¿Ya leíste 'Don Quijote', de Cervantes?",
+      "explanation": {
+        "es": "La frase correcta: '¿Ya leíste 'Don Quijote', de Cervantes?'",
+        "en": "The correct sentence: '¿Ya leíste 'Don Quijote', de Cervantes?'",
+        "ar": "الجملة الصحيحة: '¿Ya leíste 'Don Quijote', de Cervantes?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Sí. Creo que es una de las mayores obras de la literatura española.",
+      "accepted": [],
+      "audio": "Sí. Creo que es una de las mayores obras de la literatura española.",
+      "explanation": {
+        "es": "La frase correcta: 'Sí. Creo que es una de las mayores obras de la literatura española.'",
+        "en": "The correct sentence: 'Sí. Creo que es una de las mayores obras de la literatura española.'",
+        "ar": "الجملة الصحيحة: 'Sí. Creo que es una de las mayores obras de la literatura española.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "El cuento termina con una sorpresa.",
+          "en": "El cuento termina con una sorpresa.",
+          "ar": "El cuento termina con una sorpresa."
+        },
+        {
+          "es": "¿Qué tal si visitamos el museo de literatura después?",
+          "en": "¿Qué tal si visitamos el museo de literatura después?",
+          "ar": "¿Qué tal si visitamos el museo de literatura después?"
+        },
+        {
+          "es": "Claro. La trama te atrapa de principio a fin.",
+          "en": "Claro. La trama te atrapa de principio a fin.",
+          "ar": "Claro. La trama te atrapa de principio a fin."
+        },
+        {
+          "es": "¡Gran idea! Me encanta ver las exposiciones nuevas.",
+          "en": "¡Gran idea! Me encanta ver las exposiciones nuevas.",
+          "ar": "¡Gran idea! Me encanta ver las exposiciones nuevas."
+        }
+      ],
+      "answer": "Claro. La trama te atrapa de principio a fin.",
+      "accepted": [],
+      "audio": "Claro. La trama te atrapa de principio a fin.",
+      "explanation": {
+        "es": "Escuchaste: 'Claro. La trama te atrapa de principio a fin.'",
+        "en": "You heard: 'Claro. La trama te atrapa de principio a fin.'",
+        "ar": "سمعت: 'Claro. La trama te atrapa de principio a fin.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "visitamos",
+          "en": "visitamos",
+          "ar": "visitamos"
+        },
+        {
+          "es": "¿Qué",
+          "en": "¿Qué",
+          "ar": "¿Qué"
+        },
+        {
+          "es": "literatura",
+          "en": "literatura",
+          "ar": "literatura"
+        },
+        {
+          "es": "museo",
+          "en": "museo",
+          "ar": "museo"
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "tal",
+          "en": "tal",
+          "ar": "tal"
+        },
+        {
+          "es": "después?",
+          "en": "después?",
+          "ar": "después?"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "si",
+          "en": "si",
+          "ar": "si"
+        }
+      ],
+      "answer": "¿Qué tal si visitamos el museo de literatura después?",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: '¿Qué tal si visitamos el museo de literatura después?'",
+        "en": "The correct sentence: '¿Qué tal si visitamos el museo de literatura después?'",
+        "ar": "الجملة الصحيحة: '¿Qué tal si visitamos el museo de literatura después?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "¡Gran   idea!   Me   encanta   ver   las   ___   nuevas.",
+        "en": "¡Gran   idea!   Me   encanta   ver   las   ___   nuevas.",
+        "ar": "¡Gran   idea!   Me   encanta   ver   las   ___   nuevas."
+      },
+      "options": [
+        {
+          "es": "'el cuento'",
+          "en": "'el cuento'",
+          "ar": "'el cuento'"
+        },
+        {
+          "es": "'la novela'",
+          "en": "'la novela'",
+          "ar": "'la novela'"
+        },
+        {
+          "es": "'el poema'",
+          "en": "'el poema'",
+          "ar": "'el poema'"
+        },
+        {
+          "es": "'exposiciones'",
+          "en": "'exposiciones'",
+          "ar": "'exposiciones'"
+        }
+      ],
+      "answer": "'exposiciones'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'exposiciones'",
+        "en": "The complete word: 'exposiciones'",
+        "ar": "الكلمة الكاملة: 'exposiciones'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

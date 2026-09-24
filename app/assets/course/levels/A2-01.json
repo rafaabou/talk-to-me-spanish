@@ -617,6 +617,187 @@
         "ar": "الإجابة: \"Prefiero quedarse en casa hoy.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Qué hiciste el fin de semana?",
+      "accepted": [],
+      "audio": "¿Qué hiciste el fin de semana?",
+      "explanation": {
+        "es": "La frase correcta: '¿Qué hiciste el fin de semana?'",
+        "en": "The correct sentence: '¿Qué hiciste el fin de semana?'",
+        "ar": "الجملة الصحيحة: '¿Qué hiciste el fin de semana?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Viajé a la costa y visité a mi abuela.",
+      "accepted": [],
+      "audio": "Viajé a la costa y visité a mi abuela.",
+      "explanation": {
+        "es": "La frase correcta: 'Viajé a la costa y visité a mi abuela.'",
+        "en": "The correct sentence: 'Viajé a la costa y visité a mi abuela.'",
+        "ar": "الجملة الصحيحة: 'Viajé a la costa y visité a mi abuela.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "¡Qué bien! ¿Te quedaste allí dos días?",
+          "en": "¡Qué bien! ¿Te quedaste allí dos días?",
+          "ar": "¡Qué bien! ¿Te quedaste allí dos días?"
+        },
+        {
+          "es": "Sí. El sábado paseamos por la playa y comimos mariscos.",
+          "en": "Sí. El sábado paseamos por la playa y comimos mariscos.",
+          "ar": "Sí. El sábado paseamos por la playa y comimos mariscos."
+        },
+        {
+          "es": "¡Compré un regalo para mi madre. Le encantó!",
+          "en": "¡Compré un regalo para mi madre. Le encantó!",
+          "ar": "¡Compré un regalo para mi madre. Le encantó!"
+        },
+        {
+          "es": "¿Compraste algo?",
+          "en": "¿Compraste algo?",
+          "ar": "¿Compraste algo?"
+        }
+      ],
+      "answer": "¡Qué bien! ¿Te quedaste allí dos días?",
+      "accepted": [],
+      "audio": "¡Qué bien! ¿Te quedaste allí dos días?",
+      "explanation": {
+        "es": "Escuchaste: '¡Qué bien! ¿Te quedaste allí dos días?'",
+        "en": "You heard: '¡Qué bien! ¿Te quedaste allí dos días?'",
+        "ar": "سمعت: '¡Qué bien! ¿Te quedaste allí dos días?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "playa",
+          "en": "playa",
+          "ar": "playa"
+        },
+        {
+          "es": "comimos",
+          "en": "comimos",
+          "ar": "comimos"
+        },
+        {
+          "es": "por",
+          "en": "por",
+          "ar": "por"
+        },
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "El",
+          "en": "El",
+          "ar": "El"
+        },
+        {
+          "es": "mariscos.",
+          "en": "mariscos.",
+          "ar": "mariscos."
+        },
+        {
+          "es": "paseamos",
+          "en": "paseamos",
+          "ar": "paseamos"
+        },
+        {
+          "es": "Sí.",
+          "en": "Sí.",
+          "ar": "Sí."
+        },
+        {
+          "es": "y",
+          "en": "y",
+          "ar": "y"
+        },
+        {
+          "es": "sábado",
+          "en": "sábado",
+          "ar": "sábado"
+        }
+      ],
+      "answer": "Sí. El sábado paseamos por la playa y comimos mariscos.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Sí. El sábado paseamos por la playa y comimos mariscos.'",
+        "en": "The correct sentence: 'Sí. El sábado paseamos por la playa y comimos mariscos.'",
+        "ar": "الجملة الصحيحة: 'Sí. El sábado paseamos por la playa y comimos mariscos.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "¡Compré   un   ___   para   mi   madre.   Le   encantó!",
+        "en": "¡Compré   un   ___   para   mi   madre.   Le   encantó!",
+        "ar": "¡Compré   un   ___   para   mi   madre.   Le   encantó!"
+      },
+      "options": [
+        {
+          "es": "'ayer'",
+          "en": "'ayer'",
+          "ar": "'ayer'"
+        },
+        {
+          "es": "'hoy'",
+          "en": "'hoy'",
+          "ar": "'hoy'"
+        },
+        {
+          "es": "'regalo'",
+          "en": "'regalo'",
+          "ar": "'regalo'"
+        },
+        {
+          "es": "'viajar'",
+          "en": "'viajar'",
+          "ar": "'viajar'"
+        }
+      ],
+      "answer": "'regalo'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'regalo'",
+        "en": "The complete word: 'regalo'",
+        "ar": "الكلمة الكاملة: 'regalo'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

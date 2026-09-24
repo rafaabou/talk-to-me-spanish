@@ -599,6 +599,162 @@
         "ar": "الإجابة: \"Por eso es preciso que sigamos la política de cerca.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Vas a votar en las próximas elecciones?",
+      "accepted": [],
+      "audio": "¿Vas a votar en las próximas elecciones?",
+      "explanation": {
+        "es": "La frase correcta: '¿Vas a votar en las próximas elecciones?'",
+        "en": "The correct sentence: '¿Vas a votar en las próximas elecciones?'",
+        "ar": "الجملة الصحيحة: '¿Vas a votar en las próximas elecciones?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¡Claro! En mi opinión, el voto es un deber y un derecho de todo ciudadano.",
+      "accepted": [],
+      "audio": "¡Claro! En mi opinión, el voto es un deber y un derecho de todo ciudadano.",
+      "explanation": {
+        "es": "La frase correcta: '¡Claro! En mi opinión, el voto es un deber y un derecho de todo ciudadano.'",
+        "en": "The correct sentence: '¡Claro! En mi opinión, el voto es un deber y un derecho de todo ciudadano.'",
+        "ar": "الجملة الصحيحة: '¡Claro! En mi opinión, el voto es un deber y un derecho de todo ciudadano.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "El gobierno anunció nuevas medidas.",
+          "en": "El gobierno anunció nuevas medidas.",
+          "ar": "El gobierno anunció nuevas medidas."
+        },
+        {
+          "es": "Es verdad, pero creo que muchos candidatos no cumplen sus promesas.",
+          "en": "Es verdad, pero creo que muchos candidatos no cumplen sus promesas.",
+          "ar": "Es verdad, pero creo que muchos candidatos no cumplen sus promesas."
+        },
+        {
+          "es": "El voto secreto protege al ciudadano.",
+          "en": "El voto secreto protege al ciudadano.",
+          "ar": "El voto secreto protege al ciudadano."
+        },
+        {
+          "es": "La elección será en noviembre.",
+          "en": "La elección será en noviembre.",
+          "ar": "La elección será en noviembre."
+        }
+      ],
+      "answer": "Es verdad, pero creo que muchos candidatos no cumplen sus promesas.",
+      "accepted": [],
+      "audio": "Es verdad, pero creo que muchos candidatos no cumplen sus promesas.",
+      "explanation": {
+        "es": "Escuchaste: 'Es verdad, pero creo que muchos candidatos no cumplen sus promesas.'",
+        "en": "You heard: 'Es verdad, pero creo que muchos candidatos no cumplen sus promesas.'",
+        "ar": "سمعت: 'Es verdad, pero creo que muchos candidatos no cumplen sus promesas.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "El",
+          "en": "El",
+          "ar": "El"
+        },
+        {
+          "es": "anunció",
+          "en": "anunció",
+          "ar": "anunció"
+        },
+        {
+          "es": "nuevas",
+          "en": "nuevas",
+          "ar": "nuevas"
+        },
+        {
+          "es": "medidas.",
+          "en": "medidas.",
+          "ar": "medidas."
+        },
+        {
+          "es": "gobierno",
+          "en": "gobierno",
+          "ar": "gobierno"
+        }
+      ],
+      "answer": "El gobierno anunció nuevas medidas.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'El gobierno anunció nuevas medidas.'",
+        "en": "The correct sentence: 'El gobierno anunció nuevas medidas.'",
+        "ar": "الجملة الصحيحة: 'El gobierno anunció nuevas medidas.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "La   ___   será   en   noviembre.",
+        "en": "La   ___   será   en   noviembre.",
+        "ar": "La   ___   será   en   noviembre."
+      },
+      "options": [
+        {
+          "es": "'el gobierno'",
+          "en": "'el gobierno'",
+          "ar": "'el gobierno'"
+        },
+        {
+          "es": "'la elección'",
+          "en": "'la elección'",
+          "ar": "'la elección'"
+        },
+        {
+          "es": "'el voto'",
+          "en": "'el voto'",
+          "ar": "'el voto'"
+        },
+        {
+          "es": "'elección'",
+          "en": "'elección'",
+          "ar": "'elección'"
+        }
+      ],
+      "answer": "'elección'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'elección'",
+        "en": "The complete word: 'elección'",
+        "ar": "الكلمة الكاملة: 'elección'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

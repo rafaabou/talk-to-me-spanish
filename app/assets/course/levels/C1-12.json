@@ -604,6 +604,167 @@
         "ar": "الإجابة: \"En suma, estás listo para el próximo desafío. ¡Felicidades!\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Ya dominas el subjuntivo en concesiones complejas?",
+      "accepted": [],
+      "audio": "¿Ya dominas el subjuntivo en concesiones complejas?",
+      "explanation": {
+        "es": "La frase correcta: '¿Ya dominas el subjuntivo en concesiones complejas?'",
+        "en": "The correct sentence: '¿Ya dominas el subjuntivo en concesiones complejas?'",
+        "ar": "الجملة الصحيحة: '¿Ya dominas el subjuntivo en concesiones complejas?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "La mayoría de los ejercicios me ayudó a contextualizar el vocabulario.",
+      "accepted": [],
+      "audio": "La mayoría de los ejercicios me ayudó a contextualizar el vocabulario.",
+      "explanation": {
+        "es": "La frase correcta: 'La mayoría de los ejercicios me ayudó a contextualizar el vocabulario.'",
+        "en": "The correct sentence: 'La mayoría de los ejercicios me ayudó a contextualizar el vocabulario.'",
+        "ar": "الجملة الصحيحة: 'La mayoría de los ejercicios me ayudó a contextualizar el vocabulario.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "La jerga técnica confunde a novatos.",
+          "en": "La jerga técnica confunde a novatos.",
+          "ar": "La jerga técnica confunde a novatos."
+        },
+        {
+          "es": "El subjuntivo aparece en cláusulas subordinadas.",
+          "en": "El subjuntivo aparece en cláusulas subordinadas.",
+          "ar": "El subjuntivo aparece en cláusulas subordinadas."
+        },
+        {
+          "es": "El discurso indirecto suaviza la cita.",
+          "en": "El discurso indirecto suaviza la cita.",
+          "ar": "El discurso indirecto suaviza la cita."
+        },
+        {
+          "es": "La crónica periodística exige rigor.",
+          "en": "La crónica periodística exige rigor.",
+          "ar": "La crónica periodística exige rigor."
+        }
+      ],
+      "answer": "El subjuntivo aparece en cláusulas subordinadas.",
+      "accepted": [],
+      "audio": "El subjuntivo aparece en cláusulas subordinadas.",
+      "explanation": {
+        "es": "Escuchaste: 'El subjuntivo aparece en cláusulas subordinadas.'",
+        "en": "You heard: 'El subjuntivo aparece en cláusulas subordinadas.'",
+        "ar": "سمعت: 'El subjuntivo aparece en cláusulas subordinadas.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "confunde",
+          "en": "confunde",
+          "ar": "confunde"
+        },
+        {
+          "es": "La",
+          "en": "La",
+          "ar": "La"
+        },
+        {
+          "es": "a",
+          "en": "a",
+          "ar": "a"
+        },
+        {
+          "es": "técnica",
+          "en": "técnica",
+          "ar": "técnica"
+        },
+        {
+          "es": "jerga",
+          "en": "jerga",
+          "ar": "jerga"
+        },
+        {
+          "es": "novatos.",
+          "en": "novatos.",
+          "ar": "novatos."
+        }
+      ],
+      "answer": "La jerga técnica confunde a novatos.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'La jerga técnica confunde a novatos.'",
+        "en": "The correct sentence: 'La jerga técnica confunde a novatos.'",
+        "ar": "الجملة الصحيحة: 'La jerga técnica confunde a novatos.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "La   crónica   ___   exige   rigor.",
+        "en": "La   crónica   ___   exige   rigor.",
+        "ar": "La   crónica   ___   exige   rigor."
+      },
+      "options": [
+        {
+          "es": "'el subjuntivo'",
+          "en": "'el subjuntivo'",
+          "ar": "'el subjuntivo'"
+        },
+        {
+          "es": "'periodística'",
+          "en": "'periodística'",
+          "ar": "'periodística'"
+        },
+        {
+          "es": "'la jerga'",
+          "en": "'la jerga'",
+          "ar": "'la jerga'"
+        },
+        {
+          "es": "'la crónica'",
+          "en": "'la crónica'",
+          "ar": "'la crónica'"
+        }
+      ],
+      "answer": "'periodística'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'periodística'",
+        "en": "The complete word: 'periodística'",
+        "ar": "الكلمة الكاملة: 'periodística'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

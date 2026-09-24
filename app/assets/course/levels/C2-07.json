@@ -627,6 +627,197 @@
         "ar": "الإجابة: \"El contexto desambigua la palabra.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Este texto técnico pide equivalencia precisa, no traducción literal.",
+      "accepted": [],
+      "audio": "Este texto técnico pide equivalencia precisa, no traducción literal.",
+      "explanation": {
+        "es": "La frase correcta: 'Este texto técnico pide equivalencia precisa, no traducción literal.'",
+        "en": "The correct sentence: 'Este texto técnico pide equivalencia precisa, no traducción literal.'",
+        "ar": "الجملة الصحيحة: 'Este texto técnico pide equivalencia precisa, no traducción literal.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "De acuerdo. 'Pretend' aquí no es 'pretender' en el sentido de desear, sino 'alegar'.",
+      "accepted": [],
+      "audio": "De acuerdo. 'Pretend' aquí no es 'pretender' en el sentido de desear, sino 'alegar'.",
+      "explanation": {
+        "es": "La frase correcta: 'De acuerdo. 'Pretend' aquí no es 'pretender' en el sentido de desear, sino 'alegar'.'",
+        "en": "The correct sentence: 'De acuerdo. 'Pretend' aquí no es 'pretender' en el sentido de desear, sino 'alegar'.'",
+        "ar": "الجملة الصحيحة: 'De acuerdo. 'Pretend' aquí no es 'pretender' en el sentido de desear, sino 'alegar'.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Entonces preservamos el tono, ajustamos el registro y mantenemos la fluidez.",
+          "en": "Entonces preservamos el tono, ajustamos el registro y mantenemos la fluidez.",
+          "ar": "Entonces preservamos el tono, ajustamos el registro y mantenemos la fluidez."
+        },
+        {
+          "es": "Perfecto. Después de la revisión, aún revisamos cada falso amigo.",
+          "en": "Perfecto. Después de la revisión, aún revisamos cada falso amigo.",
+          "ar": "Perfecto. Después de la revisión, aún revisamos cada falso amigo."
+        },
+        {
+          "es": "¿Y el juego de palabras del anuncio? ¿Domesticamos o lo mantenemos con nota?",
+          "en": "¿Y el juego de palabras del anuncio? ¿Domesticamos o lo mantenemos con nota?",
+          "ar": "¿Y el juego de palabras del anuncio? ¿Domesticamos o lo mantenemos con nota?"
+        },
+        {
+          "es": "Para el público joven, un equivalente adaptado funciona mejor que la nota.",
+          "en": "Para el público joven, un equivalente adaptado funciona mejor que la nota.",
+          "ar": "Para el público joven, un equivalente adaptado funciona mejor que la nota."
+        }
+      ],
+      "answer": "¿Y el juego de palabras del anuncio? ¿Domesticamos o lo mantenemos con nota?",
+      "accepted": [],
+      "audio": "¿Y el juego de palabras del anuncio? ¿Domesticamos o lo mantenemos con nota?",
+      "explanation": {
+        "es": "Escuchaste: '¿Y el juego de palabras del anuncio? ¿Domesticamos o lo mantenemos con nota?'",
+        "en": "You heard: '¿Y el juego de palabras del anuncio? ¿Domesticamos o lo mantenemos con nota?'",
+        "ar": "سمعت: '¿Y el juego de palabras del anuncio? ¿Domesticamos o lo mantenemos con nota?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "adaptado",
+          "en": "adaptado",
+          "ar": "adaptado"
+        },
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "un",
+          "en": "un",
+          "ar": "un"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "equivalente",
+          "en": "equivalente",
+          "ar": "equivalente"
+        },
+        {
+          "es": "mejor",
+          "en": "mejor",
+          "ar": "mejor"
+        },
+        {
+          "es": "que",
+          "en": "que",
+          "ar": "que"
+        },
+        {
+          "es": "Para",
+          "en": "Para",
+          "ar": "Para"
+        },
+        {
+          "es": "nota.",
+          "en": "nota.",
+          "ar": "nota."
+        },
+        {
+          "es": "público",
+          "en": "público",
+          "ar": "público"
+        },
+        {
+          "es": "joven,",
+          "en": "joven,",
+          "ar": "joven,"
+        },
+        {
+          "es": "funciona",
+          "en": "funciona",
+          "ar": "funciona"
+        }
+      ],
+      "answer": "Para el público joven, un equivalente adaptado funciona mejor que la nota.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Para el público joven, un equivalente adaptado funciona mejor que la nota.'",
+        "en": "The correct sentence: 'Para el público joven, un equivalente adaptado funciona mejor que la nota.'",
+        "ar": "الجملة الصحيحة: 'Para el público joven, un equivalente adaptado funciona mejor que la nota.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Entonces   preservamos   el   tono,   ___   el   registro   y   mantenemos   la   fluidez.",
+        "en": "Entonces   preservamos   el   tono,   ___   el   registro   y   mantenemos   la   fluidez.",
+        "ar": "Entonces   preservamos   el   tono,   ___   el   registro   y   mantenemos   la   fluidez."
+      },
+      "options": [
+        {
+          "es": "'ajustamos'",
+          "en": "'ajustamos'",
+          "ar": "'ajustamos'"
+        },
+        {
+          "es": "'el calco'",
+          "en": "'el calco'",
+          "ar": "'el calco'"
+        },
+        {
+          "es": "'el traductor'",
+          "en": "'el traductor'",
+          "ar": "'el traductor'"
+        },
+        {
+          "es": "'la traducción'",
+          "en": "'la traducción'",
+          "ar": "'la traducción'"
+        }
+      ],
+      "answer": "'ajustamos'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'ajustamos'",
+        "en": "The complete word: 'ajustamos'",
+        "ar": "الكلمة الكاملة: 'ajustamos'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

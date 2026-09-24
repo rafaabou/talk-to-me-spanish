@@ -599,6 +599,167 @@
         "ar": "الإجابة: \"El clímax llega en la página doscientos.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Cuando yo era pequeña, la calle era de tierra y todo el mundo se conocía.",
+      "accepted": [],
+      "audio": "Cuando yo era pequeña, la calle era de tierra y todo el mundo se conocía.",
+      "explanation": {
+        "es": "La frase correcta: 'Cuando yo era pequeña, la calle era de tierra y todo el mundo se conocía.'",
+        "en": "The correct sentence: 'Cuando yo era pequeña, la calle era de tierra y todo el mundo se conocía.'",
+        "ar": "الجملة الصحيحة: 'Cuando yo era pequeña, la calle era de tierra y todo el mundo se conocía.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¿Y qué era lo más divertido?",
+      "accepted": [],
+      "audio": "¿Y qué era lo más divertido?",
+      "explanation": {
+        "es": "La frase correcta: '¿Y qué era lo más divertido?'",
+        "en": "The correct sentence: '¿Y qué era lo más divertido?'",
+        "ar": "الجملة الصحيحة: '¿Y qué era lo más divertido?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "\"¡Cuenta otra!\", gritaban todos cada noche.",
+          "en": "\"¡Cuenta otra!\", gritaban todos cada noche.",
+          "ar": "\"¡Cuenta otra!\", gritaban todos cada noche."
+        },
+        {
+          "es": "Y entonces yo hacía suspenso y todos se quedaban calladitos, esperando el desenlace.",
+          "en": "Y entonces yo hacía suspenso y todos se quedaban calladitos, esperando el desenlace.",
+          "ar": "Y entonces yo hacía suspenso y todos se quedaban calladitos, esperando el desenlace."
+        },
+        {
+          "es": "Reuníamos a los niños e inventábamos historias de fantasmas.",
+          "en": "Reuníamos a los niños e inventábamos historias de fantasmas.",
+          "ar": "Reuníamos a los niños e inventábamos historias de fantasmas."
+        },
+        {
+          "es": "La crónica describe la vida cotidiana.",
+          "en": "La crónica describe la vida cotidiana.",
+          "ar": "La crónica describe la vida cotidiana."
+        }
+      ],
+      "answer": "Reuníamos a los niños e inventábamos historias de fantasmas.",
+      "accepted": [],
+      "audio": "Reuníamos a los niños e inventábamos historias de fantasmas.",
+      "explanation": {
+        "es": "Escuchaste: 'Reuníamos a los niños e inventábamos historias de fantasmas.'",
+        "en": "You heard: 'Reuníamos a los niños e inventábamos historias de fantasmas.'",
+        "ar": "سمعت: 'Reuníamos a los niños e inventábamos historias de fantasmas.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "todos",
+          "en": "todos",
+          "ar": "todos"
+        },
+        {
+          "es": "cada",
+          "en": "cada",
+          "ar": "cada"
+        },
+        {
+          "es": "otra!\",",
+          "en": "otra!\",",
+          "ar": "otra!\","
+        },
+        {
+          "es": "\"¡Cuenta",
+          "en": "\"¡Cuenta",
+          "ar": "\"¡Cuenta"
+        },
+        {
+          "es": "noche.",
+          "en": "noche.",
+          "ar": "noche."
+        },
+        {
+          "es": "gritaban",
+          "en": "gritaban",
+          "ar": "gritaban"
+        }
+      ],
+      "answer": "\"¡Cuenta otra!\", gritaban todos cada noche.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: '\"¡Cuenta otra!\", gritaban todos cada noche.'",
+        "en": "The correct sentence: '\"¡Cuenta otra!\", gritaban todos cada noche.'",
+        "ar": "الجملة الصحيحة: '\"¡Cuenta otra!\", gritaban todos cada noche.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Y   entonces   yo   hacía   suspenso   y   ___   se   quedaban   calladitos,   esperando   el   desenlace.",
+        "en": "Y   entonces   yo   hacía   suspenso   y   ___   se   quedaban   calladitos,   esperando   el   desenlace.",
+        "ar": "Y   entonces   yo   hacía   suspenso   y   ___   se   quedaban   calladitos,   esperando   el   desenlace."
+      },
+      "options": [
+        {
+          "es": "'el narrador'",
+          "en": "'el narrador'",
+          "ar": "'el narrador'"
+        },
+        {
+          "es": "'todos'",
+          "en": "'todos'",
+          "ar": "'todos'"
+        },
+        {
+          "es": "'la crónica'",
+          "en": "'la crónica'",
+          "ar": "'la crónica'"
+        },
+        {
+          "es": "'el cuento'",
+          "en": "'el cuento'",
+          "ar": "'el cuento'"
+        }
+      ],
+      "answer": "'todos'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'todos'",
+        "en": "The complete word: 'todos'",
+        "ar": "الكلمة الكاملة: 'todos'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

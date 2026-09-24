@@ -612,6 +612,157 @@
         "ar": "الإجابة: \"La pared es blanca.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Cómo es tu nueva casa?",
+      "accepted": [],
+      "audio": "¿Cómo es tu nueva casa?",
+      "explanation": {
+        "es": "La frase correcta: '¿Cómo es tu nueva casa?'",
+        "en": "The correct sentence: '¿Cómo es tu nueva casa?'",
+        "ar": "الجملة الصحيحة: '¿Cómo es tu nueva casa?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¡Es grande! Tiene una sala de estar, tres dormitorios y una cocina enorme.",
+      "accepted": [],
+      "audio": "¡Es grande! Tiene una sala de estar, tres dormitorios y una cocina enorme.",
+      "explanation": {
+        "es": "La frase correcta: '¡Es grande! Tiene una sala de estar, tres dormitorios y una cocina enorme.'",
+        "en": "The correct sentence: '¡Es grande! Tiene una sala de estar, tres dormitorios y una cocina enorme.'",
+        "ar": "الجملة الصحيحة: '¡Es grande! Tiene una sala de estar, tres dormitorios y una cocina enorme.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Nosotros compramos la casa nueva.",
+          "en": "Nosotros compramos la casa nueva.",
+          "ar": "Nosotros compramos la casa nueva."
+        },
+        {
+          "es": "Está al lado del dormitorio principal.",
+          "en": "Está al lado del dormitorio principal.",
+          "ar": "Está al lado del dormitorio principal."
+        },
+        {
+          "es": "¿Y qué hay en la sala de estar?",
+          "en": "¿Y qué hay en la sala de estar?",
+          "ar": "¿Y qué hay en la sala de estar?"
+        },
+        {
+          "es": "¿Dónde está el baño?",
+          "en": "¿Dónde está el baño?",
+          "ar": "¿Dónde está el baño?"
+        }
+      ],
+      "answer": "¿Y qué hay en la sala de estar?",
+      "accepted": [],
+      "audio": "¿Y qué hay en la sala de estar?",
+      "explanation": {
+        "es": "Escuchaste: '¿Y qué hay en la sala de estar?'",
+        "en": "You heard: '¿Y qué hay en la sala de estar?'",
+        "ar": "سمعت: '¿Y qué hay en la sala de estar?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "¿Dónde",
+          "en": "¿Dónde",
+          "ar": "¿Dónde"
+        },
+        {
+          "es": "está",
+          "en": "está",
+          "ar": "está"
+        },
+        {
+          "es": "baño?",
+          "en": "baño?",
+          "ar": "baño?"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        }
+      ],
+      "answer": "¿Dónde está el baño?",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: '¿Dónde está el baño?'",
+        "en": "The correct sentence: '¿Dónde está el baño?'",
+        "ar": "الجملة الصحيحة: '¿Dónde está el baño?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Está   al   lado   del   ___   principal.",
+        "en": "Está   al   lado   del   ___   principal.",
+        "ar": "Está   al   lado   del   ___   principal."
+      },
+      "options": [
+        {
+          "es": "'la casa'",
+          "en": "'la casa'",
+          "ar": "'la casa'"
+        },
+        {
+          "es": "'el dormitorio'",
+          "en": "'el dormitorio'",
+          "ar": "'el dormitorio'"
+        },
+        {
+          "es": "'la cocina'",
+          "en": "'la cocina'",
+          "ar": "'la cocina'"
+        },
+        {
+          "es": "'dormitorio'",
+          "en": "'dormitorio'",
+          "ar": "'dormitorio'"
+        }
+      ],
+      "answer": "'dormitorio'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'dormitorio'",
+        "en": "The complete word: 'dormitorio'",
+        "ar": "الكلمة الكاملة: 'dormitorio'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

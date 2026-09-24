@@ -594,6 +594,172 @@
         "ar": "الإجابة: \"Estoy esperando el autobús.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Aló? ¿Qué estás haciendo ahora?",
+      "accepted": [],
+      "audio": "¿Aló? ¿Qué estás haciendo ahora?",
+      "explanation": {
+        "es": "La frase correcta: '¿Aló? ¿Qué estás haciendo ahora?'",
+        "en": "The correct sentence: '¿Aló? ¿Qué estás haciendo ahora?'",
+        "ar": "الجملة الصحيحة: '¿Aló? ¿Qué estás haciendo ahora?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Estoy escribiendo un correo a mi jefa.",
+      "accepted": [],
+      "audio": "Estoy escribiendo un correo a mi jefa.",
+      "explanation": {
+        "es": "La frase correcta: 'Estoy escribiendo un correo a mi jefa.'",
+        "en": "The correct sentence: 'Estoy escribiendo un correo a mi jefa.'",
+        "ar": "الجملة الصحيحة: 'Estoy escribiendo un correo a mi jefa.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "El tiempo progresivo marca la duración.",
+          "en": "El tiempo progresivo marca la duración.",
+          "ar": "El tiempo progresivo marca la duración."
+        },
+        {
+          "es": "El gerundio termina en ando o iendo.",
+          "en": "El gerundio termina en ando o iendo.",
+          "ar": "El gerundio termina en ando o iendo."
+        },
+        {
+          "es": "¿Y Pedro? ¿Está estudiando?",
+          "en": "¿Y Pedro? ¿Está estudiando?",
+          "ar": "¿Y Pedro? ¿Está estudiando?"
+        },
+        {
+          "es": "No, está viendo fútbol en la tele.",
+          "en": "No, está viendo fútbol en la tele.",
+          "ar": "No, está viendo fútbol en la tele."
+        }
+      ],
+      "answer": "¿Y Pedro? ¿Está estudiando?",
+      "accepted": [],
+      "audio": "¿Y Pedro? ¿Está estudiando?",
+      "explanation": {
+        "es": "Escuchaste: '¿Y Pedro? ¿Está estudiando?'",
+        "en": "You heard: '¿Y Pedro? ¿Está estudiando?'",
+        "ar": "سمعت: '¿Y Pedro? ¿Está estudiando?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "fútbol",
+          "en": "fútbol",
+          "ar": "fútbol"
+        },
+        {
+          "es": "en",
+          "en": "en",
+          "ar": "en"
+        },
+        {
+          "es": "está",
+          "en": "está",
+          "ar": "está"
+        },
+        {
+          "es": "viendo",
+          "en": "viendo",
+          "ar": "viendo"
+        },
+        {
+          "es": "No,",
+          "en": "No,",
+          "ar": "No,"
+        },
+        {
+          "es": "tele.",
+          "en": "tele.",
+          "ar": "tele."
+        }
+      ],
+      "answer": "No, está viendo fútbol en la tele.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'No, está viendo fútbol en la tele.'",
+        "en": "The correct sentence: 'No, está viendo fútbol en la tele.'",
+        "ar": "الجملة الصحيحة: 'No, está viendo fútbol en la tele.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "El   gerundio   ___   en   ando   o   iendo.",
+        "en": "El   gerundio   ___   en   ando   o   iendo.",
+        "ar": "El   gerundio   ___   en   ando   o   iendo."
+      },
+      "options": [
+        {
+          "es": "'sucediendo'",
+          "en": "'sucediendo'",
+          "ar": "'sucediendo'"
+        },
+        {
+          "es": "'progresivo'",
+          "en": "'progresivo'",
+          "ar": "'progresivo'"
+        },
+        {
+          "es": "'el gerundio'",
+          "en": "'el gerundio'",
+          "ar": "'el gerundio'"
+        },
+        {
+          "es": "'termina'",
+          "en": "'termina'",
+          "ar": "'termina'"
+        }
+      ],
+      "answer": "'termina'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'termina'",
+        "en": "The complete word: 'termina'",
+        "ar": "الكلمة الكاملة: 'termina'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

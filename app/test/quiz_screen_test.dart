@@ -45,13 +45,17 @@ void main() {
       // Questions loaded -> first set of option buttons rendered.
       await pumpUntil(tester, () => tester.any(find.byType(OutlinedButton)));
 
-      // Answer all 10 questions: tap an option, wait for Next, tap Next.
-      // After every Next the Next button disappears (new unanswered question
-      // or result screen), which is what makes this loop deterministic.
-      for (var i = 0; i < 10; i++) {
-        await tester.tap(find.byType(OutlinedButton).first);
+      // Answer every question: the A1 quiz length depends on how many
+      // multiple-choice / fill-blank / listening drills the lessons contain, so
+      // the loop stops when the result screen appears instead of assuming 10.
+      final result = find.textContaining('Best score:');
+      for (var i = 0; i < 60 && tester.any(result) == false; i++) {
+        final option = find.byType(OutlinedButton);
+        if (tester.any(option) == false) break;
+        await tester.tap(option.first);
         final next = find.widgetWithText(FilledButton, 'Next');
         await pumpUntil(tester, () => tester.any(next));
+        if (tester.any(result)) break;
         await tester.tap(next);
         await pumpUntil(
           tester,

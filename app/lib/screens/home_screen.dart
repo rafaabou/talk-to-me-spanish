@@ -1077,7 +1077,9 @@ class _DueCard extends StatelessWidget {
         onTap:
             () => Navigator.push(
               context,
-              MaterialPageRoute(builder: (_) => const FlashcardScreen()),
+              MaterialPageRoute(
+                builder: (_) => const FlashcardScreen(weakestFirst: true),
+              ),
             ),
         child: Padding(
           padding: const EdgeInsets.all(16),
@@ -1106,9 +1108,9 @@ class _DueCard extends StatelessWidget {
                     Text(
                       uiText(
                         lang,
-                        ar: 'اضغط لبدء المراجعة',
-                        es: 'Toca para repasar',
-                        other: 'Tap to review',
+                        ar: 'ابدأ بالأضعف — اضغط للمراجعة',
+                        es: 'Empieza por las más débiles — toca para repasar',
+                        other: 'Weakest first — tap to review',
                       ),
                       style: Theme.of(context).textTheme.bodySmall,
                     ),

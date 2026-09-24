@@ -617,6 +617,192 @@
         "ar": "الإجابة: \"Planeo un intercambio con vistas a activar el vocabulario en el día a día.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¡Felicidades! Acabas de completar el nivel C2 del curso.",
+      "accepted": [],
+      "audio": "¡Felicidades! Acabas de completar el nivel C2 del curso.",
+      "explanation": {
+        "es": "La frase correcta: '¡Felicidades! Acabas de completar el nivel C2 del curso.'",
+        "en": "The correct sentence: '¡Felicidades! Acabas de completar el nivel C2 del curso.'",
+        "ar": "الجملة الصحيحة: '¡Felicidades! Acabas de completar el nivel C2 del curso.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Ahora se emitirá el certificado, y lo que hagas con el idioma depende de ti.",
+      "accepted": [],
+      "audio": "Ahora se emitirá el certificado, y lo que hagas con el idioma depende de ti.",
+      "explanation": {
+        "es": "La frase correcta: 'Ahora se emitirá el certificado, y lo que hagas con el idioma depende de ti.'",
+        "en": "The correct sentence: 'Ahora se emitirá el certificado, y lo que hagas con el idioma depende de ti.'",
+        "ar": "الجملة الصحيحة: 'Ahora se emitirá el certificado, y lo que hagas con el idioma depende de ti.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Ciertamente. Para fin de año, habré consolidado una rutina de inmersión.",
+          "en": "Ciertamente. Para fin de año, habré consolidado una rutina de inmersión.",
+          "ar": "Ciertamente. Para fin de año, habré consolidado una rutina de inmersión."
+        },
+        {
+          "es": "Excelente. Recuerda: el mantenimiento es tan importante como el avance.",
+          "en": "Excelente. Recuerda: el mantenimiento es tan importante como el avance.",
+          "ar": "Excelente. Recuerda: el mantenimiento es tan importante como el avance."
+        },
+        {
+          "es": "El certificado llega por correo digital.",
+          "en": "El certificado llega por correo digital.",
+          "ar": "El certificado llega por correo digital."
+        },
+        {
+          "es": "La carrera continúa con posgrados.",
+          "en": "La carrera continúa con posgrados.",
+          "ar": "La carrera continúa con posgrados."
+        }
+      ],
+      "answer": "Excelente. Recuerda: el mantenimiento es tan importante como el avance.",
+      "accepted": [],
+      "audio": "Excelente. Recuerda: el mantenimiento es tan importante como el avance.",
+      "explanation": {
+        "es": "Escuchaste: 'Excelente. Recuerda: el mantenimiento es tan importante como el avance.'",
+        "en": "You heard: 'Excelente. Recuerda: el mantenimiento es tan importante como el avance.'",
+        "ar": "سمعت: 'Excelente. Recuerda: el mantenimiento es tan importante como el avance.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "consolidado",
+          "en": "consolidado",
+          "ar": "consolidado"
+        },
+        {
+          "es": "habré",
+          "en": "habré",
+          "ar": "habré"
+        },
+        {
+          "es": "inmersión.",
+          "en": "inmersión.",
+          "ar": "inmersión."
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "fin",
+          "en": "fin",
+          "ar": "fin"
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "una",
+          "en": "una",
+          "ar": "una"
+        },
+        {
+          "es": "Para",
+          "en": "Para",
+          "ar": "Para"
+        },
+        {
+          "es": "rutina",
+          "en": "rutina",
+          "ar": "rutina"
+        },
+        {
+          "es": "año,",
+          "en": "año,",
+          "ar": "año,"
+        },
+        {
+          "es": "Ciertamente.",
+          "en": "Ciertamente.",
+          "ar": "Ciertamente."
+        }
+      ],
+      "answer": "Ciertamente. Para fin de año, habré consolidado una rutina de inmersión.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Ciertamente. Para fin de año, habré consolidado una rutina de inmersión.'",
+        "en": "The correct sentence: 'Ciertamente. Para fin de año, habré consolidado una rutina de inmersión.'",
+        "ar": "الجملة الصحيحة: 'Ciertamente. Para fin de año, habré consolidado una rutina de inmersión.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "El   certificado   ___   por   correo   digital.",
+        "en": "El   certificado   ___   por   correo   digital.",
+        "ar": "El   certificado   ___   por   correo   digital."
+      },
+      "options": [
+        {
+          "es": "'la carrera'",
+          "en": "'la carrera'",
+          "ar": "'la carrera'"
+        },
+        {
+          "es": "'llega'",
+          "en": "'llega'",
+          "ar": "'llega'"
+        },
+        {
+          "es": "'el idioma'",
+          "en": "'el idioma'",
+          "ar": "'el idioma'"
+        },
+        {
+          "es": "'el certificado'",
+          "en": "'el certificado'",
+          "ar": "'el certificado'"
+        }
+      ],
+      "answer": "'llega'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'llega'",
+        "en": "The complete word: 'llega'",
+        "ar": "الكلمة الكاملة: 'llega'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

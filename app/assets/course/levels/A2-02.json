@@ -617,6 +617,152 @@
         "ar": "الإجابة: \"La oferta termina el viernes.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Sí. ¿Cuánto cuesta?",
+      "accepted": [],
+      "audio": "Sí. ¿Cuánto cuesta?",
+      "explanation": {
+        "es": "La frase correcta: 'Sí. ¿Cuánto cuesta?'",
+        "en": "The correct sentence: 'Sí. ¿Cuánto cuesta?'",
+        "ar": "الجملة الصحيحة: 'Sí. ¿Cuánto cuesta?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Cuesta ochenta euros, pero está en oferta: sesenta.",
+      "accepted": [],
+      "audio": "Cuesta ochenta euros, pero está en oferta: sesenta.",
+      "explanation": {
+        "es": "La frase correcta: 'Cuesta ochenta euros, pero está en oferta: sesenta.'",
+        "en": "The correct sentence: 'Cuesta ochenta euros, pero está en oferta: sesenta.'",
+        "ar": "الجملة الصحيحة: 'Cuesta ochenta euros, pero está en oferta: sesenta.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "El dinero no compra la felicidad.",
+          "en": "El dinero no compra la felicidad.",
+          "ar": "El dinero no compra la felicidad."
+        },
+        {
+          "es": "¡Qué bien! ¿Cuál es el descuento?",
+          "en": "¡Qué bien! ¿Cuál es el descuento?",
+          "ar": "¡Qué bien! ¿Cuál es el descuento?"
+        },
+        {
+          "es": "Este libro es muy barato.",
+          "en": "Este libro es muy barato.",
+          "ar": "Este libro es muy barato."
+        },
+        {
+          "es": "Sí, acepto. ¡Gracias!",
+          "en": "Sí, acepto. ¡Gracias!",
+          "ar": "Sí, acepto. ¡Gracias!"
+        }
+      ],
+      "answer": "¡Qué bien! ¿Cuál es el descuento?",
+      "accepted": [],
+      "audio": "¡Qué bien! ¿Cuál es el descuento?",
+      "explanation": {
+        "es": "Escuchaste: '¡Qué bien! ¿Cuál es el descuento?'",
+        "en": "You heard: '¡Qué bien! ¿Cuál es el descuento?'",
+        "ar": "سمعت: '¡Qué bien! ¿Cuál es el descuento?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "Sí,",
+          "en": "Sí,",
+          "ar": "Sí,"
+        },
+        {
+          "es": "¡Gracias!",
+          "en": "¡Gracias!",
+          "ar": "¡Gracias!"
+        },
+        {
+          "es": "acepto.",
+          "en": "acepto.",
+          "ar": "acepto."
+        }
+      ],
+      "answer": "Sí, acepto. ¡Gracias!",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Sí, acepto. ¡Gracias!'",
+        "en": "The correct sentence: 'Sí, acepto. ¡Gracias!'",
+        "ar": "الجملة الصحيحة: 'Sí, acepto. ¡Gracias!'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "El   dinero   no   ___   la   felicidad.",
+        "en": "El   dinero   no   ___   la   felicidad.",
+        "ar": "El   dinero   no   ___   la   felicidad."
+      },
+      "options": [
+        {
+          "es": "'compra'",
+          "en": "'compra'",
+          "ar": "'compra'"
+        },
+        {
+          "es": "'barato'",
+          "en": "'barato'",
+          "ar": "'barato'"
+        },
+        {
+          "es": "'el dinero'",
+          "en": "'el dinero'",
+          "ar": "'el dinero'"
+        },
+        {
+          "es": "'el precio'",
+          "en": "'el precio'",
+          "ar": "'el precio'"
+        }
+      ],
+      "answer": "'compra'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'compra'",
+        "en": "The complete word: 'compra'",
+        "ar": "الكلمة الكاملة: 'compra'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

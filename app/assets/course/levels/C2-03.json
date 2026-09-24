@@ -627,6 +627,172 @@
         "ar": "الإجابة: \"La anáfora retoma lo dicho antes.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Después de que el informe fue concluido, enviamos el correo.",
+      "accepted": [],
+      "audio": "Después de que el informe fue concluido, enviamos el correo.",
+      "explanation": {
+        "es": "La frase correcta: 'Después de que el informe fue concluido, enviamos el correo.'",
+        "en": "The correct sentence: 'Después de que el informe fue concluido, enviamos el correo.'",
+        "ar": "الجملة الصحيحة: 'Después de que el informe fue concluido, enviamos el correo.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Ahora redúcela con el participio.",
+      "accepted": [],
+      "audio": "Ahora redúcela con el participio.",
+      "explanation": {
+        "es": "La frase correcta: 'Ahora redúcela con el participio.'",
+        "en": "The correct sentence: 'Ahora redúcela con el participio.'",
+        "ar": "الجملة الصحيحة: 'Ahora redúcela con el participio.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "La oración subordinada no puede existir sola.",
+          "en": "La oración subordinada no puede existir sola.",
+          "ar": "La oración subordinada no puede existir sola."
+        },
+        {
+          "es": "Perfecto. ¿Y por qué no usamos 'concluidos'?",
+          "en": "Perfecto. ¿Y por qué no usamos 'concluidos'?",
+          "ar": "Perfecto. ¿Y por qué no usamos 'concluidos'?"
+        },
+        {
+          "es": "La oración principal lleva el verbo conjugado.",
+          "en": "La oración principal lleva el verbo conjugado.",
+          "ar": "La oración principal lleva el verbo conjugado."
+        },
+        {
+          "es": "Concluido el informe, enviamos el correo.",
+          "en": "Concluido el informe, enviamos el correo.",
+          "ar": "Concluido el informe, enviamos el correo."
+        }
+      ],
+      "answer": "Concluido el informe, enviamos el correo.",
+      "accepted": [],
+      "audio": "Concluido el informe, enviamos el correo.",
+      "explanation": {
+        "es": "Escuchaste: 'Concluido el informe, enviamos el correo.'",
+        "en": "You heard: 'Concluido el informe, enviamos el correo.'",
+        "ar": "سمعت: 'Concluido el informe, enviamos el correo.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "'concluidos'?",
+          "en": "'concluidos'?",
+          "ar": "'concluidos'?"
+        },
+        {
+          "es": "Perfecto.",
+          "en": "Perfecto.",
+          "ar": "Perfecto."
+        },
+        {
+          "es": "usamos",
+          "en": "usamos",
+          "ar": "usamos"
+        },
+        {
+          "es": "¿Y",
+          "en": "¿Y",
+          "ar": "¿Y"
+        },
+        {
+          "es": "por",
+          "en": "por",
+          "ar": "por"
+        },
+        {
+          "es": "qué",
+          "en": "qué",
+          "ar": "qué"
+        },
+        {
+          "es": "no",
+          "en": "no",
+          "ar": "no"
+        }
+      ],
+      "answer": "Perfecto. ¿Y por qué no usamos 'concluidos'?",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Perfecto. ¿Y por qué no usamos 'concluidos'?'",
+        "en": "The correct sentence: 'Perfecto. ¿Y por qué no usamos 'concluidos'?'",
+        "ar": "الجملة الصحيحة: 'Perfecto. ¿Y por qué no usamos 'concluidos'?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "La   oración   subordinada   no   ___   existir   sola.",
+        "en": "La   oración   subordinada   no   ___   existir   sola.",
+        "ar": "La   oración   subordinada   no   ___   existir   sola."
+      },
+      "options": [
+        {
+          "es": "'la conjunción'",
+          "en": "'la conjunción'",
+          "ar": "'la conjunción'"
+        },
+        {
+          "es": "'la anáfora'",
+          "en": "'la anáfora'",
+          "ar": "'la anáfora'"
+        },
+        {
+          "es": "'la elipsis'",
+          "en": "'la elipsis'",
+          "ar": "'la elipsis'"
+        },
+        {
+          "es": "'puede'",
+          "en": "'puede'",
+          "ar": "'puede'"
+        }
+      ],
+      "answer": "'puede'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'puede'",
+        "en": "The complete word: 'puede'",
+        "ar": "الكلمة الكاملة: 'puede'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

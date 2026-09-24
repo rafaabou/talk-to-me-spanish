@@ -599,6 +599,177 @@
         "ar": "الإجابة: \"La forma ser inaugurado describe la apertura.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "La nueva biblioteca fue inaugurada ayer en la avenida central.",
+      "accepted": [],
+      "audio": "La nueva biblioteca fue inaugurada ayer en la avenida central.",
+      "explanation": {
+        "es": "La frase correcta: 'La nueva biblioteca fue inaugurada ayer en la avenida central.'",
+        "en": "The correct sentence: 'La nueva biblioteca fue inaugurada ayer en la avenida central.'",
+        "ar": "الجملة الصحيحة: 'La nueva biblioteca fue inaugurada ayer en la avenida central.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¿Fue construida por el gobierno regional?",
+      "accepted": [],
+      "audio": "¿Fue construida por el gobierno regional?",
+      "explanation": {
+        "es": "La frase correcta: '¿Fue construida por el gobierno regional?'",
+        "en": "The correct sentence: '¿Fue construida por el gobierno regional?'",
+        "ar": "الجملة الصحيحة: '¿Fue construida por el gobierno regional?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "El participio regular termina en ado o ido.",
+          "en": "El participio regular termina en ado o ido.",
+          "ar": "El participio regular termina en ado o ido."
+        },
+        {
+          "es": "La voz pasiva se forma con ser y participio.",
+          "en": "La voz pasiva se forma con ser y participio.",
+          "ar": "La voz pasiva se forma con ser y participio."
+        },
+        {
+          "es": "Sí, se ofrecerán cursos de informática y lectura.",
+          "en": "Sí, se ofrecerán cursos de informática y lectura.",
+          "ar": "Sí, se ofrecerán cursos de informática y lectura."
+        },
+        {
+          "es": "Sí, fue financiada con recursos públicos.",
+          "en": "Sí, fue financiada con recursos públicos.",
+          "ar": "Sí, fue financiada con recursos públicos."
+        }
+      ],
+      "answer": "Sí, fue financiada con recursos públicos.",
+      "accepted": [],
+      "audio": "Sí, fue financiada con recursos públicos.",
+      "explanation": {
+        "es": "Escuchaste: 'Sí, fue financiada con recursos públicos.'",
+        "en": "You heard: 'Sí, fue financiada con recursos públicos.'",
+        "ar": "سمعت: 'Sí, fue financiada con recursos públicos.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "y",
+          "en": "y",
+          "ar": "y"
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "lectura.",
+          "en": "lectura.",
+          "ar": "lectura."
+        },
+        {
+          "es": "cursos",
+          "en": "cursos",
+          "ar": "cursos"
+        },
+        {
+          "es": "ofrecerán",
+          "en": "ofrecerán",
+          "ar": "ofrecerán"
+        },
+        {
+          "es": "se",
+          "en": "se",
+          "ar": "se"
+        },
+        {
+          "es": "Sí,",
+          "en": "Sí,",
+          "ar": "Sí,"
+        },
+        {
+          "es": "informática",
+          "en": "informática",
+          "ar": "informática"
+        }
+      ],
+      "answer": "Sí, se ofrecerán cursos de informática y lectura.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Sí, se ofrecerán cursos de informática y lectura.'",
+        "en": "The correct sentence: 'Sí, se ofrecerán cursos de informática y lectura.'",
+        "ar": "الجملة الصحيحة: 'Sí, se ofrecerán cursos de informática y lectura.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "La   voz   pasiva   se   ___   con   ser   y   participio.",
+        "en": "La   voz   pasiva   se   ___   con   ser   y   participio.",
+        "ar": "La   voz   pasiva   se   ___   con   ser   y   participio."
+      },
+      "options": [
+        {
+          "es": "'ser construido'",
+          "en": "'ser construido'",
+          "ar": "'ser construido'"
+        },
+        {
+          "es": "'el participio'",
+          "en": "'el participio'",
+          "ar": "'el participio'"
+        },
+        {
+          "es": "'forma'",
+          "en": "'forma'",
+          "ar": "'forma'"
+        },
+        {
+          "es": "'el agente'",
+          "en": "'el agente'",
+          "ar": "'el agente'"
+        }
+      ],
+      "answer": "'forma'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'forma'",
+        "en": "The complete word: 'forma'",
+        "ar": "الكلمة الكاملة: 'forma'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

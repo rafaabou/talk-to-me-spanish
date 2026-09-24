@@ -604,6 +604,162 @@
         "ar": "الإجابة: \"La seguridad cibernética es prioritaria.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Viste la noticia sobre los avances de la inteligencia artificial?",
+      "accepted": [],
+      "audio": "¿Viste la noticia sobre los avances de la inteligencia artificial?",
+      "explanation": {
+        "es": "La frase correcta: '¿Viste la noticia sobre los avances de la inteligencia artificial?'",
+        "en": "The correct sentence: '¿Viste la noticia sobre los avances de la inteligencia artificial?'",
+        "ar": "الجملة الصحيحة: '¿Viste la noticia sobre los avances de la inteligencia artificial?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Sí. El científico dijo que los nuevos sistemas aprenden solos.",
+      "accepted": [],
+      "audio": "Sí. El científico dijo que los nuevos sistemas aprenden solos.",
+      "explanation": {
+        "es": "La frase correcta: 'Sí. El científico dijo que los nuevos sistemas aprenden solos.'",
+        "en": "The correct sentence: 'Sí. El científico dijo que los nuevos sistemas aprenden solos.'",
+        "ar": "الجملة الصحيحة: 'Sí. El científico dijo que los nuevos sistemas aprenden solos.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "De acuerdo. La seguridad cibernética es cada vez más importante.",
+          "en": "De acuerdo. La seguridad cibernética es cada vez más importante.",
+          "ar": "De acuerdo. La seguridad cibernética es cada vez más importante."
+        },
+        {
+          "es": "El descubrimiento fue accidental.",
+          "en": "El descubrimiento fue accidental.",
+          "ar": "El descubrimiento fue accidental."
+        },
+        {
+          "es": "El científico publicó sus hallazgos.",
+          "en": "El científico publicó sus hallazgos.",
+          "ar": "El científico publicó sus hallazgos."
+        },
+        {
+          "es": "La investigación duró dos años.",
+          "en": "La investigación duró dos años.",
+          "ar": "La investigación duró dos años."
+        }
+      ],
+      "answer": "De acuerdo. La seguridad cibernética es cada vez más importante.",
+      "accepted": [],
+      "audio": "De acuerdo. La seguridad cibernética es cada vez más importante.",
+      "explanation": {
+        "es": "Escuchaste: 'De acuerdo. La seguridad cibernética es cada vez más importante.'",
+        "en": "You heard: 'De acuerdo. La seguridad cibernética es cada vez más importante.'",
+        "ar": "سمعت: 'De acuerdo. La seguridad cibernética es cada vez más importante.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "dos",
+          "en": "dos",
+          "ar": "dos"
+        },
+        {
+          "es": "años.",
+          "en": "años.",
+          "ar": "años."
+        },
+        {
+          "es": "duró",
+          "en": "duró",
+          "ar": "duró"
+        },
+        {
+          "es": "La",
+          "en": "La",
+          "ar": "La"
+        },
+        {
+          "es": "investigación",
+          "en": "investigación",
+          "ar": "investigación"
+        }
+      ],
+      "answer": "La investigación duró dos años.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'La investigación duró dos años.'",
+        "en": "The correct sentence: 'La investigación duró dos años.'",
+        "ar": "الجملة الصحيحة: 'La investigación duró dos años.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "El   científico   ___   sus   hallazgos.",
+        "en": "El   científico   ___   sus   hallazgos.",
+        "ar": "El   científico   ___   sus   hallazgos."
+      },
+      "options": [
+        {
+          "es": "'la investigación'",
+          "en": "'la investigación'",
+          "ar": "'la investigación'"
+        },
+        {
+          "es": "'el científico'",
+          "en": "'el científico'",
+          "ar": "'el científico'"
+        },
+        {
+          "es": "'el descubrimiento'",
+          "en": "'el descubrimiento'",
+          "ar": "'el descubrimiento'"
+        },
+        {
+          "es": "'publicó'",
+          "en": "'publicó'",
+          "ar": "'publicó'"
+        }
+      ],
+      "answer": "'publicó'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'publicó'",
+        "en": "The complete word: 'publicó'",
+        "ar": "الكلمة الكاملة: 'publicó'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

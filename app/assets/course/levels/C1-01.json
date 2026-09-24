@@ -620,6 +620,182 @@
         "ar": "الإجابة: \"Con tal de que yo organice todo, se puede intentar.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Es posible que el viaje salga caro si vamos en julio.",
+      "accepted": [],
+      "audio": "Es posible que el viaje salga caro si vamos en julio.",
+      "explanation": {
+        "es": "La frase correcta: 'Es posible que el viaje salga caro si vamos en julio.'",
+        "en": "The correct sentence: 'Es posible que el viaje salga caro si vamos en julio.'",
+        "ar": "الجملة الصحيحة: 'Es posible que el viaje salga caro si vamos en julio.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Aunque cueste más, prefiero ir en julio.",
+      "accepted": [],
+      "audio": "Aunque cueste más, prefiero ir en julio.",
+      "explanation": {
+        "es": "La frase correcta: 'Aunque cueste más, prefiero ir en julio.'",
+        "en": "The correct sentence: 'Aunque cueste más, prefiero ir en julio.'",
+        "ar": "الجملة الصحيحة: 'Aunque cueste más, prefiero ir en julio.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "A menos que consigas vacaciones, quizás no funcione.",
+          "en": "A menos que consigas vacaciones, quizás no funcione.",
+          "ar": "A menos que consigas vacaciones, quizás no funcione."
+        },
+        {
+          "es": "Aunque no me creas, fui yo.",
+          "en": "Aunque no me creas, fui yo.",
+          "ar": "Aunque no me creas, fui yo."
+        },
+        {
+          "es": "Para que funcione, tenemos que decidir aún esta semana.",
+          "en": "Para que funcione, tenemos que decidir aún esta semana.",
+          "ar": "Para que funcione, tenemos que decidir aún esta semana."
+        },
+        {
+          "es": "Aunque estés cansado, termina la tarea.",
+          "en": "Aunque estés cansado, termina la tarea.",
+          "ar": "Aunque estés cansado, termina la tarea."
+        }
+      ],
+      "answer": "A menos que consigas vacaciones, quizás no funcione.",
+      "accepted": [],
+      "audio": "A menos que consigas vacaciones, quizás no funcione.",
+      "explanation": {
+        "es": "Escuchaste: 'A menos que consigas vacaciones, quizás no funcione.'",
+        "en": "You heard: 'A menos que consigas vacaciones, quizás no funcione.'",
+        "ar": "سمعت: 'A menos que consigas vacaciones, quizás no funcione.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "decidir",
+          "en": "decidir",
+          "ar": "decidir"
+        },
+        {
+          "es": "semana.",
+          "en": "semana.",
+          "ar": "semana."
+        },
+        {
+          "es": "esta",
+          "en": "esta",
+          "ar": "esta"
+        },
+        {
+          "es": "tenemos",
+          "en": "tenemos",
+          "ar": "tenemos"
+        },
+        {
+          "es": "aún",
+          "en": "aún",
+          "ar": "aún"
+        },
+        {
+          "es": "que",
+          "en": "que",
+          "ar": "que"
+        },
+        {
+          "es": "Para",
+          "en": "Para",
+          "ar": "Para"
+        },
+        {
+          "es": "funcione,",
+          "en": "funcione,",
+          "ar": "funcione,"
+        },
+        {
+          "es": "que",
+          "en": "que",
+          "ar": "que"
+        }
+      ],
+      "answer": "Para que funcione, tenemos que decidir aún esta semana.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Para que funcione, tenemos que decidir aún esta semana.'",
+        "en": "The correct sentence: 'Para que funcione, tenemos que decidir aún esta semana.'",
+        "ar": "الجملة الصحيحة: 'Para que funcione, tenemos que decidir aún esta semana.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Aunque   ___   cansado,   termina   la   tarea.",
+        "en": "Aunque   ___   cansado,   termina   la   tarea.",
+        "ar": "Aunque   ___   cansado,   termina   la   tarea."
+      },
+      "options": [
+        {
+          "es": "'aunque'",
+          "en": "'aunque'",
+          "ar": "'aunque'"
+        },
+        {
+          "es": "'estés'",
+          "en": "'estés'",
+          "ar": "'estés'"
+        },
+        {
+          "es": "'aunque'",
+          "en": "'aunque'",
+          "ar": "'aunque'"
+        },
+        {
+          "es": "'aunque'",
+          "en": "'aunque'",
+          "ar": "'aunque'"
+        }
+      ],
+      "answer": "'estés'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'estés'",
+        "en": "The complete word: 'estés'",
+        "ar": "الكلمة الكاملة: 'estés'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

@@ -599,6 +599,202 @@
         "ar": "الإجابة: \"El apartamento tiene dos balcones.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Está cerca de mi trabajo? ¿Está cerca del metro?",
+      "accepted": [],
+      "audio": "¿Está cerca de mi trabajo? ¿Está cerca del metro?",
+      "explanation": {
+        "es": "La frase correcta: '¿Está cerca de mi trabajo? ¿Está cerca del metro?'",
+        "en": "The correct sentence: '¿Está cerca de mi trabajo? ¿Está cerca del metro?'",
+        "ar": "الجملة الصحيحة: '¿Está cerca de mi trabajo? ¿Está cerca del metro?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Sí, está a diez minutos del metro.",
+      "accepted": [],
+      "audio": "Sí, está a diez minutos del metro.",
+      "explanation": {
+        "es": "La frase correcta: 'Sí, está a diez minutos del metro.'",
+        "en": "The correct sentence: 'Sí, está a diez minutos del metro.'",
+        "ar": "الجملة الصحيحة: 'Sí, está a diez minutos del metro.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "¿Cuánto es el alquiler? ¿Necesito pagar un depósito?",
+          "en": "¿Cuánto es el alquiler? ¿Necesito pagar un depósito?",
+          "ar": "¿Cuánto es el alquiler? ¿Necesito pagar un depósito?"
+        },
+        {
+          "es": "El alquiler es de mil euros y el depósito es de tres meses.",
+          "en": "El alquiler es de mil euros y el depósito es de tres meses.",
+          "ar": "El alquiler es de mil euros y el depósito es de tres meses."
+        },
+        {
+          "es": "Entonces voy a pensarlo y hablaré con mi fiador.",
+          "en": "Entonces voy a pensarlo y hablaré con mi fiador.",
+          "ar": "Entonces voy a pensarlo y hablaré con mi fiador."
+        },
+        {
+          "es": "El alquiler subió otra vez.",
+          "en": "El alquiler subió otra vez.",
+          "ar": "El alquiler subió otra vez."
+        }
+      ],
+      "answer": "¿Cuánto es el alquiler? ¿Necesito pagar un depósito?",
+      "accepted": [],
+      "audio": "¿Cuánto es el alquiler? ¿Necesito pagar un depósito?",
+      "explanation": {
+        "es": "Escuchaste: '¿Cuánto es el alquiler? ¿Necesito pagar un depósito?'",
+        "en": "You heard: '¿Cuánto es el alquiler? ¿Necesito pagar un depósito?'",
+        "ar": "سمعت: '¿Cuánto es el alquiler? ¿Necesito pagar un depósito?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "es",
+          "en": "es",
+          "ar": "es"
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "El",
+          "en": "El",
+          "ar": "El"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "mil",
+          "en": "mil",
+          "ar": "mil"
+        },
+        {
+          "es": "meses.",
+          "en": "meses.",
+          "ar": "meses."
+        },
+        {
+          "es": "tres",
+          "en": "tres",
+          "ar": "tres"
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "alquiler",
+          "en": "alquiler",
+          "ar": "alquiler"
+        },
+        {
+          "es": "es",
+          "en": "es",
+          "ar": "es"
+        },
+        {
+          "es": "depósito",
+          "en": "depósito",
+          "ar": "depósito"
+        },
+        {
+          "es": "euros",
+          "en": "euros",
+          "ar": "euros"
+        },
+        {
+          "es": "y",
+          "en": "y",
+          "ar": "y"
+        }
+      ],
+      "answer": "El alquiler es de mil euros y el depósito es de tres meses.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'El alquiler es de mil euros y el depósito es de tres meses.'",
+        "en": "The correct sentence: 'El alquiler es de mil euros y el depósito es de tres meses.'",
+        "ar": "الجملة الصحيحة: 'El alquiler es de mil euros y el depósito es de tres meses.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Entonces   voy   a   ___   y   hablaré   con   mi   fiador.",
+        "en": "Entonces   voy   a   ___   y   hablaré   con   mi   fiador.",
+        "ar": "Entonces   voy   a   ___   y   hablaré   con   mi   fiador."
+      },
+      "options": [
+        {
+          "es": "'vivir'",
+          "en": "'vivir'",
+          "ar": "'vivir'"
+        },
+        {
+          "es": "'pensarlo'",
+          "en": "'pensarlo'",
+          "ar": "'pensarlo'"
+        },
+        {
+          "es": "'el apartamento'",
+          "en": "'el apartamento'",
+          "ar": "'el apartamento'"
+        },
+        {
+          "es": "'el alquiler'",
+          "en": "'el alquiler'",
+          "ar": "'el alquiler'"
+        }
+      ],
+      "answer": "'pensarlo'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'pensarlo'",
+        "en": "The complete word: 'pensarlo'",
+        "ar": "الكلمة الكاملة: 'pensarlo'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

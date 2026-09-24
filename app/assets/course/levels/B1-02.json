@@ -599,6 +599,162 @@
         "ar": "الإجابة: \"Ocupé el cargo durante cinco años.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Cuéntame sobre tu experiencia profesional.",
+      "accepted": [],
+      "audio": "Cuéntame sobre tu experiencia profesional.",
+      "explanation": {
+        "es": "La frase correcta: 'Cuéntame sobre tu experiencia profesional.'",
+        "en": "The correct sentence: 'Cuéntame sobre tu experiencia profesional.'",
+        "ar": "الجملة الصحيحة: 'Cuéntame sobre tu experiencia profesional.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Trabajé en una empresa de tecnología por tres años.",
+      "accepted": [],
+      "audio": "Trabajé en una empresa de tecnología por tres años.",
+      "explanation": {
+        "es": "La frase correcta: 'Trabajé en una empresa de tecnología por tres años.'",
+        "en": "The correct sentence: 'Trabajé en una empresa de tecnología por tres años.'",
+        "ar": "الجملة الصحيحة: 'Trabajé en una empresa de tecnología por tres años.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "El currículum actualizado es breve.",
+          "en": "El currículum actualizado es breve.",
+          "ar": "El currículum actualizado es breve."
+        },
+        {
+          "es": "¿Qué habilidades desarrollaste?",
+          "en": "¿Qué habilidades desarrollaste?",
+          "ar": "¿Qué habilidades desarrollaste?"
+        },
+        {
+          "es": "El puesto requiere dos años de experiencia.",
+          "en": "El puesto requiere dos años de experiencia.",
+          "ar": "El puesto requiere dos años de experiencia."
+        },
+        {
+          "es": "La entrevista salió muy bien.",
+          "en": "La entrevista salió muy bien.",
+          "ar": "La entrevista salió muy bien."
+        }
+      ],
+      "answer": "¿Qué habilidades desarrollaste?",
+      "accepted": [],
+      "audio": "¿Qué habilidades desarrollaste?",
+      "explanation": {
+        "es": "Escuchaste: '¿Qué habilidades desarrollaste?'",
+        "en": "You heard: '¿Qué habilidades desarrollaste?'",
+        "ar": "سمعت: '¿Qué habilidades desarrollaste?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "salió",
+          "en": "salió",
+          "ar": "salió"
+        },
+        {
+          "es": "La",
+          "en": "La",
+          "ar": "La"
+        },
+        {
+          "es": "bien.",
+          "en": "bien.",
+          "ar": "bien."
+        },
+        {
+          "es": "muy",
+          "en": "muy",
+          "ar": "muy"
+        },
+        {
+          "es": "entrevista",
+          "en": "entrevista",
+          "ar": "entrevista"
+        }
+      ],
+      "answer": "La entrevista salió muy bien.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'La entrevista salió muy bien.'",
+        "en": "The correct sentence: 'La entrevista salió muy bien.'",
+        "ar": "الجملة الصحيحة: 'La entrevista salió muy bien.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "El   currículum   ___   es   breve.",
+        "en": "El   currículum   ___   es   breve.",
+        "ar": "El   currículum   ___   es   breve."
+      },
+      "options": [
+        {
+          "es": "'la entrevista'",
+          "en": "'la entrevista'",
+          "ar": "'la entrevista'"
+        },
+        {
+          "es": "'actualizado'",
+          "en": "'actualizado'",
+          "ar": "'actualizado'"
+        },
+        {
+          "es": "'el puesto'",
+          "en": "'el puesto'",
+          "ar": "'el puesto'"
+        },
+        {
+          "es": "'el currículum'",
+          "en": "'el currículum'",
+          "ar": "'el currículum'"
+        }
+      ],
+      "answer": "'actualizado'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'actualizado'",
+        "en": "The complete word: 'actualizado'",
+        "ar": "الكلمة الكاملة: 'actualizado'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

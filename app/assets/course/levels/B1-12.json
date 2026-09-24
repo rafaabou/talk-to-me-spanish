@@ -599,6 +599,172 @@
         "ar": "الإجابة: \"Prepararé la cena para los invitados.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¡Terminamos el nivel B1! Qué progreso, ¿eh?",
+      "accepted": [],
+      "audio": "¡Terminamos el nivel B1! Qué progreso, ¿eh?",
+      "explanation": {
+        "es": "La frase correcta: '¡Terminamos el nivel B1! Qué progreso, ¿eh?'",
+        "en": "The correct sentence: '¡Terminamos el nivel B1! Qué progreso, ¿eh?'",
+        "ar": "الجملة الصحيحة: '¡Terminamos el nivel B1! Qué progreso, ¿eh?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Creo que con más práctica lo vas a dominar.",
+      "accepted": [],
+      "audio": "Creo que con más práctica lo vas a dominar.",
+      "explanation": {
+        "es": "La frase correcta: 'Creo que con más práctica lo vas a dominar.'",
+        "en": "The correct sentence: 'Creo que con más práctica lo vas a dominar.'",
+        "ar": "الجملة الصحيحة: 'Creo que con más práctica lo vas a dominar.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Si concluyo las actividades, estaré listo para el próximo nivel.",
+          "en": "Si concluyo las actividades, estaré listo para el próximo nivel.",
+          "ar": "Si concluyo las actividades, estaré listo para el próximo nivel."
+        },
+        {
+          "es": "¿Vamos a revisar el capítulo de pronombres relativos?",
+          "en": "¿Vamos a revisar el capítulo de pronombres relativos?",
+          "ar": "¿Vamos a revisar el capítulo de pronombres relativos?"
+        },
+        {
+          "es": "¡Buena idea! Estoy preparando un resumen hoy.",
+          "en": "¡Buena idea! Estoy preparando un resumen hoy.",
+          "ar": "¡Buena idea! Estoy preparando un resumen hoy."
+        },
+        {
+          "es": "La revisión del texto tomó una houra.",
+          "en": "La revisión del texto tomó una houra.",
+          "ar": "La revisión del texto tomó una houra."
+        }
+      ],
+      "answer": "¿Vamos a revisar el capítulo de pronombres relativos?",
+      "accepted": [],
+      "audio": "¿Vamos a revisar el capítulo de pronombres relativos?",
+      "explanation": {
+        "es": "Escuchaste: '¿Vamos a revisar el capítulo de pronombres relativos?'",
+        "en": "You heard: '¿Vamos a revisar el capítulo de pronombres relativos?'",
+        "ar": "سمعت: '¿Vamos a revisar el capítulo de pronombres relativos?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "idea!",
+          "en": "idea!",
+          "ar": "idea!"
+        },
+        {
+          "es": "Estoy",
+          "en": "Estoy",
+          "ar": "Estoy"
+        },
+        {
+          "es": "resumen",
+          "en": "resumen",
+          "ar": "resumen"
+        },
+        {
+          "es": "¡Buena",
+          "en": "¡Buena",
+          "ar": "¡Buena"
+        },
+        {
+          "es": "preparando",
+          "en": "preparando",
+          "ar": "preparando"
+        },
+        {
+          "es": "hoy.",
+          "en": "hoy.",
+          "ar": "hoy."
+        },
+        {
+          "es": "un",
+          "en": "un",
+          "ar": "un"
+        }
+      ],
+      "answer": "¡Buena idea! Estoy preparando un resumen hoy.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: '¡Buena idea! Estoy preparando un resumen hoy.'",
+        "en": "The correct sentence: '¡Buena idea! Estoy preparando un resumen hoy.'",
+        "ar": "الجملة الصحيحة: '¡Buena idea! Estoy preparando un resumen hoy.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Si   concluyo   las   actividades,   estaré   ___   para   el   próximo   nivel.",
+        "en": "Si   concluyo   las   actividades,   estaré   ___   para   el   próximo   nivel.",
+        "ar": "Si   concluyo   las   actividades,   estaré   ___   para   el   próximo   nivel."
+      },
+      "options": [
+        {
+          "es": "'el contenido'",
+          "en": "'el contenido'",
+          "ar": "'el contenido'"
+        },
+        {
+          "es": "'listo'",
+          "en": "'listo'",
+          "ar": "'listo'"
+        },
+        {
+          "es": "'la revisión'",
+          "en": "'la revisión'",
+          "ar": "'la revisión'"
+        },
+        {
+          "es": "'la gramática'",
+          "en": "'la gramática'",
+          "ar": "'la gramática'"
+        }
+      ],
+      "answer": "'listo'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'listo'",
+        "en": "The complete word: 'listo'",
+        "ar": "الكلمة الكاملة: 'listo'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

@@ -599,6 +599,182 @@
         "ar": "الإجابة: \"Afirmar sin pruebas es débil.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¡Pero él había afirmado que sería el viernes!",
+      "accepted": [],
+      "audio": "¡Pero él había afirmado que sería el viernes!",
+      "explanation": {
+        "es": "La frase correcta: '¡Pero él había afirmado que sería el viernes!'",
+        "en": "The correct sentence: '¡Pero él había afirmado que sería el viernes!'",
+        "ar": "الجملة الصحيحة: '¡Pero él había afirmado que sería el viernes!'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Él explicó que cambió de opinión y que avisaría por correo electrónico.",
+      "accepted": [],
+      "audio": "Él explicó que cambió de opinión y que avisaría por correo electrónico.",
+      "explanation": {
+        "es": "La frase correcta: 'Él explicó que cambió de opinión y que avisaría por correo electrónico.'",
+        "en": "The correct sentence: 'Él explicó que cambió de opinión y que avisaría por correo electrónico.'",
+        "ar": "الجملة الصحيحة: 'Él explicó que cambió de opinión y que avisaría por correo electrónico.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Relatar lo ocurrido toma tiempo.",
+          "en": "Relatar lo ocurrido toma tiempo.",
+          "ar": "Relatar lo ocurrido toma tiempo."
+        },
+        {
+          "es": "Yo respondí que estudiaría todo el fin de semana.",
+          "en": "Yo respondí que estudiaría todo el fin de semana.",
+          "ar": "Yo respondí que estudiaría todo el fin de semana."
+        },
+        {
+          "es": "El discurso indirecto cambia los tiempos.",
+          "en": "El discurso indirecto cambia los tiempos.",
+          "ar": "El discurso indirecto cambia los tiempos."
+        },
+        {
+          "es": "¿Y cuándo preguntó si estabas preparado?",
+          "en": "¿Y cuándo preguntó si estabas preparado?",
+          "ar": "¿Y cuándo preguntó si estabas preparado?"
+        }
+      ],
+      "answer": "¿Y cuándo preguntó si estabas preparado?",
+      "accepted": [],
+      "audio": "¿Y cuándo preguntó si estabas preparado?",
+      "explanation": {
+        "es": "Escuchaste: '¿Y cuándo preguntó si estabas preparado?'",
+        "en": "You heard: '¿Y cuándo preguntó si estabas preparado?'",
+        "ar": "سمعت: '¿Y cuándo preguntó si estabas preparado?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "Yo",
+          "en": "Yo",
+          "ar": "Yo"
+        },
+        {
+          "es": "respondí",
+          "en": "respondí",
+          "ar": "respondí"
+        },
+        {
+          "es": "estudiaría",
+          "en": "estudiaría",
+          "ar": "estudiaría"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "semana.",
+          "en": "semana.",
+          "ar": "semana."
+        },
+        {
+          "es": "fin",
+          "en": "fin",
+          "ar": "fin"
+        },
+        {
+          "es": "todo",
+          "en": "todo",
+          "ar": "todo"
+        },
+        {
+          "es": "que",
+          "en": "que",
+          "ar": "que"
+        }
+      ],
+      "answer": "Yo respondí que estudiaría todo el fin de semana.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Yo respondí que estudiaría todo el fin de semana.'",
+        "en": "The correct sentence: 'Yo respondí que estudiaría todo el fin de semana.'",
+        "ar": "الجملة الصحيحة: 'Yo respondí que estudiaría todo el fin de semana.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "El   discurso   ___   cambia   los   tiempos.",
+        "en": "El   discurso   ___   cambia   los   tiempos.",
+        "ar": "El   discurso   ___   cambia   los   tiempos."
+      },
+      "options": [
+        {
+          "es": "'citar'",
+          "en": "'citar'",
+          "ar": "'citar'"
+        },
+        {
+          "es": "'el pronombre'",
+          "en": "'el pronombre'",
+          "ar": "'el pronombre'"
+        },
+        {
+          "es": "'relatar'",
+          "en": "'relatar'",
+          "ar": "'relatar'"
+        },
+        {
+          "es": "'indirecto'",
+          "en": "'indirecto'",
+          "ar": "'indirecto'"
+        }
+      ],
+      "answer": "'indirecto'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'indirecto'",
+        "en": "The complete word: 'indirecto'",
+        "ar": "الكلمة الكاملة: 'indirecto'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

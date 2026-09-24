@@ -617,6 +617,187 @@
         "ar": "الإجابة: \"Compraré un regalo para mi hermana.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Qué vas a hacer el fin de semana?",
+      "accepted": [],
+      "audio": "¿Qué vas a hacer el fin de semana?",
+      "explanation": {
+        "es": "La frase correcta: '¿Qué vas a hacer el fin de semana?'",
+        "en": "The correct sentence: '¿Qué vas a hacer el fin de semana?'",
+        "ar": "الجملة الصحيحة: '¿Qué vas a hacer el fin de semana?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Voy a viajar a Barcelona.",
+      "accepted": [],
+      "audio": "Voy a viajar a Barcelona.",
+      "explanation": {
+        "es": "La frase correcta: 'Voy a viajar a Barcelona.'",
+        "en": "The correct sentence: 'Voy a viajar a Barcelona.'",
+        "ar": "الجملة الصحيحة: 'Voy a viajar a Barcelona.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "¿Con quién vas?",
+          "en": "¿Con quién vas?",
+          "ar": "¿Con quién vas?"
+        },
+        {
+          "es": "Voy con mi hermana. Vamos a ver a los amigos.",
+          "en": "Voy con mi hermana. Vamos a ver a los amigos.",
+          "ar": "Voy con mi hermana. Vamos a ver a los amigos."
+        },
+        {
+          "es": "Mañana tengo una reunión.",
+          "en": "Mañana tengo una reunión.",
+          "ar": "Mañana tengo una reunión."
+        },
+        {
+          "es": "¿Y cuándo volvéis?",
+          "en": "¿Y cuándo volvéis?",
+          "ar": "¿Y cuándo volvéis?"
+        }
+      ],
+      "answer": "¿Con quién vas?",
+      "accepted": [],
+      "audio": "¿Con quién vas?",
+      "explanation": {
+        "es": "Escuchaste: '¿Con quién vas?'",
+        "en": "You heard: '¿Con quién vas?'",
+        "ar": "سمعت: '¿Con quién vas?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "mi",
+          "en": "mi",
+          "ar": "mi"
+        },
+        {
+          "es": "a",
+          "en": "a",
+          "ar": "a"
+        },
+        {
+          "es": "hermana.",
+          "en": "hermana.",
+          "ar": "hermana."
+        },
+        {
+          "es": "los",
+          "en": "los",
+          "ar": "los"
+        },
+        {
+          "es": "amigos.",
+          "en": "amigos.",
+          "ar": "amigos."
+        },
+        {
+          "es": "con",
+          "en": "con",
+          "ar": "con"
+        },
+        {
+          "es": "Vamos",
+          "en": "Vamos",
+          "ar": "Vamos"
+        },
+        {
+          "es": "a",
+          "en": "a",
+          "ar": "a"
+        },
+        {
+          "es": "Voy",
+          "en": "Voy",
+          "ar": "Voy"
+        },
+        {
+          "es": "ver",
+          "en": "ver",
+          "ar": "ver"
+        }
+      ],
+      "answer": "Voy con mi hermana. Vamos a ver a los amigos.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Voy con mi hermana. Vamos a ver a los amigos.'",
+        "en": "The correct sentence: 'Voy con mi hermana. Vamos a ver a los amigos.'",
+        "ar": "الجملة الصحيحة: 'Voy con mi hermana. Vamos a ver a los amigos.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "¿Y   ___   volvéis?",
+        "en": "¿Y   ___   volvéis?",
+        "ar": "¿Y   ___   volvéis?"
+      },
+      "options": [
+        {
+          "es": "'después'",
+          "en": "'después'",
+          "ar": "'después'"
+        },
+        {
+          "es": "'mañana'",
+          "en": "'mañana'",
+          "ar": "'mañana'"
+        },
+        {
+          "es": "'ir'",
+          "en": "'ir'",
+          "ar": "'ir'"
+        },
+        {
+          "es": "'cuándo'",
+          "en": "'cuándo'",
+          "ar": "'cuándo'"
+        }
+      ],
+      "answer": "'cuándo'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'cuándo'",
+        "en": "The complete word: 'cuándo'",
+        "ar": "الكلمة الكاملة: 'cuándo'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

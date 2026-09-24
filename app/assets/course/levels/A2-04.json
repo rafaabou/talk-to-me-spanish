@@ -622,6 +622,177 @@
         "ar": "الإجابة: \"El autobús llega puntual.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Perdón, ¿dónde está la puerta de embarque?",
+      "accepted": [],
+      "audio": "Perdón, ¿dónde está la puerta de embarque?",
+      "explanation": {
+        "es": "La frase correcta: 'Perdón, ¿dónde está la puerta de embarque?'",
+        "en": "The correct sentence: 'Perdón, ¿dónde está la puerta de embarque?'",
+        "ar": "الجملة الصحيحة: 'Perdón, ¿dónde está la puerta de embarque?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Está en la segunda planta, a la derecha.",
+      "accepted": [],
+      "audio": "Está en la segunda planta, a la derecha.",
+      "explanation": {
+        "es": "La frase correcta: 'Está en la segunda planta, a la derecha.'",
+        "en": "The correct sentence: 'Está en la segunda planta, a la derecha.'",
+        "ar": "الجملة الصحيحة: 'Está en la segunda planta, a la derecha.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "¿Y el autobús al hotel?",
+          "en": "¿Y el autobús al hotel?",
+          "ar": "¿Y el autobús al hotel?"
+        },
+        {
+          "es": "El viaje duró seis horas.",
+          "en": "El viaje duró seis horas.",
+          "ar": "El viaje duró seis horas."
+        },
+        {
+          "es": "El autobús está enfrente del aeropuerto. ¡Buen viaje!",
+          "en": "El autobús está enfrente del aeropuerto. ¡Buen viaje!",
+          "ar": "El autobús está enfrente del aeropuerto. ¡Buen viaje!"
+        },
+        {
+          "es": "Viajar en avión es rápido.",
+          "en": "Viajar en avión es rápido.",
+          "ar": "Viajar en avión es rápido."
+        }
+      ],
+      "answer": "¿Y el autobús al hotel?",
+      "accepted": [],
+      "audio": "¿Y el autobús al hotel?",
+      "explanation": {
+        "es": "Escuchaste: '¿Y el autobús al hotel?'",
+        "en": "You heard: '¿Y el autobús al hotel?'",
+        "ar": "سمعت: '¿Y el autobús al hotel?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "está",
+          "en": "está",
+          "ar": "está"
+        },
+        {
+          "es": "viaje!",
+          "en": "viaje!",
+          "ar": "viaje!"
+        },
+        {
+          "es": "enfrente",
+          "en": "enfrente",
+          "ar": "enfrente"
+        },
+        {
+          "es": "del",
+          "en": "del",
+          "ar": "del"
+        },
+        {
+          "es": "aeropuerto.",
+          "en": "aeropuerto.",
+          "ar": "aeropuerto."
+        },
+        {
+          "es": "autobús",
+          "en": "autobús",
+          "ar": "autobús"
+        },
+        {
+          "es": "El",
+          "en": "El",
+          "ar": "El"
+        },
+        {
+          "es": "¡Buen",
+          "en": "¡Buen",
+          "ar": "¡Buen"
+        }
+      ],
+      "answer": "El autobús está enfrente del aeropuerto. ¡Buen viaje!",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'El autobús está enfrente del aeropuerto. ¡Buen viaje!'",
+        "en": "The correct sentence: 'El autobús está enfrente del aeropuerto. ¡Buen viaje!'",
+        "ar": "الجملة الصحيحة: 'El autobús está enfrente del aeropuerto. ¡Buen viaje!'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "El   ___   duró   seis   horas.",
+        "en": "El   ___   duró   seis   horas.",
+        "ar": "El   ___   duró   seis   horas."
+      },
+      "options": [
+        {
+          "es": "'viajar'",
+          "en": "'viajar'",
+          "ar": "'viajar'"
+        },
+        {
+          "es": "'viaje'",
+          "en": "'viaje'",
+          "ar": "'viaje'"
+        },
+        {
+          "es": "'el viaje'",
+          "en": "'el viaje'",
+          "ar": "'el viaje'"
+        },
+        {
+          "es": "'el billete'",
+          "en": "'el billete'",
+          "ar": "'el billete'"
+        }
+      ],
+      "answer": "'viaje'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'viaje'",
+        "en": "The complete word: 'viaje'",
+        "ar": "الكلمة الكاملة: 'viaje'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

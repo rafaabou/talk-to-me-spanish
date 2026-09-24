@@ -627,6 +627,177 @@
         "ar": "الإجابة: \"El juicio de valor exige argumentos.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Presenta la estructura del silogismo que leímos ayer.",
+      "accepted": [],
+      "audio": "Presenta la estructura del silogismo que leímos ayer.",
+      "explanation": {
+        "es": "La frase correcta: 'Presenta la estructura del silogismo que leímos ayer.'",
+        "en": "The correct sentence: 'Presenta la estructura del silogismo que leímos ayer.'",
+        "ar": "الجملة الصحيحة: 'Presenta la estructura del silogismo que leímos ayer.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Cuidado: esa inferencia puede esconder una falacia de generalización.",
+      "accepted": [],
+      "audio": "Cuidado: esa inferencia puede esconder una falacia de generalización.",
+      "explanation": {
+        "es": "La frase correcta: 'Cuidado: esa inferencia puede esconder una falacia de generalización.'",
+        "en": "The correct sentence: 'Cuidado: esa inferencia puede esconder una falacia de generalización.'",
+        "ar": "الجملة الصحيحة: 'Cuidado: esa inferencia puede esconder una falacia de generalización.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Exacto. Probablemente necesitamos más evidencias antes de concluir.",
+          "en": "Exacto. Probablemente necesitamos más evidencias antes de concluir.",
+          "ar": "Exacto. Probablemente necesitamos más evidencias antes de concluir."
+        },
+        {
+          "es": "La premisa inicial condiciona todo.",
+          "en": "La premisa inicial condiciona todo.",
+          "ar": "La premisa inicial condiciona todo."
+        },
+        {
+          "es": "El argumento fuerte se apoya en evidencia.",
+          "en": "El argumento fuerte se apoya en evidencia.",
+          "ar": "El argumento fuerte se apoya en evidencia."
+        },
+        {
+          "es": "En caso de que eso proceda, la conclusión pierde validez, aunque las premisas parezcan sólidas.",
+          "en": "En caso de que eso proceda, la conclusión pierde validez, aunque las premisas parezcan sólidas.",
+          "ar": "En caso de que eso proceda, la conclusión pierde validez, aunque las premisas parezcan sólidas."
+        }
+      ],
+      "answer": "En caso de que eso proceda, la conclusión pierde validez, aunque las premisas parezcan sólidas.",
+      "accepted": [],
+      "audio": "En caso de que eso proceda, la conclusión pierde validez, aunque las premisas parezcan sólidas.",
+      "explanation": {
+        "es": "Escuchaste: 'En caso de que eso proceda, la conclusión pierde validez, aunque las premisas parezcan sólidas.'",
+        "en": "You heard: 'En caso de que eso proceda, la conclusión pierde validez, aunque las premisas parezcan sólidas.'",
+        "ar": "سمعت: 'En caso de que eso proceda, la conclusión pierde validez, aunque las premisas parezcan sólidas.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "antes",
+          "en": "antes",
+          "ar": "antes"
+        },
+        {
+          "es": "Probablemente",
+          "en": "Probablemente",
+          "ar": "Probablemente"
+        },
+        {
+          "es": "más",
+          "en": "más",
+          "ar": "más"
+        },
+        {
+          "es": "concluir.",
+          "en": "concluir.",
+          "ar": "concluir."
+        },
+        {
+          "es": "Exacto.",
+          "en": "Exacto.",
+          "ar": "Exacto."
+        },
+        {
+          "es": "necesitamos",
+          "en": "necesitamos",
+          "ar": "necesitamos"
+        },
+        {
+          "es": "evidencias",
+          "en": "evidencias",
+          "ar": "evidencias"
+        }
+      ],
+      "answer": "Exacto. Probablemente necesitamos más evidencias antes de concluir.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Exacto. Probablemente necesitamos más evidencias antes de concluir.'",
+        "en": "The correct sentence: 'Exacto. Probablemente necesitamos más evidencias antes de concluir.'",
+        "ar": "الجملة الصحيحة: 'Exacto. Probablemente necesitamos más evidencias antes de concluir.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "El   argumento   ___   se   apoya   en   evidencia.",
+        "en": "El   argumento   ___   se   apoya   en   evidencia.",
+        "ar": "El   argumento   ___   se   apoya   en   evidencia."
+      },
+      "options": [
+        {
+          "es": "'fuerte'",
+          "en": "'fuerte'",
+          "ar": "'fuerte'"
+        },
+        {
+          "es": "'el argumento'",
+          "en": "'el argumento'",
+          "ar": "'el argumento'"
+        },
+        {
+          "es": "'la premisa'",
+          "en": "'la premisa'",
+          "ar": "'la premisa'"
+        },
+        {
+          "es": "'la conclusión'",
+          "en": "'la conclusión'",
+          "ar": "'la conclusión'"
+        }
+      ],
+      "answer": "'fuerte'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'fuerte'",
+        "en": "The complete word: 'fuerte'",
+        "ar": "الكلمة الكاملة: 'fuerte'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

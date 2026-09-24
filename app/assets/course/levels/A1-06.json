@@ -567,6 +567,172 @@
         "ar": "الإجابة: \"Quiero vivir cerca del mar.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Yo trabajo en Madrid y vivo en el centro.",
+      "accepted": [],
+      "audio": "Yo trabajo en Madrid y vivo en el centro.",
+      "explanation": {
+        "es": "La frase correcta: 'Yo trabajo en Madrid y vivo en el centro.'",
+        "en": "The correct sentence: 'Yo trabajo en Madrid y vivo en el centro.'",
+        "ar": "الجملة الصحيحة: 'Yo trabajo en Madrid y vivo en el centro.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¿Usted también estudia?",
+      "accepted": [],
+      "audio": "¿Usted también estudia?",
+      "explanation": {
+        "es": "La frase correcta: '¿Usted también estudia?'",
+        "en": "The correct sentence: '¿Usted también estudia?'",
+        "ar": "الجملة الصحيحة: '¿Usted también estudia?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Como un sándwich y bebo café. Es rápido.",
+          "en": "Como un sándwich y bebo café. Es rápido.",
+          "ar": "Como un sándwich y bebo café. Es rápido."
+        },
+        {
+          "es": "¿Y qué come usted en el trabajo?",
+          "en": "¿Y qué come usted en el trabajo?",
+          "ar": "¿Y qué come usted en el trabajo?"
+        },
+        {
+          "es": "Sí, aprendo inglés por la noche.",
+          "en": "Sí, aprendo inglés por la noche.",
+          "ar": "Sí, aprendo inglés por la noche."
+        },
+        {
+          "es": "Vamos a hablar en español.",
+          "en": "Vamos a hablar en español.",
+          "ar": "Vamos a hablar en español."
+        }
+      ],
+      "answer": "Sí, aprendo inglés por la noche.",
+      "accepted": [],
+      "audio": "Sí, aprendo inglés por la noche.",
+      "explanation": {
+        "es": "Escuchaste: 'Sí, aprendo inglés por la noche.'",
+        "en": "You heard: 'Sí, aprendo inglés por la noche.'",
+        "ar": "سمعت: 'Sí, aprendo inglés por la noche.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "en",
+          "en": "en",
+          "ar": "en"
+        },
+        {
+          "es": "come",
+          "en": "come",
+          "ar": "come"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "trabajo?",
+          "en": "trabajo?",
+          "ar": "trabajo?"
+        },
+        {
+          "es": "qué",
+          "en": "qué",
+          "ar": "qué"
+        },
+        {
+          "es": "¿Y",
+          "en": "¿Y",
+          "ar": "¿Y"
+        },
+        {
+          "es": "usted",
+          "en": "usted",
+          "ar": "usted"
+        }
+      ],
+      "answer": "¿Y qué come usted en el trabajo?",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: '¿Y qué come usted en el trabajo?'",
+        "en": "The correct sentence: '¿Y qué come usted en el trabajo?'",
+        "ar": "الجملة الصحيحة: '¿Y qué come usted en el trabajo?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Como   un   ___   y   bebo   café.   Es   rápido.",
+        "en": "Como   un   ___   y   bebo   café.   Es   rápido.",
+        "ar": "Como   un   ___   y   bebo   café.   Es   rápido."
+      },
+      "options": [
+        {
+          "es": "'beber'",
+          "en": "'beber'",
+          "ar": "'beber'"
+        },
+        {
+          "es": "'comer'",
+          "en": "'comer'",
+          "ar": "'comer'"
+        },
+        {
+          "es": "'hablar'",
+          "en": "'hablar'",
+          "ar": "'hablar'"
+        },
+        {
+          "es": "'sándwich'",
+          "en": "'sándwich'",
+          "ar": "'sándwich'"
+        }
+      ],
+      "answer": "'sándwich'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'sándwich'",
+        "en": "The complete word: 'sándwich'",
+        "ar": "الكلمة الكاملة: 'sándwich'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

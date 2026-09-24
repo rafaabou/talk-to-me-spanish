@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import '../models/course_models.dart';
 import '../services/app_state.dart';
 import '../services/content_index.dart';
+import '../services/fsrs.dart';
 import '../services/progress_service.dart';
 import '../widgets/audio_button.dart';
 import '../widgets/app_selection_area.dart';
@@ -11,7 +12,18 @@ import '../widgets/credit_footer.dart';
 import '../services/ui_text.dart';
 
 class FlashcardScreen extends StatefulWidget {
-  const FlashcardScreen({super.key});
+  /// When true the session starts with the weakest due cards
+  /// (lowest stability, most lapses) instead of an arbitrary shuffle.
+  final bool weakestFirst;
+
+  /// Maximum cards in a weak review session.
+  final int limit;
+
+  const FlashcardScreen({
+    super.key,
+    this.weakestFirst = false,
+    this.limit = 20,
+  });
 
   @override
   State<FlashcardScreen> createState() => _FlashcardScreenState();
@@ -43,6 +55,13 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
     final allKeys =
         (await ProgressService.instance.getFsrsCards()).keys.toSet();
     final repeatCount = await ProgressService.instance.getRepeatCount();
+    final weakKeys =
+        widget.weakestFirst && due.isNotEmpty
+            ? weakestFirstCards(
+              due,
+              limit: widget.limit,
+            ).map((c) => c.key).toSet()
+            : null;
     final words = <VocabWord>[];
     final keys = <String>[];
     final examples = <String, TriText>{};
@@ -51,13 +70,18 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
       final inSrs = allKeys.contains(key);
       final isDue = due.containsKey(key);
       final isUnseen = !inSrs;
+      if (weakKeys != null && !weakKeys.contains(key)) continue;
       if (isDue || (!_dueOnly && isUnseen)) {
         words.add(VocabWord(v.text.es, v.ipa, v.text.en, v.text.ar));
         keys.add(key);
         if (v.example != null) examples[key] = v.example!;
       }
     }
-    final pairs = List.generate(words.length, (i) => i)..shuffle(Random());
+    // A weak review keeps the ranked order; a normal session shuffles.
+    final pairs =
+        weakKeys != null
+            ? List<int>.generate(words.length, (i) => i)
+            : (List<int>.generate(words.length, (i) => i)..shuffle(Random()));
     final shuffledWords = [for (final i in pairs) words[i]];
     final shuffledKeys = [for (final i in pairs) keys[i]];
     final shuffledExamples = [for (final i in pairs) examples[shuffledKeys[i]]];

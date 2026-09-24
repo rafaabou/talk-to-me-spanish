@@ -620,6 +620,167 @@
         "ar": "الإجابة: \"Si hiciera frío, me quedaría en casa.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Si pudieras vivir en cualquier lugar del mundo, ¿dónde vivirías?",
+      "accepted": [],
+      "audio": "Si pudieras vivir en cualquier lugar del mundo, ¿dónde vivirías?",
+      "explanation": {
+        "es": "La frase correcta: 'Si pudieras vivir en cualquier lugar del mundo, ¿dónde vivirías?'",
+        "en": "The correct sentence: 'Si pudieras vivir en cualquier lugar del mundo, ¿dónde vivirías?'",
+        "ar": "الجملة الصحيحة: 'Si pudieras vivir en cualquier lugar del mundo, ¿dónde vivirías?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Elegiría Barcelona, si tuviera la oportunidad.",
+      "accepted": [],
+      "audio": "Elegiría Barcelona, si tuviera la oportunidad.",
+      "explanation": {
+        "es": "La frase correcta: 'Elegiría Barcelona, si tuviera la oportunidad.'",
+        "en": "The correct sentence: 'Elegiría Barcelona, si tuviera la oportunidad.'",
+        "ar": "الجملة الصحيحة: 'Elegiría Barcelona, si tuviera la oportunidad.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Si habláramos español, podríamos vivir en Argentina también.",
+          "en": "Si habláramos español, podríamos vivir en Argentina también.",
+          "ar": "Si habláramos español, podríamos vivir en Argentina también."
+        },
+        {
+          "es": "Quizás fuera mejor quedarse en España.",
+          "en": "Quizás fuera mejor quedarse en España.",
+          "ar": "Quizás fuera mejor quedarse en España."
+        },
+        {
+          "es": "Es verdad. No cambiaría España por nada.",
+          "en": "Es verdad. No cambiaría España por nada.",
+          "ar": "Es verdad. No cambiaría España por nada."
+        },
+        {
+          "es": "Si yo pudiera, viajaría por el mundo.",
+          "en": "Si yo pudiera, viajaría por el mundo.",
+          "ar": "Si yo pudiera, viajaría por el mundo."
+        }
+      ],
+      "answer": "Si habláramos español, podríamos vivir en Argentina también.",
+      "accepted": [],
+      "audio": "Si habláramos español, podríamos vivir en Argentina también.",
+      "explanation": {
+        "es": "Escuchaste: 'Si habláramos español, podríamos vivir en Argentina también.'",
+        "en": "You heard: 'Si habláramos español, podríamos vivir en Argentina también.'",
+        "ar": "سمعت: 'Si habláramos español, podríamos vivir en Argentina también.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "quedarse",
+          "en": "quedarse",
+          "ar": "quedarse"
+        },
+        {
+          "es": "Quizás",
+          "en": "Quizás",
+          "ar": "Quizás"
+        },
+        {
+          "es": "en",
+          "en": "en",
+          "ar": "en"
+        },
+        {
+          "es": "España.",
+          "en": "España.",
+          "ar": "España."
+        },
+        {
+          "es": "mejor",
+          "en": "mejor",
+          "ar": "mejor"
+        },
+        {
+          "es": "fuera",
+          "en": "fuera",
+          "ar": "fuera"
+        }
+      ],
+      "answer": "Quizás fuera mejor quedarse en España.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Quizás fuera mejor quedarse en España.'",
+        "en": "The correct sentence: 'Quizás fuera mejor quedarse en España.'",
+        "ar": "الجملة الصحيحة: 'Quizás fuera mejor quedarse en España.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Es   verdad.   No   cambiaría   ___   por   nada.",
+        "en": "Es   verdad.   No   cambiaría   ___   por   nada.",
+        "ar": "Es   verdad.   No   cambiaría   ___   por   nada."
+      },
+      "options": [
+        {
+          "es": "'supiera'",
+          "en": "'supiera'",
+          "ar": "'supiera'"
+        },
+        {
+          "es": "'hablara'",
+          "en": "'hablara'",
+          "ar": "'hablara'"
+        },
+        {
+          "es": "'España'",
+          "en": "'España'",
+          "ar": "'España'"
+        },
+        {
+          "es": "'quisiera'",
+          "en": "'quisiera'",
+          "ar": "'quisiera'"
+        }
+      ],
+      "answer": "'España'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'España'",
+        "en": "The complete word: 'España'",
+        "ar": "الكلمة الكاملة: 'España'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

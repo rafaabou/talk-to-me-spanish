@@ -617,6 +617,192 @@
         "ar": "الإجابة: \"El non sequitur rompe la lógica.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Qué delicia levantarse a las seis para tomar tres buses, ¿no?",
+      "accepted": [],
+      "audio": "Qué delicia levantarse a las seis para tomar tres buses, ¿no?",
+      "explanation": {
+        "es": "La frase correcta: 'Qué delicia levantarse a las seis para tomar tres buses, ¿no?'",
+        "en": "The correct sentence: 'Qué delicia levantarse a las seis para tomar tres buses, ¿no?'",
+        "ar": "الجملة الصحيحة: 'Qué delicia levantarse a las seis para tomar tres buses, ¿no?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Fue el día más tranquilo de mi semana: perdí la reunión y el almuerzo.",
+      "accepted": [],
+      "audio": "Fue el día más tranquilo de mi semana: perdí la reunión y el almuerzo.",
+      "explanation": {
+        "es": "La frase correcta: 'Fue el día más tranquilo de mi semana: perdí la reunión y el almuerzo.'",
+        "en": "The correct sentence: 'Fue el día más tranquilo de mi semana: perdí la reunión y el almuerzo.'",
+        "ar": "الجملة الصحيحة: 'Fue el día más tranquilo de mi semana: perdí la reunión y el almuerzo.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "No exageres. Solo olvidaste el móvil, la llave y el informe.",
+          "en": "No exageres. Solo olvidaste el móvil, la llave y el informe.",
+          "ar": "No exageres. Solo olvidaste el móvil, la llave y el informe."
+        },
+        {
+          "es": "Con ese humor, deberías hacer una comedia de stand-up.",
+          "en": "Con ese humor, deberías hacer una comedia de stand-up.",
+          "ar": "Con ese humor, deberías hacer una comedia de stand-up."
+        },
+        {
+          "es": "¿Ves? Y todavía dicen que el lunes es un día común.",
+          "en": "¿Ves? Y todavía dicen que el lunes es un día común.",
+          "ar": "¿Ves? Y todavía dicen que el lunes es un día común."
+        },
+        {
+          "es": "La ironía escribe el sentido al revés.",
+          "en": "La ironía escribe el sentido al revés.",
+          "ar": "La ironía escribe el sentido al revés."
+        }
+      ],
+      "answer": "No exageres. Solo olvidaste el móvil, la llave y el informe.",
+      "accepted": [],
+      "audio": "No exageres. Solo olvidaste el móvil, la llave y el informe.",
+      "explanation": {
+        "es": "Escuchaste: 'No exageres. Solo olvidaste el móvil, la llave y el informe.'",
+        "en": "You heard: 'No exageres. Solo olvidaste el móvil, la llave y el informe.'",
+        "ar": "سمعت: 'No exageres. Solo olvidaste el móvil, la llave y el informe.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "lunes",
+          "en": "lunes",
+          "ar": "lunes"
+        },
+        {
+          "es": "que",
+          "en": "que",
+          "ar": "que"
+        },
+        {
+          "es": "Y",
+          "en": "Y",
+          "ar": "Y"
+        },
+        {
+          "es": "todavía",
+          "en": "todavía",
+          "ar": "todavía"
+        },
+        {
+          "es": "común.",
+          "en": "común.",
+          "ar": "común."
+        },
+        {
+          "es": "¿Ves?",
+          "en": "¿Ves?",
+          "ar": "¿Ves?"
+        },
+        {
+          "es": "es",
+          "en": "es",
+          "ar": "es"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "dicen",
+          "en": "dicen",
+          "ar": "dicen"
+        },
+        {
+          "es": "día",
+          "en": "día",
+          "ar": "día"
+        },
+        {
+          "es": "un",
+          "en": "un",
+          "ar": "un"
+        }
+      ],
+      "answer": "¿Ves? Y todavía dicen que el lunes es un día común.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: '¿Ves? Y todavía dicen que el lunes es un día común.'",
+        "en": "The correct sentence: '¿Ves? Y todavía dicen que el lunes es un día común.'",
+        "ar": "الجملة الصحيحة: '¿Ves? Y todavía dicen que el lunes es un día común.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Con   ese   humor,   deberías   ___   una   comedia   de   stand-up.",
+        "en": "Con   ese   humor,   deberías   ___   una   comedia   de   stand-up.",
+        "ar": "Con   ese   humor,   deberías   ___   una   comedia   de   stand-up."
+      },
+      "options": [
+        {
+          "es": "'la ironía'",
+          "en": "'la ironía'",
+          "ar": "'la ironía'"
+        },
+        {
+          "es": "'hacer'",
+          "en": "'hacer'",
+          "ar": "'hacer'"
+        },
+        {
+          "es": "'el sarcasmo'",
+          "en": "'el sarcasmo'",
+          "ar": "'el sarcasmo'"
+        },
+        {
+          "es": "'el chiste'",
+          "en": "'el chiste'",
+          "ar": "'el chiste'"
+        }
+      ],
+      "answer": "'hacer'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'hacer'",
+        "en": "The complete word: 'hacer'",
+        "ar": "الكلمة الكاملة: 'hacer'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

@@ -61,7 +61,7 @@ dart format --set-exit-if-changed --output=none .
 # Static analysis
 flutter analyze --fatal-infos
 
-# Run tests (99 tests)
+# Run tests (104 tests)
 flutter test
 
 # Build release APK
@@ -178,7 +178,7 @@ refactor(models): extract course models to separate file
 | Widget | `test/` | `flutter test` |
 | Integration | `integration_test/` | `flutter test integration_test` |
 
-### Test Files (99 tests)
+### Test Files (104 tests)
 
 | File | Covers |
 |------|--------|

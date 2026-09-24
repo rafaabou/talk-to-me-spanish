@@ -617,6 +617,192 @@
         "ar": "الإجابة: \"El teleprompter ayuda al presentador.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Voy a abrir con una anécdota para romper el hielo y ganar al público.",
+      "accepted": [],
+      "audio": "Voy a abrir con una anécdota para romper el hielo y ganar al público.",
+      "explanation": {
+        "es": "La frase correcta: 'Voy a abrir con una anécdota para romper el hielo y ganar al público.'",
+        "en": "The correct sentence: 'Voy a abrir con una anécdota para romper el hielo y ganar al público.'",
+        "ar": "الجملة الصحيحة: 'Voy a abrir con una anécdota para romper el hielo y ganar al público.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Buena idea. ¿Y en el cierre vas a usar una pregunta retórica?",
+      "accepted": [],
+      "audio": "Buena idea. ¿Y en el cierre vas a usar una pregunta retórica?",
+      "explanation": {
+        "es": "La frase correcta: 'Buena idea. ¿Y en el cierre vas a usar una pregunta retórica?'",
+        "en": "The correct sentence: 'Buena idea. ¿Y en el cierre vas a usar una pregunta retórica?'",
+        "ar": "الجملة الصحيحة: 'Buena idea. ¿Y en el cierre vas a usar una pregunta retórica?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Y mantengo el contacto visual con tres puntos distintos del público.",
+          "en": "Y mantengo el contacto visual con tres puntos distintos del público.",
+          "ar": "Y mantengo el contacto visual con tres puntos distintos del público."
+        },
+        {
+          "es": "Cuida las pausas: es en el silencio donde el énfasis sucede.",
+          "en": "Cuida las pausas: es en el silencio donde el énfasis sucede.",
+          "ar": "Cuida las pausas: es en el silencio donde el énfasis sucede."
+        },
+        {
+          "es": "Sí. 'Es el compromiso lo que transforma ideas en resultados', y dejo la pregunta en el aire.",
+          "en": "Sí. 'Es el compromiso lo que transforma ideas en resultados', y dejo la pregunta en el aire.",
+          "ar": "Sí. 'Es el compromiso lo que transforma ideas en resultados', y dejo la pregunta en el aire."
+        },
+        {
+          "es": "Perfecto. Sin improvisación en el guion, pero con espacio para la naturalidad.",
+          "en": "Perfecto. Sin improvisación en el guion, pero con espacio para la naturalidad.",
+          "ar": "Perfecto. Sin improvisación en el guion, pero con espacio para la naturalidad."
+        }
+      ],
+      "answer": "Sí. 'Es el compromiso lo que transforma ideas en resultados', y dejo la pregunta en el aire.",
+      "accepted": [],
+      "audio": "Sí. 'Es el compromiso lo que transforma ideas en resultados', y dejo la pregunta en el aire.",
+      "explanation": {
+        "es": "Escuchaste: 'Sí. 'Es el compromiso lo que transforma ideas en resultados', y dejo la pregunta en el aire.'",
+        "en": "You heard: 'Sí. 'Es el compromiso lo que transforma ideas en resultados', y dejo la pregunta en el aire.'",
+        "ar": "سمعت: 'Sí. 'Es el compromiso lo que transforma ideas en resultados', y dejo la pregunta en el aire.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "en",
+          "en": "en",
+          "ar": "en"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "Cuida",
+          "en": "Cuida",
+          "ar": "Cuida"
+        },
+        {
+          "es": "es",
+          "en": "es",
+          "ar": "es"
+        },
+        {
+          "es": "donde",
+          "en": "donde",
+          "ar": "donde"
+        },
+        {
+          "es": "énfasis",
+          "en": "énfasis",
+          "ar": "énfasis"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "pausas:",
+          "en": "pausas:",
+          "ar": "pausas:"
+        },
+        {
+          "es": "silencio",
+          "en": "silencio",
+          "ar": "silencio"
+        },
+        {
+          "es": "sucede.",
+          "en": "sucede.",
+          "ar": "sucede."
+        },
+        {
+          "es": "las",
+          "en": "las",
+          "ar": "las"
+        }
+      ],
+      "answer": "Cuida las pausas: es en el silencio donde el énfasis sucede.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Cuida las pausas: es en el silencio donde el énfasis sucede.'",
+        "en": "The correct sentence: 'Cuida las pausas: es en el silencio donde el énfasis sucede.'",
+        "ar": "الجملة الصحيحة: 'Cuida las pausas: es en el silencio donde el énfasis sucede.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Y   mantengo   el   contacto   ___   con   tres   puntos   distintos   del   público.",
+        "en": "Y   mantengo   el   contacto   ___   con   tres   puntos   distintos   del   público.",
+        "ar": "Y   mantengo   el   contacto   ___   con   tres   puntos   distintos   del   público."
+      },
+      "options": [
+        {
+          "es": "'el orador'",
+          "en": "'el orador'",
+          "ar": "'el orador'"
+        },
+        {
+          "es": "'el discurso'",
+          "en": "'el discurso'",
+          "ar": "'el discurso'"
+        },
+        {
+          "es": "'visual'",
+          "en": "'visual'",
+          "ar": "'visual'"
+        },
+        {
+          "es": "'el público'",
+          "en": "'el público'",
+          "ar": "'el público'"
+        }
+      ],
+      "answer": "'visual'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'visual'",
+        "en": "The complete word: 'visual'",
+        "ar": "الكلمة الكاملة: 'visual'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

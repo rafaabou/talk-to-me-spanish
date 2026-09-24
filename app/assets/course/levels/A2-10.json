@@ -622,6 +622,167 @@
         "ar": "الإجابة: \"Olvidé el móvil en casa.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¡Buenos días! ¿Con quién hablo?",
+      "accepted": [],
+      "audio": "¡Buenos días! ¿Con quién hablo?",
+      "explanation": {
+        "es": "La frase correcta: '¡Buenos días! ¿Con quién hablo?'",
+        "en": "The correct sentence: '¡Buenos días! ¿Con quién hablo?'",
+        "ar": "الجملة الصحيحة: '¡Buenos días! ¿Con quién hablo?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Habla con la secretaria.",
+      "accepted": [],
+      "audio": "Habla con la secretaria.",
+      "explanation": {
+        "es": "La frase correcta: 'Habla con la secretaria.'",
+        "en": "The correct sentence: 'Habla con la secretaria.'",
+        "ar": "الجملة الصحيحة: 'Habla con la secretaria.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "El teléfono está sonando.",
+          "en": "El teléfono está sonando.",
+          "ar": "El teléfono está sonando."
+        },
+        {
+          "es": "¿Puedo hablar con el gerente, por favor?",
+          "en": "¿Puedo hablar con el gerente, por favor?",
+          "ar": "¿Puedo hablar con el gerente, por favor?"
+        },
+        {
+          "es": "¿Entonces puedo dejar un recado?",
+          "en": "¿Entonces puedo dejar un recado?",
+          "ar": "¿Entonces puedo dejar un recado?"
+        },
+        {
+          "es": "Un momento. Está en una reunión.",
+          "en": "Un momento. Está en una reunión.",
+          "ar": "Un momento. Está en una reunión."
+        }
+      ],
+      "answer": "¿Puedo hablar con el gerente, por favor?",
+      "accepted": [],
+      "audio": "¿Puedo hablar con el gerente, por favor?",
+      "explanation": {
+        "es": "Escuchaste: '¿Puedo hablar con el gerente, por favor?'",
+        "en": "You heard: '¿Puedo hablar con el gerente, por favor?'",
+        "ar": "سمعت: '¿Puedo hablar con el gerente, por favor?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "reunión.",
+          "en": "reunión.",
+          "ar": "reunión."
+        },
+        {
+          "es": "momento.",
+          "en": "momento.",
+          "ar": "momento."
+        },
+        {
+          "es": "una",
+          "en": "una",
+          "ar": "una"
+        },
+        {
+          "es": "Está",
+          "en": "Está",
+          "ar": "Está"
+        },
+        {
+          "es": "en",
+          "en": "en",
+          "ar": "en"
+        },
+        {
+          "es": "Un",
+          "en": "Un",
+          "ar": "Un"
+        }
+      ],
+      "answer": "Un momento. Está en una reunión.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Un momento. Está en una reunión.'",
+        "en": "The correct sentence: 'Un momento. Está en una reunión.'",
+        "ar": "الجملة الصحيحة: 'Un momento. Está en una reunión.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "¿Entonces   puedo   ___   un   recado?",
+        "en": "¿Entonces   puedo   ___   un   recado?",
+        "ar": "¿Entonces   puedo   ___   un   recado?"
+      },
+      "options": [
+        {
+          "es": "'el móvil'",
+          "en": "'el móvil'",
+          "ar": "'el móvil'"
+        },
+        {
+          "es": "'el teléfono'",
+          "en": "'el teléfono'",
+          "ar": "'el teléfono'"
+        },
+        {
+          "es": "'llamar'",
+          "en": "'llamar'",
+          "ar": "'llamar'"
+        },
+        {
+          "es": "'dejar'",
+          "en": "'dejar'",
+          "ar": "'dejar'"
+        }
+      ],
+      "answer": "'dejar'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'dejar'",
+        "en": "The complete word: 'dejar'",
+        "ar": "الكلمة الكاملة: 'dejar'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

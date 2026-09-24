@@ -611,6 +611,157 @@
         "ar": "الإجابة: \"Quiero una camisa blanca, por favor.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¡Buenas tardes! ¿Puedo ayudarle?",
+      "accepted": [],
+      "audio": "¡Buenas tardes! ¿Puedo ayudarle?",
+      "explanation": {
+        "es": "La frase correcta: '¡Buenas tardes! ¿Puedo ayudarle?'",
+        "en": "The correct sentence: '¡Buenas tardes! ¿Puedo ayudarle?'",
+        "ar": "الجملة الصحيحة: '¡Buenas tardes! ¿Puedo ayudarle?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Tenemos esta camisa. Es muy bonita.",
+      "accepted": [],
+      "audio": "Tenemos esta camisa. Es muy bonita.",
+      "explanation": {
+        "es": "La frase correcta: 'Tenemos esta camisa. Es muy bonita.'",
+        "en": "The correct sentence: 'Tenemos esta camisa. Es muy bonita.'",
+        "ar": "الجملة الصحيحة: 'Tenemos esta camisa. Es muy bonita.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "El autobús es amarillo.",
+          "en": "El autobús es amarillo.",
+          "ar": "El autobús es amarillo."
+        },
+        {
+          "es": "Sí, cuesta noventa euros.",
+          "en": "Sí, cuesta noventa euros.",
+          "ar": "Sí, cuesta noventa euros."
+        },
+        {
+          "es": "¿Y el pantalón negro? ¿Está en oferta?",
+          "en": "¿Y el pantalón negro? ¿Está en oferta?",
+          "ar": "¿Y el pantalón negro? ¿Está en oferta?"
+        },
+        {
+          "es": "El cielo está azul hoy.",
+          "en": "El cielo está azul hoy.",
+          "ar": "El cielo está azul hoy."
+        }
+      ],
+      "answer": "¿Y el pantalón negro? ¿Está en oferta?",
+      "accepted": [],
+      "audio": "¿Y el pantalón negro? ¿Está en oferta?",
+      "explanation": {
+        "es": "Escuchaste: '¿Y el pantalón negro? ¿Está en oferta?'",
+        "en": "You heard: '¿Y el pantalón negro? ¿Está en oferta?'",
+        "ar": "سمعت: '¿Y el pantalón negro? ¿Está en oferta?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "cuesta",
+          "en": "cuesta",
+          "ar": "cuesta"
+        },
+        {
+          "es": "Sí,",
+          "en": "Sí,",
+          "ar": "Sí,"
+        },
+        {
+          "es": "noventa",
+          "en": "noventa",
+          "ar": "noventa"
+        },
+        {
+          "es": "euros.",
+          "en": "euros.",
+          "ar": "euros."
+        }
+      ],
+      "answer": "Sí, cuesta noventa euros.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Sí, cuesta noventa euros.'",
+        "en": "The correct sentence: 'Sí, cuesta noventa euros.'",
+        "ar": "الجملة الصحيحة: 'Sí, cuesta noventa euros.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "El   ___   está   azul   hoy.",
+        "en": "El   ___   está   azul   hoy.",
+        "ar": "El   ___   está   azul   hoy."
+      },
+      "options": [
+        {
+          "es": "'rojo'",
+          "en": "'rojo'",
+          "ar": "'rojo'"
+        },
+        {
+          "es": "'amarillo'",
+          "en": "'amarillo'",
+          "ar": "'amarillo'"
+        },
+        {
+          "es": "'azul'",
+          "en": "'azul'",
+          "ar": "'azul'"
+        },
+        {
+          "es": "'cielo'",
+          "en": "'cielo'",
+          "ar": "'cielo'"
+        }
+      ],
+      "answer": "'cielo'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'cielo'",
+        "en": "The complete word: 'cielo'",
+        "ar": "الكلمة الكاملة: 'cielo'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

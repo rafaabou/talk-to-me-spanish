@@ -604,6 +604,172 @@
         "ar": "الإجابة: \"La locución fija su significado en el uso.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "El texto tiene un error: 'el 30% de la clase faltó' también puede ser 'faltaron'.",
+      "accepted": [],
+      "audio": "El texto tiene un error: 'el 30% de la clase faltó' también puede ser 'faltaron'.",
+      "explanation": {
+        "es": "La frase correcta: 'El texto tiene un error: 'el 30% de la clase faltó' también puede ser 'faltaron'.'",
+        "en": "The correct sentence: 'El texto tiene un error: 'el 30% de la clase faltó' también puede ser 'faltaron'.'",
+        "ar": "الجملة الصحيحة: 'El texto tiene un error: 'el 30% de la clase faltó' también puede ser 'faltaron'.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¿Y con 'a gente', siempre en tercera persona?",
+      "accepted": [],
+      "audio": "¿Y con 'a gente', siempre en tercera persona?",
+      "explanation": {
+        "es": "La frase correcta: '¿Y con 'a gente', siempre en tercera persona?'",
+        "en": "The correct sentence: '¿Y con 'a gente', siempre en tercera persona?'",
+        "ar": "الجملة الصحيحة: '¿Y con 'a gente', siempre en tercera persona?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "El sujeto de la oración es Ana.",
+          "en": "El sujeto de la oración es Ana.",
+          "ar": "El sujeto de la oración es Ana."
+        },
+        {
+          "es": "La concordancia verbal sujeto-verbo es esencial.",
+          "en": "La concordancia verbal sujeto-verbo es esencial.",
+          "ar": "La concordancia verbal sujeto-verbo es esencial."
+        },
+        {
+          "es": "Eso. 'A gente va', nunca 'a gente vamos'.",
+          "en": "Eso. 'A gente va', nunca 'a gente vamos'.",
+          "ar": "Eso. 'A gente va', nunca 'a gente vamos'."
+        },
+        {
+          "es": "La concordancia nominal une artículo y sustantivo.",
+          "en": "La concordancia nominal une artículo y sustantivo.",
+          "ar": "La concordancia nominal une artículo y sustantivo."
+        }
+      ],
+      "answer": "Eso. 'A gente va', nunca 'a gente vamos'.",
+      "accepted": [],
+      "audio": "Eso. 'A gente va', nunca 'a gente vamos'.",
+      "explanation": {
+        "es": "Escuchaste: 'Eso. 'A gente va', nunca 'a gente vamos'.'",
+        "en": "You heard: 'Eso. 'A gente va', nunca 'a gente vamos'.'",
+        "ar": "سمعت: 'Eso. 'A gente va', nunca 'a gente vamos'.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "concordancia",
+          "en": "concordancia",
+          "ar": "concordancia"
+        },
+        {
+          "es": "y",
+          "en": "y",
+          "ar": "y"
+        },
+        {
+          "es": "La",
+          "en": "La",
+          "ar": "La"
+        },
+        {
+          "es": "une",
+          "en": "une",
+          "ar": "une"
+        },
+        {
+          "es": "nominal",
+          "en": "nominal",
+          "ar": "nominal"
+        },
+        {
+          "es": "sustantivo.",
+          "en": "sustantivo.",
+          "ar": "sustantivo."
+        },
+        {
+          "es": "artículo",
+          "en": "artículo",
+          "ar": "artículo"
+        }
+      ],
+      "answer": "La concordancia nominal une artículo y sustantivo.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'La concordancia nominal une artículo y sustantivo.'",
+        "en": "The correct sentence: 'La concordancia nominal une artículo y sustantivo.'",
+        "ar": "الجملة الصحيحة: 'La concordancia nominal une artículo y sustantivo.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "La   concordancia   ___   sujeto-verbo   es   esencial.",
+        "en": "La   concordancia   ___   sujeto-verbo   es   esencial.",
+        "ar": "La   concordancia   ___   sujeto-verbo   es   esencial."
+      },
+      "options": [
+        {
+          "es": "'el porcentaje'",
+          "en": "'el porcentaje'",
+          "ar": "'el porcentaje'"
+        },
+        {
+          "es": "'el sujeto'",
+          "en": "'el sujeto'",
+          "ar": "'el sujeto'"
+        },
+        {
+          "es": "'verbal'",
+          "en": "'verbal'",
+          "ar": "'verbal'"
+        },
+        {
+          "es": "'el núcleo'",
+          "en": "'el núcleo'",
+          "ar": "'el núcleo'"
+        }
+      ],
+      "answer": "'verbal'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'verbal'",
+        "en": "The complete word: 'verbal'",
+        "ar": "الكلمة الكاملة: 'verbal'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

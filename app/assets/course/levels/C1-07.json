@@ -604,6 +604,177 @@
         "ar": "الإجابة: \"Recibido. Si necesita aclaraciones, estoy a su disposición.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Estimado Dr. Martins, le escribo para confirmar la reunión del viernes.",
+      "accepted": [],
+      "audio": "Estimado Dr. Martins, le escribo para confirmar la reunión del viernes.",
+      "explanation": {
+        "es": "La frase correcta: 'Estimado Dr. Martins, le escribo para confirmar la reunión del viernes.'",
+        "en": "The correct sentence: 'Estimado Dr. Martins, le escribo para confirmar la reunión del viernes.'",
+        "ar": "الجملة الصحيحة: 'Estimado Dr. Martins, le escribo para confirmar la reunión del viernes.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Estimado Sr. Lopes, agradezco su contacto y confirmo el horario de las diez.",
+      "accepted": [],
+      "audio": "Estimado Sr. Lopes, agradezco su contacto y confirmo el horario de las diez.",
+      "explanation": {
+        "es": "La frase correcta: 'Estimado Sr. Lopes, agradezco su contacto y confirmo el horario de las diez.'",
+        "en": "The correct sentence: 'Estimado Sr. Lopes, agradezco su contacto y confirmo el horario de las diez.'",
+        "ar": "الجملة الصحيحة: 'Estimado Sr. Lopes, agradezco su contacto y confirmo el horario de las diez.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "El correo electrónico requiere asunto claro.",
+          "en": "El correo electrónico requiere asunto claro.",
+          "ar": "El correo electrónico requiere asunto claro."
+        },
+        {
+          "es": "Quedo a su disposición también. Atentamente, Antonio Lopes.",
+          "en": "Quedo a su disposición también. Atentamente, Antonio Lopes.",
+          "ar": "Quedo a su disposición también. Atentamente, Antonio Lopes."
+        },
+        {
+          "es": "Envío adjunto el orden del día de la reunión para su análisis.",
+          "en": "Envío adjunto el orden del día de la reunión para su análisis.",
+          "ar": "Envío adjunto el orden del día de la reunión para su análisis."
+        },
+        {
+          "es": "El destinatario recibió la respuesta pronto.",
+          "en": "El destinatario recibió la respuesta pronto.",
+          "ar": "El destinatario recibió la respuesta pronto."
+        }
+      ],
+      "answer": "Envío adjunto el orden del día de la reunión para su análisis.",
+      "accepted": [],
+      "audio": "Envío adjunto el orden del día de la reunión para su análisis.",
+      "explanation": {
+        "es": "Escuchaste: 'Envío adjunto el orden del día de la reunión para su análisis.'",
+        "en": "You heard: 'Envío adjunto el orden del día de la reunión para su análisis.'",
+        "ar": "سمعت: 'Envío adjunto el orden del día de la reunión para su análisis.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "a",
+          "en": "a",
+          "ar": "a"
+        },
+        {
+          "es": "Lopes.",
+          "en": "Lopes.",
+          "ar": "Lopes."
+        },
+        {
+          "es": "su",
+          "en": "su",
+          "ar": "su"
+        },
+        {
+          "es": "Quedo",
+          "en": "Quedo",
+          "ar": "Quedo"
+        },
+        {
+          "es": "también.",
+          "en": "también.",
+          "ar": "también."
+        },
+        {
+          "es": "disposición",
+          "en": "disposición",
+          "ar": "disposición"
+        },
+        {
+          "es": "Antonio",
+          "en": "Antonio",
+          "ar": "Antonio"
+        },
+        {
+          "es": "Atentamente,",
+          "en": "Atentamente,",
+          "ar": "Atentamente,"
+        }
+      ],
+      "answer": "Quedo a su disposición también. Atentamente, Antonio Lopes.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Quedo a su disposición también. Atentamente, Antonio Lopes.'",
+        "en": "The correct sentence: 'Quedo a su disposición también. Atentamente, Antonio Lopes.'",
+        "ar": "الجملة الصحيحة: 'Quedo a su disposición también. Atentamente, Antonio Lopes.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "El   correo   electrónico   ___   asunto   claro.",
+        "en": "El   correo   electrónico   ___   asunto   claro.",
+        "ar": "El   correo   electrónico   ___   asunto   claro."
+      },
+      "options": [
+        {
+          "es": "'el destinatario'",
+          "en": "'el destinatario'",
+          "ar": "'el destinatario'"
+        },
+        {
+          "es": "'requiere'",
+          "en": "'requiere'",
+          "ar": "'requiere'"
+        },
+        {
+          "es": "'el asunto'",
+          "en": "'el asunto'",
+          "ar": "'el asunto'"
+        },
+        {
+          "es": "'el remitente'",
+          "en": "'el remitente'",
+          "ar": "'el remitente'"
+        }
+      ],
+      "answer": "'requiere'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'requiere'",
+        "en": "The complete word: 'requiere'",
+        "ar": "الكلمة الكاملة: 'requiere'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

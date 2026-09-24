@@ -594,6 +594,162 @@
         "ar": "الإجابة: \"¡Cuidado! 'Embarrassed' es 'avergonzado', no 'embarazado'.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Me ayudas con esta traducción? Escribí 'I am embarrassed' como 'estoy embarazado'.",
+      "accepted": [],
+      "audio": "¿Me ayudas con esta traducción? Escribí 'I am embarrassed' como 'estoy embarazado'.",
+      "explanation": {
+        "es": "La frase correcta: '¿Me ayudas con esta traducción? Escribí 'I am embarrassed' como 'estoy embarazado'.'",
+        "en": "The correct sentence: '¿Me ayudas con esta traducción? Escribí 'I am embarrassed' como 'estoy embarazado'.'",
+        "ar": "الجملة الصحيحة: '¿Me ayudas con esta traducción? Escribí 'I am embarrassed' como 'estoy embarazado'.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Ah, entiendo. ¿Y 'pretend'?",
+      "accepted": [],
+      "audio": "Ah, entiendo. ¿Y 'pretend'?",
+      "explanation": {
+        "es": "La frase correcta: 'Ah, entiendo. ¿Y 'pretend'?'",
+        "en": "The correct sentence: 'Ah, entiendo. ¿Y 'pretend'?'",
+        "ar": "الجملة الصحيحة: 'Ah, entiendo. ¿Y 'pretend'?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Tener la intención de viajar motiva.",
+          "en": "Tener la intención de viajar motiva.",
+          "ar": "Tener la intención de viajar motiva."
+        },
+        {
+          "es": "La biblioteca municipal presta libros.",
+          "en": "La biblioteca municipal presta libros.",
+          "ar": "La biblioteca municipal presta libros."
+        },
+        {
+          "es": "'Pretend' significa 'fingir'. 'Tener la intención de' es 'to intend'.",
+          "en": "'Pretend' significa 'fingir'. 'Tener la intención de' es 'to intend'.",
+          "ar": "'Pretend' significa 'fingir'. 'Tener la intención de' es 'to intend'."
+        },
+        {
+          "es": "En realidad, no sabía nada.",
+          "en": "En realidad, no sabía nada.",
+          "ar": "En realidad, no sabía nada."
+        }
+      ],
+      "answer": "'Pretend' significa 'fingir'. 'Tener la intención de' es 'to intend'.",
+      "accepted": [],
+      "audio": "'Pretend' significa 'fingir'. 'Tener la intención de' es 'to intend'.",
+      "explanation": {
+        "es": "Escuchaste: ''Pretend' significa 'fingir'. 'Tener la intención de' es 'to intend'.'",
+        "en": "You heard: ''Pretend' significa 'fingir'. 'Tener la intención de' es 'to intend'.'",
+        "ar": "سمعت: ''Pretend' significa 'fingir'. 'Tener la intención de' es 'to intend'.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "realidad,",
+          "en": "realidad,",
+          "ar": "realidad,"
+        },
+        {
+          "es": "En",
+          "en": "En",
+          "ar": "En"
+        },
+        {
+          "es": "sabía",
+          "en": "sabía",
+          "ar": "sabía"
+        },
+        {
+          "es": "no",
+          "en": "no",
+          "ar": "no"
+        },
+        {
+          "es": "nada.",
+          "en": "nada.",
+          "ar": "nada."
+        }
+      ],
+      "answer": "En realidad, no sabía nada.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'En realidad, no sabía nada.'",
+        "en": "The correct sentence: 'En realidad, no sabía nada.'",
+        "ar": "الجملة الصحيحة: 'En realidad, no sabía nada.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Tener   la   ___   de   viajar   motiva.",
+        "en": "Tener   la   ___   de   viajar   motiva.",
+        "ar": "Tener   la   ___   de   viajar   motiva."
+      },
+      "options": [
+        {
+          "es": "'la biblioteca'",
+          "en": "'la biblioteca'",
+          "ar": "'la biblioteca'"
+        },
+        {
+          "es": "'intención'",
+          "en": "'intención'",
+          "ar": "'intención'"
+        },
+        {
+          "es": "'en realidad'",
+          "en": "'en realidad'",
+          "ar": "'en realidad'"
+        },
+        {
+          "es": "'la librería'",
+          "en": "'la librería'",
+          "ar": "'la librería'"
+        }
+      ],
+      "answer": "'intención'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'intención'",
+        "en": "The complete word: 'intención'",
+        "ar": "الكلمة الكاملة: 'intención'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

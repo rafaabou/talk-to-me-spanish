@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/course_models.dart';
+import '../models/verb_models.dart';
 import '../services/app_state.dart';
 import '../services/content_index.dart';
+import '../services/verb_repository.dart';
 import 'lesson_screen.dart';
+import 'verb_screen.dart';
 import '../widgets/app_selection_area.dart';
 import '../widgets/credit_footer.dart';
 import '../services/ui_text.dart';
@@ -11,7 +14,7 @@ import '../services/ui_text.dart';
 class SearchResult {
   final String lessonId;
   final String level;
-  final String field; // vocabulary / dialogue / reading / grammar
+  final String field; // vocabulary / dialogue / reading / grammar / verb
   final TriText text;
   SearchResult(this.lessonId, this.level, this.field, this.text);
 }
@@ -27,6 +30,8 @@ class _SearchScreenState extends State<SearchScreen> {
   final TextEditingController _controller = TextEditingController();
   List<SearchResult>? _index;
   List<SearchResult> _results = [];
+  List<VerbInfo>? _verbs;
+  bool _verbsLoaded = false;
   bool _loading = true;
   bool _failed = false;
 
@@ -110,6 +115,30 @@ class _SearchScreenState extends State<SearchScreen> {
     }
     final index = _index;
     if (index == null) return;
+    // The verb list lives in its own multi-megabyte file, so it is only
+    // loaded the first time the reader actually searches.
+    if (!_verbsLoaded) {
+      _loadVerbs();
+      return;
+    }
+    final verbResults =
+        (_verbs ?? const <VerbInfo>[])
+            .where(
+              (v) =>
+                  v.inf.toLowerCase().contains(query) ||
+                  v.en.toLowerCase().contains(query) ||
+                  v.ar.contains(query),
+            )
+            .map(
+              (v) => SearchResult(
+                'verbs',
+                'verbs',
+                'verb',
+                TriText(v.inf, v.en, v.ar),
+              ),
+            )
+            .take(20)
+            .toList();
     setState(() {
       _results =
           index
@@ -119,8 +148,20 @@ class _SearchScreenState extends State<SearchScreen> {
                     r.text.ar.toLowerCase().contains(query);
               })
               .take(50)
-              .toList();
+              .toList()
+            ..addAll(verbResults);
     });
+  }
+
+  Future<void> _loadVerbs() async {
+    final verbs = await VerbRepository.instance.loadVerbs();
+    if (!mounted) return;
+    setState(() {
+      _verbs = verbs.verbs;
+      _verbsLoaded = true;
+    });
+    final text = _controller.text.trim();
+    if (text.isNotEmpty) _search(text);
   }
 
   @override
@@ -229,19 +270,28 @@ class _SearchScreenState extends State<SearchScreen> {
                                 ),
                               ),
                               subtitle: Text(
-                                '${r.lessonId} · ${_fieldLabel(r.field, lang)}',
+                                r.field == 'verb'
+                                    ? _fieldLabel(r.field, lang)
+                                    : '${r.lessonId} · ${_fieldLabel(r.field, lang)}',
                                 style: Theme.of(context).textTheme.bodySmall,
                               ),
                               onTap:
-                                  () => Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder:
-                                          (_) => LessonScreen(
-                                            lessonId: r.lessonId,
-                                          ),
-                                    ),
-                                  ),
+                                  r.field == 'verb'
+                                      ? () => Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (_) => const VerbScreen(),
+                                        ),
+                                      )
+                                      : () => Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder:
+                                              (_) => LessonScreen(
+                                                lessonId: r.lessonId,
+                                              ),
+                                        ),
+                                      ),
                             ),
                           );
                         },
@@ -264,6 +314,13 @@ class _SearchScreenState extends State<SearchScreen> {
         );
       case 'dialogue':
         return uiText(lang, ar: 'الحوار', es: 'Diálogo', other: 'Dialogue');
+      case 'verb':
+        return uiText(
+          lang,
+          ar: 'أفعال — افتح شاشة الأفعال',
+          es: 'Verbos — abre la pantalla de verbos',
+          other: 'Verb — open the verbs screen',
+        );
       case 'reading':
         return uiText(lang, ar: 'القراءة', es: 'Lectura', other: 'Reading');
       default:

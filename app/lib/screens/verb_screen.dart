@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/verb_models.dart';
 import '../services/app_state.dart';
+import '../services/progress_service.dart';
 import '../services/verb_repository.dart';
 import '../widgets/audio_button.dart';
 import '../widgets/app_selection_area.dart';
@@ -22,6 +23,33 @@ class _VerbScreenState extends State<VerbScreen> {
   bool _loading = true;
   bool _audioOnly = false;
   bool _showCommonOnly = false;
+  bool _favoritesOnly = false;
+  Set<String> _favorites = {};
+
+  /// Verb favorites share the progress store with word favorites, namespaced
+  /// so `hablar` and an English word can never collide.
+  static String verbFavoriteKey(String infinitive) => 'verb:$infinitive';
+
+  Future<void> _loadFavorites() async {
+    final favorites = await ProgressService.instance.getFavorites();
+    if (!mounted) return;
+    setState(() {
+      _favorites = favorites.where((k) => k.startsWith('verb:')).toSet();
+    });
+  }
+
+  Future<void> _toggleVerbFavorite(String infinitive) async {
+    final key = verbFavoriteKey(infinitive);
+    await ProgressService.instance.toggleFavorite(key);
+    if (!mounted) return;
+    setState(() {
+      if (_favorites.contains(key)) {
+        _favorites = {..._favorites}..remove(key);
+      } else {
+        _favorites = {..._favorites, key};
+      }
+    });
+  }
 
   static const _commonVerbs = {
     'ser',
@@ -80,6 +108,7 @@ class _VerbScreenState extends State<VerbScreen> {
   void initState() {
     super.initState();
     _load();
+    _loadFavorites();
   }
 
   Future<void> _load() async {
@@ -142,6 +171,10 @@ class _VerbScreenState extends State<VerbScreen> {
 
   Widget _buildAudioFilter(VerbData data, String lang) {
     final total = data.verbs.length;
+    final favoriteCount =
+        data.verbs
+            .where((v) => _favorites.contains(verbFavoriteKey(v.inf)))
+            .length;
     final withAudio = data.verbs.where((v) => v.hasFullAudio).length;
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 12),
@@ -163,6 +196,7 @@ class _VerbScreenState extends State<VerbScreen> {
                   (_) => setState(() {
                     _showCommonOnly = !_showCommonOnly;
                     _audioOnly = false;
+                    _favoritesOnly = false;
                   }),
             ),
             const SizedBox(width: 8),
@@ -175,11 +209,12 @@ class _VerbScreenState extends State<VerbScreen> {
                   other: 'All ($total)',
                 ),
               ),
-              selected: !_audioOnly && !_showCommonOnly,
+              selected: !_audioOnly && !_showCommonOnly && !_favoritesOnly,
               onSelected:
                   (_) => setState(() {
                     _audioOnly = false;
                     _showCommonOnly = false;
+                    _favoritesOnly = false;
                   }),
             ),
             const SizedBox(width: 8),
@@ -198,6 +233,26 @@ class _VerbScreenState extends State<VerbScreen> {
                   (_) => setState(() {
                     _audioOnly = true;
                     _showCommonOnly = false;
+                    _favoritesOnly = false;
+                  }),
+            ),
+            const SizedBox(width: 8),
+            ChoiceChip(
+              avatar: const Icon(Icons.star, size: 18),
+              label: Text(
+                uiText(
+                  lang,
+                  ar: 'المفضلة ($favoriteCount)',
+                  es: 'Favoritos ($favoriteCount)',
+                  other: 'Favorites ($favoriteCount)',
+                ),
+              ),
+              selected: _favoritesOnly,
+              onSelected:
+                  (_) => setState(() {
+                    _favoritesOnly = !_favoritesOnly;
+                    _audioOnly = false;
+                    _showCommonOnly = false;
                   }),
             ),
           ],
@@ -208,7 +263,11 @@ class _VerbScreenState extends State<VerbScreen> {
 
   Widget _buildGroupedList(VerbData data, String lang) {
     List<VerbInfo> verbs =
-        _audioOnly
+        _favoritesOnly
+            ? data.verbs
+                .where((v) => _favorites.contains(verbFavoriteKey(v.inf)))
+                .toList()
+            : _audioOnly
             ? data.verbs.where((v) => v.hasFullAudio).toList()
             : _showCommonOnly
             ? data.verbs.where((v) => _commonVerbs.contains(v.inf)).toList()
@@ -309,7 +368,14 @@ class _VerbScreenState extends State<VerbScreen> {
         ),
         title: Row(
           children: [
-            Text(v.inf, style: const TextStyle(fontWeight: FontWeight.w600)),
+            Expanded(
+              child: Text(
+                v.inf,
+                style: const TextStyle(fontWeight: FontWeight.w600),
+              ),
+            ),
+            if (_favorites.contains(verbFavoriteKey(v.inf)))
+              const Icon(Icons.star, size: 20, color: Colors.amber),
             if (isCommon) ...[
               const SizedBox(width: 6),
               Container(
@@ -330,7 +396,30 @@ class _VerbScreenState extends State<VerbScreen> {
           ],
         ),
         subtitle: Text('${v.en} · ${v.ar}'),
-        trailing: const Icon(Icons.chevron_right),
+        trailing: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            IconButton(
+              icon: Icon(
+                _favorites.contains(verbFavoriteKey(v.inf))
+                    ? Icons.star
+                    : Icons.star_border,
+                color:
+                    _favorites.contains(verbFavoriteKey(v.inf))
+                        ? Colors.amber
+                        : null,
+              ),
+              tooltip: uiText(
+                lang,
+                ar: 'أضف إلى المفضلة',
+                es: 'Añadir a favoritos',
+                other: 'Add to favorites',
+              ),
+              onPressed: () => _toggleVerbFavorite(v.inf),
+            ),
+            const Icon(Icons.chevron_right),
+          ],
+        ),
         onTap:
             () => Navigator.push(
               context,

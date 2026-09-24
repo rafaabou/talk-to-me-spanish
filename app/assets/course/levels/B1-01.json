@@ -583,6 +583,167 @@
         "ar": "الإجابة: \"La invitación a la boda llegó ayer.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Si tuviera dinero, viajaría a España.",
+      "accepted": [],
+      "audio": "Si tuviera dinero, viajaría a España.",
+      "explanation": {
+        "es": "La frase correcta: 'Si tuviera dinero, viajaría a España.'",
+        "en": "The correct sentence: 'Si tuviera dinero, viajaría a España.'",
+        "ar": "الجملة الصحيحة: 'Si tuviera dinero, viajaría a España.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Yo también. Me gustaría visitar Barcelona.",
+      "accepted": [],
+      "audio": "Yo también. Me gustaría visitar Barcelona.",
+      "explanation": {
+        "es": "La frase correcta: 'Yo también. Me gustaría visitar Barcelona.'",
+        "en": "The correct sentence: 'Yo también. Me gustaría visitar Barcelona.'",
+        "ar": "الجملة الصحيحة: 'Yo también. Me gustaría visitar Barcelona.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "¿Podrías prestarme una guía de viaje?",
+          "en": "¿Podrías prestarme una guía de viaje?",
+          "ar": "¿Podrías prestarme una guía de viaje?"
+        },
+        {
+          "es": "¡Claro! Te la prestaría con gusto.",
+          "en": "¡Claro! Te la prestaría con gusto.",
+          "ar": "¡Claro! Te la prestaría con gusto."
+        },
+        {
+          "es": "Un día viajaríamos juntos, con seguridad.",
+          "en": "Un día viajaríamos juntos, con seguridad.",
+          "ar": "Un día viajaríamos juntos, con seguridad."
+        },
+        {
+          "es": "¡Gracias! Sería una gran oportunidad.",
+          "en": "¡Gracias! Sería una gran oportunidad.",
+          "ar": "¡Gracias! Sería una gran oportunidad."
+        }
+      ],
+      "answer": "¿Podrías prestarme una guía de viaje?",
+      "accepted": [],
+      "audio": "¿Podrías prestarme una guía de viaje?",
+      "explanation": {
+        "es": "Escuchaste: '¿Podrías prestarme una guía de viaje?'",
+        "en": "You heard: '¿Podrías prestarme una guía de viaje?'",
+        "ar": "سمعت: '¿Podrías prestarme una guía de viaje?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "Te",
+          "en": "Te",
+          "ar": "Te"
+        },
+        {
+          "es": "con",
+          "en": "con",
+          "ar": "con"
+        },
+        {
+          "es": "gusto.",
+          "en": "gusto.",
+          "ar": "gusto."
+        },
+        {
+          "es": "prestaría",
+          "en": "prestaría",
+          "ar": "prestaría"
+        },
+        {
+          "es": "¡Claro!",
+          "en": "¡Claro!",
+          "ar": "¡Claro!"
+        }
+      ],
+      "answer": "¡Claro! Te la prestaría con gusto.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: '¡Claro! Te la prestaría con gusto.'",
+        "en": "The correct sentence: '¡Claro! Te la prestaría con gusto.'",
+        "ar": "الجملة الصحيحة: '¡Claro! Te la prestaría con gusto.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "¡Gracias!   ___   una   gran   oportunidad.",
+        "en": "¡Gracias!   ___   una   gran   oportunidad.",
+        "ar": "¡Gracias!   ___   una   gran   oportunidad."
+      },
+      "options": [
+        {
+          "es": "'la invitación'",
+          "en": "'la invitación'",
+          "ar": "'la invitación'"
+        },
+        {
+          "es": "'posible'",
+          "en": "'posible'",
+          "ar": "'posible'"
+        },
+        {
+          "es": "'viajar'",
+          "en": "'viajar'",
+          "ar": "'viajar'"
+        },
+        {
+          "es": "'Sería'",
+          "en": "'Sería'",
+          "ar": "'Sería'"
+        }
+      ],
+      "answer": "'Sería'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'Sería'",
+        "en": "The complete word: 'Sería'",
+        "ar": "الكلمة الكاملة: 'Sería'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

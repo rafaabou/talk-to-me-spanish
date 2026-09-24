@@ -606,6 +606,162 @@
         "ar": "الإجابة: \"Buenas tardes, profesor.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¡Hola! Mi nombre es Ana. ¿Y tú?",
+      "accepted": [],
+      "audio": "¡Hola! Mi nombre es Ana. ¿Y tú?",
+      "explanation": {
+        "es": "La frase correcta: '¡Hola! Mi nombre es Ana. ¿Y tú?'",
+        "en": "The correct sentence: '¡Hola! Mi nombre es Ana. ¿Y tú?'",
+        "ar": "الجملة الصحيحة: '¡Hola! Mi nombre es Ana. ¿Y tú?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¡Hola, Ana! Yo soy Pedro. Mucho gusto.",
+      "accepted": [],
+      "audio": "¡Hola, Ana! Yo soy Pedro. Mucho gusto.",
+      "explanation": {
+        "es": "La frase correcta: '¡Hola, Ana! Yo soy Pedro. Mucho gusto.'",
+        "en": "The correct sentence: '¡Hola, Ana! Yo soy Pedro. Mucho gusto.'",
+        "ar": "الجملة الصحيحة: '¡Hola, Ana! Yo soy Pedro. Mucho gusto.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "El gusto es mío. ¿Cómo estás?",
+          "en": "El gusto es mío. ¿Cómo estás?",
+          "ar": "El gusto es mío. ¿Cómo estás?"
+        },
+        {
+          "es": "¡Chao, Ana! Hasta mañana.",
+          "en": "¡Chao, Ana! Hasta mañana.",
+          "ar": "¡Chao, Ana! Hasta mañana."
+        },
+        {
+          "es": "¡Todo bien, gracias! ¿Y tú?",
+          "en": "¡Todo bien, gracias! ¿Y tú?",
+          "ar": "¡Todo bien, gracias! ¿Y tú?"
+        },
+        {
+          "es": "¡Todo genial. Hasta luego, Pedro!",
+          "en": "¡Todo genial. Hasta luego, Pedro!",
+          "ar": "¡Todo genial. Hasta luego, Pedro!"
+        }
+      ],
+      "answer": "El gusto es mío. ¿Cómo estás?",
+      "accepted": [],
+      "audio": "El gusto es mío. ¿Cómo estás?",
+      "explanation": {
+        "es": "Escuchaste: 'El gusto es mío. ¿Cómo estás?'",
+        "en": "You heard: 'El gusto es mío. ¿Cómo estás?'",
+        "ar": "سمعت: 'El gusto es mío. ¿Cómo estás?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "¿Y",
+          "en": "¿Y",
+          "ar": "¿Y"
+        },
+        {
+          "es": "¡Todo",
+          "en": "¡Todo",
+          "ar": "¡Todo"
+        },
+        {
+          "es": "gracias!",
+          "en": "gracias!",
+          "ar": "gracias!"
+        },
+        {
+          "es": "bien,",
+          "en": "bien,",
+          "ar": "bien,"
+        },
+        {
+          "es": "tú?",
+          "en": "tú?",
+          "ar": "tú?"
+        }
+      ],
+      "answer": "¡Todo bien, gracias! ¿Y tú?",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: '¡Todo bien, gracias! ¿Y tú?'",
+        "en": "The correct sentence: '¡Todo bien, gracias! ¿Y tú?'",
+        "ar": "الجملة الصحيحة: '¡Todo bien, gracias! ¿Y tú?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "¡Todo   genial.   ___   luego,   Pedro!",
+        "en": "¡Todo   genial.   ___   luego,   Pedro!",
+        "ar": "¡Todo   genial.   ___   luego,   Pedro!"
+      },
+      "options": [
+        {
+          "es": "'buenas tardes'",
+          "en": "'buenas tardes'",
+          "ar": "'buenas tardes'"
+        },
+        {
+          "es": "'hola'",
+          "en": "'hola'",
+          "ar": "'hola'"
+        },
+        {
+          "es": "'Hasta'",
+          "en": "'Hasta'",
+          "ar": "'Hasta'"
+        },
+        {
+          "es": "'buenos días'",
+          "en": "'buenos días'",
+          "ar": "'buenos días'"
+        }
+      ],
+      "answer": "'Hasta'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'Hasta'",
+        "en": "The complete word: 'Hasta'",
+        "ar": "الكلمة الكاملة: 'Hasta'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

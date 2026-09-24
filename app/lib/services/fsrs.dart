@@ -197,3 +197,22 @@ class FsrsScheduler {
     );
   }
 }
+
+/// Cards ordered from weakest to strongest: lowest memory stability first,
+/// then the most lapses, then the one that has been waiting longest. Used by
+/// the "review my weak words" flow so a session starts with the material the
+/// learner keeps forgetting instead of an arbitrary shuffle.
+List<FsrsCard> weakestFirstCards(
+  Map<String, FsrsCard> byKey, {
+  int limit = 20,
+}) {
+  final cards =
+      byKey.values.toList()..sort((a, b) {
+        final byStability = a.stability.compareTo(b.stability);
+        if (byStability != 0) return byStability;
+        final byLapses = b.lapses.compareTo(a.lapses);
+        if (byLapses != 0) return byLapses;
+        return a.due.compareTo(b.due);
+      });
+  return cards.take(limit).toList();
+}

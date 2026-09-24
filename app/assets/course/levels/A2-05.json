@@ -611,6 +611,182 @@
         "ar": "الإجابة: \"¡Qué bonito es este jardín!\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Qué opinas de Madrid?",
+      "accepted": [],
+      "audio": "¿Qué opinas de Madrid?",
+      "explanation": {
+        "es": "La frase correcta: '¿Qué opinas de Madrid?'",
+        "en": "The correct sentence: '¿Qué opinas de Madrid?'",
+        "ar": "الجملة الصحيحة: '¿Qué opinas de Madrid?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Es más grande que Sevilla, pero es más cara.",
+      "accepted": [],
+      "audio": "Es más grande que Sevilla, pero es más cara.",
+      "explanation": {
+        "es": "La frase correcta: 'Es más grande que Sevilla, pero es más cara.'",
+        "en": "The correct sentence: 'Es más grande que Sevilla, pero es más cara.'",
+        "ar": "الجملة الصحيحة: 'Es más grande que Sevilla, pero es más cara.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Prefiero ciudades más tranquilas, como Valencia.",
+          "en": "Prefiero ciudades más tranquilas, como Valencia.",
+          "ar": "Prefiero ciudades más tranquilas, como Valencia."
+        },
+        {
+          "es": "Es verdad. Allí la vida es mejor para la familia.",
+          "en": "Es verdad. Allí la vida es mejor para la familia.",
+          "ar": "Es verdad. Allí la vida es mejor para la familia."
+        },
+        {
+          "es": "El tráfico de Madrid es el peor de España.",
+          "en": "El tráfico de Madrid es el peor de España.",
+          "ar": "El tráfico de Madrid es el peor de España."
+        },
+        {
+          "es": "¿Y el tráfico?",
+          "en": "¿Y el tráfico?",
+          "ar": "¿Y el tráfico?"
+        }
+      ],
+      "answer": "¿Y el tráfico?",
+      "accepted": [],
+      "audio": "¿Y el tráfico?",
+      "explanation": {
+        "es": "Escuchaste: '¿Y el tráfico?'",
+        "en": "You heard: '¿Y el tráfico?'",
+        "ar": "سمعت: '¿Y el tráfico?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "Madrid",
+          "en": "Madrid",
+          "ar": "Madrid"
+        },
+        {
+          "es": "es",
+          "en": "es",
+          "ar": "es"
+        },
+        {
+          "es": "peor",
+          "en": "peor",
+          "ar": "peor"
+        },
+        {
+          "es": "El",
+          "en": "El",
+          "ar": "El"
+        },
+        {
+          "es": "España.",
+          "en": "España.",
+          "ar": "España."
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "de",
+          "en": "de",
+          "ar": "de"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "tráfico",
+          "en": "tráfico",
+          "ar": "tráfico"
+        }
+      ],
+      "answer": "El tráfico de Madrid es el peor de España.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'El tráfico de Madrid es el peor de España.'",
+        "en": "The correct sentence: 'El tráfico de Madrid es el peor de España.'",
+        "ar": "الجملة الصحيحة: 'El tráfico de Madrid es el peor de España.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Prefiero   ___   más   tranquilas,   como   Valencia.",
+        "en": "Prefiero   ___   más   tranquilas,   como   Valencia.",
+        "ar": "Prefiero   ___   más   tranquilas,   como   Valencia."
+      },
+      "options": [
+        {
+          "es": "'ciudades'",
+          "en": "'ciudades'",
+          "ar": "'ciudades'"
+        },
+        {
+          "es": "'más'",
+          "en": "'más'",
+          "ar": "'más'"
+        },
+        {
+          "es": "'que'",
+          "en": "'que'",
+          "ar": "'que'"
+        },
+        {
+          "es": "'menos'",
+          "en": "'menos'",
+          "ar": "'menos'"
+        }
+      ],
+      "answer": "'ciudades'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'ciudades'",
+        "en": "The complete word: 'ciudades'",
+        "ar": "الكلمة الكاملة: 'ciudades'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

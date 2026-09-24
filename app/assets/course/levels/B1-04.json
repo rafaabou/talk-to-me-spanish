@@ -584,6 +584,172 @@
         "ar": "الإجابة: \"Hubo un gran accidente en la carretera.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Viste las noticias hoy?",
+      "accepted": [],
+      "audio": "¿Viste las noticias hoy?",
+      "explanation": {
+        "es": "La frase correcta: '¿Viste las noticias hoy?'",
+        "en": "The correct sentence: '¿Viste las noticias hoy?'",
+        "ar": "الجملة الصحيحة: '¿Viste las noticias hoy?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "No, todavía no tuve tiempo.",
+      "accepted": [],
+      "audio": "No, todavía no tuve tiempo.",
+      "explanation": {
+        "es": "La frase correcta: 'No, todavía no tuve tiempo.'",
+        "en": "The correct sentence: 'No, todavía no tuve tiempo.'",
+        "ar": "الجملة الصحيحة: 'No, todavía no tuve tiempo.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "¿En serio? ¿Fue divulgado en el periódico?",
+          "en": "¿En serio? ¿Fue divulgado en el periódico?",
+          "ar": "¿En serio? ¿Fue divulgado en el periódico?"
+        },
+        {
+          "es": "Sí, la noticia fue publicada esta mañana.",
+          "en": "Sí, la noticia fue publicada esta mañana.",
+          "ar": "Sí, la noticia fue publicada esta mañana."
+        },
+        {
+          "es": "Leo el periódico en el autobús.",
+          "en": "Leo el periódico en el autobús.",
+          "ar": "Leo el periódico en el autobús."
+        },
+        {
+          "es": "Necesito verificar si es verídico.",
+          "en": "Necesito verificar si es verídico.",
+          "ar": "Necesito verificar si es verídico."
+        }
+      ],
+      "answer": "¿En serio? ¿Fue divulgado en el periódico?",
+      "accepted": [],
+      "audio": "¿En serio? ¿Fue divulgado en el periódico?",
+      "explanation": {
+        "es": "Escuchaste: '¿En serio? ¿Fue divulgado en el periódico?'",
+        "en": "You heard: '¿En serio? ¿Fue divulgado en el periódico?'",
+        "ar": "سمعت: '¿En serio? ¿Fue divulgado en el periódico?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "Sí,",
+          "en": "Sí,",
+          "ar": "Sí,"
+        },
+        {
+          "es": "noticia",
+          "en": "noticia",
+          "ar": "noticia"
+        },
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "publicada",
+          "en": "publicada",
+          "ar": "publicada"
+        },
+        {
+          "es": "mañana.",
+          "en": "mañana.",
+          "ar": "mañana."
+        },
+        {
+          "es": "esta",
+          "en": "esta",
+          "ar": "esta"
+        },
+        {
+          "es": "fue",
+          "en": "fue",
+          "ar": "fue"
+        }
+      ],
+      "answer": "Sí, la noticia fue publicada esta mañana.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Sí, la noticia fue publicada esta mañana.'",
+        "en": "The correct sentence: 'Sí, la noticia fue publicada esta mañana.'",
+        "ar": "الجملة الصحيحة: 'Sí, la noticia fue publicada esta mañana.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Necesito   ___   si   es   verídico.",
+        "en": "Necesito   ___   si   es   verídico.",
+        "ar": "Necesito   ___   si   es   verídico."
+      },
+      "options": [
+        {
+          "es": "'la noticia'",
+          "en": "'la noticia'",
+          "ar": "'la noticia'"
+        },
+        {
+          "es": "'verificar'",
+          "en": "'verificar'",
+          "ar": "'verificar'"
+        },
+        {
+          "es": "'el periódico'",
+          "en": "'el periódico'",
+          "ar": "'el periódico'"
+        },
+        {
+          "es": "'la revista'",
+          "en": "'la revista'",
+          "ar": "'la revista'"
+        }
+      ],
+      "answer": "'verificar'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'verificar'",
+        "en": "The complete word: 'verificar'",
+        "ar": "الكلمة الكاملة: 'verificar'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

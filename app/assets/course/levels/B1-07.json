@@ -594,6 +594,162 @@
         "ar": "الإجابة: \"Quiero sugerir otra opción.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Creo que la ciudad necesita más transporte público.",
+      "accepted": [],
+      "audio": "Creo que la ciudad necesita más transporte público.",
+      "explanation": {
+        "es": "La frase correcta: 'Creo que la ciudad necesita más transporte público.'",
+        "en": "The correct sentence: 'Creo que la ciudad necesita más transporte público.'",
+        "ar": "الجملة الصحيحة: 'Creo que la ciudad necesita más transporte público.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Por eso, el gobierno debería invertir más.",
+      "accepted": [],
+      "audio": "Por eso, el gobierno debería invertir más.",
+      "explanation": {
+        "es": "La frase correcta: 'Por eso, el gobierno debería invertir más.'",
+        "en": "The correct sentence: 'Por eso, el gobierno debería invertir más.'",
+        "ar": "الجملة الصحيحة: 'Por eso, el gobierno debería invertir más.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Estar de acuerdo ayuda a decidir.",
+          "en": "Estar de acuerdo ayuda a decidir.",
+          "ar": "Estar de acuerdo ayuda a decidir."
+        },
+        {
+          "es": "Realmente, es una buena sugerencia.",
+          "en": "Realmente, es una buena sugerencia.",
+          "ar": "Realmente, es una buena sugerencia."
+        },
+        {
+          "es": "Estoy un poco en desacuerdo: primero necesitamos más carriles bici.",
+          "en": "Estoy un poco en desacuerdo: primero necesitamos más carriles bici.",
+          "ar": "Estoy un poco en desacuerdo: primero necesitamos más carriles bici."
+        },
+        {
+          "es": "En mi opinión, todo es una cuestión de planificación.",
+          "en": "En mi opinión, todo es una cuestión de planificación.",
+          "ar": "En mi opinión, todo es una cuestión de planificación."
+        }
+      ],
+      "answer": "Estoy un poco en desacuerdo: primero necesitamos más carriles bici.",
+      "accepted": [],
+      "audio": "Estoy un poco en desacuerdo: primero necesitamos más carriles bici.",
+      "explanation": {
+        "es": "Escuchaste: 'Estoy un poco en desacuerdo: primero necesitamos más carriles bici.'",
+        "en": "You heard: 'Estoy un poco en desacuerdo: primero necesitamos más carriles bici.'",
+        "ar": "سمعت: 'Estoy un poco en desacuerdo: primero necesitamos más carriles bici.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "buena",
+          "en": "buena",
+          "ar": "buena"
+        },
+        {
+          "es": "Realmente,",
+          "en": "Realmente,",
+          "ar": "Realmente,"
+        },
+        {
+          "es": "es",
+          "en": "es",
+          "ar": "es"
+        },
+        {
+          "es": "una",
+          "en": "una",
+          "ar": "una"
+        },
+        {
+          "es": "sugerencia.",
+          "en": "sugerencia.",
+          "ar": "sugerencia."
+        }
+      ],
+      "answer": "Realmente, es una buena sugerencia.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Realmente, es una buena sugerencia.'",
+        "en": "The correct sentence: 'Realmente, es una buena sugerencia.'",
+        "ar": "الجملة الصحيحة: 'Realmente, es una buena sugerencia.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "En   mi   opinión,   todo   es   una   ___   de   planificación.",
+        "en": "En   mi   opinión,   todo   es   una   ___   de   planificación.",
+        "ar": "En   mi   opinión,   todo   es   una   ___   de   planificación."
+      },
+      "options": [
+        {
+          "es": "'la opinión'",
+          "en": "'la opinión'",
+          "ar": "'la opinión'"
+        },
+        {
+          "es": "'el argumento'",
+          "en": "'el argumento'",
+          "ar": "'el argumento'"
+        },
+        {
+          "es": "'creo que'",
+          "en": "'creo que'",
+          "ar": "'creo que'"
+        },
+        {
+          "es": "'cuestión'",
+          "en": "'cuestión'",
+          "ar": "'cuestión'"
+        }
+      ],
+      "answer": "'cuestión'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'cuestión'",
+        "en": "The complete word: 'cuestión'",
+        "ar": "الكلمة الكاملة: 'cuestión'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

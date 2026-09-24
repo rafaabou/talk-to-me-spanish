@@ -622,6 +622,232 @@
         "ar": "الإجابة: \"Con el imperfecto, profesora: 'caía la tarde', 'las sombras se alargaban' crean la ambientación.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Cómo construye el narrador la atmósfera en este fragmento?",
+      "accepted": [],
+      "audio": "¿Cómo construye el narrador la atmósfera en este fragmento?",
+      "explanation": {
+        "es": "La frase correcta: '¿Cómo construye el narrador la atmósfera en este fragmento?'",
+        "en": "The correct sentence: '¿Cómo construye el narrador la atmósfera en este fragmento?'",
+        "ar": "الجملة الصحيحة: '¿Cómo construye el narrador la atmósfera en este fragmento?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Exacto. ¿Y qué figura retórica marca la descripción del protagonista?",
+      "accepted": [],
+      "audio": "Exacto. ¿Y qué figura retórica marca la descripción del protagonista?",
+      "explanation": {
+        "es": "La frase correcta: 'Exacto. ¿Y qué figura retórica marca la descripción del protagonista?'",
+        "en": "The correct sentence: 'Exacto. ¿Y qué figura retórica marca la descripción del protagonista?'",
+        "ar": "الجملة الصحيحة: 'Exacto. ¿Y qué figura retórica marca la descripción del protagonista?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "La metáfora compara dos campos semánticos.",
+          "en": "La metáfora compara dos campos semánticos.",
+          "ar": "La metáfora compara dos campos semánticos."
+        },
+        {
+          "es": "La hipérbole: 'un corazón del tamaño del mar'. También hay una paradoja en el desenlace.",
+          "en": "La hipérbole: 'un corazón del tamaño del mar'. También hay una paradoja en el desenlace.",
+          "ar": "La hipérbole: 'un corazón del tamaño del mar'. También hay una paradoja en el desenlace."
+        },
+        {
+          "es": "Muy bien. Observa que el narrador es omnisciente y usa el discurso indirecto libre en las reflexiones del personaje.",
+          "en": "Muy bien. Observa que el narrador es omnisciente y usa el discurso indirecto libre en las reflexiones del personaje.",
+          "ar": "Muy bien. Observa que el narrador es omnisciente y usa el discurso indirecto libre en las reflexiones del personaje."
+        },
+        {
+          "es": "La metonimia sustituye el referente.",
+          "en": "La metonimia sustituye el referente.",
+          "ar": "La metonimia sustituye el referente."
+        }
+      ],
+      "answer": "La hipérbole: 'un corazón del tamaño del mar'. También hay una paradoja en el desenlace.",
+      "accepted": [],
+      "audio": "La hipérbole: 'un corazón del tamaño del mar'. También hay una paradoja en el desenlace.",
+      "explanation": {
+        "es": "Escuchaste: 'La hipérbole: 'un corazón del tamaño del mar'. También hay una paradoja en el desenlace.'",
+        "en": "You heard: 'La hipérbole: 'un corazón del tamaño del mar'. También hay una paradoja en el desenlace.'",
+        "ar": "سمعت: 'La hipérbole: 'un corazón del tamaño del mar'. También hay una paradoja en el desenlace.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "personaje.",
+          "en": "personaje.",
+          "ar": "personaje."
+        },
+        {
+          "es": "Observa",
+          "en": "Observa",
+          "ar": "Observa"
+        },
+        {
+          "es": "usa",
+          "en": "usa",
+          "ar": "usa"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "que",
+          "en": "que",
+          "ar": "que"
+        },
+        {
+          "es": "del",
+          "en": "del",
+          "ar": "del"
+        },
+        {
+          "es": "narrador",
+          "en": "narrador",
+          "ar": "narrador"
+        },
+        {
+          "es": "bien.",
+          "en": "bien.",
+          "ar": "bien."
+        },
+        {
+          "es": "las",
+          "en": "las",
+          "ar": "las"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "omnisciente",
+          "en": "omnisciente",
+          "ar": "omnisciente"
+        },
+        {
+          "es": "libre",
+          "en": "libre",
+          "ar": "libre"
+        },
+        {
+          "es": "y",
+          "en": "y",
+          "ar": "y"
+        },
+        {
+          "es": "discurso",
+          "en": "discurso",
+          "ar": "discurso"
+        },
+        {
+          "es": "en",
+          "en": "en",
+          "ar": "en"
+        },
+        {
+          "es": "indirecto",
+          "en": "indirecto",
+          "ar": "indirecto"
+        },
+        {
+          "es": "reflexiones",
+          "en": "reflexiones",
+          "ar": "reflexiones"
+        },
+        {
+          "es": "es",
+          "en": "es",
+          "ar": "es"
+        },
+        {
+          "es": "Muy",
+          "en": "Muy",
+          "ar": "Muy"
+        }
+      ],
+      "answer": "Muy bien. Observa que el narrador es omnisciente y usa el discurso indirecto libre en las reflexiones del personaje.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Muy bien. Observa que el narrador es omnisciente y usa el discurso indirecto libre en las reflexiones del personaje.'",
+        "en": "The correct sentence: 'Muy bien. Observa que el narrador es omnisciente y usa el discurso indirecto libre en las reflexiones del personaje.'",
+        "ar": "الجملة الصحيحة: 'Muy bien. Observa que el narrador es omnisciente y usa el discurso indirecto libre en las reflexiones del personaje.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "La   metáfora   ___   dos   campos   semánticos.",
+        "en": "La   metáfora   ___   dos   campos   semánticos.",
+        "ar": "La   metáfora   ___   dos   campos   semánticos."
+      },
+      "options": [
+        {
+          "es": "'la metáfora'",
+          "en": "'la metáfora'",
+          "ar": "'la metáfora'"
+        },
+        {
+          "es": "'la alegoría'",
+          "en": "'la alegoría'",
+          "ar": "'la alegoría'"
+        },
+        {
+          "es": "'compara'",
+          "en": "'compara'",
+          "ar": "'compara'"
+        },
+        {
+          "es": "'la metonimia'",
+          "en": "'la metonimia'",
+          "ar": "'la metonimia'"
+        }
+      ],
+      "answer": "'compara'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'compara'",
+        "en": "The complete word: 'compara'",
+        "ar": "الكلمة الكاملة: 'compara'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

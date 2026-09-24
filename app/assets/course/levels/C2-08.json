@@ -622,6 +622,197 @@
         "ar": "الإجابة: \"El artículo sigue estructura IMRaD.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Se verificó que la temperatura interfirió en los resultados.",
+      "accepted": [],
+      "audio": "Se verificó que la temperatura interfirió en los resultados.",
+      "explanation": {
+        "es": "La frase correcta: 'Se verificó que la temperatura interfirió en los resultados.'",
+        "en": "The correct sentence: 'Se verificó que la temperatura interfirió en los resultados.'",
+        "ar": "الجملة الصحيحة: 'Se verificó que la temperatura interfirió en los resultados.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¿Debo registrar ese efecto en el informe técnico?",
+      "accepted": [],
+      "audio": "¿Debo registrar ese efecto en el informe técnico?",
+      "explanation": {
+        "es": "La frase correcta: '¿Debo registrar ese efecto en el informe técnico?'",
+        "en": "The correct sentence: '¿Debo registrar ese efecto en el informe técnico?'",
+        "ar": "الجملة الصحيحة: '¿Debo registrar ese efecto en el informe técnico?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Exacto. Cabe concluir que la hipótesis fue parcialmente confirmada.",
+          "en": "Exacto. Cabe concluir que la hipótesis fue parcialmente confirmada.",
+          "ar": "Exacto. Cabe concluir que la hipótesis fue parcialmente confirmada."
+        },
+        {
+          "es": "Aunque el gráfico muestre una tendencia, la tabla revela una dispersión alta.",
+          "en": "Aunque el gráfico muestre una tendencia, la tabla revela una dispersión alta.",
+          "ar": "Aunque el gráfico muestre una tendencia, la tabla revela una dispersión alta."
+        },
+        {
+          "es": "Sí, porque la reproducibilidad depende de ese control. Por lo tanto, documenta todo.",
+          "en": "Sí, porque la reproducibilidad depende de ese control. Por lo tanto, documenta todo.",
+          "ar": "Sí, porque la reproducibilidad depende de ese control. Por lo tanto, documenta todo."
+        },
+        {
+          "es": "Ya que falta la revisión por pares, todavía no podemos publicar.",
+          "en": "Ya que falta la revisión por pares, todavía no podemos publicar.",
+          "ar": "Ya que falta la revisión por pares, todavía no podemos publicar."
+        }
+      ],
+      "answer": "Sí, porque la reproducibilidad depende de ese control. Por lo tanto, documenta todo.",
+      "accepted": [],
+      "audio": "Sí, porque la reproducibilidad depende de ese control. Por lo tanto, documenta todo.",
+      "explanation": {
+        "es": "Escuchaste: 'Sí, porque la reproducibilidad depende de ese control. Por lo tanto, documenta todo.'",
+        "en": "You heard: 'Sí, porque la reproducibilidad depende de ese control. Por lo tanto, documenta todo.'",
+        "ar": "سمعت: 'Sí, porque la reproducibilidad depende de ese control. Por lo tanto, documenta todo.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "tabla",
+          "en": "tabla",
+          "ar": "tabla"
+        },
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "una",
+          "en": "una",
+          "ar": "una"
+        },
+        {
+          "es": "dispersión",
+          "en": "dispersión",
+          "ar": "dispersión"
+        },
+        {
+          "es": "una",
+          "en": "una",
+          "ar": "una"
+        },
+        {
+          "es": "tendencia,",
+          "en": "tendencia,",
+          "ar": "tendencia,"
+        },
+        {
+          "es": "revela",
+          "en": "revela",
+          "ar": "revela"
+        },
+        {
+          "es": "alta.",
+          "en": "alta.",
+          "ar": "alta."
+        },
+        {
+          "es": "muestre",
+          "en": "muestre",
+          "ar": "muestre"
+        },
+        {
+          "es": "Aunque",
+          "en": "Aunque",
+          "ar": "Aunque"
+        },
+        {
+          "es": "gráfico",
+          "en": "gráfico",
+          "ar": "gráfico"
+        }
+      ],
+      "answer": "Aunque el gráfico muestre una tendencia, la tabla revela una dispersión alta.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Aunque el gráfico muestre una tendencia, la tabla revela una dispersión alta.'",
+        "en": "The correct sentence: 'Aunque el gráfico muestre una tendencia, la tabla revela una dispersión alta.'",
+        "ar": "الجملة الصحيحة: 'Aunque el gráfico muestre una tendencia, la tabla revela una dispersión alta.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Exacto.   Cabe   concluir   que   la   ___   fue   parcialmente   confirmada.",
+        "en": "Exacto.   Cabe   concluir   que   la   ___   fue   parcialmente   confirmada.",
+        "ar": "Exacto.   Cabe   concluir   que   la   ___   fue   parcialmente   confirmada."
+      },
+      "options": [
+        {
+          "es": "'hipótesis'",
+          "en": "'hipótesis'",
+          "ar": "'hipótesis'"
+        },
+        {
+          "es": "'la variable'",
+          "en": "'la variable'",
+          "ar": "'la variable'"
+        },
+        {
+          "es": "'el experimento'",
+          "en": "'el experimento'",
+          "ar": "'el experimento'"
+        },
+        {
+          "es": "'la hipótesis'",
+          "en": "'la hipótesis'",
+          "ar": "'la hipótesis'"
+        }
+      ],
+      "answer": "'hipótesis'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'hipótesis'",
+        "en": "The complete word: 'hipótesis'",
+        "ar": "الكلمة الكاملة: 'hipótesis'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

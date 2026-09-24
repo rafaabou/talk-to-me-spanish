@@ -197,4 +197,59 @@ void main() {
       expect(iGood, lessThanOrEqualTo(iEasy));
     });
   });
+
+  group('weakestFirstCards', () {
+    FsrsCard card(
+      String key, {
+      required double stability,
+      int lapses = 0,
+      int daysUntilDue = 0,
+    }) => FsrsCard(
+      key: key,
+      due: DateTime(2026, 1, 1).add(Duration(days: daysUntilDue)),
+      stability: stability,
+      difficulty: 5,
+      lastReview: DateTime(2026, 1, 1),
+      reviews: 3,
+      lapses: lapses,
+    );
+
+    test('lowest stability comes first', () {
+      final ranked = weakestFirstCards({
+        'strong': card('strong', stability: 30),
+        'weak': card('weak', stability: 2),
+        'medium': card('medium', stability: 12),
+      });
+      expect(ranked.map((c) => c.key), ['weak', 'medium', 'strong']);
+    });
+
+    test('equal stability favours the most lapses', () {
+      final ranked = weakestFirstCards({
+        'clean': card('clean', stability: 5, lapses: 0),
+        'lapsed': card('lapsed', stability: 5, lapses: 4),
+      });
+      expect(ranked.first.key, 'lapsed');
+    });
+
+    test('equal stability and lapses favours the longest waiting', () {
+      final ranked = weakestFirstCards({
+        'fresh': card('fresh', stability: 5, lapses: 1, daysUntilDue: -1),
+        'stale': card('stale', stability: 5, lapses: 1, daysUntilDue: -9),
+      });
+      expect(ranked.first.key, 'stale');
+    });
+
+    test('respects the session limit', () {
+      final cards = {
+        for (var i = 0; i < 30; i++) 'w$i': card('w$i', stability: i + 1),
+      };
+      final ranked = weakestFirstCards(cards, limit: 20);
+      expect(ranked, hasLength(20));
+      expect(ranked.first.key, 'w0');
+    });
+
+    test('an empty map yields nothing', () {
+      expect(weakestFirstCards({}), isEmpty);
+    });
+  });
 }

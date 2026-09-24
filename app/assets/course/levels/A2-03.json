@@ -617,6 +617,172 @@
         "ar": "الإجابة: \"Lo vi en la calle ayer.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Pedro, ¿puedes ayudarme?",
+      "accepted": [],
+      "audio": "Pedro, ¿puedes ayudarme?",
+      "explanation": {
+        "es": "La frase correcta: 'Pedro, ¿puedes ayudarme?'",
+        "en": "The correct sentence: 'Pedro, ¿puedes ayudarme?'",
+        "ar": "الجملة الصحيحة: 'Pedro, ¿puedes ayudarme?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¡Claro! ¿Qué necesitas?",
+      "accepted": [],
+      "audio": "¡Claro! ¿Qué necesitas?",
+      "explanation": {
+        "es": "La frase correcta: '¡Claro! ¿Qué necesitas?'",
+        "en": "The correct sentence: '¡Claro! ¿Qué necesitas?'",
+        "ar": "الجملة الصحيحة: '¡Claro! ¿Qué necesitas?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Sin problema. Te espero en el garaje.",
+          "en": "Sin problema. Te espero en el garaje.",
+          "ar": "Sin problema. Te espero en el garaje."
+        },
+        {
+          "es": "No te preocupes. Si pasa algo, me llamas.",
+          "en": "No te preocupes. Si pasa algo, me llamas.",
+          "ar": "No te preocupes. Si pasa algo, me llamas."
+        },
+        {
+          "es": "Necesito que me prestes el coche hoy.",
+          "en": "Necesito que me prestes el coche hoy.",
+          "ar": "Necesito que me prestes el coche hoy."
+        },
+        {
+          "es": "¡Muchas gracias! Te lo devuelvo esta noche.",
+          "en": "¡Muchas gracias! Te lo devuelvo esta noche.",
+          "ar": "¡Muchas gracias! Te lo devuelvo esta noche."
+        }
+      ],
+      "answer": "Necesito que me prestes el coche hoy.",
+      "accepted": [],
+      "audio": "Necesito que me prestes el coche hoy.",
+      "explanation": {
+        "es": "Escuchaste: 'Necesito que me prestes el coche hoy.'",
+        "en": "You heard: 'Necesito que me prestes el coche hoy.'",
+        "ar": "سمعت: 'Necesito que me prestes el coche hoy.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "espero",
+          "en": "espero",
+          "ar": "espero"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "Te",
+          "en": "Te",
+          "ar": "Te"
+        },
+        {
+          "es": "problema.",
+          "en": "problema.",
+          "ar": "problema."
+        },
+        {
+          "es": "garaje.",
+          "en": "garaje.",
+          "ar": "garaje."
+        },
+        {
+          "es": "en",
+          "en": "en",
+          "ar": "en"
+        },
+        {
+          "es": "Sin",
+          "en": "Sin",
+          "ar": "Sin"
+        }
+      ],
+      "answer": "Sin problema. Te espero en el garaje.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Sin problema. Te espero en el garaje.'",
+        "en": "The correct sentence: 'Sin problema. Te espero en el garaje.'",
+        "ar": "الجملة الصحيحة: 'Sin problema. Te espero en el garaje.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "¡Muchas   gracias!   Te   lo   ___   esta   noche.",
+        "en": "¡Muchas   gracias!   Te   lo   ___   esta   noche.",
+        "ar": "¡Muchas   gracias!   Te   lo   ___   esta   noche."
+      },
+      "options": [
+        {
+          "es": "'le'",
+          "en": "'le'",
+          "ar": "'le'"
+        },
+        {
+          "es": "'me'",
+          "en": "'me'",
+          "ar": "'me'"
+        },
+        {
+          "es": "'te'",
+          "en": "'te'",
+          "ar": "'te'"
+        },
+        {
+          "es": "'devuelvo'",
+          "en": "'devuelvo'",
+          "ar": "'devuelvo'"
+        }
+      ],
+      "answer": "'devuelvo'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'devuelvo'",
+        "en": "The complete word: 'devuelvo'",
+        "ar": "الكلمة الكاملة: 'devuelvo'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

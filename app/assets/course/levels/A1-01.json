@@ -578,6 +578,167 @@
         "ar": "الإجابة: \"¡Muy bien! Ahora vamos a leer algunas palabras.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¡Buenos días! Vamos a aprender el alfabeto.",
+      "accepted": [],
+      "audio": "¡Buenos días! Vamos a aprender el alfabeto.",
+      "explanation": {
+        "es": "La frase correcta: '¡Buenos días! Vamos a aprender el alfabeto.'",
+        "en": "The correct sentence: '¡Buenos días! Vamos a aprender el alfabeto.'",
+        "ar": "الجملة الصحيحة: '¡Buenos días! Vamos a aprender el alfabeto.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¡Buenos días, profesor! ¿Es muy difícil?",
+      "accepted": [],
+      "audio": "¡Buenos días, profesor! ¿Es muy difícil?",
+      "explanation": {
+        "es": "La frase correcta: '¡Buenos días, profesor! ¿Es muy difícil?'",
+        "en": "The correct sentence: '¡Buenos días, profesor! ¿Es muy difícil?'",
+        "ar": "الجملة الصحيحة: '¡Buenos días, profesor! ¿Es muy difícil?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "La letra 'a' es una vocal.",
+          "en": "La letra 'a' es una vocal.",
+          "ar": "La letra 'a' es una vocal."
+        },
+        {
+          "es": "La vocal 'o' es redonda.",
+          "en": "La vocal 'o' es redonda.",
+          "ar": "La vocal 'o' es redonda."
+        },
+        {
+          "es": "El sonido de la música es fuerte.",
+          "en": "El sonido de la música es fuerte.",
+          "ar": "El sonido de la música es fuerte."
+        },
+        {
+          "es": "A, B, C, D, E...",
+          "en": "A, B, C, D, E...",
+          "ar": "A, B, C, D, E..."
+        }
+      ],
+      "answer": "A, B, C, D, E...",
+      "accepted": [],
+      "audio": "A, B, C, D, E...",
+      "explanation": {
+        "es": "Escuchaste: 'A, B, C, D, E...'",
+        "en": "You heard: 'A, B, C, D, E...'",
+        "ar": "سمعت: 'A, B, C, D, E...'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "es",
+          "en": "es",
+          "ar": "es"
+        },
+        {
+          "es": "'a'",
+          "en": "'a'",
+          "ar": "'a'"
+        },
+        {
+          "es": "letra",
+          "en": "letra",
+          "ar": "letra"
+        },
+        {
+          "es": "La",
+          "en": "La",
+          "ar": "La"
+        },
+        {
+          "es": "vocal.",
+          "en": "vocal.",
+          "ar": "vocal."
+        },
+        {
+          "es": "una",
+          "en": "una",
+          "ar": "una"
+        }
+      ],
+      "answer": "La letra 'a' es una vocal.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'La letra 'a' es una vocal.'",
+        "en": "The correct sentence: 'La letra 'a' es una vocal.'",
+        "ar": "الجملة الصحيحة: 'La letra 'a' es una vocal.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "El   sonido   de   la   ___   es   fuerte.",
+        "en": "El   sonido   de   la   ___   es   fuerte.",
+        "ar": "El   sonido   de   la   ___   es   fuerte."
+      },
+      "options": [
+        {
+          "es": "'música'",
+          "en": "'música'",
+          "ar": "'música'"
+        },
+        {
+          "es": "'la letra'",
+          "en": "'la letra'",
+          "ar": "'la letra'"
+        },
+        {
+          "es": "'la vocal'",
+          "en": "'la vocal'",
+          "ar": "'la vocal'"
+        },
+        {
+          "es": "'el sonido'",
+          "en": "'el sonido'",
+          "ar": "'el sonido'"
+        }
+      ],
+      "answer": "'música'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'música'",
+        "en": "The complete word: 'música'",
+        "ar": "الكلمة الكاملة: 'música'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

@@ -632,6 +632,152 @@
         "ar": "الإجابة: \"Ven a mi casa esta tarde.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Hijo, ayúdame a preparar la cena.",
+      "accepted": [],
+      "audio": "Hijo, ayúdame a preparar la cena.",
+      "explanation": {
+        "es": "La frase correcta: 'Hijo, ayúdame a preparar la cena.'",
+        "en": "The correct sentence: 'Hijo, ayúdame a preparar la cena.'",
+        "ar": "الجملة الصحيحة: 'Hijo, ayúdame a preparar la cena.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¡Claro! ¿Qué hago?",
+      "accepted": [],
+      "audio": "¡Claro! ¿Qué hago?",
+      "explanation": {
+        "es": "La frase correcta: '¡Claro! ¿Qué hago?'",
+        "en": "The correct sentence: '¡Claro! ¿Qué hago?'",
+        "ar": "الجملة الصحيحة: '¡Claro! ¿Qué hago?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Lava los tomates y corta la cebolla, por favor.",
+          "en": "Lava los tomates y corta la cebolla, por favor.",
+          "ar": "Lava los tomates y corta la cebolla, por favor."
+        },
+        {
+          "es": "Entendido. Voy a poner la mesa.",
+          "en": "Entendido. Voy a poner la mesa.",
+          "ar": "Entendido. Voy a poner la mesa."
+        },
+        {
+          "es": "No cierres la puerta del horno. Espera quince minutos.",
+          "en": "No cierres la puerta del horno. Espera quince minutos.",
+          "ar": "No cierres la puerta del horno. Espera quince minutos."
+        },
+        {
+          "es": "¡Listo! ¿Y ahora?",
+          "en": "¡Listo! ¿Y ahora?",
+          "ar": "¡Listo! ¿Y ahora?"
+        }
+      ],
+      "answer": "Lava los tomates y corta la cebolla, por favor.",
+      "accepted": [],
+      "audio": "Lava los tomates y corta la cebolla, por favor.",
+      "explanation": {
+        "es": "Escuchaste: 'Lava los tomates y corta la cebolla, por favor.'",
+        "en": "You heard: 'Lava los tomates y corta la cebolla, por favor.'",
+        "ar": "سمعت: 'Lava los tomates y corta la cebolla, por favor.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "¡Listo!",
+          "en": "¡Listo!",
+          "ar": "¡Listo!"
+        },
+        {
+          "es": "ahora?",
+          "en": "ahora?",
+          "ar": "ahora?"
+        },
+        {
+          "es": "¿Y",
+          "en": "¿Y",
+          "ar": "¿Y"
+        }
+      ],
+      "answer": "¡Listo! ¿Y ahora?",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: '¡Listo! ¿Y ahora?'",
+        "en": "The correct sentence: '¡Listo! ¿Y ahora?'",
+        "ar": "الجملة الصحيحة: '¡Listo! ¿Y ahora?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "No   cierres   la   puerta   del   horno.   ___   quince   minutos.",
+        "en": "No   cierres   la   puerta   del   horno.   ___   quince   minutos.",
+        "ar": "No   cierres   la   puerta   del   horno.   ___   quince   minutos."
+      },
+      "options": [
+        {
+          "es": "'habla'",
+          "en": "'habla'",
+          "ar": "'habla'"
+        },
+        {
+          "es": "'abre'",
+          "en": "'abre'",
+          "ar": "'abre'"
+        },
+        {
+          "es": "'Espera'",
+          "en": "'Espera'",
+          "ar": "'Espera'"
+        },
+        {
+          "es": "'escucha'",
+          "en": "'escucha'",
+          "ar": "'escucha'"
+        }
+      ],
+      "answer": "'Espera'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'Espera'",
+        "en": "The complete word: 'Espera'",
+        "ar": "الكلمة الكاملة: 'Espera'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

@@ -599,6 +599,162 @@
         "ar": "الإجابة: \"El ritmo del samba es contagioso.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Ya te dije que el forró es mi pasión en la fiesta.",
+      "accepted": [],
+      "audio": "Ya te dije que el forró es mi pasión en la fiesta.",
+      "explanation": {
+        "es": "La frase correcta: 'Ya te dije que el forró es mi pasión en la fiesta.'",
+        "en": "The correct sentence: 'Ya te dije que el forró es mi pasión en la fiesta.'",
+        "ar": "الجملة الصحيحة: 'Ya te dije que el forró es mi pasión en la fiesta.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¡No me digas! ¿Y el estribillo de la música sertaneja, lo cantas?",
+      "accepted": [],
+      "audio": "¡No me digas! ¿Y el estribillo de la música sertaneja, lo cantas?",
+      "explanation": {
+        "es": "La frase correcta: '¡No me digas! ¿Y el estribillo de la música sertaneja, lo cantas?'",
+        "en": "The correct sentence: '¡No me digas! ¿Y el estribillo de la música sertaneja, lo cantas?'",
+        "ar": "الجملة الصحيحة: '¡No me digas! ¿Y el estribillo de la música sertaneja, lo cantas?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "La música brasileña mezcla ritmos.",
+          "en": "La música brasileña mezcla ritmos.",
+          "ar": "La música brasileña mezcla ritmos."
+        },
+        {
+          "es": "Canto la estrofa entera, pero desafino en la última parte.",
+          "en": "Canto la estrofa entera, pero desafino en la última parte.",
+          "ar": "Canto la estrofa entera, pero desafino en la última parte."
+        },
+        {
+          "es": "El samba nació en Río de Janeiro.",
+          "en": "El samba nació en Río de Janeiro.",
+          "ar": "El samba nació en Río de Janeiro."
+        },
+        {
+          "es": "La letra de esa canción es poética.",
+          "en": "La letra de esa canción es poética.",
+          "ar": "La letra de esa canción es poética."
+        }
+      ],
+      "answer": "Canto la estrofa entera, pero desafino en la última parte.",
+      "accepted": [],
+      "audio": "Canto la estrofa entera, pero desafino en la última parte.",
+      "explanation": {
+        "es": "Escuchaste: 'Canto la estrofa entera, pero desafino en la última parte.'",
+        "en": "You heard: 'Canto la estrofa entera, pero desafino en la última parte.'",
+        "ar": "سمعت: 'Canto la estrofa entera, pero desafino en la última parte.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "mezcla",
+          "en": "mezcla",
+          "ar": "mezcla"
+        },
+        {
+          "es": "ritmos.",
+          "en": "ritmos.",
+          "ar": "ritmos."
+        },
+        {
+          "es": "brasileña",
+          "en": "brasileña",
+          "ar": "brasileña"
+        },
+        {
+          "es": "La",
+          "en": "La",
+          "ar": "La"
+        },
+        {
+          "es": "música",
+          "en": "música",
+          "ar": "música"
+        }
+      ],
+      "answer": "La música brasileña mezcla ritmos.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'La música brasileña mezcla ritmos.'",
+        "en": "The correct sentence: 'La música brasileña mezcla ritmos.'",
+        "ar": "الجملة الصحيحة: 'La música brasileña mezcla ritmos.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "La   letra   de   esa   ___   es   poética.",
+        "en": "La   letra   de   esa   ___   es   poética.",
+        "ar": "La   letra   de   esa   ___   es   poética."
+      },
+      "options": [
+        {
+          "es": "'la letra'",
+          "en": "'la letra'",
+          "ar": "'la letra'"
+        },
+        {
+          "es": "'la música'",
+          "en": "'la música'",
+          "ar": "'la música'"
+        },
+        {
+          "es": "'el ritmo'",
+          "en": "'el ritmo'",
+          "ar": "'el ritmo'"
+        },
+        {
+          "es": "'canción'",
+          "en": "'canción'",
+          "ar": "'canción'"
+        }
+      ],
+      "answer": "'canción'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'canción'",
+        "en": "The complete word: 'canción'",
+        "ar": "الكلمة الكاملة: 'canción'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

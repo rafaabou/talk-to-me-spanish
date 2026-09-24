@@ -593,6 +593,172 @@
         "ar": "الإجابة: \"Si yo puedo, asistiré a la conferencia.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Cuando salga del trabajo hoy, quiero ir al gimnasio.",
+      "accepted": [],
+      "audio": "Cuando salga del trabajo hoy, quiero ir al gimnasio.",
+      "explanation": {
+        "es": "La frase correcta: 'Cuando salga del trabajo hoy, quiero ir al gimnasio.'",
+        "en": "The correct sentence: 'Cuando salga del trabajo hoy, quiero ir al gimnasio.'",
+        "ar": "الجملة الصحيحة: 'Cuando salga del trabajo hoy, quiero ir al gimnasio.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¡Genial! Si termino el proyecto temprano, voy contigo.",
+      "accepted": [],
+      "audio": "¡Genial! Si termino el proyecto temprano, voy contigo.",
+      "explanation": {
+        "es": "La frase correcta: '¡Genial! Si termino el proyecto temprano, voy contigo.'",
+        "en": "The correct sentence: '¡Genial! Si termino el proyecto temprano, voy contigo.'",
+        "ar": "الجملة الصحيحة: '¡Genial! Si termino el proyecto temprano, voy contigo.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Mientras esté en la ciudad, nos vemos.",
+          "en": "Mientras esté en la ciudad, nos vemos.",
+          "ar": "Mientras esté en la ciudad, nos vemos."
+        },
+        {
+          "es": "Cuando yo vaya a Madrid, te visitaré.",
+          "en": "Cuando yo vaya a Madrid, te visitaré.",
+          "ar": "Cuando yo vaya a Madrid, te visitaré."
+        },
+        {
+          "es": "Genial. En cuanto termines, avísame.",
+          "en": "Genial. En cuanto termines, avísame.",
+          "ar": "Genial. En cuanto termines, avísame."
+        },
+        {
+          "es": "De acuerdo. Después, quién sabe, cenamos fuera.",
+          "en": "De acuerdo. Después, quién sabe, cenamos fuera.",
+          "ar": "De acuerdo. Después, quién sabe, cenamos fuera."
+        }
+      ],
+      "answer": "Genial. En cuanto termines, avísame.",
+      "accepted": [],
+      "audio": "Genial. En cuanto termines, avísame.",
+      "explanation": {
+        "es": "Escuchaste: 'Genial. En cuanto termines, avísame.'",
+        "en": "You heard: 'Genial. En cuanto termines, avísame.'",
+        "ar": "سمعت: 'Genial. En cuanto termines, avísame.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "Después,",
+          "en": "Después,",
+          "ar": "Después,"
+        },
+        {
+          "es": "quién",
+          "en": "quién",
+          "ar": "quién"
+        },
+        {
+          "es": "fuera.",
+          "en": "fuera.",
+          "ar": "fuera."
+        },
+        {
+          "es": "sabe,",
+          "en": "sabe,",
+          "ar": "sabe,"
+        },
+        {
+          "es": "cenamos",
+          "en": "cenamos",
+          "ar": "cenamos"
+        },
+        {
+          "es": "acuerdo.",
+          "en": "acuerdo.",
+          "ar": "acuerdo."
+        },
+        {
+          "es": "De",
+          "en": "De",
+          "ar": "De"
+        }
+      ],
+      "answer": "De acuerdo. Después, quién sabe, cenamos fuera.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'De acuerdo. Después, quién sabe, cenamos fuera.'",
+        "en": "The correct sentence: 'De acuerdo. Después, quién sabe, cenamos fuera.'",
+        "ar": "الجملة الصحيحة: 'De acuerdo. Después, quién sabe, cenamos fuera.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "___   yo   vaya   a   Madrid,   te   visitaré.",
+        "en": "___   yo   vaya   a   Madrid,   te   visitaré.",
+        "ar": "___   yo   vaya   a   Madrid,   te   visitaré."
+      },
+      "options": [
+        {
+          "es": "'Cuando'",
+          "en": "'Cuando'",
+          "ar": "'Cuando'"
+        },
+        {
+          "es": "'cuando llegue'",
+          "en": "'cuando llegue'",
+          "ar": "'cuando llegue'"
+        },
+        {
+          "es": "'en cuanto'",
+          "en": "'en cuanto'",
+          "ar": "'en cuanto'"
+        },
+        {
+          "es": "'mientras esté'",
+          "en": "'mientras esté'",
+          "ar": "'mientras esté'"
+        }
+      ],
+      "answer": "'Cuando'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'Cuando'",
+        "en": "The complete word: 'Cuando'",
+        "ar": "الكلمة الكاملة: 'Cuando'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

@@ -600,6 +600,162 @@
         "ar": "الإجابة: \"¡Sí voy. La afición está animada!\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Este equipo es más fuerte que el rival.",
+      "accepted": [],
+      "audio": "Este equipo es más fuerte que el rival.",
+      "explanation": {
+        "es": "La frase correcta: 'Este equipo es más fuerte que el rival.'",
+        "en": "The correct sentence: 'Este equipo es más fuerte que el rival.'",
+        "ar": "الجملة الصحيحة: 'Este equipo es más fuerte que el rival.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Pero el entrenador está preocupado por la defensa.",
+      "accepted": [],
+      "audio": "Pero el entrenador está preocupado por la defensa.",
+      "explanation": {
+        "es": "La frase correcta: 'Pero el entrenador está preocupado por la defensa.'",
+        "en": "The correct sentence: 'Pero el entrenador está preocupado por la defensa.'",
+        "ar": "الجملة الصحيحة: 'Pero el entrenador está preocupado por la defensa.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "El jugador marcó dos goles.",
+          "en": "El jugador marcó dos goles.",
+          "ar": "El jugador marcó dos goles."
+        },
+        {
+          "es": "¡Una victoria hoy sería increíble!",
+          "en": "¡Una victoria hoy sería increíble!",
+          "ar": "¡Una victoria hoy sería increíble!"
+        },
+        {
+          "es": "Si el goleador marca, quedaremos en primer lugar.",
+          "en": "Si el goleador marca, quedaremos en primer lugar.",
+          "ar": "Si el goleador marca, quedaremos en primer lugar."
+        },
+        {
+          "es": "El equipo entrenó toda la semana.",
+          "en": "El equipo entrenó toda la semana.",
+          "ar": "El equipo entrenó toda la semana."
+        }
+      ],
+      "answer": "Si el goleador marca, quedaremos en primer lugar.",
+      "accepted": [],
+      "audio": "Si el goleador marca, quedaremos en primer lugar.",
+      "explanation": {
+        "es": "Escuchaste: 'Si el goleador marca, quedaremos en primer lugar.'",
+        "en": "You heard: 'Si el goleador marca, quedaremos en primer lugar.'",
+        "ar": "سمعت: 'Si el goleador marca, quedaremos en primer lugar.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "¡Una",
+          "en": "¡Una",
+          "ar": "¡Una"
+        },
+        {
+          "es": "hoy",
+          "en": "hoy",
+          "ar": "hoy"
+        },
+        {
+          "es": "sería",
+          "en": "sería",
+          "ar": "sería"
+        },
+        {
+          "es": "increíble!",
+          "en": "increíble!",
+          "ar": "increíble!"
+        },
+        {
+          "es": "victoria",
+          "en": "victoria",
+          "ar": "victoria"
+        }
+      ],
+      "answer": "¡Una victoria hoy sería increíble!",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: '¡Una victoria hoy sería increíble!'",
+        "en": "The correct sentence: '¡Una victoria hoy sería increíble!'",
+        "ar": "الجملة الصحيحة: '¡Una victoria hoy sería increíble!'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "El   equipo   ___   toda   la   semana.",
+        "en": "El   equipo   ___   toda   la   semana.",
+        "ar": "El   equipo   ___   toda   la   semana."
+      },
+      "options": [
+        {
+          "es": "'entrenó'",
+          "en": "'entrenó'",
+          "ar": "'entrenó'"
+        },
+        {
+          "es": "'el equipo'",
+          "en": "'el equipo'",
+          "ar": "'el equipo'"
+        },
+        {
+          "es": "'el jugador'",
+          "en": "'el jugador'",
+          "ar": "'el jugador'"
+        },
+        {
+          "es": "'el fútbol'",
+          "en": "'el fútbol'",
+          "ar": "'el fútbol'"
+        }
+      ],
+      "answer": "'entrenó'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'entrenó'",
+        "en": "The complete word: 'entrenó'",
+        "ar": "الكلمة الكاملة: 'entrenó'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

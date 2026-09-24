@@ -604,6 +604,187 @@
         "ar": "الإجابة: \"La energía renovable es el futuro.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Sabías que nuestro barrio va a tener un sistema de reciclaje?",
+      "accepted": [],
+      "audio": "¿Sabías que nuestro barrio va a tener un sistema de reciclaje?",
+      "explanation": {
+        "es": "La frase correcta: '¿Sabías que nuestro barrio va a tener un sistema de reciclaje?'",
+        "en": "The correct sentence: '¿Sabías que nuestro barrio va a tener un sistema de reciclaje?'",
+        "ar": "الجملة الصحيحة: '¿Sabías que nuestro barrio va a tener un sistema de reciclaje?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¡Qué genial! Es fundamental que separemos la basura en casa.",
+      "accepted": [],
+      "audio": "¡Qué genial! Es fundamental que separemos la basura en casa.",
+      "explanation": {
+        "es": "La frase correcta: '¡Qué genial! Es fundamental que separemos la basura en casa.'",
+        "en": "The correct sentence: '¡Qué genial! Es fundamental que separemos la basura en casa.'",
+        "ar": "الجملة الصحيحة: '¡Qué genial! Es fundamental que separemos la basura en casa.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "La deforestación amenaza la Amazonía.",
+          "en": "La deforestación amenaza la Amazonía.",
+          "ar": "La deforestación amenaza la Amazonía."
+        },
+        {
+          "es": "De acuerdo. Sugiero que también plantemos árboles en el parque.",
+          "en": "De acuerdo. Sugiero que también plantemos árboles en el parque.",
+          "ar": "De acuerdo. Sugiero que también plantemos árboles en el parque."
+        },
+        {
+          "es": "¡Buena idea! Si cada uno hace su parte, el barrio mejora.",
+          "en": "¡Buena idea! Si cada uno hace su parte, el barrio mejora.",
+          "ar": "¡Buena idea! Si cada uno hace su parte, el barrio mejora."
+        },
+        {
+          "es": "A causa del calentamiento global, tenemos que actuar ya.",
+          "en": "A causa del calentamiento global, tenemos que actuar ya.",
+          "ar": "A causa del calentamiento global, tenemos que actuar ya."
+        }
+      ],
+      "answer": "A causa del calentamiento global, tenemos que actuar ya.",
+      "accepted": [],
+      "audio": "A causa del calentamiento global, tenemos que actuar ya.",
+      "explanation": {
+        "es": "Escuchaste: 'A causa del calentamiento global, tenemos que actuar ya.'",
+        "en": "You heard: 'A causa del calentamiento global, tenemos que actuar ya.'",
+        "ar": "سمعت: 'A causa del calentamiento global, tenemos que actuar ya.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "acuerdo.",
+          "en": "acuerdo.",
+          "ar": "acuerdo."
+        },
+        {
+          "es": "De",
+          "en": "De",
+          "ar": "De"
+        },
+        {
+          "es": "plantemos",
+          "en": "plantemos",
+          "ar": "plantemos"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "que",
+          "en": "que",
+          "ar": "que"
+        },
+        {
+          "es": "árboles",
+          "en": "árboles",
+          "ar": "árboles"
+        },
+        {
+          "es": "también",
+          "en": "también",
+          "ar": "también"
+        },
+        {
+          "es": "en",
+          "en": "en",
+          "ar": "en"
+        },
+        {
+          "es": "Sugiero",
+          "en": "Sugiero",
+          "ar": "Sugiero"
+        },
+        {
+          "es": "parque.",
+          "en": "parque.",
+          "ar": "parque."
+        }
+      ],
+      "answer": "De acuerdo. Sugiero que también plantemos árboles en el parque.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'De acuerdo. Sugiero que también plantemos árboles en el parque.'",
+        "en": "The correct sentence: 'De acuerdo. Sugiero que también plantemos árboles en el parque.'",
+        "ar": "الجملة الصحيحة: 'De acuerdo. Sugiero que también plantemos árboles en el parque.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "¡Buena   idea!   Si   cada   uno   hace   su   parte,   el   ___   mejora.",
+        "en": "¡Buena   idea!   Si   cada   uno   hace   su   parte,   el   ___   mejora.",
+        "ar": "¡Buena   idea!   Si   cada   uno   hace   su   parte,   el   ___   mejora."
+      },
+      "options": [
+        {
+          "es": "'la sostenibilidad'",
+          "en": "'la sostenibilidad'",
+          "ar": "'la sostenibilidad'"
+        },
+        {
+          "es": "'la contaminación'",
+          "en": "'la contaminación'",
+          "ar": "'la contaminación'"
+        },
+        {
+          "es": "'barrio'",
+          "en": "'barrio'",
+          "ar": "'barrio'"
+        },
+        {
+          "es": "'la deforestación'",
+          "en": "'la deforestación'",
+          "ar": "'la deforestación'"
+        }
+      ],
+      "answer": "'barrio'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'barrio'",
+        "en": "The complete word: 'barrio'",
+        "ar": "الكلمة الكاملة: 'barrio'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

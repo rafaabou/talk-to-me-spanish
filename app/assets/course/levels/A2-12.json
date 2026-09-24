@@ -617,6 +617,182 @@
         "ar": "الإجابة: \"Ayer comí paella con amigos.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¿Qué hiciste ayer?",
+      "accepted": [],
+      "audio": "¿Qué hiciste ayer?",
+      "explanation": {
+        "es": "La frase correcta: '¿Qué hiciste ayer?'",
+        "en": "The correct sentence: '¿Qué hiciste ayer?'",
+        "ar": "الجملة الصحيحة: '¿Qué hiciste ayer?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Trabajé por la mañana y por la tarde fui al mercado.",
+      "accepted": [],
+      "audio": "Trabajé por la mañana y por la tarde fui al mercado.",
+      "explanation": {
+        "es": "La frase correcta: 'Trabajé por la mañana y por la tarde fui al mercado.'",
+        "en": "The correct sentence: 'Trabajé por la mañana y por la tarde fui al mercado.'",
+        "ar": "الجملة الصحيحة: 'Trabajé por la mañana y por la tarde fui al mercado.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "El dinero del viaje se acabó.",
+          "en": "El dinero del viaje se acabó.",
+          "ar": "El dinero del viaje se acabó."
+        },
+        {
+          "es": "¡Genial! No olvides llamarme cuando vuelvas.",
+          "en": "¡Genial! No olvides llamarme cuando vuelvas.",
+          "ar": "¡Genial! No olvides llamarme cuando vuelvas."
+        },
+        {
+          "es": "Cuando era niño, me encantaba ir al mercado con mi padre.",
+          "en": "Cuando era niño, me encantaba ir al mercado con mi padre.",
+          "ar": "Cuando era niño, me encantaba ir al mercado con mi padre."
+        },
+        {
+          "es": "¡Qué bonito recuerdo! ¿Y qué vas a hacer mañana?",
+          "en": "¡Qué bonito recuerdo! ¿Y qué vas a hacer mañana?",
+          "ar": "¡Qué bonito recuerdo! ¿Y qué vas a hacer mañana?"
+        }
+      ],
+      "answer": "Cuando era niño, me encantaba ir al mercado con mi padre.",
+      "accepted": [],
+      "audio": "Cuando era niño, me encantaba ir al mercado con mi padre.",
+      "explanation": {
+        "es": "Escuchaste: 'Cuando era niño, me encantaba ir al mercado con mi padre.'",
+        "en": "You heard: 'Cuando era niño, me encantaba ir al mercado con mi padre.'",
+        "ar": "سمعت: 'Cuando era niño, me encantaba ir al mercado con mi padre.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "recuerdo!",
+          "en": "recuerdo!",
+          "ar": "recuerdo!"
+        },
+        {
+          "es": "mañana?",
+          "en": "mañana?",
+          "ar": "mañana?"
+        },
+        {
+          "es": "¿Y",
+          "en": "¿Y",
+          "ar": "¿Y"
+        },
+        {
+          "es": "vas",
+          "en": "vas",
+          "ar": "vas"
+        },
+        {
+          "es": "¡Qué",
+          "en": "¡Qué",
+          "ar": "¡Qué"
+        },
+        {
+          "es": "bonito",
+          "en": "bonito",
+          "ar": "bonito"
+        },
+        {
+          "es": "a",
+          "en": "a",
+          "ar": "a"
+        },
+        {
+          "es": "hacer",
+          "en": "hacer",
+          "ar": "hacer"
+        },
+        {
+          "es": "qué",
+          "en": "qué",
+          "ar": "qué"
+        }
+      ],
+      "answer": "¡Qué bonito recuerdo! ¿Y qué vas a hacer mañana?",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: '¡Qué bonito recuerdo! ¿Y qué vas a hacer mañana?'",
+        "en": "The correct sentence: '¡Qué bonito recuerdo! ¿Y qué vas a hacer mañana?'",
+        "ar": "الجملة الصحيحة: '¡Qué bonito recuerdo! ¿Y qué vas a hacer mañana?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "¡Genial!   No   olvides   ___   cuando   vuelvas.",
+        "en": "¡Genial!   No   olvides   ___   cuando   vuelvas.",
+        "ar": "¡Genial!   No   olvides   ___   cuando   vuelvas."
+      },
+      "options": [
+        {
+          "es": "'llamarme'",
+          "en": "'llamarme'",
+          "ar": "'llamarme'"
+        },
+        {
+          "es": "'el dinero'",
+          "en": "'el dinero'",
+          "ar": "'el dinero'"
+        },
+        {
+          "es": "'ayer'",
+          "en": "'ayer'",
+          "ar": "'ayer'"
+        },
+        {
+          "es": "'la tienda'",
+          "en": "'la tienda'",
+          "ar": "'la tienda'"
+        }
+      ],
+      "answer": "'llamarme'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'llamarme'",
+        "en": "The complete word: 'llamarme'",
+        "ar": "الكلمة الكاملة: 'llamarme'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

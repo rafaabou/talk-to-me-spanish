@@ -589,6 +589,172 @@
         "ar": "الإجابة: \"El pastel de chocolate es mi favorito.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "¡Vamos a celebrar mi cumpleaños el viernes!",
+      "accepted": [],
+      "audio": "¡Vamos a celebrar mi cumpleaños el viernes!",
+      "explanation": {
+        "es": "La frase correcta: '¡Vamos a celebrar mi cumpleaños el viernes!'",
+        "en": "The correct sentence: '¡Vamos a celebrar mi cumpleaños el viernes!'",
+        "ar": "الجملة الصحيحة: '¡Vamos a celebrar mi cumpleaños el viernes!'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Sí, empieza a las ocho de la noche en mi casa.",
+      "accepted": [],
+      "audio": "Sí, empieza a las ocho de la noche en mi casa.",
+      "explanation": {
+        "es": "La frase correcta: 'Sí, empieza a las ocho de la noche en mi casa.'",
+        "en": "The correct sentence: 'Sí, empieza a las ocho de la noche en mi casa.'",
+        "ar": "الجملة الصحيحة: 'Sí, empieza a las ocho de la noche en mi casa.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "La boda será en primavera.",
+          "en": "La boda será en primavera.",
+          "ar": "La boda será en primavera."
+        },
+        {
+          "es": "Voy a preparar un brindis especial. ¿Puedo traer un pastel?",
+          "en": "Voy a preparar un brindis especial. ¿Puedo traer un pastel?",
+          "ar": "Voy a preparar un brindis especial. ¿Puedo traer un pastel?"
+        },
+        {
+          "es": "La fiesta de graduación fue elegante.",
+          "en": "La fiesta de graduación fue elegante.",
+          "ar": "La fiesta de graduación fue elegante."
+        },
+        {
+          "es": "¡De acuerdo. Vamos a disfrutar la noche!",
+          "en": "¡De acuerdo. Vamos a disfrutar la noche!",
+          "ar": "¡De acuerdo. Vamos a disfrutar la noche!"
+        }
+      ],
+      "answer": "Voy a preparar un brindis especial. ¿Puedo traer un pastel?",
+      "accepted": [],
+      "audio": "Voy a preparar un brindis especial. ¿Puedo traer un pastel?",
+      "explanation": {
+        "es": "Escuchaste: 'Voy a preparar un brindis especial. ¿Puedo traer un pastel?'",
+        "en": "You heard: 'Voy a preparar un brindis especial. ¿Puedo traer un pastel?'",
+        "ar": "سمعت: 'Voy a preparar un brindis especial. ¿Puedo traer un pastel?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "disfrutar",
+          "en": "disfrutar",
+          "ar": "disfrutar"
+        },
+        {
+          "es": "¡De",
+          "en": "¡De",
+          "ar": "¡De"
+        },
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "Vamos",
+          "en": "Vamos",
+          "ar": "Vamos"
+        },
+        {
+          "es": "a",
+          "en": "a",
+          "ar": "a"
+        },
+        {
+          "es": "noche!",
+          "en": "noche!",
+          "ar": "noche!"
+        },
+        {
+          "es": "acuerdo.",
+          "en": "acuerdo.",
+          "ar": "acuerdo."
+        }
+      ],
+      "answer": "¡De acuerdo. Vamos a disfrutar la noche!",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: '¡De acuerdo. Vamos a disfrutar la noche!'",
+        "en": "The correct sentence: '¡De acuerdo. Vamos a disfrutar la noche!'",
+        "ar": "الجملة الصحيحة: '¡De acuerdo. Vamos a disfrutar la noche!'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "La   fiesta   de   ___   fue   elegante.",
+        "en": "La   fiesta   de   ___   fue   elegante.",
+        "ar": "La   fiesta   de   ___   fue   elegante."
+      },
+      "options": [
+        {
+          "es": "'la fiesta'",
+          "en": "'la fiesta'",
+          "ar": "'la fiesta'"
+        },
+        {
+          "es": "'el cumpleaños'",
+          "en": "'el cumpleaños'",
+          "ar": "'el cumpleaños'"
+        },
+        {
+          "es": "'la boda'",
+          "en": "'la boda'",
+          "ar": "'la boda'"
+        },
+        {
+          "es": "'graduación'",
+          "en": "'graduación'",
+          "ar": "'graduación'"
+        }
+      ],
+      "answer": "'graduación'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'graduación'",
+        "en": "The complete word: 'graduación'",
+        "ar": "الكلمة الكاملة: 'graduación'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

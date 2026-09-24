@@ -627,6 +627,237 @@
         "ar": "الإجابة: \"El neologismo nombra realidades nuevas.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Puede ser. Pero, para que sepas, el restaurante de al lado está lleno.",
+      "accepted": [],
+      "audio": "Puede ser. Pero, para que sepas, el restaurante de al lado está lleno.",
+      "explanation": {
+        "es": "La frase correcta: 'Puede ser. Pero, para que sepas, el restaurante de al lado está lleno.'",
+        "en": "The correct sentence: 'Puede ser. Pero, para que sepas, el restaurante de al lado está lleno.'",
+        "ar": "الجملة الصحيحة: 'Puede ser. Pero, para que sepas, el restaurante de al lado está lleno.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "Aquí en el Río de la Plata decimos 'el mate es bueno', en el Caribe se escucha 'el agua está caliente' con otro ritmo.",
+      "accepted": [],
+      "audio": "Aquí en el Río de la Plata decimos 'el mate es bueno', en el Caribe se escucha 'el agua está caliente' con otro ritmo.",
+      "explanation": {
+        "es": "La frase correcta: 'Aquí en el Río de la Plata decimos 'el mate es bueno', en el Caribe se escucha 'el agua está caliente' con otro ritmo.'",
+        "en": "The correct sentence: 'Aquí en el Río de la Plata decimos 'el mate es bueno', en el Caribe se escucha 'el agua está caliente' con otro ritmo.'",
+        "ar": "الجملة الصحيحة: 'Aquí en el Río de la Plata decimos 'el mate es bueno', en el Caribe se escucha 'el agua está caliente' con otro ritmo.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "Y el habla caribeña aspira la 's' final de las palabras.",
+          "en": "Y el habla caribeña aspira la 's' final de las palabras.",
+          "ar": "Y el habla caribeña aspira la 's' final de las palabras."
+        },
+        {
+          "es": "Exacto. La prosodia, el léxico y los pronombres varían, pero la norma culta acerca a todos en la escritura formal.",
+          "en": "Exacto. La prosodia, el léxico y los pronombres varían, pero la norma culta acerca a todos en la escritura formal.",
+          "ar": "Exacto. La prosodia, el léxico y los pronombres varían, pero la norma culta acerca a todos en la escritura formal."
+        },
+        {
+          "es": "Entonces vamos a almorzar, que te cuento las jergas del norte que nadie conoce.",
+          "en": "Entonces vamos a almorzar, que te cuento las jergas del norte que nadie conoce.",
+          "ar": "Entonces vamos a almorzar, que te cuento las jergas del norte que nadie conoce."
+        },
+        {
+          "es": "El regionalismo marca variantes locales.",
+          "en": "El regionalismo marca variantes locales.",
+          "ar": "El regionalismo marca variantes locales."
+        }
+      ],
+      "answer": "Y el habla caribeña aspira la 's' final de las palabras.",
+      "accepted": [],
+      "audio": "Y el habla caribeña aspira la 's' final de las palabras.",
+      "explanation": {
+        "es": "Escuchaste: 'Y el habla caribeña aspira la 's' final de las palabras.'",
+        "en": "You heard: 'Y el habla caribeña aspira la 's' final de las palabras.'",
+        "ar": "سمعت: 'Y el habla caribeña aspira la 's' final de las palabras.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "pero",
+          "en": "pero",
+          "ar": "pero"
+        },
+        {
+          "es": "acerca",
+          "en": "acerca",
+          "ar": "acerca"
+        },
+        {
+          "es": "léxico",
+          "en": "léxico",
+          "ar": "léxico"
+        },
+        {
+          "es": "los",
+          "en": "los",
+          "ar": "los"
+        },
+        {
+          "es": "prosodia,",
+          "en": "prosodia,",
+          "ar": "prosodia,"
+        },
+        {
+          "es": "Exacto.",
+          "en": "Exacto.",
+          "ar": "Exacto."
+        },
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "la",
+          "en": "la",
+          "ar": "la"
+        },
+        {
+          "es": "varían,",
+          "en": "varían,",
+          "ar": "varían,"
+        },
+        {
+          "es": "La",
+          "en": "La",
+          "ar": "La"
+        },
+        {
+          "es": "escritura",
+          "en": "escritura",
+          "ar": "escritura"
+        },
+        {
+          "es": "formal.",
+          "en": "formal.",
+          "ar": "formal."
+        },
+        {
+          "es": "todos",
+          "en": "todos",
+          "ar": "todos"
+        },
+        {
+          "es": "norma",
+          "en": "norma",
+          "ar": "norma"
+        },
+        {
+          "es": "culta",
+          "en": "culta",
+          "ar": "culta"
+        },
+        {
+          "es": "pronombres",
+          "en": "pronombres",
+          "ar": "pronombres"
+        },
+        {
+          "es": "a",
+          "en": "a",
+          "ar": "a"
+        },
+        {
+          "es": "y",
+          "en": "y",
+          "ar": "y"
+        },
+        {
+          "es": "el",
+          "en": "el",
+          "ar": "el"
+        },
+        {
+          "es": "en",
+          "en": "en",
+          "ar": "en"
+        }
+      ],
+      "answer": "Exacto. La prosodia, el léxico y los pronombres varían, pero la norma culta acerca a todos en la escritura formal.",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: 'Exacto. La prosodia, el léxico y los pronombres varían, pero la norma culta acerca a todos en la escritura formal.'",
+        "en": "The correct sentence: 'Exacto. La prosodia, el léxico y los pronombres varían, pero la norma culta acerca a todos en la escritura formal.'",
+        "ar": "الجملة الصحيحة: 'Exacto. La prosodia, el léxico y los pronombres varían, pero la norma culta acerca a todos en la escritura formal.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "Entonces   vamos   a   almorzar,   que   te   cuento   las   ___   del   norte   que   nadie   conoce.",
+        "en": "Entonces   vamos   a   almorzar,   que   te   cuento   las   ___   del   norte   que   nadie   conoce.",
+        "ar": "Entonces   vamos   a   almorzar,   que   te   cuento   las   ___   del   norte   que   nadie   conoce."
+      },
+      "options": [
+        {
+          "es": "'la jerga'",
+          "en": "'la jerga'",
+          "ar": "'la jerga'"
+        },
+        {
+          "es": "'jergas'",
+          "en": "'jergas'",
+          "ar": "'jergas'"
+        },
+        {
+          "es": "'el dialecto'",
+          "en": "'el dialecto'",
+          "ar": "'el dialecto'"
+        },
+        {
+          "es": "'el regionalismo'",
+          "en": "'el regionalismo'",
+          "ar": "'el regionalismo'"
+        }
+      ],
+      "answer": "'jergas'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'jergas'",
+        "en": "The complete word: 'jergas'",
+        "ar": "الكلمة الكاملة: 'jergas'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }

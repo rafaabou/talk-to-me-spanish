@@ -600,6 +600,167 @@
         "ar": "الإجابة: \"Vamos a desayunar ahora.\"."
       },
       "gen": "v1.8"
+    },
+    {
+      "type": "listening",
+      "prompt": {
+        "es": "Escucha y escribe lo que oyes.",
+        "en": "Listen and type what you hear.",
+        "ar": "استمع واكتب ما سمعته."
+      },
+      "options": [],
+      "answer": "Bruno, ¿a qué hora te despiertas?",
+      "accepted": [],
+      "audio": "Bruno, ¿a qué hora te despiertas?",
+      "explanation": {
+        "es": "La frase correcta: 'Bruno, ¿a qué hora te despiertas?'",
+        "en": "The correct sentence: 'Bruno, ¿a qué hora te despiertas?'",
+        "ar": "الجملة الصحيحة: 'Bruno, ¿a qué hora te despiertas?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "dictation",
+      "prompt": {
+        "es": "Escucha y escribe la frase completa.",
+        "en": "Listen and write the whole sentence.",
+        "ar": "استمع واكتب الجملة كاملة."
+      },
+      "options": [],
+      "answer": "¿Y qué haces después?",
+      "accepted": [],
+      "audio": "¿Y qué haces después?",
+      "explanation": {
+        "es": "La frase correcta: '¿Y qué haces después?'",
+        "en": "The correct sentence: '¿Y qué haces después?'",
+        "ar": "الجملة الصحيحة: '¿Y qué haces después?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "listening_mcq",
+      "prompt": {
+        "es": "Escucha y elige la frase que oíste.",
+        "en": "Listen and choose the sentence you heard.",
+        "ar": "استمع واختر الجملة التي سمعتها."
+      },
+      "options": [
+        {
+          "es": "A las seis de la tarde. Después duermo temprano.",
+          "en": "A las seis de la tarde. Después duermo temprano.",
+          "ar": "A las seis de la tarde. Después duermo temprano."
+        },
+        {
+          "es": "¿A qué hora llegas a casa?",
+          "en": "¿A qué hora llegas a casa?",
+          "ar": "¿A qué hora llegas a casa?"
+        },
+        {
+          "es": "Es la hora de comer.",
+          "en": "Es la hora de comer.",
+          "ar": "Es la hora de comer."
+        },
+        {
+          "es": "Me ducho, desayuno y salgo a las ocho.",
+          "en": "Me ducho, desayuno y salgo a las ocho.",
+          "ar": "Me ducho, desayuno y salgo a las ocho."
+        }
+      ],
+      "answer": "Me ducho, desayuno y salgo a las ocho.",
+      "accepted": [],
+      "audio": "Me ducho, desayuno y salgo a las ocho.",
+      "explanation": {
+        "es": "Escuchaste: 'Me ducho, desayuno y salgo a las ocho.'",
+        "en": "You heard: 'Me ducho, desayuno y salgo a las ocho.'",
+        "ar": "سمعت: 'Me ducho, desayuno y salgo a las ocho.'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "sentence_reorder",
+      "prompt": {
+        "es": "Reordena las palabras para formar la frase:",
+        "en": "Reorder the words to form the sentence:",
+        "ar": "أعد ترتيب الكلمات لتكوين الجملة:"
+      },
+      "options": [
+        {
+          "es": "casa?",
+          "en": "casa?",
+          "ar": "casa?"
+        },
+        {
+          "es": "hora",
+          "en": "hora",
+          "ar": "hora"
+        },
+        {
+          "es": "llegas",
+          "en": "llegas",
+          "ar": "llegas"
+        },
+        {
+          "es": "¿A",
+          "en": "¿A",
+          "ar": "¿A"
+        },
+        {
+          "es": "qué",
+          "en": "qué",
+          "ar": "qué"
+        },
+        {
+          "es": "a",
+          "en": "a",
+          "ar": "a"
+        }
+      ],
+      "answer": "¿A qué hora llegas a casa?",
+      "accepted": [],
+      "explanation": {
+        "es": "La frase correcta: '¿A qué hora llegas a casa?'",
+        "en": "The correct sentence: '¿A qué hora llegas a casa?'",
+        "ar": "الجملة الصحيحة: '¿A qué hora llegas a casa?'"
+      },
+      "gen": "es-parity-v1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": {
+        "es": "A   las   seis   de   la   tarde.   Después   ___   temprano.",
+        "en": "A   las   seis   de   la   tarde.   Después   ___   temprano.",
+        "ar": "A   las   seis   de   la   tarde.   Después   ___   temprano."
+      },
+      "options": [
+        {
+          "es": "'despertarse'",
+          "en": "'despertarse'",
+          "ar": "'despertarse'"
+        },
+        {
+          "es": "'la hora'",
+          "en": "'la hora'",
+          "ar": "'la hora'"
+        },
+        {
+          "es": "'duermo'",
+          "en": "'duermo'",
+          "ar": "'duermo'"
+        },
+        {
+          "es": "'el reloj'",
+          "en": "'el reloj'",
+          "ar": "'el reloj'"
+        }
+      ],
+      "answer": "'duermo'",
+      "accepted": [],
+      "explanation": {
+        "es": "La palabra completa: 'duermo'",
+        "en": "The complete word: 'duermo'",
+        "ar": "الكلمة الكاملة: 'duermo'"
+      },
+      "gen": "es-parity-v1"
     }
   ]
 }
