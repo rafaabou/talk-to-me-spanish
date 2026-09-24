@@ -618,7 +618,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Estoy tranquilo, solo un poco sin pasta este mes.",
+          "en": "Estoy tranquilo, solo un poco sin pasta este mes.",
+          "ar": "Estoy tranquilo, solo un poco sin pasta este mes."
+        },
+        {
+          "es": "Sin problema, la vuelta es barata. ¡Mira el lugar!",
+          "en": "Sin problema, la vuelta es barata. ¡Mira el lugar!",
+          "ar": "Sin problema, la vuelta es barata. ¡Mira el lugar!"
+        },
+        {
+          "es": "¿Qué tal, colega, todo bien?",
+          "en": "¿Qué tal, colega, todo bien?",
+          "ar": "¿Qué tal, colega, todo bien?"
+        }
+      ],
       "answer": "¿Qué tal, colega, todo bien?",
       "accepted": [],
       "audio": "¿Qué tal, colega, todo bien?",

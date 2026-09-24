@@ -623,7 +623,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Buenas tardes. Nos gustaría discutir los términos del contrato.",
+          "en": "Buenas tardes. Nos gustaría discutir los términos del contrato.",
+          "ar": "Buenas tardes. Nos gustaría discutir los términos del contrato."
+        },
+        {
+          "es": "Claro. ¿Sería posible ampliar el plazo de pago?",
+          "en": "Claro. ¿Sería posible ampliar el plazo de pago?",
+          "ar": "Claro. ¿Sería posible ampliar el plazo de pago?"
+        },
+        {
+          "es": "Podemos considerarlo, si se mantiene el importe total.",
+          "en": "Podemos considerarlo, si se mantiene el importe total.",
+          "ar": "Podemos considerarlo, si se mantiene el importe total."
+        }
+      ],
       "answer": "Buenas tardes. Nos gustaría discutir los términos del contrato.",
       "accepted": [],
       "audio": "Buenas tardes. Nos gustaría discutir los términos del contrato.",

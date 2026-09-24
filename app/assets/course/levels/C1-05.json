@@ -617,7 +617,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Estoy de acuerdo con él, pero necesitamos la opinión del departamento legal.",
+          "en": "Estoy de acuerdo con él, pero necesitamos la opinión del departamento legal.",
+          "ar": "Estoy de acuerdo con él, pero necesitamos la opinión del departamento legal."
+        },
+        {
+          "es": "El gerente insistió en revisar el informe antes del envío.",
+          "en": "El gerente insistió en revisar el informe antes del envío.",
+          "ar": "El gerente insistió en revisar el informe antes del envío."
+        },
+        {
+          "es": "Ya respondí todos los correos y agradecí la participación de cada uno.",
+          "en": "Ya respondí todos los correos y agradecí la participación de cada uno.",
+          "ar": "Ya respondí todos los correos y agradecí la participación de cada uno."
+        }
+      ],
       "answer": "El gerente insistió en revisar el informe antes del envío.",
       "accepted": [],
       "audio": "El gerente insistió en revisar el informe antes del envío.",

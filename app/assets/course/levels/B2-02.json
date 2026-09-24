@@ -607,7 +607,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Es verdad, pero creo que muchos candidatos no cumplen sus promesas.",
+          "en": "Es verdad, pero creo que muchos candidatos no cumplen sus promesas.",
+          "ar": "Es verdad, pero creo que muchos candidatos no cumplen sus promesas."
+        },
+        {
+          "es": "¡Claro! En mi opinión, el voto es un deber y un derecho de todo ciudadano.",
+          "en": "¡Claro! En mi opinión, el voto es un deber y un derecho de todo ciudadano.",
+          "ar": "¡Claro! En mi opinión, el voto es un deber y un derecho de todo ciudadano."
+        },
+        {
+          "es": "¿Vas a votar en las próximas elecciones?",
+          "en": "¿Vas a votar en las próximas elecciones?",
+          "ar": "¿Vas a votar en las próximas elecciones?"
+        }
+      ],
       "answer": "¿Vas a votar en las próximas elecciones?",
       "accepted": [],
       "audio": "¿Vas a votar en las próximas elecciones?",

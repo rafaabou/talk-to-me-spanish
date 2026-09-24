@@ -597,7 +597,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¡Vamos a celebrar mi cumpleaños el viernes!",
+          "en": "¡Vamos a celebrar mi cumpleaños el viernes!",
+          "ar": "¡Vamos a celebrar mi cumpleaños el viernes!"
+        },
+        {
+          "es": "Sí, empieza a las ocho de la noche en mi casa.",
+          "en": "Sí, empieza a las ocho de la noche en mi casa.",
+          "ar": "Sí, empieza a las ocho de la noche en mi casa."
+        },
+        {
+          "es": "¡Qué genial! ¿La fiesta será el sábado?",
+          "en": "¡Qué genial! ¿La fiesta será el sábado?",
+          "ar": "¡Qué genial! ¿La fiesta será el sábado?"
+        }
+      ],
       "answer": "¡Vamos a celebrar mi cumpleaños el viernes!",
       "accepted": [],
       "audio": "¡Vamos a celebrar mi cumpleaños el viernes!",

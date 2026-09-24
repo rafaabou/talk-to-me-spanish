@@ -630,7 +630,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "El pescado con arroz es delicioso.",
+          "en": "El pescado con arroz es delicioso.",
+          "ar": "El pescado con arroz es delicioso."
+        },
+        {
+          "es": "¡Buenas noches! Aquí está el menú.",
+          "en": "¡Buenas noches! Aquí está el menú.",
+          "ar": "¡Buenas noches! Aquí está el menú."
+        },
+        {
+          "es": "Gracias. ¿Qué recomienda?",
+          "en": "Gracias. ¿Qué recomienda?",
+          "ar": "Gracias. ¿Qué recomienda?"
+        }
+      ],
       "answer": "¡Buenas noches! Aquí está el menú.",
       "accepted": [],
       "audio": "¡Buenas noches! Aquí está el menú.",

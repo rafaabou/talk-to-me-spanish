@@ -45,13 +45,20 @@ void main() {
       // Questions loaded -> first set of option buttons rendered.
       await pumpUntil(tester, () => tester.any(find.byType(OutlinedButton)));
 
-      // Answer every question: the A1 quiz length depends on how many
+      // Answer every question: the quiz length depends on how many
       // multiple-choice / fill-blank / listening drills the lessons contain, so
       // the loop stops when the result screen appears instead of assuming 10.
+      // A question with no answer widget is a real bug (an unanswerable
+      // drill), so it fails loudly instead of ending the loop early.
       final result = find.textContaining('Best score:');
       for (var i = 0; i < 60 && tester.any(result) == false; i++) {
         final option = find.byType(OutlinedButton);
-        if (tester.any(option) == false) break;
+        if (tester.any(option) == false) {
+          throw StateError(
+            'question ${i + 1} rendered no answer buttons: a quiz question '
+            'must offer options or a text field',
+          );
+        }
         await tester.tap(option.first);
         final next = find.widgetWithText(FilledButton, 'Next');
         await pumpUntil(tester, () => tester.any(next));

@@ -613,7 +613,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Por un lado, es verdad; por otro, los coches particulares todavía dominan.",
+          "en": "Por un lado, es verdad; por otro, los coches particulares todavía dominan.",
+          "ar": "Por un lado, es verdad; por otro, los coches particulares todavía dominan."
+        },
+        {
+          "es": "Sin embargo, los datos muestran que el transporte público mejoró.",
+          "en": "Sin embargo, los datos muestran que el transporte público mejoró.",
+          "ar": "Sin embargo, los datos muestran que el transporte público mejoró."
+        },
+        {
+          "es": "En suma, la tasa de congestión solo crece en las grandes ciudades.",
+          "en": "En suma, la tasa de congestión solo crece en las grandes ciudades.",
+          "ar": "En suma, la tasa de congestión solo crece en las grandes ciudades."
+        }
+      ],
       "answer": "En suma, la tasa de congestión solo crece en las grandes ciudades.",
       "accepted": [],
       "audio": "En suma, la tasa de congestión solo crece en las grandes ciudades.",

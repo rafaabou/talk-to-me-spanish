@@ -612,7 +612,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Genial. Sin embargo, recuerden organizar las ideas con conectores.",
+          "en": "Genial. Sin embargo, recuerden organizar las ideas con conectores.",
+          "ar": "Genial. Sin embargo, recuerden organizar las ideas con conectores."
+        },
+        {
+          "es": "En primer lugar, deben definir el tema de la redacción.",
+          "en": "En primer lugar, deben definir el tema de la redacción.",
+          "ar": "En primer lugar, deben definir el tema de la redacción."
+        },
+        {
+          "es": "Podemos hablar sobre tecnología; además, queremos citar ejemplos cotidianos.",
+          "en": "Podemos hablar sobre tecnología; además, queremos citar ejemplos cotidianos.",
+          "ar": "Podemos hablar sobre tecnología; además, queremos citar ejemplos cotidianos."
+        }
+      ],
       "answer": "En primer lugar, deben definir el tema de la redacción.",
       "accepted": [],
       "audio": "En primer lugar, deben definir el tema de la redacción.",

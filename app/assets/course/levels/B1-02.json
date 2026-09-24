@@ -607,7 +607,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Trabajé en una empresa de tecnología por tres años.",
+          "en": "Trabajé en una empresa de tecnología por tres años.",
+          "ar": "Trabajé en una empresa de tecnología por tres años."
+        },
+        {
+          "es": "¿Qué habilidades desarrollaste?",
+          "en": "¿Qué habilidades desarrollaste?",
+          "ar": "¿Qué habilidades desarrollaste?"
+        },
+        {
+          "es": "Cuéntame sobre tu experiencia profesional.",
+          "en": "Cuéntame sobre tu experiencia profesional.",
+          "ar": "Cuéntame sobre tu experiencia profesional."
+        }
+      ],
       "answer": "Cuéntame sobre tu experiencia profesional.",
       "accepted": [],
       "audio": "Cuéntame sobre tu experiencia profesional.",

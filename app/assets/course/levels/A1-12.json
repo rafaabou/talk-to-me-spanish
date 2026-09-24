@@ -604,7 +604,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Son las diez. ¿Quieres un café?",
+          "en": "Son las diez. ¿Quieres un café?",
+          "ar": "Son las diez. ¿Quieres un café?"
+        },
+        {
+          "es": "¡Mucho gusto, Karim! Yo soy Marina.",
+          "en": "¡Mucho gusto, Karim! Yo soy Marina.",
+          "ar": "¡Mucho gusto, Karim! Yo soy Marina."
+        },
+        {
+          "es": "¡Hola! Mi nombre es Karim. Soy de Egipto.",
+          "en": "¡Hola! Mi nombre es Karim. Soy de Egipto.",
+          "ar": "¡Hola! Mi nombre es Karim. Soy de Egipto."
+        }
+      ],
       "answer": "Son las diez. ¿Quieres un café?",
       "accepted": [],
       "audio": "Son las diez. ¿Quieres un café?",

@@ -607,7 +607,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Sí, y antes de eso el país vivió siglos de colonización y esclavitud.",
+          "en": "Sí, y antes de eso el país vivió siglos de colonización y esclavitud.",
+          "ar": "Sí, y antes de eso el país vivió siglos de colonización y esclavitud."
+        },
+        {
+          "es": "¿Sabías que la independencia de Brasil fue proclamada en 1822 por Don Pedro I?",
+          "en": "¿Sabías que la independencia de Brasil fue proclamada en 1822 por Don Pedro I?",
+          "ar": "¿Sabías que la independencia de Brasil fue proclamada en 1822 por Don Pedro I?"
+        },
+        {
+          "es": "La esclavitud fue abolida en 1888, la última gran abolición de las Américas.",
+          "en": "La esclavitud fue abolida en 1888, la última gran abolición de las Américas.",
+          "ar": "La esclavitud fue abolida en 1888, la última gran abolición de las Américas."
+        }
+      ],
       "answer": "¿Sabías que la independencia de Brasil fue proclamada en 1822 por Don Pedro I?",
       "accepted": [],
       "audio": "¿Sabías que la independencia de Brasil fue proclamada en 1822 por Don Pedro I?",

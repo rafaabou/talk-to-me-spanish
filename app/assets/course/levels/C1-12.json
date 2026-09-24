@@ -612,7 +612,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Ya dominas el subjuntivo en concesiones complejas?",
+          "en": "¿Ya dominas el subjuntivo en concesiones complejas?",
+          "ar": "¿Ya dominas el subjuntivo en concesiones complejas?"
+        },
+        {
+          "es": "Fue con la práctica que consolidaste la concordancia y la rección.",
+          "en": "Fue con la práctica que consolidaste la concordancia y la rección.",
+          "ar": "Fue con la práctica que consolidaste la concordancia y la rección."
+        },
+        {
+          "es": "Sí, aunque todavía matizo el discurso indirecto con hesitación.",
+          "en": "Sí, aunque todavía matizo el discurso indirecto con hesitación.",
+          "ar": "Sí, aunque todavía matizo el discurso indirecto con hesitación."
+        }
+      ],
       "answer": "¿Ya dominas el subjuntivo en concesiones complejas?",
       "accepted": [],
       "audio": "¿Ya dominas el subjuntivo en concesiones complejas?",

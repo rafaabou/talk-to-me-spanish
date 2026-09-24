@@ -619,7 +619,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Qué opinas de Madrid?",
+          "en": "¿Qué opinas de Madrid?",
+          "ar": "¿Qué opinas de Madrid?"
+        },
+        {
+          "es": "¿Y el tráfico?",
+          "en": "¿Y el tráfico?",
+          "ar": "¿Y el tráfico?"
+        },
+        {
+          "es": "Es más grande que Sevilla, pero es más cara.",
+          "en": "Es más grande que Sevilla, pero es más cara.",
+          "ar": "Es más grande que Sevilla, pero es más cara."
+        }
+      ],
       "answer": "¿Qué opinas de Madrid?",
       "accepted": [],
       "audio": "¿Qué opinas de Madrid?",

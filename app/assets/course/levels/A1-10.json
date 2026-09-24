@@ -620,7 +620,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Y qué hay en la sala de estar?",
+          "en": "¿Y qué hay en la sala de estar?",
+          "ar": "¿Y qué hay en la sala de estar?"
+        },
+        {
+          "es": "¿Cómo es tu nueva casa?",
+          "en": "¿Cómo es tu nueva casa?",
+          "ar": "¿Cómo es tu nueva casa?"
+        },
+        {
+          "es": "¡Es grande! Tiene una sala de estar, tres dormitorios y una cocina enorme.",
+          "en": "¡Es grande! Tiene una sala de estar, tres dormitorios y una cocina enorme.",
+          "ar": "¡Es grande! Tiene una sala de estar, tres dormitorios y una cocina enorme."
+        }
+      ],
       "answer": "¿Cómo es tu nueva casa?",
       "accepted": [],
       "audio": "¿Cómo es tu nueva casa?",

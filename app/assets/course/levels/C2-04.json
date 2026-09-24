@@ -625,7 +625,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Entiendo. ¿Cabría el recurso todavía dentro del plazo legal?",
+          "en": "Entiendo. ¿Cabría el recurso todavía dentro del plazo legal?",
+          "ar": "Entiendo. ¿Cabría el recurso todavía dentro del plazo legal?"
+        },
+        {
+          "es": "Sí, pero sería prudente esperar la publicación de la sumilla.",
+          "en": "Sí, pero sería prudente esperar la publicación de la sumilla.",
+          "ar": "Sí, pero sería prudente esperar la publicación de la sumilla."
+        },
+        {
+          "es": "El informe pericial fue homologado y la sentencia se publicará el viernes.",
+          "en": "El informe pericial fue homologado y la sentencia se publicará el viernes.",
+          "ar": "El informe pericial fue homologado y la sentencia se publicará el viernes."
+        }
+      ],
       "answer": "Entiendo. ¿Cabría el recurso todavía dentro del plazo legal?",
       "accepted": [],
       "audio": "Entiendo. ¿Cabría el recurso todavía dentro del plazo legal?",

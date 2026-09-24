@@ -635,7 +635,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Cuidado: esa inferencia puede esconder una falacia de generalización.",
+          "en": "Cuidado: esa inferencia puede esconder una falacia de generalización.",
+          "ar": "Cuidado: esa inferencia puede esconder una falacia de generalización."
+        },
+        {
+          "es": "Dos premisas y una conclusión: si todo conocimiento viene de la experiencia, entonces el racionalismo naufraga.",
+          "en": "Dos premisas y una conclusión: si todo conocimiento viene de la experiencia, entonces el racionalismo naufraga.",
+          "ar": "Dos premisas y una conclusión: si todo conocimiento viene de la experiencia, entonces el racionalismo naufraga."
+        },
+        {
+          "es": "Presenta la estructura del silogismo que leímos ayer.",
+          "en": "Presenta la estructura del silogismo que leímos ayer.",
+          "ar": "Presenta la estructura del silogismo que leímos ayer."
+        }
+      ],
       "answer": "Presenta la estructura del silogismo que leímos ayer.",
       "accepted": [],
       "audio": "Presenta la estructura del silogismo que leímos ayer.",

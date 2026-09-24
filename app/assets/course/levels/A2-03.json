@@ -625,7 +625,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Pedro, ¿puedes ayudarme?",
+          "en": "Pedro, ¿puedes ayudarme?",
+          "ar": "Pedro, ¿puedes ayudarme?"
+        },
+        {
+          "es": "¡Claro! ¿Qué necesitas?",
+          "en": "¡Claro! ¿Qué necesitas?",
+          "ar": "¡Claro! ¿Qué necesitas?"
+        },
+        {
+          "es": "Necesito que me prestes el coche hoy.",
+          "en": "Necesito que me prestes el coche hoy.",
+          "ar": "Necesito que me prestes el coche hoy."
+        }
+      ],
       "answer": "Pedro, ¿puedes ayudarme?",
       "accepted": [],
       "audio": "Pedro, ¿puedes ayudarme?",

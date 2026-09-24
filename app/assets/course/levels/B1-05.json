@@ -602,7 +602,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Y Pedro? ¿Está estudiando?",
+          "en": "¿Y Pedro? ¿Está estudiando?",
+          "ar": "¿Y Pedro? ¿Está estudiando?"
+        },
+        {
+          "es": "¿Aló? ¿Qué estás haciendo ahora?",
+          "en": "¿Aló? ¿Qué estás haciendo ahora?",
+          "ar": "¿Aló? ¿Qué estás haciendo ahora?"
+        },
+        {
+          "es": "Estoy escribiendo un correo a mi jefa.",
+          "en": "Estoy escribiendo un correo a mi jefa.",
+          "ar": "Estoy escribiendo un correo a mi jefa."
+        }
+      ],
       "answer": "¿Aló? ¿Qué estás haciendo ahora?",
       "accepted": [],
       "audio": "¿Aló? ¿Qué estás haciendo ahora?",

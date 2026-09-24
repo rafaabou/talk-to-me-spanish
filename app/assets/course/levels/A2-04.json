@@ -630,7 +630,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Perdón, ¿dónde está la puerta de embarque?",
+          "en": "Perdón, ¿dónde está la puerta de embarque?",
+          "ar": "Perdón, ¿dónde está la puerta de embarque?"
+        },
+        {
+          "es": "¿A qué hora sale el vuelo a Sevilla?",
+          "en": "¿A qué hora sale el vuelo a Sevilla?",
+          "ar": "¿A qué hora sale el vuelo a Sevilla?"
+        },
+        {
+          "es": "Está en la segunda planta, a la derecha.",
+          "en": "Está en la segunda planta, a la derecha.",
+          "ar": "Está en la segunda planta, a la derecha."
+        }
+      ],
       "answer": "Perdón, ¿dónde está la puerta de embarque?",
       "accepted": [],
       "audio": "Perdón, ¿dónde está la puerta de embarque?",

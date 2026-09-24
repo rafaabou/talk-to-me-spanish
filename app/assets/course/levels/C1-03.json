@@ -607,7 +607,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Cuando yo era pequeña, la calle era de tierra y todo el mundo se conocía.",
+          "en": "Cuando yo era pequeña, la calle era de tierra y todo el mundo se conocía.",
+          "ar": "Cuando yo era pequeña, la calle era de tierra y todo el mundo se conocía."
+        },
+        {
+          "es": "Reuníamos a los niños e inventábamos historias de fantasmas.",
+          "en": "Reuníamos a los niños e inventábamos historias de fantasmas.",
+          "ar": "Reuníamos a los niños e inventábamos historias de fantasmas."
+        },
+        {
+          "es": "¿Y qué era lo más divertido?",
+          "en": "¿Y qué era lo más divertido?",
+          "ar": "¿Y qué era lo más divertido?"
+        }
+      ],
       "answer": "Cuando yo era pequeña, la calle era de tierra y todo el mundo se conocía.",
       "accepted": [],
       "audio": "Cuando yo era pequeña, la calle era de tierra y todo el mundo se conocía.",

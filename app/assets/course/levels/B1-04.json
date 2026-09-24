@@ -592,7 +592,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Viste las noticias hoy?",
+          "en": "¿Viste las noticias hoy?",
+          "ar": "¿Viste las noticias hoy?"
+        },
+        {
+          "es": "No, todavía no tuve tiempo.",
+          "en": "No, todavía no tuve tiempo.",
+          "ar": "No, todavía no tuve tiempo."
+        },
+        {
+          "es": "Hubo un gran accidente en la carretera.",
+          "en": "Hubo un gran accidente en la carretera.",
+          "ar": "Hubo un gran accidente en la carretera."
+        }
+      ],
       "answer": "¿Viste las noticias hoy?",
       "accepted": [],
       "audio": "¿Viste las noticias hoy?",

@@ -601,7 +601,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¡Genial! Si termino el proyecto temprano, voy contigo.",
+          "en": "¡Genial! Si termino el proyecto temprano, voy contigo.",
+          "ar": "¡Genial! Si termino el proyecto temprano, voy contigo."
+        },
+        {
+          "es": "Genial. En cuanto termines, avísame.",
+          "en": "Genial. En cuanto termines, avísame.",
+          "ar": "Genial. En cuanto termines, avísame."
+        },
+        {
+          "es": "Cuando salga del trabajo hoy, quiero ir al gimnasio.",
+          "en": "Cuando salga del trabajo hoy, quiero ir al gimnasio.",
+          "ar": "Cuando salga del trabajo hoy, quiero ir al gimnasio."
+        }
+      ],
       "answer": "Cuando salga del trabajo hoy, quiero ir al gimnasio.",
       "accepted": [],
       "audio": "Cuando salga del trabajo hoy, quiero ir al gimnasio.",

@@ -630,7 +630,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Cómo construye el narrador la atmósfera en este fragmento?",
+          "en": "¿Cómo construye el narrador la atmósfera en este fragmento?",
+          "ar": "¿Cómo construye el narrador la atmósfera en este fragmento?"
+        },
+        {
+          "es": "Con el imperfecto, profesora: 'caía la tarde', 'las sombras se alargaban' crean la ambientación.",
+          "en": "Con el imperfecto, profesora: 'caía la tarde', 'las sombras se alargaban' crean la ambientación.",
+          "ar": "Con el imperfecto, profesora: 'caía la tarde', 'las sombras se alargaban' crean la ambientación."
+        },
+        {
+          "es": "Exacto. ¿Y qué figura retórica marca la descripción del protagonista?",
+          "en": "Exacto. ¿Y qué figura retórica marca la descripción del protagonista?",
+          "ar": "Exacto. ¿Y qué figura retórica marca la descripción del protagonista?"
+        }
+      ],
       "answer": "¿Cómo construye el narrador la atmósfera en este fragmento?",
       "accepted": [],
       "audio": "¿Cómo construye el narrador la atmósfera en este fragmento?",

@@ -612,7 +612,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Entonces las dos formas son correctas?",
+          "en": "¿Entonces las dos formas son correctas?",
+          "ar": "¿Entonces las dos formas son correctas?"
+        },
+        {
+          "es": "Sí, con porcentajes el verbo puede concordar con el número o con el término siguiente.",
+          "en": "Sí, con porcentajes el verbo puede concordar con el número o con el término siguiente.",
+          "ar": "Sí, con porcentajes el verbo puede concordar con el número o con el término siguiente."
+        },
+        {
+          "es": "El texto tiene un error: 'el 30% de la clase faltó' también puede ser 'faltaron'.",
+          "en": "El texto tiene un error: 'el 30% de la clase faltó' también puede ser 'faltaron'.",
+          "ar": "El texto tiene un error: 'el 30% de la clase faltó' también puede ser 'faltaron'."
+        }
+      ],
       "answer": "El texto tiene un error: 'el 30% de la clase faltó' también puede ser 'faltaron'.",
       "accepted": [],
       "audio": "El texto tiene un error: 'el 30% de la clase faltó' también puede ser 'faltaron'.",

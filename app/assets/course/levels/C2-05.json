@@ -635,7 +635,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Aquí en el Río de la Plata decimos 'el mate es bueno', en el Caribe se escucha 'el agua está caliente' con otro ritmo.",
+          "en": "Aquí en el Río de la Plata decimos 'el mate es bueno', en el Caribe se escucha 'el agua está caliente' con otro ritmo.",
+          "ar": "Aquí en el Río de la Plata decimos 'el mate es bueno', en el Caribe se escucha 'el agua está caliente' con otro ritmo."
+        },
+        {
+          "es": "¿Querés almorzar con nosotros o vas directo a la charla?",
+          "en": "¿Querés almorzar con nosotros o vas directo a la charla?",
+          "ar": "¿Querés almorzar con nosotros o vas directo a la charla?"
+        },
+        {
+          "es": "Puede ser. Pero, para que sepas, el restaurante de al lado está lleno.",
+          "en": "Puede ser. Pero, para que sepas, el restaurante de al lado está lleno.",
+          "ar": "Puede ser. Pero, para que sepas, el restaurante de al lado está lleno."
+        }
+      ],
       "answer": "Puede ser. Pero, para que sepas, el restaurante de al lado está lleno.",
       "accepted": [],
       "audio": "Puede ser. Pero, para que sepas, el restaurante de al lado está lleno.",

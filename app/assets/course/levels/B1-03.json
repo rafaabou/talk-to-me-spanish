@@ -575,7 +575,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Y el café donde nos encontramos ayer?",
+          "en": "¿Y el café donde nos encontramos ayer?",
+          "ar": "¿Y el café donde nos encontramos ayer?"
+        },
+        {
+          "es": "Sí, es la amiga con quien estudio en la universidad.",
+          "en": "Sí, es la amiga con quien estudio en la universidad.",
+          "ar": "Sí, es la amiga con quien estudio en la universidad."
+        },
+        {
+          "es": "¿Conoces a la chica que trabaja en la panadería?",
+          "en": "¿Conoces a la chica que trabaja en la panadería?",
+          "ar": "¿Conoces a la chica que trabaja en la panadería?"
+        }
+      ],
       "answer": "Sí, es la amiga con quien estudio en la universidad.",
       "accepted": [],
       "audio": "Sí, es la amiga con quien estudio en la universidad.",

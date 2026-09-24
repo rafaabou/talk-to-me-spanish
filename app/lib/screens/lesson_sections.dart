@@ -48,15 +48,17 @@ class VocabTile extends StatelessWidget {
     required this.onToggleFavorite,
   });
 
-  /// Same rule as [TriBlock]: the course language plus the interface language,
-  /// or all three when the reader opts in.
+  /// Same rule as [TriBlock]: the course language, the English line when the
+  /// reader wants it, and Arabic — which is always shown.
   List<String> _translationLangs(BuildContext context, String uiLang) {
-    final showAll = context.select<AppState, bool>((s) => s.showAllLanguages);
+    final showEnglish = context.select<AppState, bool>(
+      (s) => s.showEnglishTranslation,
+    );
     return visibleTranslationLangs(
       contentLang: 'es',
       uiLang: uiLang,
-      showAll: showAll,
-    ).toList();
+      showEnglish: showEnglish,
+    );
   }
 
   /// [TriText.tr] falls back to the course language when a translation is

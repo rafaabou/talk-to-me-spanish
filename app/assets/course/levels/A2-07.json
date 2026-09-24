@@ -625,7 +625,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Voy a viajar a Barcelona.",
+          "en": "Voy a viajar a Barcelona.",
+          "ar": "Voy a viajar a Barcelona."
+        },
+        {
+          "es": "¿Qué vas a hacer el fin de semana?",
+          "en": "¿Qué vas a hacer el fin de semana?",
+          "ar": "¿Qué vas a hacer el fin de semana?"
+        },
+        {
+          "es": "¿Con quién vas?",
+          "en": "¿Con quién vas?",
+          "ar": "¿Con quién vas?"
+        }
+      ],
       "answer": "¿Qué vas a hacer el fin de semana?",
       "accepted": [],
       "audio": "¿Qué vas a hacer el fin de semana?",

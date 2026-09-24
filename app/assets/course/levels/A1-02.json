@@ -614,7 +614,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¡Hola, Ana! Yo soy Pedro. Mucho gusto.",
+          "en": "¡Hola, Ana! Yo soy Pedro. Mucho gusto.",
+          "ar": "¡Hola, Ana! Yo soy Pedro. Mucho gusto."
+        },
+        {
+          "es": "¡Hola! Mi nombre es Ana. ¿Y tú?",
+          "en": "¡Hola! Mi nombre es Ana. ¿Y tú?",
+          "ar": "¡Hola! Mi nombre es Ana. ¿Y tú?"
+        },
+        {
+          "es": "El gusto es mío. ¿Cómo estás?",
+          "en": "El gusto es mío. ¿Cómo estás?",
+          "ar": "El gusto es mío. ¿Cómo estás?"
+        }
+      ],
       "answer": "¡Hola! Mi nombre es Ana. ¿Y tú?",
       "accepted": [],
       "audio": "¡Hola! Mi nombre es Ana. ¿Y tú?",

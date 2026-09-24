@@ -635,7 +635,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Y el juego de palabras del anuncio? ¿Domesticamos o lo mantenemos con nota?",
+          "en": "¿Y el juego de palabras del anuncio? ¿Domesticamos o lo mantenemos con nota?",
+          "ar": "¿Y el juego de palabras del anuncio? ¿Domesticamos o lo mantenemos con nota?"
+        },
+        {
+          "es": "Este texto técnico pide equivalencia precisa, no traducción literal.",
+          "en": "Este texto técnico pide equivalencia precisa, no traducción literal.",
+          "ar": "Este texto técnico pide equivalencia precisa, no traducción literal."
+        },
+        {
+          "es": "De acuerdo. 'Pretend' aquí no es 'pretender' en el sentido de desear, sino 'alegar'.",
+          "en": "De acuerdo. 'Pretend' aquí no es 'pretender' en el sentido de desear, sino 'alegar'.",
+          "ar": "De acuerdo. 'Pretend' aquí no es 'pretender' en el sentido de desear, sino 'alegar'."
+        }
+      ],
       "answer": "Este texto técnico pide equivalencia precisa, no traducción literal.",
       "accepted": [],
       "audio": "Este texto técnico pide equivalencia precisa, no traducción literal.",

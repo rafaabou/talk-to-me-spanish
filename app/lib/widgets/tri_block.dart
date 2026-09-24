@@ -4,19 +4,25 @@ import '../models/course_models.dart';
 import '../services/app_state.dart';
 import 'audio_button.dart';
 
-/// Languages to show underneath the course text.
+/// Languages to show underneath the course text, in display order.
 ///
-/// Normally that is just the interface language, because stacking the course
-/// language, English and Arabic under every sentence makes the page hard to
-/// read. [showAll] restores the three-line layout.
-Set<String> visibleTranslationLangs({
+/// Arabic is always included: the app is built for Arabic speakers, so it is
+/// not something to hide behind a switch. [showEnglish] only decides whether
+/// the English line appears, and the interface language is added when it is
+/// neither the course language nor already listed.
+List<String> visibleTranslationLangs({
   required String contentLang,
   required String uiLang,
-  required bool showAll,
-}) => <String>{
-  if (showAll) ...['pt', 'en', 'ar'],
-  if (uiLang != contentLang) uiLang,
-};
+  required bool showEnglish,
+}) {
+  final langs = <String>[];
+  if (showEnglish || uiLang == 'en') langs.add('en');
+  if (uiLang != contentLang && uiLang != 'ar' && !langs.contains(uiLang)) {
+    langs.add(uiLang);
+  }
+  if (!langs.contains('ar')) langs.add('ar');
+  return langs;
+}
 
 class TriBlock extends StatelessWidget {
   /// Language of the course content, which is what the audio keys are built
@@ -40,19 +46,20 @@ class TriBlock extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final showAll = context.select<AppState, bool>((s) => s.showAllLanguages);
+    final showEnglish = context.select<AppState, bool>(
+      (s) => s.showEnglishTranslation,
+    );
     final uiLang = context.select<AppState, String>((s) => s.lang);
     final scheme = Theme.of(context).colorScheme;
     final content = _contentLang;
     final primary = text.tr(content);
 
-    // The sentence being studied is the content language; the interface
-    // language is shown underneath when it is different, so blocks read as two
-    // lines instead of three unless the reader asks for everything.
+    // The sentence being studied is the content language; the translations
+    // underneath are the interface language plus Arabic, which is always kept.
     final extraLangs = visibleTranslationLangs(
       contentLang: content,
       uiLang: uiLang,
-      showAll: showAll,
+      showEnglish: showEnglish,
     );
 
     final primaryStyle = (compact

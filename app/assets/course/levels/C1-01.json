@@ -628,7 +628,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Ojalá encontremos boletos baratos.",
+          "en": "Ojalá encontremos boletos baratos.",
+          "ar": "Ojalá encontremos boletos baratos."
+        },
+        {
+          "es": "Es posible que el viaje salga caro si vamos en julio.",
+          "en": "Es posible que el viaje salga caro si vamos en julio.",
+          "ar": "Es posible que el viaje salga caro si vamos en julio."
+        },
+        {
+          "es": "Aunque cueste más, prefiero ir en julio.",
+          "en": "Aunque cueste más, prefiero ir en julio.",
+          "ar": "Aunque cueste más, prefiero ir en julio."
+        }
+      ],
       "answer": "Es posible que el viaje salga caro si vamos en julio.",
       "accepted": [],
       "audio": "Es posible que el viaje salga caro si vamos en julio.",

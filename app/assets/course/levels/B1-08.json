@@ -607,7 +607,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Sí, está a diez minutos del metro.",
+          "en": "Sí, está a diez minutos del metro.",
+          "ar": "Sí, está a diez minutos del metro."
+        },
+        {
+          "es": "Este apartamento tiene dos dormitorios y una cocina amplia.",
+          "en": "Este apartamento tiene dos dormitorios y una cocina amplia.",
+          "ar": "Este apartamento tiene dos dormitorios y una cocina amplia."
+        },
+        {
+          "es": "¿Está cerca de mi trabajo? ¿Está cerca del metro?",
+          "en": "¿Está cerca de mi trabajo? ¿Está cerca del metro?",
+          "ar": "¿Está cerca de mi trabajo? ¿Está cerca del metro?"
+        }
+      ],
       "answer": "¿Está cerca de mi trabajo? ¿Está cerca del metro?",
       "accepted": [],
       "audio": "¿Está cerca de mi trabajo? ¿Está cerca del metro?",

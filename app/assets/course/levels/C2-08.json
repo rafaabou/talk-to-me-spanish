@@ -630,7 +630,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Se verificó que la temperatura interfirió en los resultados.",
+          "en": "Se verificó que la temperatura interfirió en los resultados.",
+          "ar": "Se verificó que la temperatura interfirió en los resultados."
+        },
+        {
+          "es": "Sí, porque la reproducibilidad depende de ese control. Por lo tanto, documenta todo.",
+          "en": "Sí, porque la reproducibilidad depende de ese control. Por lo tanto, documenta todo.",
+          "ar": "Sí, porque la reproducibilidad depende de ese control. Por lo tanto, documenta todo."
+        },
+        {
+          "es": "¿Debo registrar ese efecto en el informe técnico?",
+          "en": "¿Debo registrar ese efecto en el informe técnico?",
+          "ar": "¿Debo registrar ese efecto en el informe técnico?"
+        }
+      ],
       "answer": "Se verificó que la temperatura interfirió en los resultados.",
       "accepted": [],
       "audio": "Se verificó que la temperatura interfirió en los resultados.",

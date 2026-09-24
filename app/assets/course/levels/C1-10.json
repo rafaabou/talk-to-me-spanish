@@ -607,7 +607,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Fuiste tú quien marcó la reunión de mañana?",
+          "en": "¿Fuiste tú quien marcó la reunión de mañana?",
+          "ar": "¿Fuiste tú quien marcó la reunión de mañana?"
+        },
+        {
+          "es": "Sí, y fui yo quien invitó a toda la dirección.",
+          "en": "Sí, y fui yo quien invitó a toda la dirección.",
+          "ar": "Sí, y fui yo quien invitó a toda la dirección."
+        },
+        {
+          "es": "Lo que me preocupa es el horario, no el orden del día.",
+          "en": "Lo que me preocupa es el horario, no el orden del día.",
+          "ar": "Lo que me preocupa es el horario, no el orden del día."
+        }
+      ],
       "answer": "¿Fuiste tú quien marcó la reunión de mañana?",
       "accepted": [],
       "audio": "¿Fuiste tú quien marcó la reunión de mañana?",

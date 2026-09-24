@@ -640,7 +640,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Hijo, ayúdame a preparar la cena.",
+          "en": "Hijo, ayúdame a preparar la cena.",
+          "ar": "Hijo, ayúdame a preparar la cena."
+        },
+        {
+          "es": "¡Claro! ¿Qué hago?",
+          "en": "¡Claro! ¿Qué hago?",
+          "ar": "¡Claro! ¿Qué hago?"
+        },
+        {
+          "es": "Lava los tomates y corta la cebolla, por favor.",
+          "en": "Lava los tomates y corta la cebolla, por favor.",
+          "ar": "Lava los tomates y corta la cebolla, por favor."
+        }
+      ],
       "answer": "Hijo, ayúdame a preparar la cena.",
       "accepted": [],
       "audio": "Hijo, ayúdame a preparar la cena.",

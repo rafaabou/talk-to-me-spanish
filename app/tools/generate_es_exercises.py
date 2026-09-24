@@ -175,13 +175,21 @@ def build_exercises(lesson, pool, rng):
             ar.format(sentence=sentence, word=word),
         )
 
-    # 1. listening - type what you hear
+    # 1. listening - hear the clip, pick the sentence you heard.
+    #    Both the lesson tile and the quiz treat `listening` as a
+    #    multiple-choice drill, so it MUST carry options.
     es, en, ar, _ = free[0]
+    listen_distractors = [s for s in free[4:6]]
+    if listen_distractors:
+        options = [es] + [d[0] for d in listen_distractors]
+        rng.shuffle(options)
+    else:
+        options = [es]
     out.append(
         {
             'type': 'listening',
             'prompt': prompt_tri('listening'),
-            'options': [],
+            'options': [word_tri(o) for o in options],
             'answer': es,
             'accepted': [],
             'audio': es,
@@ -263,13 +271,82 @@ def build_exercises(lesson, pool, rng):
         )
         break
 
+    # A drill the app renders as multiple choice but with no options is an
+    # unanswerable question, so refuse to emit one.
+    for exercise in out:
+        if (
+            exercise['type']
+            in ('multiple_choice', 'fill_blank', 'listening', 'listening_mcq')
+            and not exercise['options']
+        ):
+            sys.exit(
+                f'{lesson["id"]}: generated {exercise["type"]} has no options; '
+                'it would render as an unanswerable question'
+            )
+
     return out
+
+
+def repair_empty_choice_drills():
+    """Fill in options for generated drills that were emitted without them.
+
+    `listening` is rendered as a multiple-choice drill by both the lesson tile
+    and the quiz, so a `listening` exercise with an empty `options` list shows
+    the learner no answer buttons at all.
+    """
+    import random
+
+    rng = random.Random(20260924)
+    repaired = 0
+    for path in sorted(glob.glob(os.path.join(LEVELS, '*.json'))):
+        with open(path, encoding='utf-8') as handle:
+            source = handle.read()
+        lesson = json.loads(source)
+        # Baseline dump has to be taken before any mutation, otherwise the
+        # round-trip guard compares the edited lesson against the file.
+        baseline = json.dumps(lesson, ensure_ascii=False, indent=2)
+        if baseline != source:
+            sys.exit(f'round-trip mismatch, aborting before writing {path}')
+        pool = SentencePool(lesson)
+        sentences = [s[0] for s in pool.with_audio()]
+        if len(sentences) < 3:
+            continue
+        changed = False
+        for exercise in lesson.get('exercises', []):
+            if exercise.get('gen') != MARKER:
+                continue
+            if exercise['type'] not in ('listening', 'listening_mcq'):
+                continue
+            if exercise.get('options'):
+                continue
+            answer = exercise['answer']
+            if answer not in sentences:
+                continue
+            options = [answer] + [s for s in sentences if s != answer][:2]
+            rng.shuffle(options)
+            exercise['options'] = [word_tri(o) for o in options]
+            changed = True
+            repaired += 1
+        if not changed:
+            continue
+        with open(path, 'w', encoding='utf-8') as handle:
+            handle.write(json.dumps(lesson, ensure_ascii=False, indent=2))
+    print(f'repaired {repaired} drills with no options')
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--dry-run', action='store_true')
+    parser.add_argument(
+        '--repair-empty-choices',
+        action='store_true',
+        help='fill in options for generated drills that were emitted without any',
+    )
     args = parser.parse_args()
+
+    if args.repair_empty_choices:
+        repair_empty_choice_drills()
+        return
 
     import random
 

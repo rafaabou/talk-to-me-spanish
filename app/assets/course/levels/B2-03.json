@@ -607,7 +607,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Sí, fue financiada con recursos públicos.",
+          "en": "Sí, fue financiada con recursos públicos.",
+          "ar": "Sí, fue financiada con recursos públicos."
+        },
+        {
+          "es": "La nueva biblioteca fue inaugurada ayer en la avenida central.",
+          "en": "La nueva biblioteca fue inaugurada ayer en la avenida central.",
+          "ar": "La nueva biblioteca fue inaugurada ayer en la avenida central."
+        },
+        {
+          "es": "¿Fue construida por el gobierno regional?",
+          "en": "¿Fue construida por el gobierno regional?",
+          "ar": "¿Fue construida por el gobierno regional?"
+        }
+      ],
       "answer": "La nueva biblioteca fue inaugurada ayer en la avenida central.",
       "accepted": [],
       "audio": "La nueva biblioteca fue inaugurada ayer en la avenida central.",

@@ -612,7 +612,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Es increíble, pero también hay que discutir los riesgos.",
+          "en": "Es increíble, pero también hay que discutir los riesgos.",
+          "ar": "Es increíble, pero también hay que discutir los riesgos."
+        },
+        {
+          "es": "Sí. El científico dijo que los nuevos sistemas aprenden solos.",
+          "en": "Sí. El científico dijo que los nuevos sistemas aprenden solos.",
+          "ar": "Sí. El científico dijo que los nuevos sistemas aprenden solos."
+        },
+        {
+          "es": "¿Viste la noticia sobre los avances de la inteligencia artificial?",
+          "en": "¿Viste la noticia sobre los avances de la inteligencia artificial?",
+          "ar": "¿Viste la noticia sobre los avances de la inteligencia artificial?"
+        }
+      ],
       "answer": "¿Viste la noticia sobre los avances de la inteligencia artificial?",
       "accepted": [],
       "audio": "¿Viste la noticia sobre los avances de la inteligencia artificial?",

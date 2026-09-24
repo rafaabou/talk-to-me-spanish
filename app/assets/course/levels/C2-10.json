@@ -625,7 +625,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Buena idea. ¿Y en el cierre vas a usar una pregunta retórica?",
+          "en": "Buena idea. ¿Y en el cierre vas a usar una pregunta retórica?",
+          "ar": "Buena idea. ¿Y en el cierre vas a usar una pregunta retórica?"
+        },
+        {
+          "es": "Sí. 'Es el compromiso lo que transforma ideas en resultados', y dejo la pregunta en el aire.",
+          "en": "Sí. 'Es el compromiso lo que transforma ideas en resultados', y dejo la pregunta en el aire.",
+          "ar": "Sí. 'Es el compromiso lo que transforma ideas en resultados', y dejo la pregunta en el aire."
+        },
+        {
+          "es": "Voy a abrir con una anécdota para romper el hielo y ganar al público.",
+          "en": "Voy a abrir con una anécdota para romper el hielo y ganar al público.",
+          "ar": "Voy a abrir con una anécdota para romper el hielo y ganar al público."
+        }
+      ],
       "answer": "Voy a abrir con una anécdota para romper el hielo y ganar al público.",
       "accepted": [],
       "audio": "Voy a abrir con una anécdota para romper el hielo y ganar al público.",

@@ -625,7 +625,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Fue el día más tranquilo de mi semana: perdí la reunión y el almuerzo.",
+          "en": "Fue el día más tranquilo de mi semana: perdí la reunión y el almuerzo.",
+          "ar": "Fue el día más tranquilo de mi semana: perdí la reunión y el almuerzo."
+        },
+        {
+          "es": "¿Sarcasmo a las siete de la mañana? Hoy estás realmente inspirado.",
+          "en": "¿Sarcasmo a las siete de la mañana? Hoy estás realmente inspirado.",
+          "ar": "¿Sarcasmo a las siete de la mañana? Hoy estás realmente inspirado."
+        },
+        {
+          "es": "Qué delicia levantarse a las seis para tomar tres buses, ¿no?",
+          "en": "Qué delicia levantarse a las seis para tomar tres buses, ¿no?",
+          "ar": "Qué delicia levantarse a las seis para tomar tres buses, ¿no?"
+        }
+      ],
       "answer": "Qué delicia levantarse a las seis para tomar tres buses, ¿no?",
       "accepted": [],
       "audio": "Qué delicia levantarse a las seis para tomar tres buses, ¿no?",

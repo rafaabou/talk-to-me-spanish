@@ -630,7 +630,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Habla con la secretaria.",
+          "en": "Habla con la secretaria.",
+          "ar": "Habla con la secretaria."
+        },
+        {
+          "es": "¿Aló, empresa Silva? ¡Buenos días!",
+          "en": "¿Aló, empresa Silva? ¡Buenos días!",
+          "ar": "¿Aló, empresa Silva? ¡Buenos días!"
+        },
+        {
+          "es": "¡Buenos días! ¿Con quién hablo?",
+          "en": "¡Buenos días! ¿Con quién hablo?",
+          "ar": "¡Buenos días! ¿Con quién hablo?"
+        }
+      ],
       "answer": "¡Buenos días! ¿Con quién hablo?",
       "accepted": [],
       "audio": "¡Buenos días! ¿Con quién hablo?",

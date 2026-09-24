@@ -625,7 +625,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¡Buenos días! ¿Qué sientes?",
+          "en": "¡Buenos días! ¿Qué sientes?",
+          "ar": "¡Buenos días! ¿Qué sientes?"
+        },
+        {
+          "es": "Estoy con dolor de garganta y fiebre.",
+          "en": "Estoy con dolor de garganta y fiebre.",
+          "ar": "Estoy con dolor de garganta y fiebre."
+        },
+        {
+          "es": "¿Desde cuándo?",
+          "en": "¿Desde cuándo?",
+          "ar": "¿Desde cuándo?"
+        }
+      ],
       "answer": "¡Buenos días! ¿Qué sientes?",
       "accepted": [],
       "audio": "¡Buenos días! ¿Qué sientes?",

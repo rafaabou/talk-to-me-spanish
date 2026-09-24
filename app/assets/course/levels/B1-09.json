@@ -585,7 +585,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Había vivido en el interior, cerca del río.",
+          "en": "Había vivido en el interior, cerca del río.",
+          "ar": "Había vivido en el interior, cerca del río."
+        },
+        {
+          "es": "Cuando era niño, ya había conocido el mar.",
+          "en": "Cuando era niño, ya había conocido el mar.",
+          "ar": "Cuando era niño, ya había conocido el mar."
+        },
+        {
+          "es": "¿En serio? ¿Y dónde había vivido antes?",
+          "en": "¿En serio? ¿Y dónde había vivido antes?",
+          "ar": "¿En serio? ¿Y dónde había vivido antes?"
+        }
+      ],
       "answer": "Cuando era niño, ya había conocido el mar.",
       "accepted": [],
       "audio": "Cuando era niño, ya había conocido el mar.",

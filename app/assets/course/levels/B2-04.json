@@ -612,7 +612,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¡Qué genial! Es fundamental que separemos la basura en casa.",
+          "en": "¡Qué genial! Es fundamental que separemos la basura en casa.",
+          "ar": "¡Qué genial! Es fundamental que separemos la basura en casa."
+        },
+        {
+          "es": "A causa del calentamiento global, tenemos que actuar ya.",
+          "en": "A causa del calentamiento global, tenemos que actuar ya.",
+          "ar": "A causa del calentamiento global, tenemos que actuar ya."
+        },
+        {
+          "es": "¿Sabías que nuestro barrio va a tener un sistema de reciclaje?",
+          "en": "¿Sabías que nuestro barrio va a tener un sistema de reciclaje?",
+          "ar": "¿Sabías que nuestro barrio va a tener un sistema de reciclaje?"
+        }
+      ],
       "answer": "¿Sabías que nuestro barrio va a tener un sistema de reciclaje?",
       "accepted": [],
       "audio": "¿Sabías que nuestro barrio va a tener un sistema de reciclaje?",

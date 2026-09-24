@@ -575,7 +575,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Yo trabajo en Madrid y vivo en el centro.",
+          "en": "Yo trabajo en Madrid y vivo en el centro.",
+          "ar": "Yo trabajo en Madrid y vivo en el centro."
+        },
+        {
+          "es": "Sí, aprendo inglés por la noche.",
+          "en": "Sí, aprendo inglés por la noche.",
+          "ar": "Sí, aprendo inglés por la noche."
+        },
+        {
+          "es": "¿Usted también estudia?",
+          "en": "¿Usted también estudia?",
+          "ar": "¿Usted también estudia?"
+        }
+      ],
       "answer": "Yo trabajo en Madrid y vivo en el centro.",
       "accepted": [],
       "audio": "Yo trabajo en Madrid y vivo en el centro.",

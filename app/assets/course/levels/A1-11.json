@@ -608,7 +608,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Y qué haces después?",
+          "en": "¿Y qué haces después?",
+          "ar": "¿Y qué haces después?"
+        },
+        {
+          "es": "Me despierto a las seis y media de la mañana.",
+          "en": "Me despierto a las seis y media de la mañana.",
+          "ar": "Me despierto a las seis y media de la mañana."
+        },
+        {
+          "es": "Bruno, ¿a qué hora te despiertas?",
+          "en": "Bruno, ¿a qué hora te despiertas?",
+          "ar": "Bruno, ¿a qué hora te despiertas?"
+        }
+      ],
       "answer": "Bruno, ¿a qué hora te despiertas?",
       "accepted": [],
       "audio": "Bruno, ¿a qué hora te despiertas?",

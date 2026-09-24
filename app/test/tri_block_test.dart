@@ -22,21 +22,94 @@ void main() {
         ),
       );
 
-  Future<AppState> makeState({String lang = 'en', bool all = false}) async {
+  Future<AppState> makeState({
+    String lang = 'en',
+    bool showEnglish = false,
+  }) async {
     SharedPreferences.setMockInitialValues({
       'ui_lang': lang,
-      'ui_all_languages': all,
+      'ui_all_languages': showEnglish,
     });
     final state = AppState();
     await state.setLang(lang);
-    await state.setShowAllLanguages(all);
+    await state.setShowEnglishTranslation(showEnglish);
     return state;
   }
+
+  group('visibleTranslationLangs', () {
+    test('arabic is always included', () {
+      for (final showEnglish in [true, false]) {
+        for (final uiLang in ['en', 'ar']) {
+          expect(
+            visibleTranslationLangs(
+              contentLang: 'es',
+              uiLang: uiLang,
+              showEnglish: showEnglish,
+            ),
+            contains('ar'),
+            reason: 'ar missing for ui=$uiLang showEnglish=$showEnglish',
+          );
+        }
+      }
+    });
+
+    test(
+      'english shows for an english interface even when the switch is off',
+      () {
+        expect(
+          visibleTranslationLangs(
+            contentLang: 'es',
+            uiLang: 'en',
+            showEnglish: false,
+          ),
+          ['en', 'ar'],
+        );
+      },
+    );
+
+    test('an arabic interface hides english until the switch is on', () {
+      expect(
+        visibleTranslationLangs(
+          contentLang: 'es',
+          uiLang: 'ar',
+          showEnglish: false,
+        ),
+        ['ar'],
+      );
+      expect(
+        visibleTranslationLangs(
+          contentLang: 'es',
+          uiLang: 'ar',
+          showEnglish: true,
+        ),
+        ['en', 'ar'],
+      );
+    });
+
+    test('a third interface language is added without duplicating', () {
+      expect(
+        visibleTranslationLangs(
+          contentLang: 'es',
+          uiLang: 'pt',
+          showEnglish: false,
+        ),
+        ['pt', 'ar'],
+      );
+      expect(
+        visibleTranslationLangs(
+          contentLang: 'es',
+          uiLang: 'es',
+          showEnglish: false,
+        ),
+        ['ar'],
+      );
+    });
+  });
 
   group('TriBlock language visibility', () {
     final tri = TriText('Buenos días', 'Good morning', 'صباح الخير');
 
-    testWidgets('shows the lesson language and the interface language', (
+    testWidgets('english interface shows the sentence, english and arabic', (
       tester,
     ) async {
       final state = await makeState(lang: 'en');
@@ -44,10 +117,12 @@ void main() {
 
       expect(find.text('Buenos días'), findsOneWidget);
       expect(find.text('Good morning'), findsOneWidget);
-      expect(find.text('صباح الخير'), findsNothing);
+      expect(find.text('صباح الخير'), findsOneWidget);
     });
 
-    testWidgets('arabic interface keeps the arabic line', (tester) async {
+    testWidgets('arabic interface shows the sentence and arabic', (
+      tester,
+    ) async {
       final state = await makeState(lang: 'ar');
       await tester.pumpWidget(wrap(tri, state));
 
@@ -56,8 +131,10 @@ void main() {
       expect(find.text('Good morning'), findsNothing);
     });
 
-    testWidgets('show-all-languages reveals every line', (tester) async {
-      final state = await makeState(lang: 'en', all: true);
+    testWidgets('the english switch adds english to an arabic interface', (
+      tester,
+    ) async {
+      final state = await makeState(lang: 'ar', showEnglish: true);
       await tester.pumpWidget(wrap(tri, state));
 
       expect(find.text('Buenos días'), findsOneWidget);
@@ -68,11 +145,9 @@ void main() {
     testWidgets('never repeats the lesson line as its own translation', (
       tester,
     ) async {
-      // The Spanish app has no Portuguese field, so tr() falls back to the
-      // course language; that fallback must not be rendered twice.
-      final noEnglish = TriText('Buenos días', '', '');
+      final noTranslation = TriText('Buenos días', '', '');
       final state = await makeState(lang: 'en');
-      await tester.pumpWidget(wrap(noEnglish, state));
+      await tester.pumpWidget(wrap(noTranslation, state));
       expect(find.text('Buenos días'), findsOneWidget);
     });
 

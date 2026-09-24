@@ -602,7 +602,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Estoy de acuerdo, pero construir un metro es caro; sin embargo, es necesario.",
+          "en": "Estoy de acuerdo, pero construir un metro es caro; sin embargo, es necesario.",
+          "ar": "Estoy de acuerdo, pero construir un metro es caro; sin embargo, es necesario."
+        },
+        {
+          "es": "Por eso, el gobierno debería invertir más.",
+          "en": "Por eso, el gobierno debería invertir más.",
+          "ar": "Por eso, el gobierno debería invertir más."
+        },
+        {
+          "es": "Creo que la ciudad necesita más transporte público.",
+          "en": "Creo que la ciudad necesita más transporte público.",
+          "ar": "Creo que la ciudad necesita más transporte público."
+        }
+      ],
       "answer": "Creo que la ciudad necesita más transporte público.",
       "accepted": [],
       "audio": "Creo que la ciudad necesita más transporte público.",

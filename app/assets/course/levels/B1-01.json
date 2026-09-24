@@ -591,7 +591,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Yo también. Me gustaría visitar Barcelona.",
+          "en": "Yo también. Me gustaría visitar Barcelona.",
+          "ar": "Yo también. Me gustaría visitar Barcelona."
+        },
+        {
+          "es": "Si tuviera dinero, viajaría a España.",
+          "en": "Si tuviera dinero, viajaría a España.",
+          "ar": "Si tuviera dinero, viajaría a España."
+        },
+        {
+          "es": "¿Podrías prestarme una guía de viaje?",
+          "en": "¿Podrías prestarme una guía de viaje?",
+          "ar": "¿Podrías prestarme una guía de viaje?"
+        }
+      ],
       "answer": "Si tuviera dinero, viajaría a España.",
       "accepted": [],
       "audio": "Si tuviera dinero, viajaría a España.",

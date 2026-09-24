@@ -602,7 +602,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¡Buenos días! Son siete euros.",
+          "en": "¡Buenos días! Son siete euros.",
+          "ar": "¡Buenos días! Son siete euros."
+        },
+        {
+          "es": "Aquí tiene diez euros.",
+          "en": "Aquí tiene diez euros.",
+          "ar": "Aquí tiene diez euros."
+        },
+        {
+          "es": "¡Buenos días! Un café, por favor.",
+          "en": "¡Buenos días! Un café, por favor.",
+          "ar": "¡Buenos días! Un café, por favor."
+        }
+      ],
       "answer": "¡Buenos días! Son siete euros.",
       "accepted": [],
       "audio": "¡Buenos días! Son siete euros.",

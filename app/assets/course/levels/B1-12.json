@@ -607,7 +607,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Creo que con más práctica lo vas a dominar.",
+          "en": "Creo que con más práctica lo vas a dominar.",
+          "ar": "Creo que con más práctica lo vas a dominar."
+        },
+        {
+          "es": "Sí, pero todavía tengo dudas sobre el condicional.",
+          "en": "Sí, pero todavía tengo dudas sobre el condicional.",
+          "ar": "Sí, pero todavía tengo dudas sobre el condicional."
+        },
+        {
+          "es": "¡Terminamos el nivel B1! Qué progreso, ¿eh?",
+          "en": "¡Terminamos el nivel B1! Qué progreso, ¿eh?",
+          "ar": "¡Terminamos el nivel B1! Qué progreso, ¿eh?"
+        }
+      ],
       "answer": "¡Terminamos el nivel B1! Qué progreso, ¿eh?",
       "accepted": [],
       "audio": "¡Terminamos el nivel B1! Qué progreso, ¿eh?",

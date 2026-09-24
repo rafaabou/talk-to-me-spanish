@@ -607,7 +607,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "El profesor dijo que el examen sería el lunes.",
+          "en": "El profesor dijo que el examen sería el lunes.",
+          "ar": "El profesor dijo que el examen sería el lunes."
+        },
+        {
+          "es": "Él explicó que cambió de opinión y que avisaría por correo electrónico.",
+          "en": "Él explicó que cambió de opinión y que avisaría por correo electrónico.",
+          "ar": "Él explicó que cambió de opinión y que avisaría por correo electrónico."
+        },
+        {
+          "es": "¡Pero él había afirmado que sería el viernes!",
+          "en": "¡Pero él había afirmado que sería el viernes!",
+          "ar": "¡Pero él había afirmado que sería el viernes!"
+        }
+      ],
       "answer": "¡Pero él había afirmado que sería el viernes!",
       "accepted": [],
       "audio": "¡Pero él había afirmado que sería el viernes!",

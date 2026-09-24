@@ -612,7 +612,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Es importante que salgamos un poco de la ciudad.",
+          "en": "Es importante que salgamos un poco de la ciudad.",
+          "ar": "Es importante que salgamos un poco de la ciudad."
+        },
+        {
+          "es": "¡Ojalá no llueva! Quizás el tiempo mejore.",
+          "en": "¡Ojalá no llueva! Quizás el tiempo mejore.",
+          "ar": "¡Ojalá no llueva! Quizás el tiempo mejore."
+        },
+        {
+          "es": "Espero que puedas ir a la playa conmigo el sábado.",
+          "en": "Espero que puedas ir a la playa conmigo el sábado.",
+          "ar": "Espero que puedas ir a la playa conmigo el sábado."
+        }
+      ],
       "answer": "Espero que puedas ir a la playa conmigo el sábado.",
       "accepted": [],
       "audio": "Espero que puedas ir a la playa conmigo el sábado.",

@@ -630,7 +630,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Cómo lo sabes?",
+          "en": "¿Cómo lo sabes?",
+          "ar": "¿Cómo lo sabes?"
+        },
+        {
+          "es": "¡Qué calor hoy! Hace treinta y cinco grados.",
+          "en": "¡Qué calor hoy! Hace treinta y cinco grados.",
+          "ar": "¡Qué calor hoy! Hace treinta y cinco grados."
+        },
+        {
+          "es": "Sí, pero por la noche va a llover.",
+          "en": "Sí, pero por la noche va a llover.",
+          "ar": "Sí, pero por la noche va a llover."
+        }
+      ],
       "answer": "¡Qué calor hoy! Hace treinta y cinco grados.",
       "accepted": [],
       "audio": "¡Qué calor hoy! Hace treinta y cinco grados.",

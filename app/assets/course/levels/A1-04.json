@@ -613,7 +613,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Abran los libros en la página diez.",
+          "en": "Abran los libros en la página diez.",
+          "ar": "Abran los libros en la página diez."
+        },
+        {
+          "es": "Está sobre la mesa, al lado del cuaderno.",
+          "en": "Está sobre la mesa, al lado del cuaderno.",
+          "ar": "Está sobre la mesa, al lado del cuaderno."
+        },
+        {
+          "es": "Profesora, ¿dónde está mi bolígrafo?",
+          "en": "Profesora, ¿dónde está mi bolígrafo?",
+          "ar": "Profesora, ¿dónde está mi bolígrafo?"
+        }
+      ],
       "answer": "Abran los libros en la página diez.",
       "accepted": [],
       "audio": "Abran los libros en la página diez.",

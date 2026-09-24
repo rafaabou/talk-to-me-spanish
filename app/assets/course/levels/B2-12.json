@@ -612,7 +612,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¡Muy bien! Ahora puedo discutir temas complejos en español.",
+          "en": "¡Muy bien! Ahora puedo discutir temas complejos en español.",
+          "ar": "¡Muy bien! Ahora puedo discutir temas complejos en español."
+        },
+        {
+          "es": "Llegaron al final del nivel B2. ¿Cómo se sienten?",
+          "en": "Llegaron al final del nivel B2. ¿Cómo se sienten?",
+          "ar": "Llegaron al final del nivel B2. ¿Cómo se sienten?"
+        },
+        {
+          "es": "Excelente. Recuerden que el subjuntivo necesita práctica diaria.",
+          "en": "Excelente. Recuerden que el subjuntivo necesita práctica diaria.",
+          "ar": "Excelente. Recuerden que el subjuntivo necesita práctica diaria."
+        }
+      ],
       "answer": "Llegaron al final del nivel B2. ¿Cómo se sienten?",
       "accepted": [],
       "audio": "Llegaron al final del nivel B2. ¿Cómo se sienten?",

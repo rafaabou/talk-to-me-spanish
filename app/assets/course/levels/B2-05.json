@@ -628,7 +628,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Si pudieras vivir en cualquier lugar del mundo, ¿dónde vivirías?",
+          "en": "Si pudieras vivir en cualquier lugar del mundo, ¿dónde vivirías?",
+          "ar": "Si pudieras vivir en cualquier lugar del mundo, ¿dónde vivirías?"
+        },
+        {
+          "es": "A mí también me gustaría vivir cerca del mar.",
+          "en": "A mí también me gustaría vivir cerca del mar.",
+          "ar": "A mí también me gustaría vivir cerca del mar."
+        },
+        {
+          "es": "Elegiría Barcelona, si tuviera la oportunidad.",
+          "en": "Elegiría Barcelona, si tuviera la oportunidad.",
+          "ar": "Elegiría Barcelona, si tuviera la oportunidad."
+        }
+      ],
       "answer": "Si pudieras vivir en cualquier lugar del mundo, ¿dónde vivirías?",
       "accepted": [],
       "audio": "Si pudieras vivir en cualquier lugar del mundo, ¿dónde vivirías?",

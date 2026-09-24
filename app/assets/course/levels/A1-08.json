@@ -619,7 +619,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Quiero una camisa blanca, por favor.",
+          "en": "Quiero una camisa blanca, por favor.",
+          "ar": "Quiero una camisa blanca, por favor."
+        },
+        {
+          "es": "¡Buenas tardes! ¿Puedo ayudarle?",
+          "en": "¡Buenas tardes! ¿Puedo ayudarle?",
+          "ar": "¡Buenas tardes! ¿Puedo ayudarle?"
+        },
+        {
+          "es": "Tenemos esta camisa. Es muy bonita.",
+          "en": "Tenemos esta camisa. Es muy bonita.",
+          "ar": "Tenemos esta camisa. Es muy bonita."
+        }
+      ],
       "answer": "¡Buenas tardes! ¿Puedo ayudarle?",
       "accepted": [],
       "audio": "¡Buenas tardes! ¿Puedo ayudarle?",

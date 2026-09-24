@@ -586,7 +586,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¡Buenos días, profesor! ¿Es muy difícil?",
+          "en": "¡Buenos días, profesor! ¿Es muy difícil?",
+          "ar": "¡Buenos días, profesor! ¿Es muy difícil?"
+        },
+        {
+          "es": "No, es fácil. Escuche y repita.",
+          "en": "No, es fácil. Escuche y repita.",
+          "ar": "No, es fácil. Escuche y repita."
+        },
+        {
+          "es": "¡Buenos días! Vamos a aprender el alfabeto.",
+          "en": "¡Buenos días! Vamos a aprender el alfabeto.",
+          "ar": "¡Buenos días! Vamos a aprender el alfabeto."
+        }
+      ],
       "answer": "¡Buenos días! Vamos a aprender el alfabeto.",
       "accepted": [],
       "audio": "¡Buenos días! Vamos a aprender el alfabeto.",

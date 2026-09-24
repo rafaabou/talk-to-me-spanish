@@ -630,7 +630,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Y Mariana? Volvió a bajar la guardia y no llevó el informe.",
+          "en": "¿Y Mariana? Volvió a bajar la guardia y no llevó el informe.",
+          "ar": "¿Y Mariana? Volvió a bajar la guardia y no llevó el informe."
+        },
+        {
+          "es": "Claro que lo vi. Se fue por las nubes cuando intentó elogiar la charla.",
+          "en": "Claro que lo vi. Se fue por las nubes cuando intentó elogiar la charla.",
+          "ar": "Claro que lo vi. Se fue por las nubes cuando intentó elogiar la charla."
+        },
+        {
+          "es": "¿Viste a Pedro haciéndole la pelota al director toda la noche?",
+          "en": "¿Viste a Pedro haciéndole la pelota al director toda la noche?",
+          "ar": "¿Viste a Pedro haciéndole la pelota al director toda la noche?"
+        }
+      ],
       "answer": "¿Viste a Pedro haciéndole la pelota al director toda la noche?",
       "accepted": [],
       "audio": "¿Viste a Pedro haciéndole la pelota al director toda la noche?",

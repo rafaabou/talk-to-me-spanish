@@ -579,7 +579,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Hola, yo soy Juan. Soy ingeniero.",
+          "en": "Hola, yo soy Juan. Soy ingeniero.",
+          "ar": "Hola, yo soy Juan. Soy ingeniero."
+        },
+        {
+          "es": "¡Mucho gusto! Estoy muy feliz de trabajar con usted.",
+          "en": "¡Mucho gusto! Estoy muy feliz de trabajar con usted.",
+          "ar": "¡Mucho gusto! Estoy muy feliz de trabajar con usted."
+        },
+        {
+          "es": "Yo también. Estoy un poco cansado hoy.",
+          "en": "Yo también. Estoy un poco cansado hoy.",
+          "ar": "Yo también. Estoy un poco cansado hoy."
+        }
+      ],
       "answer": "Hola, yo soy Juan. Soy ingeniero.",
       "accepted": [],
       "audio": "Hola, yo soy Juan. Soy ingeniero.",

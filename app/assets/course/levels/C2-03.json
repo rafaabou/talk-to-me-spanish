@@ -635,7 +635,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Después de que el informe fue concluido, enviamos el correo.",
+          "en": "Después de que el informe fue concluido, enviamos el correo.",
+          "ar": "Después de que el informe fue concluido, enviamos el correo."
+        },
+        {
+          "es": "Ahora redúcela con el participio.",
+          "en": "Ahora redúcela con el participio.",
+          "ar": "Ahora redúcela con el participio."
+        },
+        {
+          "es": "Reescribe la oración desarrollada como una reducida de participio.",
+          "en": "Reescribe la oración desarrollada como una reducida de participio.",
+          "ar": "Reescribe la oración desarrollada como una reducida de participio."
+        }
+      ],
       "answer": "Después de que el informe fue concluido, enviamos el correo.",
       "accepted": [],
       "audio": "Después de que el informe fue concluido, enviamos el correo.",

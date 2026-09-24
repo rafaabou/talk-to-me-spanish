@@ -63,28 +63,27 @@ class SettingsScreen extends StatelessWidget {
             ),
             SwitchListTile(
               secondary: const Icon(Icons.translate),
-              value: state.showAllLanguages,
+              value: state.showEnglishTranslation,
               title: Text(
                 uiText(
                   lang,
-                  ar: 'إظهار كل اللغات',
-                  pt: 'Mostrar todas as línguas',
-                  es: 'Mostrar todos los idiomas',
-                  other: 'Show all languages',
+                  ar: 'إظهار الترجمة الإنجليزية',
+                  es: 'Mostrar la traducción al inglés',
+                  other: 'Show English translation',
                 ),
               ),
               subtitle: Text(
                 uiText(
                   lang,
-                  ar: 'أوقفه لعرض لغة الدرس ولغتك فقط',
-                  pt: 'Desligue para mostrar só a língua da lição e a sua',
+                  ar: 'العربية تظهر دائماً. أوقفه لإخفاء الإنجليزية فقط.',
                   es:
-                      'Desactívelo para mostrar sólo el idioma de la lección y el tuyo',
-                  other: 'Off shows only the lesson language and yours',
+                      'El árabe siempre se muestra. Desactívelo para ocultar solo el inglés.',
+                  other:
+                      'Arabic is always shown. Turn off to hide English only.',
                 ),
                 style: theme.textTheme.bodySmall,
               ),
-              onChanged: state.setShowAllLanguages,
+              onChanged: state.setShowEnglishTranslation,
             ),
             const Divider(),
             _Header(

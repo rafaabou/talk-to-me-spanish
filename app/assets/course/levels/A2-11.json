@@ -630,7 +630,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Me despertaba temprano, llevaba el café a mi padre y jugaba con mis hermanos.",
+          "en": "Me despertaba temprano, llevaba el café a mi padre y jugaba con mis hermanos.",
+          "ar": "Me despertaba temprano, llevaba el café a mi padre y jugaba con mis hermanos."
+        },
+        {
+          "es": "¿Y cómo era tu rutina?",
+          "en": "¿Y cómo era tu rutina?",
+          "ar": "¿Y cómo era tu rutina?"
+        },
+        {
+          "es": "Cuando era niña, vivía en una granja.",
+          "en": "Cuando era niña, vivía en una granja.",
+          "ar": "Cuando era niña, vivía en una granja."
+        }
+      ],
       "answer": "Cuando era niña, vivía en una granja.",
       "accepted": [],
       "audio": "Cuando era niña, vivía en una granja.",

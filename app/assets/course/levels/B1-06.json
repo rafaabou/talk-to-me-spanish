@@ -608,7 +608,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¡Sí voy. La afición está animada!",
+          "en": "¡Sí voy. La afición está animada!",
+          "ar": "¡Sí voy. La afición está animada!"
+        },
+        {
+          "es": "¿Vas al estadio hoy?",
+          "en": "¿Vas al estadio hoy?",
+          "ar": "¿Vas al estadio hoy?"
+        },
+        {
+          "es": "Este equipo es más fuerte que el rival.",
+          "en": "Este equipo es más fuerte que el rival.",
+          "ar": "Este equipo es más fuerte que el rival."
+        }
+      ],
       "answer": "Este equipo es más fuerte que el rival.",
       "accepted": [],
       "audio": "Este equipo es más fuerte que el rival.",

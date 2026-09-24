@@ -625,7 +625,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Cuesta ochenta euros, pero está en oferta: sesenta.",
+          "en": "Cuesta ochenta euros, pero está en oferta: sesenta.",
+          "ar": "Cuesta ochenta euros, pero está en oferta: sesenta."
+        },
+        {
+          "es": "Sí. ¿Cuánto cuesta?",
+          "en": "Sí. ¿Cuánto cuesta?",
+          "ar": "Sí. ¿Cuánto cuesta?"
+        },
+        {
+          "es": "¡Buenos días! ¿Quiere probarse esta camisa?",
+          "en": "¡Buenos días! ¿Quiere probarse esta camisa?",
+          "ar": "¡Buenos días! ¿Quiere probarse esta camisa?"
+        }
+      ],
       "answer": "Sí. ¿Cuánto cuesta?",
       "accepted": [],
       "audio": "Sí. ¿Cuánto cuesta?",

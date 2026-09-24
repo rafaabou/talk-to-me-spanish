@@ -624,7 +624,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Mi padre es ingeniero y mi madre es profesora.",
+          "en": "Mi padre es ingeniero y mi madre es profesora.",
+          "ar": "Mi padre es ingeniero y mi madre es profesora."
+        },
+        {
+          "es": "Lucas, cuéntame sobre tu familia.",
+          "en": "Lucas, cuéntame sobre tu familia.",
+          "ar": "Lucas, cuéntame sobre tu familia."
+        },
+        {
+          "es": "¿Tienes hermanos?",
+          "en": "¿Tienes hermanos?",
+          "ar": "¿Tienes hermanos?"
+        }
+      ],
       "answer": "Lucas, cuéntame sobre tu familia.",
       "accepted": [],
       "audio": "Lucas, cuéntame sobre tu familia.",

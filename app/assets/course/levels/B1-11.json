@@ -618,7 +618,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Quiero hacer una transferencia por la aplicación.",
+          "en": "Quiero hacer una transferencia por la aplicación.",
+          "ar": "Quiero hacer una transferencia por la aplicación."
+        },
+        {
+          "es": "¡Buenos días! ¿Cómo puedo ayudarle?",
+          "en": "¡Buenos días! ¿Cómo puedo ayudarle?",
+          "ar": "¡Buenos días! ¿Cómo puedo ayudarle?"
+        },
+        {
+          "es": "Perfecto. ¿Cuál es el importe y la cuenta de destino?",
+          "en": "Perfecto. ¿Cuál es el importe y la cuenta de destino?",
+          "ar": "Perfecto. ¿Cuál es el importe y la cuenta de destino?"
+        }
+      ],
       "answer": "Quiero hacer una transferencia por la aplicación.",
       "accepted": [],
       "audio": "Quiero hacer una transferencia por la aplicación.",

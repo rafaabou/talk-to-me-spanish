@@ -640,7 +640,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Sí, en una entrevista individual de quince minutos.",
+          "en": "Sí, en una entrevista individual de quince minutos.",
+          "ar": "Sí, en una entrevista individual de quince minutos."
+        },
+        {
+          "es": "Entiendo. ¿Y la expresión oral será evaluada a continuación por el tribunal?",
+          "en": "Entiendo. ¿Y la expresión oral será evaluada a continuación por el tribunal?",
+          "ar": "Entiendo. ¿Y la expresión oral será evaluada a continuación por el tribunal?"
+        },
+        {
+          "es": "Tendrás noventa minutos para la redacción y la comprensión lectora.",
+          "en": "Tendrás noventa minutos para la redacción y la comprensión lectora.",
+          "ar": "Tendrás noventa minutos para la redacción y la comprensión lectora."
+        }
+      ],
       "answer": "Tendrás noventa minutos para la redacción y la comprensión lectora.",
       "accepted": [],
       "audio": "Tendrás noventa minutos para la redacción y la comprensión lectora.",

@@ -612,7 +612,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Estimado Sr. Lopes, agradezco su contacto y confirmo el horario de las diez.",
+          "en": "Estimado Sr. Lopes, agradezco su contacto y confirmo el horario de las diez.",
+          "ar": "Estimado Sr. Lopes, agradezco su contacto y confirmo el horario de las diez."
+        },
+        {
+          "es": "Estimado Dr. Martins, le escribo para confirmar la reunión del viernes.",
+          "en": "Estimado Dr. Martins, le escribo para confirmar la reunión del viernes.",
+          "ar": "Estimado Dr. Martins, le escribo para confirmar la reunión del viernes."
+        },
+        {
+          "es": "Envío adjunto el orden del día de la reunión para su análisis.",
+          "en": "Envío adjunto el orden del día de la reunión para su análisis.",
+          "ar": "Envío adjunto el orden del día de la reunión para su análisis."
+        }
+      ],
       "answer": "Estimado Dr. Martins, le escribo para confirmar la reunión del viernes.",
       "accepted": [],
       "audio": "Estimado Dr. Martins, le escribo para confirmar la reunión del viernes.",

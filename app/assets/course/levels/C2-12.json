@@ -625,7 +625,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "Muchas gracias. Fue una trayectoria larga, pero inmensamente gratificante.",
+          "en": "Muchas gracias. Fue una trayectoria larga, pero inmensamente gratificante.",
+          "ar": "Muchas gracias. Fue una trayectoria larga, pero inmensamente gratificante."
+        },
+        {
+          "es": "¡Felicidades! Acabas de completar el nivel C2 del curso.",
+          "en": "¡Felicidades! Acabas de completar el nivel C2 del curso.",
+          "ar": "¡Felicidades! Acabas de completar el nivel C2 del curso."
+        },
+        {
+          "es": "Ahora se emitirá el certificado, y lo que hagas con el idioma depende de ti.",
+          "en": "Ahora se emitirá el certificado, y lo que hagas con el idioma depende de ti.",
+          "ar": "Ahora se emitirá el certificado, y lo que hagas con el idioma depende de ti."
+        }
+      ],
       "answer": "¡Felicidades! Acabas de completar el nivel C2 del curso.",
       "accepted": [],
       "audio": "¡Felicidades! Acabas de completar el nivel C2 del curso.",

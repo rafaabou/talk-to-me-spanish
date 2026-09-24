@@ -607,7 +607,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¡No me digas! ¿Y el estribillo de la música sertaneja, lo cantas?",
+          "en": "¡No me digas! ¿Y el estribillo de la música sertaneja, lo cantas?",
+          "ar": "¡No me digas! ¿Y el estribillo de la música sertaneja, lo cantas?"
+        },
+        {
+          "es": "Esa canción de bossa nova tiene una melodía que me calma.",
+          "en": "Esa canción de bossa nova tiene una melodía que me calma.",
+          "ar": "Esa canción de bossa nova tiene una melodía que me calma."
+        },
+        {
+          "es": "Ya te dije que el forró es mi pasión en la fiesta.",
+          "en": "Ya te dije que el forró es mi pasión en la fiesta.",
+          "ar": "Ya te dije que el forró es mi pasión en la fiesta."
+        }
+      ],
       "answer": "Ya te dije que el forró es mi pasión en la fiesta.",
       "accepted": [],
       "audio": "Ya te dije que el forró es mi pasión en la fiesta.",

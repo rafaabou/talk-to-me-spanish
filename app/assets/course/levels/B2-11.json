@@ -602,7 +602,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¡Cuidado! 'Embarrassed' es 'avergonzado', no 'embarazado'.",
+          "en": "¡Cuidado! 'Embarrassed' es 'avergonzado', no 'embarazado'.",
+          "ar": "¡Cuidado! 'Embarrassed' es 'avergonzado', no 'embarazado'."
+        },
+        {
+          "es": "¿Me ayudas con esta traducción? Escribí 'I am embarrassed' como 'estoy embarazado'.",
+          "en": "¿Me ayudas con esta traducción? Escribí 'I am embarrassed' como 'estoy embarazado'.",
+          "ar": "¿Me ayudas con esta traducción? Escribí 'I am embarrassed' como 'estoy embarazado'."
+        },
+        {
+          "es": "Ah, entiendo. ¿Y 'pretend'?",
+          "en": "Ah, entiendo. ¿Y 'pretend'?",
+          "ar": "Ah, entiendo. ¿Y 'pretend'?"
+        }
+      ],
       "answer": "¿Me ayudas con esta traducción? Escribí 'I am embarrassed' como 'estoy embarazado'.",
       "accepted": [],
       "audio": "¿Me ayudas con esta traducción? Escribí 'I am embarrassed' como 'estoy embarazado'.",

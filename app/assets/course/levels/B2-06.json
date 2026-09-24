@@ -624,7 +624,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Ya leíste 'Don Quijote', de Cervantes?",
+          "en": "¿Ya leíste 'Don Quijote', de Cervantes?",
+          "ar": "¿Ya leíste 'Don Quijote', de Cervantes?"
+        },
+        {
+          "es": "Sí. Creo que es una de las mayores obras de la literatura española.",
+          "en": "Sí. Creo que es una de las mayores obras de la literatura española.",
+          "ar": "Sí. Creo que es una de las mayores obras de la literatura española."
+        },
+        {
+          "es": "El personaje Don Quijote es fascinante, ¿no crees?",
+          "en": "El personaje Don Quijote es fascinante, ¿no crees?",
+          "ar": "El personaje Don Quijote es fascinante, ¿no crees?"
+        }
+      ],
       "answer": "¿Ya leíste 'Don Quijote', de Cervantes?",
       "accepted": [],
       "audio": "¿Ya leíste 'Don Quijote', de Cervantes?",

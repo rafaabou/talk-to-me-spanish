@@ -625,7 +625,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¡Qué bien! ¿Te quedaste allí dos días?",
+          "en": "¡Qué bien! ¿Te quedaste allí dos días?",
+          "ar": "¡Qué bien! ¿Te quedaste allí dos días?"
+        },
+        {
+          "es": "Viajé a la costa y visité a mi abuela.",
+          "en": "Viajé a la costa y visité a mi abuela.",
+          "ar": "Viajé a la costa y visité a mi abuela."
+        },
+        {
+          "es": "¿Qué hiciste el fin de semana?",
+          "en": "¿Qué hiciste el fin de semana?",
+          "ar": "¿Qué hiciste el fin de semana?"
+        }
+      ],
       "answer": "¿Qué hiciste el fin de semana?",
       "accepted": [],
       "audio": "¿Qué hiciste el fin de semana?",

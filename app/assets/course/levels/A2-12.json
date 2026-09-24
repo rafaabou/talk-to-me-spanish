@@ -625,7 +625,23 @@
         "en": "Listen and type what you hear.",
         "ar": "استمع واكتب ما سمعته."
       },
-      "options": [],
+      "options": [
+        {
+          "es": "¿Qué hiciste ayer?",
+          "en": "¿Qué hiciste ayer?",
+          "ar": "¿Qué hiciste ayer?"
+        },
+        {
+          "es": "Trabajé por la mañana y por la tarde fui al mercado.",
+          "en": "Trabajé por la mañana y por la tarde fui al mercado.",
+          "ar": "Trabajé por la mañana y por la tarde fui al mercado."
+        },
+        {
+          "es": "Cuando era niño, me encantaba ir al mercado con mi padre.",
+          "en": "Cuando era niño, me encantaba ir al mercado con mi padre.",
+          "ar": "Cuando era niño, me encantaba ir al mercado con mi padre."
+        }
+      ],
       "answer": "¿Qué hiciste ayer?",
       "accepted": [],
       "audio": "¿Qué hiciste ayer?",
