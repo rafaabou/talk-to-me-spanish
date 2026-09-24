@@ -15,6 +15,54 @@ void main() {
 class EszeroApp extends StatelessWidget {
   const EszeroApp({super.key});
 
+  /// Material's default type scale is tuned for dense desktop UIs: the smallest
+  /// labels are 11sp and body text 14sp with no extra leading, which is hard to
+  /// read on a phone. This raises the small end, adds line height, and pins
+  /// explicit colours so body text keeps at least a 4.5:1 contrast ratio.
+  static ThemeData _theme({
+    required Color seed,
+    required Brightness brightness,
+  }) {
+    final scheme = ColorScheme.fromSeed(
+      seedColor: seed,
+      brightness: brightness,
+    );
+    final base = Typography.material2021(
+      platform: TargetPlatform.android,
+    ).white.apply(bodyColor: scheme.onSurface, displayColor: scheme.onSurface);
+    return ThemeData(
+      colorScheme: scheme,
+      useMaterial3: true,
+      fontFamilyFallback: const ['NotoNaskhArabic'],
+      textTheme: base.copyWith(
+        labelSmall: base.labelSmall?.copyWith(
+          fontSize: 12.5,
+          height: 1.3,
+          color: scheme.onSurfaceVariant,
+        ),
+        labelMedium: base.labelMedium?.copyWith(fontSize: 13, height: 1.3),
+        labelLarge: base.labelLarge?.copyWith(fontSize: 15, height: 1.3),
+        bodySmall: base.bodySmall?.copyWith(
+          fontSize: 13.5,
+          height: 1.4,
+          color: scheme.onSurfaceVariant,
+        ),
+        bodyMedium: base.bodyMedium?.copyWith(
+          fontSize: 15.5,
+          height: 1.4,
+          color: scheme.onSurface,
+        ),
+        bodyLarge: base.bodyLarge?.copyWith(fontSize: 18, height: 1.35),
+        titleMedium: base.titleMedium?.copyWith(
+          fontSize: 20,
+          height: 1.3,
+          fontWeight: FontWeight.w700,
+        ),
+        titleLarge: base.titleLarge?.copyWith(fontSize: 22, height: 1.3),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
@@ -36,21 +84,13 @@ class EszeroApp extends StatelessWidget {
               Locale('pt'),
               Locale('es'),
             ],
-            theme: ThemeData(
-              colorScheme: ColorScheme.fromSeed(
-                seedColor: const Color(0xFF008000),
-                brightness: Brightness.light,
-              ),
-              fontFamilyFallback: const ['NotoNaskhArabic'],
-              useMaterial3: true,
+            theme: _theme(
+              seed: const Color(0xFF008000),
+              brightness: Brightness.light,
             ),
-            darkTheme: ThemeData(
-              colorScheme: ColorScheme.fromSeed(
-                seedColor: const Color(0xFF00C853),
-                brightness: Brightness.dark,
-              ),
-              fontFamilyFallback: const ['NotoNaskhArabic'],
-              useMaterial3: true,
+            darkTheme: _theme(
+              seed: const Color(0xFF00C853),
+              brightness: Brightness.dark,
             ),
             themeMode: state.themeMode,
             builder: (context, child) {

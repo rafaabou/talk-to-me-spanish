@@ -11,6 +11,7 @@ import '../services/progress_file_helper.dart' as file_helper;
 import 'lesson_list_screen.dart';
 import 'flashcard_screen.dart';
 import 'search_screen.dart';
+import 'settings_screen.dart';
 import 'quiz_screen.dart';
 import 'favorites_screen.dart';
 import 'grammar_screen.dart';
@@ -440,23 +441,33 @@ class _HomeScreenState extends State<HomeScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
-                  '${(pct * 100).toStringAsFixed(0)}%',
-                  style: Theme.of(context).textTheme.bodySmall,
+                Flexible(
+                  child: Text(
+                    '${(pct * 100).toStringAsFixed(0)}%',
+                    style: Theme.of(context).textTheme.bodySmall,
+                    overflow: TextOverflow.ellipsis,
+                  ),
                 ),
-                Row(
-                  children: [
-                    const Icon(
-                      Icons.local_fire_department,
-                      color: Colors.orange,
-                      size: 18,
-                    ),
-                    const SizedBox(width: 4),
-                    Text(
-                      streakLabel,
-                      style: Theme.of(context).textTheme.bodySmall,
-                    ),
-                  ],
+                const SizedBox(width: 8),
+                Flexible(
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Icon(
+                        Icons.local_fire_department,
+                        color: Colors.orange,
+                        size: 18,
+                      ),
+                      const SizedBox(width: 4),
+                      Flexible(
+                        child: Text(
+                          streakLabel,
+                          style: Theme.of(context).textTheme.bodySmall,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ],
             ),
@@ -717,6 +728,8 @@ class _SettingsMenu extends StatelessWidget {
             state.setZoom(state.zoom - 0.1);
           case 'zoom_plus':
             state.setZoom(state.zoom + 0.1);
+          case 'open_settings':
+            SettingsScreen.open(context);
           case 'export_file':
             final path = await ProgressService.instance.exportToFile();
             if (context.mounted) {
@@ -976,6 +989,23 @@ class _SettingsMenu extends StatelessWidget {
               ),
             ),
             const PopupMenuDivider(),
+            PopupMenuItem(
+              value: 'open_settings',
+              child: Row(
+                children: [
+                  const Icon(Icons.settings_outlined, size: 20),
+                  const SizedBox(width: 10),
+                  Text(
+                    uiText(
+                      state.lang,
+                      ar: 'كل الإعدادات',
+                      es: 'Todos los ajustes',
+                      other: 'All settings',
+                    ),
+                  ),
+                ],
+              ),
+            ),
             PopupMenuItem(
               value: 'reset',
               child: Text(

@@ -10,6 +10,7 @@ import '../widgets/audio_button.dart';
 import '../widgets/tr_text.dart';
 import '../widgets/app_selection_area.dart';
 import '../widgets/credit_footer.dart';
+import '../widgets/text_size_sheet.dart';
 import '../services/ui_text.dart';
 import 'lesson_exercise_tile.dart';
 import 'lesson_search_sheet.dart';
@@ -189,7 +190,7 @@ class _LessonScreenState extends State<LessonScreen> {
     return AppSelectionArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Text(lesson.title.tr(lang)),
+          title: Text(lesson.title.tr(lang), overflow: TextOverflow.ellipsis),
           actions: [
             if (_siblingIndex > 0)
               IconButton(
@@ -208,15 +209,73 @@ class _LessonScreenState extends State<LessonScreen> {
               tooltip: 'Mark complete',
               onPressed: _markComplete,
             ),
-            IconButton(
-              icon: const Icon(Icons.search),
-              tooltip: 'Search in lesson',
-              onPressed: _showSearch,
-            ),
-            IconButton(
-              icon: const Icon(Icons.picture_as_pdf),
-              tooltip: 'Export PDF',
-              onPressed: _exportPdf,
+            PopupMenuButton<String>(
+              tooltip: 'More',
+              icon: const Icon(Icons.more_vert),
+              onSelected: (value) {
+                switch (value) {
+                  case 'search':
+                    _showSearch();
+                  case 'text_size':
+                    TextSizeSheet.show(context);
+                  case 'pdf':
+                    _exportPdf();
+                }
+              },
+              itemBuilder:
+                  (context) => [
+                    PopupMenuItem(
+                      value: 'search',
+                      child: Row(
+                        children: [
+                          const Icon(Icons.search, size: 20),
+                          const SizedBox(width: 10),
+                          Text(
+                            uiText(
+                              lang,
+                              ar: 'بحث في الدرس',
+                              es: 'Buscar en la lección',
+                              other: 'Search in lesson',
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    PopupMenuItem(
+                      value: 'text_size',
+                      child: Row(
+                        children: [
+                          const Icon(Icons.text_fields, size: 20),
+                          const SizedBox(width: 10),
+                          Text(
+                            uiText(
+                              lang,
+                              ar: 'حجم النص',
+                              es: 'Tamaño del texto',
+                              other: 'Text size',
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    PopupMenuItem(
+                      value: 'pdf',
+                      child: Row(
+                        children: [
+                          const Icon(Icons.picture_as_pdf, size: 20),
+                          const SizedBox(width: 10),
+                          Text(
+                            uiText(
+                              lang,
+                              ar: 'تصدير PDF',
+                              es: 'Exportar PDF',
+                              other: 'Export PDF',
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
             ),
           ],
         ),

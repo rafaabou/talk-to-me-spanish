@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import '../services/app_state.dart';
 import '../models/course_models.dart';
 import '../services/progress_service.dart';
 import '../widgets/audio_button.dart';
@@ -46,6 +48,24 @@ class VocabTile extends StatelessWidget {
     required this.onToggleFavorite,
   });
 
+  /// Same rule as [TriBlock]: the course language plus the interface language,
+  /// or all three when the reader opts in.
+  List<String> _translationLangs(BuildContext context, String uiLang) {
+    final showAll = context.select<AppState, bool>((s) => s.showAllLanguages);
+    return visibleTranslationLangs(
+      contentLang: 'es',
+      uiLang: uiLang,
+      showAll: showAll,
+    ).toList();
+  }
+
+  /// [TriText.tr] falls back to the course language when a translation is
+  /// missing, so skip anything that would just repeat the primary line.
+  bool _visible(String value, String primary) {
+    final v = value.trim();
+    return v.isNotEmpty && v != primary.trim();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -66,21 +86,18 @@ class VocabTile extends StatelessWidget {
         subtitle: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              v.tr(lang),
-              style: const TextStyle(fontWeight: FontWeight.w600),
-            ),
-            if (v.ar.isNotEmpty && v.ar != v.tr(lang)) ...[
-              Align(
-                alignment: Alignment.centerRight,
-                child: Text(
-                  v.ar,
-                  style: Theme.of(context).textTheme.bodySmall,
-                  textDirection: TextDirection.rtl,
-                  textAlign: TextAlign.right,
+            for (final l in _translationLangs(context, lang))
+              if (_visible(v.tr(l), v.es))
+                Align(
+                  alignment:
+                      l == 'ar' ? Alignment.centerRight : Alignment.centerLeft,
+                  child: Text(
+                    v.tr(l),
+                    style: const TextStyle(fontWeight: FontWeight.w600),
+                    textDirection: l == 'ar' ? TextDirection.rtl : null,
+                    textAlign: l == 'ar' ? TextAlign.right : null,
+                  ),
                 ),
-              ),
-            ],
             if (v.example != null) ...[
               const SizedBox(height: 2),
               Row(
@@ -97,21 +114,20 @@ class VocabTile extends StatelessWidget {
                   AudioButton(text: v.example!.es, lang: 'es', compact: true),
                 ],
               ),
-              if (v.example!.en.isNotEmpty)
-                Text(
-                  v.example!.en,
-                  style: Theme.of(context).textTheme.bodySmall,
-                ),
-              if (v.example!.ar.isNotEmpty)
-                Align(
-                  alignment: Alignment.centerRight,
-                  child: Text(
-                    v.example!.ar,
-                    style: Theme.of(context).textTheme.bodySmall,
-                    textDirection: TextDirection.rtl,
-                    textAlign: TextAlign.right,
+              for (final l in _translationLangs(context, lang))
+                if (_visible(v.example!.tr(l), v.example!.es))
+                  Align(
+                    alignment:
+                        l == 'ar'
+                            ? Alignment.centerRight
+                            : Alignment.centerLeft,
+                    child: Text(
+                      v.example!.tr(l),
+                      style: Theme.of(context).textTheme.bodySmall,
+                      textDirection: l == 'ar' ? TextDirection.rtl : null,
+                      textAlign: l == 'ar' ? TextAlign.right : null,
+                    ),
                   ),
-                ),
             ],
           ],
         ),

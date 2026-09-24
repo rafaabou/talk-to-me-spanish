@@ -79,7 +79,7 @@ It serves the prebuilt web app (`app/build/web`) and opens your browser automati
 - Data export/import (JSON backup)
 - Web support — run in browser
 - `build-all.sh` — one command builds APK + web
-- 92/92 tests passing, 0 analyze issues
+- 97/97 tests passing, 0 analyze issues
 
 ---
 
@@ -169,7 +169,7 @@ git clone https://github.com/rafaabou/espanol-zero-to-hero.git
 cd espanol-zero-to-hero/app
 flutter pub get
 flutter analyze              # Must be 0 issues
-flutter test                 # Must pass 92 tests
+flutter test                 # Must pass 97 tests
 
 # 5. Build release APK
 JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 \
@@ -187,7 +187,7 @@ cd app
 flutter pub get              # Install dependencies
 flutter run                  # Run on device/emulator
 flutter analyze              # Static analysis (must be 0 issues)
-flutter test                 # Run 92 tests
+flutter test                 # Run 97 tests
 dart format --set-exit-if-changed --output=none .  # Format check
 ```
 
@@ -563,7 +563,7 @@ See `SECURITY.md` for the full security policy and vulnerability reporting proce
 ```bash
 cd app
 flutter analyze              # Must be 0 issues
-flutter test                 # Must pass 92 tests
+flutter test                 # Must pass 97 tests
 git status                   # Nothing unintended staged
 dart format --set-exit-if-changed --output=none .  # Format check
 gitleaks detect --no-git -c .gitleaks.toml         # Optional local secret scan
@@ -591,6 +591,9 @@ Apache-2.0 — see `LICENSE` and `NOTICE`.
 - **Web speech**: Firefox has no SpeechRecognition, so the browser build now detects it and offers record + replay + self-check instead of a dead mic button; insecure-context and browser-network errors get accurate messages
 - **Spanish UI fixed**: the conversation screen was a Portuguese copy — ~50 strings were falling back to English; exercise de-duplication applied app-wide (ES already had 0 repeats)
 - **Audio drill labelling groundwork**: `ExerciseTile.contentLang` replaces a hardcoded `lang: 'pt'` audio key, and repeated audio drills get an `Audio n/total` badge (ES has no audio drills yet)
+- **Legibility overhaul**: Material's default type scale (11–16sp, no line height) is replaced with a readable scale (`labelSmall` 12.5 → `bodyLarge` 18, `titleMedium` 20 w700) with 1.35–1.4 line height and 1.5 for Arabic, plus explicit body/label colours for a ≥4.5:1 contrast ratio in both themes.
+- **Two-line content blocks**: lessons showed the course language + English + Arabic under every sentence; now it shows the course language + your interface language, with a "show all languages" switch in Settings.
+- **Settings screen**: text size (80–250% with live preview), interface language, theme, playback speed, repeat count and backup moved out of the Home popup into a real screen, plus a text-size action in the lesson overflow menu.
 
 ### v1.8.0 (2026-09-12)
 - Unique example phrases for all 1,190 vocab words (ES/EN/AR) with per-word audio buttons

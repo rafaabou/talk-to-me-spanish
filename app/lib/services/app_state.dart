@@ -8,11 +8,17 @@ class AppState extends ChangeNotifier {
   int _repeat = 1;
   ThemeMode _themeMode = ThemeMode.system;
   double _zoom = 1.0;
+  bool _showAllLanguages = false;
   String get lang => _lang;
   double get speed => _speed;
   int get repeat => _repeat;
   ThemeMode get themeMode => _themeMode;
   double get zoom => _zoom;
+
+  /// When false, content blocks show the course language plus the interface
+  /// language only, which keeps every sentence readable instead of stacking
+  /// three languages on top of each other.
+  bool get showAllLanguages => _showAllLanguages;
 
   AppState() {
     _load();
@@ -24,6 +30,7 @@ class AppState extends ChangeNotifier {
     _speed = prefs.getDouble('ui_speed') ?? 1.0;
     _repeat = prefs.getInt('ui_repeat') ?? 1;
     _zoom = prefs.getDouble('ui_zoom') ?? 1.0;
+    _showAllLanguages = prefs.getBool('ui_all_languages') ?? false;
     final theme = prefs.getString('ui_theme') ?? 'system';
     _themeMode =
         theme == 'dark'
@@ -71,10 +78,17 @@ class AppState extends ChangeNotifier {
   }
 
   Future<void> setZoom(double zoom) async {
-    _zoom = zoom.clamp(0.8, 2.0);
+    _zoom = zoom.clamp(0.8, 2.5);
     notifyListeners();
     final prefs = await SharedPreferences.getInstance();
     await prefs.setDouble('ui_zoom', _zoom);
+  }
+
+  Future<void> setShowAllLanguages(bool value) async {
+    _showAllLanguages = value;
+    notifyListeners();
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool('ui_all_languages', value);
   }
 
   bool get isRtl => _lang == 'ar';
