@@ -270,7 +270,7 @@ class _ExerciseTileState extends State<ExerciseTile> {
                       ),
                     ),
                     child: Align(
-                      alignment: Alignment.centerLeft,
+                      alignment: AlignmentDirectional.centerStart,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisSize: MainAxisSize.min,
@@ -484,7 +484,7 @@ class _ExerciseTileState extends State<ExerciseTile> {
                           ),
                         ),
                         child: Align(
-                          alignment: Alignment.centerLeft,
+                          alignment: AlignmentDirectional.centerStart,
                           child: Text(pt, style: const TextStyle(fontSize: 14)),
                         ),
                       ),
@@ -532,7 +532,7 @@ class _ExerciseTileState extends State<ExerciseTile> {
                           ),
                         ),
                         child: Align(
-                          alignment: Alignment.centerLeft,
+                          alignment: AlignmentDirectional.centerStart,
                           child: Text(en, style: const TextStyle(fontSize: 14)),
                         ),
                       ),

@@ -188,13 +188,14 @@ Custom implementation of the Free Spaced Repetition Scheduler:
 ## CI/CD Pipeline
 
 ```
-validate → build → package → release
+validate → build → desktop + web → package → release
 ```
 
 | Stage | Duration | What It Does |
 |-------|----------|--------------|
 | validate | ~30m | Format, analyze, test, secrets, dependency audit |
 | build | ~90m | APK build, Docker build, security scans |
+| web | ~10m | `flutter build web`, stamp `version.json`, assert bundled Arabic font |
 | package | ~45m | SBOM, Grype scan, Cosign sign, upload artifacts |
 | release | ~20m | Create tag, GitHub Release with APK + signatures + SBOMs |
 

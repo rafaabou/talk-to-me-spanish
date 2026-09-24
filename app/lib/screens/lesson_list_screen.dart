@@ -134,7 +134,7 @@ class _LessonListScreenState extends State<LessonListScreen> {
                     Padding(
                       padding: const EdgeInsets.fromLTRB(16, 0, 16, 10),
                       child: Align(
-                        alignment: Alignment.centerLeft,
+                        alignment: AlignmentDirectional.centerStart,
                         child: Text(
                           '$exDone/$total',
                           style: Theme.of(context).textTheme.bodySmall,

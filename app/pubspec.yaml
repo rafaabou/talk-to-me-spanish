@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   cupertino_icons: ^1.0.8
   just_audio: ^0.9.46
   shared_preferences: ^2.2.2
@@ -30,6 +32,12 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: NotoNaskhArabic
+      fonts:
+        - asset: assets/fonts/NotoNaskhArabic-Regular.ttf
+        - asset: assets/fonts/NotoNaskhArabic-Bold.ttf
+          weight: 700
   assets:
     - assets/course/levels/
     - assets/course/index.json

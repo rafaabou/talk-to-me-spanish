@@ -70,7 +70,10 @@ void main() {
     });
 
     test('one missing short word still reaches retry or pass', () {
-      final s = VoiceCompareService.compare('Buenos días senor', 'Buenos día sen');
+      final s = VoiceCompareService.compare(
+        'Buenos días senor',
+        'Buenos día sen',
+      );
       expect(s.score, greaterThanOrEqualTo(50));
     });
 
@@ -84,10 +87,9 @@ void main() {
     });
 
     test('sub-token heard cannot pass via containment', () {
-      final s = VoiceCompareService.compareAny(
-        ['Buenos días, ¿cómo está usted hoy?'],
-        'de',
-      );
+      final s = VoiceCompareService.compareAny([
+        'Buenos días, ¿cómo está usted hoy?',
+      ], 'de');
       expect(s.score, lessThan(90));
       expect(s.passed, isFalse);
     });

@@ -3,10 +3,12 @@
     "short_name": "Talk To Me ES",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#c0392b",
-    "theme_color": "#e74c3c",
+    "background_color": "#ffffff",
+    "theme_color": "#008000",
     "description": "Learn Spanish with interactive lessons and flashcards",
-    "orientation": "portrait-primary",
+    "lang": "es-ES",
+    "dir": "ltr",
+    "categories": ["education", "productivity"],
     "prefer_related_applications": false,
     "icons": [
         {

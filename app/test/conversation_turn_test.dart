@@ -91,11 +91,9 @@ void main() {
           _line('Pedro', 'Adiós.'),
         ],
         exercises: [
-          _writing(
-            'Escribe otra forma de decir goodbye',
+          _writing('Escribe otra forma de decir goodbye', 'hasta luego', [
             'hasta luego',
-            ['hasta luego'],
-          ),
+          ]),
           _writing('Escribe algo sin relación', 'zzz'),
         ],
         targetLang: 'es',

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 import 'screens/main_shell.dart';
 import 'screens/flashcard_screen.dart';
@@ -23,11 +24,24 @@ class EszeroApp extends StatelessWidget {
           return MaterialApp(
             title: 'Talk To Me Spanish By Mohamed Rafaa Tounekti',
             debugShowCheckedModeBanner: false,
+            locale: Locale(state.lang),
+            localizationsDelegates: const [
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+            ],
+            supportedLocales: const [
+              Locale('en'),
+              Locale('ar'),
+              Locale('pt'),
+              Locale('es'),
+            ],
             theme: ThemeData(
               colorScheme: ColorScheme.fromSeed(
                 seedColor: const Color(0xFF008000),
                 brightness: Brightness.light,
               ),
+              fontFamilyFallback: const ['NotoNaskhArabic'],
               useMaterial3: true,
             ),
             darkTheme: ThemeData(
@@ -35,19 +49,24 @@ class EszeroApp extends StatelessWidget {
                 seedColor: const Color(0xFF00C853),
                 brightness: Brightness.dark,
               ),
+              fontFamilyFallback: const ['NotoNaskhArabic'],
               useMaterial3: true,
             ),
             themeMode: state.themeMode,
             builder: (context, child) {
               final baseScale = MediaQuery.of(context).textScaler.scale(1.0);
-              return MediaQuery(
-                data: MediaQuery.of(context).copyWith(
-                  textScaler: TextScaler.linear(baseScale * state.zoom),
-                ),
-                child: _ZoomPinchHandler(
-                  initialZoom: state.zoom,
-                  onZoomEnd: (zoom) => state.setZoom(zoom),
-                  child: child!,
+              return Directionality(
+                textDirection:
+                    state.isRtl ? TextDirection.rtl : TextDirection.ltr,
+                child: MediaQuery(
+                  data: MediaQuery.of(context).copyWith(
+                    textScaler: TextScaler.linear(baseScale * state.zoom),
+                  ),
+                  child: _ZoomPinchHandler(
+                    initialZoom: state.zoom,
+                    onZoomEnd: (zoom) => state.setZoom(zoom),
+                    child: child!,
+                  ),
                 ),
               );
             },

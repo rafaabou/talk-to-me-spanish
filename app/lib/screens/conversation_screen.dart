@@ -1,16 +1,15 @@
 import 'dart:async';
-import 'dart:io';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:app_settings/app_settings.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:record/record.dart';
 import '../services/audio_service.dart';
 import '../services/conversation_turn_engine.dart';
 import '../services/progress_service.dart';
 import '../services/speech_service.dart';
+import '../services/temp_recording_helper.dart';
 import '../services/ui_text.dart';
 import '../services/voice_compare_service.dart';
 
@@ -110,12 +109,6 @@ class _ConversationScreenState extends State<ConversationScreen> {
     HapticFeedback.mediumImpact();
   }
 
-  Future<void> _deleteQuietly(String path) async {
-    try {
-      await File(path).delete();
-    } catch (_) {}
-  }
-
   void _scrollToBottom() {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (!mounted || !_scrollCtrl.hasClients) return;
@@ -166,8 +159,8 @@ class _ConversationScreenState extends State<ConversationScreen> {
       _score = null;
       _recPath = null;
     });
-    if (oldRec != null && oldRec.isNotEmpty) _deleteQuietly(oldRec);
-    _cleanupOldRecordings();
+    if (oldRec != null && oldRec.isNotEmpty) deleteRecording(oldRec);
+    cleanupOldRecordings();
     _scrollToBottom();
     if (_index < widget.turns.length) {
       _startTurn();
@@ -281,21 +274,19 @@ class _ConversationScreenState extends State<ConversationScreen> {
 
     final allowed = await _showRationale();
     if (!allowed || !mounted) return;
-    if (!kIsWeb) {
-      final hasMic = await _recorder.hasPermission();
-      if (!mounted) return;
-      if (!hasMic) {
-        setState(() => _fallback = true);
-        _msg(
-          uiText(
-            widget.lang,
-            ar: 'إذن الميكروفون مرفوض',
-            es: 'Permiso de micrófono denegado',
-            other: 'Microphone permission denied',
-          ),
-        );
-        return;
-      }
+    final hasMic = await _recorder.hasPermission();
+    if (!mounted) return;
+    if (!hasMic) {
+      setState(() => _fallback = true);
+      _msg(
+        uiText(
+          widget.lang,
+          ar: 'إذن الميكروفون مرفوض',
+          es: 'Permiso de micrófono denegado',
+          other: 'Microphone permission denied',
+        ),
+      );
+      return;
     }
 
     setState(() {
@@ -436,7 +427,6 @@ class _ConversationScreenState extends State<ConversationScreen> {
   }
 
   Future<void> _toggleRecord() async {
-    if (kIsWeb) return;
     try {
       if (_recording) {
         _recSafety?.cancel();
@@ -459,11 +449,17 @@ class _ConversationScreenState extends State<ConversationScreen> {
         );
         return;
       }
-      await _cleanupOldRecordings();
-      final dir = await getTemporaryDirectory();
-      final path =
-          '${dir.path}/talktome_user_${DateTime.now().millisecondsSinceEpoch}.m4a';
-      await _recorder.start(const RecordConfig(numChannels: 1), path: path);
+      await cleanupOldRecordings(keepPath: _recPath);
+      // Browsers record through MediaRecorder and ignore the path entirely;
+      // aacLc is not a supported MediaRecorder mime type there.
+      final path = await newRecordingPath() ?? 'talktome_user.webm';
+      await _recorder.start(
+        RecordConfig(
+          numChannels: 1,
+          encoder: kIsWeb ? AudioEncoder.opus : AudioEncoder.aacLc,
+        ),
+        path: path,
+      );
       _recording = true;
       _recPath = null;
       _recSafety?.cancel();
@@ -491,27 +487,17 @@ class _ConversationScreenState extends State<ConversationScreen> {
     }
   }
 
-  Future<void> _cleanupOldRecordings() async {
-    try {
-      final dir = await getTemporaryDirectory();
-      await for (final entity in dir.list()) {
-        if (entity is! File) continue;
-        final p = entity.path;
-        if (!p.contains('talktome_user_') || !p.endsWith('.m4a')) continue;
-        if (_recPath != null && p == _recPath) continue;
-        try {
-          await entity.delete();
-        } catch (_) {}
-      }
-    } catch (_) {}
-  }
-
   Future<void> _playRec() async {
     final path = _recPath;
     if (path == null) return;
     try {
       _abPlayer ??= AudioPlayer();
-      await _abPlayer!.setFilePath(path);
+      // Web recordings come back from the recorder as a blob: URL.
+      if (kIsWeb) {
+        await _abPlayer!.setUrl(path);
+      } else {
+        await _abPlayer!.setFilePath(path);
+      }
       await _abPlayer!.play();
     } catch (e) {
       _msg(
@@ -622,6 +608,10 @@ class _ConversationScreenState extends State<ConversationScreen> {
     final lang = widget.lang;
     final primary = _primary(turn);
     final isLearner = turn.role == TurnRole.learner;
+    final smallTailOnRight =
+        Directionality.of(context) == TextDirection.rtl
+            ? !isLearner
+            : isLearner;
     final translated = lang == targetLang ? '' : turn.text.tr(lang);
     final showTrans =
         translated.isNotEmpty &&
@@ -638,7 +628,10 @@ class _ConversationScreenState extends State<ConversationScreen> {
 
     final bubble = Container(
       margin: const EdgeInsets.only(bottom: 8),
-      alignment: isLearner ? Alignment.centerRight : Alignment.centerLeft,
+      alignment:
+          isLearner
+              ? AlignmentDirectional.centerEnd
+              : AlignmentDirectional.centerStart,
       child: Container(
         constraints: const BoxConstraints(maxWidth: 480),
         padding: const EdgeInsets.all(12),
@@ -650,8 +643,8 @@ class _ConversationScreenState extends State<ConversationScreen> {
           borderRadius: BorderRadius.only(
             topLeft: const Radius.circular(14),
             topRight: const Radius.circular(14),
-            bottomLeft: Radius.circular(isLearner ? 14 : 4),
-            bottomRight: Radius.circular(isLearner ? 4 : 14),
+            bottomLeft: Radius.circular(smallTailOnRight ? 14 : 4),
+            bottomRight: Radius.circular(smallTailOnRight ? 4 : 14),
           ),
         ),
         child: Column(
@@ -1011,7 +1004,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
               const SizedBox(height: 8),
               _buildResultActions(context, turn),
             ],
-            if (_phase == _Phase.result && !kIsWeb) ...[
+            if (_phase == _Phase.result) ...[
               const SizedBox(height: 8),
               _buildRecordRow(context),
             ],
@@ -1241,8 +1234,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                 lang,
                 ar: '${_passed.length}/$_learnerTotal جمل صحيحة',
                 es: '${_passed.length}/$_learnerTotal frases correctas',
-                other:
-                    '${_passed.length}/$_learnerTotal correct phrases',
+                other: '${_passed.length}/$_learnerTotal correct phrases',
               ),
               style: Theme.of(context).textTheme.bodyLarge,
             ),
