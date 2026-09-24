@@ -12,12 +12,18 @@ class _ReorderItem {
 }
 
 class ExerciseTile extends StatefulWidget {
+  /// Language of the course content, which is what audio keys are built from.
+  /// This is not the UI language.
+  static const String contentLang = 'es';
+
   final String lessonId;
   final int index;
   final Exercise e;
   final String lang;
   final bool isDone;
   final VoidCallback onToggleDone;
+  final int? drillNumber;
+  final int? drillTotal;
   const ExerciseTile(
     this.lessonId,
     this.index,
@@ -26,6 +32,8 @@ class ExerciseTile extends StatefulWidget {
     super.key,
     required this.isDone,
     required this.onToggleDone,
+    this.drillNumber,
+    this.drillTotal,
   });
 
   @override
@@ -54,6 +62,19 @@ class _ExerciseTileState extends State<ExerciseTile> {
   bool get _isMatchPairs => widget.e.type == 'match_pairs';
 
   bool get _isListeningMCQ => widget.e.type == 'listening_mcq';
+
+  /// "Audio 2/4" style label so repeated audio drills are distinguishable.
+  String? get _drillLabel {
+    final number = widget.drillNumber;
+    final total = widget.drillTotal;
+    if (number == null || total == null || total < 2) return null;
+    return uiText(
+      widget.lang,
+      ar: 'الصوت $number/$total',
+      es: 'Audio $number/$total',
+      other: 'Audio $number/$total',
+    );
+  }
 
   List<String> get _reorderWords {
     final scrambled = widget.e.options.map((o) => o.es).toList();
@@ -227,9 +248,30 @@ class _ExerciseTileState extends State<ExerciseTile> {
                     _isListeningMCQ) ...[
                   AudioButton(
                     text: (e.audio ?? e.answer.split('/')[0]).trim(),
-                    lang: 'es',
+                    lang: ExerciseTile.contentLang,
                   ),
                   const SizedBox(width: 8),
+                  if (_drillLabel != null)
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 8,
+                        vertical: 2,
+                      ),
+                      decoration: BoxDecoration(
+                        color: Theme.of(context).colorScheme.secondaryContainer,
+                        borderRadius: BorderRadius.circular(999),
+                      ),
+                      child: Text(
+                        _drillLabel!,
+                        style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                          color:
+                              Theme.of(
+                                context,
+                              ).colorScheme.onSecondaryContainer,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
                 ],
                 Expanded(child: TriBlock(e.prompt)),
                 if (widget.isDone)

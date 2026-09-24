@@ -103,4 +103,66 @@ void main() {
       expect(dedupedExerciseCount(list, 'es'), 2);
     });
   });
+
+  group('audioDrillOrdinals', () {
+    List<MapEntry<int, Exercise>> visibleOf(List<Exercise> list) =>
+        dedupeExercises(list, 'es');
+
+    test('numbers repeated listening_mcq drills', () {
+      final visible = visibleOf([
+        _ex('listening_mcq', 'Escucha y elige:', 'Buenos días'),
+        _ex('listening_mcq', 'Escucha y elige:', 'Buenas noches'),
+        _ex('listening_mcq', 'Escucha y elige:', 'Hasta luego'),
+      ]);
+      final map = audioDrillOrdinals(visible);
+      expect(map[0], (1, 3));
+      expect(map[1], (2, 3));
+      expect(map[2], (3, 3));
+    });
+
+    test('counts each drill type separately', () {
+      final visible = visibleOf([
+        _ex('listening_mcq', 'Escucha y elige:', 'Buenos días'),
+        _ex('listening_mcq', 'Escucha y elige:', 'Buenas noches'),
+        _ex('listening', '¿Qué escuchaste?', 'Buenos días!'),
+        _ex('listening', '¿Qué escuchaste?', 'Buenas noches!'),
+      ]);
+      final map = audioDrillOrdinals(visible);
+      expect(map[0], (1, 2));
+      expect(map[1], (2, 2));
+      expect(map[2], (1, 2));
+      expect(map[3], (2, 2));
+    });
+
+    test('skips a type that has only one drill', () {
+      final visible = visibleOf([
+        _ex('listening_mcq', 'Escucha y elige:', 'Buenos días'),
+        _ex('listening_mcq', 'Escucha y elige:', 'Buenas noches'),
+        _ex('dictation', 'Escribe lo que escuchaste', 'Buenos días!'),
+      ]);
+      final map = audioDrillOrdinals(visible);
+      expect(map.containsKey(2), isFalse);
+      expect(map[0], (1, 2));
+    });
+
+    test('ignores non-audio exercise types', () {
+      final visible = visibleOf([
+        _ex('translation', 'Traduce: Buenos días', 'Buenos días'),
+        _ex('sentence_reorder', 'Reordena: Buenos días', 'Buenos días'),
+      ]);
+      expect(audioDrillOrdinals(visible), isEmpty);
+    });
+
+    test('numbers follow the de-duplicated list, not the raw indices', () {
+      final visible = visibleOf([
+        _ex('listening_mcq', 'Escucha y elige:', 'Buenos días'),
+        _ex('listening_mcq', 'Escucha y elige:', 'Buenos días'),
+        _ex('listening_mcq', 'Escucha y elige:', 'Buenas noches'),
+      ]);
+      expect(visible.map((e) => e.key), [0, 2]);
+      final map = audioDrillOrdinals(visible);
+      expect(map[0], (1, 2));
+      expect(map[2], (2, 2));
+    });
+  });
 }

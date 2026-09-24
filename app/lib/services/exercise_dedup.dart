@@ -75,6 +75,11 @@ String exerciseWorkKey(Exercise e, String contentLang) =>
 /// answer means the learner does identical work even if the prompt is worded
 /// differently.
 String exerciseChoiceKey(Exercise e, String contentLang) {
+  // A listening drill plays a clip: the same clip answered with the same
+  // option is the same work even when the distractors differ.
+  if (e.type == 'listening_mcq' || e.type == 'listening') {
+    return '${e.type}|${normalizeForDedup(e.answer)}';
+  }
   if (!choiceDrillTypes.contains(e.type)) return '';
   final options = _sortedOptionsKey(e, contentLang);
   if (options.isEmpty) return '';
@@ -104,3 +109,33 @@ List<MapEntry<int, Exercise>> dedupeExercises(
 /// Number of exercises actually shown for a lesson.
 int dedupedExerciseCount(List<Exercise> exercises, String contentLang) =>
     dedupeExercises(exercises, contentLang).length;
+
+/// Drill types whose instruction text is identical every time, so the learner
+/// needs a visible ordinal to tell the exercises apart.
+const Set<String> audioDrillTypes = {'listening_mcq', 'listening', 'dictation'};
+
+/// Maps an exercise index to its `number/total` position among the audio
+/// drills of the same type in the visible list. Types with a single drill are
+/// left out so one-off exercises stay unlabelled.
+Map<int, (int number, int total)> audioDrillOrdinals(
+  List<MapEntry<int, Exercise>> visible,
+) {
+  final totals = <String, int>{};
+  for (final entry in visible) {
+    final type = entry.value.type;
+    if (audioDrillTypes.contains(type)) {
+      totals[type] = (totals[type] ?? 0) + 1;
+    }
+  }
+  final seen = <String, int>{};
+  final out = <int, (int number, int total)>{};
+  for (final entry in visible) {
+    final type = entry.value.type;
+    if (!audioDrillTypes.contains(type)) continue;
+    if ((totals[type] ?? 0) < 2) continue;
+    final number = (seen[type] ?? 0) + 1;
+    seen[type] = number;
+    out[entry.key] = (number, totals[type]!);
+  }
+  return out;
+}

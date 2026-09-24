@@ -29,6 +29,10 @@ class _LessonScreenState extends State<LessonScreen> {
   Lesson? _lesson;
   bool _loading = true;
   List<String> _siblings = [];
+
+  /// Original exercise index -> "n/total" position among the audio drills of
+  /// its type, so repeated instructions stay distinguishable.
+  Map<int, (int, int)> _drillOrdinals = {};
   int _siblingIndex = 0;
   Set<String> _doneExercises = {};
   Set<String> _favorites = {};
@@ -49,6 +53,10 @@ class _LessonScreenState extends State<LessonScreen> {
         await ProgressService.instance.getCompletedExercises();
     final favorites = await ProgressService.instance.getFavorites();
     ProgressService.instance.setLastOpened(widget.lessonId);
+    final drillOrdinals =
+        lesson == null
+            ? <int, (int, int)>{}
+            : audioDrillOrdinals(_visibleExercises(lesson));
     if (!mounted) return;
     setState(() {
       _lesson = lesson;
@@ -56,6 +64,7 @@ class _LessonScreenState extends State<LessonScreen> {
       _siblingIndex = siblings.indexOf(widget.lessonId);
       _doneExercises = doneExercises;
       _favorites = favorites;
+      _drillOrdinals = drillOrdinals;
       _loading = false;
     });
   }
@@ -415,6 +424,8 @@ class _LessonScreenState extends State<LessonScreen> {
                 e.value,
                 lang,
                 isDone: _doneExercises.contains('${lesson.id}::${e.key}'),
+                drillNumber: _drillOrdinals[e.key]?.$1,
+                drillTotal: _drillOrdinals[e.key]?.$2,
                 onToggleDone: () async {
                   await ProgressService.instance.toggleExerciseDone(
                     '${lesson.id}::${e.key}',
