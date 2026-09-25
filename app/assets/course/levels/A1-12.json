@@ -210,7 +210,7 @@
       "examples": [
         {
           "es": "Yo soy español y estoy feliz.",
-          "en": "I am Brazilian and I am happy.",
+          "en": "I am Spanish and I am happy.",
           "ar": "أنا برازيلي وأنا سعيد."
         },
         {
@@ -223,7 +223,8 @@
           "en": "The book is on the table, next to the pen.",
           "ar": "الكتاب على الطاولة، بجانب القلم."
         }
-      ]
+      ],
+      "en": "I am Spanish and I am happy."
     }
   ],
   "dialogue": {
@@ -321,11 +322,6 @@
         "ar": "كيف تقول 'شكرًا' (مؤنث)؟"
       },
       "options": [
-        {
-          "es": "gracias",
-          "en": "thank you",
-          "ar": "شكرًا"
-        },
         {
           "es": "gracias",
           "en": "thank you",

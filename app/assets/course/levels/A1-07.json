@@ -325,12 +325,13 @@
   "reading": {
     "title": {
       "es": "Familia Hispana",
-      "en": "Brazilian Family",
+      "en": "Hispanic Family",
       "ar": "عائلة برازيلية"
     },
     "text_es": "La familia de Juan es grande. Su padre es médico y su madre es dentista. Juan tiene dos hermanos y una hermana. Los abuelos viven en otra ciudad. Los domingos, toda la familia se reúne para almorzar. Son muy unidos.",
     "text_en": "João's family is big. His father is a doctor and his mother is a dentist. João has two brothers and one sister. The grandparents live in another city. On Sundays, the whole family gathers for lunch. They are very close.",
-    "text_ar": "عائلة جواو كبيرة. والده طبيب ووالدته طبيبة أسنان. لدى جواو شقيقان وأخت واحدة. يعيش الجدّان في مدينة أخرى. في أيام الأحد، تجتمع العائلة كلها لتناول الغداء. إنهم متحابون جدًا."
+    "text_ar": "عائلة جواو كبيرة. والده طبيب ووالدته طبيبة أسنان. لدى جواو شقيقان وأخت واحدة. يعيش الجدّان في مدينة أخرى. في أيام الأحد، تجتمع العائلة كلها لتناول الغداء. إنهم متحابون جدًا.",
+    "en": "Hispanic Family"
   },
   "exercises": [
     {
@@ -372,11 +373,6 @@
         "ar": "___ أبي طبيب. (ملكي)"
       },
       "options": [
-        {
-          "es": "Mi",
-          "en": "Mi",
-          "ar": "Mi"
-        },
         {
           "es": "Mi",
           "en": "Mi",

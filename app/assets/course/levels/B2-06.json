@@ -226,7 +226,7 @@
       },
       "explanation": {
         "es": "En español, el pretérito indefinido (llegó, miró) hace avanzar la historia, mientras el imperfecto (leía, llovía) describe escenarios y acciones habituales. Ejemplo: Mientras llovía, ella leía; después, él llegó.",
-        "en": "In Portuguese, the simple past (chegou, olhou) advances the story, while the imperfect (lia, chovia) describes scenes and habitual actions. Example: While it rained, she read; then, he arrived.",
+        "en": "In Spanish, the preterite (llegó, miró) advances the story, while the imperfect (leía, llovía) describes scenes and habitual actions. Example: While it rained, she read; then, he arrived.",
         "ar": "في البرتغالية، الماضي التام (chegou، olhou) يدفع القصة قدمًا، بينما الناقص (lia، chovia) يصف المشاهد والأفعال المعتادة. مثال: بينما كان المطر يهطل كانت تقرأ؛ ثم وصل."
       },
       "examples": [
@@ -250,7 +250,8 @@
           "en": "In the end, the character discovered the truth.",
           "ar": "في النهاية، اكتشفت الشخصية الحقيقة."
         }
-      ]
+      ],
+      "en": "In Spanish, the preterite (llegó, miró) advances the story, while the imperfect (leía, llovía) describes scenes and habitual actions. Example: While it rained, she read; then, he arrived."
     },
     {
       "title": {
@@ -303,7 +304,7 @@
       {
         "speaker": "Pedro",
         "es": "Sí. Creo que es una de las mayores obras de la literatura española.",
-        "en": "I did. I think it's one of the greatest works of Brazilian literature.",
+        "en": "Yes. I think it is one of the greatest works of Spanish literature.",
         "ar": "نعم قرأتها. أعتقد أنها من أعظم الأعمال في الأدب البرازيلي."
       },
       {
@@ -335,7 +336,7 @@
   "reading": {
     "title": {
       "es": "El Maestro de la Literatura Española",
-      "en": "The Master of Brazilian Literature",
+      "en": "The Master of Spanish Literature",
       "ar": "أستاذ الأدب البرازيلي"
     },
     "text_es": "Cervantes es considerado uno de los mayores escritores de España. Escribió novelas, cuentos y poesías que encantan a los lectores hasta hoy. Sus obras retratan la sociedad española del siglo XVII con humor e ironía. Quien lee 'Don Quijote' nunca olvida a sus personajes.",

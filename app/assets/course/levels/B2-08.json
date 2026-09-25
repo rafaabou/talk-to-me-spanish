@@ -255,7 +255,7 @@
       "examples": [
         {
           "es": "El investigador cuyo artículo ganó el premio es español.",
-          "en": "The researcher whose article won the award is Brazilian.",
+          "en": "The researcher whose article won the award is Spanish.",
           "ar": "الباحث الذي فازت مقالته بالجائزة برازيلي."
         },
         {
@@ -318,11 +318,11 @@
   "reading": {
     "title": {
       "es": "La Ciencia Española",
-      "en": "Brazilian Science",
+      "en": "Spanish Science",
       "ar": "العلم البرازيلي"
     },
     "text_es": "La ciencia española ha avanzado en muchas áreas. Los investigadores desarrollan vacunas, medicamentos y tecnologías sostenibles. Un estudio reciente mostró que la inteligencia artificial puede ayudar a predecir enfermedades. Para que este progreso continúe, es fundamental invertir en educación e investigación.",
-    "text_en": "Brazilian science has advanced in many areas. Researchers develop vaccines, medicines and sustainable technologies. A recent study showed that artificial intelligence can help predict diseases. For this progress to continue, it is essential to invest in education and research.",
+    "text_en": "Spanish science has advanced in many areas. Researchers develop vaccines, medicines and sustainable technologies. A recent study showed that artificial intelligence can help predict diseases. For this progress to continue, it is essential to invest in education and research.",
     "text_ar": "لقد تقدم العلم البرازيلي في مجالات كثيرة. يطور الباحثون اللقاحات والأدوية والتقنيات المستدامة. أظهرت دراسة حديثة أن الذكاء الاصطناعي يمكن أن يساعد في التنبؤ بالأمراض. ولكي يستمر هذا التقدم، من الضروري الاستثمار في التعليم والبحث."
   },
   "exercises": [

@@ -242,10 +242,11 @@
         },
         {
           "es": "Los alumnos estudian español.",
-          "en": "The students study Portuguese.",
+          "en": "The students study Spanish.",
           "ar": "يدرس الطلاب البرتغالية."
         }
-      ]
+      ],
+      "en": "The students study Spanish."
     },
     {
       "title": {

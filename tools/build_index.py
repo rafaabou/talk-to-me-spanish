@@ -19,6 +19,17 @@ OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(
     ROOT, "..", "app", "assets", "course", "index.json")
 
 
+def _latest_source_mtime():
+    """Newest mtime across the lesson files, as an ISO timestamp."""
+    import datetime
+    import glob
+    newest = max(
+        (os.path.getmtime(f) for f in glob.glob(os.path.join(COURSE_DIR, "*.json"))),
+        default=os.path.getmtime(COURSE_DIR),
+    )
+    return datetime.datetime.fromtimestamp(newest).isoformat()
+
+
 def main():
     files = sorted(
         f for f in os.listdir(COURSE_DIR)
@@ -73,7 +84,9 @@ def main():
         })
 
     data = {
-        "generated": __import__("datetime").datetime.now().isoformat(),
+        # Derived from the newest source lesson so re-running the generator on
+        # unchanged data produces a byte-identical file.
+        "generated": _latest_source_mtime(),
         "lessons": lessons,
         "vocab": vocab,
         "grammar": grammar,

@@ -14,7 +14,7 @@
   "objectives": [
     {
       "es": "Reconocer y pronunciar el alfabeto español",
-      "en": "Recognize and pronounce the Portuguese alphabet",
+      "en": "Recognize and pronounce the Spanish alphabet",
       "ar": "التعرف على الأبجدية البرتغالية ونطقها"
     },
     {
@@ -199,12 +199,12 @@
     {
       "title": {
         "es": "Las Vocales del Español",
-        "en": "Portuguese Vowels",
+        "en": "Spanish Vowels",
         "ar": "حركات العلة في البرتغالية"
       },
       "explanation": {
         "es": "El español tiene 5 letras vocálicas (A, E, I, O, U). Hay vocales abiertas (a, e, o) y cerradas (i, u). La pronunciación de las vocales es muy clara y estable.",
-        "en": "Portuguese has 5 vowel letters (A, E, I, O, U) but more sounds: open vowels (é, ó), closed vowels (ê, ô) and nasal vowels (ã, õ). Nasal vowels are produced with air escaping through the nose.",
+        "en": "Spanish has 5 vowel letters (A, E, I, O, U). There are open vowels (a, e, o) and closed vowels (i, u). Vowel pronunciation is very clear and stable.",
         "ar": "تحتوي البرتغالية على 5 حروف علّة (A, E, I, O, U) لكن أصواتًا أكثر: حركات مفتوحة (é, ó) ومغلقة (ê, ô) وأنفية (ã, õ). تنتج الحركات الأنفية مع خروج الهواء من الأنف."
       },
       "examples": [
@@ -223,7 +223,8 @@
           "en": "Ã is nasal as in 'mãe' (mother).",
           "ar": "Ã حركة أنفية كما في 'mãe' (أم)."
         }
-      ]
+      ],
+      "en": "Spanish has 5 vowel letters (A, E, I, O, U). There are open vowels (a, e, o) and closed vowels (i, u). Vowel pronunciation is very clear and stable."
     },
     {
       "title": {
@@ -301,7 +302,7 @@
       "ar": "الأبجدية"
     },
     "text_es": "El alfabeto español tiene 27 letras. Las vocales son A, E, I, O, U. Las demás letras son consonantes. La letra Ñ es un sonido especial del español. La pronunciación es muy importante para hablar bien.",
-    "text_en": "The Portuguese alphabet has 26 letters. The vowels are A, E, I, O, U. The other letters are consonants. Some sounds are nasal, like in 'pão' (bread) and 'mãe' (mother). Pronunciation is very important to speak well.",
+    "text_en": "The Spanish alphabet has 27 letters. The vowels are A, E, I, O, U. The other letters are consonants. The letter Ñ is a special sound of Spanish. Pronunciation is very important for speaking well.",
     "text_ar": "تحتوي الأبجدية البرتغالية على 26 حرفًا. حركات العلة هي A, E, I, O, U. أما بقية الحروف فهي ساكنة. بعض الأصوات أنفية، مثل في 'pão' (خبز) و 'mãe' (أم). النطق مهم جدًا للتحدث جيدًا."
   },
   "exercises": [

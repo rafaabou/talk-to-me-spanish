@@ -205,7 +205,7 @@
       "examples": [
         {
           "es": "Estudio español todos los días.",
-          "en": "I study Portuguese every day.",
+          "en": "I study Spanish every day.",
           "ar": "أدرس البرتغالية كل يوم."
         },
         {
@@ -218,7 +218,8 @@
           "en": "If I had more time, I would study even more.",
           "ar": "لو كان لدي وقت أكثر، لدرست أكثر."
         }
-      ]
+      ],
+      "en": "I study Spanish every day."
     },
     {
       "title": {

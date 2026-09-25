@@ -194,7 +194,7 @@
       "examples": [
         {
           "es": "La persona que conocí es española.",
-          "en": "The person I met is Brazilian.",
+          "en": "The person I met is Spanish.",
           "ar": "الشخص الذي قابلته برازيلي."
         },
         {
@@ -207,7 +207,8 @@
           "en": "The city we visited is beautiful.",
           "ar": "المدينة التي زرناها جميلة."
         }
-      ]
+      ],
+      "en": "The person I met is Spanish."
     },
     {
       "title": {
@@ -347,11 +348,6 @@
           "es": "quien",
           "en": "who",
           "ar": "من"
-        },
-        {
-          "es": "donde",
-          "en": "whose (fem.)",
-          "ar": "التي لها"
         }
       ],
       "answer": "donde",

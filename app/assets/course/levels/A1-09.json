@@ -336,12 +336,13 @@
   "reading": {
     "title": {
       "es": "Un Almuerzo Hispano",
-      "en": "A Brazilian Lunch",
+      "en": "A Hispanic Lunch",
       "ar": "غداء برازيلي"
     },
     "text_es": "En España, el almuerzo es una comida importante. Muchas personas comen arroz, frijoles, carne o pollo y ensalada. El zumo de naranja es muy popular. Al final, un cafecito. La propina en el restaurante es opcional.",
     "text_en": "In Spain, lunch is an important meal. Many people eat rice, beans, meat or chicken and salad. Orange juice is very popular. At the end, a small coffee. Restaurant tipping is optional.",
-    "text_ar": "في إسبانيا، الغداء وجبة مهمة. يأكل كثيرون الأرز والفاصوليا واللحم أو الدجاج والسلطة. عصير البرتقال شائع جدًا. وفي النهاية قهوة صغيرة. والإكرامية في المطعم اختيارية."
+    "text_ar": "في إسبانيا، الغداء وجبة مهمة. يأكل كثيرون الأرز والفاصوليا واللحم أو الدجاج والسلطة. عصير البرتقال شائع جدًا. وفي النهاية قهوة صغيرة. والإكرامية في المطعم اختيارية.",
+    "en": "A Hispanic Lunch"
   },
   "exercises": [
     {

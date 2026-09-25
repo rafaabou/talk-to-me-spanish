@@ -255,7 +255,7 @@
       "examples": [
         {
           "es": "'Actually' en español es 'en realidad', no 'actualmente'.",
-          "en": "'Actually' in Portuguese is 'na verdade', not 'atualmente'.",
+          "en": "'Actually' in Spanish is 'en realidad', not 'actualmente'.",
           "ar": "كلمة 'actually' في البرتغالية هي 'na verdade'، وليست 'atualmente'."
         },
         {
@@ -369,11 +369,6 @@
           "es": "sensible",
           "en": "sensitive",
           "ar": "حساس"
-        },
-        {
-          "es": "sensato",
-          "en": "sensible",
-          "ar": "حكيم"
         },
         {
           "es": "sensato",

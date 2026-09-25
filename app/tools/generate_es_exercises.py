@@ -181,7 +181,8 @@ def build_exercises(lesson, pool, rng):
     es, en, ar, _ = free[0]
     listen_distractors = [s for s in free[4:6]]
     if listen_distractors:
-        options = [es] + [d[0] for d in listen_distractors]
+        built = dedupe_options(es, [d[0] for d in listen_distractors])
+        options = built if built else None
         rng.shuffle(options)
     else:
         options = [es]
@@ -217,7 +218,8 @@ def build_exercises(lesson, pool, rng):
     target = free[2]
     distractors = [s for s in free[3:6]]
     if distractors:
-        options = [target[0]] + [d[0] for d in distractors]
+        built = dedupe_options(target[0], [d[0] for d in distractors])
+        options = built if built else None
         rng.shuffle(options)
         out.append(
             {
@@ -256,7 +258,8 @@ def build_exercises(lesson, pool, rng):
         wrong = [w for w in lesson_words if norm(w) != norm(word) and norm(w) != norm(cloze)]
         if len(wrong) < 2:
             break
-        options = [word] + wrong[:3]
+        built = dedupe_options(word, wrong[:3])
+        options = built if built else None
         rng.shuffle(options)
         out.append(
             {
@@ -333,6 +336,23 @@ def repair_empty_choice_drills():
             handle.write(json.dumps(lesson, ensure_ascii=False, indent=2))
     print(f'repaired {repaired} drills with no options')
 
+
+def dedupe_options(correct, distractors, minimum=2):
+    """Correct answer first, then unique distractors.
+
+    A duplicated choice is a real defect: the learner sees two identical
+    buttons and the exercise has fewer effective choices than it looks. Also
+    refuses to emit an option list shorter than [minimum].
+    """
+    out = [correct]
+    seen = {norm(correct)}
+    for d in distractors:
+        key = norm(d)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        out.append(d)
+    return out if len(out) >= minimum else None
 
 def main():
     parser = argparse.ArgumentParser()

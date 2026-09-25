@@ -199,7 +199,7 @@
       "examples": [
         {
           "es": "Yo hablo español.",
-          "en": "I speak Portuguese.",
+          "en": "I speak Spanish.",
           "ar": "أتحدث البرتغالية."
         },
         {
@@ -212,7 +212,8 @@
           "en": "You study every day.",
           "ar": "أنت تدرس كل يوم."
         }
-      ]
+      ],
+      "en": "I speak Spanish."
     },
     {
       "title": {
@@ -233,7 +234,7 @@
         },
         {
           "es": "Ella aprende español rápido.",
-          "en": "She learns Portuguese fast.",
+          "en": "She learns Spanish fast.",
           "ar": "تتعلم البرتغالية بسرعة."
         },
         {
@@ -241,7 +242,8 @@
           "en": "We watch TV at night.",
           "ar": "نشاهد التلفاز في الليل."
         }
-      ]
+      ],
+      "en": "She learns Spanish fast."
     }
   ],
   "dialogue": {

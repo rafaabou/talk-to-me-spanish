@@ -205,7 +205,7 @@
       "examples": [
         {
           "es": "Estoy estudiando español ahora.",
-          "en": "I am studying Portuguese right now.",
+          "en": "I am studying Spanish right now.",
           "ar": "أنا أدرس البرتغالية الآن."
         },
         {
@@ -218,7 +218,8 @@
           "en": "They are working right now.",
           "ar": "إنهم يعملون في هذه اللحظة."
         }
-      ]
+      ],
+      "en": "I am studying Spanish right now."
     },
     {
       "title": {
