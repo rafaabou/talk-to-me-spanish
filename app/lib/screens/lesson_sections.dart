@@ -73,16 +73,30 @@ class VocabTile extends StatelessWidget {
     return Card(
       child: ListTile(
         dense: true,
+        // The word's speaker sits on the word's own line. In `trailing` it was
+        // centred against the whole card, next to the example sentence, so it
+        // read as sentence audio. `Wrap` keeps the IPA readable: entries whose
+        // "word" is really a phrase carry long IPA strings, and those move to
+        // their own line instead of squeezing the word out of the row.
         title: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Expanded(
-              child: Text(
-                v.es,
-                style: const TextStyle(fontWeight: FontWeight.w600),
+              child: Wrap(
+                crossAxisAlignment: WrapCrossAlignment.center,
+                spacing: 8,
+                children: [
+                  Text(
+                    v.es,
+                    style: const TextStyle(fontWeight: FontWeight.w600),
+                  ),
+                  if (v.ipa.isNotEmpty)
+                    Text(v.ipa, style: Theme.of(context).textTheme.bodySmall),
+                ],
               ),
             ),
-            if (v.ipa.isNotEmpty)
-              Text(v.ipa, style: Theme.of(context).textTheme.bodySmall),
+            const SizedBox(width: 4),
+            AudioButton(text: v.es, lang: 'es'),
           ],
         ),
         subtitle: Column(
@@ -133,19 +147,13 @@ class VocabTile extends StatelessWidget {
             ],
           ],
         ),
-        trailing: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            AudioButton(text: v.es, lang: 'es'),
-            IconButton(
-              icon: Icon(
-                isFavorite ? Icons.star : Icons.star_border,
-                color: isFavorite ? Colors.amber : null,
-              ),
-              tooltip: 'Favorite',
-              onPressed: onToggleFavorite,
-            ),
-          ],
+        trailing: IconButton(
+          icon: Icon(
+            isFavorite ? Icons.star : Icons.star_border,
+            color: isFavorite ? Colors.amber : null,
+          ),
+          tooltip: 'Favorite',
+          onPressed: onToggleFavorite,
         ),
       ),
     );
