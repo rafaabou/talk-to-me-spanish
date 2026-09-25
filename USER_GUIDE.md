@@ -79,7 +79,7 @@ Each level (A1-C2) contains 12 lessons. Each lesson includes:
 | **Grammar** | Grammar rules with explanations and examples |
 | **Dialogue** | Conversations between speakers with audio |
 | **Reading** | Reading passages in Spanish with translations |
-| **Speaking** | Listen-and-repeat phrases with progress checkboxes |
+| **Speaking** | Listen-and-repeat phrases with progress checkboxes (Portuguese build only; the Spanish course does not ship this section yet) |
 | **Exercises** | Interactive practice (8 types) |
 | **Cultural Tips** | Cultural context about Spain and Latin America |
 | **Notes** | Your personal notes for this lesson |
