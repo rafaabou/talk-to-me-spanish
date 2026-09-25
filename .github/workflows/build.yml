@@ -6,6 +6,12 @@
     branches:
     - main
   workflow_dispatch:
+
+# Actions minutes are billed per runner, and Windows/macOS cost 2x and 10x a
+# Linux minute. A superseded run is pure waste, so cancel it.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 env:
   FLUTTER_VERSION: 3.29.3
   JAVA_VERSION: '17'
@@ -165,6 +171,13 @@ jobs:
         test "$SIZE" -gt 1000000 || exit 1'
     - name: Stage APK into Docker context
       run: cp build/app/outputs/flutter-apk/app-release.apk ./app-release.apk
+    - name: Upload Android APK
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+      with:
+        name: es-apk
+        path: app/build/app/outputs/flutter-apk/app-release.apk
+        retention-days: 7
+        if-no-files-found: error
     - name: Lint Dockerfile (Hadolint)
       run: |
         mkdir -p "$HOME/.local/bin"
@@ -222,6 +235,10 @@ jobs:
       if: always()
       continue-on-error: true
   desktop:
+    # Desktop packaging runs on the expensive Windows and macOS runners, so it
+    # is limited to real releases: a push to main or a version tag. Pull
+    # requests validate the Dart and Python side only.
+    if: github.event_name != 'pull_request'
     permissions:
       contents: read
     name: Build Desktop Spanish App (${{ matrix.os }})
@@ -375,39 +392,15 @@ jobs:
       with:
         fetch-depth: 0
         persist-credentials: false
-    - name: Setup Flutter
-      uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e # v2.21.0
-      with:
-        flutter-version: ${{ env.FLUTTER_VERSION }}
-        channel: stable
-        cache: false
-    - name: Setup Java
-      uses: actions/setup-java@dded0888837ed1f317902acf8a20df0ad188d165 # v5.0.0
-      with:
-        distribution: temurin
-        java-version: ${{ env.JAVA_VERSION }}
-    - name: Setup Android SDK
-      uses: android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407 # v3.2.2
-    - name: Accept Android Licenses
-      run: yes | sdkmanager --licenses > /dev/null 2>&1 || true
     - name: Install unzip
       run: sudo apt-get update -qq && sudo apt-get install -y -qq unzip > /dev/null 2>&1
-    - name: Get Dependencies
-      working-directory: app
-      run: flutter pub get --enforce-lockfile
-    - name: Restore Release Keystore
-      working-directory: app
-      run: |
-        if [ -z "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" ]; then
-          echo "::error::RELEASE_KEYSTORE_BASE64 is not set. Refusing to sign a release build with a throwaway key."
-          exit 1
-        fi
-        echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.keystore
-        ls -la android/app/release.keystore
-    - name: Build Spanish Release APK
-      working-directory: app
-      run: "flutter build apk --release \\\n  --obfuscate \\\n  --split-debug-info=build/debug-info \\\n  --target-platform\
-        \ android-arm64"
+    # The build job already produced a signed APK; rebuilding it here doubled
+    # the Flutter build time on every push.
+    - name: Download Android APK
+      uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+      with:
+        name: es-apk
+        path: app/build/app/outputs/flutter-apk
     - name: Install Grype & Syft
       run: |
         curl -sSfL https://raw.githubusercontent.com/anchore/grype/v0.104.1/install.sh | sh -s -- -b $HOME/.local/bin
@@ -415,7 +408,7 @@ jobs:
     - name: Generate SBOMs
       run: 'export PATH="$HOME/.local/bin:$PATH"
 
-        syft dir:. -o cyclonedx-json=sbom-project.cdx.json
+        syft dir:. --exclude "./app/build/**" -o cyclonedx-json=sbom-project.cdx.json
 
         syft file:app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json'
     - name: Vulnerability Scan on APK SBOM

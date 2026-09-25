@@ -185,3 +185,28 @@ Security updates are released as patch versions (e.g., 1.0.1, 1.0.2) and announc
   secret, and treat `release123` strictly as a local-development fallback.
 - If a real secret ever lands in history: rotate it immediately, then purge history
   (e.g. `git filter-repo`) — rotation alone is not sufficient.
+
+### Actions minutes and billing
+
+Windows and macOS runners cost 2x and 10x a Linux minute, so the pipeline is
+shaped to keep them for real releases:
+
+- `concurrency` cancels a superseded run instead of paying for both.
+- The desktop matrix (`ubuntu`/`windows`/`macos`) only runs on a push to `main`
+  or a tag. Pull requests validate the Dart and Python side.
+- The `package` job downloads the APK that `build` already produced and signs
+  it, instead of running a second full Flutter build.
+
+Verify current consumption with:
+
+```bash
+gh api users/<user>/settings/billing/usage
+```
+
+If every job fails in a few seconds with no steps executed, Actions is blocked
+at the account level: add a payment method or raise the spending limit at
+<https://github.com/settings/billing>. There is no API for it, and it is not a
+defect in this workflow. Everything the workflow runs is also checked locally
+(`dart format`, `flutter analyze --fatal-infos`, `flutter test`,
+`tools/lint_audio_keys.py`, `tools/audit_duplicate_exercises.py`,
+`tools/test_serve_web.py`, `tools/test_gitleaks_config.py`).
