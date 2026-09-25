@@ -42,7 +42,7 @@ This project adheres to a Code of Conduct. By participating, you are expected to
 
 ```bash
 # Clone the repository
-git clone https://github.com/rafaabou/espanol-zero-to-hero.git
+git clone https://github.com/rafaabou/talk-to-me-spanish.git
 cd espanol-zero-to-hero/app
 
 # Install dependencies

@@ -143,10 +143,10 @@ Continued use of the app constitutes acceptance of the updated policy.
 
 ## Contact
 
-- **GitHub**: https://github.com/rafaabou/espanol-zero-to-hero/issues
+- **GitHub**: https://github.com/rafaabou/talk-to-me-spanish/issues
 - **Author**: Mohamed Rafaa Tounekti
 
 ---
 
 **Maintainer**: Mohamed Rafaa Tounekti
-**Repository**: https://github.com/rafaabou/espanol-zero-to-hero
+**Repository**: https://github.com/rafaabou/talk-to-me-spanish
