@@ -1,3 +1,5 @@
+import 'dart:typed_data';
+
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter/foundation.dart' show visibleForTesting;
 import 'package:pdf/pdf.dart';
@@ -34,13 +36,14 @@ class PdfExportService {
   @visibleForTesting
   static Future<pw.ThemeData> loadThemeForTest() => _loadTheme();
 
-  Future<String> exportLessonToPdf({
+  /// Builds the document without touching the file system, so it can be
+  /// verified in tests. Writing and sharing is [exportLessonToPdf]'s job.
+  Future<Uint8List> buildLessonPdf({
     required String lessonId,
-    required AppState appState,
+    required String lang,
   }) async {
     final lesson = await CourseRepository.instance.tryLoadLesson(lessonId);
     if (lesson == null) throw Exception('Lesson not found: $lessonId');
-    final lang = appState.lang;
 
     final pdf = pw.Document(theme: await _loadTheme());
     final t = _Translations(lang);
@@ -78,12 +81,16 @@ class PdfExportService {
       pdf.addPage(_buildExercisesPage(lesson, t, lang));
     }
 
-    // Save to file and share
+    return pdf.save();
+  }
+
+  Future<String> exportLessonToPdf({
+    required String lessonId,
+    required AppState appState,
+  }) async {
+    final bytes = await buildLessonPdf(lessonId: lessonId, lang: appState.lang);
     final fileName = 'ES_${lessonId}_${DateTime.now().millisecondsSinceEpoch}';
-    final result = await file_helper.saveAndSharePdf(
-      await pdf.save(),
-      fileName,
-    );
+    final result = await file_helper.saveAndSharePdf(bytes, fileName);
 
     return result ?? 'PDF generated';
   }
@@ -124,376 +131,352 @@ class PdfExportService {
     );
   }
 
-  pw.Page _buildObjectivesPage(Lesson lesson, _Translations t, String lang) {
-    return pw.Page(
+  pw.MultiPage _buildObjectivesPage(
+    Lesson lesson,
+    _Translations t,
+    String lang,
+  ) {
+    return pw.MultiPage(
       pageFormat: PdfPageFormat.a4,
       build:
-          (context) => pw.Column(
-            crossAxisAlignment: pw.CrossAxisAlignment.start,
-            children: [
-              pw.Text(
-                t.objectives,
-                style: pw.TextStyle(
-                  fontSize: 20,
-                  fontWeight: pw.FontWeight.bold,
-                ),
-              ),
-              pw.SizedBox(height: 12),
-              ...lesson.objectives.map(
-                (o) => pw.Padding(
-                  padding: const pw.EdgeInsets.only(bottom: 8),
-                  child: pw.Row(
-                    crossAxisAlignment: pw.CrossAxisAlignment.start,
-                    children: [
-                      pw.Text('• ', style: pw.TextStyle(fontSize: 14)),
-                      pw.Expanded(
-                        child: pw.Text(
-                          o.tr(lang),
-                          style: pw.TextStyle(fontSize: 14),
-                        ),
+          (context) => [
+            pw.Text(
+              t.objectives,
+              style: pw.TextStyle(fontSize: 20, fontWeight: pw.FontWeight.bold),
+            ),
+            pw.SizedBox(height: 12),
+            ...lesson.objectives.map(
+              (o) => pw.Padding(
+                padding: const pw.EdgeInsets.only(bottom: 8),
+                child: pw.Row(
+                  crossAxisAlignment: pw.CrossAxisAlignment.start,
+                  children: [
+                    pw.Text('• ', style: pw.TextStyle(fontSize: 14)),
+                    pw.Expanded(
+                      child: pw.Text(
+                        o.tr(lang),
+                        style: pw.TextStyle(fontSize: 14),
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
               ),
-            ],
-          ),
+            ),
+          ],
     );
   }
 
-  pw.Page _buildVocabularyPage(Lesson lesson, _Translations t, String lang) {
-    return pw.Page(
+  pw.MultiPage _buildVocabularyPage(
+    Lesson lesson,
+    _Translations t,
+    String lang,
+  ) {
+    return pw.MultiPage(
       pageFormat: PdfPageFormat.a4,
       build:
-          (context) => pw.Column(
-            crossAxisAlignment: pw.CrossAxisAlignment.start,
-            children: [
-              pw.Text(
-                t.vocabulary,
-                style: pw.TextStyle(
-                  fontSize: 20,
-                  fontWeight: pw.FontWeight.bold,
-                ),
-              ),
-              pw.SizedBox(height: 12),
-              ...lesson.vocabulary.map(
-                (v) => pw.Padding(
-                  padding: const pw.EdgeInsets.only(bottom: 12),
-                  child: pw.Column(
-                    crossAxisAlignment: pw.CrossAxisAlignment.start,
-                    children: [
-                      pw.Row(
-                        children: [
-                          pw.Text(
-                            v.es,
-                            style: pw.TextStyle(
-                              fontSize: 16,
-                              fontWeight: pw.FontWeight.bold,
-                            ),
-                          ),
-                          pw.SizedBox(width: 8),
-                          if (v.ipa.isNotEmpty)
-                            pw.Text(
-                              v.ipa,
-                              style: pw.TextStyle(
-                                fontSize: 14,
-                                color: PdfColors.grey600,
-                              ),
-                            ),
-                        ],
-                      ),
-                      pw.Text(v.tr(lang), style: pw.TextStyle(fontSize: 14)),
-                      if (v.ar.isNotEmpty && v.ar != v.tr(lang))
+          (context) => [
+            pw.Text(
+              t.vocabulary,
+              style: pw.TextStyle(fontSize: 20, fontWeight: pw.FontWeight.bold),
+            ),
+            pw.SizedBox(height: 12),
+            ...lesson.vocabulary.map(
+              (v) => pw.Padding(
+                padding: const pw.EdgeInsets.only(bottom: 12),
+                child: pw.Column(
+                  crossAxisAlignment: pw.CrossAxisAlignment.start,
+                  children: [
+                    pw.Row(
+                      children: [
                         pw.Text(
-                          v.ar,
-                          textDirection: pw.TextDirection.rtl,
-                          textAlign: pw.TextAlign.right,
-                          style: pw.TextStyle(fontSize: 12),
-                        ),
-                      if (v.example != null) ...[
-                        pw.SizedBox(height: 4),
-                        pw.Text(
-                          v.example!.es,
+                          v.es,
                           style: pw.TextStyle(
-                            fontSize: 13,
-                            fontStyle: pw.FontStyle.italic,
+                            fontSize: 16,
+                            fontWeight: pw.FontWeight.bold,
                           ),
                         ),
-                        if (v.example!.en.isNotEmpty)
+                        pw.SizedBox(width: 8),
+                        if (v.ipa.isNotEmpty)
                           pw.Text(
-                            v.example!.en,
+                            v.ipa,
                             style: pw.TextStyle(
-                              fontSize: 12,
-                              color: PdfColors.grey600,
-                            ),
-                          ),
-                        if (v.example!.ar.isNotEmpty)
-                          pw.Text(
-                            v.example!.ar,
-                            textDirection: pw.TextDirection.rtl,
-                            textAlign: pw.TextAlign.right,
-                            style: pw.TextStyle(
-                              fontSize: 12,
+                              fontSize: 14,
                               color: PdfColors.grey600,
                             ),
                           ),
                       ],
-                    ],
-                  ),
-                ),
-              ),
-            ],
-          ),
-    );
-  }
-
-  pw.Page _buildGrammarPage(Lesson lesson, _Translations t, String lang) {
-    return pw.Page(
-      pageFormat: PdfPageFormat.a4,
-      build:
-          (context) => pw.Column(
-            crossAxisAlignment: pw.CrossAxisAlignment.start,
-            children: [
-              pw.Text(
-                t.grammar,
-                style: pw.TextStyle(
-                  fontSize: 20,
-                  fontWeight: pw.FontWeight.bold,
-                ),
-              ),
-              pw.SizedBox(height: 12),
-              ...lesson.grammar.map(
-                (g) => pw.Column(
-                  crossAxisAlignment: pw.CrossAxisAlignment.start,
-                  children: [
-                    pw.Text(
-                      g.title.tr(lang),
-                      style: pw.TextStyle(
-                        fontSize: 16,
-                        fontWeight: pw.FontWeight.bold,
-                      ),
                     ),
-                    pw.SizedBox(height: 4),
-                    pw.Text(
-                      g.explanation.tr(lang),
-                      style: pw.TextStyle(fontSize: 14),
-                    ),
-                    if (g.examples.isNotEmpty) ...[
-                      pw.SizedBox(height: 8),
-                      ...g.examples.map(
-                        (ex) => pw.Padding(
-                          padding: const pw.EdgeInsets.only(bottom: 4),
-                          child: pw.Column(
-                            crossAxisAlignment: pw.CrossAxisAlignment.start,
-                            children: [
-                              pw.Text(
-                                ex.es,
-                                style: pw.TextStyle(
-                                  fontSize: 13,
-                                  fontStyle: pw.FontStyle.italic,
-                                ),
-                              ),
-                              if (ex.en.isNotEmpty)
-                                pw.Text(
-                                  ex.en,
-                                  style: pw.TextStyle(
-                                    fontSize: 12,
-                                    color: PdfColors.grey600,
-                                  ),
-                                ),
-                              if (ex.ar.isNotEmpty)
-                                pw.Text(
-                                  ex.ar,
-                                  textDirection: pw.TextDirection.rtl,
-                                  textAlign: pw.TextAlign.right,
-                                  style: pw.TextStyle(
-                                    fontSize: 12,
-                                    color: PdfColors.grey600,
-                                  ),
-                                ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ],
-                    pw.SizedBox(height: 16),
-                  ],
-                ),
-              ),
-            ],
-          ),
-    );
-  }
-
-  pw.Page _buildDialoguePage(Lesson lesson, _Translations t, String lang) {
-    return pw.Page(
-      pageFormat: PdfPageFormat.a4,
-      build:
-          (context) => pw.Column(
-            crossAxisAlignment: pw.CrossAxisAlignment.start,
-            children: [
-              pw.Text(
-                t.dialogue,
-                style: pw.TextStyle(
-                  fontSize: 20,
-                  fontWeight: pw.FontWeight.bold,
-                ),
-              ),
-              pw.SizedBox(height: 12),
-              ...lesson.dialogueLines.map(
-                (l) => pw.Padding(
-                  padding: const pw.EdgeInsets.only(bottom: 8),
-                  child: pw.Column(
-                    crossAxisAlignment: pw.CrossAxisAlignment.start,
-                    children: [
+                    pw.Text(v.tr(lang), style: pw.TextStyle(fontSize: 14)),
+                    if (v.ar.isNotEmpty && v.ar != v.tr(lang))
                       pw.Text(
-                        '${l.speaker}:',
-                        style: pw.TextStyle(
-                          fontSize: 14,
-                          fontWeight: pw.FontWeight.bold,
-                        ),
-                      ),
-                      pw.Text(l.text.es, style: pw.TextStyle(fontSize: 14)),
-                      pw.Text(
-                        l.text.en,
-                        style: pw.TextStyle(
-                          fontSize: 12,
-                          color: PdfColors.grey600,
-                        ),
-                      ),
-                      pw.Text(
-                        l.text.ar,
-                        style: pw.TextStyle(
-                          fontSize: 12,
-                          color: PdfColors.grey600,
-                        ),
+                        v.ar,
                         textDirection: pw.TextDirection.rtl,
+                        textAlign: pw.TextAlign.right,
+                        style: pw.TextStyle(fontSize: 12),
                       ),
-                    ],
-                  ),
-                ),
-              ),
-            ],
-          ),
-    );
-  }
-
-  pw.Page _buildReadingPage(Lesson lesson, _Translations t, String lang) {
-    final reading = lesson.readingText!;
-    return pw.Page(
-      pageFormat: PdfPageFormat.a4,
-      build:
-          (context) => pw.Column(
-            crossAxisAlignment: pw.CrossAxisAlignment.start,
-            children: [
-              pw.Text(
-                t.reading,
-                style: pw.TextStyle(
-                  fontSize: 20,
-                  fontWeight: pw.FontWeight.bold,
-                ),
-              ),
-              pw.SizedBox(height: 12),
-              pw.Text(reading.es, style: pw.TextStyle(fontSize: 14)),
-              if (reading.en.isNotEmpty) ...[
-                pw.SizedBox(height: 8),
-                pw.Text(
-                  reading.en,
-                  style: pw.TextStyle(fontSize: 13, color: PdfColors.grey600),
-                ),
-              ],
-              if (reading.ar.isNotEmpty) ...[
-                pw.SizedBox(height: 8),
-                pw.Text(
-                  reading.ar,
-                  style: pw.TextStyle(fontSize: 13, color: PdfColors.grey600),
-                  textDirection: pw.TextDirection.rtl,
-                ),
-              ],
-            ],
-          ),
-    );
-  }
-
-  pw.Page _buildExercisesPage(Lesson lesson, _Translations t, String lang) {
-    return pw.Page(
-      pageFormat: PdfPageFormat.a4,
-      build:
-          (context) => pw.Column(
-            crossAxisAlignment: pw.CrossAxisAlignment.start,
-            children: [
-              pw.Text(
-                t.exercises,
-                style: pw.TextStyle(
-                  fontSize: 20,
-                  fontWeight: pw.FontWeight.bold,
-                ),
-              ),
-              pw.SizedBox(height: 12),
-              ...lesson.exercises.asMap().entries.map((entry) {
-                final i = entry.key;
-                final e = entry.value;
-                return pw.Padding(
-                  padding: const pw.EdgeInsets.only(bottom: 16),
-                  child: pw.Column(
-                    crossAxisAlignment: pw.CrossAxisAlignment.start,
-                    children: [
-                      pw.Text(
-                        '${i + 1}. ${e.prompt.es}',
-                        style: pw.TextStyle(
-                          fontSize: 14,
-                          fontWeight: pw.FontWeight.bold,
-                        ),
-                      ),
-                      pw.SizedBox(height: 4),
-                      if (e.type == 'multiple_choice' ||
-                          e.type == 'fill_blank' ||
-                          e.type == 'listening')
-                        ...e.options.map(
-                          (o) => pw.Padding(
-                            padding: const pw.EdgeInsets.only(bottom: 4),
-                            child: pw.Text(
-                              '  ${o.tr(lang)}',
-                              style: pw.TextStyle(fontSize: 13),
-                            ),
-                          ),
-                        ),
-                      if (e.type == 'writing' ||
-                          e.type == 'translation' ||
-                          e.type == 'dictation')
-                        pw.Text(
-                          '${t.yourAnswer}: _______________',
-                          style: pw.TextStyle(fontSize: 13),
-                        ),
-                      if (e.type == 'speaking')
-                        pw.Text(
-                          '${t.speakAndRepeat}: ${e.prompt.es}',
-                          style: pw.TextStyle(fontSize: 13),
-                        ),
+                    if (v.example != null) ...[
                       pw.SizedBox(height: 4),
                       pw.Text(
-                        '${t.answer}: ${e.answer}',
+                        v.example!.es,
                         style: pw.TextStyle(
                           fontSize: 13,
-                          fontWeight: pw.FontWeight.bold,
+                          fontStyle: pw.FontStyle.italic,
                         ),
                       ),
-                      if (e.explanation.es.isNotEmpty) ...[
-                        pw.SizedBox(height: 4),
+                      if (v.example!.en.isNotEmpty)
                         pw.Text(
-                          e.explanation.tr(lang),
+                          v.example!.en,
                           style: pw.TextStyle(
                             fontSize: 12,
                             color: PdfColors.grey600,
                           ),
                         ),
-                      ],
+                      if (v.example!.ar.isNotEmpty)
+                        pw.Text(
+                          v.example!.ar,
+                          textDirection: pw.TextDirection.rtl,
+                          textAlign: pw.TextAlign.right,
+                          style: pw.TextStyle(
+                            fontSize: 12,
+                            color: PdfColors.grey600,
+                          ),
+                        ),
                     ],
+                  ],
+                ),
+              ),
+            ),
+          ],
+    );
+  }
+
+  pw.MultiPage _buildGrammarPage(Lesson lesson, _Translations t, String lang) {
+    return pw.MultiPage(
+      pageFormat: PdfPageFormat.a4,
+      build:
+          (context) => [
+            pw.Text(
+              t.grammar,
+              style: pw.TextStyle(fontSize: 20, fontWeight: pw.FontWeight.bold),
+            ),
+            pw.SizedBox(height: 12),
+            ...lesson.grammar.map(
+              (g) => pw.Column(
+                crossAxisAlignment: pw.CrossAxisAlignment.start,
+                children: [
+                  pw.Text(
+                    g.title.tr(lang),
+                    style: pw.TextStyle(
+                      fontSize: 16,
+                      fontWeight: pw.FontWeight.bold,
+                    ),
                   ),
-                );
-              }),
+                  pw.SizedBox(height: 4),
+                  pw.Text(
+                    g.explanation.tr(lang),
+                    style: pw.TextStyle(fontSize: 14),
+                  ),
+                  if (g.examples.isNotEmpty) ...[
+                    pw.SizedBox(height: 8),
+                    ...g.examples.map(
+                      (ex) => pw.Padding(
+                        padding: const pw.EdgeInsets.only(bottom: 4),
+                        child: pw.Column(
+                          crossAxisAlignment: pw.CrossAxisAlignment.start,
+                          children: [
+                            pw.Text(
+                              ex.es,
+                              style: pw.TextStyle(
+                                fontSize: 13,
+                                fontStyle: pw.FontStyle.italic,
+                              ),
+                            ),
+                            if (ex.en.isNotEmpty)
+                              pw.Text(
+                                ex.en,
+                                style: pw.TextStyle(
+                                  fontSize: 12,
+                                  color: PdfColors.grey600,
+                                ),
+                              ),
+                            if (ex.ar.isNotEmpty)
+                              pw.Text(
+                                ex.ar,
+                                textDirection: pw.TextDirection.rtl,
+                                textAlign: pw.TextAlign.right,
+                                style: pw.TextStyle(
+                                  fontSize: 12,
+                                  color: PdfColors.grey600,
+                                ),
+                              ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                  pw.SizedBox(height: 16),
+                ],
+              ),
+            ),
+          ],
+    );
+  }
+
+  pw.MultiPage _buildDialoguePage(Lesson lesson, _Translations t, String lang) {
+    return pw.MultiPage(
+      pageFormat: PdfPageFormat.a4,
+      build:
+          (context) => [
+            pw.Text(
+              t.dialogue,
+              style: pw.TextStyle(fontSize: 20, fontWeight: pw.FontWeight.bold),
+            ),
+            pw.SizedBox(height: 12),
+            ...lesson.dialogueLines.map(
+              (l) => pw.Padding(
+                padding: const pw.EdgeInsets.only(bottom: 8),
+                child: pw.Column(
+                  crossAxisAlignment: pw.CrossAxisAlignment.start,
+                  children: [
+                    pw.Text(
+                      '${l.speaker}:',
+                      style: pw.TextStyle(
+                        fontSize: 14,
+                        fontWeight: pw.FontWeight.bold,
+                      ),
+                    ),
+                    pw.Text(l.text.es, style: pw.TextStyle(fontSize: 14)),
+                    pw.Text(
+                      l.text.en,
+                      style: pw.TextStyle(
+                        fontSize: 12,
+                        color: PdfColors.grey600,
+                      ),
+                    ),
+                    pw.Text(
+                      l.text.ar,
+                      style: pw.TextStyle(
+                        fontSize: 12,
+                        color: PdfColors.grey600,
+                      ),
+                      textDirection: pw.TextDirection.rtl,
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
+    );
+  }
+
+  pw.MultiPage _buildReadingPage(Lesson lesson, _Translations t, String lang) {
+    final reading = lesson.readingText!;
+    return pw.MultiPage(
+      pageFormat: PdfPageFormat.a4,
+      build:
+          (context) => [
+            pw.Text(
+              t.reading,
+              style: pw.TextStyle(fontSize: 20, fontWeight: pw.FontWeight.bold),
+            ),
+            pw.SizedBox(height: 12),
+            pw.Text(reading.es, style: pw.TextStyle(fontSize: 14)),
+            if (reading.en.isNotEmpty) ...[
+              pw.SizedBox(height: 8),
+              pw.Text(
+                reading.en,
+                style: pw.TextStyle(fontSize: 13, color: PdfColors.grey600),
+              ),
             ],
-          ),
+            if (reading.ar.isNotEmpty) ...[
+              pw.SizedBox(height: 8),
+              pw.Text(
+                reading.ar,
+                style: pw.TextStyle(fontSize: 13, color: PdfColors.grey600),
+                textDirection: pw.TextDirection.rtl,
+              ),
+            ],
+          ],
+    );
+  }
+
+  pw.MultiPage _buildExercisesPage(
+    Lesson lesson,
+    _Translations t,
+    String lang,
+  ) {
+    return pw.MultiPage(
+      pageFormat: PdfPageFormat.a4,
+      build:
+          (context) => [
+            pw.Text(
+              t.exercises,
+              style: pw.TextStyle(fontSize: 20, fontWeight: pw.FontWeight.bold),
+            ),
+            pw.SizedBox(height: 12),
+            ...lesson.exercises.asMap().entries.map((entry) {
+              final i = entry.key;
+              final e = entry.value;
+              return pw.Padding(
+                padding: const pw.EdgeInsets.only(bottom: 16),
+                child: pw.Column(
+                  crossAxisAlignment: pw.CrossAxisAlignment.start,
+                  children: [
+                    pw.Text(
+                      '${i + 1}. ${e.prompt.es}',
+                      style: pw.TextStyle(
+                        fontSize: 14,
+                        fontWeight: pw.FontWeight.bold,
+                      ),
+                    ),
+                    pw.SizedBox(height: 4),
+                    if (e.type == 'multiple_choice' ||
+                        e.type == 'fill_blank' ||
+                        e.type == 'listening')
+                      ...e.options.map(
+                        (o) => pw.Padding(
+                          padding: const pw.EdgeInsets.only(bottom: 4),
+                          child: pw.Text(
+                            '  ${o.tr(lang)}',
+                            style: pw.TextStyle(fontSize: 13),
+                          ),
+                        ),
+                      ),
+                    if (e.type == 'writing' ||
+                        e.type == 'translation' ||
+                        e.type == 'dictation')
+                      pw.Text(
+                        '${t.yourAnswer}: _______________',
+                        style: pw.TextStyle(fontSize: 13),
+                      ),
+                    if (e.type == 'speaking')
+                      pw.Text(
+                        '${t.speakAndRepeat}: ${e.prompt.es}',
+                        style: pw.TextStyle(fontSize: 13),
+                      ),
+                    pw.SizedBox(height: 4),
+                    pw.Text(
+                      '${t.answer}: ${e.answer}',
+                      style: pw.TextStyle(
+                        fontSize: 13,
+                        fontWeight: pw.FontWeight.bold,
+                      ),
+                    ),
+                    if (e.explanation.es.isNotEmpty) ...[
+                      pw.SizedBox(height: 4),
+                      pw.Text(
+                        e.explanation.tr(lang),
+                        style: pw.TextStyle(
+                          fontSize: 12,
+                          color: PdfColors.grey600,
+                        ),
+                      ),
+                    ],
+                  ],
+                ),
+              );
+            }),
+          ],
     );
   }
 }

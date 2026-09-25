@@ -41,7 +41,6 @@ class FsrsCard {
 }
 
 class FsrsScheduler {
-  static const double requestRetention = 0.9;
   static const double maximumInterval = 365.0;
   static const double w0 = 0.4;
   static const double w1 = 0.6;

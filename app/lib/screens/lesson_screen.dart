@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/course_models.dart';
@@ -53,7 +54,7 @@ class _LessonScreenState extends State<LessonScreen> {
     final doneExercises =
         await ProgressService.instance.getCompletedExercises();
     final favorites = await ProgressService.instance.getFavorites();
-    ProgressService.instance.setLastOpened(widget.lessonId);
+    unawaited(ProgressService.instance.setLastOpened(widget.lessonId));
     final drillOrdinals =
         lesson == null
             ? <int, (int, int)>{}

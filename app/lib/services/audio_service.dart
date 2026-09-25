@@ -41,14 +41,17 @@ class AudioService {
 
   Future<bool> _playAssetWeb(String assetPath) async {
     try {
-      final exists = await _assetExists(assetPath);
-      if (!exists) {
+      // Load once: the existence probe used to read the whole clip and then
+      // the playback read it again, doubling the IO for every button press.
+      final ByteData data;
+      try {
+        data = await rootBundle.load(assetPath);
+      } catch (e) {
         if (kDebugMode) {
           debugPrint('AudioService: asset NOT FOUND: $assetPath');
         }
         return false;
       }
-      final data = await rootBundle.load(assetPath);
       final bytes = data.buffer.asUint8List();
       return await playAssetBytes(
         bytes,
@@ -66,18 +69,13 @@ class AudioService {
 
   Future<bool> _playAssetNative(String assetPath) async {
     try {
-      final exists = await _assetExists(assetPath);
-      if (!exists) {
-        if (kDebugMode) {
-          debugPrint('AudioService: asset NOT FOUND: $assetPath');
-        }
-        return false;
-      }
       if (kDebugMode) {
         debugPrint('AudioService: asset found, setting up player');
       }
       final player = _audioPlayer;
       await player.stop();
+      // setAsset streams from the APK; a separate existence probe would read
+      // the whole clip into memory first for nothing.
       await player.setAsset(assetPath);
       await player.setSpeed(speed.clamp(0.5, 2.0));
       final times = repeat.clamp(1, 10);
@@ -127,20 +125,6 @@ class AudioService {
       await _player?.stop();
     } catch (e) {
       debugPrint('AudioService: stop failed: $e');
-    }
-  }
-
-  Future<bool> audioExists(String text, String lang) async {
-    final asset = 'assets/audio/${audioKey(text, lang)}';
-    return _assetExists(asset);
-  }
-
-  Future<bool> _assetExists(String asset) async {
-    try {
-      await rootBundle.load(asset);
-      return true;
-    } catch (_) {
-      return false;
     }
   }
 

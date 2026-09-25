@@ -120,9 +120,7 @@ class Lesson {
   final List<GrammarSection> grammar;
   final TriText? dialogueTitle;
   final List<DialogueLine> dialogueLines;
-  final TriText? readingTitle;
   final TriText? readingText;
-  final TriText? speakingTitle;
   final List<SpeakingItem> speaking;
   final List<Exercise> exercises;
   final TriText? culturalTips;
@@ -136,9 +134,7 @@ class Lesson {
     required this.grammar,
     this.dialogueTitle,
     required this.dialogueLines,
-    this.readingTitle,
     this.readingText,
-    this.speakingTitle,
     required this.speaking,
     required this.exercises,
     this.culturalTips,
@@ -171,7 +167,6 @@ class Lesson {
           (dialogue?['lines'] as List? ?? [])
               .map((e) => DialogueLine.fromJson(e))
               .toList(),
-      readingTitle: reading != null ? TriText.fromJson(reading['title']) : null,
       readingText:
           reading != null
               ? TriText(
@@ -180,8 +175,6 @@ class Lesson {
                 reading['text_ar'] ?? '',
               )
               : null,
-      speakingTitle:
-          speaking != null ? TriText.fromJson(speaking['title']) : null,
       speaking:
           (speaking?['phrases'] as List? ?? [])
               .map((e) => SpeakingItem.fromJson(e))

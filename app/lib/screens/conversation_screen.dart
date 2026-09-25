@@ -361,7 +361,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
     _haptic();
     _scrollToBottom();
     if (score.passed && _passed.add(_index)) {
-      ProgressService.instance.incrementSpeakingDone();
+      await ProgressService.instance.incrementSpeakingDone();
     }
   }
 
@@ -575,11 +575,11 @@ class _ConversationScreenState extends State<ConversationScreen> {
     }
   }
 
-  void _selfGradeDone() {
+  Future<void> _selfGradeDone() async {
     final turn = _current;
     if (turn == null) return;
     if (_passed.add(_index)) {
-      ProgressService.instance.incrementSpeakingDone();
+      await ProgressService.instance.incrementSpeakingDone();
     }
     setState(() {
       _phase = _Phase.result;

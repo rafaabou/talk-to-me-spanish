@@ -43,25 +43,9 @@ class ContentIndex {
   final List<IndexGrammar> grammar;
   final List<IndexDialogue> dialogue;
   final List<IndexReading> reading;
-  final Map<String, TriText> lessonTitles;
-  ContentIndex(
-    this.vocab,
-    this.grammar,
-    this.dialogue,
-    this.reading,
-    this.lessonTitles,
-  );
+  ContentIndex(this.vocab, this.grammar, this.dialogue, this.reading);
 
   factory ContentIndex.fromJson(Map<String, dynamic> json) {
-    final lessonTitles = <String, TriText>{};
-    for (final l in (json['lessons'] as List? ?? [])) {
-      final m = l as Map<String, dynamic>;
-      lessonTitles[m['id']] = TriText(
-        m['title']?['es'] ?? '',
-        m['title']?['en'] ?? '',
-        m['title']?['ar'] ?? '',
-      );
-    }
     return ContentIndex(
       (json['vocab'] as List? ?? []).map((e) {
         final m = e as Map<String, dynamic>;
@@ -109,7 +93,6 @@ class ContentIndex {
           TriText(t['es'] ?? '', t['en'] ?? '', t['ar'] ?? ''),
         );
       }).toList(),
-      lessonTitles,
     );
   }
 }
@@ -118,12 +101,18 @@ class ContentIndexRepository {
   static final ContentIndexRepository instance = ContentIndexRepository._();
   ContentIndexRepository._();
 
-  ContentIndex? _cache;
+  Future<ContentIndex>? _inflight;
 
-  Future<ContentIndex> load() async {
-    if (_cache != null) return _cache!;
+  /// See VerbRepository.loadVerbs: the in-flight future is cached so
+  /// concurrent callers share one parse of the index.
+  Future<ContentIndex> load() {
+    return _inflight ??= _parse();
+  }
+
+  Future<ContentIndex> _parse() async {
     final raw = await rootBundle.loadString('assets/course/index.json');
-    _cache = ContentIndex.fromJson(jsonDecode(raw) as Map<String, dynamic>);
-    return _cache!;
+    final data = ContentIndex.fromJson(jsonDecode(raw) as Map<String, dynamic>);
+    _inflight = Future.value(data);
+    return data;
   }
 }

@@ -19,9 +19,38 @@ class VerbScreen extends StatefulWidget {
   State<VerbScreen> createState() => _VerbScreenState();
 }
 
+/// A rendered verb-list row. Flattened so the list can be built lazily.
+enum _VerbRowKind { header, verb, footer }
+
+class _VerbRow {
+  final _VerbRowKind kind;
+  final VerbInfo? verb;
+  final String? label;
+  final int count;
+  const _VerbRow.header(this.label, this.count)
+    : kind = _VerbRowKind.header,
+      verb = null;
+  const _VerbRow.verb(this.verb)
+    : kind = _VerbRowKind.verb,
+      label = null,
+      count = 0;
+  const _VerbRow.footer()
+    : kind = _VerbRowKind.footer,
+      verb = null,
+      label = null,
+      count = 0;
+}
+
 class _VerbScreenState extends State<VerbScreen> {
   VerbData? _data;
   String _query = '';
+
+  /// Infinitive -> verb, so grouping is a map lookup instead of a scan.
+  Map<String, VerbInfo> _byInf = {};
+
+  /// Filtered/grouped rows, rebuilt only when the filter signature changes.
+  List<_VerbRow>? _rowCache;
+  String _rowSignature = '';
   bool _loading = true;
   bool _audioOnly = false;
   bool _showCommonOnly = false;
@@ -118,6 +147,8 @@ class _VerbScreenState extends State<VerbScreen> {
     if (!mounted) return;
     setState(() {
       _data = data;
+      // O(1) lookup: the grouped list used to scan all 1,800 verbs per row.
+      _byInf = {for (final v in data.verbs) v.inf: v};
       _loading = false;
     });
   }
@@ -263,7 +294,14 @@ class _VerbScreenState extends State<VerbScreen> {
     );
   }
 
-  Widget _buildGroupedList(VerbData data, String lang) {
+  /// One rendered row: either a section header or a verb. Flattening the list
+  /// lets `ListView.builder` build rows lazily instead of all 1,800 at once.
+  List<_VerbRow> _visibleRows(VerbData data) {
+    final signature =
+        '$_query|$_favoritesOnly|$_audioOnly|$_showCommonOnly|'
+        '${(_favorites.toList()..sort()).join(',')}';
+    if (_rowCache != null && _rowSignature == signature) return _rowCache!;
+
     List<VerbInfo> verbs =
         _favoritesOnly
             ? data.verbs
@@ -276,7 +314,7 @@ class _VerbScreenState extends State<VerbScreen> {
             : data.verbs;
 
     if (_query.isNotEmpty) {
-      final results =
+      verbs =
           verbs
               .where(
                 (v) =>
@@ -285,43 +323,45 @@ class _VerbScreenState extends State<VerbScreen> {
                     v.ar.contains(_query),
               )
               .toList();
-      return ListView(
-        children: [
-          ...results.map((v) => _verbTile(data, v, lang)),
-          const CreditFooter(),
-        ],
-      );
-    }
-
-    if (_audioOnly) {
-      return ListView(
-        children: [
-          ...verbs.map((v) => _verbTile(data, v, lang)),
-          const CreditFooter(),
-        ],
-      );
     }
 
     final groups = data.conjGroups;
-    if (groups.isEmpty) {
-      return ListView(
-        children: [
-          ...verbs.map((v) => _verbTile(data, v, lang)),
-          const CreditFooter(),
-        ],
-      );
+    final grouped = _query.isEmpty && !_audioOnly && groups.isNotEmpty;
+    final rows = <_VerbRow>[];
+    if (grouped) {
+      for (final entry in groups.entries) {
+        final inGroup = <VerbInfo>[];
+        for (final inf in entry.value) {
+          final verb = _byInf[inf];
+          if (verb != null) inGroup.add(verb);
+        }
+        if (inGroup.isEmpty) continue;
+        rows.add(_VerbRow.header(entry.key, inGroup.length));
+        rows.addAll(inGroup.map(_VerbRow.verb));
+      }
+    } else {
+      rows.addAll(verbs.map(_VerbRow.verb));
     }
+    rows.add(const _VerbRow.footer());
+    _rowSignature = signature;
+    _rowCache = rows;
+    return rows;
+  }
 
-    return ListView(
-      children: [
-        for (final entry in groups.entries) ...[
-          _sectionHeader(entry.key, entry.value.length, lang),
-          ...entry.value
-              .map((inf) => data.verbs.firstWhere((v) => v.inf == inf))
-              .map((v) => _verbTile(data, v, lang)),
-        ],
-        const CreditFooter(),
-      ],
+  Widget _buildGroupedList(VerbData data, String lang) {
+    final rows = _visibleRows(data);
+    return ListView.builder(
+      // 1 spare pixel so the last row can scroll clear of the bottom inset.
+      padding: const EdgeInsets.only(bottom: 1),
+      itemCount: rows.length,
+      itemBuilder: (context, index) {
+        final row = rows[index];
+        return switch (row.kind) {
+          _VerbRowKind.header => _sectionHeader(row.label!, row.count, lang),
+          _VerbRowKind.verb => _verbTile(data, row.verb!, lang),
+          _VerbRowKind.footer => const CreditFooter(),
+        };
+      },
     );
   }
 
@@ -776,7 +816,7 @@ class _VerbQuizScreenState extends State<VerbQuizScreen> {
                 uiText(
                   lang,
                   ar: 'لا توجد صيغ متاحة لهذا الفعل في هذا المضارع.',
-                  pt: 'Nenhuma forma disponível para este verbo neste tempo.',
+                  es: 'No hay formas disponibles para este verbo en este tiempo.',
                   other: 'No forms are available for this verb in this tense.',
                 ),
                 textAlign: TextAlign.center,

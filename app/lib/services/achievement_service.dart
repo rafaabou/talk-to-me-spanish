@@ -297,9 +297,4 @@ class AchievementService {
     }
     return newOnes;
   }
-
-  Future<bool> isUnlocked(String id) async {
-    final ids = await _getUnlocked();
-    return ids.contains(id);
-  }
 }

@@ -55,14 +55,4 @@ class NotificationService {
       }
     }
   }
-
-  Future<void> cancelAll() async {
-    try {
-      await _channel.invokeMethod('cancelAll');
-    } catch (e) {
-      if (kDebugMode) {
-        debugPrint('cancelAll failed: $e');
-      }
-    }
-  }
 }

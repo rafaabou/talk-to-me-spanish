@@ -6,10 +6,16 @@ class VerbRepository {
   static final VerbRepository instance = VerbRepository._();
   VerbRepository._();
 
-  VerbData? _cache;
+  Future<VerbData>? _inflight;
 
-  Future<VerbData> loadVerbs() async {
-    if (_cache != null) return _cache!;
+  /// Caches the in-flight future, not only the finished value: two callers that
+  /// arrive while the 2.5 MB file is being parsed used to each start their own
+  /// parse and their own build.
+  Future<VerbData> loadVerbs() {
+    return _inflight ??= _parse();
+  }
+
+  Future<VerbData> _parse() async {
     final raw = await rootBundle.loadString('assets/course/verbs.json');
     final json = jsonDecode(raw) as Map<String, dynamic>;
     final tenses =
@@ -27,7 +33,10 @@ class VerbRepository {
         (json['verbs'] as List? ?? [])
             .map((e) => VerbInfo.fromJson(e as Map<String, dynamic>))
             .toList();
-    _cache = VerbData(tenses, persons, conjGroups, verbs);
-    return _cache!;
+    final data = VerbData(tenses, persons, conjGroups, verbs);
+    // Keep the result cached for the rest of the session, and let a failed
+    // parse be retried instead of caching the exception forever.
+    _inflight = Future.value(data);
+    return data;
   }
 }

@@ -45,6 +45,38 @@ jobs:
         flutter analyze --no-pub > analysis-report.txt 2>&1 || true'
     - name: Audio Key Lint
       run: python3 tools/lint_audio_keys.py assets/course/levels es --strict
+    - name: Exercise Duplicate Audit
+      run: python3 tools/audit_duplicate_exercises.py es
+    - name: Course Data Leak Scan
+      run: |
+        # Catches the other language bleeding into the course text.
+        python3 - <<'PY'
+        import glob, json, re, sys
+        markers = re.compile(r'es', re.I | re.X)
+        bad = 0
+        for f in glob.glob('assets/course/levels/*.json'):
+            d = json.load(open(f, encoding='utf-8'))
+            def walk(node, path):
+                global bad
+                if isinstance(node, dict):
+                    for k, v in node.items():
+                        walk(v, path + [k])
+                elif isinstance(node, list):
+                    for i, v in enumerate(node):
+                        walk(v, path + [str(i)])
+                elif isinstance(node, str) and path[-1] in ('es', 'text_es', 'text_en', 'text_ar', 'text_es'):
+                    if markers.search(node):
+                        print(f'{f}::{"/".join(path)}: {node[:70]}')
+                        bad += 1
+            walk(d, [])
+        print(f'{bad} suspicious string(s)')
+        # A handful of genuine cross-references (Brazilian music, Pix) exist, so
+        # this reports rather than fails; a large regression should be reviewed.
+        PY
+    - name: Web Server Security Tests
+      run: python3 tools/test_serve_web.py
+    - name: Gitleaks Config Test
+      run: python3 tools/test_gitleaks_config.py
     - name: Unit Tests
       run: flutter test -j 1
     - name: License Check

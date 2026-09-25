@@ -101,9 +101,11 @@ class _QuizScreenState extends State<QuizScreen> {
     });
   }
 
-  void _finish() {
-    ProgressService.instance.setQuizBest(widget.levelId, _score);
-    ProgressService.instance.incrementQuizzesTaken();
+  Future<void> _finish() async {
+    // Awaited: both are read-modify-write on SharedPreferences, so firing them
+    // and moving on could drop an update when the screen is popped.
+    await ProgressService.instance.setQuizBest(widget.levelId, _score);
+    await ProgressService.instance.incrementQuizzesTaken();
   }
 
   void _retryWrong() {

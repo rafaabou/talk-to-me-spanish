@@ -17,10 +17,6 @@ Future<String?> readFromFile(String path) async {
   return null;
 }
 
-Future<String?> findImportFile() async {
-  return null;
-}
-
 /// Refuses anything larger than a real backup needs, so a huge or hostile
 /// file cannot be read into memory.
 const int maxImportBytes = 4 * 1024 * 1024;
