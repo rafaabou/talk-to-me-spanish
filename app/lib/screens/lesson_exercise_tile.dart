@@ -316,31 +316,44 @@ class _ExerciseTileState extends State<ExerciseTile> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Text(
-                            o.tr(lang),
-                            style: const TextStyle(fontWeight: FontWeight.w600),
-                          ),
-                          if (o.en.isNotEmpty && o.en != o.es) ...[
-                            const SizedBox(height: 2),
+                        children: () {
+                          // The option is shown in the course language, which
+                          // is also what [Exercise.answer] is keyed on. Using
+                          // the interface language here made the English line
+                          // repeat itself and hid the Spanish word the learner
+                          // actually has to recognise.
+                          final primary = o.tr(ExerciseTile.contentLang).trim();
+                          final en = o.en.trim();
+                          final ar = o.ar.trim();
+                          final showEn = en.isNotEmpty && en != primary;
+                          final showAr =
+                              ar.isNotEmpty && ar != primary && ar != en;
+                          final small = Theme.of(context).textTheme.bodySmall;
+                          return [
                             Text(
-                              o.en,
-                              style: Theme.of(context).textTheme.bodySmall,
-                            ),
-                          ],
-                          if (o.ar.isNotEmpty && o.ar != o.es) ...[
-                            const SizedBox(height: 2),
-                            Align(
-                              alignment: Alignment.centerRight,
-                              child: Text(
-                                o.ar,
-                                style: Theme.of(context).textTheme.bodySmall,
-                                textDirection: TextDirection.rtl,
-                                textAlign: TextAlign.right,
+                              primary,
+                              style: const TextStyle(
+                                fontWeight: FontWeight.w600,
                               ),
                             ),
-                          ],
-                        ],
+                            if (showEn) ...[
+                              const SizedBox(height: 2),
+                              Text(en, style: small),
+                            ],
+                            if (showAr) ...[
+                              const SizedBox(height: 2),
+                              Align(
+                                alignment: AlignmentDirectional.centerEnd,
+                                child: Text(
+                                  ar,
+                                  style: small,
+                                  textDirection: TextDirection.rtl,
+                                  textAlign: TextAlign.right,
+                                ),
+                              ),
+                            ],
+                          ];
+                        }(),
                       ),
                     ),
                   ),

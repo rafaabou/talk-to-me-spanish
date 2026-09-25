@@ -57,7 +57,9 @@ class _LessonSearchSheetState extends State<LessonSearchSheet> {
             section: 'vocab',
             index: i,
             title: v.es,
-            subtitle: v.tr(lang),
+            // `tr` falls back to Spanish, so a Spanish interface would print
+            // the word twice.
+            subtitle: v.tr(lang) == v.es ? '' : v.tr(lang),
           ),
         );
       }
@@ -91,7 +93,7 @@ class _LessonSearchSheetState extends State<LessonSearchSheet> {
             section: 'dialogue',
             index: i,
             title: '${d.speaker}: ${d.text.es}',
-            subtitle: d.text.tr(lang),
+            subtitle: d.text.tr(lang) == d.text.es ? '' : d.text.tr(lang),
           ),
         );
       }

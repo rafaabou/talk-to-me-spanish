@@ -61,7 +61,7 @@ dart format --set-exit-if-changed --output=none .
 # Static analysis
 flutter analyze --fatal-infos
 
-# Run tests (112 tests)
+# Run tests (116 tests)
 flutter test
 
 # Build release APK
@@ -178,7 +178,7 @@ refactor(models): extract course models to separate file
 | Widget | `test/` | `flutter test` |
 | Integration | `integration_test/` | `flutter test integration_test` |
 
-### Test Files (112 tests)
+### Test Files (116 tests)
 
 | File | Covers |
 |------|--------|
@@ -193,6 +193,7 @@ refactor(models): extract course models to separate file
 | `pdf_font_test.dart` | Export font is bundled and embedded in the PDF |
 | `tri_block_test.dart` | Language visibility, text hierarchy |
 | `vocab_tile_test.dart` | Vocabulary speaker sits on the word line, not the card |
+| `exercise_option_label_test.dart` | Options lead with the course language; no repeated translation line |
 | `ui_text_test.dart` | Localization helper |
 | `voice_compare_test.dart` | Pronunciation scoring, thresholds, containment floor |
 | `widget_test.dart` | Widget rendering |
