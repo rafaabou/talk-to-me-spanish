@@ -7,6 +7,7 @@ import 'screens/flashcard_screen.dart';
 import 'screens/onboarding_screen.dart';
 import 'services/app_state.dart';
 import 'services/progress_service.dart';
+import 'services/ui_text.dart';
 
 void main() {
   runApp(const EszeroApp());
@@ -156,12 +157,16 @@ class _AppRoot extends StatefulWidget {
 }
 
 class _AppRootState extends State<_AppRoot> {
+  /// Loaded once: a new future on every AppState change re-read storage.
+  late final Future<bool> _onboardingDone;
+
   static const MethodChannel _channel = MethodChannel(
     'com.rafaabou.eszero_hero/widget',
   );
 
   @override
   void initState() {
+    _onboardingDone = ProgressService.instance.getOnboardingDone();
     super.initState();
     _channel.setMethodCallHandler(_handleMethodCall);
   }
@@ -184,9 +189,30 @@ class _AppRootState extends State<_AppRoot> {
     return Consumer<AppState>(
       builder: (context, state, _) {
         return FutureBuilder<bool>(
-          future: ProgressService.instance.getOnboardingDone(),
+          // Cached in initState: rebuilding this future on every AppState
+          // change (speed, text size, theme) re-read storage each time.
+          future: _onboardingDone,
           builder: (context, snapshot) {
-            if (!snapshot.hasData && !snapshot.hasError) {
+            if (snapshot.hasError) {
+              return Scaffold(
+                body: Center(
+                  child: Padding(
+                    padding: const EdgeInsets.all(24),
+                    child: Text(
+                      uiText(
+                        state.lang,
+                        ar: 'تعذر تحميل حالة التطبيق. أعد تشغيل التطبيق.',
+                        pt:
+                            'Não foi possível carregar o app. Reinicie o aplicativo.',
+                        other: 'Could not load the app. Please restart it.',
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
+                ),
+              );
+            }
+            if (!snapshot.hasData) {
               return const Scaffold(
                 body: Center(child: CircularProgressIndicator()),
               );

@@ -80,7 +80,7 @@ It serves the prebuilt web app (`app/build/web`) and opens your browser automati
 - Web support — run in browser
 - `build-all.sh` — one command builds APK + web
 - Lazy tab loading + deferred background sync: cold start ~1.5 s -> ~0.7 s
-- 116/116 tests passing, 0 analyze issues
+- 124/124 tests passing, 0 analyze issues
 
 ---
 

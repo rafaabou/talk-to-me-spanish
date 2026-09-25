@@ -25,6 +25,7 @@ class ProgressService {
   static const _flashcardsReviewedKey = 'flashcards_reviewed';
   static const _quizzesTakenKey = 'quizzes_taken';
   static const _speakingDoneKey = 'speaking_done';
+  static const _speakingItemsKey = 'speaking_items_done';
 
   final FsrsScheduler _fsrs = FsrsScheduler();
 
@@ -354,6 +355,25 @@ class ProgressService {
     return prefs.getInt(_speakingDoneKey) ?? 0;
   }
 
+  /// Which speaking items are complete, keyed `<lessonId>::<index>`. The
+  /// count alone cannot restore the ticks when a lesson is reopened, which
+  /// used to reset the section and double-count on the next tap.
+  Future<Set<String>> getSpeakingItemsDone() async {
+    final prefs = await SharedPreferences.getInstance();
+    return (prefs.getStringList(_speakingItemsKey) ?? const []).toSet();
+  }
+
+  Future<bool> toggleSpeakingItem(String key) async {
+    final prefs = await SharedPreferences.getInstance();
+    final done = (prefs.getStringList(_speakingItemsKey) ?? const []).toSet();
+    final nowDone = !done.remove(key);
+    if (nowDone) done.add(key);
+    await prefs.setStringList(_speakingItemsKey, done.toList()..sort());
+    final count = await getSpeakingDone();
+    await prefs.setInt(_speakingDoneKey, count + (nowDone ? 1 : -1));
+    return nowDone;
+  }
+
   Future<void> incrementSpeakingDone() async {
     final prefs = await SharedPreferences.getInstance();
     final current = prefs.getInt(_speakingDoneKey) ?? 0;
@@ -405,60 +425,90 @@ class ProgressService {
       'accessibility': jsonDecode(prefs.getString(_accessibilityKey) ?? '{}'),
       'repeat_count': prefs.getInt(_repeatCountKey) ?? 1,
       'speaking_done': prefs.getInt(_speakingDoneKey) ?? 0,
+      'speaking_items': prefs.getStringList(_speakingItemsKey) ?? const [],
       'exported': DateTime.now().toIso8601String(),
     });
   }
 
+  /// Restores a backup exported by [exportData].
+  ///
+  /// The whole payload is parsed and checked before a single key is written,
+  /// so a truncated or hand-edited file cannot leave progress half-imported.
+  /// Throws [FormatException] when the file is not a usable backup.
   Future<void> importData(String jsonString) async {
+    final Object? decoded;
     try {
-      final data = jsonDecode(jsonString) as Map<String, dynamic>;
-      final prefs = await SharedPreferences.getInstance();
-      await prefs.setStringList(
-        _key,
-        (data['completed'] as List? ?? []).cast<String>(),
-      );
-      await prefs.setStringList(
-        _exercisesKey,
-        (data['exercises'] as List? ?? []).cast<String>(),
-      );
-      await prefs.setStringList(
-        _favoritesKey,
-        (data['favorites'] as List? ?? []).cast<String>(),
-      );
-      if (data['streak'] is int) {
-        await prefs.setInt(_streakKey, data['streak'] as int);
+      decoded = jsonDecode(jsonString);
+    } on FormatException {
+      rethrow;
+    }
+    if (decoded is! Map) {
+      throw const FormatException('Backup must be a JSON object');
+    }
+    final data = decoded.cast<String, dynamic>();
+
+    List<String> readList(String name) {
+      final raw = data[name];
+      if (raw == null) return const [];
+      if (raw is! List) {
+        throw FormatException('Backup field "$name" must be a list');
       }
-      if (data['last_study'] is String) {
-        await prefs.setString(_lastStudyKey, data['last_study'] as String);
+      return raw.map((e) => e.toString()).toList();
+    }
+
+    // Parse everything up front; nothing is written until this succeeds.
+    final completed = readList('completed');
+    final exercises = readList('exercises');
+    final favorites = readList('favorites');
+    final streak = data['streak'];
+    final lastStudy = data['last_study'];
+    final lastOpened = data['last_opened'];
+    final repeatCount = data['repeat_count'];
+    final speakingDone = data['speaking_done'];
+    final notes = data['notes'];
+    final accessibility = data['accessibility'];
+    if (streak != null && streak is! int) {
+      throw const FormatException('Backup field "streak" must be a number');
+    }
+    if (notes != null && notes is! Map) {
+      throw const FormatException('Backup field "notes" must be an object');
+    }
+    Map<String, FsrsCard>? cards;
+    if (data['srs'] != null) {
+      final raw = data['srs'];
+      if (raw is! List) {
+        throw const FormatException('Backup field "srs" must be a list');
       }
-      if (data['srs'] is List) {
-        final cards = <String, FsrsCard>{};
-        for (final c in data['srs']) {
-          final card = FsrsCard.fromJson(c as Map<String, dynamic>);
-          cards[card.key] = card;
+      cards = <String, FsrsCard>{};
+      for (final c in raw) {
+        if (c is! Map) {
+          throw const FormatException('Backup field "srs" is malformed');
         }
-        await _saveFsrsCards(cards);
+        final card = FsrsCard.fromJson(c.cast<String, dynamic>());
+        cards[card.key] = card;
       }
-      if (data['last_opened'] is String) {
-        await prefs.setString(_lastOpenedKey, data['last_opened'] as String);
-      }
-      if (data['notes'] is Map) {
-        await prefs.setString(_notesKey, jsonEncode(data['notes']));
-      }
-      if (data['accessibility'] is Map) {
-        await prefs.setString(
-          _accessibilityKey,
-          jsonEncode(data['accessibility']),
-        );
-      }
-      if (data['repeat_count'] is int) {
-        await prefs.setInt(_repeatCountKey, data['repeat_count'] as int);
-      }
-      if (data['speaking_done'] is int) {
-        await prefs.setInt(_speakingDoneKey, data['speaking_done'] as int);
-      }
-    } catch (e) {
-      debugPrint('Import data failed: $e');
+    }
+
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setStringList(_key, completed);
+    await prefs.setStringList(_exercisesKey, exercises);
+    await prefs.setStringList(_favoritesKey, favorites);
+    if (streak is int) await prefs.setInt(_streakKey, streak);
+    if (lastStudy is String) await prefs.setString(_lastStudyKey, lastStudy);
+    if (cards != null) await _saveFsrsCards(cards);
+    if (lastOpened is String) await prefs.setString(_lastOpenedKey, lastOpened);
+    if (notes is Map) await prefs.setString(_notesKey, jsonEncode(notes));
+    if (accessibility is Map) {
+      await prefs.setString(_accessibilityKey, jsonEncode(accessibility));
+    }
+    if (repeatCount is int) await prefs.setInt(_repeatCountKey, repeatCount);
+    if (speakingDone is int) await prefs.setInt(_speakingDoneKey, speakingDone);
+    final speakingItems = data['speaking_items'];
+    if (speakingItems is List) {
+      await prefs.setStringList(
+        _speakingItemsKey,
+        speakingItems.map((e) => e.toString()).toList()..sort(),
+      );
     }
   }
 
@@ -467,10 +517,32 @@ class ProgressService {
     return path;
   }
 
+  /// Imports from a known path. Returns false instead of throwing so a
+  /// missing or malformed file leaves the existing progress untouched.
   Future<bool> importFromFile(String path) async {
     final content = await file_helper.readFromFile(path);
     if (content == null || content.isEmpty) return false;
-    await importData(content);
-    return true;
+    try {
+      await importData(content);
+      return true;
+    } on FormatException catch (e) {
+      debugPrint('Import rejected: ${e.message}');
+      return false;
+    }
+  }
+
+  /// Restores a backup the user chose: a file dialog on the web, the app's own
+  /// last export on a phone (there is no system file picker wired up).
+  /// Returns false when nothing usable was found.
+  Future<bool> importFromPicker() async {
+    final content = await file_helper.pickAndReadFile();
+    if (content == null || content.isEmpty) return false;
+    try {
+      await importData(content);
+      return true;
+    } on FormatException catch (e) {
+      debugPrint('Import rejected: ${e.message}');
+      return false;
+    }
   }
 }

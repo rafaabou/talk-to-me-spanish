@@ -217,7 +217,15 @@ class DialogueLineTile extends StatelessWidget {
 class SpeakingSection extends StatefulWidget {
   final List<SpeakingItem> items;
   final String lang;
-  const SpeakingSection({super.key, required this.items, required this.lang});
+
+  /// Lesson id, so completed items can be stored as `<lessonId>::<index>`.
+  final String lessonId;
+  const SpeakingSection({
+    super.key,
+    required this.items,
+    required this.lang,
+    required this.lessonId,
+  });
 
   @override
   State<SpeakingSection> createState() => _SpeakingSectionState();
@@ -225,6 +233,42 @@ class SpeakingSection extends StatefulWidget {
 
 class _SpeakingSectionState extends State<SpeakingSection> {
   final Set<int> _done = {};
+
+  @override
+  void initState() {
+    super.initState();
+    _restore();
+  }
+
+  Future<void> _restore() async {
+    final stored = await ProgressService.instance.getSpeakingItemsDone();
+    if (!mounted) return;
+    setState(() {
+      _done
+        ..clear()
+        ..addAll(
+          widget.items
+              .asMap()
+              .entries
+              .where((e) => stored.contains('${widget.lessonId}::${e.key}'))
+              .map((e) => e.key),
+        );
+    });
+  }
+
+  Future<void> _toggle(int index) async {
+    final nowDone = await ProgressService.instance.toggleSpeakingItem(
+      '${widget.lessonId}::$index',
+    );
+    if (!mounted) return;
+    setState(() {
+      if (nowDone) {
+        _done.add(index);
+      } else {
+        _done.remove(index);
+      }
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -350,18 +394,7 @@ class _SpeakingSectionState extends State<SpeakingSection> {
                                     es: 'Logré',
                                     other: 'Got it',
                                   ),
-                          onPressed:
-                              () => setState(() {
-                                if (done) {
-                                  _done.remove(i);
-                                  ProgressService.instance
-                                      .decrementSpeakingDone();
-                                } else {
-                                  _done.add(i);
-                                  ProgressService.instance
-                                      .incrementSpeakingDone();
-                                }
-                              }),
+                          onPressed: () => _toggle(i),
                         ),
                       ],
                     ),

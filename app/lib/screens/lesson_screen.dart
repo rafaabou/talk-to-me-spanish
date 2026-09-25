@@ -322,6 +322,7 @@ class _LessonScreenState extends State<LessonScreen> {
                   await ProgressService.instance.toggleFavorite(
                     '${lesson.id}::${e.key}',
                   );
+                  if (!mounted) return;
                   setState(() {
                     _favorites =
                         _favorites.contains('${lesson.id}::${e.key}')
@@ -464,7 +465,11 @@ class _LessonScreenState extends State<LessonScreen> {
                   other: 'Speaking',
                 ),
               ),
-              SpeakingSection(items: lesson.speaking, lang: lang),
+              SpeakingSection(
+                items: lesson.speaking,
+                lang: lang,
+                lessonId: lesson.id,
+              ),
             ],
             const SizedBox(height: 12),
             // Exercises
@@ -489,6 +494,7 @@ class _LessonScreenState extends State<LessonScreen> {
                   await ProgressService.instance.toggleExerciseDone(
                     '${lesson.id}::${e.key}',
                   );
+                  if (!mounted) return;
                   setState(() {
                     _doneExercises =
                         _doneExercises.contains('${lesson.id}::${e.key}')

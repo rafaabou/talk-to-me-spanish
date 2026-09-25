@@ -362,7 +362,7 @@ class _AccountScreenState extends State<AccountScreen> {
   Future<void> _importData() async {
     setState(() => _importing = true);
     try {
-      final result = await ProgressService.instance.importFromFile('');
+      final result = await ProgressService.instance.importFromPicker();
       if (mounted) {
         setState(() => _importing = false);
         ScaffoldMessenger.of(context).showSnackBar(

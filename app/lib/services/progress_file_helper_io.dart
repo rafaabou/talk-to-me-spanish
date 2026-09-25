@@ -29,6 +29,11 @@ Future<String?> findImportFile() async {
   return null;
 }
 
+/// There is no system file picker in this build, so "import" restores the
+/// last backup this app exported into its documents directory. The UI says so.
 Future<String?> pickAndReadFile() async {
-  return null;
+  final dir = await getApplicationDocumentsDirectory();
+  final file = File('${dir.path}/eszero_progress.json');
+  if (!await file.exists()) return null;
+  return readFromFile(file.path);
 }

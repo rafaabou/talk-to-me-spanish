@@ -5,12 +5,17 @@ import '../services/ui_text.dart';
 class AudioButton extends StatelessWidget {
   final String text;
   final String lang;
+
+  /// Interface language for the tooltip and error message; defaults to the
+  /// course language so existing call sites keep working.
+  final String? uiLang;
   final bool compact;
 
   const AudioButton({
     super.key,
     required this.text,
     required this.lang,
+    this.uiLang,
     this.compact = false,
   });
 
@@ -18,13 +23,14 @@ class AudioButton extends StatelessWidget {
     if (text.trim().isEmpty) return;
     final ok = await AudioService.instance.playText(text, lang);
     if (!ok && context.mounted) {
+      final ui = uiLang ?? lang;
       ScaffoldMessenger.of(context)
         ..hideCurrentSnackBar()
         ..showSnackBar(
           SnackBar(
             content: Text(
               uiText(
-                lang,
+                ui,
                 ar: 'الصوت غير متاح',
                 es: 'Audio no disponible',
                 other: 'Audio not available',

@@ -2,10 +2,12 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/verb_models.dart';
+
 import '../services/app_state.dart';
 import '../services/progress_service.dart';
 import '../services/verb_repository.dart';
 import '../widgets/audio_button.dart';
+import 'lesson_exercise_tile.dart';
 import '../widgets/app_selection_area.dart';
 import '../widgets/credit_footer.dart';
 import '../services/ui_text.dart';
@@ -544,15 +546,10 @@ class _VerbDetailScreenState extends State<VerbDetailScreen> {
         appBar: AppBar(
           title: Text(widget.verb.inf),
           actions: [
-            IconButton(
-              icon: const Icon(Icons.volume_up),
-              tooltip: uiText(
-                lang,
-                ar: 'استمع',
-                es: 'Escuchar',
-                other: 'Listen',
-              ),
-              onPressed: () {},
+            AudioButton(
+              text: widget.verb.inf,
+              lang: ExerciseTile.contentLang,
+              uiLang: lang,
             ),
           ],
         ),
@@ -763,6 +760,50 @@ class _VerbQuizScreenState extends State<VerbQuizScreen> {
               ),
               const CreditFooter(),
             ],
+          ),
+        ),
+      );
+    }
+
+    if (_questions.isEmpty) {
+      return AppSelectionArea(
+        child: Scaffold(
+          appBar: AppBar(title: Text(widget.verb.inf)),
+          body: Center(
+            child: Padding(
+              padding: const EdgeInsets.all(24),
+              child: Text(
+                uiText(
+                  lang,
+                  ar: 'لا توجد صيغ متاحة لهذا الفعل في هذا المضارع.',
+                  pt: 'Nenhuma forma disponível para este verbo neste tempo.',
+                  other: 'No forms are available for this verb in this tense.',
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ),
+          ),
+        ),
+      );
+    }
+
+    if (_questions.isEmpty) {
+      return AppSelectionArea(
+        child: Scaffold(
+          appBar: AppBar(title: Text(widget.verb.inf)),
+          body: Center(
+            child: Padding(
+              padding: const EdgeInsets.all(24),
+              child: Text(
+                uiText(
+                  lang,
+                  ar: 'لا توجد صيغ متاحة لهذا الفعل في هذا المضارع.',
+                  es: 'No hay formas disponibles para este verbo en este tiempo.',
+                  other: 'No forms are available for this verb in this tense.',
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ),
           ),
         ),
       );
