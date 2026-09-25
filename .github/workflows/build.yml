@@ -6,22 +6,14 @@
     branches:
     - main
   workflow_dispatch:
-    inputs:
-      skip_security:
-        description: Skip security scans (emergency only)
-        required: false
-        default: 'false'
-        type: boolean
 env:
   FLUTTER_VERSION: 3.29.3
   JAVA_VERSION: '17'
-permissions:
-  contents: read
-  security-events: write
-  packages: write
-  id-token: write
+permissions: {}
 jobs:
   validate:
+    permissions:
+      contents: read
     name: Validate Spanish App
     runs-on: ubuntu-latest
     timeout-minutes: 30
@@ -30,17 +22,18 @@ jobs:
         working-directory: app
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       with:
         fetch-depth: 0
+        persist-credentials: false
     - name: Setup Flutter
-      uses: subosito/flutter-action@v2
+      uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e # v2.21.0
       with:
         flutter-version: ${{ env.FLUTTER_VERSION }}
         channel: stable
         cache: false
     - name: Setup Java
-      uses: actions/setup-java@v5
+      uses: actions/setup-java@dded0888837ed1f317902acf8a20df0ad188d165 # v5.0.0
       with:
         distribution: temurin
         java-version: ${{ env.JAVA_VERSION }}
@@ -51,7 +44,7 @@ jobs:
 
         flutter analyze --no-pub > analysis-report.txt 2>&1 || true'
     - name: Audio Key Lint
-      run: python3 app/tools/lint_audio_keys.py app/assets/course/levels es --strict
+      run: python3 tools/lint_audio_keys.py assets/course/levels es --strict
     - name: Unit Tests
       run: flutter test -j 1
     - name: License Check
@@ -61,13 +54,13 @@ jobs:
 
         lic_ck check-licenses --config lic_ck.yaml || echo "License check completed with findings"'
     - name: Secret Scan (Gitleaks)
-      uses: gitleaks/gitleaks-action@v2
+      uses: gitleaks/gitleaks-action@ff98106e4c7b2bc287b24eaf42907196329070c7 # v2.3.9
       env:
         GITLEAKS_ENABLE_UPLOAD_ARTIFACT: 'false'
       with:
         cache: 'false'
     - name: Secret Scan (TruffleHog)
-      uses: trufflesecurity/trufflehog@v3.97.0
+      uses: trufflesecurity/trufflehog@bcfcf73aaf4759d4dadc2783177c245a02792318 # v3.97.0
       with:
         path: ./
         extra_args: --results=verified
@@ -76,6 +69,8 @@ jobs:
 
         cat deps-outdated.json'
   build:
+    permissions:
+      contents: read
     name: Build Spanish App
     needs: validate
     runs-on: ubuntu-latest
@@ -85,17 +80,18 @@ jobs:
         working-directory: app
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       with:
         fetch-depth: 0
+        persist-credentials: false
     - name: Setup Flutter
-      uses: subosito/flutter-action@v2
+      uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e # v2.21.0
       with:
         flutter-version: ${{ env.FLUTTER_VERSION }}
         channel: stable
         cache: false
     - name: Setup Java
-      uses: actions/setup-java@v5
+      uses: actions/setup-java@dded0888837ed1f317902acf8a20df0ad188d165 # v5.0.0
       with:
         distribution: temurin
         java-version: ${{ env.JAVA_VERSION }}
@@ -104,15 +100,26 @@ jobs:
     - name: Install unzip
       run: sudo apt-get update -qq && sudo apt-get install -y -qq unzip > /dev/null 2>&1
     - name: Setup Android SDK
-      uses: android-actions/setup-android@v3
+      uses: android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407 # v3.2.2
     - name: Accept Android Licenses
       run: yes | sdkmanager --licenses > /dev/null 2>&1 || true
     - name: Restore Release Keystore
-      run: "if [ -n \"${{ secrets.RELEASE_KEYSTORE_BASE64 }}\" ]; then\n  echo \"${{ secrets.RELEASE_KEYSTORE_BASE64 }}\"\
-        \ | base64 -d > android/app/release.keystore\n  ls -la android/app/release.keystore\nelse\n  echo \"RELEASE_KEYSTORE_BASE64\
-        \ not set - generating ephemeral keystore\"\n  keytool -genkeypair -v \\\n    -keystore android/app/release.keystore\
-        \ \\\n    -alias release \\\n    -keyalg RSA -keysize 2048 -validity 10000 \\\n    -storepass release123 -keypass\
-        \ release123 \\\n    -dname \"CN=Talk To Me Espa\xF1ol, OU=DevOps, O=Mohamed Rafaa TOUNEKTI, L=Tunis, C=TN\"\nfi"
+      run: |
+        if [ -n "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" ]; then
+          echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.keystore
+          ls -la android/app/release.keystore
+        elif [ "${{ github.event_name }}" = "pull_request" ]; then
+          echo "Pull request build: throwaway keystore, never published."
+          keytool -genkeypair -v \
+            -keystore android/app/release.keystore \
+            -alias release \
+            -keyalg RSA -keysize 2048 -validity 10000 \
+            -storepass ci-throwaway-not-a-release-key -keypass ci-throwaway-not-a-release-key \
+            -dname "CN=CI Throwaway, OU=CI, O=CI, C=TN"
+        else
+          echo "::error::RELEASE_KEYSTORE_BASE64 is not set. Refusing to sign a release build with a throwaway key."
+          exit 1
+        fi
     - name: Build Spanish Release APK
       run: "flutter build apk --release \\\n  --obfuscate \\\n  --split-debug-info=build/debug-info \\\n  --target-platform\
         \ android-arm64"
@@ -141,11 +148,11 @@ jobs:
       if: always()
       continue-on-error: true
     - name: Install Grype
-      run: curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b $HOME/.local/bin
+      run: curl -sSfL https://raw.githubusercontent.com/anchore/grype/v0.104.1/install.sh | sh -s -- -b $HOME/.local/bin
       if: always()
       continue-on-error: true
     - name: Install Syft
-      run: curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b $HOME/.local/bin
+      run: curl -sSfL https://raw.githubusercontent.com/anchore/syft/v1.29.0/install.sh | sh -s -- -b $HOME/.local/bin
       if: always()
       continue-on-error: true
     - name: Scan Docker Image (Grype)
@@ -183,6 +190,8 @@ jobs:
       if: always()
       continue-on-error: true
   desktop:
+    permissions:
+      contents: read
     name: Build Desktop Spanish App (${{ matrix.os }})
     needs: validate
     strategy:
@@ -196,11 +205,12 @@ jobs:
         working-directory: app
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       with:
         fetch-depth: 0
+        persist-credentials: false
     - name: Setup Flutter
-      uses: subosito/flutter-action@v2
+      uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e # v2.21.0
       with:
         flutter-version: ${{ env.FLUTTER_VERSION }}
         channel: stable
@@ -232,7 +242,7 @@ jobs:
         ls -la dist/
     - name: Upload Linux AppImage
       if: matrix.os == 'ubuntu-latest' && (startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'push' && contains(github.event.head_commit.message, '[desktop]')))
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       with:
         name: es-linux-appimage
         path: app/dist/**/*.AppImage
@@ -245,26 +255,28 @@ jobs:
       run: flutter build macos --release
     - name: Upload Linux bundle
       if: matrix.os == 'ubuntu-latest' && (startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'push' && contains(github.event.head_commit.message, '[desktop]')))
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       with:
         name: es-linux-desktop
         path: app/build/linux/x64/release/bundle/
         retention-days: 7
     - name: Upload Windows bundle
       if: matrix.os == 'windows-2022' && (startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'push' && contains(github.event.head_commit.message, '[desktop]')))
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       with:
         name: es-windows-desktop
         path: app/build/windows/x64/runner/Release/
         retention-days: 7
     - name: Upload macOS bundle
       if: matrix.os == 'macos-latest' && (startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'push' && contains(github.event.head_commit.message, '[desktop]')))
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       with:
         name: es-macos-desktop
         path: app/build/macos/Build/Products/Release/
         retention-days: 7
   web:
+    permissions:
+      contents: read
     name: Build Web Spanish App
     needs: validate
     runs-on: ubuntu-latest
@@ -274,11 +286,12 @@ jobs:
         working-directory: app
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       with:
         fetch-depth: 0
+        persist-credentials: false
     - name: Setup Flutter
-      uses: subosito/flutter-action@v2
+      uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e # v2.21.0
       with:
         flutter-version: ${{ env.FLUTTER_VERSION }}
         channel: stable
@@ -288,18 +301,29 @@ jobs:
     - name: Get Dependencies
       run: flutter pub get --enforce-lockfile
     - name: Build Web
-      run: flutter build web --release
+      run: flutter build web --release --pwa-strategy=offline-first --no-web-resources-cdn
+    - name: Repair double-nested assets
+      run: |
+        # Flutter nests these as assets/assets/<dir> while the AssetManifest
+        # maps them to assets/<dir>; without this the .opus files 404.
+        for dir in audio course; do
+          if [ -d "build/web/assets/assets/$dir" ] && [ ! -e "build/web/assets/$dir" ]; then
+            (cd build/web/assets && ln -s "assets/$dir" "$dir")
+          fi
+        done
+        ls -la build/web/assets
     - name: Stamp version.json
       run: |
         VERSION=$(grep '^version:' pubspec.yaml | sed 's/.*: //; s/+.*//')
         BUILD=$(grep '^version:' pubspec.yaml | sed 's/.*+//')
         printf '{"app_name":"talk_to_me_spanish","version":"%s","build_number":"%s","package_name":"talk_to_me_spanish"}' "$VERSION" "$BUILD" > build/web/version.json
         cat build/web/version.json
-    - name: Verify Arabic font is bundled
-      run: grep -q NotoNaskhArabic build/web/assets/FontManifest.json
+    - name: Verify bundled fonts
+      run: |
+        grep -q NotoSans build/web/assets/FontManifest.json
+        grep -q NotoSansArabic build/web/assets/FontManifest.json
     - name: Upload web bundle
-      if: startsWith(github.ref, 'refs/tags/v')
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       with:
         name: es-web
         path: app/build/web/
@@ -311,27 +335,27 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     permissions:
-      contents: write
-      packages: write
+      contents: read
       id-token: write
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       with:
         fetch-depth: 0
+        persist-credentials: false
     - name: Setup Flutter
-      uses: subosito/flutter-action@v2
+      uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e # v2.21.0
       with:
         flutter-version: ${{ env.FLUTTER_VERSION }}
         channel: stable
         cache: false
     - name: Setup Java
-      uses: actions/setup-java@v5
+      uses: actions/setup-java@dded0888837ed1f317902acf8a20df0ad188d165 # v5.0.0
       with:
         distribution: temurin
         java-version: ${{ env.JAVA_VERSION }}
     - name: Setup Android SDK
-      uses: android-actions/setup-android@v3
+      uses: android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407 # v3.2.2
     - name: Accept Android Licenses
       run: yes | sdkmanager --licenses > /dev/null 2>&1 || true
     - name: Install unzip
@@ -341,19 +365,21 @@ jobs:
       run: flutter pub get --enforce-lockfile
     - name: Restore Release Keystore
       working-directory: app
-      run: "if [ -n \"${{ secrets.RELEASE_KEYSTORE_BASE64 }}\" ]; then\n  echo \"${{ secrets.RELEASE_KEYSTORE_BASE64 }}\"\
-        \ | base64 -d > android/app/release.keystore\n  ls -la android/app/release.keystore\nelse\n  echo \"RELEASE_KEYSTORE_BASE64\
-        \ not set - generating ephemeral keystore\"\n  keytool -genkeypair -v \\\n    -keystore android/app/release.keystore\
-        \ \\\n    -alias release \\\n    -keyalg RSA -keysize 2048 -validity 10000 \\\n    -storepass release123 -keypass\
-        \ release123 \\\n    -dname \"CN=Talk To Me Espa\xF1ol, OU=DevOps, O=Mohamed Rafaa TOUNEKTI, L=Tunis, C=TN\"\nfi"
+      run: |
+        if [ -z "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" ]; then
+          echo "::error::RELEASE_KEYSTORE_BASE64 is not set. Refusing to sign a release build with a throwaway key."
+          exit 1
+        fi
+        echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.keystore
+        ls -la android/app/release.keystore
     - name: Build Spanish Release APK
       working-directory: app
       run: "flutter build apk --release \\\n  --obfuscate \\\n  --split-debug-info=build/debug-info \\\n  --target-platform\
         \ android-arm64"
     - name: Install Grype & Syft
       run: |
-        curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b $HOME/.local/bin
-        curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b $HOME/.local/bin
+        curl -sSfL https://raw.githubusercontent.com/anchore/grype/v0.104.1/install.sh | sh -s -- -b $HOME/.local/bin
+        curl -sSfL https://raw.githubusercontent.com/anchore/syft/v1.29.0/install.sh | sh -s -- -b $HOME/.local/bin
     - name: Generate SBOMs
       run: 'export PATH="$HOME/.local/bin:$PATH"
 
@@ -365,12 +391,12 @@ jobs:
 
         grype sbom:sbom-apk.cdx.json --fail-on high'
     - name: Install Cosign
-      uses: sigstore/cosign-installer@v3
+      uses: sigstore/cosign-installer@3454372f43399081ed03b604cb2d021dabca52bb # v3.8.2
     - name: Sign APK & SBOM (Keyless)
       run: "cosign sign-blob --yes \\\n  --output-signature app-release.apk.sig \\\n  app/build/app/outputs/flutter-apk/app-release.apk\n\
         cosign sign-blob --yes \\\n  --output-signature sbom-project.cdx.json.sig \\\n  sbom-project.cdx.json"
     - name: Upload release artifacts
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       with:
         name: release-artifacts
         path: |
@@ -385,23 +411,25 @@ jobs:
     needs:
     - package
     - desktop
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    # Desktop artifacts are optional; the APK and SBOMs must still ship.
+    if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main' && needs.package.result == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     permissions:
       contents: write
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       with:
         fetch-depth: 0
+        persist-credentials: false
     - name: Download release artifacts
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
       with:
         name: release-artifacts
         path: artifacts
     - name: Download desktop artifacts
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
       with:
         pattern: es-*
         path: desktop-artifacts
@@ -418,71 +446,39 @@ jobs:
     - name: Create tag & GitHub Release
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         sudo apt-get update -qq && sudo apt-get install -y -qq gh > /dev/null 2>&1
-        TAG="v1.10.0"
+        VERSION=$(grep '^version:' app/pubspec.yaml | sed 's/.*: //; s/+.*//')
+        BUILD=$(grep '^version:' app/pubspec.yaml | sed 's/.*+//')
+        TAG="v$VERSION"
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
-        git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/rafaabou/talk-to-me-spanish.git"
-        gh release delete "$TAG" --yes 2>/dev/null || true
-        git push origin --delete "$TAG" 2>/dev/null || true
-        git tag -d "$TAG" 2>/dev/null || true
-        git tag -f "$TAG" "${{ github.sha }}"
-        git push origin -f "$TAG"
+        # The token goes through an explicit header, never into the remote URL.
+        git remote set-url origin "https://github.com/${{ github.repository }}.git"
+        AUTH="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)"
+        if git rev-parse "$TAG" > /dev/null 2>&1; then
+          if [ "$(git rev-list -n1 "$TAG")" != "${{ github.sha }}" ]; then
+            echo "::error::Tag $TAG already exists on another commit. Bump version in app/pubspec.yaml."
+            exit 1
+          fi
+        else
+          git tag "$TAG" "${{ github.sha }}"
+          git -c http.extraheader="$AUTH" push origin "$TAG"
+        fi
         FILES="artifacts/app/build/app/outputs/flutter-apk/app-release.apk artifacts/app-release.apk.sig artifacts/sbom-project.cdx.json artifacts/sbom-project.cdx.json.sig artifacts/sbom-apk.cdx.json"
-        NOTES="## Talk To Me Spanish v1.10.0
+        NOTES="## v$VERSION (build $BUILD)
         By **Mohamed Rafaa Tounekti**
 
         ### Downloads
-        - **Android**: app-release.apk"
-        if [ -f TalkToMeES.AppImage ]; then
-          FILES="$FILES TalkToMeES.AppImage"
-          NOTES="$NOTES
-        - **Linux**: TalkToMeES.AppImage (recommended - chmod +x and double-click, runs on any distro)"
+        - **Android**: app-release.apk (arm64, Cosign keyless signed)"
+        for asset in TalkToMePT.AppImage TalkToMePT-linux.zip TalkToMePT-windows.zip TalkToMePT-macos.zip; do
+          if [ -f "$asset" ]; then FILES="$FILES $asset"; fi
+        done
+        if gh release view "$TAG" > /dev/null 2>&1; then
+          gh release upload "$TAG" $FILES --clobber
+          gh release edit "$TAG" --notes "$NOTES"
+        else
+          gh release create "$TAG" $FILES \
+            --title "Talk To Me v$VERSION" \
+            --notes "$NOTES"
         fi
-        if [ -f TalkToMeES-linux.zip ]; then
-          FILES="$FILES TalkToMeES-linux.zip"
-          NOTES="$NOTES
-        - **Linux bundle**: TalkToMeES-linux.zip (unzip and run)"
-        fi
-        if [ -f TalkToMeES-windows.zip ]; then
-          FILES="$FILES TalkToMeES-windows.zip"
-          NOTES="$NOTES
-        - **Windows**: TalkToMeES-windows.zip (unzip and run .exe)"
-        fi
-        if [ -f TalkToMeES-macos.zip ]; then
-          FILES="$FILES TalkToMeES-macos.zip"
-          NOTES="$NOTES
-        - **macOS**: TalkToMeES-macos.zip (unzip and open .app)"
-        fi
-        NOTES="$NOTES
-
-        ### What's New in v1.10.0
-        - CI cost guard - desktop builds run only with [desktop] in push message (normal pushes ~49 billed min)
-        - Release job tolerates missing desktop artifacts (APK + SBOMs always ship)
-        - Web audio path fix - symlinks for Flutter's double-nested assets/audio so .opus plays in browser
-
-        ### Previous Features (v1.5.0)
-        - Bottom navigation bar (Inicio / Cartas / Verbos / Estadisticas / Cuenta)
-        - 17 achievement badges with unlock tracking
-        - Common Verbs filter with color-coded type badges
-        - Enhanced verb detail screen with summary header
-        - Speaking exercises with progress tracking
-        - Account screen with export/import/share/clear data
-        - Flashcard and quiz review counters
-        - 1,816 verbs with 8 tenses
-        - Web support - run directly in your browser
-        - Trilingual display (Spanish + English + Arabic)
-        - Flashcard review with FSRS spaced repetition
-        - Quiz mode with best score tracking
-        - Offline support
-
-        ### Technical
-        - Built with Flutter 3.29.3
-        - Signed APK with Cosign keyless signing
-        - SBOM + vulnerability scanning included
-        - CI/CD: validate -> build -> scan -> package -> release"
-        gh release create "$TAG" $FILES \
-          --title "Talk To Me Spanish By Mohamed Rafaa Tounekti" \
-          --notes "$NOTES"

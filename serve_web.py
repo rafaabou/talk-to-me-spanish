@@ -1,5 +1,20 @@
 #!/usr/bin/env python3
-"""Flutter web server: correct MIME types, immutable caching, gzip, Range."""
+"""Flutter web server: correct MIME types, immutable caching, gzip, Range.
+
+Security properties (see tools/test_serve_web.py):
+  * every request path is resolved with realpath and must stay inside the
+    served directory, so `..` traversal and symlink escape cannot read files
+    such as android/app/release.keystore;
+  * directory listing is disabled;
+  * responses carry conservative security headers;
+  * Range and gzip reads are bounded, and concurrent connections are capped;
+  * no wildcard CORS. The app is a single-origin static bundle, so
+    cross-origin reads are refused unless --allow-origin is given.
+
+LAN access stays the default so the site can be opened from a phone. Pass
+--host 127.0.0.1 to serve this machine only.
+"""
+import argparse
 import gzip
 import http.server
 import mimetypes
@@ -7,6 +22,8 @@ import os
 import re
 import socketserver
 import sys
+import threading
+import urllib.parse
 
 mimetypes.add_type('audio/ogg', '.opus')
 mimetypes.add_type('audio/ogg; codecs=opus', '.opus')
@@ -30,7 +47,31 @@ IMMUTABLE_FILES = (
 )
 GZIP_EXTENSIONS = ('.js', '.wasm', '.json', '.html', '.css', '.svg', '.txt', '.xml', '.map')
 GZIP_MIN_BYTES = 1024
+MAX_GZIP_BYTES = 16 * 1024 * 1024
+MAX_RANGE_BYTES = 32 * 1024 * 1024
 RANGE_RE = re.compile(r'^bytes=(\d*)-(\d*)$')
+SOCKET_TIMEOUT = 30
+MAX_CONCURRENT = 48
+
+# CanvasKit needs eval/wasm compilation, so script-src keeps 'unsafe-eval' and
+# 'wasm-unsafe-eval'. Everything else is same-origin only, and the microphone
+# stays available to the app alone (it is needed for speech practice).
+CSP = (
+    "default-src 'self'; "
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval'; "
+    "style-src 'self' 'unsafe-inline'; "
+    "img-src 'self' data: blob:; "
+    "media-src 'self' blob: data:; "
+    "font-src 'self' data:; "
+    "connect-src 'self' blob: data:; "
+    "worker-src 'self' blob:; "
+    "object-src 'none'; "
+    "base-uri 'self'; "
+    "frame-ancestors 'self'"
+)
+ALLOW_ORIGIN = None
+
+_slots = threading.BoundedSemaphore(MAX_CONCURRENT)
 
 
 class FlutterHandler(http.server.SimpleHTTPRequestHandler):
@@ -40,15 +81,46 @@ class FlutterHandler(http.server.SimpleHTTPRequestHandler):
     DOUBLE_NESTED = ('/assets/audio/', '/assets/course/')
 
     protocol_version = 'HTTP/1.1'
+    timeout = SOCKET_TIMEOUT
+
+    def _root(self):
+        return os.path.realpath(getattr(self, 'directory', None) or os.getcwd())
+
+    def translate_path(self, path):
+        """Contain every request, including the plain GET/HEAD fallback.
+
+        The base class drops `..` components but happily follows a symlink
+        that points outside the served directory, which is enough to read
+        files next to it. realpath plus the prefix check closes that.
+        """
+        resolved = os.path.realpath(super().translate_path(path))
+        root = self._root()
+        if resolved != root and not resolved.startswith(root + os.sep):
+            return os.path.join(root, '.forbidden')
+        return resolved
+
+    def _resolve(self, url_path):
+        """Map a URL path to a real file inside the served root, else None.
+
+        realpath collapses `..` and follows symlinks before the containment
+        check, so neither a crafted URL nor a planted symlink can escape.
+        """
+        root = self._root()
+        try:
+            path = urllib.parse.unquote(urllib.parse.urlsplit(url_path).path)
+        except ValueError:
+            return None
+        if '\x00' in path:
+            return None
+        candidate = os.path.realpath(os.path.join(root, path.lstrip('/')))
+        if candidate != root and not candidate.startswith(root + os.sep):
+            return None
+        return candidate if os.path.isfile(candidate) else None
 
     def _double_nested_path(self):
-        prefix = next(
-            (p for p in self.DOUBLE_NESTED if self.path.startswith(p)), None)
-        if prefix is None:
+        if not self.path.startswith(self.DOUBLE_NESTED):
             return None
-        alt = '/assets/assets/' + self.path[len('/assets/'):]
-        full = os.path.normpath(os.path.join(os.getcwd(), alt.lstrip('/')))
-        return full if os.path.isfile(full) else None
+        return self._resolve('/assets/assets/' + self.path[len('/assets/'):])
 
     def _rewire_double_nested(self):
         if self._double_nested_path() is not None:
@@ -67,14 +139,25 @@ class FlutterHandler(http.server.SimpleHTTPRequestHandler):
             self.send_header('Cache-Control', self._cache_control())
             self.send_header('Vary', 'Accept-Encoding')
             self.send_header('Accept-Ranges', 'bytes')
-        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('X-Content-Type-Options', 'nosniff')
+        self.send_header('X-Frame-Options', 'SAMEORIGIN')
+        self.send_header('Referrer-Policy', 'no-referrer')
+        self.send_header('Content-Security-Policy', CSP)
+        self.send_header(
+            'Permissions-Policy', 'microphone=(self), camera=(), geolocation=()'
+        )
+        if ALLOW_ORIGIN:
+            self.send_header('Access-Control-Allow-Origin', ALLOW_ORIGIN)
+            self.send_header('Vary', 'Origin')
         super().end_headers()
 
+    def list_directory(self, path):
+        """Never enumerate the bundle; only index.html is served."""
+        self.send_error(403, 'Directory listing is disabled')
+        return None
+
     def _local_file(self):
-        path = self.path.split('?', 1)[0].split('#', 1)[0]
-        root = getattr(self, 'directory', None) or os.getcwd()
-        full = os.path.normpath(os.path.join(root, path.lstrip('/')))
-        return full if os.path.isfile(full) else None
+        return self._resolve(self.path)
 
     def _send_body(self, status, full, body, extra=None):
         self.send_response(status)
@@ -87,6 +170,13 @@ class FlutterHandler(http.server.SimpleHTTPRequestHandler):
         self.end_headers()
         if self.command != 'HEAD':
             self.wfile.write(body)
+
+    def _send_416(self, size):
+        self.send_response(416)
+        self.send_header('Content-Range', f'bytes */{size}')
+        self.send_header('Content-Length', '0')
+        self._custom_response = True
+        self.end_headers()
 
     def _serve_range(self):
         header = self.headers.get('Range')
@@ -109,13 +199,12 @@ class FlutterHandler(http.server.SimpleHTTPRequestHandler):
             start = max(0, size - int(last))
             end = size - 1
         if start >= size or start > end:
-            self.send_response(416)
-            self.send_header('Content-Range', f'bytes */{size}')
-            self.send_header('Content-Length', '0')
-            self._custom_response = True
-            self.end_headers()
+            self._send_416(size)
             return True
         end = min(end, size - 1)
+        if end - start + 1 > MAX_RANGE_BYTES:
+            self._send_416(size)
+            return True
         with open(full, 'rb') as handle:
             handle.seek(start)
             body = handle.read(end - start + 1)
@@ -137,7 +226,8 @@ class FlutterHandler(http.server.SimpleHTTPRequestHandler):
             return False
         if 'gzip' not in (self.headers.get('Accept-Encoding') or ''):
             return False
-        if os.path.getsize(full) < GZIP_MIN_BYTES:
+        size = os.path.getsize(full)
+        if size < GZIP_MIN_BYTES or size > MAX_GZIP_BYTES:
             return False
         with open(full, 'rb') as handle:
             raw = handle.read()
@@ -148,7 +238,11 @@ class FlutterHandler(http.server.SimpleHTTPRequestHandler):
             200,
             full,
             body,
-            {'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Accept-Ranges': 'bytes'},
+            {
+                'Content-Encoding': 'gzip',
+                'Vary': 'Accept-Encoding',
+                'Accept-Ranges': 'bytes',
+            },
         )
         return True
 
@@ -164,6 +258,16 @@ class FlutterHandler(http.server.SimpleHTTPRequestHandler):
         self._rewire_double_nested()
         super().do_HEAD()
 
+    def handle_one_request(self):
+        """Refuse new work when every connection slot is busy."""
+        if not _slots.acquire(blocking=False):
+            self.send_error(503, 'Server busy')
+            return
+        try:
+            super().handle_one_request()
+        finally:
+            _slots.release()
+
     def log_message(self, fmt, *args):
         # Thousands of asset hits per page load; keep the journal readable.
         pass
@@ -172,12 +276,52 @@ class FlutterHandler(http.server.SimpleHTTPRequestHandler):
 class ThreadedServer(socketserver.ThreadingMixIn, http.server.HTTPServer):
     daemon_threads = True
     allow_reuse_address = True
+    request_queue_size = 32
+
+
+def parse_args(argv):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('legacy', nargs='*', help=argparse.SUPPRESS)
+    parser.add_argument('--port', type=int, default=8002)
+    parser.add_argument('--directory', default='.')
+    parser.add_argument(
+        '--host',
+        default='0.0.0.0',
+        help='0.0.0.0 keeps LAN access; 127.0.0.1 serves this machine only',
+    )
+    parser.add_argument(
+        '--allow-origin',
+        default=None,
+        help='explicit CORS origin (off by default; the bundle is same-origin)',
+    )
+    args = parser.parse_args(argv)
+    # Backwards compatibility with `serve_web.py <port> <directory>`.
+    if args.legacy:
+        args.port = int(args.legacy[0])
+    if len(args.legacy) > 1:
+        args.directory = args.legacy[1]
+    return args
+
+
+def main(argv=None):
+    global ALLOW_ORIGIN
+    args = parse_args(sys.argv[1:] if argv is None else argv)
+    ALLOW_ORIGIN = args.allow_origin
+    root = os.path.realpath(args.directory)
+    if not os.path.isdir(root):
+        raise SystemExit(f'Not a directory: {root}')
+    os.chdir(root)
+    handler = lambda *a, **k: FlutterHandler(*a, directory=root, **k)
+    httpd = ThreadedServer((args.host, args.port), handler)
+    shown = 'localhost' if args.host in ('0.0.0.0', '') else args.host
+    print(f'Serving {root} on http://{shown}:{args.port}', flush=True)
+    try:
+        httpd.serve_forever()
+    except KeyboardInterrupt:
+        pass
+    finally:
+        httpd.server_close()
 
 
 if __name__ == '__main__':
-    port = int(sys.argv[1]) if len(sys.argv) > 1 else 8002
-    directory = sys.argv[2] if len(sys.argv) > 2 else '.'
-    os.chdir(directory)
-    httpd = ThreadedServer(('', port), FlutterHandler)
-    print(f'Serving on http://localhost:{port}', flush=True)
-    httpd.serve_forever()
+    main()

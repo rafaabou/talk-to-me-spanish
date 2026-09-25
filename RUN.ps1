@@ -26,6 +26,19 @@ $mime = @{
   '.opus' = 'audio/ogg; codecs=opus'; '.wasm' = 'application/wasm'
   '.woff2' = 'font/woff2'; '.woff' = 'font/woff'; '.js' = 'text/javascript'
   '.json' = 'application/json'; '.html' = 'text/html'
+  '.css' = 'text/css'; '.svg' = 'image/svg+xml'; '.png' = 'image/png'
+  '.jpg' = 'image/jpeg'; '.ico' = 'image/x-icon'; '.ttf' = 'font/ttf'
+  '.bin' = 'application/octet-stream'; '.map' = 'application/json'
+}
+# Only real files inside the web directory may be served: a crafted path must
+# not reach the keystore, key.properties or anything else next to it.
+$webRoot = [IO.Path]::GetFullPath($WebDir).TrimEnd('\') + '\'
+function Resolve-Inside([string]$candidate) {
+  try { $full = [IO.Path]::GetFullPath($candidate) } catch { return $null }
+  if ($full -eq $WebDir) { return $null }
+  if (-not $full.StartsWith($webRoot, [StringComparison]::OrdinalIgnoreCase)) { return $null }
+  if (-not (Test-Path -LiteralPath $full -PathType Leaf)) { return $null }
+  return $full
 }
 # First free port starting at $Port
 while ($true) {
@@ -44,20 +57,23 @@ try {
     $ctx = $listener.GetContext()
     $rel = [Uri]::UnescapeDataString($ctx.Request.Url.LocalPath.TrimStart('/')) -replace '/', '\'
     if ($rel -eq '') { $rel = 'index.html' }
-    $file = Join-Path $WebDir $rel
+    $file = Resolve-Inside (Join-Path $WebDir $rel)
     # transparent double-nested fallback
-    if (-not (Test-Path $file -PathType Leaf)) {
+    if ($null -eq $file) {
       foreach ($p in @('assets\audio\', 'assets\course\')) {
         if ($rel.StartsWith($p)) {
-          $alt = Join-Path $WebDir ('assets\assets\' + $rel.Substring(7))
-          if (Test-Path $alt -PathType Leaf) { $file = $alt; break }
+          $file = Resolve-Inside (Join-Path $WebDir ('assets\assets\' + $rel.Substring(7)))
+          if ($null -ne $file) { break }
         }
       }
     }
     $res = $ctx.Response
-    $res.Headers.Add('Access-Control-Allow-Origin', '*')
+    # No wildcard CORS: this is a single-origin local bundle.
+    $res.Headers.Add('X-Content-Type-Options', 'nosniff')
+    $res.Headers.Add('X-Frame-Options', 'SAMEORIGIN')
+    $res.Headers.Add('Referrer-Policy', 'no-referrer')
     $res.Headers.Add('Cache-Control', 'no-cache')
-    if (Test-Path $file -PathType Leaf) {
+    if ($null -ne $file) {
       $ext = [IO.Path]::GetExtension($file).ToLower()
       $res.ContentType = if ($mime.ContainsKey($ext)) { $mime[$ext] } else { 'application/octet-stream' }
       $bytes = [IO.File]::ReadAllBytes($file)

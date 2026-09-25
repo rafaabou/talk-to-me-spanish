@@ -60,10 +60,10 @@ Please include the following information:
 
 | Control | Tool | Frequency |
 |---------|------|-----------|
-| SAST | CodeQL (Dart) | Every PR/Push |
+| SAST | `flutter analyze --fatal-infos` + `dart format` | Every PR/Push |
 | SCA | Grype + Syft | Every build |
 | Container Scan | Trivy | Every build |
-| Mobile Scan | MobSF | Every build |
+| Container scan | Grype, Syft, Trivy, Dockle | Every APK build (informational) |
 | Secret Scan | Gitleaks + TruffleHog | Every commit |
 | License Check | license_checker | Every build |
 
@@ -143,11 +143,11 @@ We follow coordinated vulnerability disclosure:
 
 | Tool | Purpose | Integration |
 |------|---------|-------------|
-| CodeQL | SAST | GitHub/GitLab CI |
+| Dart analyzer | SAST | GitHub/GitLab CI |
 | Grype | Vulnerability scanning | CI/CD |
 | Syft | SBOM generation | CI/CD |
 | Trivy | FS/Container scan | CI/CD |
-| MobSF | Mobile app scanning | CI/CD |
+| Grype / Syft / Trivy / Dockle | APK and image scanning | CI/CD (informational) |
 | Gitleaks | Secret detection | Pre-commit + CI |
 | TruffleHog | Secret detection | Pre-commit + CI |
 | Cosign | Artifact signing | Release |

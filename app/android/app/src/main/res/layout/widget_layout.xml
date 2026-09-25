@@ -24,7 +24,7 @@
         android:id="@+id/widget_due_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="palavras para revisar"
+        android:text="palabras para repasar"
         android:textSize="12sp"
         android:textColor="#666666" />
 
@@ -60,7 +60,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="dias"
+                android:text="días"
                 android:textSize="10sp"
                 android:textColor="#666666" />
         </LinearLayout>
@@ -84,7 +84,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="lições"
+                android:text="lecciones"
                 android:textSize="10sp"
                 android:textColor="#666666" />
         </LinearLayout>

@@ -1,46 +1,31 @@
-Talk To Me - Español Zero a Héroe / Português Zero to Hero
-Copyright 2024 Mohamed Rafaa TOUNEKTI
+Talk To Me
+Copyright 2024-2026 Mohamed Rafaa TOUNEKTI
 
 This product includes software developed by:
 - The Flutter Authors (https://flutter.dev) - BSD-3-Clause
 - The Dart Authors (https://dart.dev) - BSD-3-Clause
 
-Third-party dependencies and their licenses:
+Third-party runtime dependencies and their licenses:
 
-1. cupertino_icons ^1.0.8 - Apache-2.0
-2. just_audio ^0.9.46 - MIT
-3. shared_preferences ^2.2.2 - BSD-3-Clause
-4. provider ^6.1.2 - MIT
-5. crypto ^3.0.3 - BSD-3-Clause
-6. path_provider ^2.1.2 - BSD-3-Clause
-7. timezone ^0.9.2 - BSD-3-Clause
-8. pdf ^3.10.7 - Apache-2.0
-9. fl_chart ^0.68.0 - MIT
-10. share_plus ^12.0.2 - BSD-3-Clause
+1.  cupertino_icons ^1.0.8             - Apache-2.0
+2.  just_audio ^0.9.46                 - MIT
+3.  shared_preferences ^2.2.2          - BSD-3-Clause
+4.  provider ^6.1.2                    - MIT
+5.  crypto ^3.0.3                      - BSD-3-Clause
+6.  path_provider ^2.1.2               - BSD-3-Clause
+7.  timezone ^0.9.2                    - BSD-3-Clause
+8.  pdf ^3.10.7                        - Apache-2.0
+9.  fl_chart ^0.68.0                   - MIT
+10. share_plus ^12.0.2                 - BSD-3-Clause
+11. speech_to_text ^7.0.0              - BSD-3-Clause
+12. record ^6.1.2                      - LGPL-3.0
+13. app_settings ^9.0.0                - Apache-2.0
 
-Flutter engine dependencies (via Flutter SDK):
-- Skia Graphics Engine - BSD-3-Clause
-- Dart SDK - BSD-3-Clause
-- ICU - ICU License
-- OpenSSL - OpenSSL License
-- zlib - zlib License
-- libpng - libpng License
-- freetype - FreeType License
-- harfbuzz - MIT
-- ICU Data - Unicode License
+Bundled fonts:
 
-Android platform dependencies:
-- Android SDK - Apache-2.0
-- AndroidX libraries - Apache-2.0
-- Kotlin Standard Library - Apache-2.0
+- Noto Sans and Noto Sans Arabic (Google) - SIL Open Font License 1.1
+- A subset of Noto Sans is embedded into generated PDF exports by
+  app/tools/build_pdf_font_subset.py (OFL-1.1).
 
-This application bundles audio assets (OPUS format) and course content
-licensed for educational use. Content derived from public domain
-and educational resources.
-
----
-Mohamed Rafaa TOUNEKTI
-DevOps & DevSecOps Engineer
-https://linkedin.com/in/mohamed-rafaa-tounekti
-rafaabou@gmail.com
-https://github.com/rafaabou
+Course audio is generated during development (Microsoft Edge neural voices)
+and bundled in the repository; it is not redistributed third-party audio.

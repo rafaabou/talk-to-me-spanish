@@ -23,8 +23,8 @@ class NotificationReceiver : BroadcastReceiver() {
 
                 val notification = NotificationCompat.Builder(context, "daily_review")
                     .setSmallIcon(android.R.drawable.ic_dialog_info)
-                    .setContentTitle("Hora de revisar")
-                    .setContentText("Você tem palavras para revisar. Toque para abrir.")
+                    .setContentTitle("Hora de repasar")
+                    .setContentText("Tienes palabras para repasar. Toca para abrir.")
                     .setPriority(NotificationCompat.PRIORITY_HIGH)
                     .setCategory(NotificationCompat.CATEGORY_REMINDER)
                     .setAutoCancel(true)
@@ -43,8 +43,8 @@ class NotificationReceiver : BroadcastReceiver() {
 
                 val notification = NotificationCompat.Builder(context, "streak_nudge")
                     .setSmallIcon(android.R.drawable.ic_dialog_info)
-                    .setContentTitle("Não perca sua sequência!")
-                    .setContentText("Estude hoje para manter sua sequência de dias.")
+                    .setContentTitle("¡No pierdas tu racha!")
+                    .setContentText("Estudia hoy para mantener tu racha de días.")
                     .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                     .setCategory(NotificationCompat.CATEGORY_REMINDER)
                     .setAutoCancel(true)

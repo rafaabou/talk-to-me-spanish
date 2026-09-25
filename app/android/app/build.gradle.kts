@@ -31,9 +31,18 @@ android {
     signingConfigs {
         create("release") {
             storeFile = file(System.getenv("RELEASE_KEYSTORE_PATH") ?: "release.keystore")
-            storePassword = System.getenv("RELEASE_KEYSTORE_PASSWORD") ?: "release123"
+            storePassword = System.getenv("RELEASE_KEYSTORE_PASSWORD")
+                ?: run {
+                    logger.warn(
+                        "RELEASE_KEYSTORE_PASSWORD is not set; falling back to the built-in " +
+                            "development password. Never publish an APK built this way."
+                    )
+                    "release123"
+                }
             keyAlias = System.getenv("RELEASE_KEY_ALIAS") ?: "release"
-            keyPassword = System.getenv("RELEASE_KEY_PASSWORD") ?: "release123"
+            keyPassword = System.getenv("RELEASE_KEY_PASSWORD")
+                ?: System.getenv("RELEASE_KEYSTORE_PASSWORD")
+                ?: "release123"
         }
     }
 

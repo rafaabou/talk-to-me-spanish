@@ -138,3 +138,29 @@ venv/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+
+# =============================================================================
+# Release outputs (build artifacts, never source)
+# =============================================================================
+
+# Packaged apps
+*.apk
+*.aab
+*.AppImage
+*.appimage
+*.exe
+*.dmg
+*.deb
+*.rpm
+*.msix
+app-release.apk
+app-debug.apk
+app-profile.apk
+app/dist/
+dist/
+*.zip
+!app/assets/**/*.zip
+
+# Packaged desktop bundles
+TalkToMe*.zip
+TalkToMe*.AppImage

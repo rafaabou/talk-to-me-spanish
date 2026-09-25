@@ -56,7 +56,7 @@ RUN mkdir -p ${ANDROID_SDK_ROOT}/cmdline-tools \
 # Accept licenses and install components
 RUN yes | ${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin/sdkmanager --licenses \
     && ${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin/sdkmanager \
-        "platforms;android-35" \
+        "platforms;android-36" \
         "build-tools;35.0.0" \
         "ndk;${ANDROID_NDK_VERSION}" \
         "cmake;3.22.1"
@@ -112,7 +112,6 @@ COPY app/android ./app/android
 
 # Generate code and build
 RUN cd app \
-    && flutter pub run build_runner build --delete-conflicting-outputs \
     && flutter build apk --release \
         --obfuscate \
         --split-debug-info=build/debug-info \
@@ -169,7 +168,7 @@ FROM scratch AS artifacts
 COPY --from=builder /workspace/app/build/app/outputs/flutter-apk/app-release.apk /espanol-release.apk
 COPY --from=signer /workspace/*.sig /signatures/
 COPY --from=scanner /workspace/sbom/*.json /sbom/
-COPY --from=scanner /workspace/sarif/*.sarif /sarif/
+COPY --from=scanner /workspace/reports/*.sarif /sarif/
 COPY --from=builder /workspace/app/build/debug-info /debug-info
 
 # =============================================================================

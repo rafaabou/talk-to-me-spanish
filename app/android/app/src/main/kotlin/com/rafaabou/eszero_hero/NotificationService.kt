@@ -46,24 +46,24 @@ class NotificationService : FlutterPlugin, MethodCallHandler {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val dailyChannel = NotificationChannel(
                 CHANNEL_ID_DAILY,
-                "Revisão Diária",
+                "Repaso diario",
                 NotificationManager.IMPORTANCE_HIGH
             ).apply {
-                description = "Lembrete diário de revisão SRS"
+                description = "Recordatorio diario de repaso SRS"
             }
             val streakChannel = NotificationChannel(
                 CHANNEL_ID_STREAK,
-                "Sequência de Dias",
+                "Racha de días",
                 NotificationManager.IMPORTANCE_DEFAULT
             ).apply {
-                description = "Aviso para não quebrar a sequência"
+                description = "Aviso para no perder la racha"
             }
             val reviewChannel = NotificationChannel(
                 CHANNEL_ID_REVIEW,
-                "Notificação de Revisão",
+                "Notificación de repaso",
                 NotificationManager.IMPORTANCE_HIGH
             ).apply {
-                description = "Notificação de palavras para revisar"
+                description = "Notificación de palabras para repasar"
             }
             notificationManager?.createNotificationChannels(listOf(dailyChannel, streakChannel, reviewChannel))
         }
@@ -172,8 +172,8 @@ class NotificationService : FlutterPlugin, MethodCallHandler {
 
         val notification = NotificationCompat.Builder(ctx, CHANNEL_ID_REVIEW)
             .setSmallIcon(android.R.drawable.ic_dialog_info)
-            .setContentTitle("Palavras para revisar: $dueCount")
-            .setContentText("Toque para começar a revisão SRS.")
+            .setContentTitle("Palabras para repasar: $dueCount")
+            .setContentText("Toca para empezar el repaso SRS.")
             .setPriority(NotificationCompat.PRIORITY_HIGH)
             .setCategory(NotificationCompat.CATEGORY_REMINDER)
             .setAutoCancel(true)

@@ -20,7 +20,7 @@ FROM alpine:3.22
 LABEL org.opencontainers.image.title="talk-to-me-spanish" \
       org.opencontainers.image.description="Release APK artifact container (scan-only, never published)" \
       org.opencontainers.image.source="https://github.com/rafaabou/talk-to-me-spanish" \
-      org.opencontainers.image.licenses="MIT"
+      org.opencontainers.image.licenses="Apache-2.0"
 
 RUN addgroup -S appgroup && adduser -S -G appgroup appuser
 
