@@ -141,9 +141,17 @@ jobs:
     - name: Install unzip
       run: sudo apt-get update -qq && sudo apt-get install -y -qq unzip > /dev/null 2>&1
     - name: Setup Android SDK
-      uses: android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407 # v3.2.2
-    - name: Accept Android Licenses
-      run: yes | sdkmanager --licenses > /dev/null 2>&1 || true
+      run: |
+        set -e
+        SDK_ROOT="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
+        if ! command -v sdkmanager >/dev/null 2>&1; then
+          SDKM="$(find "$SDK_ROOT/cmdline-tools" -name sdkmanager -type f | head -n1)"
+        else
+          SDKM="$(command -v sdkmanager)"
+        fi
+        yes | "$SDKM" --licenses > /dev/null 2>&1 || true
+        echo "ANDROID_HOME=${ANDROID_HOME:-/usr/local/lib/android/sdk}" >> "$GITHUB_ENV"
+        echo "$(dirname "$SDKM")" >> "$GITHUB_PATH"
     - name: Restore Release Keystore
       run: |
         if [ -n "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" ]; then
@@ -175,11 +183,12 @@ jobs:
     - name: Stage APK into Docker context
       run: cp build/app/outputs/flutter-apk/app-release.apk ./app-release.apk
     - name: Upload Android APK
+      continue-on-error: true
       uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       with:
         name: es-apk
         path: app/build/app/outputs/flutter-apk/app-release.apk
-        retention-days: 7
+        retention-days: 1
         if-no-files-found: error
     - name: Lint Dockerfile (Hadolint)
       run: |
@@ -293,12 +302,13 @@ jobs:
         fastforge package --platform=linux --targets=appimage
         ls -la dist/
     - name: Upload Linux AppImage
+      continue-on-error: true
       if: matrix.os == 'ubuntu-latest' && (startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'push' && contains(github.event.head_commit.message, '[desktop]')))
       uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       with:
         name: es-linux-appimage
         path: app/dist/**/*.AppImage
-        retention-days: 7
+        retention-days: 1
     - name: Build Windows Desktop
       if: matrix.os == 'windows-2022' && (startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'push' && contains(github.event.head_commit.message, '[desktop]')))
       run: flutter build windows --release
@@ -306,26 +316,29 @@ jobs:
       if: matrix.os == 'macos-latest' && (startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'push' && contains(github.event.head_commit.message, '[desktop]')))
       run: flutter build macos --release
     - name: Upload Linux bundle
+      continue-on-error: true
       if: matrix.os == 'ubuntu-latest' && (startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'push' && contains(github.event.head_commit.message, '[desktop]')))
       uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       with:
         name: es-linux-desktop
         path: app/build/linux/x64/release/bundle/
-        retention-days: 7
+        retention-days: 1
     - name: Upload Windows bundle
+      continue-on-error: true
       if: matrix.os == 'windows-2022' && (startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'push' && contains(github.event.head_commit.message, '[desktop]')))
       uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       with:
         name: es-windows-desktop
         path: app/build/windows/x64/runner/Release/
-        retention-days: 7
+        retention-days: 1
     - name: Upload macOS bundle
+      continue-on-error: true
       if: matrix.os == 'macos-latest' && (startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'push' && contains(github.event.head_commit.message, '[desktop]')))
       uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       with:
         name: es-macos-desktop
         path: app/build/macos/Build/Products/Release/
-        retention-days: 7
+        retention-days: 1
   web:
     permissions:
       contents: read
@@ -375,11 +388,12 @@ jobs:
         grep -q NotoSans build/web/assets/FontManifest.json
         grep -q NotoSansArabic build/web/assets/FontManifest.json
     - name: Upload web bundle
+      continue-on-error: true
       uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       with:
         name: es-web
         path: app/build/web/
-        retention-days: 7
+        retention-days: 1
   package:
     name: Package & Release Spanish App
     needs:
@@ -424,6 +438,7 @@ jobs:
       run: "cosign sign-blob --yes \\\n  --output-signature app-release.apk.sig \\\n  app/build/app/outputs/flutter-apk/app-release.apk\n\
         cosign sign-blob --yes \\\n  --output-signature sbom-project.cdx.json.sig \\\n  sbom-project.cdx.json"
     - name: Upload release artifacts
+      continue-on-error: true
       uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       with:
         name: release-artifacts
@@ -433,7 +448,7 @@ jobs:
           sbom-project.cdx.json
           sbom-project.cdx.json.sig
           sbom-apk.cdx.json
-        retention-days: 7
+        retention-days: 1
   release:
     name: Release Spanish App
     needs:
