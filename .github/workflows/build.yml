@@ -398,6 +398,9 @@ jobs:
     name: Package & Release Spanish App
     needs:
     - build
+    # Release artifacts are only meaningful for trusted pushes; PRs never
+    # sign. Storage-quota hiccups on artifact transfer are non-fatal.
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     permissions:
@@ -411,8 +414,6 @@ jobs:
         persist-credentials: false
     - name: Install unzip
       run: sudo apt-get update -qq && sudo apt-get install -y -qq unzip > /dev/null 2>&1
-    # The build job already produced a signed APK; rebuilding it here doubled
-    # the Flutter build time on every push.
     - name: Download Android APK
       continue-on-error: true
       uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
@@ -424,20 +425,27 @@ jobs:
         curl -sSfL https://raw.githubusercontent.com/anchore/grype/v0.104.1/install.sh | sh -s -- -b $HOME/.local/bin
         curl -sSfL https://raw.githubusercontent.com/anchore/syft/v1.29.0/install.sh | sh -s -- -b $HOME/.local/bin
     - name: Generate SBOMs
-      run: 'export PATH="$HOME/.local/bin:$PATH"
-
+      run: |
+        [ -f app/build/app/outputs/flutter-apk/app-release.apk ] || { echo "APK artifact unavailable, skipping"; exit 0; }
+        export PATH="$HOME/.local/bin:$PATH"
         syft dir:. --exclude "./app/build/**" -o cyclonedx-json=sbom-project.cdx.json
-
-        syft file:app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json'
+        syft file:app/build/app/outputs/flutter-apk/app-release.apk -o cyclonedx-json=sbom-apk.cdx.json
     - name: Vulnerability Scan on APK SBOM
-      run: 'export PATH="$HOME/.local/bin:$PATH"
-
-        grype sbom:sbom-apk.cdx.json --fail-on high'
+      run: |
+        [ -f sbom-apk.cdx.json ] || { echo "No APK SBOM, skipping"; exit 0; }
+        export PATH="$HOME/.local/bin:$PATH"
+        grype sbom:sbom-apk.cdx.json --fail-on high
     - name: Install Cosign
       uses: sigstore/cosign-installer@3454372f43399081ed03b604cb2d021dabca52bb # v3.8.2
     - name: Sign APK & SBOM (Keyless)
-      run: "cosign sign-blob --yes \\\n  --output-signature app-release.apk.sig \\\n  app/build/app/outputs/flutter-apk/app-release.apk\n\
-        cosign sign-blob --yes \\\n  --output-signature sbom-project.cdx.json.sig \\\n  sbom-project.cdx.json"
+      run: |
+        [ -f app/build/app/outputs/flutter-apk/app-release.apk ] || { echo "APK artifact unavailable, skipping"; exit 0; }
+        cosign sign-blob --yes \\
+          --output-signature app-release.apk.sig \\
+          app/build/app/outputs/flutter-apk/app-release.apk
+        cosign sign-blob --yes \\
+          --output-signature sbom-project.cdx.json.sig \\
+          sbom-project.cdx.json
     - name: Upload release artifacts
       continue-on-error: true
       uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
@@ -450,6 +458,7 @@ jobs:
           sbom-project.cdx.json.sig
           sbom-apk.cdx.json
         retention-days: 1
+        if-no-files-found: warn
   release:
     name: Release Spanish App
     needs:
@@ -518,7 +527,7 @@ jobs:
 
         ### Downloads
         - **Android**: app-release.apk (arm64, Cosign keyless signed)"
-        for asset in TalkToMePT.AppImage TalkToMePT-linux.zip TalkToMePT-windows.zip TalkToMePT-macos.zip; do
+        for asset in TalkToMeES.AppImage TalkToMeES-linux.zip TalkToMeES-windows.zip TalkToMeES-macos.zip; do
           if [ -f "$asset" ]; then FILES="$FILES $asset"; fi
         done
         if gh release view "$TAG" > /dev/null 2>&1; then
