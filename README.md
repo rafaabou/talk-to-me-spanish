@@ -82,7 +82,7 @@ It serves the prebuilt web app (`app/build/web`) and opens your browser automati
 - Web support — run in browser
 - `build-all.sh` — one command builds APK + web
 - Lazy tab loading + deferred background sync: cold start ~1.5 s -> ~0.7 s
-- 125/125 tests passing, 0 analyze issues
+- 126/126 tests passing, 0 analyze issues
 
 ---
 
@@ -173,7 +173,7 @@ git clone https://github.com/rafaabou/talk-to-me-spanish.git
 cd espanol-zero-to-hero/app
 flutter pub get
 flutter analyze              # Must be 0 issues
-flutter test                 # Must pass 125 tests
+flutter test                 # Must pass 126 tests
 
 # 5. Build release APK
 JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 \
@@ -191,7 +191,7 @@ cd app
 flutter pub get              # Install dependencies
 flutter run                  # Run on device/emulator
 flutter analyze              # Static analysis (must be 0 issues)
-flutter test                 # Run 125 tests
+flutter test                 # Run 126 tests
 dart format --set-exit-if-changed --output=none .  # Format check
 ```
 
@@ -565,7 +565,7 @@ See `SECURITY.md` for the full security policy and vulnerability reporting proce
 ```bash
 cd app
 flutter analyze              # Must be 0 issues
-flutter test                 # Must pass 125 tests
+flutter test                 # Must pass 126 tests
 git status                   # Nothing unintended staged
 dart format --set-exit-if-changed --output=none .  # Format check
 gitleaks detect --no-git -c .gitleaks.toml         # Optional local secret scan

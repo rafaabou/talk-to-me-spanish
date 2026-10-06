@@ -79,6 +79,30 @@ void main() {
       expect(await service.isCompleted('A1-01'), isFalse);
     });
 
+    test(
+      'export carries a schema version and future versions are refused',
+      () async {
+        SharedPreferences.setMockInitialValues({});
+        final service = ProgressService.instance;
+        final exported = await service.exportData();
+        expect(exported.contains('"v":2'), isTrue);
+
+        await expectLater(
+          service.importData('{"v": 3}'),
+          throwsA(isA<FormatException>()),
+        );
+        await expectLater(
+          service.importData('{"v": "not-a-number"}'),
+          throwsA(isA<FormatException>()),
+        );
+        SharedPreferences.setMockInitialValues({
+          'completed_lessons': ['A1-01'],
+        });
+        // A legacy export with no 'v' is still accepted.
+        await service.importData('{}');
+      },
+    );
+
     test('a missing file reports failure instead of throwing', () async {
       SharedPreferences.setMockInitialValues({});
       expect(

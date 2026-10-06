@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -56,6 +57,8 @@ class _VerbScreenState extends State<VerbScreen> {
   bool _showCommonOnly = false;
   bool _favoritesOnly = false;
   Set<String> _favorites = {};
+
+  Timer? _queryDebounce;
 
   /// Verb favorites share the progress store with word favorites, namespaced
   /// so `hablar` and an English word can never collide.
@@ -154,6 +157,12 @@ class _VerbScreenState extends State<VerbScreen> {
   }
 
   @override
+  void dispose() {
+    _queryDebounce?.cancel();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     final lang = context.watch<AppState>().lang;
     final data = _data;
@@ -190,8 +199,19 @@ class _VerbScreenState extends State<VerbScreen> {
                           ),
                           isDense: true,
                         ),
-                        onChanged:
-                            (v) => setState(() => _query = v.toLowerCase()),
+                        onChanged: (v) {
+                          _query = v.toLowerCase();
+                          // Debounce: rebuilding the grouped row cache on every
+                          // keystroke re-scans 1800 verbs mid-typing. Wait for a
+                          // pause, then recompute once.
+                          _queryDebounce?.cancel();
+                          _queryDebounce = Timer(
+                            const Duration(milliseconds: 180),
+                            () {
+                              if (mounted) setState(() {});
+                            },
+                          );
+                        },
                       ),
                     ),
                     _buildAudioFilter(data!, lang),

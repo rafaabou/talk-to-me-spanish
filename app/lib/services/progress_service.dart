@@ -414,6 +414,7 @@ class ProgressService {
   Future<String> exportData() async {
     final prefs = await SharedPreferences.getInstance();
     return jsonEncode({
+      'v': 2,
       'completed': prefs.getStringList(_key) ?? [],
       'exercises': prefs.getStringList(_exercisesKey) ?? [],
       'favorites': prefs.getStringList(_favoritesKey) ?? [],
@@ -446,6 +447,15 @@ class ProgressService {
       throw const FormatException('Backup must be a JSON object');
     }
     final data = decoded.cast<String, dynamic>();
+    // Export version: 1 = legacy (pre-1.10.1, no speaking items), 2 = current.
+    // Absent means legacy; unsupported (>= 3 / non-int) is refused so we never
+    // silently mis-import a future schema.
+    final ver = data['v'];
+    if (ver != null) {
+      if (ver is! int || ver < 1 || ver > 2) {
+        throw FormatException('Unsupported backup version: $ver');
+      }
+    }
 
     List<String> readList(String name) {
       final raw = data[name];
