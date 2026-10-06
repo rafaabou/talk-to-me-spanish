@@ -52,7 +52,8 @@ jobs:
     - name: Audio Key Lint
       run: python3 tools/lint_audio_keys.py assets/course/levels es --strict
     - name: Exercise Duplicate Audit
-      run: python3 tools/audit_duplicate_exercises.py es
+      working-directory: .
+      run: python3 app/tools/audit_duplicate_exercises.py es
     - name: Course Data Leak Scan
       run: |
         # Catches the other language bleeding into the course text.
@@ -80,8 +81,10 @@ jobs:
         # this reports rather than fails; a large regression should be reviewed.
         PY
     - name: Web Server Security Tests
+      working-directory: .
       run: python3 tools/test_serve_web.py
     - name: Gitleaks Config Test
+      working-directory: .
       run: python3 tools/test_gitleaks_config.py
     - name: Unit Tests
       run: flutter test -j 1
