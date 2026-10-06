@@ -1,7 +1,7 @@
 name: talk_to_me_spanish
 description: "Talk To Me Spanish By Mohamed Rafaa Tounekti"
 publish_to: 'none'
-version: 1.10.1+15
+version: 1.10.2+16
 
 environment:
   sdk: ^3.7.2
