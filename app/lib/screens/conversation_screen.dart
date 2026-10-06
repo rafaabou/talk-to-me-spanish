@@ -3,7 +3,6 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:just_audio/just_audio.dart';
-import 'package:app_settings/app_settings.dart';
 import 'package:record/record.dart';
 import '../services/audio_service.dart';
 import '../services/conversation_turn_engine.dart';
@@ -408,7 +407,9 @@ class _ConversationScreenState extends State<ConversationScreen> {
 
   Future<void> _openSettings() async {
     try {
-      await AppSettings.openAppSettings();
+      await const MethodChannel(
+        "com.rafaabou.eszero_hero/widget",
+      ).invokeMethod("openAppSettings");
     } catch (e) {
       debugPrint('openAppSettings failed: $e');
       _msg(

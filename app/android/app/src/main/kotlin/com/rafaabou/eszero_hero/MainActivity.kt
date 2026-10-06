@@ -32,7 +32,14 @@ class MainActivity : FlutterActivity() {
     override fun configureFlutterEngine(flutterEngine: io.flutter.embedding.engine.FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
         MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL).setMethodCallHandler { call, result ->
-            if (call.method == "updateWidget") {
+            if (call.method == "openAppSettings") {
+                startActivity(
+                    android.content.Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
+                        data = android.net.Uri.fromParts("package", packageName, null)
+                    }
+                )
+                result.success(true)
+            } else if (call.method == "updateWidget") {
                 val dueCount = call.argument<Int>("dueCount") ?: 0
                 val streak = call.argument<Int>("streak") ?: 0
                 val lessons = call.argument<Int>("lessonsCompleted") ?: 0
