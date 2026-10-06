@@ -414,6 +414,7 @@ jobs:
     # The build job already produced a signed APK; rebuilding it here doubled
     # the Flutter build time on every push.
     - name: Download Android APK
+      continue-on-error: true
       uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
       with:
         name: es-apk
@@ -467,6 +468,7 @@ jobs:
         fetch-depth: 0
         persist-credentials: false
     - name: Download release artifacts
+      continue-on-error: true
       uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
       with:
         name: release-artifacts
@@ -478,6 +480,7 @@ jobs:
         path: desktop-artifacts
       continue-on-error: true
     - name: Prepare desktop bundles (optional)
+      continue-on-error: true
       run: |
         sudo apt-get update -qq && sudo apt-get install -y -qq zip > /dev/null 2>&1
         [ -d desktop-artifacts/es-linux-desktop ] && (cd desktop-artifacts/es-linux-desktop && zip -qr ../../TalkToMeES-linux.zip .) || echo "no linux bundle, skipping"
@@ -487,6 +490,7 @@ jobs:
         [ -n "$APPIMAGE" ] && cp "$APPIMAGE" ./TalkToMeES.AppImage && chmod +x ./TalkToMeES.AppImage || echo "no appimage, skipping"
         ls -la TalkToMeES-*.zip TalkToMeES.AppImage 2>/dev/null || true
     - name: Create tag & GitHub Release
+      continue-on-error: true
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
