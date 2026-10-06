@@ -240,8 +240,11 @@ class ProgressService {
 
   Future<void> setQuizBest(String levelId, int score) async {
     final prefs = await SharedPreferences.getInstance();
-    final best = prefs.getInt('quiz_best_$levelId') ?? 0;
-    if (score > best) {
+    final best = prefs.getInt('quiz_best_$levelId');
+    // Record the key even on an all-wrong first run (score 0): a stored
+    // score of 0 means "played and scored 0", while a missing key means
+    // "never played".
+    if (best == null || score > best) {
       await prefs.setInt('quiz_best_$levelId', score);
     }
   }
