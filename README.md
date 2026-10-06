@@ -1,6 +1,8 @@
 # Talk To Me Spanish
 
-**Latest release: v1.10.0** | By Mohamed Rafaa Tounekti
+[![CI](https://github.com/rafaabou/talk-to-me-spanish/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/rafaabou/talk-to-me-spanish/actions/workflows/build.yml) [![Flutter](https://img.shields.io/badge/Flutter-3.29.3-blue?logo=flutter)](https://flutter.dev) [![Tests](https://img.shields.io/badge/tests-125%20passing-brightgreen)](https://github.com/rafaabou/talk-to-me-spanish) [![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
+
+**Latest release: v1.10.1** | By Mohamed Rafaa Tounekti
 
 Offline-first **Spanish** learning app (Flutter, Android). 72 CEFR lessons (A1-C2), 1,816 verbs with 8 tenses, FSRS flashcards, quizzes, trilingual UI (ES/EN/AR), TTS audio, verb conjugation browser, **voice conversation practice (roleplay + free Q&A)**, and full DevSecOps CI/CD pipeline — 100% offline.
 
@@ -579,6 +581,32 @@ Apache-2.0 — see `LICENSE` and `NOTICE`.
 ---
 
 ## Changelog
+
+### v1.10.1 (2026-10-06) — security, correctness, performance hardening
+
+**Security**
+- `serve_web.py` / `RUN.ps1`: every request path is resolved with `realpath` and validated against the web root — `..` traversal and symlink escape can no longer read the keystore or sources; directory listing is off; Range and gzip reads are bounded (32/16 MB caps); concurrent connections capped; CSP, `nosniff`, `X-Frame-Options` and `Referrer-Policy` added; wildcard CORS removed (single-origin bundle); `--host` flag keeps or restricts LAN access.
+- Android: `NotificationReceiver`/`BootReceiver` are now `exported=false`; the unused exact-alarm permissions and the on-launch settings prompt are gone.
+- CI: fail closed on a missing signing secret, least-privilege per-job permissions, checked-out credentials not persisted, actions/scanners pinned to commit SHAs, pull requests never reach the signing path, desktop matrix moved to tags.
+- `.gitleaks.toml` allowlists only generated data (the old blanket `*.json`/`*.yaml`/`*.md` terms-based allowlist is gone), with a regression test guarding it.
+- `PRIVACY_POLICY.md` rewritten to match what the app actually does (records voice, can use offline system STT; plain storage; no cloud).
+- `app_settings` dependency removed — its 9.0.0 line is SPM-only and blocked every fresh `flutter pub get`/CI analysis forever. Its one call site (open app settings) is a single method-channel call now.
+
+**Correctness**
+- Flashcards: word, SRS key and example are a single record, so a reshuffle can no longer file reviews under another card's key; weakest-first ranking preserved; SRS/counter writes awaited.
+- Backup import validates the whole payload before writing a single key and reports typed failures; web import is size-limited; native import restores the app's own last export.
+- Quiz and verb-quiz empty question lists no longer crash; per-item speaking ticks persist; verb detail screen's speaker is a real button; audio error copy uses the interface language, not the course language.
+- Spanish app: Android notification/widget strings translated (they were Portuguese); Portuguese app: flashcard chrome translated (it was Spanish).
+- Course data: search index regenerated reproducibly; 46 English fields that still described the *Portuguese* course rewritten; 12,711 `ustedes` forms corrected (they carried `vosotros` across all 1,816 verbs); imperative arrays realigned; 14 duplicate answer choices removed.
+- Legacy content generators (which would have overwritten the lessons with Portuguese data) moved to `tools/legacy/` with a README.
+
+**Performance**
+- Repositories cache the *in-flight* future — the 2.5 MB verb file and the content index are parsed once, not once per caller.
+- Verb list: O(1) group lookup instead of O(n²) per-row scan, cached filter result, `ListView.builder`.
+- Audio: each clip is read once per press instead of twice; lesson/exercise progress writes awaited; PDF sections paginate with `MultiPage` instead of overflowing.
+- Dead code removed (`audioExists`, `findImportFile`, `playAssetUrl`, `requestRetention`, `isUnlocked`, `cancelAll`, `lessonTitles`, `readingTitle`, `speakingTitle`).
+
+**Tests**: 125 passing (up from 79 before this cycle): new `main_shell_test`, `vocab_tile_test`, `exercise_option_label_test`, `reliability_test`, `pdf_pagination_test`, plus `test_serve_web.py` and `test_gitleaks_config.py` for the server.
 
 ### v1.10.0 (2026-09-22)
 - **Voice conversation mode**: turn-based roleplay (partner auto-plays, you answer) + free spoken Q&A scored against accepted answers
